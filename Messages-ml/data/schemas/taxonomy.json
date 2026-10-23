@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "security_labels": {
+    "description": "3-tier security classification taxonomy",
+    "categories": {
+      "BENIGN": {
+        "description": "Safe, legitimate, non-malicious communications including legitimate OTPs, bank alerts, delivery notifications, and verified service updates.",
+        "action": "ALLOW"
+      },
+      "SUSPICIOUS_SPAM": {
+        "description": "Unsolicited commercial messages, telemarketing, nuisance promotions, and unverified commercial offers without credential theft or severe threat payloads.",
+        "action": "FLAG_OR_FILTER"
+      },
+      "MALICIOUS": {
+        "description": "Severe security threats, phishing, smishing, credential theft, reverse OTP fraud, fake KYC/PAN suspension, electricity scams, UPI collect fraud, APK droppers, and extortion.",
+        "action": "WARN_OR_BLOCK"
+      }
+    }
+  },
+  "primary_types": {
+    "description": "Intent classification categories independent of security status",
+    "categories": [
+      "OTP_AUTH",
+      "BANKING_TRANSACTIONAL",
+      "SERVICE_UPDATE",
+      "PROMOTIONAL",
+      "GOVERNMENT_INFO",
+      "PERSONAL_P2P",
+      "DELIVERY",
+      "INSTITUTIONAL_ANNOUNCEMENT",
+      "SCAM",
+      "UNKNOWN"
+    ]
+  },
+  "threat_vectors": {
+    "description": "Multi-label threat taxonomy for explainable security alerts",
+    "categories": [
+      "NONE",
+      "OTP_DISCLOSURE_REQUEST",
+      "CREDENTIAL_REQUEST",
+      "BANK_KYC_SUSPENSION",
+      "ELECTRICITY_DISCONNECTION_SCAM",
+      "UPI_COLLECT_FRAUD",
+      "PAYMENT_SCAM",
+      "PART_TIME_JOB_SCAM",
+      "APK_MALWARE_DROPPER",
+      "LOTTERY_PRIZE_FRAUD",
+      "TRAFFIC_CHALLAN_PHISHING",
+      "DELIVERY_SCAM",
+      "INVESTMENT_SCAM",
+      "EXTORTION_HARASSMENT",
+      "COMMERCIAL_SPAM",
+      "OTHER",
+      "PHISHING",
+      "OTP_THEFT"
+    ]
+  },
+  "sender_types": {
+    "description": "Originating sender classification categories",
+    "categories": [
+      "ALPHANUMERIC_HEADER",
+      "PHONE_NUMBER",
+      "SHORTCODE",
+      "UNKNOWN"
+    ]
+  },
+  "splits": {
+    "description": "Dataset partition identifiers",
+    "categories": [
+      "TRAIN",
+      "VALIDATION",
+      "TEST",
+      "BENCHMARK",
+      "OOD",
+      "UNASSIGNED"
+    ]
+  }
+}

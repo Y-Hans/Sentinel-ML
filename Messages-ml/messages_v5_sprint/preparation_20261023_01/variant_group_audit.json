@@ -1,0 +1,53 @@
+{
+  "sidzzz07": {
+    "rows": 7270,
+    "original_rows": 3720,
+    "unique_group_ids": 3720,
+    "groups_without_exactly_one_original": 0,
+    "groups_with_label_conflict": 0,
+    "missing_group_id": 0,
+    "variant_meaning_checks": {
+      "UNSURE": 3550
+    }
+  },
+  "ridham": {
+    "rows": 1402,
+    "original_rows": 1068,
+    "unique_group_ids": 1068,
+    "groups_without_exactly_one_original": 0,
+    "groups_with_label_conflict": 0,
+    "missing_group_id": 0,
+    "variant_meaning_checks": {
+      "UNSURE": 334
+    }
+  },
+  "ysangam": {
+    "rows": 743,
+    "original_rows": 743,
+    "unique_group_ids": 743,
+    "groups_without_exactly_one_original": 0,
+    "groups_with_label_conflict": 0,
+    "missing_group_id": 0,
+    "variant_meaning_checks": {}
+  },
+  "karan": {
+    "rows": 69,
+    "original_rows": 49,
+    "unique_group_ids": 49,
+    "groups_without_exactly_one_original": 0,
+    "groups_with_label_conflict": 0,
+    "missing_group_id": 0,
+    "variant_meaning_checks": {
+      "UNSURE": 20
+    }
+  },
+  "financial2025": {
+    "rows": 419,
+    "original_rows": 419,
+    "unique_group_ids": 419,
+    "groups_without_exactly_one_original": 0,
+    "groups_with_label_conflict": 0,
+    "missing_group_id": 0,
+    "variant_meaning_checks": {}
+  }
+}

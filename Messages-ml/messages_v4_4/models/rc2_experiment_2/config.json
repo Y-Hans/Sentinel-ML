@@ -1,0 +1,18 @@
+{
+  "model_name": "Sentinel Messages V4.4 RC2 - Experiment 2",
+  "description": "Benign greeting token calibration and conversational lure balancing",
+  "parent_model": "RC2-EXPERIMENT-1",
+  "feature_dim": 4019,
+  "structural_signals": 19,
+  "word_ngrams": 1500,
+  "char_wb_ngrams": 2500,
+  "validation_threshold": 0.68,
+  "training_rows": 20543,
+  "corpus_hash": "e67311390888ffd590b360958d5f691a8a8bc8450b7073d0e59fd3d68a19a446",
+  "random_seed": 20260914,
+  "classes": [
+    "BENIGN",
+    "SUSPICIOUS_SPAM",
+    "MALICIOUS"
+  ]
+}

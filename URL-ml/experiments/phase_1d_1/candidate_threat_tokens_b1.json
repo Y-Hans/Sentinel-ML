@@ -1,0 +1,162 @@
+[
+  {
+    "token": "itaucard",
+    "category": "regional_bank",
+    "target": "Banco Itaú (Brazil)",
+    "evidence_url": "https://itaucardfaturadigital.app",
+    "rationale": "Brazil's largest private bank credit card division. High-frequency phishing target.",
+    "length": 8,
+    "risk_notes": "Very low collision risk. Specific compound brand.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "cajaspiura",
+    "category": "regional_bank",
+    "target": "Caja Piura (Peru)",
+    "evidence_url": "https://cajaspiuranuevo.com/",
+    "rationale": "Peruvian microfinance bank impersonated on bare-apex scam domain.",
+    "length": 10,
+    "risk_notes": "Very low collision risk. Highly specific Peruvian institutional name.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "cajalsullana",
+    "category": "regional_bank",
+    "target": "Caja Sullana (Peru)",
+    "evidence_url": "https://wvwcajalsullana.com/",
+    "rationale": "Peruvian municipal savings bank target with typosquat prefix.",
+    "length": 12,
+    "risk_notes": "Zero benign dictionary collision.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "hdbank",
+    "category": "regional_bank",
+    "target": "HD Bank (Vietnam)",
+    "evidence_url": "https://hdbankfinance.shop/",
+    "rationale": "Major Vietnamese commercial bank targeted for finance credential theft.",
+    "length": 6,
+    "risk_notes": "Low collision risk; distinct 6-character bank brand.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "bancasella",
+    "category": "regional_bank",
+    "target": "Banca Sella (Italy)",
+    "evidence_url": "https://recverifica.com/bancasella/",
+    "rationale": "Italian private banking group targeted in European phishing campaigns.",
+    "length": 10,
+    "risk_notes": "Zero benign collision expected.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "pekao",
+    "category": "regional_bank",
+    "target": "Bank Pekao (Poland)",
+    "evidence_url": "https://pekao-pl.net/pages",
+    "rationale": "Second largest bank in Poland targeted via pekao-pl.net lure.",
+    "length": 5,
+    "risk_notes": "Low collision risk in global corpora.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "banrisul",
+    "category": "regional_bank",
+    "target": "Banrisul (Brazil)",
+    "evidence_url": "Brazilian banking campaigns in URLHaus",
+    "rationale": "Major state-owned bank in southern Brazil.",
+    "length": 8,
+    "risk_notes": "Zero benign collision.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "postepay",
+    "category": "regional_bank",
+    "target": "Poste Italiane (Italy)",
+    "evidence_url": "Italian banking phishing in URLHaus",
+    "rationale": "Italy's most popular prepaid card and digital payment platform.",
+    "length": 8,
+    "risk_notes": "Specific Italian service name.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "amendes",
+    "category": "public_sector",
+    "target": "French Traffic Fine Portal (amendes.gouv.fr)",
+    "evidence_url": "https://amendes-gouvs.com/",
+    "rationale": "Official French governmental fine service spoofed in sms/email scams.",
+    "length": 7,
+    "risk_notes": "French administrative word; high precision when evaluated under token boundaries.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "critair",
+    "category": "public_sector",
+    "target": "French Crit'Air Vignette (certificat-air.gouv.fr)",
+    "evidence_url": "https://vignette-critair-fr.com/",
+    "rationale": "Official mandatory vehicle clean air certificate in France.",
+    "length": 7,
+    "risk_notes": "Very low collision risk; specific French administrative acronym.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "mygov",
+    "category": "public_sector",
+    "target": "Australian Government Portal (my.gov.au)",
+    "evidence_url": "https://altmedsales.com/mg/mygov/personal.html",
+    "rationale": "Central Australian government authentication service.",
+    "length": 5,
+    "risk_notes": "High-frequency phishing token; distinct municipal/national service token.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "uniswap",
+    "category": "crypto_web3",
+    "target": "Uniswap DEX",
+    "evidence_url": "https://uniswap-overview.com/",
+    "rationale": "Top Ethereum decentralized exchange targeted for wallet draining.",
+    "length": 7,
+    "risk_notes": "Specific Web3 brand name.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "raydium",
+    "category": "crypto_web3",
+    "target": "Raydium DEX",
+    "evidence_url": "https://raydium.gift/",
+    "rationale": "Leading Solana decentralized exchange targeted for crypto drainers.",
+    "length": 7,
+    "risk_notes": "Specific Web3 brand name.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "pancakeswap",
+    "category": "crypto_web3",
+    "target": "PancakeSwap DEX",
+    "evidence_url": "https://pancake-staking.com/",
+    "rationale": "Binance Smart Chain DEX; targeted via pancake-staking lure.",
+    "length": 11,
+    "risk_notes": "Zero benign collision compared to bare 'pancake'.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "poshmark",
+    "category": "ecommerce",
+    "target": "Poshmark Marketplace",
+    "evidence_url": "https://hk-poshmark.com/#/",
+    "rationale": "Major social commerce marketplace targeted for credential theft.",
+    "length": 8,
+    "risk_notes": "Zero benign collision compared to bare 'mark'.",
+    "status": "APPROVED_CANDIDATE"
+  },
+  {
+    "token": "roblox",
+    "category": "gaming_metaverse",
+    "target": "Roblox Platform",
+    "evidence_url": "http://www.roblox.mk/users/883736317/profile/",
+    "rationale": "Massive youth platform targeted for account/robux phishing.",
+    "length": 6,
+    "risk_notes": "Very distinct brand; minimal collision risk.",
+    "status": "APPROVED_CANDIDATE"
+  }
+]

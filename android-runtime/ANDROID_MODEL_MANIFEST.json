@@ -1,0 +1,184 @@
+{
+  "manifest_version": "1.0.0",
+  "timestamp": "2026-08-30T11:15:00Z",
+  "readiness_level": {
+    "url_ml_v7": "JVM_VERIFIED_ANDROID_READY",
+    "messages_ml_v2": "JVM_VERIFIED_ANDROID_READY"
+  },
+  "runtime_environment": {
+    "language": "Kotlin 1.9+ / Java 8+",
+    "external_dependencies": "None (Zero Python / Zero C++ / Zero JNI)",
+    "platform": "Android API Level 21+ / JVM"
+  },
+  "models": {
+    "url_ml_v7": {
+      "model_id": "URL_ML_V7_CHAMPION",
+      "version": "7.0.0",
+      "type": "HistGradientBoostingClassifier",
+      "architecture": {
+        "features_count": 67,
+        "feature_names": [
+          "Abnormal_Subdomain",
+          "Brand_In_Path",
+          "Brand_In_Subdomain",
+          "Char_Continuation_Rate",
+          "Contains_App_Store_Keyword",
+          "Contains_Banking_Keyword",
+          "Contains_Crypto_Keyword",
+          "Contains_Domain_In_Path",
+          "Contains_Gov_Or_Org",
+          "Contains_Gov_Target_Brand",
+          "Contains_IP",
+          "Contains_Security_Keyword",
+          "Contains_Suspicious_Keyword",
+          "Contains_Target_Brand",
+          "Contains_Target_TLD_Combo",
+          "Contains_Telecom_Keyword",
+          "Contains_Urgent_Keyword",
+          "Digit_Ratio",
+          "Domain_Digit_Count",
+          "Domain_Entropy",
+          "Domain_Has_Hyphen",
+          "Domain_Length",
+          "Domain_Vowel_Ratio",
+          "Hex_Pattern_Present",
+          "Host_Digit_Count",
+          "Host_Length",
+          "Hostname_Contains_Port",
+          "Hostname_Entropy",
+          "Hostname_Hyphen_Count",
+          "Hostname_Period_Count",
+          "Is_Gov_Domain",
+          "Is_Punycode",
+          "Is_Shortener",
+          "Is_Well_Known_TLD",
+          "Letter_Ratio",
+          "Param_Entropy",
+          "Path_Digit_Count",
+          "Path_Entropy",
+          "Path_Length",
+          "Path_Special_Char_Count",
+          "Path_Subdir_Count",
+          "Query_Length",
+          "Query_Param_Count",
+          "Redirect_Pattern_Present",
+          "Safe_Brand_Domain",
+          "Safe_Brand_Impersonation",
+          "Subdomain_Count",
+          "Subdomain_Length",
+          "Suspicious_File_Ext",
+          "Suspicious_Keyword_In_Domain",
+          "Suspicious_Keyword_In_Host",
+          "Suspicious_Keyword_In_Path",
+          "Suspicious_Keyword_In_Subdomain",
+          "Suspicious_TLD",
+          "TLD_Length",
+          "TLD_Preceded_By_Hyphen",
+          "Target_Brand_Domain_Mismatch",
+          "Target_Brand_In_Path",
+          "Target_Brand_In_Subdomain",
+          "Target_Brand_Typo",
+          "Total_Digit_Count",
+          "Total_Special_Char_Count",
+          "URL_Entropy",
+          "URL_Length",
+          "Vowel_Ratio",
+          "Well_Known_Brand_Mismatch",
+          "Well_Known_Brand_Present"
+        ],
+        "n_trees": 350,
+        "max_depth": null,
+        "loss": "log_loss",
+        "decision_threshold": 0.225887,
+        "safe_domain_gate": {
+          "enabled": true,
+          "rule": "If Safe_Brand_Domain == 1.0 AND raw_probability < 0.80 -> final_probability = 0.001"
+        }
+      },
+      "assets": [
+        {
+          "path": "android-runtime/url/assets/v7_champion_portable.json",
+          "size_bytes": 1029290,
+          "size_kb": 1005.17,
+          "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+        }
+      ],
+      "performance": {
+        "parity_evaluated_records": 151,
+        "parity_label_accuracy": "151 / 151 (100.0%)",
+        "max_feature_diff": 2.384185791015625e-07,
+        "max_raw_prob_diff": 0.0,
+        "max_final_prob_diff": 0.0,
+        "mean_latency_ms": 0.1432,
+        "median_latency_ms": 0.1251,
+        "p95_latency_ms": 0.2797,
+        "p99_latency_ms": 0.4157,
+        "throughput_scans_per_sec": 6980.94
+      }
+    },
+    "messages_ml_v2": {
+      "model_id": "MESSAGES_ML_V2_CHAMPION",
+      "version": "2.0.0",
+      "type": "HistGradientBoostingClassifier (Multi-Class 3 Classes)",
+      "classes": [
+        "BENIGN",
+        "SUSPICIOUS_SPAM",
+        "MALICIOUS"
+      ],
+      "architecture": {
+        "deterministic_features_count": 70,
+        "word_tfidf_features_count": 1500,
+        "char_wb_tfidf_features_count": 500,
+        "total_vector_dimensions": 2070,
+        "scaler": "StandardScaler (2,070 dims)",
+        "n_iterations": 103,
+        "trees_per_iteration": 3,
+        "total_trees": 309,
+        "decision_threshold_tau": 0.704,
+        "adjudication_rule": "If P(SUSPICIOUS_SPAM) + P(MALICIOUS) >= 0.704 -> max(SUSPICIOUS_SPAM, MALICIOUS) else BENIGN"
+      },
+      "assets": [
+        {
+          "path": "android-runtime/messages/assets/champion_v2_word_vocab_idf.json",
+          "size_bytes": 53446,
+          "size_kb": 52.19,
+          "sha256": "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237"
+        },
+        {
+          "path": "android-runtime/messages/assets/champion_v2_char_vocab_idf.json",
+          "size_bytes": 14629,
+          "size_kb": 14.29,
+          "sha256": "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941"
+        },
+        {
+          "path": "android-runtime/messages/assets/champion_v2_scaler.json",
+          "size_bytes": 131696,
+          "size_kb": 128.61,
+          "sha256": "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa"
+        },
+        {
+          "path": "android-runtime/messages/assets/champion_v2_trees.json",
+          "size_bytes": 2402739,
+          "size_kb": 2346.42,
+          "sha256": "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43"
+        }
+      ],
+      "performance": {
+        "parity_evaluated_records": 116,
+        "parity_label_accuracy": "116 / 116 (100.0%)",
+        "max_deterministic_diff": 0.0,
+        "max_prob_diff": 0.024714,
+        "mean_latency_ms": 0.4853,
+        "median_latency_ms": 0.4367,
+        "p95_latency_ms": 0.8404,
+        "p99_latency_ms": 1.277,
+        "throughput_scans_per_sec": 2060.79
+      }
+    }
+  },
+  "resource_summary": {
+    "total_disk_footprint_kb": 3546.0,
+    "combined_resident_heap_mb": 7.49,
+    "combined_mean_latency_ms": 0.6285
+  }
+}

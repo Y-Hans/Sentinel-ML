@@ -1,0 +1,42 @@
+{
+  "OTP_RULE": {
+    "attacks_tested": 20,
+    "attacks_detected": 20,
+    "attack_recall": 1.0,
+    "attack_misses": [],
+    "benigns_tested": 15,
+    "benigns_safe": 15,
+    "benign_fpr": 0.0,
+    "false_alarms": []
+  },
+  "KYC_RULE": {
+    "attacks_tested": 10,
+    "attacks_detected": 10,
+    "attack_recall": 1.0,
+    "attack_misses": [],
+    "benigns_tested": 8,
+    "benigns_safe": 8,
+    "benign_fpr": 0.0,
+    "false_alarms": []
+  },
+  "ELECTRICITY_RULE": {
+    "attacks_tested": 8,
+    "attacks_detected": 8,
+    "attack_recall": 1.0,
+    "attack_misses": [],
+    "benigns_tested": 8,
+    "benigns_safe": 8,
+    "benign_fpr": 0.0,
+    "false_alarms": []
+  },
+  "UPI_RULE": {
+    "attacks_tested": 7,
+    "attacks_detected": 7,
+    "attack_recall": 1.0,
+    "attack_misses": [],
+    "benigns_tested": 7,
+    "benigns_safe": 7,
+    "benign_fpr": 0.0,
+    "false_alarms": []
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "dataset_version": "v4_3_semantic_contrastive_v2",
+  "created_utc": "2026-09-14T11:02:48.777466+00:00",
+  "base_source": "data/processed/train.jsonl",
+  "base_records": 15855,
+  "contrastive_records": 3817,
+  "total_records": 19672,
+  "sha256": "d01d4d36144e8c4d09f4c0fd21eb15b02e10f1be4d488bebb07ce7eba9c11c11",
+  "label_distribution": {
+    "MALICIOUS": 12612,
+    "BENIGN": 5891,
+    "SUSPICIOUS_SPAM": 1169
+  },
+  "language_distribution": {
+    "en": 17861,
+    "hinglish": 1797,
+    "UNKNOWN": 14
+  },
+  "source_distribution": {
+    "SRC_IMC25_FISHING_SMISHING": 11343,
+    "SRC_MENDELEY_SMISHING_2022": 4095,
+    "SRC_CURATED_HARD_NEGATIVES_V1": 230,
+    "SRC_UCI_SMS_SPAM_2011": 187,
+    "SRC_V4_3_INSTITUTIONAL": 546,
+    "SRC_V4_3_ELECTRICITY": 210,
+    "SRC_V4_3_OTP_INTENT": 117,
+    "SRC_V4_3_HINGLISH_CONVERSATION": 240,
+    "SRC_V4_3_HINGLISH_THREAT": 140,
+    "SRC_V4_3_SHORT_CHAT_INTENT": 1368,
+    "SRC_V4_3_URL_INTENT": 210,
+    "SRC_V4_3_DELIVERY": 294,
+    "SRC_V4_3_TELCO": 100,
+    "SRC_V4_3_UTILITY_BENIGN": 144,
+    "SRC_V4_3_DELIVERY_BENIGN": 168,
+    "SRC_V4_3_BANKING_BENIGN": 140,
+    "SRC_V4_3_GOVERNMENT_BENIGN": 80,
+    "SRC_V4_3_URL_MALICIOUS": 50,
+    "SRC_V4_3_URL_BENIGN": 10
+  },
+  "leakage_verification": {
+    "protected_texts_indexed": 7156,
+    "leakage_violations": 0,
+    "policy": "Strict zero-leakage verified across all 22 protected validation, test, OOD, and benchmark suites."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "annotated_sha256": "38eb3030723a6a2c3d4f2ab2141e88301319619073f376d02f543afd8b00cff6",
+  "original_sha256": "4df4e630bd7e02e7b8fe260d907245b7536ddda12e79101b0aad69560612933e",
+  "n_rows": 120,
+  "n_distinct_texts": 119,
+  "label_counts": {
+    "BENIGN": 40,
+    "SPAM": 20,
+    "MALICIOUS": 60
+  },
+  "duplicated_exact_texts": [
+    {
+      "ids": [
+        "HP2_00425",
+        "HP2_00346"
+      ],
+      "text_sha256": "c14bf4981faf028deacd0d093ee55a60482a17c99e95042b489ca85200ff39eb",
+      "text": "Kripya, savings khata hold par hai; verificaton poori hui; savings account chalu hai"
+    }
+  ],
+  "inherited_field_differences": [],
+  "annotation_columns": [
+    "assistant_review_status",
+    "assistant_review_note"
+  ],
+  "annotation_counts": {
+    "assistant_review_status": {
+      "SCENARIO_LABEL_PLAUSIBLE_NOT_INDEPENDENTLY_VERIFIED": 118,
+      "DUPLICATE_TEXT_IN_REVIEW_SAMPLE": 2
+    },
+    "assistant_review_note": {
+      "Benign intent plausible, but included .invalid URL is intentionally non-live, not a verified safe destination.": 26,
+      "No semantic contradiction identified from text alone; synthetic premise/endpoint not independently checked.": 91,
+      "Two separately indexed rows share the same complete text; not independent observations.": 2,
+      "Delivery PIN instructions may be normal post-delivery, but intended recipient/channel authentication is unknown.": 1
+    }
+  },
+  "human_marks": 0,
+  "not_independent_human_review": true
+}

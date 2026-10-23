@@ -1,0 +1,202 @@
+{
+  "evidence": "OBSERVED file counts/hashes; labels/provenance conditional",
+  "messages": {
+    "path": "simulation_messages.jsonl",
+    "rows": 1005,
+    "sha256": "1acf68ad96993007f12c8abb8ac3be87d0919bd99895532f0a1030b779125978",
+    "label_status": {
+      "NEEDS_REVIEW": 117,
+      "PROVISIONAL_BENIGN_UNREVIEWED": 708,
+      "SYNTHETIC_AUTHORED": 180
+    },
+    "overlap_rows": 28
+  },
+  "urls": {
+    "path": "simulation_urls.jsonl",
+    "rows": 102,
+    "sha256": "af26f46969081154f7d1654a1bf99eb1ebb11f200117d890328717e0d98708b0",
+    "label_status": {
+      "NEEDS_REVIEW": 84,
+      "SYNTHETIC_AUTHORED": 16,
+      "SYNTHETIC_UNRESOLVED": 2
+    },
+    "overlap_rows": 92
+  },
+  "sealed_exam": {
+    "path": "SEALED_EXAM_DO_NOT_SCORE.jsonl",
+    "sha256": "5d5194a78d5d782ade9cba0addd461f74c475a6b24ea68394ce1685b6ecabe39",
+    "rows": 208,
+    "heldout_real_groups": 25,
+    "authored_cases": 24,
+    "limitation": "PROVISIONAL seal, authors know grammar; no independent custodian; no scores/labels used in decisions this pass"
+  },
+  "message_training_corpora": [
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train.jsonl",
+      "sha256": "26b6189ca02eba662d67b12308d2af1e270d26cd4220d6badc67df4b34f3cd9f",
+      "rows": 15855
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_contrastive.jsonl",
+      "sha256": "de7946c70432b6f9d4deeb8184a2f862192c0acb2c3f40ebc9975b7d2ece3ad8",
+      "rows": 16215
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded.jsonl",
+      "sha256": "a6706a1d5621e3933315fd49dffdb6ff20ca8d0a79c4f5f196d8c1f29abcd662",
+      "rows": 16175
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v2.jsonl",
+      "sha256": "dad65a13b31d999df518431df01541cebc501dd916e494624ba57b8426b02315",
+      "rows": 16935
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v3.jsonl",
+      "sha256": "9cdd06fe1ec60baf5092c1f71f31ac7b3bf3fe299f5d6212e199bfa3639346cb",
+      "rows": 16725
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v4.jsonl",
+      "sha256": "7223761acb75e1110ff244857ebc6dd840b19709420472b7ee9e66d18ccf415e",
+      "rows": 17017
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v4_3x.jsonl",
+      "sha256": "b44680c61c895824cd4c6342ed86a45ec99a2b47f9070bfd7e6e702a0c8dc4e3",
+      "rows": 17181
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v5.jsonl",
+      "sha256": "653b889d1d674246a99ed4a9ebf5427337a1d4331e1107f04c70d872c010667c",
+      "rows": 17361
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v6.jsonl",
+      "sha256": "ce4347a74120be7169ad6b92d9947f3d9098addb2512cec10bbca9f50728888f",
+      "rows": 17629
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v7.jsonl",
+      "sha256": "5b3f2a921980be3018a3e7ab81a62dc677204286d689c16cf7bf542073a6544d",
+      "rows": 17541
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v8.jsonl",
+      "sha256": "b4c97857160fa247fdff8b3cd7af3b8930afd15dd6819328c968703c123b4fe0",
+      "rows": 18311
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4/data/train_v4.jsonl",
+      "sha256": "fd02ad59f4b8b708df99dbfaa9c326cf98233d21e22ec2dc65898d14c69734f9",
+      "rows": 17473
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4/experiment_2/data/train_v4_2.jsonl",
+      "sha256": "5920d5cc6e7858d38d7af94aaca0c7efb3a3292fcc173e3c0ca30467f0385e3a",
+      "rows": 18601
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_3/data/train_v4_3.jsonl",
+      "sha256": "d01d4d36144e8c4d09f4c0fd21eb15b02e10f1be4d488bebb07ce7eba9c11c11",
+      "rows": 19672
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4.jsonl",
+      "sha256": "3dd4b4b7cba0fffba059bd365e7e01ce19668a3f5981c3a1c943dc8dd8c4a14f",
+      "rows": 20164
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_b.jsonl",
+      "sha256": "28bdb8c81e538c8a49cd7b56e9da89e5b206bbe2297e12f8b245fcf50c329ab0",
+      "rows": 20257
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_c.jsonl",
+      "sha256": "e002632a201adccd072e41aff0574cd6e0ff5d64dba540185959eadd0bcc1384",
+      "rows": 20404
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp1.jsonl",
+      "sha256": "1750808fb5d3d71f5db779d4273596404d480054115d96077d3ad4ad420a7f3e",
+      "rows": 20495
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp2.jsonl",
+      "sha256": "e67311390888ffd590b360958d5f691a8a8bc8450b7073d0e59fd3d68a19a446",
+      "rows": 20543
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp3.jsonl",
+      "sha256": "e9b45c52834a00caf36a199c47669eea7b00def88e2b15140c64cdb9cec5b2b2",
+      "rows": 20581
+    }
+  ],
+  "url_training_sources": [
+    {
+      "path": "sentinel-ml/URL-ml/data/cleaned_dataset.csv",
+      "sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+      "rows": 235795,
+      "scope": "conservative training-source superset; includes holdouts where historical fit lineage not separable"
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/data.csv",
+      "sha256": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+      "rows": 235795,
+      "scope": "conservative training-source superset; includes holdouts where historical fit lineage not separable"
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/final_dataset.csv",
+      "sha256": "cbabd318016cbe8f047c511431a44dbb6b74ab7796780ff73a359b8012a98380",
+      "rows": 238168,
+      "scope": "conservative training-source superset; includes holdouts where historical fit lineage not separable"
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/v7_structural_benign.csv",
+      "sha256": "4a34e661060c35ae26d3417b28ed2ada074d8b017bee528b5f7e2d5bcf722e6b",
+      "rows": 48290,
+      "scope": "conservative training-source superset; includes holdouts where historical fit lineage not separable"
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/v6_synthetic_benign.csv",
+      "sha256": "ea6849ac51ae18bb2442ba4f36ced17aa4752fe8405e1b8d06c03208ff4e663b",
+      "rows": 400,
+      "scope": "conservative training-source superset; includes holdouts where historical fit lineage not separable"
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/remediation_hard_negatives_v1.csv",
+      "sha256": "36ad0e29cfd6e35215fa86d100458c03c409eadd1878b5a0be05e827e946b344",
+      "rows": 980,
+      "scope": "conservative training-source superset; includes holdouts where historical fit lineage not separable"
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/remediation_hard_negatives_v2.csv",
+      "sha256": "ab4168c474363eba0f62691beb2a39ac22c3936078fc30b8d3c9869112f5a43c",
+      "rows": 2450,
+      "scope": "conservative training-source superset; includes holdouts where historical fit lineage not separable"
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/remediation_hard_negatives_v3.csv",
+      "sha256": "0f8da3fba16a33e6bbf9217cb6d24308cf28c2ab8b0988aeacbb39d21fad527e",
+      "rows": 3430,
+      "scope": "conservative training-source superset; includes holdouts where historical fit lineage not separable"
+    }
+  ],
+  "PSL": {
+    "path": "sentinel-ml/URL-ml/experiments/phase_1c_2b_2a_s2_f/public_suffix_list.dat",
+    "sha256": "8228e4bdac6024c058a1e67859157e468a2613b826b53de0e5cae298e1b70755"
+  },
+  "grouping": "sender/channel, translations share scenario-family cluster, URLs PSL registrable domain",
+  "assumptions": {
+    "prevalences": [
+      0.001,
+      0.01,
+      0.05
+    ],
+    "message_daily_volume": 300,
+    "url_daily_volume": 30,
+    "bootstrap_seed": 20261022,
+    "bootstrap_replicates": 2000,
+    "CI": 0.95
+  }
+}

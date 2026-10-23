@@ -1,0 +1,222 @@
+[
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\analyze_probe.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "wall_seconds": 0.9458584785461426,
+    "script_sha256": "c1fcc6a856548b112b523e83dedd2bdd8bf129b1196d2317f9fc48cb48be8e5e",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "3c21cc482f8a5de3747a65aeb82bff5601c88b77bf719b7eafed37cf58e10b8c",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\audit_freeze.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 1,
+    "wall_seconds": 1.363408088684082,
+    "script_sha256": "31f6df7de3f2ba564b950e5279ff9ec506eb1801c2d2638f2e3d81886fe66916",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "db214498ed0aa0e2a6089a94257d78876bc6df93a113aaef4e8054e3800c6df8"
+  },
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\audit_freeze_02.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "wall_seconds": 57.728540658950806,
+    "script_sha256": "3aae3d9f79fdb671cbdcca1f317a83b3afe5e379b7a12ebf66aab413f7ea2528",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "a947c1b0c8b2591332e986753777c5c4af472fb2e8fcc96bc6e6a4c9a5e76a20",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\feature_analysis.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "wall_seconds": 65.13733077049255,
+    "script_sha256": "a74a129e1be0e0a50ce2531407762503debb3f566ebcdc2a86104fc3eb278d0b",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "65a5118e9fd67e423d3c317dc4cd6fa7f0f702ae20c063ffcbeb48664eb01343",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\generate_v2.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "wall_seconds": 0.7717726230621338,
+    "script_sha256": "0c146a76f2d249ce1f0a80787ba0c0350d9a3d2ff7bac938ed4413e968f4a275",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "32a3ca8cda034c174205719e3bd4985b20329c8d5b5444c9cdf15d04898802cf",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\inference_02.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "wall_seconds": 99.72784233093262,
+    "script_sha256": "89ed0bc1a112cc6b930d3b3bb1ed0e70d64861c92fd59033049bbb3f44a0fc7b",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "df22ad4cb4327a5c5b75dcaf4d7b743c856518aeae3ad7864908a4615a897443",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\repair_channel.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "wall_seconds": 0.2674582004547119,
+    "script_sha256": "98a53007101eb997c380be40d20bfa85403fdfb7f51fb3c9dfa5269370ee2192",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "c8f7480cfabade2adc04032366f18877c7c82d59d4dd8ee2a9866e9dd41d9076",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\snapshot.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "wall_seconds": 25.935749053955078,
+    "script_sha256": "4ee1d8caf0cdb32bc6366201c2af4934781178afd2e8f245368828b0d514e5bf",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "5021aa4006e980ba8b3df56cb3f4a3aea58fd67dca6811bb1bee1a9ece407cbc",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\summarize_evidence.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "wall_seconds": 0.32061052322387695,
+    "script_sha256": "e572e582a9a496013add41afb2b20b2127bf2e8a4aa049e30c033422eb6ca5cb",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "03f7a112e4dbe1c133210ad9c46d07f6167b43f0f0f62f3faed7084428dff97a",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\validation.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "wall_seconds": 5.6771080493927,
+    "script_sha256": "26e6d7f2f3325e33a7c54931b76255b769ab0fc418ded3eae0b6c88fedd56f77",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "36a89472730144ae4842eefa8822694719739505134bcade7202dba92207291d",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\write_plans.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "wall_seconds": 0.5348691940307617,
+    "script_sha256": "1be8f1b3853a22f049401f46bc8325f210baf0b6bc297002e5f258d8f2b83916",
+    "environment": {
+      "CUDA_VISIBLE_DEVICES": "-1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PYTHONDONTWRITEBYTECODE": "1"
+    },
+    "stdout_sha256": "12edc727fa4208bcb626d66057e70319c666988aa196ca801129c54138b68daa",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "user_review_received": false,
+  "user_wrong_rows": 0,
+  "original_analysis_preserved": true,
+  "corrected_user_review_scope": "identical to original until the user supplies wrong-label decisions; NOT a human-validated correction",
+  "blind_disagreements_excluded": false,
+  "blind_disagreements_not_labels": true
+}

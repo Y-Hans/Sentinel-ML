@@ -1,0 +1,146 @@
+{
+  "legitimate_cases": [
+    {
+      "text": "Uploading: 14.2 MB (50%)",
+      "sender": "WhatsApp",
+      "p_v2": 0.713374525999743,
+      "p_ts": 0.05,
+      "label": "BENIGN",
+      "reason": "SYSTEM_PROGRESS_DAMPENING",
+      "status": "PASS"
+    },
+    {
+      "text": "Uploading: 0.8 MB",
+      "sender": "WhatsApp",
+      "p_v2": 0.7481663672174932,
+      "p_ts": 0.05,
+      "label": "BENIGN",
+      "reason": "SYSTEM_PROGRESS_DAMPENING",
+      "status": "PASS"
+    },
+    {
+      "text": "Backup in progress. Please wait...",
+      "sender": "WhatsApp",
+      "p_v2": 0.08576316757069977,
+      "p_ts": 0.05,
+      "label": "BENIGN",
+      "reason": "SYSTEM_PROGRESS_DAMPENING",
+      "status": "PASS"
+    },
+    {
+      "text": "Backing up chats to Google Drive",
+      "sender": "WhatsApp",
+      "p_v2": 0.32932127479266204,
+      "p_ts": 0.05,
+      "label": "BENIGN",
+      "reason": "SYSTEM_PROGRESS_DAMPENING",
+      "status": "PASS"
+    },
+    {
+      "text": "Doing work in the background",
+      "sender": "Android System",
+      "p_v2": 0.014698775398551871,
+      "p_ts": 0.014698775398551871,
+      "label": "BENIGN",
+      "reason": "SYSTEM_PROGRESS_DAMPENING",
+      "status": "PASS"
+    },
+    {
+      "text": "Syncing Google Drive files",
+      "sender": "Google Drive",
+      "p_v2": 0.23665907953964616,
+      "p_ts": 0.05,
+      "label": "BENIGN",
+      "reason": "SYSTEM_PROGRESS_DAMPENING",
+      "status": "PASS"
+    },
+    {
+      "text": "WhatsApp Backup: 45% complete",
+      "sender": "WhatsApp Backup",
+      "p_v2": 0.7446726048894019,
+      "p_ts": 0.05,
+      "label": "BENIGN",
+      "reason": "SYSTEM_PROGRESS_DAMPENING",
+      "status": "PASS"
+    }
+  ],
+  "imitation_cases": [
+    {
+      "text": "WhatsApp backup failed! Verify your account immediately: http://whatsapp-backup.xyz/login",
+      "sender": "WhatsApp Support",
+      "p_v2": 0.9994230871170232,
+      "p_ts": 0.9994230871170232,
+      "label": "MALICIOUS",
+      "reason": "PASSTHROUGH",
+      "status": "PASS"
+    },
+    {
+      "text": "System Security Alert: Unusual login detected. Send OTP to verify account",
+      "sender": "Security Team",
+      "p_v2": 0.9629656137020021,
+      "p_ts": 0.9629656137020021,
+      "label": "MALICIOUS",
+      "reason": "THREAT_INTENT_ESCALATION",
+      "status": "PASS"
+    },
+    {
+      "text": "Google Drive sync error: Enter your password to resume syncing: http://gdrive-verify.com",
+      "sender": "Drive Notification",
+      "p_v2": 0.9944793966583443,
+      "p_ts": 0.9944793966583443,
+      "label": "MALICIOUS",
+      "reason": "THREAT_INTENT_ESCALATION",
+      "status": "PASS"
+    },
+    {
+      "text": "Uploading: 25.4 MB. Your phone is infected. Install cleaner: http://cleaner-scan.apk",
+      "sender": "System Alert",
+      "p_v2": 0.9460029940238419,
+      "p_ts": 0.9460029940238419,
+      "label": "MALICIOUS",
+      "reason": "THREAT_INTENT_ESCALATION",
+      "status": "PASS"
+    },
+    {
+      "text": "Backup in progress. Click here to confirm your UPI PIN http://backup-pin.cc",
+      "sender": "WhatsApp Backup",
+      "p_v2": 0.989190691443174,
+      "p_ts": 0.989190691443174,
+      "label": "MALICIOUS",
+      "reason": "PASSTHROUGH",
+      "status": "PASS"
+    },
+    {
+      "text": "Banking system notification: A/c blocked. Complete KYC now http://sbi-kyc.top",
+      "sender": "Bank System",
+      "p_v2": 0.9846308128181774,
+      "p_ts": 0.9846308128181774,
+      "label": "MALICIOUS",
+      "reason": "THREAT_INTENT_ESCALATION",
+      "status": "PASS"
+    },
+    {
+      "text": "WhatsApp backup warning: Please share verification code to keep your backup active",
+      "sender": "WhatsApp System",
+      "p_v2": 0.9977260019928014,
+      "p_ts": 0.9977260019928014,
+      "label": "MALICIOUS",
+      "reason": "THREAT_INTENT_ESCALATION",
+      "status": "PASS"
+    },
+    {
+      "text": "System update required: Enter your screen lock PIN to continue",
+      "sender": "System Notification",
+      "p_v2": 0.9462388388603726,
+      "p_ts": 0.9462388388603726,
+      "label": "MALICIOUS",
+      "reason": "PASSTHROUGH",
+      "status": "PASS"
+    }
+  ],
+  "lexical_limitation_analysis": {
+    "description": "Stage 2 system notification dampening relies on lexical pattern matching (regex).",
+    "vulnerability_mitigation": "Strict invariant enforced: presence of any external URL (has_link) or security threat intent immediately disqualifies dampening.",
+    "android_os_recommendation": "Production Android implementation should additionally inspect StatusBarNotification package name (com.whatsapp, android, com.google.android.apps.docs) and notification channel ID (e.g. backup_channel) via SystemNotificationClassifier to prevent reliance on lexical text alone."
+  }
+}

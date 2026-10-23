@@ -1,0 +1,94 @@
+{
+  "status": "OBSERVED offline list and parser tests",
+  "path": "sentinel-ml/URL-ml/experiments/phase_1c_2b_2a_s2_f/public_suffix_list.dat",
+  "sha256": "8228e4bdac6024c058a1e67859157e468a2613b826b53de0e5cae298e1b70755",
+  "header": [
+    "// VERSION: 2026-10-20_08-40-56_UTC",
+    "// COMMIT: 5dd321ffe02039e2431382a095cf80e27ff5eb94"
+  ],
+  "license": "Mozilla Public License 2.0 (observed header)",
+  "listed_official_origin": "https://publicsuffix.org/list/public_suffix_list.dat",
+  "network_refetch": false,
+  "provenance_limit": "Existing locally stored source reports date/commit; no independent publisher checksum or signature verified this run.",
+  "rule_counts": {
+    "exact": 10077,
+    "wildcards": 311,
+    "exceptions": 8
+  },
+  "private_rules_included": true,
+  "tests": [
+    {
+      "host": "a.b.co.uk",
+      "expected_parent": "b.co.uk",
+      "actual": {
+        "parent": "b.co.uk",
+        "suffix": "co.uk",
+        "rule": "co.uk",
+        "section": "ICANN"
+      }
+    },
+    {
+      "host": "a.tenant.blogspot.com",
+      "expected_parent": "tenant.blogspot.com",
+      "actual": {
+        "parent": "tenant.blogspot.com",
+        "suffix": "blogspot.com",
+        "rule": "blogspot.com",
+        "section": "PRIVATE"
+      }
+    },
+    {
+      "host": "x.tenant.github.io",
+      "expected_parent": "tenant.github.io",
+      "actual": {
+        "parent": "tenant.github.io",
+        "suffix": "github.io",
+        "rule": "github.io",
+        "section": "PRIVATE"
+      }
+    },
+    {
+      "host": "x.tenant.pages.dev",
+      "expected_parent": "tenant.pages.dev",
+      "actual": {
+        "parent": "tenant.pages.dev",
+        "suffix": "pages.dev",
+        "rule": "pages.dev",
+        "section": "PRIVATE"
+      }
+    },
+    {
+      "host": "a.b.ck",
+      "expected_parent": "a.b.ck",
+      "actual": {
+        "parent": "a.b.ck",
+        "suffix": "b.ck",
+        "rule": "*.ck",
+        "section": "ICANN"
+      }
+    },
+    {
+      "host": "x.www.ck",
+      "expected_parent": "www.ck",
+      "actual": {
+        "parent": "www.ck",
+        "suffix": "ck",
+        "rule": "!www.ck",
+        "section": "ICANN"
+      }
+    },
+    {
+      "host": "www.city.kawasaki.jp",
+      "expected_parent": "city.kawasaki.jp",
+      "actual": {
+        "parent": "city.kawasaki.jp",
+        "suffix": "kawasaki.jp",
+        "rule": "!city.kawasaki.jp",
+        "section": "ICANN"
+      }
+    }
+  ],
+  "candidate_hosts_different_from_v8_short_table": 908,
+  "grouping_only": "Do not change v7/v8 extractors, normalization or Kotlin. Builtin Python IDNA normalization is grouping metadata, not a feature change; retain original URL.",
+  "template_grouping": "Canonical-form variants share a parent. Template IDs include parent plus normalized path/id patterns/query-key set; generic / roots across unrelated domains are not treated as one campaign. Cross-parent campaign identity requires source evidence and is not proved here."
+}

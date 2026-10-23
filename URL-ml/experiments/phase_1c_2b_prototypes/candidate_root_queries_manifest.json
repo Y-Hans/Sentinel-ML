@@ -1,0 +1,13 @@
+{
+  "proposed_dataset_name": "candidate_benign_root_queries_5k.csv",
+  "target_sample_size": 5000,
+  "distribution_breakdown": {
+    "root_query_duckduckgo": 2500,
+    "root_query_qwant": 2500
+  },
+  "provenance": "Curated technical, academic, and general informational query strings",
+  "label": 0,
+  "category": "root_search_query_augmentation",
+  "domain_disjointness_guarantee": "Exclusively search engine endpoints; no collision with test/adversarial domains",
+  "features_impact": "Introduces PathLength=0 with query parameters into benign training split, eliminating the root-query tree penalty"
+}

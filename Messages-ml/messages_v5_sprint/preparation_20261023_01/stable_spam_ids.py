@@ -1,0 +1,8 @@
+from preplib import *
+guard()
+flag=list(rows(OUT/'historical_SPAM_overlap_v2.jsonl'));training=[r for r in rows(ROOT/'sentinel-ml/Messages-ml/data/processed/train.jsonl') if r.get('security_label')=='SUSPICIOUS_SPAM'];assert len(flag)==len(training)
+badgroups={r['template_cluster_id'] for r,f in zip(training,flag) if f['confirmed_eval_overlap']};out=[]
+for r,f in zip(training,flag):out.append({'message_id':r['message_id'],'source_id':r['source_id'],'template_cluster_id':r['template_cluster_id'],'text_sha256':hashlib.sha256(r['raw_text'].encode()).hexdigest(),'normalized_sha256':hashlib.sha256(norm(r['raw_text']).encode()).hexdigest(),'row_eval_overlap':f['confirmed_eval_overlap'],'template_group_excluded':r['template_cluster_id'] in badgroups,'admission':'NOT_ADMITTED_PENDING_LABEL_PROVENANCE_REVIEW','target_label':'SPAM','original_label':r['security_label']})
+csvwrite('historical_SPAM_candidates_v3.csv',out)
+save('historical_SPAM_group_summary.json',{'rows':len(out),'unique_message_ids':len({r['message_id'] for r in out}),'unique_template_groups':len({r['template_cluster_id'] for r in out}),'row_flags':sum(r['row_eval_overlap'] for r in out),'excluded_groups':len(badgroups),'excluded_group_rows':sum(r['template_group_excluded'] for r in out),'potential_rows_after_group_exclusion':sum(not r['template_group_excluded'] for r in out),'actual_admitted_rows':0,'correction':'Use canonical message_id/source_id/template_cluster_id; earlier metadata extraction used id/source and can show null/MISSING despite available fields. Count-based text matches unchanged.'})
+print('SPAM candidate rows after group exclusion',sum(not r['template_group_excluded'] for r in out),'admitted 0')

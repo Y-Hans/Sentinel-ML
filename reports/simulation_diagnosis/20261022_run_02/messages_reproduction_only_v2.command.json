@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+    "messages_reproduction_only"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "exit_code": 0,
+  "seconds": 36.03772449493408,
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "GIT_OPTIONAL_LOCKS": "0",
+    "PYTHONUTF8": "1"
+  },
+  "stdout_sha256": "14b7feddba7a33d8ac1bcfce270b13f52ecbbb536b748237ef4d48083381b4ce",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

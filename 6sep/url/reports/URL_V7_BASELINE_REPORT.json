@@ -1,0 +1,151 @@
+{
+  "model_name": "v7_gated_hgb_champion",
+  "threshold": 0.22588719359679843,
+  "conf_bound": 0.8,
+  "test": {
+    "samples": 50511,
+    "tn": 27086,
+    "fp": 267,
+    "fn": 289,
+    "tp": 22869,
+    "fpr": 0.009761269330603591,
+    "recall": 0.9875205112704033,
+    "roc_auc": 0.9976070998865004,
+    "f1": 0.987989804294293,
+    "accuracy": 0.9889924966838907
+  },
+  "hard": {
+    "samples": 2800,
+    "tn": 1950,
+    "fp": 9,
+    "fn": 26,
+    "tp": 815,
+    "fpr": 0.004594180704441042,
+    "recall": 0.9690844233055886,
+    "roc_auc": 0.9970452541063259,
+    "f1": 0.978978978978979,
+    "accuracy": 0.9875
+  },
+  "adversarial": {
+    "samples": 3900,
+    "recall": 0.9553846153846154,
+    "families": {
+      "case_manipulation": {
+        "total": 300,
+        "detected": 242,
+        "recall": 0.8066666666666666,
+        "pass_gate": false
+      },
+      "double_encoding": {
+        "total": 300,
+        "detected": 300,
+        "recall": 1.0,
+        "pass_gate": true
+      },
+      "homoglyph_like": {
+        "total": 300,
+        "detected": 294,
+        "recall": 0.98,
+        "pass_gate": true
+      },
+      "ip_style": {
+        "total": 300,
+        "detected": 300,
+        "recall": 1.0,
+        "pass_gate": true
+      },
+      "misleading_subdomain": {
+        "total": 300,
+        "detected": 296,
+        "recall": 0.9866666666666667,
+        "pass_gate": true
+      },
+      "nested_url": {
+        "total": 300,
+        "detected": 243,
+        "recall": 0.81,
+        "pass_gate": false
+      },
+      "path_manipulation": {
+        "total": 300,
+        "detected": 287,
+        "recall": 0.9566666666666667,
+        "pass_gate": true
+      },
+      "percent_encoding": {
+        "total": 300,
+        "detected": 300,
+        "recall": 1.0,
+        "pass_gate": true
+      },
+      "punycode_like": {
+        "total": 300,
+        "detected": 295,
+        "recall": 0.9833333333333333,
+        "pass_gate": true
+      },
+      "query_manipulation": {
+        "total": 300,
+        "detected": 292,
+        "recall": 0.9733333333333334,
+        "pass_gate": true
+      },
+      "separator_insert": {
+        "total": 300,
+        "detected": 287,
+        "recall": 0.9566666666666667,
+        "pass_gate": true
+      },
+      "subdomain_manipulation": {
+        "total": 300,
+        "detected": 291,
+        "recall": 0.97,
+        "pass_gate": true
+      },
+      "unusual_port": {
+        "total": 300,
+        "detected": 299,
+        "recall": 0.9966666666666667,
+        "pass_gate": true
+      }
+    }
+  },
+  "hard_false_positives": [
+    {
+      "url": "https://x.com/checkout",
+      "probability": 0.5283674901579535
+    },
+    {
+      "url": "http://www.intel.com",
+      "probability": 0.9797063161119879
+    },
+    {
+      "url": "https://console.cloud.google.com/wiki",
+      "probability": 0.2566367196863833
+    },
+    {
+      "url": "https://console.cloud.google.com/news/technology",
+      "probability": 0.3652698344881564
+    },
+    {
+      "url": "http://www.bankofamerica.com/",
+      "probability": 0.9556377768929128
+    },
+    {
+      "url": "https://x.com/account",
+      "probability": 0.5811735189332756
+    },
+    {
+      "url": "https://www.quora.com/article/2025/06/12/world-news",
+      "probability": 0.8110773902177791
+    },
+    {
+      "url": "https://docs.python.org/support",
+      "probability": 0.36215195842649633
+    },
+    {
+      "url": "https://store.steampowered.com/profile",
+      "probability": 0.6872039371541308
+    }
+  ]
+}

@@ -1,0 +1,900 @@
+{
+  "Champion_V2_Baseline": {
+    "threshold": 0.704,
+    "datasets": {
+      "TEST": {
+        "samples": 2264,
+        "benign_total": 520,
+        "benign_fp": 10,
+        "benign_fpr": 0.019230769230769232,
+        "benign_accuracy": 0.9807692307692307,
+        "malicious_total": 1556,
+        "malicious_tp": 1402,
+        "malicious_recall": 0.9010282776349614,
+        "macro_f1": 0.8444383515527306,
+        "accuracy": 0.9085689045936396,
+        "confusion_matrix": [
+          [
+            510,
+            0,
+            10
+          ],
+          [
+            4,
+            145,
+            39
+          ],
+          [
+            44,
+            110,
+            1402
+          ]
+        ]
+      },
+      "OOD": {
+        "samples": 1132,
+        "benign_total": 255,
+        "benign_fp": 3,
+        "benign_fpr": 0.011764705882352941,
+        "benign_accuracy": 0.9882352941176471,
+        "malicious_total": 794,
+        "malicious_tp": 714,
+        "malicious_recall": 0.8992443324937027,
+        "macro_f1": 0.8337256296457576,
+        "accuracy": 0.9098939929328622,
+        "confusion_matrix": [
+          [
+            252,
+            3,
+            0
+          ],
+          [
+            5,
+            64,
+            14
+          ],
+          [
+            25,
+            55,
+            714
+          ]
+        ]
+      },
+      "VAL": {
+        "samples": 3397,
+        "benign_total": 807,
+        "benign_fp": 6,
+        "benign_fpr": 0.007434944237918215,
+        "benign_accuracy": 0.9925650557620818,
+        "malicious_total": 2316,
+        "malicious_tp": 2049,
+        "malicious_recall": 0.8847150259067358,
+        "macro_f1": 0.8226160803321511,
+        "accuracy": 0.8975566676479246,
+        "confusion_matrix": [
+          [
+            801,
+            2,
+            4
+          ],
+          [
+            12,
+            199,
+            63
+          ],
+          [
+            79,
+            188,
+            2049
+          ]
+        ]
+      },
+      "slice_banking_scam": {
+        "samples": 3,
+        "benign_total": 0,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 3,
+        "malicious_tp": 3,
+        "malicious_recall": 1.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3
+          ]
+        ]
+      },
+      "slice_electricity_scam": {
+        "samples": 3,
+        "benign_total": 0,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 3,
+        "malicious_tp": 2,
+        "malicious_recall": 0.6666666666666666,
+        "macro_f1": 0.4,
+        "accuracy": 0.6666666666666666,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            2
+          ]
+        ]
+      },
+      "slice_hard_negatives": {
+        "samples": 3,
+        "benign_total": 3,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "slice_hinglish_smishing": {
+        "samples": 3,
+        "benign_total": 0,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 3,
+        "malicious_tp": 2,
+        "malicious_recall": 0.6666666666666666,
+        "macro_f1": 0.4,
+        "accuracy": 0.6666666666666666,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            2
+          ]
+        ]
+      },
+      "slice_legit_banking": {
+        "samples": 3,
+        "benign_total": 3,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "slice_legit_delivery": {
+        "samples": 3,
+        "benign_total": 3,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "slice_legit_otp": {
+        "samples": 5,
+        "benign_total": 5,
+        "benign_fp": 1,
+        "benign_fpr": 0.2,
+        "benign_accuracy": 0.8,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 0.4444444444444444,
+        "accuracy": 0.8,
+        "confusion_matrix": [
+          [
+            4,
+            0,
+            1
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "slice_otp_theft": {
+        "samples": 4,
+        "benign_total": 0,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 4,
+        "malicious_tp": 4,
+        "malicious_recall": 1.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "synthetic_pipeline_fixtures": {
+        "samples": 16,
+        "benign_total": 7,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 7,
+        "malicious_tp": 6,
+        "malicious_recall": 0.8571428571428571,
+        "macro_f1": 0.5822021116138764,
+        "accuracy": 0.8125,
+        "confusion_matrix": [
+          [
+            7,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ]
+      },
+      "CURATED_HN_BENIGN_VAL": {
+        "samples": 41,
+        "benign_total": 41,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            41,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "MSEDCL_VAL": {
+        "samples": 10,
+        "benign_total": 10,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            10,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "CREDENTIAL_ALL": {
+        "samples": 2302,
+        "benign_total": 0,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 2302,
+        "malicious_tp": 1855,
+        "malicious_recall": 0.8058210251954822,
+        "macro_f1": 0.29749017721112986,
+        "accuracy": 0.8058210251954822,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            119,
+            328,
+            1855
+          ]
+        ]
+      }
+    },
+    "credential_breakdown": {
+      "verified_malicious_recall": 0.9333333333333333,
+      "verified_malicious_tp": 14,
+      "verified_malicious_total": 15,
+      "conservative_recall": 0.9207317073170732,
+      "conservative_tp": 604,
+      "conservative_total": 656,
+      "raw_original_recall": 0.8058210251954822
+    }
+  },
+  "Candidate_V2_Calibrated": {
+    "threshold": 0.865,
+    "datasets": {
+      "TEST": {
+        "samples": 2264,
+        "benign_total": 520,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 1556,
+        "malicious_tp": 1381,
+        "malicious_recall": 0.8875321336760925,
+        "macro_f1": 0.8362091153604014,
+        "accuracy": 0.9023851590106007,
+        "confusion_matrix": [
+          [
+            520,
+            0,
+            0
+          ],
+          [
+            11,
+            142,
+            35
+          ],
+          [
+            68,
+            107,
+            1381
+          ]
+        ]
+      },
+      "OOD": {
+        "samples": 1132,
+        "benign_total": 255,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 794,
+        "malicious_tp": 701,
+        "malicious_recall": 0.8828715365239295,
+        "macro_f1": 0.8270250466444934,
+        "accuracy": 0.9001766784452296,
+        "confusion_matrix": [
+          [
+            255,
+            0,
+            0
+          ],
+          [
+            6,
+            63,
+            14
+          ],
+          [
+            41,
+            52,
+            701
+          ]
+        ]
+      },
+      "VAL": {
+        "samples": 3397,
+        "benign_total": 807,
+        "benign_fp": 1,
+        "benign_fpr": 0.0012391573729863693,
+        "benign_accuracy": 0.9987608426270136,
+        "malicious_total": 2316,
+        "malicious_tp": 2009,
+        "malicious_recall": 0.8674438687392055,
+        "macro_f1": 0.812221073777971,
+        "accuracy": 0.8863703267589049,
+        "confusion_matrix": [
+          [
+            806,
+            0,
+            1
+          ],
+          [
+            15,
+            196,
+            63
+          ],
+          [
+            126,
+            181,
+            2009
+          ]
+        ]
+      },
+      "slice_banking_scam": {
+        "samples": 3,
+        "benign_total": 0,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 3,
+        "malicious_tp": 3,
+        "malicious_recall": 1.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            3
+          ]
+        ]
+      },
+      "slice_electricity_scam": {
+        "samples": 3,
+        "benign_total": 0,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 3,
+        "malicious_tp": 1,
+        "malicious_recall": 0.3333333333333333,
+        "macro_f1": 0.25,
+        "accuracy": 0.3333333333333333,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ]
+      },
+      "slice_hard_negatives": {
+        "samples": 3,
+        "benign_total": 3,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "slice_hinglish_smishing": {
+        "samples": 3,
+        "benign_total": 0,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 3,
+        "malicious_tp": 1,
+        "malicious_recall": 0.3333333333333333,
+        "macro_f1": 0.25,
+        "accuracy": 0.3333333333333333,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            1
+          ]
+        ]
+      },
+      "slice_legit_banking": {
+        "samples": 3,
+        "benign_total": 3,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "slice_legit_delivery": {
+        "samples": 3,
+        "benign_total": 3,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "slice_legit_otp": {
+        "samples": 5,
+        "benign_total": 5,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "slice_otp_theft": {
+        "samples": 4,
+        "benign_total": 0,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 4,
+        "malicious_tp": 3,
+        "malicious_recall": 0.75,
+        "macro_f1": 0.42857142857142855,
+        "accuracy": 0.75,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            3
+          ]
+        ]
+      },
+      "synthetic_pipeline_fixtures": {
+        "samples": 16,
+        "benign_total": 7,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 7,
+        "malicious_tp": 6,
+        "malicious_recall": 0.8571428571428571,
+        "macro_f1": 0.5822021116138764,
+        "accuracy": 0.8125,
+        "confusion_matrix": [
+          [
+            7,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            6
+          ]
+        ]
+      },
+      "CURATED_HN_BENIGN_VAL": {
+        "samples": 41,
+        "benign_total": 41,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            41,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "MSEDCL_VAL": {
+        "samples": 10,
+        "benign_total": 10,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 0,
+        "malicious_tp": 0,
+        "malicious_recall": 0.0,
+        "macro_f1": 1.0,
+        "accuracy": 1.0,
+        "confusion_matrix": [
+          [
+            10,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "CREDENTIAL_ALL": {
+        "samples": 2302,
+        "benign_total": 0,
+        "benign_fp": 0,
+        "benign_fpr": 0.0,
+        "benign_accuracy": 1.0,
+        "malicious_total": 2302,
+        "malicious_tp": 1807,
+        "malicious_recall": 0.7849695916594266,
+        "macro_f1": 0.29317757767502234,
+        "accuracy": 0.7849695916594266,
+        "confusion_matrix": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            179,
+            316,
+            1807
+          ]
+        ]
+      }
+    },
+    "credential_breakdown": {
+      "verified_malicious_recall": 0.9333333333333333,
+      "verified_malicious_tp": 14,
+      "verified_malicious_total": 15,
+      "conservative_recall": 0.913109756097561,
+      "conservative_tp": 599,
+      "conservative_total": 656,
+      "raw_original_recall": 0.7849695916594266
+    }
+  }
+}

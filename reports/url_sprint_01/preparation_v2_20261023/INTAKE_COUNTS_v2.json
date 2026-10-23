@@ -1,0 +1,144 @@
+{
+  "status": "OBSERVED source intake counts; source labels REPORTED or ASSUMED, not independently adjudicated",
+  "raw_candidate_rows": 121547,
+  "raw_class_counts": {
+    "BENIGN": 99396,
+    "ATTACK": 22151
+  },
+  "canonical_dedup_rows": 71208,
+  "canonical_dedup_class_counts": {
+    "BENIGN": 49700,
+    "ATTACK": 21508
+  },
+  "canonical_duplicate_excess": 50339,
+  "unique_registrable_domains": 40056,
+  "cross_class_domain_count": 0,
+  "cross_class_exact_url_conflicts": 0,
+  "dedup_unique_domains_by_class": {
+    "BENIGN": 24853,
+    "ATTACK": 15203
+  },
+  "dedup_class_x_source": [
+    {
+      "class": "ATTACK",
+      "source": "JPCERTCC_202601",
+      "n": 2758
+    },
+    {
+      "class": "ATTACK",
+      "source": "JPCERTCC_202602",
+      "n": 1557
+    },
+    {
+      "class": "ATTACK",
+      "source": "JPCERTCC_202603",
+      "n": 2719
+    },
+    {
+      "class": "ATTACK",
+      "source": "JPCERTCC_202604",
+      "n": 2993
+    },
+    {
+      "class": "ATTACK",
+      "source": "JPCERTCC_202605",
+      "n": 1627
+    },
+    {
+      "class": "ATTACK",
+      "source": "JPCERTCC_202606",
+      "n": 1748
+    },
+    {
+      "class": "ATTACK",
+      "source": "JPCERTCC_202607",
+      "n": 1742
+    },
+    {
+      "class": "ATTACK",
+      "source": "JPCERTCC_202608",
+      "n": 4136
+    },
+    {
+      "class": "ATTACK",
+      "source": "JPCERTCC_202609",
+      "n": 2228
+    },
+    {
+      "class": "BENIGN",
+      "source": "OBSERVED_OFFICIAL_SOURCE_TEXT_ENDPOINT",
+      "n": 4
+    },
+    {
+      "class": "BENIGN",
+      "source": "UK_GDS_20260331",
+      "n": 15826
+    },
+    {
+      "class": "BENIGN",
+      "source": "US_CISA_PINNED",
+      "n": 33870
+    }
+  ],
+  "dedup_class_x_host_form": [
+    {
+      "class": "ATTACK",
+      "host_form": "apex",
+      "n": 11973
+    },
+    {
+      "class": "ATTACK",
+      "host_form": "subdomain",
+      "n": 7797
+    },
+    {
+      "class": "ATTACK",
+      "host_form": "www",
+      "n": 1738
+    },
+    {
+      "class": "BENIGN",
+      "host_form": "apex",
+      "n": 24850
+    },
+    {
+      "class": "BENIGN",
+      "host_form": "subdomain",
+      "n": 1
+    },
+    {
+      "class": "BENIGN",
+      "host_form": "www",
+      "n": 24849
+    }
+  ],
+  "legacy_parent_excluded_rows": 2242,
+  "legacy_exact_excluded_rows": 1030,
+  "novel_parent_rows_by_class": {
+    "BENIGN": 47517,
+    "ATTACK": 21449
+  },
+  "reported_attack_exact_roots": 2656,
+  "reported_low_signal_attack_roots": 2523,
+  "novel_parent_low_signal_attack_roots": 2516,
+  "quiet_feature_definition": [
+    "BrandImpersonationScore",
+    "PathSuspiciousWords",
+    "QuerySuspiciousWords",
+    "PathSuspiciousExtension",
+    "QueryRedirect",
+    "IsDomainIP",
+    "HostPunycode",
+    "HasNestedURL",
+    "SuspiciousTLD",
+    "HasAtSymbol",
+    "HasNonAscii",
+    "HasPort"
+  ],
+  "hosted_text_contrasts": 3,
+  "training_eligible_rows": 0,
+  "adjudicated_trusted_benign_rows": 0,
+  "licensed_eligible_confirmed_attack_rows": 0,
+  "partition_created": false,
+  "reason": "Official registries are identity evidence, not benign endpoint labels; JPCERT labels are institution-reported but no explicit reuse license established. No final split or fit while those prerequisites and independent exam are missing."
+}

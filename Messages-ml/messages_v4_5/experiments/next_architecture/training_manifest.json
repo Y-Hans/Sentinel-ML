@@ -1,0 +1,10 @@
+{
+  "training_corpus": "c:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\data\\auxiliary_train.jsonl",
+  "training_records": 12753,
+  "provenance_audit_file": "c:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\data\\PROVENANCE_AUDIT.json",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "embedding_dimensions": 384,
+  "classifier": "LogisticRegression(C=1.0, class_weight='balanced')",
+  "random_seed": 20260925,
+  "timestamp": "2026-09-25 21:07:33"
+}

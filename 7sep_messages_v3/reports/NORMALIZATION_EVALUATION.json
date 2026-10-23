@@ -1,0 +1,67 @@
+{
+  "total_evaluated": 100,
+  "normalized_count": 93,
+  "token_preservation_pass": true,
+  "sample_pairs": [
+    {
+      "raw": "Bhai OTP aaya h mujhe fwd kr",
+      "norm": "bhai OTP aaya hai mujhe forward kar"
+    },
+    {
+      "raw": "Bhai OTP aaya hoga forward kr de",
+      "norm": "bhai OTP aaya hoga forward kar de"
+    },
+    {
+      "raw": "Bhai OTP bhej do jldi se",
+      "norm": "bhai OTP bhej do jaldi se"
+    },
+    {
+      "raw": "Bhai OTP bhejo na plzz urgent hai",
+      "norm": "bhai OTP bhejo na please urgent hai"
+    },
+    {
+      "raw": "Bhai OTP bhejoo fast",
+      "norm": "bhai OTP bhejo fast"
+    },
+    {
+      "raw": "Bhai OTP send krnaa",
+      "norm": "bhai OTP send karna"
+    },
+    {
+      "raw": "Bhai OTP forward krna",
+      "norm": "bhai OTP forward karna"
+    },
+    {
+      "raw": "Hello, OTP bhej do.",
+      "norm": "hello, OTP bhej do."
+    },
+    {
+      "raw": "Hello, OTP send kr do na",
+      "norm": "hello, OTP send kar do na"
+    },
+    {
+      "raw": "Hey bro OTP bta de ek baar",
+      "norm": "hey bro OTP bata de ek baar"
+    },
+    {
+      "raw": "Bhai OTP btao jldi",
+      "norm": "bhai OTP bata jaldi"
+    },
+    {
+      "raw": "Bhai OTP share kr de plzz",
+      "norm": "bhai OTP share kar de please"
+    },
+    {
+      "raw": "Bro OTP aaya hoga mujhe forward kar.",
+      "norm": "bro OTP aaya hoga mujhe forward kar."
+    },
+    {
+      "raw": "Bro OTP share krna urgent payment karni h",
+      "norm": "bro OTP share karna urgent payment karni hai"
+    },
+    {
+      "raw": "Ek OTP aayega abhi, bhej dena",
+      "norm": "ek OTP aayega abhi, bhej dena"
+    }
+  ]
+}

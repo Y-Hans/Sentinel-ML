@@ -1,0 +1,27 @@
+{
+  "status": "ALL PROPOSED needs user approval; not applied",
+  "assumed_reference_prevalence": 0.001,
+  "assumed_minimum_recall_lower_bound": 0.9,
+  "assumed_minimum_PPV_lower_bound": 0.9,
+  "algebraic_FPR_max": 0.00010010010010010009,
+  "proposed_FPR_upper_bound": 0.0001,
+  "message_false_alerts_day_max_at300": 0.02997,
+  "URL_false_alerts_day_max_at30": 0.002997,
+  "PPV_at_prevalences": {
+    "0.001": 0.9000900090009,
+    "0.01": 0.9891196834817013,
+    "0.05": 0.9978933362900544
+  },
+  "zero_FP_independent_benign_N_one_sided95": 29956,
+  "messages_baseline_FP": 8,
+  "messages_baseline_n": 708,
+  "messages_baseline_FPR": 0.011299435028248588,
+  "messages_required_point_improvement_factor": 112.99435028248587,
+  "url_clean_baseline_FPR_reference_only": 0.009615033085950353,
+  "url_clean_required_point_improvement_factor": 96.15033085950353,
+  "release_recall_overall_lower95": 0.95,
+  "release_recall_required_segment_lower95": 0.9,
+  "recall_collection_target_per_segment": 500,
+  "design_effect_raw_count_multiplier_hypothesis": 2,
+  "note": "Gate values are product/design assumptions constrained by prevalence algebra and compared against Step7 baseline burden, not validated achievable targets. No protected 500/174 outcome used to set these gates."
+}

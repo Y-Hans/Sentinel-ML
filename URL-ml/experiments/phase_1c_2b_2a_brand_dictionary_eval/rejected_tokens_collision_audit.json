@@ -1,0 +1,38 @@
+[
+  {
+    "token": "bank",
+    "net_new_benign_fps_15k": 2,
+    "sample_fps": [
+      "fm.bank",
+      "norges-bank.no"
+    ]
+  },
+  {
+    "token": "card",
+    "net_new_benign_fps_15k": 0,
+    "sample_fps": []
+  },
+  {
+    "token": "air",
+    "net_new_benign_fps_15k": 0,
+    "sample_fps": []
+  },
+  {
+    "token": "mark",
+    "net_new_benign_fps_15k": 2,
+    "sample_fps": [
+      "mark-heringer.com",
+      "g-mark.org"
+    ]
+  },
+  {
+    "token": "dkb",
+    "net_new_benign_fps_15k": 0,
+    "sample_fps": []
+  },
+  {
+    "token": "dhl",
+    "net_new_benign_fps_15k": 0,
+    "sample_fps": []
+  }
+]

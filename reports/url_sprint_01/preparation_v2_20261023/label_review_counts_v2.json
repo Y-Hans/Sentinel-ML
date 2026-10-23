@@ -1,0 +1,27 @@
+{
+  "status": "OBSERVED parsing; no adjudicated error rate available",
+  "n": 120,
+  "inherited_expected_counts": {
+    "BENIGN": 60,
+    "ATTACK": 60
+  },
+  "assistant_review_status_counts": {
+    "PROVISIONAL_URL_INTENT_ONLY": 118,
+    "UNVERIFIED_SHORTENER_DESTINATION": 2
+  },
+  "triage_reason_counts": {
+    "AUTHORED_BENIGN_INTENT_NOT_ENDPOINT_VERIFICATION": 58,
+    "IMAGINED_HOSTED_CONTENT_OR_REDIRECT_UNVERIFIED": 19,
+    "AUTHORED_ATTACK_NOT_EXTERNALLY_CONFIRMED": 34,
+    "DOCUMENTATION_RANGE_ATTACK_SCENARIO_NOT_LIVE_THREAT": 7,
+    "SHORTENER_DESTINATION_UNKNOWN": 2
+  },
+  "human_agreement_cells": {
+    "": 120
+  },
+  "inherited_labels_changed": 0,
+  "confirmed_wrong_labels": null,
+  "wrong_label_rate": null,
+  "review_threshold_outcome": "NOT_EVALUABLE; no independent human adjudication; do not assert 0% or >5%",
+  "source_sha256": "94364b553eaca08adc306c898b34c82b38db661b5e03fe73e3a237de6834f97d"
+}

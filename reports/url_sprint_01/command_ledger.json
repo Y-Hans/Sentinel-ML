@@ -1,0 +1,67 @@
+{
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "shell": "PowerShell",
+  "python": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\venv\\Scripts\\python.exe",
+  "common_invocation": "$env:PYTHONDONTWRITEBYTECODE='1'; & 'sentinel-ml/URL-ml/venv/Scripts/python.exe' -B <script>",
+  "commands": [
+    {
+      "script": "sentinel-ml\\URL-ml\\experiments\\url_sprint_01\\prepare.py",
+      "exit_code": 0,
+      "log": null
+    },
+    {
+      "script": "sentinel-ml\\URL-ml\\experiments\\url_sprint_01\\ledger.py",
+      "exit_code": 0,
+      "log": null
+    },
+    {
+      "script": "sentinel-ml\\URL-ml\\experiments\\url_sprint_01\\evaluate.py",
+      "exit_code": 0,
+      "log": "reports/url_sprint_01/evaluate_run.log"
+    },
+    {
+      "script": "sentinel-ml\\URL-ml\\experiments\\url_sprint_01\\composition.py",
+      "exit_code": 0,
+      "log": "reports/url_sprint_01/composition_run.log"
+    },
+    {
+      "script": "sentinel-ml\\URL-ml\\experiments\\url_sprint_01\\source_evidence.py",
+      "exit_code": 0,
+      "log": null
+    },
+    {
+      "script": "sentinel-ml\\URL-ml\\experiments\\url_sprint_01\\write_reports.py",
+      "exit_code": 0,
+      "log": null
+    },
+    {
+      "script": "sentinel-ml\\URL-ml\\experiments\\url_sprint_01\\streamed_audit.py",
+      "exit_code": 0,
+      "log": "reports/url_sprint_01/streamed_audit_run.log"
+    }
+  ],
+  "exploration_errors": [
+    {
+      "command": "initial rg --files broad URL-ml/sentinel-ai inventory plus nonexistent .agents",
+      "shell_exit": 1,
+      "effect": "filename output included venv and was truncated; subsequent searches narrowed"
+    },
+    {
+      "command": "ledger.py first attempt within multi-command PowerShell wrapper",
+      "shell_exit": 0,
+      "python_exit": "not separately captured; uncaught KeyError observed",
+      "effect": "new script Windows path-key mismatch corrected; successful rerun before model evaluation"
+    },
+    {
+      "command": "Get-CimInstance Win32_Processor plus rg literal wildcard paths",
+      "shell_exit": 1,
+      "effect": "CIM denied; rg invalid Windows wildcard path; physical cores subsequently measured with kernel32 topology API"
+    },
+    {
+      "command": "venv Python import psutil probe",
+      "shell_exit": 1,
+      "effect": "ModuleNotFoundError; no install; kernel32 fallback used"
+    }
+  ],
+  "evidence_rule": "Tool transcript is authoritative for shell exits. Artifact hashes, script source and logs supply reproducible substantive commands; intermediate read-only shell inspections are in the transcript."
+}

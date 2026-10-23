@@ -1,0 +1,17 @@
+{
+  "audit_stats": {
+    "total_evaluated": 15869,
+    "exact_collisions_rejected": 0,
+    "normalized_collisions_rejected": 175,
+    "id_collisions_rejected": 0,
+    "jaccard_high_rejected": 2941,
+    "passed_records": 12753
+  },
+  "label_distribution": {
+    "MALICIOUS": 8101,
+    "BENIGN": 3614,
+    "SUSPICIOUS_SPAM": 1038
+  },
+  "target_file": "c:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\data\\auxiliary_train.jsonl",
+  "status": "APPROVED_CLEAN"
+}

@@ -1,0 +1,62 @@
+{
+  "pulls": [
+    {
+      "pull_id": "pull_1",
+      "rows_recovered": 72,
+      "logged_levels": {
+        "GREEN": 69,
+        "YELLOW": 2,
+        "RED": 1
+      }
+    },
+    {
+      "pull_id": "pull_2",
+      "rows_recovered": 75,
+      "logged_levels": {
+        "YELLOW": 9,
+        "GREEN": 60,
+        "RED": 6
+      }
+    },
+    {
+      "pull_id": "pull_3",
+      "rows_recovered": 568,
+      "logged_levels": {
+        "GREEN": 532,
+        "RED": 21,
+        "YELLOW": 15
+      }
+    }
+  ],
+  "dedup": {
+    "input_rows": 715,
+    "unique_rows": 715,
+    "duplicates": 0
+  },
+  "comparisons": [
+    {
+      "source": "sentinel-ml/New_history/bench_real_history_562.jsonl",
+      "sha256": "18987bb577f68979fb118095bf316be1939625b4f6b7788c9f1a9041b6cc6d09",
+      "legacy_rows": 562,
+      "matching_keys": 154,
+      "legacy_only_unique": 408,
+      "new_only_unique": 561
+    },
+    {
+      "source": "sentinel-ml/investigation/sentinel_db_parsed.jsonl",
+      "sha256": "e0f85d09c81be5e2743d10a3ccf69858b62e2c947593ae0e3427588ce1aeef72",
+      "legacy_rows": 34,
+      "matching_keys": 0,
+      "legacy_only_unique": 7,
+      "new_only_unique": 715
+    },
+    {
+      "source": "sentinel-ml/investigation/sentinel_db1_parsed.jsonl",
+      "sha256": "02437b7eb0684fe3b29d32b9ecf03f664041b1f8b3d3f3fd09dd4648884bc5b5",
+      "legacy_rows": 26,
+      "matching_keys": 0,
+      "legacy_only_unique": 8,
+      "new_only_unique": 715
+    }
+  ]
+}

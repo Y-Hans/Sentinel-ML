@@ -1,0 +1,33 @@
+{
+  "target_file": "c:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\data\\controlled_validation_set.jsonl",
+  "sha256": "11a930e230f956f346e92544ff6986b79e847fa0ee5f7f6bff8756a5db410ca2",
+  "total_records": 303,
+  "label_distribution": {
+    "MALICIOUS": 101,
+    "SUSPICIOUS_SPAM": 55,
+    "BENIGN": 147
+  },
+  "category_distribution": {
+    "A": 40,
+    "B": 6,
+    "C": 21,
+    "D": 35,
+    "E": 27,
+    "F": 12,
+    "G": 10,
+    "H": 20,
+    "I": 28,
+    "J": 9,
+    "K": 25,
+    "L": 15,
+    "M": 55
+  },
+  "exclusions": {
+    "EXACT_COLLISION": 1009,
+    "CASE_WS_COLLISION": 44,
+    "JACCARD_HIGH": 678,
+    "INTRA_DATASET_DUPLICATE": 18,
+    "AGGRESSIVE_NORM_COLLISION": 1
+  },
+  "status": "APPROVED_INDEPENDENT_CLEAN"
+}

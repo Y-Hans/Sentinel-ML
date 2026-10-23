@@ -1,0 +1,915 @@
+{
+  "status": "PHASE_1D_1_STAGE_1_COMPLETE",
+  "timestamp": "2026-10-21T14:22:47Z",
+  "total_duration_sec": 49.51460266113281,
+  "environment": {
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python_version": "3.11.15 (main, Jun 11 2026, 04:59:07) [MSC v.1944 64 bit (AMD64)]",
+    "numpy_version": "2.4.6",
+    "pandas_version": "3.0.3",
+    "sklearn_version": "1.5.3"
+  },
+  "input_hashes": {
+    "v8_champion": {
+      "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\models\\v8_champion.joblib",
+      "sha256": "073e70f215c0c3279288ec69a692ed5cab7e99a443ed7b4f87da51ae67cf0e58",
+      "size": 709417
+    },
+    "cleaned_dataset": {
+      "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\data\\cleaned_dataset.csv",
+      "sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+      "size": 18767734
+    },
+    "hard_benign_benchmark": {
+      "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\data\\hard_benign_benchmark_500.json",
+      "sha256": "d89f532ce8a5f5c35251622cc80dacdcf1318bda62cbf45d88deb6ba7456520f",
+      "size": 222523
+    },
+    "adversarial_predictions": {
+      "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\reports\\URL_REMEDIATION_ADVERSARIAL_PREDICTIONS.csv",
+      "sha256": "a729e2cd9978f1b9632ed19079c957933ee2ca0d9c54853b1dc5321ce12cff5a",
+      "size": 336391
+    },
+    "golden_urls_v8": {
+      "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ai\\android-app\\core\\src\\test\\resources\\golden_urls_v8.json",
+      "sha256": "47dde6e5837a1b91da6e224a0f85dad75694f0f1a12aad11d7576d48f6a1aacb",
+      "size": 205103
+    }
+  },
+  "output_artifacts": {
+    "clean_test_predictions": {
+      "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\experiments\\phase_1d_1\\clean_test_predictions_v8.csv",
+      "sha256": "e6018a61afba840f6e5b047df1323f1c0e1d3fa580f322bae4877e0a694d7351"
+    },
+    "benchmark_predictions": {
+      "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\experiments\\phase_1d_1\\benchmark_predictions_v8.csv",
+      "sha256": "eb3b78d1b7bf3b16f9ce69e91c82a2140eae6bffd9702b9d339c4e66addf0498"
+    },
+    "adversarial_predictions": {
+      "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\experiments\\phase_1d_1\\adversarial_predictions_v8.csv",
+      "sha256": "2c6a3be102d24d03b85b18477247544d236f0318b0a6ce5510b2318d9bcfc891"
+    },
+    "golden_predictions": {
+      "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\experiments\\phase_1d_1\\golden_predictions_v8.csv",
+      "sha256": "07c89fcaf178ba5ada532ca821439769b0dac41c8b568f8f49772332dd26cd3c"
+    },
+    "decision_changes": {
+      "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\experiments\\phase_1d_1\\decision_changes_a0_a1_a2.csv",
+      "sha256": "76ed055e957eca1c1c0f4d733b7132f94939a7fb1cb478fc4c822c38ef025d42"
+    }
+  },
+  "evaluation_summary": {
+    "A0_Baseline_V8": {
+      "clean_test": {
+        "metrics": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "tp": 22835,
+          "fp": 263,
+          "fn": 323,
+          "tn": 27090,
+          "recall": 0.9860523361257448,
+          "recall_95ci": [
+            0.98445927638503,
+            0.9874841694771634
+          ],
+          "fpr": 0.009615033085950353,
+          "fpr_95ci": [
+            0.008525486105902888,
+            0.010842300179595246
+          ],
+          "precision": 0.9886137327907178,
+          "precision_95ci": [
+            0.9871619394016988,
+            0.9899030292171387
+          ],
+          "mean_prob": 0.44248294830322266,
+          "n_apex_qualified": 682,
+          "apex_threshold": 0.28,
+          "standard_threshold": 0.28,
+          "policy_name": "A0_Baseline_V8"
+        },
+        "regressions_count": 0
+      },
+      "test_phishing_bare_apex": {
+        "metrics": {
+          "n_total": 4254,
+          "n_pos": 4254,
+          "n_neg": 0,
+          "tp": 4170,
+          "fp": 0,
+          "fn": 84,
+          "tn": 0,
+          "recall": 0.9802538787023978,
+          "recall_95ci": [
+            0.9756192722015635,
+            0.9840219073767176
+          ],
+          "fpr": 0.0,
+          "fpr_95ci": [
+            0.0,
+            0.0
+          ],
+          "precision": 1.0,
+          "precision_95ci": [
+            0.9990796347061588,
+            1.0
+          ],
+          "mean_prob": 0.9524136185646057
+        },
+        "regressions_count": 0
+      },
+      "benchmark_overall": {
+        "metrics": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "tp": 0,
+          "fp": 420,
+          "fn": 0,
+          "tn": 80,
+          "recall": 0.0,
+          "recall_95ci": [
+            0.0,
+            0.0
+          ],
+          "fpr": 0.84,
+          "fpr_95ci": [
+            0.8052918208363085,
+            0.8695236276498359
+          ],
+          "precision": 0.0,
+          "precision_95ci": [
+            0.0,
+            0.009063433368181313
+          ],
+          "mean_prob": 0.7713913321495056,
+          "n_apex_qualified": 200,
+          "apex_threshold": 0.28,
+          "standard_threshold": 0.28,
+          "policy_name": "A0_Baseline_V8"
+        },
+        "regressions_count": 0
+      },
+      "benchmark_bare_apex": {
+        "metrics": {
+          "n_total": 200,
+          "n_pos": 0,
+          "n_neg": 200,
+          "tp": 0,
+          "fp": 200,
+          "fn": 0,
+          "tn": 0,
+          "recall": 0.0,
+          "recall_95ci": [
+            0.0,
+            0.0
+          ],
+          "fpr": 1.0,
+          "fpr_95ci": [
+            0.9811546736227335,
+            1.0
+          ],
+          "precision": 0.0,
+          "precision_95ci": [
+            1.734723475976807e-18,
+            0.018845326377266575
+          ],
+          "mean_prob": 0.9160804748535156
+        },
+        "regressions_count": 0
+      },
+      "adversarial_split": {
+        "metrics": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "tp": 3785,
+          "fp": 0,
+          "fn": 115,
+          "tn": 0,
+          "recall": 0.9705128205128205,
+          "recall_95ci": [
+            0.9647230314739038,
+            0.9753766213200558
+          ],
+          "fpr": 0.0,
+          "fpr_95ci": [
+            0.0,
+            0.0
+          ],
+          "precision": 1.0,
+          "precision_95ci": [
+            0.9989861125458943,
+            1.0
+          ],
+          "mean_prob": 0.9298205971717834,
+          "n_apex_qualified": 84,
+          "apex_threshold": 0.28,
+          "standard_threshold": 0.28,
+          "policy_name": "A0_Baseline_V8"
+        },
+        "regressions_count": 0
+      },
+      "golden_fixtures": {
+        "metrics": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "tp": 86,
+          "fp": 0,
+          "fn": 0,
+          "tn": 88,
+          "recall": 1.0,
+          "recall_95ci": [
+            0.9572418027142576,
+            0.9999999999999999
+          ],
+          "fpr": 0.0,
+          "fpr_95ci": [
+            0.0,
+            0.0418270666648922
+          ],
+          "precision": 1.0,
+          "precision_95ci": [
+            0.9572418027142576,
+            0.9999999999999999
+          ],
+          "mean_prob": 0.46340131759643555,
+          "n_apex_qualified": 7,
+          "apex_threshold": 0.28,
+          "standard_threshold": 0.28,
+          "policy_name": "A0_Baseline_V8"
+        },
+        "regressions_count": 0
+      },
+      "validation": {
+        "metrics": {
+          "n_total": 44106,
+          "n_pos": 16968,
+          "n_neg": 27138,
+          "tp": 16242,
+          "fp": 244,
+          "fn": 726,
+          "tn": 26894,
+          "recall": 0.9572135785007072,
+          "recall_95ci": [
+            0.9540636576168866,
+            0.9601565251279824
+          ],
+          "fpr": 0.008991082614783699,
+          "fpr_95ci": [
+            0.007935445171486808,
+            0.01018570771959137
+          ],
+          "precision": 0.9851995632658013,
+          "precision_95ci": [
+            0.9832400099095905,
+            0.9869330533033612
+          ],
+          "mean_prob": 0.3694542348384857,
+          "n_apex_qualified": 721,
+          "apex_threshold": 0.28,
+          "standard_threshold": 0.28,
+          "policy_name": "A0_Baseline_V8"
+        },
+        "regressions_count": 0
+      },
+      "gate_verdicts": {
+        "gates": {
+          "Gate_1_Clean_Test_Recall": {
+            "target": ">= 0.98600",
+            "warning_range": "[0.98400, 0.98600)",
+            "hard_fail": "< 0.98400",
+            "value": 0.9860523361257448,
+            "tp": 22835,
+            "n": 23158,
+            "status": "PASS"
+          },
+          "Gate_2_Clean_Test_FPR": {
+            "target": "<= 0.00962",
+            "warning_range": "(0.00962, 0.01000]",
+            "hard_fail": "> 0.01000",
+            "value": 0.009615033085950353,
+            "fp": 263,
+            "n": 27353,
+            "status": "PASS"
+          },
+          "Gate_3_Benchmark_Bare_Apex_FPR": {
+            "target": "<= 0.1000",
+            "warning_range": "(0.1000, 0.1500]",
+            "hard_fail": "> 0.1500",
+            "value": 1.0,
+            "fp": 200,
+            "n": 200,
+            "status": "HARD_FAIL"
+          },
+          "Gate_4_Benchmark_Overall_FPR": {
+            "target": "<= 0.4500",
+            "warning_range": "(0.4500, 0.5000]",
+            "hard_fail": "> 0.5000",
+            "value": 0.84,
+            "fp": 420,
+            "n": 500,
+            "status": "HARD_FAIL"
+          },
+          "Gate_5_Test_Phishing_Apex_Recall": {
+            "target": ">= 0.98000",
+            "warning_range": "[0.97500, 0.98000)",
+            "hard_fail": "< 0.97500",
+            "value": 0.9802538787023978,
+            "tp": 4170,
+            "n": 4254,
+            "status": "PASS"
+          },
+          "Gate_6_Adversarial_Recall": {
+            "target": ">= 0.97000",
+            "warning_range": "[0.96500, 0.97000)",
+            "hard_fail": "< 0.96500",
+            "value": 0.9705128205128205,
+            "tp": 3785,
+            "n": 3900,
+            "status": "PASS"
+          },
+          "Gate_7_Android_Golden_Parity": {
+            "target": "0 regressions",
+            "warning_range": "None permitted",
+            "hard_fail": ">= 1 regression",
+            "regressions_count": 0,
+            "status": "PASS"
+          }
+        },
+        "overall_verdict": "HARD_FAIL"
+      }
+    },
+    "A1_Apex_Threshold_05500": {
+      "clean_test": {
+        "metrics": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "tp": 22834,
+          "fp": 263,
+          "fn": 324,
+          "tn": 27090,
+          "recall": 0.9860091545038432,
+          "recall_95ci": [
+            0.9844138025821338,
+            0.9874432943598515
+          ],
+          "fpr": 0.009615033085950353,
+          "fpr_95ci": [
+            0.008525486105902888,
+            0.010842300179595246
+          ],
+          "precision": 0.9886132398146945,
+          "precision_95ci": [
+            0.9871613840022145,
+            0.9899025917942869
+          ],
+          "mean_prob": 0.44248294830322266,
+          "n_apex_qualified": 682,
+          "apex_threshold": 0.55,
+          "standard_threshold": 0.28,
+          "policy_name": "A1_Apex_Threshold_05500"
+        },
+        "regressions_count": 0
+      },
+      "test_phishing_bare_apex": {
+        "metrics": {
+          "n_total": 4254,
+          "n_pos": 4254,
+          "n_neg": 0,
+          "tp": 4169,
+          "fp": 0,
+          "fn": 85,
+          "tn": 0,
+          "recall": 0.9800188058298073,
+          "recall_95ci": [
+            0.9753602651435168,
+            0.9838111928588572
+          ],
+          "fpr": 0.0,
+          "fpr_95ci": [
+            0.0,
+            0.0
+          ],
+          "precision": 1.0,
+          "precision_95ci": [
+            0.9990794141453485,
+            1.0
+          ],
+          "mean_prob": 0.9524136185646057
+        },
+        "regressions_count": 0
+      },
+      "benchmark_overall": {
+        "metrics": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "tp": 0,
+          "fp": 417,
+          "fn": 0,
+          "tn": 83,
+          "recall": 0.0,
+          "recall_95ci": [
+            0.0,
+            0.0
+          ],
+          "fpr": 0.834,
+          "fpr_95ci": [
+            0.7988646838026932,
+            0.8640422567689898
+          ],
+          "precision": 0.0,
+          "precision_95ci": [
+            8.673617379884035e-19,
+            0.009128042734807735
+          ],
+          "mean_prob": 0.7713913321495056,
+          "n_apex_qualified": 200,
+          "apex_threshold": 0.55,
+          "standard_threshold": 0.28,
+          "policy_name": "A1_Apex_Threshold_05500"
+        },
+        "regressions_count": 0
+      },
+      "benchmark_bare_apex": {
+        "metrics": {
+          "n_total": 200,
+          "n_pos": 0,
+          "n_neg": 200,
+          "tp": 0,
+          "fp": 197,
+          "fn": 0,
+          "tn": 3,
+          "recall": 0.0,
+          "recall_95ci": [
+            0.0,
+            0.0
+          ],
+          "fpr": 0.985,
+          "fpr_95ci": [
+            0.9568342712073097,
+            0.9948857622067417
+          ],
+          "precision": 0.0,
+          "precision_95ci": [
+            0.0,
+            0.019126821938311438
+          ],
+          "mean_prob": 0.9160804748535156
+        },
+        "regressions_count": 0
+      },
+      "adversarial_split": {
+        "metrics": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "tp": 3782,
+          "fp": 0,
+          "fn": 118,
+          "tn": 0,
+          "recall": 0.9697435897435898,
+          "recall_95ci": [
+            0.963888231003802,
+            0.9746744741289141
+          ],
+          "fpr": 0.0,
+          "fpr_95ci": [
+            0.0,
+            0.0
+          ],
+          "precision": 1.0,
+          "precision_95ci": [
+            0.9989853091149012,
+            1.0
+          ],
+          "mean_prob": 0.9298205971717834,
+          "n_apex_qualified": 84,
+          "apex_threshold": 0.55,
+          "standard_threshold": 0.28,
+          "policy_name": "A1_Apex_Threshold_05500"
+        },
+        "regressions_count": 0
+      },
+      "golden_fixtures": {
+        "metrics": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "tp": 86,
+          "fp": 0,
+          "fn": 0,
+          "tn": 88,
+          "recall": 1.0,
+          "recall_95ci": [
+            0.9572418027142576,
+            0.9999999999999999
+          ],
+          "fpr": 0.0,
+          "fpr_95ci": [
+            0.0,
+            0.0418270666648922
+          ],
+          "precision": 1.0,
+          "precision_95ci": [
+            0.9572418027142576,
+            0.9999999999999999
+          ],
+          "mean_prob": 0.46340131759643555,
+          "n_apex_qualified": 7,
+          "apex_threshold": 0.55,
+          "standard_threshold": 0.28,
+          "policy_name": "A1_Apex_Threshold_05500"
+        },
+        "regressions_count": 0
+      },
+      "validation": {
+        "metrics": {
+          "n_total": 44106,
+          "n_pos": 16968,
+          "n_neg": 27138,
+          "tp": 16240,
+          "fp": 244,
+          "fn": 728,
+          "tn": 26894,
+          "recall": 0.9570957095709571,
+          "recall_95ci": [
+            0.9539418154153982,
+            0.9600426828276032
+          ],
+          "fpr": 0.008991082614783699,
+          "fpr_95ci": [
+            0.007935445171486808,
+            0.01018570771959137
+          ],
+          "precision": 0.9851977675321524,
+          "precision_95ci": [
+            0.9832379785738966,
+            0.9869314665867027
+          ],
+          "mean_prob": 0.3694542348384857,
+          "n_apex_qualified": 721,
+          "apex_threshold": 0.55,
+          "standard_threshold": 0.28,
+          "policy_name": "A1_Apex_Threshold_05500"
+        },
+        "regressions_count": 0
+      },
+      "gate_verdicts": {
+        "gates": {
+          "Gate_1_Clean_Test_Recall": {
+            "target": ">= 0.98600",
+            "warning_range": "[0.98400, 0.98600)",
+            "hard_fail": "< 0.98400",
+            "value": 0.9860091545038432,
+            "tp": 22834,
+            "n": 23158,
+            "status": "PASS"
+          },
+          "Gate_2_Clean_Test_FPR": {
+            "target": "<= 0.00962",
+            "warning_range": "(0.00962, 0.01000]",
+            "hard_fail": "> 0.01000",
+            "value": 0.009615033085950353,
+            "fp": 263,
+            "n": 27353,
+            "status": "PASS"
+          },
+          "Gate_3_Benchmark_Bare_Apex_FPR": {
+            "target": "<= 0.1000",
+            "warning_range": "(0.1000, 0.1500]",
+            "hard_fail": "> 0.1500",
+            "value": 0.985,
+            "fp": 197,
+            "n": 200,
+            "status": "HARD_FAIL"
+          },
+          "Gate_4_Benchmark_Overall_FPR": {
+            "target": "<= 0.4500",
+            "warning_range": "(0.4500, 0.5000]",
+            "hard_fail": "> 0.5000",
+            "value": 0.834,
+            "fp": 417,
+            "n": 500,
+            "status": "HARD_FAIL"
+          },
+          "Gate_5_Test_Phishing_Apex_Recall": {
+            "target": ">= 0.98000",
+            "warning_range": "[0.97500, 0.98000)",
+            "hard_fail": "< 0.97500",
+            "value": 0.9800188058298073,
+            "tp": 4169,
+            "n": 4254,
+            "status": "PASS"
+          },
+          "Gate_6_Adversarial_Recall": {
+            "target": ">= 0.97000",
+            "warning_range": "[0.96500, 0.97000)",
+            "hard_fail": "< 0.96500",
+            "value": 0.9697435897435898,
+            "tp": 3782,
+            "n": 3900,
+            "status": "WARNING_REVIEW"
+          },
+          "Gate_7_Android_Golden_Parity": {
+            "target": "0 regressions",
+            "warning_range": "None permitted",
+            "hard_fail": ">= 1 regression",
+            "regressions_count": 0,
+            "status": "PASS"
+          }
+        },
+        "overall_verdict": "HARD_FAIL"
+      }
+    },
+    "A2_Apex_Threshold_06500": {
+      "clean_test": {
+        "metrics": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "tp": 22832,
+          "fp": 263,
+          "fn": 326,
+          "tn": 27090,
+          "recall": 0.9859227912600397,
+          "recall_95ci": [
+            0.9843228660262464,
+            0.9873615330753227
+          ],
+          "fpr": 0.009615033085950353,
+          "fpr_95ci": [
+            0.008525486105902888,
+            0.010842300179595246
+          ],
+          "precision": 0.9886122537345746,
+          "precision_95ci": [
+            0.987160273059068,
+            0.9899017168348726
+          ],
+          "mean_prob": 0.44248294830322266,
+          "n_apex_qualified": 682,
+          "apex_threshold": 0.65,
+          "standard_threshold": 0.28,
+          "policy_name": "A2_Apex_Threshold_06500"
+        },
+        "regressions_count": 0
+      },
+      "test_phishing_bare_apex": {
+        "metrics": {
+          "n_total": 4254,
+          "n_pos": 4254,
+          "n_neg": 0,
+          "tp": 4167,
+          "fp": 0,
+          "fn": 87,
+          "tn": 0,
+          "recall": 0.9795486600846263,
+          "recall_95ci": [
+            0.9748426952869176,
+            0.9833893195636421
+          ],
+          "fpr": 0.0,
+          "fpr_95ci": [
+            0.0,
+            0.0
+          ],
+          "precision": 1.0,
+          "precision_95ci": [
+            0.999078972706438,
+            1.0
+          ],
+          "mean_prob": 0.9524136185646057
+        },
+        "regressions_count": 0
+      },
+      "benchmark_overall": {
+        "metrics": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "tp": 0,
+          "fp": 417,
+          "fn": 0,
+          "tn": 83,
+          "recall": 0.0,
+          "recall_95ci": [
+            0.0,
+            0.0
+          ],
+          "fpr": 0.834,
+          "fpr_95ci": [
+            0.7988646838026932,
+            0.8640422567689898
+          ],
+          "precision": 0.0,
+          "precision_95ci": [
+            8.673617379884035e-19,
+            0.009128042734807735
+          ],
+          "mean_prob": 0.7713913321495056,
+          "n_apex_qualified": 200,
+          "apex_threshold": 0.65,
+          "standard_threshold": 0.28,
+          "policy_name": "A2_Apex_Threshold_06500"
+        },
+        "regressions_count": 0
+      },
+      "benchmark_bare_apex": {
+        "metrics": {
+          "n_total": 200,
+          "n_pos": 0,
+          "n_neg": 200,
+          "tp": 0,
+          "fp": 197,
+          "fn": 0,
+          "tn": 3,
+          "recall": 0.0,
+          "recall_95ci": [
+            0.0,
+            0.0
+          ],
+          "fpr": 0.985,
+          "fpr_95ci": [
+            0.9568342712073097,
+            0.9948857622067417
+          ],
+          "precision": 0.0,
+          "precision_95ci": [
+            0.0,
+            0.019126821938311438
+          ],
+          "mean_prob": 0.9160804748535156
+        },
+        "regressions_count": 0
+      },
+      "adversarial_split": {
+        "metrics": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "tp": 3780,
+          "fp": 0,
+          "fn": 120,
+          "tn": 0,
+          "recall": 0.9692307692307692,
+          "recall_95ci": [
+            0.9633322063012245,
+            0.9742058670573294
+          ],
+          "fpr": 0.0,
+          "fpr_95ci": [
+            0.0,
+            0.0
+          ],
+          "precision": 1.0,
+          "precision_95ci": [
+            0.9989847727864659,
+            1.0
+          ],
+          "mean_prob": 0.9298205971717834,
+          "n_apex_qualified": 84,
+          "apex_threshold": 0.65,
+          "standard_threshold": 0.28,
+          "policy_name": "A2_Apex_Threshold_06500"
+        },
+        "regressions_count": 0
+      },
+      "golden_fixtures": {
+        "metrics": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "tp": 85,
+          "fp": 0,
+          "fn": 1,
+          "tn": 88,
+          "recall": 0.9883720930232558,
+          "recall_95ci": [
+            0.9370359341070826,
+            0.9979444313347503
+          ],
+          "fpr": 0.0,
+          "fpr_95ci": [
+            0.0,
+            0.0418270666648922
+          ],
+          "precision": 1.0,
+          "precision_95ci": [
+            0.9567605161859486,
+            1.0
+          ],
+          "mean_prob": 0.46340131759643555,
+          "n_apex_qualified": 7,
+          "apex_threshold": 0.65,
+          "standard_threshold": 0.28,
+          "policy_name": "A2_Apex_Threshold_06500"
+        },
+        "regressions_count": 1
+      },
+      "validation": {
+        "metrics": {
+          "n_total": 44106,
+          "n_pos": 16968,
+          "n_neg": 27138,
+          "tp": 16239,
+          "fp": 244,
+          "fn": 729,
+          "tn": 26894,
+          "recall": 0.957036775106082,
+          "recall_95ci": [
+            0.9538808966664867,
+            0.9599857593255807
+          ],
+          "fpr": 0.008991082614783699,
+          "fpr_95ci": [
+            0.007935445171486808,
+            0.01018570771959137
+          ],
+          "precision": 0.9851968695019111,
+          "precision_95ci": [
+            0.9832369627213887,
+            0.9869306730838582
+          ],
+          "mean_prob": 0.3694542348384857,
+          "n_apex_qualified": 721,
+          "apex_threshold": 0.65,
+          "standard_threshold": 0.28,
+          "policy_name": "A2_Apex_Threshold_06500"
+        },
+        "regressions_count": 0
+      },
+      "gate_verdicts": {
+        "gates": {
+          "Gate_1_Clean_Test_Recall": {
+            "target": ">= 0.98600",
+            "warning_range": "[0.98400, 0.98600)",
+            "hard_fail": "< 0.98400",
+            "value": 0.9859227912600397,
+            "tp": 22832,
+            "n": 23158,
+            "status": "WARNING_REVIEW"
+          },
+          "Gate_2_Clean_Test_FPR": {
+            "target": "<= 0.00962",
+            "warning_range": "(0.00962, 0.01000]",
+            "hard_fail": "> 0.01000",
+            "value": 0.009615033085950353,
+            "fp": 263,
+            "n": 27353,
+            "status": "PASS"
+          },
+          "Gate_3_Benchmark_Bare_Apex_FPR": {
+            "target": "<= 0.1000",
+            "warning_range": "(0.1000, 0.1500]",
+            "hard_fail": "> 0.1500",
+            "value": 0.985,
+            "fp": 197,
+            "n": 200,
+            "status": "HARD_FAIL"
+          },
+          "Gate_4_Benchmark_Overall_FPR": {
+            "target": "<= 0.4500",
+            "warning_range": "(0.4500, 0.5000]",
+            "hard_fail": "> 0.5000",
+            "value": 0.834,
+            "fp": 417,
+            "n": 500,
+            "status": "HARD_FAIL"
+          },
+          "Gate_5_Test_Phishing_Apex_Recall": {
+            "target": ">= 0.98000",
+            "warning_range": "[0.97500, 0.98000)",
+            "hard_fail": "< 0.97500",
+            "value": 0.9795486600846263,
+            "tp": 4167,
+            "n": 4254,
+            "status": "WARNING_REVIEW"
+          },
+          "Gate_6_Adversarial_Recall": {
+            "target": ">= 0.97000",
+            "warning_range": "[0.96500, 0.97000)",
+            "hard_fail": "< 0.96500",
+            "value": 0.9692307692307692,
+            "tp": 3780,
+            "n": 3900,
+            "status": "WARNING_REVIEW"
+          },
+          "Gate_7_Android_Golden_Parity": {
+            "target": "0 regressions",
+            "warning_range": "None permitted",
+            "hard_fail": ">= 1 regression",
+            "regressions_count": 1,
+            "status": "HARD_FAIL"
+          }
+        },
+        "overall_verdict": "HARD_FAIL"
+      }
+    }
+  }
+}

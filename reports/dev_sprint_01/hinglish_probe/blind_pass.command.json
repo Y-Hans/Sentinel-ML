@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_pass.py"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "exit_code": 0,
+  "seconds": 0.5122044086456299,
+  "CPU_only": true,
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONUTF8": "1"
+  },
+  "stdout_sha256": "929bdf9a53bcf58c6d2ee90322cc6ee9127f4eff47c223d57e25191179931666",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

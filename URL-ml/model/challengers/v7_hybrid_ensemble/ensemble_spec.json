@@ -1,0 +1,8 @@
+{
+  "weights": {
+    "v7_et_remed_w3": 0.45,
+    "v7_hgb_remed_w3": 0.45,
+    "v7_mlp_dense_w1": 0.1
+  },
+  "threshold": 0.19190420210105055
+}

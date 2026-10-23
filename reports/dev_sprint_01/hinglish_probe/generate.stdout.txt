@@ -1,0 +1,1 @@
+{"Hinglish:SPAM": 120, "Hinglish:MALICIOUS": 480, "Hinglish:BENIGN": 480, "English:BENIGN": 120, "English:MALICIOUS": 120} batches 40

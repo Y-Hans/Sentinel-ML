@@ -1,0 +1,866 @@
+{
+  "message_length": {
+    "expression": "float(norm.total_chars)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "word_count": {
+    "expression": "float(word_count)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "avg_word_length": {
+    "expression": "float(avg_word_len)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "digit_count": {
+    "expression": "float(norm.digit_count)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "digit_ratio": {
+    "expression": "float(norm.digit_count / total_c)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "uppercase_count": {
+    "expression": "float(norm.uppercase_count)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "uppercase_ratio": {
+    "expression": "float(norm.uppercase_count / total_c)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "special_char_count": {
+    "expression": "float(norm.punctuation_count)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "special_char_ratio": {
+    "expression": "float(norm.punctuation_count / total_c)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "newline_count": {
+    "expression": "float(norm.newline_count)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "whitespace_count": {
+    "expression": "float(norm.whitespace_count)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "zero_width_count": {
+    "expression": "float(norm.zero_width_count)",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "has_homoglyphs": {
+    "expression": "1.0 if norm.has_homoglyphs else 0.0",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "is_mixed_script": {
+    "expression": "1.0 if norm.is_mixed_script else 0.0",
+    "locals": {
+      "total_c": "max(1, norm.total_chars)",
+      "words": "norm.cleaned_text.split()",
+      "word_count": "len(words)",
+      "avg_word_len": "sum((len(w) for w in words)) / max(1, word_count)"
+    },
+    "line": 190,
+    "function": "extract_structural_features"
+  },
+  "urgency_word_count": {
+    "expression": "float(urg_matches)",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "urg_matches": "len(RE_URGENCY_WORDS.findall(text))",
+      "dl_matches": "len(RE_DEADLINE_WORDS.findall(text))",
+      "time_lim": "1.0 if RE_TIME_LIMIT.search(text) else 0.0"
+    },
+    "line": 214,
+    "function": "extract_urgency_features"
+  },
+  "deadline_word_count": {
+    "expression": "float(dl_matches)",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "urg_matches": "len(RE_URGENCY_WORDS.findall(text))",
+      "dl_matches": "len(RE_DEADLINE_WORDS.findall(text))",
+      "time_lim": "1.0 if RE_TIME_LIMIT.search(text) else 0.0"
+    },
+    "line": 214,
+    "function": "extract_urgency_features"
+  },
+  "has_time_limit_pattern": {
+    "expression": "time_lim",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "urg_matches": "len(RE_URGENCY_WORDS.findall(text))",
+      "dl_matches": "len(RE_DEADLINE_WORDS.findall(text))",
+      "time_lim": "1.0 if RE_TIME_LIMIT.search(text) else 0.0"
+    },
+    "line": 214,
+    "function": "extract_urgency_features"
+  },
+  "high_pressure_score": {
+    "expression": "float(urg_matches * 1.5 + dl_matches * 1.0 + time_lim * 2.0)",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "urg_matches": "len(RE_URGENCY_WORDS.findall(text))",
+      "dl_matches": "len(RE_DEADLINE_WORDS.findall(text))",
+      "time_lim": "1.0 if RE_TIME_LIMIT.search(text) else 0.0"
+    },
+    "line": 214,
+    "function": "extract_urgency_features"
+  },
+  "account_blocked_signal": {
+    "expression": "blk",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "blk": "1.0 if RE_ACCOUNT_BLOCKED.search(text) else 0.0",
+      "pen": "1.0 if RE_PENALTY.search(text) else 0.0",
+      "leg": "1.0 if RE_LEGAL_ACTION.search(text) else 0.0",
+      "disc": "1.0 if RE_DISCONNECTION.search(text) else 0.0",
+      "unauth": "1.0 if RE_UNAUTHORIZED_ACTIVITY.search(text) else 0.0",
+      "kyc": "1.0 if RE_KYC_PAN.search(text) else 0.0",
+      "total_signals": "blk + pen + leg + disc + unauth + kyc"
+    },
+    "line": 228,
+    "function": "extract_fear_threat_features"
+  },
+  "penalty_signal": {
+    "expression": "pen",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "blk": "1.0 if RE_ACCOUNT_BLOCKED.search(text) else 0.0",
+      "pen": "1.0 if RE_PENALTY.search(text) else 0.0",
+      "leg": "1.0 if RE_LEGAL_ACTION.search(text) else 0.0",
+      "disc": "1.0 if RE_DISCONNECTION.search(text) else 0.0",
+      "unauth": "1.0 if RE_UNAUTHORIZED_ACTIVITY.search(text) else 0.0",
+      "kyc": "1.0 if RE_KYC_PAN.search(text) else 0.0",
+      "total_signals": "blk + pen + leg + disc + unauth + kyc"
+    },
+    "line": 228,
+    "function": "extract_fear_threat_features"
+  },
+  "legal_action_signal": {
+    "expression": "leg",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "blk": "1.0 if RE_ACCOUNT_BLOCKED.search(text) else 0.0",
+      "pen": "1.0 if RE_PENALTY.search(text) else 0.0",
+      "leg": "1.0 if RE_LEGAL_ACTION.search(text) else 0.0",
+      "disc": "1.0 if RE_DISCONNECTION.search(text) else 0.0",
+      "unauth": "1.0 if RE_UNAUTHORIZED_ACTIVITY.search(text) else 0.0",
+      "kyc": "1.0 if RE_KYC_PAN.search(text) else 0.0",
+      "total_signals": "blk + pen + leg + disc + unauth + kyc"
+    },
+    "line": 228,
+    "function": "extract_fear_threat_features"
+  },
+  "disconnection_signal": {
+    "expression": "disc",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "blk": "1.0 if RE_ACCOUNT_BLOCKED.search(text) else 0.0",
+      "pen": "1.0 if RE_PENALTY.search(text) else 0.0",
+      "leg": "1.0 if RE_LEGAL_ACTION.search(text) else 0.0",
+      "disc": "1.0 if RE_DISCONNECTION.search(text) else 0.0",
+      "unauth": "1.0 if RE_UNAUTHORIZED_ACTIVITY.search(text) else 0.0",
+      "kyc": "1.0 if RE_KYC_PAN.search(text) else 0.0",
+      "total_signals": "blk + pen + leg + disc + unauth + kyc"
+    },
+    "line": 228,
+    "function": "extract_fear_threat_features"
+  },
+  "unauthorized_activity_signal": {
+    "expression": "unauth",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "blk": "1.0 if RE_ACCOUNT_BLOCKED.search(text) else 0.0",
+      "pen": "1.0 if RE_PENALTY.search(text) else 0.0",
+      "leg": "1.0 if RE_LEGAL_ACTION.search(text) else 0.0",
+      "disc": "1.0 if RE_DISCONNECTION.search(text) else 0.0",
+      "unauth": "1.0 if RE_UNAUTHORIZED_ACTIVITY.search(text) else 0.0",
+      "kyc": "1.0 if RE_KYC_PAN.search(text) else 0.0",
+      "total_signals": "blk + pen + leg + disc + unauth + kyc"
+    },
+    "line": 228,
+    "function": "extract_fear_threat_features"
+  },
+  "kyc_pan_signal": {
+    "expression": "kyc",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "blk": "1.0 if RE_ACCOUNT_BLOCKED.search(text) else 0.0",
+      "pen": "1.0 if RE_PENALTY.search(text) else 0.0",
+      "leg": "1.0 if RE_LEGAL_ACTION.search(text) else 0.0",
+      "disc": "1.0 if RE_DISCONNECTION.search(text) else 0.0",
+      "unauth": "1.0 if RE_UNAUTHORIZED_ACTIVITY.search(text) else 0.0",
+      "kyc": "1.0 if RE_KYC_PAN.search(text) else 0.0",
+      "total_signals": "blk + pen + leg + disc + unauth + kyc"
+    },
+    "line": 228,
+    "function": "extract_fear_threat_features"
+  },
+  "total_fear_signals_count": {
+    "expression": "float(total_signals)",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "blk": "1.0 if RE_ACCOUNT_BLOCKED.search(text) else 0.0",
+      "pen": "1.0 if RE_PENALTY.search(text) else 0.0",
+      "leg": "1.0 if RE_LEGAL_ACTION.search(text) else 0.0",
+      "disc": "1.0 if RE_DISCONNECTION.search(text) else 0.0",
+      "unauth": "1.0 if RE_UNAUTHORIZED_ACTIVITY.search(text) else 0.0",
+      "kyc": "1.0 if RE_KYC_PAN.search(text) else 0.0",
+      "total_signals": "blk + pen + leg + disc + unauth + kyc"
+    },
+    "line": 228,
+    "function": "extract_fear_threat_features"
+  },
+  "otp_generic_present": {
+    "expression": "otp_gen",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "otp_gen": "1.0 if RE_OTP_GENERIC.search(text) else 0.0",
+      "pin_pres": "1.0 if RE_PIN.search(text) else 0.0",
+      "pass_pres": "1.0 if RE_PASSWORD.search(text) else 0.0",
+      "num_codes": "RE_NUMERIC_CODE.findall(text)",
+      "has_code": "1.0 if len(num_codes) > 0 else 0.0",
+      "max_code_len": "float(max((len(c) for c in num_codes), default=0))"
+    },
+    "line": 250,
+    "function": "extract_auth_features"
+  },
+  "pin_present": {
+    "expression": "pin_pres",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "otp_gen": "1.0 if RE_OTP_GENERIC.search(text) else 0.0",
+      "pin_pres": "1.0 if RE_PIN.search(text) else 0.0",
+      "pass_pres": "1.0 if RE_PASSWORD.search(text) else 0.0",
+      "num_codes": "RE_NUMERIC_CODE.findall(text)",
+      "has_code": "1.0 if len(num_codes) > 0 else 0.0",
+      "max_code_len": "float(max((len(c) for c in num_codes), default=0))"
+    },
+    "line": 250,
+    "function": "extract_auth_features"
+  },
+  "password_present": {
+    "expression": "pass_pres",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "otp_gen": "1.0 if RE_OTP_GENERIC.search(text) else 0.0",
+      "pin_pres": "1.0 if RE_PIN.search(text) else 0.0",
+      "pass_pres": "1.0 if RE_PASSWORD.search(text) else 0.0",
+      "num_codes": "RE_NUMERIC_CODE.findall(text)",
+      "has_code": "1.0 if len(num_codes) > 0 else 0.0",
+      "max_code_len": "float(max((len(c) for c in num_codes), default=0))"
+    },
+    "line": 250,
+    "function": "extract_auth_features"
+  },
+  "numeric_code_present": {
+    "expression": "has_code",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "otp_gen": "1.0 if RE_OTP_GENERIC.search(text) else 0.0",
+      "pin_pres": "1.0 if RE_PIN.search(text) else 0.0",
+      "pass_pres": "1.0 if RE_PASSWORD.search(text) else 0.0",
+      "num_codes": "RE_NUMERIC_CODE.findall(text)",
+      "has_code": "1.0 if len(num_codes) > 0 else 0.0",
+      "max_code_len": "float(max((len(c) for c in num_codes), default=0))"
+    },
+    "line": 250,
+    "function": "extract_auth_features"
+  },
+  "numeric_code_length": {
+    "expression": "max_code_len",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "otp_gen": "1.0 if RE_OTP_GENERIC.search(text) else 0.0",
+      "pin_pres": "1.0 if RE_PIN.search(text) else 0.0",
+      "pass_pres": "1.0 if RE_PASSWORD.search(text) else 0.0",
+      "num_codes": "RE_NUMERIC_CODE.findall(text)",
+      "has_code": "1.0 if len(num_codes) > 0 else 0.0",
+      "max_code_len": "float(max((len(c) for c in num_codes), default=0))"
+    },
+    "line": 250,
+    "function": "extract_auth_features"
+  },
+  "otp_present": {
+    "expression": "otp_pres",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "otp_pres": "1.0 if RE_OTP_GENERIC.search(text) or RE_NUMERIC_CODE.search(text) else 0.0",
+      "neg_warn": "1.0 if RE_OTP_NEGATION_WARNING.search(text) else 0.0",
+      "disc_req": "1.0 if RE_OTP_DISCLOSURE_REQUEST.search(text) else 0.0",
+      "deliv_ctx": "1.0 if RE_DELIVERY_CONTEXT.search(text) else 0.0",
+      "intent_score": "disc_req * 3.0 - neg_warn * 2.0 - deliv_ctx * 1.5"
+    },
+    "line": 268,
+    "function": "extract_otp_intent_features"
+  },
+  "otp_negation_warning": {
+    "expression": "neg_warn",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "otp_pres": "1.0 if RE_OTP_GENERIC.search(text) or RE_NUMERIC_CODE.search(text) else 0.0",
+      "neg_warn": "1.0 if RE_OTP_NEGATION_WARNING.search(text) else 0.0",
+      "disc_req": "1.0 if RE_OTP_DISCLOSURE_REQUEST.search(text) else 0.0",
+      "deliv_ctx": "1.0 if RE_DELIVERY_CONTEXT.search(text) else 0.0",
+      "intent_score": "disc_req * 3.0 - neg_warn * 2.0 - deliv_ctx * 1.5"
+    },
+    "line": 268,
+    "function": "extract_otp_intent_features"
+  },
+  "otp_disclosure_request": {
+    "expression": "disc_req",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "otp_pres": "1.0 if RE_OTP_GENERIC.search(text) or RE_NUMERIC_CODE.search(text) else 0.0",
+      "neg_warn": "1.0 if RE_OTP_NEGATION_WARNING.search(text) else 0.0",
+      "disc_req": "1.0 if RE_OTP_DISCLOSURE_REQUEST.search(text) else 0.0",
+      "deliv_ctx": "1.0 if RE_DELIVERY_CONTEXT.search(text) else 0.0",
+      "intent_score": "disc_req * 3.0 - neg_warn * 2.0 - deliv_ctx * 1.5"
+    },
+    "line": 268,
+    "function": "extract_otp_intent_features"
+  },
+  "delivery_otp_context": {
+    "expression": "deliv_ctx",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "otp_pres": "1.0 if RE_OTP_GENERIC.search(text) or RE_NUMERIC_CODE.search(text) else 0.0",
+      "neg_warn": "1.0 if RE_OTP_NEGATION_WARNING.search(text) else 0.0",
+      "disc_req": "1.0 if RE_OTP_DISCLOSURE_REQUEST.search(text) else 0.0",
+      "deliv_ctx": "1.0 if RE_DELIVERY_CONTEXT.search(text) else 0.0",
+      "intent_score": "disc_req * 3.0 - neg_warn * 2.0 - deliv_ctx * 1.5"
+    },
+    "line": 268,
+    "function": "extract_otp_intent_features"
+  },
+  "otp_intent_risk_score": {
+    "expression": "float(intent_score)",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "otp_pres": "1.0 if RE_OTP_GENERIC.search(text) or RE_NUMERIC_CODE.search(text) else 0.0",
+      "neg_warn": "1.0 if RE_OTP_NEGATION_WARNING.search(text) else 0.0",
+      "disc_req": "1.0 if RE_OTP_DISCLOSURE_REQUEST.search(text) else 0.0",
+      "deliv_ctx": "1.0 if RE_DELIVERY_CONTEXT.search(text) else 0.0",
+      "intent_score": "disc_req * 3.0 - neg_warn * 2.0 - deliv_ctx * 1.5"
+    },
+    "line": 268,
+    "function": "extract_otp_intent_features"
+  },
+  "debit_credit_count": {
+    "expression": "float(dc_matches)",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "dc_matches": "len(RE_DEBIT_CREDIT.findall(text))",
+      "amt": "1.0 if RE_CURRENCY_AMOUNT.search(text) else 0.0",
+      "acct": "1.0 if RE_MASKED_ACCOUNT.search(text) else 0.0",
+      "bal": "1.0 if RE_BALANCE.search(text) else 0.0",
+      "upi_coll": "1.0 if RE_UPI_COLLECT.search(text) else 0.0",
+      "lures": "len(RE_LURE_PRIZE.findall(text))"
+    },
+    "line": 287,
+    "function": "extract_financial_features"
+  },
+  "currency_amount_present": {
+    "expression": "amt",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "dc_matches": "len(RE_DEBIT_CREDIT.findall(text))",
+      "amt": "1.0 if RE_CURRENCY_AMOUNT.search(text) else 0.0",
+      "acct": "1.0 if RE_MASKED_ACCOUNT.search(text) else 0.0",
+      "bal": "1.0 if RE_BALANCE.search(text) else 0.0",
+      "upi_coll": "1.0 if RE_UPI_COLLECT.search(text) else 0.0",
+      "lures": "len(RE_LURE_PRIZE.findall(text))"
+    },
+    "line": 287,
+    "function": "extract_financial_features"
+  },
+  "masked_account_present": {
+    "expression": "acct",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "dc_matches": "len(RE_DEBIT_CREDIT.findall(text))",
+      "amt": "1.0 if RE_CURRENCY_AMOUNT.search(text) else 0.0",
+      "acct": "1.0 if RE_MASKED_ACCOUNT.search(text) else 0.0",
+      "bal": "1.0 if RE_BALANCE.search(text) else 0.0",
+      "upi_coll": "1.0 if RE_UPI_COLLECT.search(text) else 0.0",
+      "lures": "len(RE_LURE_PRIZE.findall(text))"
+    },
+    "line": 287,
+    "function": "extract_financial_features"
+  },
+  "balance_keyword_present": {
+    "expression": "bal",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "dc_matches": "len(RE_DEBIT_CREDIT.findall(text))",
+      "amt": "1.0 if RE_CURRENCY_AMOUNT.search(text) else 0.0",
+      "acct": "1.0 if RE_MASKED_ACCOUNT.search(text) else 0.0",
+      "bal": "1.0 if RE_BALANCE.search(text) else 0.0",
+      "upi_coll": "1.0 if RE_UPI_COLLECT.search(text) else 0.0",
+      "lures": "len(RE_LURE_PRIZE.findall(text))"
+    },
+    "line": 287,
+    "function": "extract_financial_features"
+  },
+  "upi_collect_keyword_present": {
+    "expression": "upi_coll",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "dc_matches": "len(RE_DEBIT_CREDIT.findall(text))",
+      "amt": "1.0 if RE_CURRENCY_AMOUNT.search(text) else 0.0",
+      "acct": "1.0 if RE_MASKED_ACCOUNT.search(text) else 0.0",
+      "bal": "1.0 if RE_BALANCE.search(text) else 0.0",
+      "upi_coll": "1.0 if RE_UPI_COLLECT.search(text) else 0.0",
+      "lures": "len(RE_LURE_PRIZE.findall(text))"
+    },
+    "line": 287,
+    "function": "extract_financial_features"
+  },
+  "prize_lure_count": {
+    "expression": "float(lures)",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "dc_matches": "len(RE_DEBIT_CREDIT.findall(text))",
+      "amt": "1.0 if RE_CURRENCY_AMOUNT.search(text) else 0.0",
+      "acct": "1.0 if RE_MASKED_ACCOUNT.search(text) else 0.0",
+      "bal": "1.0 if RE_BALANCE.search(text) else 0.0",
+      "upi_coll": "1.0 if RE_UPI_COLLECT.search(text) else 0.0",
+      "lures": "len(RE_LURE_PRIZE.findall(text))"
+    },
+    "line": 287,
+    "function": "extract_financial_features"
+  },
+  "url_count": {
+    "expression": "float(url_count)",
+    "locals": {
+      "raw": "norm.raw_text",
+      "urls": "RE_URL.findall(raw)",
+      "url_count": "len(urls)",
+      "has_short": "1.0 if RE_SHORTENER.search(raw) else 0.0",
+      "has_ip": "1.0 if RE_RAW_IP.search(raw) else 0.0",
+      "has_apk": "1.0 if RE_APK.search(raw) else 0.0",
+      "phones": "RE_PHONE.findall(raw)",
+      "phone_count": "len(phones)",
+      "vpas": "RE_UPI_VPA.findall(raw)",
+      "vpa_count": "len(vpas)",
+      "has_wa": "1.0 if RE_WHATSAPP_CTA.search(raw) else 0.0"
+    },
+    "line": 306,
+    "function": "extract_cta_features"
+  },
+  "has_shortener_url": {
+    "expression": "has_short",
+    "locals": {
+      "raw": "norm.raw_text",
+      "urls": "RE_URL.findall(raw)",
+      "url_count": "len(urls)",
+      "has_short": "1.0 if RE_SHORTENER.search(raw) else 0.0",
+      "has_ip": "1.0 if RE_RAW_IP.search(raw) else 0.0",
+      "has_apk": "1.0 if RE_APK.search(raw) else 0.0",
+      "phones": "RE_PHONE.findall(raw)",
+      "phone_count": "len(phones)",
+      "vpas": "RE_UPI_VPA.findall(raw)",
+      "vpa_count": "len(vpas)",
+      "has_wa": "1.0 if RE_WHATSAPP_CTA.search(raw) else 0.0"
+    },
+    "line": 306,
+    "function": "extract_cta_features"
+  },
+  "has_raw_ip_url": {
+    "expression": "has_ip",
+    "locals": {
+      "raw": "norm.raw_text",
+      "urls": "RE_URL.findall(raw)",
+      "url_count": "len(urls)",
+      "has_short": "1.0 if RE_SHORTENER.search(raw) else 0.0",
+      "has_ip": "1.0 if RE_RAW_IP.search(raw) else 0.0",
+      "has_apk": "1.0 if RE_APK.search(raw) else 0.0",
+      "phones": "RE_PHONE.findall(raw)",
+      "phone_count": "len(phones)",
+      "vpas": "RE_UPI_VPA.findall(raw)",
+      "vpa_count": "len(vpas)",
+      "has_wa": "1.0 if RE_WHATSAPP_CTA.search(raw) else 0.0"
+    },
+    "line": 306,
+    "function": "extract_cta_features"
+  },
+  "has_apk_reference": {
+    "expression": "has_apk",
+    "locals": {
+      "raw": "norm.raw_text",
+      "urls": "RE_URL.findall(raw)",
+      "url_count": "len(urls)",
+      "has_short": "1.0 if RE_SHORTENER.search(raw) else 0.0",
+      "has_ip": "1.0 if RE_RAW_IP.search(raw) else 0.0",
+      "has_apk": "1.0 if RE_APK.search(raw) else 0.0",
+      "phones": "RE_PHONE.findall(raw)",
+      "phone_count": "len(phones)",
+      "vpas": "RE_UPI_VPA.findall(raw)",
+      "vpa_count": "len(vpas)",
+      "has_wa": "1.0 if RE_WHATSAPP_CTA.search(raw) else 0.0"
+    },
+    "line": 306,
+    "function": "extract_cta_features"
+  },
+  "phone_number_count": {
+    "expression": "float(phone_count)",
+    "locals": {
+      "raw": "norm.raw_text",
+      "urls": "RE_URL.findall(raw)",
+      "url_count": "len(urls)",
+      "has_short": "1.0 if RE_SHORTENER.search(raw) else 0.0",
+      "has_ip": "1.0 if RE_RAW_IP.search(raw) else 0.0",
+      "has_apk": "1.0 if RE_APK.search(raw) else 0.0",
+      "phones": "RE_PHONE.findall(raw)",
+      "phone_count": "len(phones)",
+      "vpas": "RE_UPI_VPA.findall(raw)",
+      "vpa_count": "len(vpas)",
+      "has_wa": "1.0 if RE_WHATSAPP_CTA.search(raw) else 0.0"
+    },
+    "line": 306,
+    "function": "extract_cta_features"
+  },
+  "upi_vpa_count": {
+    "expression": "float(vpa_count)",
+    "locals": {
+      "raw": "norm.raw_text",
+      "urls": "RE_URL.findall(raw)",
+      "url_count": "len(urls)",
+      "has_short": "1.0 if RE_SHORTENER.search(raw) else 0.0",
+      "has_ip": "1.0 if RE_RAW_IP.search(raw) else 0.0",
+      "has_apk": "1.0 if RE_APK.search(raw) else 0.0",
+      "phones": "RE_PHONE.findall(raw)",
+      "phone_count": "len(phones)",
+      "vpas": "RE_UPI_VPA.findall(raw)",
+      "vpa_count": "len(vpas)",
+      "has_wa": "1.0 if RE_WHATSAPP_CTA.search(raw) else 0.0"
+    },
+    "line": 306,
+    "function": "extract_cta_features"
+  },
+  "whatsapp_cta_present": {
+    "expression": "has_wa",
+    "locals": {
+      "raw": "norm.raw_text",
+      "urls": "RE_URL.findall(raw)",
+      "url_count": "len(urls)",
+      "has_short": "1.0 if RE_SHORTENER.search(raw) else 0.0",
+      "has_ip": "1.0 if RE_RAW_IP.search(raw) else 0.0",
+      "has_apk": "1.0 if RE_APK.search(raw) else 0.0",
+      "phones": "RE_PHONE.findall(raw)",
+      "phone_count": "len(phones)",
+      "vpas": "RE_UPI_VPA.findall(raw)",
+      "vpa_count": "len(vpas)",
+      "has_wa": "1.0 if RE_WHATSAPP_CTA.search(raw) else 0.0"
+    },
+    "line": 306,
+    "function": "extract_cta_features"
+  },
+  "sender_is_alphanumeric": {
+    "expression": "is_alpha",
+    "locals": {
+      "is_alpha": "1.0 if sender_res.sender_type == 'ALPHANUMERIC_HEADER' else 0.0",
+      "is_dlt": "1.0 if sender_res.has_dlt_structural_shape else 0.0",
+      "is_phone": "1.0 if sender_res.sender_type == 'PHONE_NUMBER' else 0.0",
+      "is_short": "1.0 if sender_res.is_shortcode else 0.0",
+      "has_bank": "1.0 if sender_res.known_entity_category == 'BANK' else 0.0",
+      "body_has_bank": "1.0 if RE_MASKED_ACCOUNT.search(norm.normalized_lowercase) or RE_KYC_PAN.search(norm.normalized_lowercase) else 0.0",
+      "body_has_disc": "1.0 if RE_DISCONNECTION.search(norm.normalized_lowercase) else 0.0",
+      "phone_bank_mismatch": "1.0 if is_phone and (body_has_bank or body_has_disc) else 0.0"
+    },
+    "line": 330,
+    "function": "extract_sender_features"
+  },
+  "sender_is_dlt_shape": {
+    "expression": "is_dlt",
+    "locals": {
+      "is_alpha": "1.0 if sender_res.sender_type == 'ALPHANUMERIC_HEADER' else 0.0",
+      "is_dlt": "1.0 if sender_res.has_dlt_structural_shape else 0.0",
+      "is_phone": "1.0 if sender_res.sender_type == 'PHONE_NUMBER' else 0.0",
+      "is_short": "1.0 if sender_res.is_shortcode else 0.0",
+      "has_bank": "1.0 if sender_res.known_entity_category == 'BANK' else 0.0",
+      "body_has_bank": "1.0 if RE_MASKED_ACCOUNT.search(norm.normalized_lowercase) or RE_KYC_PAN.search(norm.normalized_lowercase) else 0.0",
+      "body_has_disc": "1.0 if RE_DISCONNECTION.search(norm.normalized_lowercase) else 0.0",
+      "phone_bank_mismatch": "1.0 if is_phone and (body_has_bank or body_has_disc) else 0.0"
+    },
+    "line": 330,
+    "function": "extract_sender_features"
+  },
+  "sender_is_phone_number": {
+    "expression": "is_phone",
+    "locals": {
+      "is_alpha": "1.0 if sender_res.sender_type == 'ALPHANUMERIC_HEADER' else 0.0",
+      "is_dlt": "1.0 if sender_res.has_dlt_structural_shape else 0.0",
+      "is_phone": "1.0 if sender_res.sender_type == 'PHONE_NUMBER' else 0.0",
+      "is_short": "1.0 if sender_res.is_shortcode else 0.0",
+      "has_bank": "1.0 if sender_res.known_entity_category == 'BANK' else 0.0",
+      "body_has_bank": "1.0 if RE_MASKED_ACCOUNT.search(norm.normalized_lowercase) or RE_KYC_PAN.search(norm.normalized_lowercase) else 0.0",
+      "body_has_disc": "1.0 if RE_DISCONNECTION.search(norm.normalized_lowercase) else 0.0",
+      "phone_bank_mismatch": "1.0 if is_phone and (body_has_bank or body_has_disc) else 0.0"
+    },
+    "line": 330,
+    "function": "extract_sender_features"
+  },
+  "sender_is_shortcode": {
+    "expression": "is_short",
+    "locals": {
+      "is_alpha": "1.0 if sender_res.sender_type == 'ALPHANUMERIC_HEADER' else 0.0",
+      "is_dlt": "1.0 if sender_res.has_dlt_structural_shape else 0.0",
+      "is_phone": "1.0 if sender_res.sender_type == 'PHONE_NUMBER' else 0.0",
+      "is_short": "1.0 if sender_res.is_shortcode else 0.0",
+      "has_bank": "1.0 if sender_res.known_entity_category == 'BANK' else 0.0",
+      "body_has_bank": "1.0 if RE_MASKED_ACCOUNT.search(norm.normalized_lowercase) or RE_KYC_PAN.search(norm.normalized_lowercase) else 0.0",
+      "body_has_disc": "1.0 if RE_DISCONNECTION.search(norm.normalized_lowercase) else 0.0",
+      "phone_bank_mismatch": "1.0 if is_phone and (body_has_bank or body_has_disc) else 0.0"
+    },
+    "line": 330,
+    "function": "extract_sender_features"
+  },
+  "sender_has_bank_match": {
+    "expression": "has_bank",
+    "locals": {
+      "is_alpha": "1.0 if sender_res.sender_type == 'ALPHANUMERIC_HEADER' else 0.0",
+      "is_dlt": "1.0 if sender_res.has_dlt_structural_shape else 0.0",
+      "is_phone": "1.0 if sender_res.sender_type == 'PHONE_NUMBER' else 0.0",
+      "is_short": "1.0 if sender_res.is_shortcode else 0.0",
+      "has_bank": "1.0 if sender_res.known_entity_category == 'BANK' else 0.0",
+      "body_has_bank": "1.0 if RE_MASKED_ACCOUNT.search(norm.normalized_lowercase) or RE_KYC_PAN.search(norm.normalized_lowercase) else 0.0",
+      "body_has_disc": "1.0 if RE_DISCONNECTION.search(norm.normalized_lowercase) else 0.0",
+      "phone_bank_mismatch": "1.0 if is_phone and (body_has_bank or body_has_disc) else 0.0"
+    },
+    "line": 330,
+    "function": "extract_sender_features"
+  },
+  "sender_phone_with_banking_body": {
+    "expression": "phone_bank_mismatch",
+    "locals": {
+      "is_alpha": "1.0 if sender_res.sender_type == 'ALPHANUMERIC_HEADER' else 0.0",
+      "is_dlt": "1.0 if sender_res.has_dlt_structural_shape else 0.0",
+      "is_phone": "1.0 if sender_res.sender_type == 'PHONE_NUMBER' else 0.0",
+      "is_short": "1.0 if sender_res.is_shortcode else 0.0",
+      "has_bank": "1.0 if sender_res.known_entity_category == 'BANK' else 0.0",
+      "body_has_bank": "1.0 if RE_MASKED_ACCOUNT.search(norm.normalized_lowercase) or RE_KYC_PAN.search(norm.normalized_lowercase) else 0.0",
+      "body_has_disc": "1.0 if RE_DISCONNECTION.search(norm.normalized_lowercase) else 0.0",
+      "phone_bank_mismatch": "1.0 if is_phone and (body_has_bank or body_has_disc) else 0.0"
+    },
+    "line": 330,
+    "function": "extract_sender_features"
+  },
+  "legit_institution_keyword_count": {
+    "expression": "float(inst)",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "inst": "len(RE_LEGIT_INSTITUTION.findall(text))",
+      "notice": "len(RE_LEGIT_NOTICE.findall(text))",
+      "has_inst": "1.0 if inst > 0 else 0.0",
+      "has_notice": "1.0 if notice > 0 else 0.0"
+    },
+    "line": 354,
+    "function": "extract_legit_intent_features"
+  },
+  "legit_notice_keyword_count": {
+    "expression": "float(notice)",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "inst": "len(RE_LEGIT_INSTITUTION.findall(text))",
+      "notice": "len(RE_LEGIT_NOTICE.findall(text))",
+      "has_inst": "1.0 if inst > 0 else 0.0",
+      "has_notice": "1.0 if notice > 0 else 0.0"
+    },
+    "line": 354,
+    "function": "extract_legit_intent_features"
+  },
+  "has_legit_institution": {
+    "expression": "has_inst",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "inst": "len(RE_LEGIT_INSTITUTION.findall(text))",
+      "notice": "len(RE_LEGIT_NOTICE.findall(text))",
+      "has_inst": "1.0 if inst > 0 else 0.0",
+      "has_notice": "1.0 if notice > 0 else 0.0"
+    },
+    "line": 354,
+    "function": "extract_legit_intent_features"
+  },
+  "has_legit_notice": {
+    "expression": "has_notice",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "inst": "len(RE_LEGIT_INSTITUTION.findall(text))",
+      "notice": "len(RE_LEGIT_NOTICE.findall(text))",
+      "has_inst": "1.0 if inst > 0 else 0.0",
+      "has_notice": "1.0 if notice > 0 else 0.0"
+    },
+    "line": 354,
+    "function": "extract_legit_intent_features"
+  },
+  "legit_context_score": {
+    "expression": "float(inst * 1.0 + notice * 1.5)",
+    "locals": {
+      "text": "norm.normalized_lowercase",
+      "inst": "len(RE_LEGIT_INSTITUTION.findall(text))",
+      "notice": "len(RE_LEGIT_NOTICE.findall(text))",
+      "has_inst": "1.0 if inst > 0 else 0.0",
+      "has_notice": "1.0 if notice > 0 else 0.0"
+    },
+    "line": 354,
+    "function": "extract_legit_intent_features"
+  },
+  "urgency_x_legit_intent": {
+    "expression": "features.get('urgency_word_count', 0.0) * features.get('legit_context_score', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  },
+  "kyc_x_sender": {
+    "expression": "features.get('kyc_pan_signal', 0.0) * features.get('sender_is_alphanumeric', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  },
+  "otp_x_protective": {
+    "expression": "features.get('otp_intent_signal', 0.0) * features.get('legit_notice_keyword_count', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  },
+  "financial_x_credential": {
+    "expression": "features.get('financial_keyword_count', 0.0) * features.get('credential_theft_signal', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  },
+  "url_x_cta": {
+    "expression": "features.get('has_url', 0.0) * features.get('has_cta_link', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  },
+  "url_x_sender": {
+    "expression": "features.get('has_url', 0.0) * features.get('sender_is_phone_number', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  },
+  "institutional_x_url": {
+    "expression": "features.get('legit_institution_keyword_count', 0.0) * features.get('has_url', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  },
+  "suspension_x_protective": {
+    "expression": "features.get('account_suspension_signal', 0.0) * features.get('legit_notice_keyword_count', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  },
+  "banking_x_disclosure": {
+    "expression": "features.get('banking_keyword_count', 0.0) * features.get('disclosure_request_signal', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  },
+  "urgency_x_credential": {
+    "expression": "features.get('urgency_word_count', 0.0) * features.get('credential_theft_signal', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  },
+  "fear_x_cta": {
+    "expression": "features.get('total_fear_signals_count', 0.0) * features.get('has_cta_link', 0.0)",
+    "locals": {},
+    "line": 371,
+    "function": "extract_interaction_features"
+  }
+}

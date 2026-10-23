@@ -1,0 +1,24 @@
+{
+  "environment": {
+    "python": "3.11.15 (main, Jun 11 2026, 04:59:07) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\URL-ml\\venv\\Scripts\\python.exe",
+    "numpy": "2.4.6",
+    "sklearn": "1.9.0",
+    "joblib": "1.5.3"
+  },
+  "models": {
+    "7": {
+      "path": "sentinel-ml/URL-ml/models/v7_champion.joblib",
+      "sha256": "d414bf668484ea5ba6056b626f0d8e674e0085208ba23d964522b09557affdaa",
+      "warnings": [],
+      "mode": "OBSERVED_JOBLIB"
+    },
+    "8": {
+      "path": "sentinel-ml/URL-ml/models/v8_champion.joblib",
+      "sha256": "073e70f215c0c3279288ec69a692ed5cab7e99a443ed7b4f87da51ae67cf0e58",
+      "warnings": [],
+      "mode": "OBSERVED_JOBLIB"
+    }
+  },
+  "simulation_hash": "4ee7b9b2ae48e8172a0a91149895a5218a59dfc42a755a734b578579e6503318"
+}

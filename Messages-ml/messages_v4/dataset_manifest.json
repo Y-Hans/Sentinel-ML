@@ -1,0 +1,34 @@
+{
+  "version": "messages_v4_dataset_1",
+  "created_utc": "2026-09-14T08:42:56.046200+00:00",
+  "base": "data/processed/train_expanded_v5.jsonl",
+  "base_records": 17361,
+  "controlled_synthetic_records": 112,
+  "total_records": 17473,
+  "label_counts": {
+    "MALICIOUS": 11796,
+    "BENIGN": 4508,
+    "SUSPICIOUS_SPAM": 1169
+  },
+  "source_counts": {
+    "SRC_IMC25_FISHING_SMISHING": 11343,
+    "SRC_MENDELEY_SMISHING_2022": 4095,
+    "SRC_CURATED_HARD_NEGATIVES_V1": 230,
+    "SRC_UCI_SMS_SPAM_2011": 187,
+    "SRC_CONTRASTIVE_PAIRS_V1": 360,
+    "SRC_ERROR_DRIVEN_EXPANSION_V1": 720,
+    "SRC_UTILITY_EXPANSION_V1": 246,
+    "SRC_CREDENTIAL_EXPANSION_V1": 180,
+    "SRC_V4_CONTROLLED_CONTRASTIVE_V1": 48,
+    "SRC_V4_CONTROLLED_HINGLISH_V1": 64
+  },
+  "sha256": "fd02ad59f4b8b708df99dbfaa9c326cf98233d21e22ec2dc65898d14c69734f9",
+  "protected_evaluation_inputs": [
+    "val.jsonl",
+    "test.jsonl",
+    "ood.jsonl",
+    "data/benchmarks/*",
+    "7sep_messages_v3/data/bench_*.jsonl"
+  ],
+  "policy": "Protected evaluation text was not copied or paraphrased into V4 training."
+}

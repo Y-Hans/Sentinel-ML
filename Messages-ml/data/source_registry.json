@@ -1,0 +1,260 @@
+{
+  "version": "1.0.0",
+  "description": "Registry of candidate and vetted external/internal dataset sources for Message ML with provenance, licensing, and security suitability metadata.",
+  "sources": [
+    {
+      "source_id": "SRC_MENDELEY_SMISHING_2022",
+      "dataset_name": "SMS Phishing Dataset for Machine Learning and Pattern Recognition",
+      "authors": ["Sandhya Mishra", "Dr. Devpriya Soni", "Dr. Gunikhan Sonowal", "Tiago A. Almeida"],
+      "publisher": "Mendeley Data",
+      "publication_year": 2022,
+      "official_url": "https://doi.org/10.17632/f45bkkt8pr.1",
+      "paper_title": "SMS Phishing Dataset for Machine Learning and Pattern Recognition",
+      "license": "CC BY 4.0",
+      "license_verified": true,
+      "permitted_usage": "Research and Commercial use with attribution",
+      "record_count": 5971,
+      "source_label_taxonomy": ["ham", "spam", "Smishing"],
+      "primary_language": "en",
+      "language_coverage": ["en"],
+      "country_relevance": "International / India",
+      "contains_real_sms": true,
+      "contains_synthetic": false,
+      "contains_pii": true,
+      "pii_masking_required": true,
+      "sender_header_available": false,
+      "url_metadata_available": true,
+      "suitability_score": 92,
+      "suitability_tier": "PRIMARY_RECOMMENDED",
+      "category": "SECURITY_SMISHING",
+      "sentinel_security_label_mapping": {
+        "ham": "BENIGN",
+        "spam": "SUSPICIOUS_SPAM",
+        "Smishing": "MALICIOUS"
+      },
+      "sentinel_intent_mapping": {
+        "ham": "PERSONAL_P2P",
+        "spam": "PROMOTIONAL",
+        "Smishing": "UNKNOWN"
+      },
+      "default_threat_vector_mapping": {
+        "ham": ["NONE"],
+        "spam": ["COMMERCIAL_SPAM"],
+        "Smishing": ["CREDENTIAL_REQUEST"]
+      },
+      "redistribution_allowed": true,
+      "repository_storage_allowed": true,
+      "notes": "Key benchmark dataset with explicit 3-tier separation between benign ham, promotional spam, and smishing attacks."
+    },
+    {
+      "source_id": "SRC_IMC25_FISHING_SMISHING",
+      "dataset_name": "Smishing-Dataset-IMC25 (Fishing for Smishing)",
+      "authors": ["Sharad Agarwal", "Antonis Papasavva", "Guillermo Suarez-Tangil", "Marie Vasek"],
+      "publisher": "ACM Internet Measurement Conference (IMC '25)",
+      "publication_year": 2025,
+      "official_url": "https://github.com/reportsmishing/Smishing-Dataset-IMC25",
+      "paper_title": "Fishing for Smishing: Understanding SMS Phishing Infrastructure and Strategies by Mining Public User Reports",
+      "license": "CC BY 4.0",
+      "license_verified": true,
+      "permitted_usage": "Research and Open Science with attribution",
+      "record_count": 12500,
+      "source_label_taxonomy": ["smishing", "phishing_url", "apk_dropper", "delivery_scam"],
+      "primary_language": "en",
+      "language_coverage": ["en", "es", "fr", "multilingual"],
+      "country_relevance": "Global",
+      "contains_real_sms": true,
+      "contains_synthetic": false,
+      "contains_pii": true,
+      "pii_masking_required": true,
+      "sender_header_available": true,
+      "url_metadata_available": true,
+      "suitability_score": 88,
+      "suitability_tier": "PRIMARY_RECOMMENDED",
+      "category": "SECURITY_SMISHING",
+      "sentinel_security_label_mapping": {
+        "smishing": "MALICIOUS",
+        "phishing_url": "MALICIOUS",
+        "apk_dropper": "MALICIOUS",
+        "delivery_scam": "MALICIOUS"
+      },
+      "sentinel_intent_mapping": {
+        "delivery_scam": "DELIVERY",
+        "apk_dropper": "SERVICE_UPDATE",
+        "smishing": "UNKNOWN"
+      },
+      "default_threat_vector_mapping": {
+        "apk_dropper": ["APK_MALWARE_DROPPER"],
+        "delivery_scam": ["DELIVERY_SCAM"],
+        "phishing_url": ["CREDENTIAL_REQUEST"],
+        "smishing": ["CREDENTIAL_REQUEST"]
+      },
+      "redistribution_allowed": true,
+      "repository_storage_allowed": true,
+      "notes": "State-of-the-art 2025 smishing corpus capturing modern mobile malware droppers, fake logistics scams, and credential harvesting links."
+    },
+    {
+      "source_id": "SRC_IIITD_SMS_SPAM",
+      "dataset_name": "IIIT-D SMS Spam Dataset (SMSAssassin)",
+      "authors": ["Kuldeep Yadav", "Ponnurangam Kumaraguru", "Atul Goyal", "Vinayak Naik"],
+      "publisher": "IIIT Delhi",
+      "publication_year": 2011,
+      "official_url": "https://precog.iiitd.edu.in/publications.html",
+      "paper_title": "SMSAssassin: Crowdsourcing driven mobile-based system for SMS spam filtering",
+      "license": "Research Use Only",
+      "license_verified": true,
+      "permitted_usage": "Academic Research and Non-Commercial Evaluation",
+      "record_count": 2000,
+      "source_label_taxonomy": ["ham", "spam"],
+      "primary_language": "en",
+      "language_coverage": ["en", "hinglish"],
+      "country_relevance": "India",
+      "contains_real_sms": true,
+      "contains_synthetic": false,
+      "contains_pii": true,
+      "pii_masking_required": true,
+      "sender_header_available": true,
+      "url_metadata_available": true,
+      "suitability_score": 82,
+      "suitability_tier": "PRIMARY_RECOMMENDED",
+      "category": "INDIAN_SMS",
+      "sentinel_security_label_mapping": {
+        "ham": "BENIGN",
+        "spam": "SUSPICIOUS_SPAM"
+      },
+      "sentinel_intent_mapping": {
+        "ham": "PERSONAL_P2P",
+        "spam": "PROMOTIONAL"
+      },
+      "default_threat_vector_mapping": {
+        "ham": ["NONE"],
+        "spam": ["COMMERCIAL_SPAM"]
+      },
+      "redistribution_allowed": false,
+      "repository_storage_allowed": false,
+      "notes": "Authentic Indian mobile traffic capturing local Hinglish expressions and Indian telemarketing spam patterns."
+    },
+    {
+      "source_id": "SRC_UCI_SMS_SPAM_2011",
+      "dataset_name": "UCI SMS Spam Collection",
+      "authors": ["Tiago A. Almeida", "José María Gómez Hidalgo", "Akibo Yamakami"],
+      "publisher": "UCI Machine Learning Repository / UNICAMP",
+      "publication_year": 2011,
+      "official_url": "https://doi.org/10.24432/C5CC84",
+      "paper_title": "Contributions to the study of SMS spam filtering: new collection and results (ACM DOCENG '11)",
+      "license": "CC BY 4.0",
+      "license_verified": true,
+      "permitted_usage": "Research and Commercial use with attribution",
+      "record_count": 5574,
+      "source_label_taxonomy": ["ham", "spam"],
+      "primary_language": "en",
+      "language_coverage": ["en"],
+      "country_relevance": "UK / International",
+      "contains_real_sms": true,
+      "contains_synthetic": false,
+      "contains_pii": true,
+      "pii_masking_required": true,
+      "sender_header_available": false,
+      "url_metadata_available": true,
+      "suitability_score": 75,
+      "suitability_tier": "SECONDARY_RESERVE",
+      "category": "GENERAL_SMS_HAM_SPAM",
+      "sentinel_security_label_mapping": {
+        "ham": "BENIGN",
+        "spam": "SUSPICIOUS_SPAM"
+      },
+      "sentinel_intent_mapping": {
+        "ham": "PERSONAL_P2P",
+        "spam": "PROMOTIONAL"
+      },
+      "default_threat_vector_mapping": {
+        "ham": ["NONE"],
+        "spam": ["COMMERCIAL_SPAM"]
+      },
+      "redistribution_allowed": true,
+      "repository_storage_allowed": true,
+      "notes": "Foundational academic baseline for general SMS spam filtering. Low security threat density, but valuable for general English spam/ham vocabulary."
+    },
+    {
+      "source_id": "SRC_NUS_SMS_CORPUS_2013",
+      "dataset_name": "NUS SMS Corpus",
+      "authors": ["Tao Chen", "Min-Yen Kan"],
+      "publisher": "National University of Singapore",
+      "publication_year": 2013,
+      "official_url": "https://doi.org/10.1007/s10579-012-9197-9",
+      "paper_title": "Creating a Live, Public Short Message Service Corpus: The NUS SMS Corpus (Language Resources and Evaluation)",
+      "license": "Open Access for Research with Citation",
+      "license_verified": true,
+      "permitted_usage": "Research and Educational use with citation",
+      "record_count": 55835,
+      "source_label_taxonomy": ["ham"],
+      "primary_language": "en",
+      "language_coverage": ["en", "singlish"],
+      "country_relevance": "Singapore / International",
+      "contains_real_sms": true,
+      "contains_synthetic": false,
+      "contains_pii": true,
+      "pii_masking_required": true,
+      "sender_header_available": false,
+      "url_metadata_available": false,
+      "suitability_score": 70,
+      "suitability_tier": "SECONDARY_RESERVE",
+      "category": "GENERAL_SMS_HAM_SPAM",
+      "sentinel_security_label_mapping": {
+        "ham": "BENIGN"
+      },
+      "sentinel_intent_mapping": {
+        "ham": "PERSONAL_P2P"
+      },
+      "default_threat_vector_mapping": {
+        "ham": ["NONE"]
+      },
+      "redistribution_allowed": true,
+      "repository_storage_allowed": false,
+      "notes": "Large benign conversational P2P SMS collection. Zero spam/malicious messages. Useful for downsampling benign conversational background."
+    },
+    {
+      "source_id": "SRC_CURATED_HARD_NEGATIVES_V1",
+      "dataset_name": "Sentinel Curated Indian Hard Negatives and OTP Benchmark Corpus",
+      "authors": ["Sentinel ML Project"],
+      "publisher": "Sentinel In-House Repository",
+      "publication_year": 2026,
+      "official_url": "internal://Messages-ml/data/benchmarks",
+      "paper_title": "Sentinel Message ML Hard Negative Calibration Fixtures",
+      "license": "Internal Project",
+      "license_verified": true,
+      "permitted_usage": "Sentinel ML Pipeline Training & Evaluation",
+      "record_count": 500,
+      "source_label_taxonomy": ["BENIGN", "MALICIOUS"],
+      "primary_language": "en",
+      "language_coverage": ["en", "hinglish", "hi"],
+      "country_relevance": "India",
+      "contains_real_sms": false,
+      "contains_synthetic": true,
+      "contains_pii": false,
+      "pii_masking_required": false,
+      "sender_header_available": true,
+      "url_metadata_available": true,
+      "suitability_score": 98,
+      "suitability_tier": "PRIMARY_RECOMMENDED",
+      "category": "LEGITIMATE_HARD_NEGATIVES",
+      "sentinel_security_label_mapping": {
+        "BENIGN": "BENIGN",
+        "MALICIOUS": "MALICIOUS"
+      },
+      "sentinel_intent_mapping": {
+        "OTP_AUTH": "OTP_AUTH",
+        "BANKING_TRANSACTIONAL": "BANKING_TRANSACTIONAL",
+        "DELIVERY": "DELIVERY",
+        "GOVERNMENT_INFO": "GOVERNMENT_INFO",
+        "SERVICE_UPDATE": "SERVICE_UPDATE"
+      },
+      "default_threat_vector_mapping": {
+        "BENIGN": ["NONE"],
+        "MALICIOUS": ["OTP_DISCLOSURE_REQUEST", "BANK_KYC_SUSPENSION", "ELECTRICITY_DISCONNECTION_SCAM"]
+      },
+      "redistribution_allowed": false,
+      "repository_storage_allowed": true,
+      "notes": "Mandatory high-density calibration corpus covering DLT-compliant Indian bank OTPs, delivery OTPs, unrecognized device warnings, tax deadlines, and reverse OTP theft attacks."
+    }
+  ]
+}

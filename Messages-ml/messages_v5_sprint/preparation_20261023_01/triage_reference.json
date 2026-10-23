@@ -1,0 +1,21 @@
+{
+  "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel_datasets\\assistant_review_20261023\\DATASET_LABEL_TRIAGE.csv",
+  "sha256": "b2333bed902cbd092da3eb67ba44371b3cbfc942c5e8c71462b7dacb5d30d183",
+  "rows": 28,
+  "columns": [
+    "origin",
+    "record_id",
+    "source_class",
+    "provisional_triage",
+    "priority",
+    "reason",
+    "text",
+    "original_text"
+  ],
+  "by_source": {
+    "source_class": {
+      "MALICIOUS": 28
+    }
+  },
+  "interpretation": "AI concerns, neither adjudicated errors nor random error-rate estimate"
+}

@@ -1,0 +1,82 @@
+=== HP VARIANTS ===
+HP                     p_nb=0.6551 BENIGN
+Dell                   p_nb=0.8143 MALICIOUS
+Microsoft              p_nb=0.7098 MALICIOUS
+Lenovo                 p_nb=0.7098 MALICIOUS
+generic laptop company p_nb=0.6592 BENIGN
+
+=== INSTITUTIONAL BENIGN (16) — FP if label != BENIGN ===
+FP   p_nb=0.7555 'Dear students, the university has partnered with Dell to offer discounted laptops. Check the ca'
+ok   p_nb=0.2944 'College announcement: Faculty will be provided with new campus laptops next week.'
+FP   p_nb=0.7818 'Hi everyone, our institution has procured new campus software licenses. Available next week.'
+ok   p_nb=0.6768 'Student discount: We have partnered with Amazon for Prime student memberships. Regards'
+ok   p_nb=0.4888 'Hi team, our startup has partnered with Apple for new hardware. Available next week.'
+ok   p_nb=0.2288 'Software partnership announcement: Google workspace is now provided for all students.'
+ok   p_nb=0.6962 'Corporate partnership: We have partnered with Microsoft. Procurement details provided soon. Reg'
+FP   p_nb=0.8146 'Infrastructure announcements: New campus Wi-Fi provided by Cisco. Available next week.'
+ok   p_nb=0.3499 'Internship announcements: We have partnered with local firms. Next week campus drive. Regards'
+ok   p_nb=0.2209 'Placement announcements: University faculty announces 50 companies visiting campus.'
+FP   p_nb=0.9322 'Scholarship announcements: Our institution has provided new funds. Available to all students.'
+ok   p_nb=0.3426 'Event announcements: Campus festival next week. Hi everyone, get ready! Regards'
+ok   p_nb=0.3226 'Faculty notices: Next week meetings are available on the university portal.'
+ok   p_nb=0.6333 'Club announcements: Hi everyone, robotics club procured new kits. Available next week.'
+FP   p_nb=0.8167 'IT announcements: Dear team, university email migration next week. Provided by IT.'
+FP   p_nb=0.7867 'Library announcements: Dear students, our institution has partnered with JSTOR. Access provided'
+
+=== INSTITUTIONAL MALICIOUS — TP if label != BENIGN ===
+TP   p_nb=0.9974 'Dear students, the university has partnered with Dell. Verify your student account at http://ma'
+MISS p_nb=0.2266 'College announcement: Faculty must install this .apk for new campus laptops next week.'
+TP   p_nb=0.7149 'Hi everyone, our institution has procured new licenses. Pay verification fee now.'
+TP   p_nb=0.9030 'Student discount: We have partnered with Amazon. Enter your UPI PIN to claim.'
+TP   p_nb=0.9810 'Hi team, our startup has partnered with Apple. Account blocked, verify your account immediately'
+TP   p_nb=0.9092 'Software partnership: Google workspace provided. Share OTP to activate.'
+MISS p_nb=0.5620 'Corporate partnership: Microsoft requires you to update password immediately.'
+TP   p_nb=0.7060 'Infrastructure announcements: New campus Wi-Fi. Download this file to connect.'
+MISS p_nb=0.4411 'Internship announcements: We have partnered with firms. Pay processing fee now.'
+TP   p_nb=0.9040 'Placement announcements: University faculty requires your bank details for placement.'
+TP   p_nb=0.9077 'Scholarship announcements: Our institution has provided funds. Enter CVV to claim.'
+MISS p_nb=0.6873 'Event announcements: Campus festival next week. Buy tickets, UPI transfer required.'
+MISS p_nb=0.3074 'Faculty notices: Next week meetings. Last chance to avoid account suspended.'
+TP   p_nb=0.9094 'Club announcements: Robotics club procured kits. Send OTP to receive.'
+TP   p_nb=0.9919 'IT announcements: Dear team, university email migration. Action required: login at http://fake.'
+TP   p_nb=0.9260 'Library announcements: Dear students, our institution has partnered with JSTOR. Urgent: verify '
+
+=== SIMULATION REAL-HISTORY FPs (benign ground truth, p_nb >= 0.704) ===
+p_nb=0.9953 outcome=MODEL_FALSE_POSITIVE   sender='' text='Dear Customer,\nAmazon Prime is included in your Jio plan. Activate now to enjoy '
+p_nb=0.9944 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026 (3 messages): ~\u202fHarshita C' text='1. 🚨 AI–Doctor Disagreement Alert\n\nSometimes the AI and doctor may give differen'
+p_nb=0.9907 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026 (9 messages): ~\u202fVanshika R' text='Okay baad mein meeting run karke dikhana aur explain karna\nAur isko kahin deploy'
+p_nb=0.9865 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026: ~\u202fVanshika Ramchandani' text='aaradhay and yashika: quality check + lesion segmentation model \nlaksh and yajat'
+p_nb=0.9784 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026 (11 messages): Laksh' text='Meeting time? \nLink ka dekhte hai'
+p_nb=0.9660 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026: ~\u202fVanshika Ramchandani' text='aur simulation code se bana sakte hai shayad \ntoh github code mile ya fir ai se '
+p_nb=0.8839 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026 (8 messages): ~\u202fVanshika R' text='DR severity vala\n8 nahi, 4-5 hai.. 2-3 ek hi model se ho jayenge separate nahi b'
+p_nb=0.8661 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026 (10 messages): ~\u202fVanshika ' text='🔗 github.com | https://github.com/rsk97/Diabetic-Retinopathy-Detection'
+p_nb=0.8429 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026: ~\u202fVanshika Ramchandani' text='🔗 drive.google.com | https://drive.google.com/drive/folders/1b7CsAPxwJZupBE8d_WD'
+p_nb=0.8348 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026: Laksh' text='@\u2068~Vanshika Ramchandani\u2069 \nMeeting hai na 10 bhaje?'
+p_nb=0.8342 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026: 📣 Mentioned you' text='~\u202fVanshika Ramchandani: @\u2068Laksh\u2069 @\u2068Yajat Hans\u2069 kal subah connect kare? main thod'
+p_nb=0.8307 outcome=MODEL_FALSE_POSITIVE   sender='Laksh' text='SENTINEL - SUNDAY\nSINOVA - SUNDAY'
+p_nb=0.7892 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026 (4 messages): ⤷ You got a ' text='Laksh: Run kar sakte hai..like values change kar sakte hai.. explaination joh bh'
+p_nb=0.7829 outcome=MODEL_FALSE_POSITIVE   sender='Laksh' text='Retina..\nDiabetic retinopathy'
+p_nb=0.7387 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026 (12 messages): Mentioned a' text='~\u202fVanshika Ramchandani: Raat ko jab sab free ho\n@\u2068all\u2069 9 baje chalega?'
+p_nb=0.7245 outcome=MODEL_FALSE_POSITIVE   sender='SIH 2026: Laksh' text='Ha ha..voh toh aap bhej do..because protype link hai..and images hai agar hum da'
+
+=== SIMULATION AMBIGUOUS flagged (44 total) ===
+
+=== SIMULATION MALICIOUS (3 TRUE_POSITIVE_MALICIOUS_URL) ===
+p_nb=0.9409 label=MALICIOUS text='https://userver.net52.cc/?hee5=50a20b23a2603665c238757905a70b03::9d8cdad6ccd80355ed8435c460617a08::1'
+p_nb=0.9409 label=MALICIOUS text='https://userver.net52.cc/?hee5=50a20b23a2603665c238757905a70b03::9d8cdad6ccd80355ed8435c460617a08::1'
+p_nb=0.9409 label=MALICIOUS text='https://userver.net52.cc/?hee5=50a20b23a2603665c238757905a70b03::9d8cdad6ccd80355ed8435c460617a08::1'
+
+=== LEGACY 6sep FP CLASSES ===
+CLASS_A_HINGLISH           p_nb=0.6341 BENIGN
+CLASS_A_GH_LINK            p_nb=0.8661 MALICIOUS
+CLASS_A_SENTINEL_SUNDAY    p_nb=0.8307 SUSPICIOUS_SPAM
+CLASS_B_BACKUP             p_nb=0.5406 BENIGN
+CLASS_C_JIO_PROMO          p_nb=0.9983 MALICIOUS
+REPLAY_BESCOM              p_nb=0.2043 BENIGN
+REPLAY_DELIVERY_OTP        p_nb=0.9334 MALICIOUS
+HELLO                      p_nb=0.5203 BENIGN
+
+=== COUNTS (frozen V2, tau=0.704, no context) ===
+institutional benign FPR : 6/16 = 37.50%
+institutional mal recall : 11/16 = 68.75%
+real-history benign FPR  : 16/247 = 6.48%

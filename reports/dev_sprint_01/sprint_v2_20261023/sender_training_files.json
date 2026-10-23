@@ -1,0 +1,117 @@
+[
+  {
+    "path": "sentinel-ml/6sep/messages/candidates/train_candidate_v1.jsonl",
+    "sha256": "0844b76780b180bff51b387e09b31e2abcf672955eae9b5c24f54f2b7124c2cb",
+    "rows": 17511
+  },
+  {
+    "path": "sentinel-ml/6sep/messages/candidates/train_candidate_v3b.jsonl",
+    "sha256": "8dd890ae3e384e1d21a42c16e3f3ea38705d8d41b9fda2c2e27965f999b2f82e",
+    "rows": 17384
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train.jsonl",
+    "sha256": "26b6189ca02eba662d67b12308d2af1e270d26cd4220d6badc67df4b34f3cd9f",
+    "rows": 15855
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train_contrastive.jsonl",
+    "sha256": "de7946c70432b6f9d4deeb8184a2f862192c0acb2c3f40ebc9975b7d2ece3ad8",
+    "rows": 16215
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train_expanded.jsonl",
+    "sha256": "a6706a1d5621e3933315fd49dffdb6ff20ca8d0a79c4f5f196d8c1f29abcd662",
+    "rows": 16175
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v2.jsonl",
+    "sha256": "dad65a13b31d999df518431df01541cebc501dd916e494624ba57b8426b02315",
+    "rows": 16935
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v3.jsonl",
+    "sha256": "9cdd06fe1ec60baf5092c1f71f31ac7b3bf3fe299f5d6212e199bfa3639346cb",
+    "rows": 16725
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v4.jsonl",
+    "sha256": "7223761acb75e1110ff244857ebc6dd840b19709420472b7ee9e66d18ccf415e",
+    "rows": 17017
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v4_3x.jsonl",
+    "sha256": "b44680c61c895824cd4c6342ed86a45ec99a2b47f9070bfd7e6e702a0c8dc4e3",
+    "rows": 17181
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v5.jsonl",
+    "sha256": "653b889d1d674246a99ed4a9ebf5427337a1d4331e1107f04c70d872c010667c",
+    "rows": 17361
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v6.jsonl",
+    "sha256": "ce4347a74120be7169ad6b92d9947f3d9098addb2512cec10bbca9f50728888f",
+    "rows": 17629
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v7.jsonl",
+    "sha256": "5b3f2a921980be3018a3e7ab81a62dc677204286d689c16cf7bf542073a6544d",
+    "rows": 17541
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v8.jsonl",
+    "sha256": "b4c97857160fa247fdff8b3cd7af3b8930afd15dd6819328c968703c123b4fe0",
+    "rows": 18311
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/messages_v4/data/train_v4.jsonl",
+    "sha256": "fd02ad59f4b8b708df99dbfaa9c326cf98233d21e22ec2dc65898d14c69734f9",
+    "rows": 17473
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/messages_v4/experiment_2/data/train_v4_2.jsonl",
+    "sha256": "5920d5cc6e7858d38d7af94aaca0c7efb3a3292fcc173e3c0ca30467f0385e3a",
+    "rows": 18601
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/messages_v4_3/data/train_v4_3.jsonl",
+    "sha256": "d01d4d36144e8c4d09f4c0fd21eb15b02e10f1be4d488bebb07ce7eba9c11c11",
+    "rows": 19672
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4.jsonl",
+    "sha256": "3dd4b4b7cba0fffba059bd365e7e01ce19668a3f5981c3a1c943dc8dd8c4a14f",
+    "rows": 20164
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_b.jsonl",
+    "sha256": "28bdb8c81e538c8a49cd7b56e9da89e5b206bbe2297e12f8b245fcf50c329ab0",
+    "rows": 20257
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_c.jsonl",
+    "sha256": "e002632a201adccd072e41aff0574cd6e0ff5d64dba540185959eadd0bcc1384",
+    "rows": 20404
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp1.jsonl",
+    "sha256": "1750808fb5d3d71f5db779d4273596404d480054115d96077d3ad4ad420a7f3e",
+    "rows": 20495
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp2.jsonl",
+    "sha256": "e67311390888ffd590b360958d5f691a8a8bc8450b7073d0e59fd3d68a19a446",
+    "rows": 20543
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp3.jsonl",
+    "sha256": "e9b45c52834a00caf36a199c47669eea7b00def88e2b15140c64cdb9cec5b2b2",
+    "rows": 20581
+  },
+  {
+    "path": "sentinel-ml/Messages-ml/messages_v4_5/experiments/next_architecture/data/auxiliary_train.jsonl",
+    "sha256": "2c74d90d81e31a15103b11b540fcbadef63470df9a850fea7f5ea84abba893e1",
+    "rows": 12753
+  }
+]

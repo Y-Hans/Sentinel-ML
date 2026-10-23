@@ -1,0 +1,87 @@
+{
+  "campaign": "URL-ML V6",
+  "experiment_id": "v6_et_rem3_syn1_w20",
+  "hypothesis": "domain-disjoint benign structural coverage can reduce source-shift false positives",
+  "architecture": "ExtraTreesClassifier",
+  "feature_count": 92,
+  "feature_schema_sha256": "1e7cf3348d3d7fb30d375630f980594eb0dfa1cdd8e310ce77f649168d114528",
+  "seed": 42,
+  "remediation_weight": 20.0,
+  "synthetic_weight": 1.0,
+  "threshold": 0.20600000000000002,
+  "source_dataset_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+  "remediation_sha256": "0f8da3fba16a33e6bbf9217cb6d24308cf28c2ab8b0988aeacbb39d21fad527e",
+  "synthetic_sha256": "ea6849ac51ae18bb2442ba4f36ced17aa4752fe8405e1b8d06c03208ff4e663b",
+  "hard_dataset_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+  "train_rows": 141178,
+  "remediation_rows": 3430,
+  "synthetic_rows": 400,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.009985997494288452,
+    "malicious_recall": 0.9894507307873645,
+    "roc_auc": 0.9980986957228302,
+    "confusion_matrix": [
+      [
+        26867,
+        271
+      ],
+      [
+        179,
+        16789
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.008042993455928052,
+    "malicious_recall": 0.9939545729337594,
+    "roc_auc": 0.9988378155776881,
+    "confusion_matrix": [
+      [
+        27133,
+        220
+      ],
+      [
+        140,
+        23018
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.36957631444614597,
+    "malicious_recall": 0.9714625445897741,
+    "roc_auc": 0.9687511949786316,
+    "confusion_matrix": [
+      [
+        1235,
+        724
+      ],
+      [
+        24,
+        817
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.9935897435897436,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        25,
+        3875
+      ]
+    ]
+  },
+  "fit_seconds": 55.61107339999944,
+  "artifact": "model/challengers/v6_et_rem3_syn1_w20",
+  "model_size_bytes": 16603552,
+  "promotion_status": "challenger_only"
+}

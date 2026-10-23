@@ -1,0 +1,57 @@
+[
+  {
+    "cohort": "Regressed_Malicious_Bare_Apex_N272",
+    "total": 272,
+    "is_malicious": true,
+    "baseline_matches": 0,
+    "baseline_match_rate_pct": 0.0,
+    "expanded_matches": 8,
+    "expanded_match_rate_pct": 2.941,
+    "net_new_matches": 8,
+    "net_new_match_rate_pct": 2.941
+  },
+  {
+    "cohort": "Retained_Malicious_Bare_Apex_N3916",
+    "total": 3916,
+    "is_malicious": true,
+    "baseline_matches": 403,
+    "baseline_match_rate_pct": 10.291,
+    "expanded_matches": 421,
+    "expanded_match_rate_pct": 10.751,
+    "net_new_matches": 18,
+    "net_new_match_rate_pct": 0.46
+  },
+  {
+    "cohort": "Independent_Benign_Apex_N15k",
+    "total": 15000,
+    "is_malicious": false,
+    "baseline_matches": 26,
+    "baseline_match_rate_pct": 0.173,
+    "expanded_matches": 26,
+    "expanded_match_rate_pct": 0.173,
+    "net_new_matches": 0,
+    "net_new_match_rate_pct": 0.0
+  },
+  {
+    "cohort": "Android_Golden_Fixtures_N174",
+    "total": 174,
+    "is_malicious": false,
+    "baseline_matches": 18,
+    "baseline_match_rate_pct": 10.345,
+    "expanded_matches": 18,
+    "expanded_match_rate_pct": 10.345,
+    "net_new_matches": 0,
+    "net_new_match_rate_pct": 0.0
+  },
+  {
+    "cohort": "Untouched_Validation_Benign_Apex_N25k",
+    "total": 25528,
+    "is_malicious": false,
+    "baseline_matches": 45,
+    "baseline_match_rate_pct": 0.176,
+    "expanded_matches": 45,
+    "expanded_match_rate_pct": 0.176,
+    "net_new_matches": 0,
+    "net_new_match_rate_pct": 0.0
+  }
+]

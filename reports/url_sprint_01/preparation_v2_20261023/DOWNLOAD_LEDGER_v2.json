@@ -1,0 +1,78 @@
+{
+  "time_utc": "2026-10-23T11:04:35.443252+00:00",
+  "request_policy": "Allowlisted official source hosts only; HTTPS; validate redirects; reject HTML; no URL from a dataset is ever requested. No executables/scripts/DOM archives or page content downloaded.",
+  "files": [
+    {
+      "requested_url": "https://tranco-list.eu/api/lists/id/56Z8N",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/tranco_56Z8N_metadata.json",
+      "role": "official reproducible ranking metadata",
+      "license": "Composite upstream attribution/terms: Umbrella free, Majestic CC-BY-3.0, CrUX CC-BY-SA-4.0, Radar CC-BY-NC-4.0, Farsight terms not fully established; research metadata only, product reuse not cleared",
+      "license_source": "https://tranco-list.eu/?from_column=20421",
+      "started_utc": "2026-10-23T11:04:35.249310+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "status": "MISSING_DOWNLOAD_FAILED",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+      "finished_utc": "2026-10-23T11:04:35.353385+00:00"
+    },
+    {
+      "requested_url": "https://tranco-list.eu/download/56Z8N/1000000",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/tranco_56Z8N_top1m.csv",
+      "role": "official domains ranking; never safety labels",
+      "license": "Composite upstream attribution/terms: Umbrella free, Majestic CC-BY-3.0, CrUX CC-BY-SA-4.0, Radar CC-BY-NC-4.0, Farsight terms not fully established; research metadata only, product reuse not cleared",
+      "license_source": "https://tranco-list.eu/?from_column=20421",
+      "started_utc": "2026-10-23T11:04:35.355986+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "status": "MISSING_DOWNLOAD_FAILED",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+      "finished_utc": "2026-10-23T11:04:35.369450+00:00"
+    },
+    {
+      "requested_url": "https://assets.publishing.service.gov.uk/media/69cbd582024cdf09254f3f7d/List_of_.gov.uk_domain_names_as_of_31_March_2026_1.csv",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/govuk_registry_20260331.csv",
+      "role": "authoritative .gov.uk registered domains, not endpoint safety",
+      "license": "Open Government Licence v3.0; attribution required; registry identity only",
+      "license_source": "https://www.gov.uk/government/publications/list-of-gov-uk-domain-names",
+      "started_utc": "2026-10-23T11:04:35.369450+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "status": "MISSING_DOWNLOAD_FAILED",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+      "finished_utc": "2026-10-23T11:04:35.393619+00:00"
+    },
+    {
+      "requested_url": "https://api.github.com/repos/cisagov/dotgov-data/commits/main",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/cisagov_revision.json",
+      "role": "official registry repository revision metadata",
+      "license": "GitHub public repository metadata; dataset CC0-1.0",
+      "license_source": "https://github.com/cisagov/dotgov-data",
+      "started_utc": "2026-10-23T11:04:35.393619+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "status": "MISSING_DOWNLOAD_FAILED",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+      "finished_utc": "2026-10-23T11:04:35.407006+00:00"
+    },
+    {
+      "requested_url": "https://api.data.mendeley.com/datasets/c2gw7fy2j4?version=3",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/mendeley_c2gw7fy2j4_v3_metadata.json",
+      "role": "publisher public research dataset metadata; 2020 collection/2021 release",
+      "license": "CC-BY-4.0 dataset; retain author/DOI attribution",
+      "license_source": "https://data.mendeley.com/datasets/c2gw7fy2j4/3",
+      "started_utc": "2026-10-23T11:04:35.410304+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "status": "MISSING_DOWNLOAD_FAILED",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+      "finished_utc": "2026-10-23T11:04:35.424666+00:00"
+    },
+    {
+      "requested_url": "https://api.data.mendeley.com/datasets/c2gw7fy2j4/files?version=3",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/mendeley_c2gw7fy2j4_v3_files.json",
+      "role": "publisher public file catalogue; inspect before selecting CSV only",
+      "license": "CC-BY-4.0 dataset metadata",
+      "license_source": "https://data.mendeley.com/datasets/c2gw7fy2j4/3",
+      "started_utc": "2026-10-23T11:04:35.424666+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "status": "MISSING_DOWNLOAD_FAILED",
+      "error": "URLError(gaierror(11001, 'getaddrinfo failed'))",
+      "finished_utc": "2026-10-23T11:04:35.442598+00:00"
+    }
+  ]
+}

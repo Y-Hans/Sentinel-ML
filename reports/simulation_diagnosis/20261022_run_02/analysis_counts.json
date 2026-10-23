@@ -1,0 +1,10 @@
+{
+  "summaries": 180,
+  "segment_cells": 988,
+  "worst_case_rows": 506,
+  "logged_comparisons": 13536,
+  "policy_changed_rows": 405,
+  "bootstrap_replicates_per_cell": 2000,
+  "seed": 20261022,
+  "note": "Every prevalence is ASSUMED; all inferred labels PROVISIONAL; NEEDS_REVIEW excluded from accuracy, included in alert rate and logged comparisons"
+}

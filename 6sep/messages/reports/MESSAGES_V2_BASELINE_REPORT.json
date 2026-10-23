@@ -1,0 +1,485 @@
+{
+  "model_id": "MESSAGES_ML_V2_CHAMPION",
+  "version": "2.0.0",
+  "timestamp": "2026-09-06T14:09:45Z",
+  "architecture": {
+    "deterministic_features": 70,
+    "word_tfidf_features": 1500,
+    "char_tfidf_features": 500,
+    "total_features": 2070,
+    "scaler": "StandardScaler",
+    "classifier": "HistGradientBoostingClassifier",
+    "trees": 309,
+    "n_iterations": 103,
+    "decision_threshold": 0.704,
+    "classes": [
+      "BENIGN",
+      "SUSPICIOUS_SPAM",
+      "MALICIOUS"
+    ]
+  },
+  "results": {
+    "TEST": {
+      "n_records": 2264,
+      "confusion_matrix": [
+        [
+          510,
+          0,
+          10
+        ],
+        [
+          4,
+          145,
+          39
+        ],
+        [
+          44,
+          110,
+          1402
+        ]
+      ],
+      "benign_total": 520,
+      "spam_total": 188,
+      "malicious_total": 1556,
+      "benign_fp_any": 10,
+      "benign_fp_malicious": 10,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.019230769230769232,
+      "malicious_recall": 0.9010282776349614,
+      "macro_f1": 0.8444383515527306,
+      "roc_auc_non_benign": 0.9966886467889908,
+      "feature_extraction_latency_ms_per_msg": 1.3628279151943108,
+      "inference_latency_ms_per_msg": 1.530330432862359,
+      "total_latency_ms_per_msg": 2.89315834805667
+    },
+    "OOD": {
+      "n_records": 1132,
+      "confusion_matrix": [
+        [
+          252,
+          3,
+          0
+        ],
+        [
+          5,
+          64,
+          14
+        ],
+        [
+          25,
+          55,
+          714
+        ]
+      ],
+      "benign_total": 255,
+      "spam_total": 83,
+      "malicious_total": 794,
+      "benign_fp_any": 3,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 3,
+      "benign_fpr": 0.011764705882352941,
+      "malicious_recall": 0.8992443324937027,
+      "macro_f1": 0.8337256296457576,
+      "roc_auc_non_benign": 0.9968072976054732,
+      "feature_extraction_latency_ms_per_msg": 1.4500940812717757,
+      "inference_latency_ms_per_msg": 0.05541077738495847,
+      "total_latency_ms_per_msg": 1.5055048586567341
+    },
+    "VAL": {
+      "n_records": 3397,
+      "confusion_matrix": [
+        [
+          801,
+          2,
+          4
+        ],
+        [
+          12,
+          199,
+          63
+        ],
+        [
+          79,
+          188,
+          2049
+        ]
+      ],
+      "benign_total": 807,
+      "spam_total": 274,
+      "malicious_total": 2316,
+      "benign_fp_any": 6,
+      "benign_fp_malicious": 4,
+      "benign_fp_spam": 2,
+      "benign_fpr": 0.007434944237918215,
+      "malicious_recall": 0.8847150259067358,
+      "macro_f1": 0.8226160803321511,
+      "roc_auc_non_benign": 0.995144321166626,
+      "feature_extraction_latency_ms_per_msg": 1.5008770385635077,
+      "inference_latency_ms_per_msg": 0.1835120105975141,
+      "total_latency_ms_per_msg": 1.6843890491610218
+    },
+    "slice_banking_scam": {
+      "n_records": 3,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "benign_total": 0,
+      "spam_total": 0,
+      "malicious_total": 3,
+      "benign_fp_any": 0,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.0,
+      "malicious_recall": 1.0,
+      "macro_f1": 1.0,
+      "roc_auc_non_benign": NaN,
+      "feature_extraction_latency_ms_per_msg": 7.311400000010811,
+      "inference_latency_ms_per_msg": 11.376166666650533,
+      "total_latency_ms_per_msg": 18.687566666661343
+    },
+    "slice_electricity_scam": {
+      "n_records": 3,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "benign_total": 0,
+      "spam_total": 0,
+      "malicious_total": 3,
+      "benign_fp_any": 0,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.0,
+      "malicious_recall": 0.6666666666666666,
+      "macro_f1": 0.4,
+      "roc_auc_non_benign": NaN,
+      "feature_extraction_latency_ms_per_msg": 3.316366666695103,
+      "inference_latency_ms_per_msg": 11.52729999997367,
+      "total_latency_ms_per_msg": 14.843666666668772
+    },
+    "slice_hard_negatives": {
+      "n_records": 3,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "benign_total": 3,
+      "spam_total": 0,
+      "malicious_total": 0,
+      "benign_fp_any": 0,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.0,
+      "malicious_recall": 0.0,
+      "macro_f1": 1.0,
+      "roc_auc_non_benign": NaN,
+      "feature_extraction_latency_ms_per_msg": 3.4915999999611813,
+      "inference_latency_ms_per_msg": 10.751266666678324,
+      "total_latency_ms_per_msg": 14.242866666639506
+    },
+    "slice_hinglish_smishing": {
+      "n_records": 3,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "benign_total": 0,
+      "spam_total": 0,
+      "malicious_total": 3,
+      "benign_fp_any": 0,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.0,
+      "malicious_recall": 0.6666666666666666,
+      "macro_f1": 0.4,
+      "roc_auc_non_benign": NaN,
+      "feature_extraction_latency_ms_per_msg": 3.2138333334235845,
+      "inference_latency_ms_per_msg": 10.757766666756652,
+      "total_latency_ms_per_msg": 13.971600000180237
+    },
+    "slice_legit_banking": {
+      "n_records": 3,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "benign_total": 3,
+      "spam_total": 0,
+      "malicious_total": 0,
+      "benign_fp_any": 0,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.0,
+      "malicious_recall": 0.0,
+      "macro_f1": 1.0,
+      "roc_auc_non_benign": NaN,
+      "feature_extraction_latency_ms_per_msg": 2.9514999999567713,
+      "inference_latency_ms_per_msg": 10.99659999999858,
+      "total_latency_ms_per_msg": 13.948099999955351
+    },
+    "slice_legit_delivery": {
+      "n_records": 3,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "benign_total": 3,
+      "spam_total": 0,
+      "malicious_total": 0,
+      "benign_fp_any": 0,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.0,
+      "malicious_recall": 0.0,
+      "macro_f1": 1.0,
+      "roc_auc_non_benign": NaN,
+      "feature_extraction_latency_ms_per_msg": 2.934633333400901,
+      "inference_latency_ms_per_msg": 11.25316666669581,
+      "total_latency_ms_per_msg": 14.187800000096711
+    },
+    "slice_legit_otp": {
+      "n_records": 5,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "benign_total": 5,
+      "spam_total": 0,
+      "malicious_total": 0,
+      "benign_fp_any": 1,
+      "benign_fp_malicious": 1,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.2,
+      "malicious_recall": 0.0,
+      "macro_f1": 0.4444444444444444,
+      "roc_auc_non_benign": NaN,
+      "feature_extraction_latency_ms_per_msg": 2.258860000074492,
+      "inference_latency_ms_per_msg": 6.403439999940019,
+      "total_latency_ms_per_msg": 8.662300000014511
+    },
+    "slice_otp_theft": {
+      "n_records": 4,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4
+        ]
+      ],
+      "benign_total": 0,
+      "spam_total": 0,
+      "malicious_total": 4,
+      "benign_fp_any": 0,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.0,
+      "malicious_recall": 1.0,
+      "macro_f1": 1.0,
+      "roc_auc_non_benign": NaN,
+      "feature_extraction_latency_ms_per_msg": 2.7303250000159096,
+      "inference_latency_ms_per_msg": 10.041349999937665,
+      "total_latency_ms_per_msg": 12.771674999953575
+    },
+    "synthetic_pipeline_fixtures": {
+      "n_records": 16,
+      "confusion_matrix": [
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          6
+        ]
+      ],
+      "benign_total": 7,
+      "spam_total": 2,
+      "malicious_total": 7,
+      "benign_fp_any": 0,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.0,
+      "malicious_recall": 0.8571428571428571,
+      "macro_f1": 0.5822021116138764,
+      "roc_auc_non_benign": 0.9841269841269842,
+      "feature_extraction_latency_ms_per_msg": 1.538575000012088,
+      "inference_latency_ms_per_msg": 2.0571312500123895,
+      "total_latency_ms_per_msg": 3.5957062500244774
+    },
+    "CURATED_HN_BENIGN_VAL": {
+      "n_records": 41,
+      "confusion_matrix": [
+        [
+          41,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "benign_total": 41,
+      "spam_total": 0,
+      "malicious_total": 0,
+      "benign_fp_any": 0,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.0,
+      "malicious_recall": 0.0,
+      "macro_f1": 1.0,
+      "roc_auc_non_benign": NaN,
+      "feature_extraction_latency_ms_per_msg": 1.6287487804819227,
+      "inference_latency_ms_per_msg": 0.8439341463377875,
+      "total_latency_ms_per_msg": 2.47268292681971
+    },
+    "MSEDCL_ELECTRICITY_VAL": {
+      "n_records": 10,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "benign_total": 10,
+      "spam_total": 0,
+      "malicious_total": 0,
+      "benign_fp_any": 0,
+      "benign_fp_malicious": 0,
+      "benign_fp_spam": 0,
+      "benign_fpr": 0.0,
+      "malicious_recall": 0.0,
+      "macro_f1": 1.0,
+      "roc_auc_non_benign": NaN,
+      "feature_extraction_latency_ms_per_msg": 1.9334300000082294,
+      "inference_latency_ms_per_msg": 3.3349899999848276,
+      "total_latency_ms_per_msg": 5.268419999993057
+    }
+  }
+}

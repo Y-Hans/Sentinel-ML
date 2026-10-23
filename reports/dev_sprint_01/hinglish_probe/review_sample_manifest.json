@@ -1,0 +1,11 @@
+{
+  "base_samples": {
+    "MALICIOUS": 50,
+    "BENIGN": 50,
+    "SPAM": 25
+  },
+  "blind_disagreement_rows": 80,
+  "rows_after_union": 202,
+  "user_fields_blank": true,
+  "sha256": "2c18fcbfb4adcd44970087e65265e5962e71b421e6e3aac00057d7c7320fe9f7"
+}

@@ -1,0 +1,54 @@
+{
+  "pulls": [
+    {
+      "pull_id": "pull_1",
+      "rows_recovered": 0,
+      "chosen_transform": "cp437_crlf_reversed",
+      "logged_levels": {}
+    },
+    {
+      "pull_id": "pull_2",
+      "rows_recovered": 0,
+      "chosen_transform": "cp437",
+      "logged_levels": {}
+    },
+    {
+      "pull_id": "pull_3",
+      "rows_recovered": 0,
+      "chosen_transform": "cp437",
+      "logged_levels": {}
+    }
+  ],
+  "dedup": {
+    "input_rows": 0,
+    "unique_rows": 0,
+    "duplicates": 0,
+    "key": "id,recordType,timestamp,UTF8-content-SHA256"
+  },
+  "comparisons": [
+    {
+      "source": "sentinel-ml/New_history/bench_real_history_562.jsonl",
+      "sha256": "18987bb577f68979fb118095bf316be1939625b4f6b7788c9f1a9041b6cc6d09",
+      "legacy_rows": 562,
+      "matching_id_timestamp_content_keys": 0,
+      "legacy_only": 562,
+      "new_only": 0
+    },
+    {
+      "source": "sentinel-ml/investigation/sentinel_db_parsed.jsonl",
+      "sha256": "e0f85d09c81be5e2743d10a3ccf69858b62e2c947593ae0e3427588ce1aeef72",
+      "legacy_rows": 34,
+      "matching_id_timestamp_content_keys": 0,
+      "legacy_only": 7,
+      "new_only": 0
+    },
+    {
+      "source": "sentinel-ml/investigation/sentinel_db1_parsed.jsonl",
+      "sha256": "02437b7eb0684fe3b29d32b9ecf03f664041b1f8b3d3f3fd09dd4648884bc5b5",
+      "legacy_rows": 26,
+      "matching_id_timestamp_content_keys": 0,
+      "legacy_only": 8,
+      "new_only": 0
+    }
+  ]
+}

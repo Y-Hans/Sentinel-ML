@@ -1,0 +1,731 @@
+{
+  "threshold": 0.704,
+  "validation": {
+    "n_total": 3397,
+    "n_malicious": 2316,
+    "malicious_correct": 2049,
+    "malicious_missed": 267,
+    "malicious_recall": 0.8847150259067358,
+    "n_benign": 807,
+    "benign_fp": 21,
+    "benign_clean": 786,
+    "benign_fpr": 0.026022304832713755,
+    "n_nonbenign": 2590,
+    "nonbenign_correct": 2499,
+    "nonbenign_recall": 0.9648648648648649,
+    "macro_f1": 0.8184378238378626,
+    "confusion_matrix": [
+      [
+        786,
+        2,
+        19
+      ],
+      [
+        12,
+        199,
+        63
+      ],
+      [
+        79,
+        188,
+        2049
+      ]
+    ],
+    "threshold": 0.704
+  },
+  "test": {
+    "n_total": 2264,
+    "n_malicious": 1556,
+    "malicious_correct": 1403,
+    "malicious_missed": 153,
+    "malicious_recall": 0.9016709511568124,
+    "n_benign": 520,
+    "benign_fp": 20,
+    "benign_clean": 500,
+    "benign_fpr": 0.038461538461538464,
+    "n_nonbenign": 1744,
+    "nonbenign_correct": 1696,
+    "nonbenign_recall": 0.9724770642201835,
+    "macro_f1": 0.8407309966021149,
+    "confusion_matrix": [
+      [
+        500,
+        0,
+        20
+      ],
+      [
+        4,
+        145,
+        39
+      ],
+      [
+        44,
+        109,
+        1403
+      ]
+    ],
+    "threshold": 0.704
+  },
+  "ood": {
+    "n_total": 1132,
+    "n_malicious": 794,
+    "malicious_correct": 714,
+    "malicious_missed": 80,
+    "malicious_recall": 0.8992443324937027,
+    "n_benign": 255,
+    "benign_fp": 14,
+    "benign_clean": 241,
+    "benign_fpr": 0.054901960784313725,
+    "n_nonbenign": 877,
+    "nonbenign_correct": 847,
+    "nonbenign_recall": 0.9657924743443558,
+    "macro_f1": 0.8240823010344798,
+    "confusion_matrix": [
+      [
+        241,
+        3,
+        11
+      ],
+      [
+        5,
+        64,
+        14
+      ],
+      [
+        25,
+        55,
+        714
+      ]
+    ],
+    "threshold": 0.704
+  },
+  "benchmarks": {
+    "bench_adversarial_semantic_pairs.jsonl": {
+      "n_total": 80,
+      "n_malicious": 40,
+      "malicious_correct": 13,
+      "malicious_missed": 27,
+      "malicious_recall": 0.325,
+      "n_benign": 40,
+      "benign_fp": 2,
+      "benign_clean": 38,
+      "benign_fpr": 0.05,
+      "n_nonbenign": 40,
+      "nonbenign_correct": 17,
+      "nonbenign_recall": 0.425,
+      "macro_f1": 0.4084008400840084,
+      "confusion_matrix": [
+        [
+          38,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          23,
+          4,
+          13
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "bench_group_context_benign.jsonl": {
+      "n_total": 40,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 40,
+      "benign_fp": 1,
+      "benign_clean": 39,
+      "benign_fpr": 0.025,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 0.4936708860759494,
+      "confusion_matrix": [
+        [
+          39,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "bench_group_context_malicious.jsonl": {
+      "n_total": 40,
+      "n_malicious": 40,
+      "malicious_correct": 26,
+      "malicious_missed": 14,
+      "malicious_recall": 0.65,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 40,
+      "nonbenign_correct": 28,
+      "nonbenign_recall": 0.7,
+      "macro_f1": 0.2626262626262626,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          12,
+          2,
+          26
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "bench_hinglish_robustness.jsonl": {
+      "n_total": 100,
+      "n_malicious": 50,
+      "malicious_correct": 7,
+      "malicious_missed": 43,
+      "malicious_recall": 0.14,
+      "n_benign": 50,
+      "benign_fp": 4,
+      "benign_clean": 46,
+      "benign_fpr": 0.08,
+      "n_nonbenign": 50,
+      "nonbenign_correct": 10,
+      "nonbenign_recall": 0.2,
+      "macro_f1": 0.30199292831886854,
+      "confusion_matrix": [
+        [
+          46,
+          0,
+          4
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          40,
+          3,
+          7
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "bench_sentinel_replay.jsonl": {
+      "n_total": 294,
+      "n_malicious": 3,
+      "malicious_correct": 3,
+      "malicious_missed": 0,
+      "malicious_recall": 1.0,
+      "n_benign": 291,
+      "benign_fp": 16,
+      "benign_clean": 275,
+      "benign_fpr": 0.054982817869415807,
+      "n_nonbenign": 3,
+      "nonbenign_correct": 3,
+      "nonbenign_recall": 1.0,
+      "macro_f1": 0.4350215940321947,
+      "confusion_matrix": [
+        [
+          275,
+          4,
+          12
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "bench_system_notifications.jsonl": {
+      "n_total": 45,
+      "n_malicious": 15,
+      "malicious_correct": 12,
+      "malicious_missed": 3,
+      "malicious_recall": 0.8,
+      "n_benign": 30,
+      "benign_fp": 3,
+      "benign_clean": 27,
+      "benign_fpr": 0.1,
+      "n_nonbenign": 15,
+      "nonbenign_correct": 12,
+      "nonbenign_recall": 0.8,
+      "macro_f1": 0.5962962962962962,
+      "confusion_matrix": [
+        [
+          27,
+          3,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          12
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "bench_trusted_sender_malicious.jsonl": {
+      "n_total": 40,
+      "n_malicious": 40,
+      "malicious_correct": 26,
+      "malicious_missed": 14,
+      "malicious_recall": 0.65,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 40,
+      "nonbenign_correct": 28,
+      "nonbenign_recall": 0.7,
+      "macro_f1": 0.2626262626262626,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          12,
+          2,
+          26
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "bench_unknown_benign.jsonl": {
+      "n_total": 50,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 50,
+      "benign_fp": 1,
+      "benign_clean": 49,
+      "benign_fpr": 0.02,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 0.494949494949495,
+      "confusion_matrix": [
+        [
+          49,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "bench_unknown_malicious.jsonl": {
+      "n_total": 50,
+      "n_malicious": 50,
+      "malicious_correct": 34,
+      "malicious_missed": 16,
+      "malicious_recall": 0.68,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 50,
+      "nonbenign_correct": 37,
+      "nonbenign_recall": 0.74,
+      "macro_f1": 0.2698412698412698,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          3,
+          34
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "slice_banking_scam.jsonl": {
+      "n_total": 3,
+      "n_malicious": 3,
+      "malicious_correct": 3,
+      "malicious_missed": 0,
+      "malicious_recall": 1.0,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 3,
+      "nonbenign_correct": 3,
+      "nonbenign_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "slice_electricity_scam.jsonl": {
+      "n_total": 3,
+      "n_malicious": 3,
+      "malicious_correct": 2,
+      "malicious_missed": 1,
+      "malicious_recall": 0.6666666666666666,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 3,
+      "nonbenign_correct": 2,
+      "nonbenign_recall": 0.6666666666666666,
+      "macro_f1": 0.4,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "slice_hard_negatives.jsonl": {
+      "n_total": 4,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 4,
+      "benign_fp": 2,
+      "benign_clean": 2,
+      "benign_fpr": 0.5,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "slice_hinglish_smishing.jsonl": {
+      "n_total": 3,
+      "n_malicious": 3,
+      "malicious_correct": 2,
+      "malicious_missed": 1,
+      "malicious_recall": 0.6666666666666666,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 3,
+      "nonbenign_correct": 2,
+      "nonbenign_recall": 0.6666666666666666,
+      "macro_f1": 0.4,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "slice_institutional_partnerships.jsonl": {
+      "n_total": 32,
+      "n_malicious": 16,
+      "malicious_correct": 11,
+      "malicious_missed": 5,
+      "malicious_recall": 0.6875,
+      "n_benign": 16,
+      "benign_fp": 6,
+      "benign_clean": 10,
+      "benign_fpr": 0.375,
+      "n_nonbenign": 16,
+      "nonbenign_correct": 11,
+      "nonbenign_recall": 0.6875,
+      "macro_f1": 0.6559139784946236,
+      "confusion_matrix": [
+        [
+          10,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          5,
+          0,
+          11
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "slice_legit_banking.jsonl": {
+      "n_total": 3,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 3,
+      "benign_fp": 2,
+      "benign_clean": 1,
+      "benign_fpr": 0.6666666666666666,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 0.25,
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "slice_legit_delivery.jsonl": {
+      "n_total": 3,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 3,
+      "benign_fp": 1,
+      "benign_clean": 2,
+      "benign_fpr": 0.3333333333333333,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 0.4,
+      "confusion_matrix": [
+        [
+          2,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "slice_legit_otp.jsonl": {
+      "n_total": 5,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 5,
+      "benign_fp": 1,
+      "benign_clean": 4,
+      "benign_fpr": 0.2,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 0.4444444444444444,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "slice_otp_theft.jsonl": {
+      "n_total": 4,
+      "n_malicious": 4,
+      "malicious_correct": 4,
+      "malicious_missed": 0,
+      "malicious_recall": 1.0,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 4,
+      "nonbenign_correct": 4,
+      "nonbenign_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          4
+        ]
+      ],
+      "threshold": 0.704
+    },
+    "synthetic_pipeline_fixtures.jsonl": {
+      "n_total": 16,
+      "n_malicious": 7,
+      "malicious_correct": 6,
+      "malicious_missed": 1,
+      "malicious_recall": 0.8571428571428571,
+      "n_benign": 7,
+      "benign_fp": 3,
+      "benign_clean": 4,
+      "benign_fpr": 0.42857142857142855,
+      "n_nonbenign": 9,
+      "nonbenign_correct": 6,
+      "nonbenign_recall": 0.6666666666666666,
+      "macro_f1": 0.44047619047619047,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          3
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          6
+        ]
+      ],
+      "threshold": 0.704
+    }
+  }
+}

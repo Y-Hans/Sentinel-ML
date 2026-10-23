@@ -1,0 +1,122 @@
+{
+  "v7_raw": {
+    "n": 4254,
+    "benign_n": 0,
+    "attack_n": 4254,
+    "fp": 0,
+    "tp": 4184,
+    "tn": 0,
+    "fn": 70,
+    "fpr": null,
+    "recall": 0.9835448989186648,
+    "fpr_wilson95": null,
+    "recall_wilson95": [
+      0.9792626098112631,
+      0.986954671829718
+    ],
+    "false_alerts_per_1000": null,
+    "assumed_false_alerts_day_30_benign_urls": null,
+    "assumed_ppv": {
+      "0.001": null,
+      "0.01": null,
+      "0.05": null
+    },
+    "small_cell": ""
+  },
+  "v8_raw": {
+    "n": 4254,
+    "benign_n": 0,
+    "attack_n": 4254,
+    "fp": 0,
+    "tp": 4168,
+    "tn": 0,
+    "fn": 86,
+    "fpr": null,
+    "recall": 0.9797837329572168,
+    "fpr_wilson95": null,
+    "recall_wilson95": [
+      0.9751014070082641,
+      0.9836003294182029
+    ],
+    "false_alerts_per_1000": null,
+    "assumed_false_alerts_day_30_benign_urls": null,
+    "assumed_ppv": {
+      "0.001": null,
+      "0.01": null,
+      "0.05": null
+    },
+    "small_cell": ""
+  },
+  "v8_url_adjudicated": {
+    "n": 4254,
+    "benign_n": 0,
+    "attack_n": 4254,
+    "fp": 0,
+    "tp": 4170,
+    "tn": 0,
+    "fn": 84,
+    "fpr": null,
+    "recall": 0.9802538787023978,
+    "fpr_wilson95": null,
+    "recall_wilson95": [
+      0.9756192722015636,
+      0.9840219073767175
+    ],
+    "false_alerts_per_1000": null,
+    "assumed_false_alerts_day_30_benign_urls": null,
+    "assumed_ppv": {
+      "0.001": null,
+      "0.01": null,
+      "0.05": null
+    },
+    "small_cell": ""
+  },
+  "v8_no_url_fallback": {
+    "n": 4254,
+    "benign_n": 0,
+    "attack_n": 4254,
+    "fp": 0,
+    "tp": 4168,
+    "tn": 0,
+    "fn": 86,
+    "fpr": null,
+    "recall": 0.9797837329572168,
+    "fpr_wilson95": null,
+    "recall_wilson95": [
+      0.9751014070082641,
+      0.9836003294182029
+    ],
+    "false_alerts_per_1000": null,
+    "assumed_false_alerts_day_30_benign_urls": null,
+    "assumed_ppv": {
+      "0.001": null,
+      "0.01": null,
+      "0.05": null
+    },
+    "small_cell": ""
+  },
+  "prior": {
+    "n": 4254,
+    "benign_n": 0,
+    "attack_n": 4254,
+    "fp": 0,
+    "tp": 4178,
+    "tn": 0,
+    "fn": 76,
+    "fpr": null,
+    "recall": 0.9821344616831218,
+    "fpr_wilson95": null,
+    "recall_wilson95": [
+      0.9776970167989023,
+      0.9857019353866359
+    ],
+    "false_alerts_per_1000": null,
+    "assumed_false_alerts_day_30_benign_urls": null,
+    "assumed_ppv": {
+      "0.001": null,
+      "0.01": null,
+      "0.05": null
+    },
+    "small_cell": ""
+  }
+}

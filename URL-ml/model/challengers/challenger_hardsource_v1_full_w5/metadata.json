@@ -1,0 +1,28 @@
+{
+  "experiment_id": "challenger_hardsource_v1_full_w5",
+  "architecture": "RandomForestClassifier",
+  "features": [
+    "URLLength",
+    "DomainLength",
+    "IsDomainIP",
+    "NoOfSubDomain",
+    "IsHTTPS",
+    "HasSuspiciousWords",
+    "SpecialCharRatio",
+    "DigitRatio",
+    "HasAtSymbol",
+    "SuspiciousTLD",
+    "BrandImpersonationScore",
+    "HyphenCount",
+    "PathQueryLength",
+    "KnownBrandDomain",
+    "DomainVowelRatio"
+  ],
+  "seed": 42,
+  "threshold": 0.2515,
+  "remediation_dataset_sha256": "36ad0e29cfd6e35215fa86d100458c03c409eadd1878b5a0be05e827e946b344",
+  "remediation_rows": 980,
+  "remediation_weight": 5.0,
+  "fit_seconds": 11.145135900000014,
+  "artifact": "model/challengers/challenger_hardsource_v1_full_w5/model.joblib"
+}

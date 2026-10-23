@@ -1,0 +1,146 @@
+{
+  "TEST": {
+    "N": 2264,
+    "benign_N": 520,
+    "mal_N": 1556,
+    "v2_fpr": 0.019230769230769232,
+    "v2_rec": 0.9010282776349614,
+    "ts_fpr": 0.019230769230769232,
+    "ts_rec": 0.903598971722365
+  },
+  "OOD": {
+    "N": 1132,
+    "benign_N": 255,
+    "mal_N": 794,
+    "v2_fpr": 0.011764705882352941,
+    "v2_rec": 0.8992443324937027,
+    "ts_fpr": 0.011764705882352941,
+    "ts_rec": 0.9005037783375315
+  },
+  "VAL": {
+    "N": 3397,
+    "benign_N": 807,
+    "mal_N": 2316,
+    "v2_fpr": 0.007434944237918215,
+    "v2_rec": 0.8847150259067358,
+    "ts_fpr": 0.006195786864931847,
+    "ts_rec": 0.8860103626943006
+  },
+  "Electricity Scam": {
+    "N": 3,
+    "benign_N": 0,
+    "mal_N": 3,
+    "v2_fpr": 0.0,
+    "v2_rec": 0.6666666666666666,
+    "ts_fpr": 0.0,
+    "ts_rec": 1.0
+  },
+  "OTP Theft": {
+    "N": 4,
+    "benign_N": 0,
+    "mal_N": 4,
+    "v2_fpr": 0.0,
+    "v2_rec": 1.0,
+    "ts_fpr": 0.0,
+    "ts_rec": 1.0
+  },
+  "Banking Scam": {
+    "N": 3,
+    "benign_N": 0,
+    "mal_N": 3,
+    "v2_fpr": 0.0,
+    "v2_rec": 1.0,
+    "ts_fpr": 0.0,
+    "ts_rec": 1.0
+  },
+  "Hard Negatives": {
+    "N": 3,
+    "benign_N": 3,
+    "mal_N": 0,
+    "v2_fpr": 0.0,
+    "v2_rec": 0.0,
+    "ts_fpr": 0.0,
+    "ts_rec": 0.0
+  },
+  "Unknown Benign": {
+    "N": 50,
+    "benign_N": 50,
+    "mal_N": 0,
+    "v2_fpr": 0.02,
+    "v2_rec": 0.0,
+    "ts_fpr": 0.02,
+    "ts_rec": 0.0
+  },
+  "Unknown Malicious": {
+    "N": 50,
+    "benign_N": 0,
+    "mal_N": 50,
+    "v2_fpr": 0.0,
+    "v2_rec": 0.68,
+    "ts_fpr": 0.0,
+    "ts_rec": 0.78
+  },
+  "Hinglish Robustness": {
+    "N": 100,
+    "benign_N": 50,
+    "mal_N": 50,
+    "v2_fpr": 0.08,
+    "v2_rec": 0.14,
+    "ts_fpr": 0.12,
+    "ts_rec": 0.54
+  },
+  "Semantic Pairs": {
+    "N": 80,
+    "benign_N": 40,
+    "mal_N": 40,
+    "v2_fpr": 0.05,
+    "v2_rec": 0.325,
+    "ts_fpr": 0.1,
+    "ts_rec": 0.575
+  },
+  "System Notifications": {
+    "N": 45,
+    "benign_N": 30,
+    "mal_N": 15,
+    "v2_fpr": 0.1,
+    "v2_rec": 0.8,
+    "ts_fpr": 0.1,
+    "ts_rec": 0.8
+  },
+  "Trusted Malicious": {
+    "N": 40,
+    "benign_N": 0,
+    "mal_N": 40,
+    "v2_fpr": 0.0,
+    "v2_rec": 0.7,
+    "ts_fpr": 0.0,
+    "ts_rec": 0.775
+  },
+  "Group Benign": {
+    "N": 40,
+    "benign_N": 40,
+    "mal_N": 0,
+    "v2_fpr": 0.025,
+    "v2_rec": 0.0,
+    "ts_fpr": 0.025,
+    "ts_rec": 0.0
+  },
+  "Group Malicious": {
+    "N": 40,
+    "benign_N": 0,
+    "mal_N": 40,
+    "v2_fpr": 0.0,
+    "v2_rec": 0.65,
+    "ts_fpr": 0.0,
+    "ts_rec": 0.775
+  },
+  "Sentinel Replay": {
+    "N": 294,
+    "benign_N": 291,
+    "mal_N": 3,
+    "v2_fpr": 0.054982817869415807,
+    "v2_rec": 1.0,
+    "ts_fpr": 0.05154639175257732,
+    "ts_rec": 1.0
+  }
+}

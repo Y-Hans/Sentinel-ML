@@ -1,0 +1,8 @@
+{
+  "message_rows": 1005,
+  "URL_rows": 102,
+  "sealed_rows": 208,
+  "message_overlap": 28,
+  "url_overlap": 92,
+  "training_files": 20
+}

@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\freeze.py"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "exit_code": 0,
+  "seconds": 0.5250875949859619,
+  "CPU_only": true,
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONUTF8": "1"
+  },
+  "stdout_sha256": "fc6e5230177c0d9b3a2d482d595d13063c4690f8a9e91fdc58eb3856141e9ad1",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

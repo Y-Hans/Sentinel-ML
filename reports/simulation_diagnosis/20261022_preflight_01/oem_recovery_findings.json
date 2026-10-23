@@ -1,0 +1,74 @@
+[
+  {
+    "path": "sentinel-ml/Databases/sentinel_db",
+    "hypotheses": [
+      {
+        "codec": "cp437",
+        "roundtrip": true,
+        "bytes": 65667,
+        "sha256": "893f4483697821eccb9d2981a72947d34e0fb79c4f4f75720f3dce84289ca1b0",
+        "error": "OperationalError('unable to open database file')"
+      },
+      {
+        "codec": "cp850",
+        "error": "UnicodeEncodeError('charmap', 'SQLite format 3\\x00\\x10\\x00\\x02\\x02\\x00@  \\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x0"
+      },
+      {
+        "codec": "cp1252",
+        "error": "UnicodeEncodeError('charmap', 'SQLite format 3\\x00\\x10\\x00\\x02\\x02\\x00@  \\x00\\x00\\x00\\x07\\x00\\x00\\x00\\x10\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x0"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/Databases/sentinel_db(1)",
+    "hypotheses": [
+      {
+        "codec": "cp437",
+        "roundtrip": true,
+        "bytes": 131574,
+        "sha256": "13b72a3c8d33714bbb1b14bcc415a8d9972ceb5694ffa188f8142094385a6e60",
+        "error": "OperationalError('unable to open database file')"
+      },
+      {
+        "codec": "cp850",
+        "error": "UnicodeEncodeError('charmap', 'SQLite format 3\\x00\\x10\\x00\\x02\\x02\\x00@  \\x00\\x00\\x00\\x10\\x00\\x00\\x00 \\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x"
+      },
+      {
+        "codec": "cp1252",
+        "error": "UnicodeEncodeError('charmap', 'SQLite format 3\\x00\\x10\\x00\\x02\\x02\\x00@  \\x00\\x00\\x00\\x10\\x00\\x00\\x00 \\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x03\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x06\\x00\\x00\\x00\\x01\\x00\\x00\\x00\\x04\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/Databases/22oct_pull/sentinel-history.tar",
+    "hypotheses": [
+      {
+        "codec": "cp437",
+        "roundtrip": true,
+        "bytes": 1380561,
+        "sha256": "9cd65fe2025c561bde355b45e427b69fe1a37e0ee113743b3aee711789c1ad37",
+        "members": [
+          {
+            "name": "databases",
+            "bytes": 0
+          },
+          {
+            "name": "databases/sentinel_db",
+            "bytes": 872448,
+            "sha256": "b3f822bde7b9cd5ab8f40965643bb72f3556df3e832536404aa010ec390622bf",
+            "header_hex": "53514c69746520666f726d6174203300",
+            "db_error": "OperationalError('unable to open database file')"
+          }
+        ]
+      },
+      {
+        "codec": "cp850",
+        "error": "UnicodeEncodeError('charmap', 'databases/\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x0"
+      },
+      {
+        "codec": "cp1252",
+        "error": "UnicodeEncodeError('charmap', 'databases/\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x0"
+      }
+    ]
+  }
+]

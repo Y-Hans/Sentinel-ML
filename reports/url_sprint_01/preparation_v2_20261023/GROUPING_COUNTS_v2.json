@@ -1,0 +1,18 @@
+{
+  "status": "OBSERVED grouping audit; no final split",
+  "unique_PSL_registrable_domain_keys": 40056,
+  "connected_parent_components": 40053,
+  "variant_families": 24848,
+  "multi_parent_components": 3,
+  "template_group_count": 44344,
+  "rows_grouped": 71208,
+  "domain_dedup_representatives_by_reported_class": {
+    "BENIGN": 24850,
+    "ATTACK": 15203
+  },
+  "cross_class_components": 0,
+  "maximum_dedup_rows_in_one_component": 410,
+  "public_suffix_boundary_variant_rows": 44,
+  "grouping_rule": "Union all records with the same full-PSL registrable parent; union all four syntactic variants from each authoritative registry source row, including PSL public-suffix boundary cases. Every component must stay in one future partition. Domain-scoped templates remain in the same component; cross-domain campaign links remain unestablished and require source evidence. Do not merge every unrelated / root into one campaign. No final partition until label/license readiness.",
+  "public_suffix_boundary_action": "Quarantine these rows/families; authoritative registration and private-suffix roles may differ. Do not assign independent apex/www groups to related variants."
+}

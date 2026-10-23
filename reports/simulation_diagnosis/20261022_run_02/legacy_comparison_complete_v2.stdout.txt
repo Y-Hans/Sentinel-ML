@@ -1,0 +1,42 @@
+[
+  {
+    "path": "sentinel-ml/investigation/sentinel_db.recovered.db",
+    "sha256": "f7704248a91699e55a06a5b8ffa2c8e83aff69232aba6804f28cd89cb5898a80",
+    "status": "REPORTED legacy recovery; not independent source",
+    "source_bytes": 65667,
+    "strict_candidates": 0,
+    "carve_attempts": 10640,
+    "exact_matching_candidates": 0,
+    "same_id_candidates": 0
+  },
+  {
+    "path": "sentinel-ml/investigation/sentinel_db(1).recovered.db",
+    "sha256": "c06c2efe7be012407415a0bdb9016beb573a3238a5f126a13304f1959b55ea54",
+    "status": "REPORTED legacy recovery; not independent source",
+    "source_bytes": 131574,
+    "strict_candidates": 0,
+    "carve_attempts": 26880,
+    "exact_matching_candidates": 0,
+    "same_id_candidates": 0
+  },
+  {
+    "path": "sentinel-ml/investigation/sentinel_db_rows.jsonl",
+    "sha256": "d4880b83464a5c7d1b236c750c79fa6aada08182e37e438f9285661b830f0652",
+    "status": "REPORTED legacy recovery; not independent source",
+    "source_rows": 161,
+    "strict_candidates": 0,
+    "rejected_nonconforming": 161,
+    "exact_matching_candidates": 0,
+    "same_id_candidates": 0
+  },
+  {
+    "path": "sentinel-ml/investigation/sentinel_db1_rows.jsonl",
+    "sha256": "aeb964ca09f3847528d29f66a78bab96d3e1f351cdbff33e9529a0c087a89f17",
+    "status": "REPORTED legacy recovery; not independent source",
+    "source_rows": 212,
+    "strict_candidates": 0,
+    "rejected_nonconforming": 212,
+    "exact_matching_candidates": 0,
+    "same_id_candidates": 0
+  }
+]

@@ -1,0 +1,141 @@
+# ==============================================================================
+# Sentinel-ML — Git Ignore Configuration
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Python & Bytecode
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# ------------------------------------------------------------------------------
+# 2. Virtual Environments
+# ------------------------------------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ------------------------------------------------------------------------------
+# 3. Credentials, Secrets & Environment Files
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credentials*.json
+*secrets*.json
+
+# ------------------------------------------------------------------------------
+# 4. IDE, Editor & Tooling Metadata
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+.kilo/
+.agents/
+*.sublime-project
+*.sublime-workspace
+
+# ------------------------------------------------------------------------------
+# 5. Operating System Artifacts
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ------------------------------------------------------------------------------
+# 6. Temporary Files & Logs
+# ------------------------------------------------------------------------------
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------------------------
+# 7. Experiment Tracking & Local Caches
+# ------------------------------------------------------------------------------
+.cache/
+cache/
+wandb/
+mlruns/
+lightning_logs/
+
+# ------------------------------------------------------------------------------
+# 8. Large Raw Datasets, External Downloads & Local Databases
+# ------------------------------------------------------------------------------
+# Raw data collections and download directories
+raw/
+downloads/
+external/
+private/
+secrets/
+
+# Large corpus and dataset files
+*.csv
+*.tsv
+*.npy
+*.npz
+*.xml
+*.parquet
+
+# SQLite databases and WAL / SHM journaling files
+Databases/
+*.db
+*.db-shm
+*.db-wal
+*.recovered.db*
+*.jsonl
+
+# Exceptions: retain documentation or schema templates if any exist
+!*.schema.json
+
+# ------------------------------------------------------------------------------
+# 9. Binary ML Model Artifacts & Checkpoints
+# ------------------------------------------------------------------------------
+# Binary model serialization files (kept locally; distributed via releases)
+checkpoints/
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.tflite
+*.h5
+*.pt
+*.pth
+
+# Note: Portable JSON runtime models (*_portable.json, champion_v2_*.json in android-runtime/assets)
+# and manifest metadata (*.json) are lightweight text assets and remain trackable by Git.
+
+# ------------------------------------------------------------------------------
+# 10. Archives, Android Packages & Heavy Tool Binaries
+# ------------------------------------------------------------------------------
+*.zip
+*.7z
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.apk
+*.aab
+*.jar
+android-runtime/tools/kotlinc/

@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\validation.py"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "exit_code": 0,
+  "wall_seconds": 5.6771080493927,
+  "script_sha256": "26e6d7f2f3325e33a7c54931b76255b769ab0fc418ded3eae0b6c88fedd56f77",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  },
+  "stdout_sha256": "36a89472730144ae4842eefa8822694719739505134bcade7202dba92207291d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

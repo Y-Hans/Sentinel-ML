@@ -1,0 +1,145 @@
+{
+  "SAVED_MALICIOUS": {
+    "total": 40,
+    "confusion_matrix": {
+      "BLOCK": 37,
+      "SAFE": 3
+    },
+    "block_rate": 0.925,
+    "warn_rate": 0.0,
+    "safe_rate": 0.075,
+    "active_bypasses_count": 0,
+    "baseline_ml_misses_count": 3,
+    "active_bypasses": [],
+    "baseline_misses_samples": [
+      {
+        "text": "Aaj college aa raha hai? By the way exam fees verify kar lo is link se: http://u",
+        "sender": "Mom",
+        "p_v2": 0.6856804695229596,
+        "p_ts": 0.6856804695229596,
+        "reason": "PASSTHROUGH",
+        "type": "BASELINE_ML_MISS"
+      },
+      {
+        "text": "Part time job offer: Earn Rs 2500 daily by rating Google Maps places. Contact HR",
+        "sender": "Mom",
+        "p_v2": 0.4709536843754371,
+        "p_ts": 0.4709536843754371,
+        "reason": "PASSTHROUGH",
+        "type": "BASELINE_ML_MISS"
+      },
+      {
+        "text": "Police legal notice: Arrest warrant issued for cyber crime case #9281. Call inve",
+        "sender": "Best Friend",
+        "p_v2": 0.27270528563734536,
+        "p_ts": 0.27270528563734536,
+        "reason": "PASSTHROUGH",
+        "type": "BASELINE_ML_MISS"
+      }
+    ]
+  },
+  "GROUP_MALICIOUS": {
+    "total": 40,
+    "confusion_matrix": {
+      "BLOCK": 37,
+      "SAFE": 3
+    },
+    "block_rate": 0.925,
+    "warn_rate": 0.0,
+    "safe_rate": 0.075,
+    "active_bypasses_count": 0,
+    "baseline_ml_misses_count": 3,
+    "active_bypasses": [],
+    "baseline_misses_samples": [
+      {
+        "text": "Aaj college aa raha hai? By the way exam fees verify kar lo is link se: http://u",
+        "sender": "College 2nd Year: Unknown Member",
+        "p_v2": 0.65810559997968,
+        "p_ts": 0.65810559997968,
+        "reason": "PASSTHROUGH",
+        "type": "BASELINE_ML_MISS"
+      },
+      {
+        "text": "Part time job offer: Earn Rs 2500 daily by rating Google Maps places. Contact HR",
+        "sender": "College 2nd Year: Unknown Member",
+        "p_v2": 0.43992797053713073,
+        "p_ts": 0.43992797053713073,
+        "reason": "PASSTHROUGH",
+        "type": "BASELINE_ML_MISS"
+      },
+      {
+        "text": "Police legal notice: Arrest warrant issued for cyber crime case #9281. Call inve",
+        "sender": "College 2nd Year: Hacked Account",
+        "p_v2": 0.27270528563734536,
+        "p_ts": 0.27270528563734536,
+        "reason": "PASSTHROUGH",
+        "type": "BASELINE_ML_MISS"
+      }
+    ]
+  },
+  "SAVED_MALICIOUS_URL": {
+    "total": 25,
+    "confusion_matrix": {
+      "SAFE": 10,
+      "BLOCK": 15
+    },
+    "block_rate": 0.6,
+    "warn_rate": 0.0,
+    "safe_rate": 0.4,
+    "active_bypasses_count": 0,
+    "baseline_ml_misses_count": 10,
+    "active_bypasses": [],
+    "baseline_misses_samples": [
+      {
+        "text": "Hey check this out immediately http://sbi-login.xyz/auth?id=0",
+        "sender": "BestFriend",
+        "p_v2": 0.6555441912560405,
+        "p_ts": 0.6555441912560405,
+        "reason": "PASSTHROUGH",
+        "type": "BASELINE_ML_MISS"
+      },
+      {
+        "text": "Hey check this out immediately http://sbi-login.xyz/auth?id=1",
+        "sender": "BestFriend",
+        "p_v2": 0.6555441912560405,
+        "p_ts": 0.6555441912560405,
+        "reason": "PASSTHROUGH",
+        "type": "BASELINE_ML_MISS"
+      },
+      {
+        "text": "Hey check this out immediately http://sbi-login.xyz/auth?id=2",
+        "sender": "BestFriend",
+        "p_v2": 0.6555441912560405,
+        "p_ts": 0.6555441912560405,
+        "reason": "PASSTHROUGH",
+        "type": "BASELINE_ML_MISS"
+      }
+    ]
+  },
+  "TRUSTED_OTP_THEFT": {
+    "total": 25,
+    "confusion_matrix": {
+      "BLOCK": 25
+    },
+    "block_rate": 1.0,
+    "warn_rate": 0.0,
+    "safe_rate": 0.0,
+    "active_bypasses_count": 0,
+    "baseline_ml_misses_count": 0,
+    "active_bypasses": [],
+    "baseline_misses_samples": []
+  },
+  "GROUP_KYC_PHISH": {
+    "total": 30,
+    "confusion_matrix": {
+      "BLOCK": 30
+    },
+    "block_rate": 1.0,
+    "warn_rate": 0.0,
+    "safe_rate": 0.0,
+    "active_bypasses_count": 0,
+    "baseline_ml_misses_count": 0,
+    "active_bypasses": [],
+    "baseline_misses_samples": []
+  }
+}

@@ -1,0 +1,43 @@
+Traceback (most recent call last):
+  File "C:\Users\user\Programing files\Yajat\Projects\sentinel\reports\simulation_diagnosis\20261022_run_02\url_reproduction_only.py", line 3, in <module>
+    exec(compile((OUT/'infer_urls.py').read_text(encoding='utf-8'),'infer_urls.py','exec'))
+  File "infer_urls.py", line 4, in <module>
+    import numpy as np,pandas as pd,sklearn,joblib
+  File "C:\Users\user\Programing files\Yajat\Projects\sentinel\sentinel-ml\URL-ml\venv\Lib\site-packages\pandas\__init__.py", line 34, in <module>
+    from pandas.compat import (
+  File "C:\Users\user\Programing files\Yajat\Projects\sentinel\sentinel-ml\URL-ml\venv\Lib\site-packages\pandas\compat\__init__.py", line 18, in <module>
+    from pandas.compat._constants import (
+  File "C:\Users\user\Programing files\Yajat\Projects\sentinel\sentinel-ml\URL-ml\venv\Lib\site-packages\pandas\compat\_constants.py", line 19, in <module>
+    WASM = (sys.platform == "emscripten") or (platform.machine() in ["wasm32", "wasm64"])
+                                              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\platform.py", line 958, in machine
+    return uname().machine
+           ^^^^^^^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\platform.py", line 856, in uname
+    release, version, csd, ptype = win32_ver()
+                                   ^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\platform.py", line 371, in win32_ver
+    major, minor, build = map(int, _syscmd_ver()[2].split('.'))
+                                   ^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\platform.py", line 284, in _syscmd_ver
+    info = subprocess.check_output(cmd,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\subprocess.py", line 466, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\subprocess.py", line 992, in __init__
+    errread, errwrite) = self._get_handles(stdin, stdout, stderr)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\subprocess.py", line 1359, in _get_handles
+    p2cread = msvcrt.get_osfhandle(self._get_devnull())
+                                   ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Roaming\uv\python\cpython-3.11-windows-x86_64-none\Lib\subprocess.py", line 1137, in _get_devnull
+    self._devnull = os.open(os.devnull, os.O_RDWR)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Programing files\Yajat\Projects\sentinel\reports\simulation_diagnosis\20261022_run_02\runlib.py", line 28, in hook
+    if not any(p.is_relative_to(a) for a in ALLOWED): raise RuntimeError('HARD_STOP_PROTECTED_WRITE_ATTEMPT: '+str(p))
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: HARD_STOP_PROTECTED_WRITE_ATTEMPT: \\.\NUL\

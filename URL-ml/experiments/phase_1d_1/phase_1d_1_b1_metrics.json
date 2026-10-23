@@ -1,0 +1,2426 @@
+{
+  "metadata": {
+    "experiment": "Phase 1D.1-B1 (16-Token Threat-Dictionary Evaluation)",
+    "timestamp_utc": "2026-10-21T15:20:38Z",
+    "champion_model_sha256": "073e70f215c0c3279288ec69a692ed5cab7e99a443ed7b4f87da51ae67cf0e58",
+    "threat_dictionary_sha256": "f2a32b58f62307e886e0f761f12d2ccbeb6d127eed9f3b56a8ab77c7ab4a9651",
+    "n_threat_tokens": 16,
+    "threat_tokens": [
+      "itaucard",
+      "cajaspiura",
+      "cajalsullana",
+      "hdbank",
+      "bancasella",
+      "pekao",
+      "banrisul",
+      "postepay",
+      "amendes",
+      "critair",
+      "mygov",
+      "uniswap",
+      "raydium",
+      "pancakeswap",
+      "poshmark",
+      "roblox"
+    ],
+    "python_version": "3.11.15",
+    "execution_duration_sec": 339.2504620552063
+  },
+  "gates": {
+    "Gate_1_Clean_Test_Recall": {
+      "target": ">= 0.98600",
+      "warning_range": "[0.98400, 0.98600)",
+      "hard_fail": "< 0.98400",
+      "value": 0.9860955177476466,
+      "tp": 22836,
+      "n": 23158,
+      "status": "PASS"
+    },
+    "Gate_2_Clean_Test_FPR": {
+      "target": "<= 0.00962",
+      "warning_range": "(0.00962, 0.01000]",
+      "hard_fail": "> 0.01000",
+      "value": 0.009615033085950353,
+      "fp": 263,
+      "n": 27353,
+      "status": "PASS"
+    },
+    "Gate_3_Benchmark_Bare_Apex_FPR": {
+      "target": "<= 0.1000",
+      "warning_range": "(0.1000, 0.1500]",
+      "hard_fail": "> 0.1500",
+      "value": 1.0,
+      "fp": 200,
+      "n": 200,
+      "status": "HARD_FAIL"
+    },
+    "Gate_4_Benchmark_Overall_FPR": {
+      "target": "<= 0.4500",
+      "warning_range": "(0.4500, 0.5000]",
+      "hard_fail": "> 0.5000",
+      "value": 0.84,
+      "fp": 420,
+      "n": 500,
+      "status": "HARD_FAIL"
+    },
+    "Gate_5_Clean_Test_Phishing_Bare_Apex_Recall": {
+      "target": ">= 0.98000",
+      "warning_range": "[0.97500, 0.98000)",
+      "hard_fail": "< 0.97500",
+      "value": 0.998533724340176,
+      "tp": 681,
+      "n": 682,
+      "status": "PASS"
+    },
+    "Gate_6_Adversarial_Recall": {
+      "target": ">= 0.98000",
+      "warning_range": "[0.97000, 0.98000)",
+      "hard_fail": "< 0.97000",
+      "value": 0.9705128205128205,
+      "tp": 3785,
+      "n": 3900,
+      "status": "WARNING_REVIEW"
+    },
+    "Gate_7_Golden_Fixtures_Regressions": {
+      "target": "== 0 regressions",
+      "value": 0,
+      "status": "PASS"
+    }
+  },
+  "combined_results": {
+    "clean_test": {
+      "n_total": 50511,
+      "matches_total": 55,
+      "matches_tp": 55,
+      "matches_fp": 0,
+      "baseline_a0": {
+        "n_total": 50511,
+        "n_pos": 23158,
+        "n_neg": 27353,
+        "tp": 22835,
+        "fp": 263,
+        "fn": 323,
+        "tn": 27090,
+        "recall": 0.9860523361257448,
+        "recall_95ci": [
+          0.98445927638503,
+          0.9874841694771634
+        ],
+        "fpr": 0.009615033085950353,
+        "fpr_95ci": [
+          0.008525486105902888,
+          0.010842300179595246
+        ],
+        "precision": 0.9886137327907178,
+        "precision_95ci": [
+          0.9871619394016988,
+          0.9899030292171387
+        ],
+        "mean_prob": 0.4424829514663281
+      },
+      "candidate_b1": {
+        "n_total": 50511,
+        "n_pos": 23158,
+        "n_neg": 27353,
+        "tp": 22836,
+        "fp": 263,
+        "fn": 322,
+        "tn": 27090,
+        "recall": 0.9860955177476466,
+        "recall_95ci": [
+          0.9845047538936516,
+          0.9875250408887499
+        ],
+        "fpr": 0.009615033085950353,
+        "fpr_95ci": [
+          0.008525486105902888,
+          0.010842300179595246
+        ],
+        "precision": 0.9886142257240573,
+        "precision_95ci": [
+          0.987162494753132,
+          0.9899034666020935
+        ],
+        "mean_prob": 0.4425872869966086
+      },
+      "delta_tp": 1,
+      "delta_fp": 0,
+      "delta_recall": 4.318162190175556e-05,
+      "delta_fpr": 0.0
+    },
+    "benchmark_overall": {
+      "n_total": 500,
+      "matches_total": 0,
+      "matches_tp": 0,
+      "matches_fp": 0,
+      "baseline_a0": {
+        "n_total": 500,
+        "n_pos": 0,
+        "n_neg": 500,
+        "tp": 0,
+        "fp": 420,
+        "fn": 0,
+        "tn": 80,
+        "recall": 0.0,
+        "recall_95ci": [
+          0.0,
+          0.0
+        ],
+        "fpr": 0.84,
+        "fpr_95ci": [
+          0.8052918208363085,
+          0.8695236276498359
+        ],
+        "precision": 0.0,
+        "precision_95ci": [
+          0.0,
+          0.009063433368181313
+        ],
+        "mean_prob": 0.7713913339341
+      },
+      "candidate_b1": {
+        "n_total": 500,
+        "n_pos": 0,
+        "n_neg": 500,
+        "tp": 0,
+        "fp": 420,
+        "fn": 0,
+        "tn": 80,
+        "recall": 0.0,
+        "recall_95ci": [
+          0.0,
+          0.0
+        ],
+        "fpr": 0.84,
+        "fpr_95ci": [
+          0.8052918208363085,
+          0.8695236276498359
+        ],
+        "precision": 0.0,
+        "precision_95ci": [
+          0.0,
+          0.009063433368181313
+        ],
+        "mean_prob": 0.7713913339341
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "delta_recall": 0.0,
+      "delta_fpr": 0.0
+    },
+    "adversarial_split": {
+      "n_total": 3900,
+      "matches_total": 0,
+      "matches_tp": 0,
+      "matches_fp": 0,
+      "baseline_a0": {
+        "n_total": 3900,
+        "n_pos": 3900,
+        "n_neg": 0,
+        "tp": 3785,
+        "fp": 0,
+        "fn": 115,
+        "tn": 0,
+        "recall": 0.9705128205128205,
+        "recall_95ci": [
+          0.9647230314739038,
+          0.9753766213200558
+        ],
+        "fpr": 0.0,
+        "fpr_95ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 1.0,
+        "precision_95ci": [
+          0.9989861125458943,
+          1.0
+        ],
+        "mean_prob": 0.9298205152656718
+      },
+      "candidate_b1": {
+        "n_total": 3900,
+        "n_pos": 3900,
+        "n_neg": 0,
+        "tp": 3785,
+        "fp": 0,
+        "fn": 115,
+        "tn": 0,
+        "recall": 0.9705128205128205,
+        "recall_95ci": [
+          0.9647230314739038,
+          0.9753766213200558
+        ],
+        "fpr": 0.0,
+        "fpr_95ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 1.0,
+        "precision_95ci": [
+          0.9989861125458943,
+          1.0
+        ],
+        "mean_prob": 0.9298205152656718
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "delta_recall": 0.0,
+      "delta_fpr": 0.0
+    },
+    "golden_fixtures": {
+      "n_total": 174,
+      "matches_total": 0,
+      "matches_tp": 0,
+      "matches_fp": 0,
+      "baseline_a0": {
+        "n_total": 174,
+        "n_pos": 86,
+        "n_neg": 88,
+        "tp": 86,
+        "fp": 0,
+        "fn": 0,
+        "tn": 88,
+        "recall": 1.0,
+        "recall_95ci": [
+          0.9572418027142576,
+          0.9999999999999999
+        ],
+        "fpr": 0.0,
+        "fpr_95ci": [
+          0.0,
+          0.0418270666648922
+        ],
+        "precision": 1.0,
+        "precision_95ci": [
+          0.9572418027142576,
+          0.9999999999999999
+        ],
+        "mean_prob": 0.46340130898275855
+      },
+      "candidate_b1": {
+        "n_total": 174,
+        "n_pos": 86,
+        "n_neg": 88,
+        "tp": 86,
+        "fp": 0,
+        "fn": 0,
+        "tn": 88,
+        "recall": 1.0,
+        "recall_95ci": [
+          0.9572418027142576,
+          0.9999999999999999
+        ],
+        "fpr": 0.0,
+        "fpr_95ci": [
+          0.0,
+          0.0418270666648922
+        ],
+        "precision": 1.0,
+        "precision_95ci": [
+          0.9572418027142576,
+          0.9999999999999999
+        ],
+        "mean_prob": 0.46340130898275855
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "delta_recall": 0.0,
+      "delta_fpr": 0.0
+    },
+    "candidate_benign_15k": {
+      "n_total": 15000,
+      "matches_total": 0,
+      "matches_tp": 0,
+      "matches_fp": 0,
+      "baseline_a0": {
+        "n_total": 15000,
+        "n_pos": 0,
+        "n_neg": 15000,
+        "tp": 0,
+        "fp": 14983,
+        "fn": 0,
+        "tn": 17,
+        "recall": 0.0,
+        "recall_95ci": [
+          0.0,
+          0.0
+        ],
+        "fpr": 0.9988666666666667,
+        "fpr_95ci": [
+          0.9981856289355222,
+          0.9992922530505977
+        ],
+        "precision": 0.0,
+        "precision_95ci": [
+          0.0,
+          0.00025632210971533205
+        ],
+        "mean_prob": 0.9596336483955383
+      },
+      "candidate_b1": {
+        "n_total": 15000,
+        "n_pos": 0,
+        "n_neg": 15000,
+        "tp": 0,
+        "fp": 14983,
+        "fn": 0,
+        "tn": 17,
+        "recall": 0.0,
+        "recall_95ci": [
+          0.0,
+          0.0
+        ],
+        "fpr": 0.9988666666666667,
+        "fpr_95ci": [
+          0.9981856289355222,
+          0.9992922530505977
+        ],
+        "precision": 0.0,
+        "precision_95ci": [
+          0.0,
+          0.00025632210971533205
+        ],
+        "mean_prob": 0.9596336483955383
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "delta_recall": 0.0,
+      "delta_fpr": 0.0
+    },
+    "candidate_malicious_2843": {
+      "n_total": 2843,
+      "matches_total": 6,
+      "matches_tp": 6,
+      "matches_fp": 0,
+      "baseline_a0": {
+        "n_total": 2843,
+        "n_pos": 2843,
+        "n_neg": 0,
+        "tp": 2842,
+        "fp": 0,
+        "fn": 1,
+        "tn": 0,
+        "recall": 0.9996482588814632,
+        "recall_95ci": [
+          0.9980101849206221,
+          0.9999379063569606
+        ],
+        "fpr": 0.0,
+        "fpr_95ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 1.0,
+        "precision_95ci": [
+          0.9986501500957521,
+          1.0
+        ],
+        "mean_prob": 0.9657589197158813
+      },
+      "candidate_b1": {
+        "n_total": 2843,
+        "n_pos": 2843,
+        "n_neg": 0,
+        "tp": 2842,
+        "fp": 0,
+        "fn": 1,
+        "tn": 0,
+        "recall": 0.9996482588814632,
+        "recall_95ci": [
+          0.9980101849206221,
+          0.9999379063569606
+        ],
+        "fpr": 0.0,
+        "fpr_95ci": [
+          0.0,
+          0.0
+        ],
+        "precision": 1.0,
+        "precision_95ci": [
+          0.9986501500957521,
+          1.0
+        ],
+        "mean_prob": 0.9657589197158813
+      },
+      "delta_tp": 0,
+      "delta_fp": 0,
+      "delta_recall": 0.0,
+      "delta_fpr": 0.0
+    }
+  },
+  "benchmark_category_1_bare_apex": {
+    "baseline_a0": {
+      "n_total": 200,
+      "n_pos": 0,
+      "n_neg": 200,
+      "tp": 0,
+      "fp": 200,
+      "fn": 0,
+      "tn": 0,
+      "recall": 0.0,
+      "recall_95ci": [
+        0.0,
+        0.0
+      ],
+      "fpr": 1.0,
+      "fpr_95ci": [
+        0.9811546736227335,
+        1.0
+      ],
+      "precision": 0.0,
+      "precision_95ci": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ],
+      "mean_prob": 0.9160804482
+    },
+    "candidate_b1": {
+      "n_total": 200,
+      "n_pos": 0,
+      "n_neg": 200,
+      "tp": 0,
+      "fp": 200,
+      "fn": 0,
+      "tn": 0,
+      "recall": 0.0,
+      "recall_95ci": [
+        0.0,
+        0.0
+      ],
+      "fpr": 1.0,
+      "fpr_95ci": [
+        0.9811546736227335,
+        1.0
+      ],
+      "precision": 0.0,
+      "precision_95ci": [
+        1.734723475976807e-18,
+        0.018845326377266575
+      ],
+      "mean_prob": 0.9160804482
+    }
+  },
+  "gate_5_clean_test_phishing_bare_apex": {
+    "baseline_a0": {
+      "n_total": 682,
+      "n_pos": 682,
+      "n_neg": 0,
+      "tp": 681,
+      "fp": 0,
+      "fn": 1,
+      "tn": 0,
+      "recall": 0.998533724340176,
+      "recall_95ci": [
+        0.9917416660624483,
+        0.9997411194332866
+      ],
+      "fpr": 0.0,
+      "fpr_95ci": [
+        0.0,
+        0.0
+      ],
+      "precision": 1.0,
+      "precision_95ci": [
+        0.9943907326707279,
+        1.0
+      ],
+      "mean_prob": 0.9779020895953079
+    },
+    "candidate_b1": {
+      "n_total": 682,
+      "n_pos": 682,
+      "n_neg": 0,
+      "tp": 681,
+      "fp": 0,
+      "fn": 1,
+      "tn": 0,
+      "recall": 0.998533724340176,
+      "recall_95ci": [
+        0.9917416660624483,
+        0.9997411194332866
+      ],
+      "fpr": 0.0,
+      "fpr_95ci": [
+        0.0,
+        0.0
+      ],
+      "precision": 1.0,
+      "precision_95ci": [
+        0.9943907326707279,
+        1.0
+      ],
+      "mean_prob": 0.9779020895953079
+    }
+  },
+  "per_token_results": {
+    "itaucard": {
+      "token": "itaucard",
+      "category": "regional_bank",
+      "target": "Banco Ita\u00fa (Brazil)",
+      "length": 8,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn_miss": 23157,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "http://itaucard.itaus30hrs.net/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            }
+          ]
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "cajaspiura": {
+      "token": "cajaspiura",
+      "category": "regional_bank",
+      "target": "Caja Piura (Peru)",
+      "length": 10,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn_miss": 23157,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "https://vcajaspiura.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.9090909090909091,
+              "match_type": "impersonation_score"
+            }
+          ]
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "cajalsullana": {
+      "token": "cajalsullana",
+      "category": "regional_bank",
+      "target": "Caja Sullana (Peru)",
+      "length": 12,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 2,
+          "tp": 2,
+          "fp": 0,
+          "fn_miss": 23156,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "https://wvwcajalsullana.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.8,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://caja-sullana.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            }
+          ]
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "hdbank": {
+      "token": "hdbank",
+      "category": "regional_bank",
+      "target": "HD Bank (Vietnam)",
+      "length": 6,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 23158,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "bancasella": {
+      "token": "bancasella",
+      "category": "regional_bank",
+      "target": "Banca Sella (Italy)",
+      "length": 10,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 23158,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "pekao": {
+      "token": "pekao",
+      "category": "regional_bank",
+      "target": "Bank Pekao (Poland)",
+      "length": 5,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn_miss": 23157,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "https://pekao-pl.net/pages",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            }
+          ]
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "banrisul": {
+      "token": "banrisul",
+      "category": "regional_bank",
+      "target": "Banrisul (Brazil)",
+      "length": 8,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 23158,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "postepay": {
+      "token": "postepay",
+      "category": "regional_bank",
+      "target": "Poste Italiane (Italy)",
+      "length": 8,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 23158,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "amendes": {
+      "token": "amendes",
+      "category": "public_sector",
+      "target": "French Traffic Fine Portal (amendes.gouv.fr)",
+      "length": 7,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 3,
+          "tp": 3,
+          "fp": 0,
+          "fn_miss": 23155,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "https://amendes-gouvs.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://espaces-paiements-amendes.fr/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://regler.amendes.gouv.fr-service.public.code-bank.xyz/infospage.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            }
+          ]
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 2,
+          "tp": 2,
+          "fp": 0,
+          "fn_miss": 2841,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "https://gouv-amendes-antai.fr/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://gouv-amende-antai.fr/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.8571428571428571,
+              "match_type": "impersonation_score"
+            }
+          ]
+        }
+      }
+    },
+    "critair": {
+      "token": "critair",
+      "category": "public_sector",
+      "target": "French Crit'Air Vignette (certificat-air.gouv.fr)",
+      "length": 7,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 4,
+          "tp": 4,
+          "fp": 0,
+          "fn_miss": 23154,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "https://vignette-critair-fr.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://certificat-critair-gouv.net/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://service-critair.com/pages/index.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://support-critair.net/pages/index.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            }
+          ]
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "mygov": {
+      "token": "mygov",
+      "category": "public_sector",
+      "target": "Australian Government Portal (my.gov.au)",
+      "length": 5,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 26,
+          "tp": 26,
+          "fp": 0,
+          "fn_miss": 23132,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 1,
+          "matched_urls": [
+            {
+              "url": "http://mygov-2au.top/my_govfix/full_info.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov-2au.top/my_govfix/index_check.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov-2au.top/my_govfix/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://www.mygov3-au.top",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov-2au.top/my_govfix/otp.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov-login.hmc.edu.au/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://www.mygov-login.hmc.edu.au",
+              "y_true": 1,
+              "a0_pred": 0,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://mygov-web-ato.firebaseapp.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://www.mygov-2au.top",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://gr-mygov.firebaseapp.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://mygov-online.firebaseapp.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov3-au.top/my_govfix/index_check.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov3-au.top/my_govfix/otp.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://www.mygov-login.hmc.edu.au/secure/otp.php?key=164.92.212.136=f412e114cb73c15d3bbe29512faf44a6f412e114cb73c15d3bbe29512faf44a6f412e114cb73c15d3bbe29512faf44a6f412e114cb73c15d3bbe29512faf44a6164.92.212.136",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov3-au.top/my_govfix/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov3-au.top/my_govfix/full_info.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov-login.hmc.edu.au/secure/otp.php?key=164.92.212.136=863e361122af65b68e89aa00bba40515863e361122af65b68e89aa00bba40515863e361122af65b68e89aa00bba40515863e361122af65b68e89aa00bba40515164.92.212.136",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://verify-mygov-login.firebaseapp.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://aus-mygov.firebaseapp.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://www.mygov-2au.top",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://www.mygov3-au.top",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://www.mygov-login.hmc.edu.au",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov-2au.top/my_govfix/otp2.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://www.mygov-login.hmc.edu.au/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://mygov3-au.top/my_govfix/otp2.php",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://mygov-aut.firebaseapp.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            }
+          ]
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "uniswap": {
+      "token": "uniswap",
+      "category": "crypto_web3",
+      "target": "Uniswap DEX",
+      "length": 7,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 8,
+          "tp": 8,
+          "fp": 0,
+          "fn_miss": 23150,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "http://app-uniswap.com.kz",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://www.uriswap.com.kz",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://raffle-uniswap.org",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://uniswap-overview.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://uniswap-app.com.kz/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://uniswap.app.com.kz/#",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://uniswap.leads.biz.id/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://uniswap.dexllama.net/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            }
+          ]
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "raydium": {
+      "token": "raydium",
+      "category": "crypto_web3",
+      "target": "Raydium DEX",
+      "length": 7,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 23158,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    },
+    "pancakeswap": {
+      "token": "pancakeswap",
+      "category": "crypto_web3",
+      "target": "PancakeSwap DEX",
+      "length": 11,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 8,
+          "tp": 8,
+          "fp": 0,
+          "fn_miss": 23150,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "http://panacakeswap.com",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://pancakeswapus.us",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.8461538461538461,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://pancakeswap.hengchen.cc/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://panckakeswap-ilv.com",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 0.85,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://pancakeswap.com.kz",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://pancakeswap-finance.platform-home.lat/swap_exchange/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "http://pancakeswap.gb.net",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://exchange-pancakeswap.godaddysites.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            }
+          ]
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 3,
+          "tp": 3,
+          "fp": 0,
+          "fn_miss": 2840,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "https://pancakeswap-v4.pw/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://pancakeswap-amm.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            },
+            {
+              "url": "https://pancakeswap-claim.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            }
+          ]
+        }
+      }
+    },
+    "poshmark": {
+      "token": "poshmark",
+      "category": "ecommerce",
+      "target": "Poshmark Marketplace",
+      "length": 8,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn_miss": 23157,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "https://hk-poshmark.com/#/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            }
+          ]
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 1,
+          "tp": 1,
+          "fp": 0,
+          "fn_miss": 2842,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": [
+            {
+              "url": "https://poshmark-overview.com/",
+              "y_true": 1,
+              "a0_pred": 1,
+              "score": 1.0,
+              "match_type": "impersonation_score"
+            }
+          ]
+        }
+      }
+    },
+    "roblox": {
+      "token": "roblox",
+      "category": "gaming_metaverse",
+      "target": "Roblox Platform",
+      "length": 6,
+      "corpora": {
+        "clean_test": {
+          "n_total": 50511,
+          "n_pos": 23158,
+          "n_neg": 27353,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 23158,
+          "tn_clean": 27353,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "benchmark_overall": {
+          "n_total": 500,
+          "n_pos": 0,
+          "n_neg": 500,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 500,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "adversarial_split": {
+          "n_total": 3900,
+          "n_pos": 3900,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 3900,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "golden_fixtures": {
+          "n_total": 174,
+          "n_pos": 86,
+          "n_neg": 88,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 86,
+          "tn_clean": 88,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_benign_15k": {
+          "n_total": 15000,
+          "n_pos": 0,
+          "n_neg": 15000,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 0,
+          "tn_clean": 15000,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        },
+        "candidate_malicious_2843": {
+          "n_total": 2843,
+          "n_pos": 2843,
+          "n_neg": 0,
+          "matches": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn_miss": 2843,
+          "tn_clean": 0,
+          "precision": 1.0,
+          "net_flipped_to_malicious": 0,
+          "matched_urls": []
+        }
+      }
+    }
+  },
+  "mode_2_feature_extraction_audit": [
+    {
+      "url": "https://www.mygov-login.hmc.edu.au",
+      "feat_0_brand_imp_base": 0.0,
+      "feat_0_brand_imp_exp": 1.0,
+      "feat_60_safe_brand_base": 0.0,
+      "feat_60_safe_brand_exp": 0.0,
+      "raw_prob_base": 0.06762768157170546,
+      "raw_prob_exp": 0.13160729893276712,
+      "raw_prob_delta": 0.06397961736106167
+    },
+    {
+      "url": "http://app-uniswap.com.kz",
+      "feat_0_brand_imp_base": 0.0,
+      "feat_0_brand_imp_exp": 1.0,
+      "feat_60_safe_brand_base": 0.0,
+      "feat_60_safe_brand_exp": 0.0,
+      "raw_prob_base": 0.99772358717428,
+      "raw_prob_exp": 0.9989638102701631,
+      "raw_prob_delta": 0.0012402230958831195
+    },
+    {
+      "url": "https://hk-poshmark.com/#/",
+      "feat_0_brand_imp_base": 0.0,
+      "feat_0_brand_imp_exp": 1.0,
+      "feat_60_safe_brand_base": 0.0,
+      "feat_60_safe_brand_exp": 0.0,
+      "raw_prob_base": 0.9949783674722243,
+      "raw_prob_exp": 0.9980281816679721,
+      "raw_prob_delta": 0.003049814195747791
+    },
+    {
+      "url": "https://mygov.in/",
+      "feat_0_brand_imp_base": 0.0,
+      "feat_0_brand_imp_exp": 0.0,
+      "feat_60_safe_brand_base": 0.0,
+      "feat_60_safe_brand_exp": 1.0,
+      "raw_prob_base": 0.8891020413743485,
+      "raw_prob_exp": 0.31702321960018853,
+      "raw_prob_delta": -0.5720788217741599
+    },
+    {
+      "url": "https://pancakeswap-v4.pw/",
+      "feat_0_brand_imp_base": 0.0,
+      "feat_0_brand_imp_exp": 1.0,
+      "feat_60_safe_brand_base": 0.0,
+      "feat_60_safe_brand_exp": 0.0,
+      "raw_prob_base": 0.9936288144716183,
+      "raw_prob_exp": 0.9987343751161776,
+      "raw_prob_delta": 0.005105560644559248
+    }
+  ]
+}

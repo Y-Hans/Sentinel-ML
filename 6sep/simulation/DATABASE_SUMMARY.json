@@ -1,0 +1,47 @@
+{
+  "database_metrics": {
+    "file_name": "sentinel_db",
+    "total_pages": 32,
+    "page_size_bytes": 4096,
+    "total_records_extracted": 294,
+    "unique_record_ids": 294
+  },
+  "traffic_source_distribution": {
+    "com.whatsapp": 283,
+    "com.google.android.apps.messaging": 7,
+    "Intent (Link)": 3,
+    "com.google.android.gm": 1
+  },
+  "risk_level_distribution": {
+    "GREEN": 261,
+    "YELLOW": 16,
+    "RED": 8,
+    "CRITICAL": 9
+  },
+  "behavioral_classification": {
+    "true_positives": 3,
+    "true_negatives": 217,
+    "model_false_positives": 24,
+    "policy_false_positives": 6,
+    "false_negatives": 0,
+    "total_alerts": 33,
+    "unnecessary_alert_count": 30,
+    "unnecessary_alert_rate_pct": 10.2
+  },
+  "subsystem_breakdown": {
+    "url_ml": {
+      "evaluations": 3,
+      "true_positives": 3,
+      "false_positives": 0,
+      "accuracy_pct": 100.0,
+      "model_champion": "Champion V7"
+    },
+    "messages_ml": {
+      "evaluations": 291,
+      "true_negatives": 217,
+      "model_false_positives": 24,
+      "policy_false_positives": 6,
+      "model_champion": "Champion V2"
+    }
+  }
+}

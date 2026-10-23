@@ -1,0 +1,8 @@
+{
+  "rows": 1320,
+  "disagreements": 80,
+  "original_labels_changed": 0,
+  "blind_output_sha256": "b7a6b7d71459118e689ec51298ac02f1c85af9d545a28b77965fedf8ec8d3561",
+  "method": "join performed after independent file-level blind classification; disagreements preserved for user review",
+  "independent_human_review": false
+}

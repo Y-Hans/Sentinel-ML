@@ -1,0 +1,16 @@
+{
+  "dataset_version": "36ad0e29cfd6e35215fa86d100458c03c409eadd1878b5a0be05e827e946b344",
+  "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel-ml\\URL-ml\\data\\remediation_hard_negatives_v1.csv",
+  "rows": 980,
+  "label_counts": {
+    "0": 980
+  },
+  "registrable_domains": 49,
+  "source_families": {
+    "remediation_legitimate_provider": 980
+  },
+  "domain_overlap_with_final_dataset": 0,
+  "url_overlap_with_final_dataset": 0,
+  "failure_family": "legitimate provider URLs with security/account/payment/query semantics",
+  "generation": "fixed templates over previously unseen providers; no TEST/OOD/hard-source row was copied or transformed"
+}

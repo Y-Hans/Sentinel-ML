@@ -1,0 +1,14 @@
+{
+  "status": "OBSERVED",
+  "model": "frozen V8 raw",
+  "metric": "average_precision",
+  "sample_n": 6000,
+  "class_n": [
+    3000,
+    3000
+  ],
+  "seed": 20261023,
+  "repeats": 3,
+  "sample_test_positions_sha256": "feca6fce708039a1f6ff756eb10cadb0deaad923a3b86fcbc6faec186a6e90c2",
+  "caveat": "Correlated interactions can mask importance; row permutation is not causal. Subsample is fixed before evaluating importance."
+}

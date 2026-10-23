@@ -1,0 +1,13 @@
+{
+  "model": "URL-ML Champion V7",
+  "runtime": "Android JVM Kotlin Native (Zero Python / Zero JNI)",
+  "total_asset_size_kb": 1005,
+  "iterations": 1000,
+  "mean_latency_ms": 0.1109,
+  "median_latency_ms": 0.1003,
+  "p95_latency_ms": 0.1965,
+  "p99_latency_ms": 0.2929,
+  "scans_per_sec": 9015.25,
+  "gate_latency_pass": true,
+  "gate_size_pass": true
+}

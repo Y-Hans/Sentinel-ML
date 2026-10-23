@@ -1,0 +1,212 @@
+================================================================================
+DETAILED DIAGNOSIS OF BENIGN UTILITY FALSE POSITIVES (Candidate B, tau=0.630)
+================================================================================
+
+--- FP #1 (Index 0) ---
+Text: Dear Consumer, your electricity bill of Rs 1,420 for Consumer No 10293847 is due on 22-Sep. Pay online via msedcl.gov.in
+Probabilities: Non-Benign=0.7195 [B: 0.2805, S: 0.0069, M: 0.7126]
+Structural Features (19 dims):
+  [(0, np.float32(120.0)), (1, np.float32(20.0)), (2, np.float32(5.05)), (3, np.float32(14.0)), (4, np.float32(0.11666667)), (5, np.float32(7.0)), (6, np.float32(0.058333334)), (7, np.float32(6.0)), (8, np.float32(0.05)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (21): ['bill', 'consumer', 'consumer your', 'dear', 'dear consumer', 'due', 'electricity', 'for', 'in', 'is', 'is due', 'no', 'of', 'of rs', 'on', 'online', 'pay', 'rs', 'via', 'your', 'your electricity']
+Sample Active Subwords: [' 1', ' 2', ' b', ' bi', ' bil', ' bill', ' c', ' co', ' con', ' d', ' de', ' dea', ' dear', ' du', ' due']
+
+--- FP #2 (Index 4) ---
+Text: Bescom Alert: Your electricity connection 4492019 has been recharged with Rs 500. Current balance: Rs 482.50.
+Probabilities: Non-Benign=0.9846 [B: 0.0154, S: 0.0026, M: 0.9820]
+Structural Features (19 dims):
+  [(0, np.float32(109.0)), (1, np.float32(16.0)), (2, np.float32(5.875)), (3, np.float32(15.0)), (4, np.float32(0.13761468)), (5, np.float32(6.0)), (6, np.float32(0.055045873)), (7, np.float32(5.0)), (8, np.float32(0.04587156)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (12): ['alert', 'balance', 'been', 'connection', 'current', 'electricity', 'has', 'has been', 'rs', 'with', 'your', 'your electricity']
+Sample Active Subwords: [' a', ' al', ' ale', ' aler', ' b', ' ba', ' be', ' bee', ' been', ' c', ' co', ' con', ' cu', ' e', ' el']
+
+--- FP #3 (Index 7) ---
+Text: DHBVN alert: Your bill for meter number 552190 is Rs 4,120. Avail 2% rebate by paying before 24-Sep on dhbvn.org.in
+Probabilities: Non-Benign=0.9662 [B: 0.0338, S: 0.0102, M: 0.9560]
+Structural Features (19 dims):
+  [(0, np.float32(115.0)), (1, np.float32(20.0)), (2, np.float32(4.8)), (3, np.float32(13.0)), (4, np.float32(0.11304348)), (5, np.float32(9.0)), (6, np.float32(0.07826087)), (7, np.float32(7.0)), (8, np.float32(0.060869563)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (14): ['24', 'alert', 'avail', 'before', 'bill', 'by', 'for', 'in', 'is', 'meter', 'number', 'on', 'rs', 'your']
+Sample Active Subwords: [' 2', ' a', ' al', ' ale', ' aler', ' av', ' b', ' be', ' bi', ' bil', ' bill', ' by', ' by ', ' d', ' f']
+
+--- FP #4 (Index 8) ---
+Text: CESC Kolkata: e-Receipt for bill payment of Rs 2,430 generated for Consumer No 22019485. Download from cesc.co.in
+Probabilities: Non-Benign=0.8459 [B: 0.1541, S: 0.0190, M: 0.8269]
+Structural Features (19 dims):
+  [(0, np.float32(113.0)), (1, np.float32(17.0)), (2, np.float32(5.7058825)), (3, np.float32(12.0)), (4, np.float32(0.10619469)), (5, np.float32(10.0)), (6, np.float32(0.088495575)), (7, np.float32(6.0)), (8, np.float32(0.053097345)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (16): ['bill', 'bill payment', 'co', 'consumer', 'download', 'for', 'from', 'generated', 'in', 'no', 'of', 'of rs', 'payment', 'payment of', 'receipt', 'rs']
+Sample Active Subwords: [' 2', ' b', ' bi', ' bil', ' bill', ' c', ' co', ' con', ' d', ' do', ' e', ' f', ' fo', ' for', ' for ']
+
+--- FP #5 (Index 10) ---
+Text: Dear consumer, power supply restored in your area following feeder repair. Thank you for your patience.
+Probabilities: Non-Benign=0.8369 [B: 0.1631, S: 0.0131, M: 0.8238]
+Structural Features (19 dims):
+  [(0, np.float32(103.0)), (1, np.float32(16.0)), (2, np.float32(5.5)), (3, np.float32(0.0)), (4, np.float32(0.0)), (5, np.float32(2.0)), (6, np.float32(0.019417476)), (7, np.float32(3.0)), (8, np.float32(0.029126214)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (18): ['area', 'consumer', 'dear', 'dear consumer', 'feeder', 'following', 'for', 'for your', 'in', 'in your', 'power', 'supply', 'thank', 'thank you', 'you', 'you for', 'your', 'your area']
+Sample Active Subwords: [' a', ' ar', ' are', ' c', ' co', ' con', ' d', ' de', ' dea', ' dear', ' f', ' fe', ' fee', ' fo', ' fol']
+
+--- FP #6 (Index 11) ---
+Text: MSEDCL: Your meter reading for consumer 19283746 recorded on 18-Sep is 14,892 kWh. Bill will be dispatched shortly.
+Probabilities: Non-Benign=0.8070 [B: 0.1930, S: 0.0641, M: 0.7429]
+Structural Features (19 dims):
+  [(0, np.float32(115.0)), (1, np.float32(18.0)), (2, np.float32(5.4444447)), (3, np.float32(15.0)), (4, np.float32(0.13043478)), (5, np.float32(10.0)), (6, np.float32(0.08695652)), (7, np.float32(5.0)), (8, np.float32(0.04347826)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (11): ['be', 'bill', 'consumer', 'for', 'is', 'meter', 'on', 'shortly', 'will', 'will be', 'your']
+Sample Active Subwords: [' 1', ' b', ' be', ' be ', ' bi', ' bil', ' bill', ' c', ' co', ' con', ' d', ' di', ' dis', ' f', ' fo']
+
+--- FP #7 (Index 12) ---
+Text: TANGEDCO: Electricity bill for service number 04-122-004-912 is Rs 1,120. Pay before 30-Sep via tnebltd.gov.in
+Probabilities: Non-Benign=0.9562 [B: 0.0438, S: 0.0330, M: 0.9232]
+Structural Features (19 dims):
+  [(0, np.float32(110.0)), (1, np.float32(15.0)), (2, np.float32(6.4)), (3, np.float32(17.0)), (4, np.float32(0.15454546)), (5, np.float32(12.0)), (6, np.float32(0.10909091)), (7, np.float32(9.0)), (8, np.float32(0.08181818)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (11): ['before', 'bill', 'electricity', 'for', 'in', 'is', 'number', 'pay', 'rs', 'service', 'via']
+Sample Active Subwords: [' 1', ' b', ' be', ' bi', ' bil', ' bill', ' e', ' el', ' ele', ' elec', ' f', ' fo', ' for', ' for ', ' i']
+
+--- FP #8 (Index 15) ---
+Text: Electricity department staff will visit for physical meter verification tomorrow between 10 AM to 1 PM.
+Probabilities: Non-Benign=0.9551 [B: 0.0449, S: 0.0005, M: 0.9546]
+Structural Features (19 dims):
+  [(0, np.float32(103.0)), (1, np.float32(16.0)), (2, np.float32(5.5)), (3, np.float32(3.0)), (4, np.float32(0.029126214)), (5, np.float32(5.0)), (6, np.float32(0.048543688)), (7, np.float32(1.0)), (8, np.float32(0.009708738)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (14): ['10', 'am', 'am to', 'department', 'electricity', 'for', 'meter', 'pm', 'staff', 'to', 'tomorrow', 'verification', 'visit', 'will']
+Sample Active Subwords: [' 1', ' a', ' am', ' b', ' be', ' d', ' de', ' e', ' el', ' ele', ' elec', ' f', ' fo', ' for', ' for ']
+
+--- FP #9 (Index 16) ---
+Text: Your complaint regarding low voltage in Sector 7 has been registered. Ticket ID: ELEC-99482. Engineer assigned.
+Probabilities: Non-Benign=0.8683 [B: 0.1317, S: 0.0118, M: 0.8565]
+Structural Features (19 dims):
+  [(0, np.float32(111.0)), (1, np.float32(16.0)), (2, np.float32(6.0)), (3, np.float32(6.0)), (4, np.float32(0.054054055)), (5, np.float32(10.0)), (6, np.float32(0.09009009)), (7, np.float32(5.0)), (8, np.float32(0.045045044)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (9): ['been', 'has', 'has been', 'id', 'in', 'regarding', 'registered', 'ticket', 'your']
+Sample Active Subwords: [' a', ' as', ' b', ' be', ' bee', ' been', ' c', ' co', ' com', ' comp', ' e', ' el', ' ele', ' elec', ' en']
+
+--- FP #10 (Index 17) ---
+Text: BSES Rajdhani: Power supply interrupted in CR Park due to cable fault. Expected restoration by 8:30 PM.
+Probabilities: Non-Benign=0.8554 [B: 0.1446, S: 0.0144, M: 0.8410]
+Structural Features (19 dims):
+  [(0, np.float32(103.0)), (1, np.float32(17.0)), (2, np.float32(5.117647)), (3, np.float32(3.0)), (4, np.float32(0.029126214)), (5, np.float32(12.0)), (6, np.float32(0.116504855)), (7, np.float32(4.0)), (8, np.float32(0.03883495)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (9): ['by', 'due', 'due to', 'expected', 'in', 'pm', 'power', 'supply', 'to']
+Sample Active Subwords: [' b', ' by', ' by ', ' c', ' ca', ' cr', ' d', ' du', ' due', ' due ', ' e', ' ex', ' exp', ' f', ' fa']
+
+--- FP #11 (Index 18) ---
+Text: Adani Power: Thank you for registering for Green Energy. Your consumer account has been updated.
+Probabilities: Non-Benign=0.9913 [B: 0.0087, S: 0.0033, M: 0.9880]
+Structural Features (19 dims):
+  [(0, np.float32(96.0)), (1, np.float32(15.0)), (2, np.float32(5.4666667)), (3, np.float32(0.0)), (4, np.float32(0.0)), (5, np.float32(6.0)), (6, np.float32(0.0625)), (7, np.float32(3.0)), (8, np.float32(0.03125)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (14): ['account', 'account has', 'been', 'consumer', 'for', 'has', 'has been', 'power', 'thank', 'thank you', 'updated', 'you', 'you for', 'your']
+Sample Active Subwords: [' a', ' ac', ' acc', ' acco', ' ad', ' b', ' be', ' bee', ' been', ' c', ' co', ' con', ' e', ' en', ' f']
+
+--- FP #12 (Index 20) ---
+Text: Dear Consumer, your electricity security deposit refund of Rs 1,200 has been credited to bank A/C XX4921.
+Probabilities: Non-Benign=0.9891 [B: 0.0109, S: 0.0008, M: 0.9883]
+Structural Features (19 dims):
+  [(0, np.float32(105.0)), (1, np.float32(17.0)), (2, np.float32(5.2352943)), (3, np.float32(8.0)), (4, np.float32(0.07619048)), (5, np.float32(7.0)), (6, np.float32(0.06666667)), (7, np.float32(4.0)), (8, np.float32(0.03809524)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (20): ['bank', 'been', 'consumer', 'consumer your', 'credited', 'dear', 'dear consumer', 'deposit', 'electricity', 'has', 'has been', 'of', 'of rs', 'refund', 'refund of', 'rs', 'security', 'to', 'your', 'your electricity']
+Sample Active Subwords: [' 1', ' a', ' a/', ' a/c', ' a/c ', ' b', ' ba', ' ban', ' bank', ' be', ' bee', ' been', ' c', ' co', ' con']
+
+--- FP #13 (Index 21) ---
+Text: Bescom helpline: For power outage complaints in Bengaluru, SMS NOPOWER to 9224455667 or use Bescom Mithra app.
+Probabilities: Non-Benign=0.9399 [B: 0.0601, S: 0.1844, M: 0.7555]
+Structural Features (19 dims):
+  [(0, np.float32(110.0)), (1, np.float32(17.0)), (2, np.float32(5.529412)), (3, np.float32(10.0)), (4, np.float32(0.09090909)), (5, np.float32(15.0)), (6, np.float32(0.13636364)), (7, np.float32(3.0)), (8, np.float32(0.027272727)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(1.0)), (12, np.float32(1.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (9): ['app', 'for', 'helpline', 'in', 'or', 'power', 'sms', 'to', 'use']
+Sample Active Subwords: [' 9', ' a', ' ap', ' app', ' b', ' be', ' c', ' co', ' com', ' comp', ' f', ' fo', ' for', ' for ', ' h']
+
+--- FP #14 (Index 25) ---
+Text: Your electricity subsidy of Rs 400 for August has been applied to bill CA 9028134. Net payable Rs 620.
+Probabilities: Non-Benign=0.9223 [B: 0.0777, S: 0.0109, M: 0.9114]
+Structural Features (19 dims):
+  [(0, np.float32(102.0)), (1, np.float32(19.0)), (2, np.float32(4.4210525)), (3, np.float32(13.0)), (4, np.float32(0.12745099)), (5, np.float32(7.0)), (6, np.float32(0.068627454)), (7, np.float32(2.0)), (8, np.float32(0.019607844)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (13): ['been', 'bill', 'electricity', 'for', 'has', 'has been', 'net', 'of', 'of rs', 'rs', 'to', 'your', 'your electricity']
+Sample Active Subwords: [' 9', ' a', ' ap', ' app', ' appl', ' au', ' b', ' be', ' bee', ' been', ' bi', ' bil', ' bill', ' c', ' ca']
+
+--- FP #15 (Index 26) ---
+Text: Adani Electricity: Download your digitized electricity bill PDF from our verified WhatsApp service 9594519122.
+Probabilities: Non-Benign=0.9954 [B: 0.0046, S: 0.0033, M: 0.9922]
+Structural Features (19 dims):
+  [(0, np.float32(110.0)), (1, np.float32(14.0)), (2, np.float32(6.928571)), (3, np.float32(10.0)), (4, np.float32(0.09090909)), (5, np.float32(8.0)), (6, np.float32(0.07272727)), (7, np.float32(2.0)), (8, np.float32(0.018181818)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(1.0)), (12, np.float32(1.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (9): ['bill', 'download', 'electricity', 'from', 'our', 'service', 'verified', 'whatsapp', 'your']
+Sample Active Subwords: [' 9', ' a', ' ad', ' b', ' bi', ' bil', ' bill', ' d', ' di', ' do', ' e', ' el', ' ele', ' elec', ' f']
+
+--- FP #16 (Index 29) ---
+Text: Bill payment reminder: Your electricity dues of Rs 890 for connection 881923 are unpaid. Pay to avoid late surcharge of Rs 50.
+Probabilities: Non-Benign=0.9980 [B: 0.0020, S: 0.0004, M: 0.9976]
+Structural Features (19 dims):
+  [(0, np.float32(126.0)), (1, np.float32(22.0)), (2, np.float32(4.7727275)), (3, np.float32(11.0)), (4, np.float32(0.08730159)), (5, np.float32(5.0)), (6, np.float32(0.03968254)), (7, np.float32(3.0)), (8, np.float32(0.023809524)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (20): ['are', 'avoid', 'bill', 'bill payment', 'connection', 'dues', 'electricity', 'for', 'late', 'of', 'of rs', 'pay', 'payment', 'reminder', 'rs', 'to', 'to avoid', 'unpaid', 'your', 'your electricity']
+Sample Active Subwords: [' a', ' ar', ' are', ' are ', ' av', ' avo', ' avoi', ' b', ' bi', ' bil', ' bill', ' c', ' co', ' con', ' d']
+
+--- FP #17 (Index 30) ---
+Text: Dear consumer, your request for load extension from 3kW to 5kW has been approved. Quotation sent to email.
+Probabilities: Non-Benign=0.9647 [B: 0.0353, S: 0.0061, M: 0.9585]
+Structural Features (19 dims):
+  [(0, np.float32(106.0)), (1, np.float32(18.0)), (2, np.float32(4.9444447)), (3, np.float32(2.0)), (4, np.float32(0.018867925)), (5, np.float32(4.0)), (6, np.float32(0.03773585)), (7, np.float32(3.0)), (8, np.float32(0.028301887)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (18): ['approved', 'been', 'consumer', 'consumer your', 'dear', 'dear consumer', 'email', 'for', 'from', 'has', 'has been', 'request', 'request for', 'sent', 'sent to', 'to', 'your', 'your request']
+Sample Active Subwords: [' a', ' ap', ' app', ' appr', ' b', ' be', ' bee', ' been', ' c', ' co', ' con', ' d', ' de', ' dea', ' dear']
+
+--- FP #18 (Index 35) ---
+Text: PSPCL consumer update: Payment of Rs 3,450 received via BBPS. Ref No: BBPS99482310.
+Probabilities: Non-Benign=0.8593 [B: 0.1407, S: 0.0123, M: 0.8470]
+Structural Features (19 dims):
+  [(0, np.float32(83.0)), (1, np.float32(13.0)), (2, np.float32(5.4615383)), (3, np.float32(12.0)), (4, np.float32(0.14457831)), (5, np.float32(17.0)), (6, np.float32(0.20481928)), (7, np.float32(5.0)), (8, np.float32(0.060240965)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (11): ['consumer', 'no', 'of', 'of rs', 'payment', 'payment of', 'received', 'ref', 'rs', 'update', 'via']
+Sample Active Subwords: [' b', ' c', ' co', ' con', ' n', ' no', ' o', ' of', ' of ', ' p', ' pa', ' pay', ' paym', ' r', ' re']
+
+--- FP #19 (Index 36) ---
+Text: TANGEDCO: Please update your Aadhaar link with consumer service number at nearest section office or online.
+Probabilities: Non-Benign=0.9988 [B: 0.0012, S: 0.0010, M: 0.9978]
+Structural Features (19 dims):
+  [(0, np.float32(107.0)), (1, np.float32(16.0)), (2, np.float32(5.75)), (3, np.float32(0.0)), (4, np.float32(0.0)), (5, np.float32(10.0)), (6, np.float32(0.093457945)), (7, np.float32(2.0)), (8, np.float32(0.018691588)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (15): ['aadhaar', 'at', 'consumer', 'link', 'number', 'office', 'online', 'or', 'please', 'please update', 'service', 'update', 'update your', 'with', 'your']
+Sample Active Subwords: [' a', ' aa', ' at', ' at ', ' c', ' co', ' con', ' l', ' li', ' lin', ' link', ' n', ' ne', ' nu', ' num']
+
+--- FP #20 (Index 37) ---
+Text: CESC: Your request for meter relocation has been scheduled for inspection on Monday.
+Probabilities: Non-Benign=0.8282 [B: 0.1718, S: 0.0094, M: 0.8189]
+Structural Features (19 dims):
+  [(0, np.float32(84.0)), (1, np.float32(13.0)), (2, np.float32(5.5384617)), (3, np.float32(0.0)), (4, np.float32(0.0)), (5, np.float32(6.0)), (6, np.float32(0.071428575)), (7, np.float32(2.0)), (8, np.float32(0.023809524)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (12): ['been', 'for', 'has', 'has been', 'meter', 'monday', 'on', 'request', 'request for', 'scheduled', 'your', 'your request']
+Sample Active Subwords: [' b', ' be', ' bee', ' been', ' c', ' f', ' fo', ' for', ' for ', ' h', ' ha', ' has', ' has ', ' i', ' in']
+
+--- FP #21 (Index 42) ---
+Text: Tata Power: Win Rs 100 cashback on paying electricity bill using UPI on Tata Power app.
+Probabilities: Non-Benign=0.7053 [B: 0.2947, S: 0.0229, M: 0.6823]
+Structural Features (19 dims):
+  [(0, np.float32(87.0)), (1, np.float32(16.0)), (2, np.float32(4.5)), (3, np.float32(3.0)), (4, np.float32(0.03448276)), (5, np.float32(9.0)), (6, np.float32(0.10344828)), (7, np.float32(2.0)), (8, np.float32(0.022988506)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (11): ['app', 'bill', 'cashback', 'electricity', 'on', 'power', 'rs', 'tata', 'upi', 'using', 'win']
+Sample Active Subwords: [' 1', ' a', ' ap', ' app', ' b', ' bi', ' bil', ' bill', ' c', ' ca', ' cas', ' cash', ' e', ' el', ' ele']
+
+--- FP #22 (Index 43) ---
+Text: Your request for change of tariff category from commercial to domestic has been submitted for review.
+Probabilities: Non-Benign=0.8091 [B: 0.1909, S: 0.0054, M: 0.8036]
+Structural Features (19 dims):
+  [(0, np.float32(101.0)), (1, np.float32(16.0)), (2, np.float32(5.375)), (3, np.float32(0.0)), (4, np.float32(0.0)), (5, np.float32(1.0)), (6, np.float32(0.00990099)), (7, np.float32(1.0)), (8, np.float32(0.00990099)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (13): ['been', 'change', 'for', 'from', 'has', 'has been', 'of', 'request', 'request for', 'review', 'to', 'your', 'your request']
+Sample Active Subwords: [' b', ' be', ' bee', ' been', ' c', ' ca', ' ch', ' cha', ' co', ' com', ' d', ' do', ' f', ' fo', ' for']
+
+--- FP #23 (Index 44) ---
+Text: Electricity connection 992018: Meter reading date rescheduled to 24th due to local festival.
+Probabilities: Non-Benign=0.8573 [B: 0.1427, S: 0.0025, M: 0.8549]
+Structural Features (19 dims):
+  [(0, np.float32(92.0)), (1, np.float32(13.0)), (2, np.float32(6.1538463)), (3, np.float32(8.0)), (4, np.float32(0.08695652)), (5, np.float32(2.0)), (6, np.float32(0.02173913)), (7, np.float32(2.0)), (8, np.float32(0.02173913)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (8): ['connection', 'date', 'due', 'due to', 'electricity', 'local', 'meter', 'to']
+Sample Active Subwords: [' 2', ' 9', ' c', ' co', ' con', ' d', ' da', ' dat', ' du', ' due', ' due ', ' e', ' el', ' ele', ' elec']
+
+--- FP #24 (Index 48) ---
+Text: BESCOM: Feeder trip occurred in Whitefield due to tree fall. Restoration team en route.
+Probabilities: Non-Benign=0.8225 [B: 0.1775, S: 0.0115, M: 0.8110]
+Structural Features (19 dims):
+  [(0, np.float32(87.0)), (1, np.float32(14.0)), (2, np.float32(5.285714)), (3, np.float32(0.0)), (4, np.float32(0.0)), (5, np.float32(9.0)), (6, np.float32(0.10344828)), (7, np.float32(3.0)), (8, np.float32(0.03448276)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (6): ['due', 'due to', 'feeder', 'in', 'team', 'to']
+Sample Active Subwords: [' b', ' be', ' d', ' du', ' due', ' due ', ' e', ' en', ' f', ' fa', ' fe', ' fee', ' i', ' in', ' in ']
+
+--- FP #25 (Index 53) ---
+Text: PSPCL: Agriculture tubewell power supply timing changed to night slot 10 PM - 6 AM.
+Probabilities: Non-Benign=0.8992 [B: 0.1008, S: 0.1964, M: 0.7028]
+Structural Features (19 dims):
+  [(0, np.float32(83.0)), (1, np.float32(15.0)), (2, np.float32(4.6)), (3, np.float32(3.0)), (4, np.float32(0.036144577)), (5, np.float32(10.0)), (6, np.float32(0.12048193)), (7, np.float32(3.0)), (8, np.float32(0.036144577)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (7): ['10', 'am', 'night', 'pm', 'power', 'supply', 'to']
+Sample Active Subwords: [' -', ' - ', ' 1', ' a', ' ag', ' am', ' c', ' ch', ' cha', ' n', ' p', ' po', ' pow', ' powe', ' s']
+
+--- FP #26 (Index 54) ---
+Text: Electricity meter inspection completed at your flat. Reading verified as 8,920.
+Probabilities: Non-Benign=0.9177 [B: 0.0823, S: 0.0015, M: 0.9162]
+Structural Features (19 dims):
+  [(0, np.float32(79.0)), (1, np.float32(11.0)), (2, np.float32(6.2727275)), (3, np.float32(4.0)), (4, np.float32(0.050632913)), (5, np.float32(2.0)), (6, np.float32(0.025316456)), (7, np.float32(3.0)), (8, np.float32(0.03797468)), (9, np.float32(0.0)), (10, np.float32(0.0)), (11, np.float32(0.0)), (12, np.float32(0.0)), (13, np.float32(0.0)), (14, np.float32(0.0)), (15, np.float32(0.0)), (16, np.float32(0.0)), (17, np.float32(0.0)), (18, np.float32(0.0))]
+Active Word TF-IDF Tokens (6): ['as', 'at', 'electricity', 'meter', 'verified', 'your']
+Sample Active Subwords: [' a', ' as', ' as ', ' at', ' at ', ' c', ' co', ' com', ' comp', ' e', ' el', ' ele', ' elec', ' f', ' i']
+

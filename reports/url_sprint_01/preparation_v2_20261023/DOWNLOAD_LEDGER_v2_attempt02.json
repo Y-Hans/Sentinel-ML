@@ -1,0 +1,149 @@
+{
+  "time_utc": "2026-10-23T11:05:16.385332+00:00",
+  "request_policy": "Allowlisted official source hosts only; HTTPS; validate redirects; reject HTML; no URL from a dataset is ever requested. No executables/scripts/DOM archives or page content downloaded.",
+  "files": [
+    {
+      "requested_url": "https://tranco-list.eu/api/lists/id/56Z8N",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/tranco_56Z8N_metadata.json",
+      "role": "official reproducible ranking metadata",
+      "license": "Composite upstream attribution/terms: Umbrella free, Majestic CC-BY-3.0, CrUX CC-BY-SA-4.0, Radar CC-BY-NC-4.0, Farsight terms not fully established; research metadata only, product reuse not cleared",
+      "license_source": "https://tranco-list.eu/?from_column=20421",
+      "started_utc": "2026-10-23T11:05:04.168068+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "final_url": "https://tranco-list.eu/api/lists/id/56Z8N",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "headers": {
+        "Content-Length": "419"
+      },
+      "status": "DOWNLOADED",
+      "bytes": 419,
+      "sha256": "9ed9a60cf2076315703bbd7c887a4ca9148365e466a94a3f4a290f49d946acf9",
+      "finished_utc": "2026-10-23T11:05:07.138587+00:00"
+    },
+    {
+      "requested_url": "https://tranco-list.eu/download/56Z8N/1000000",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/tranco_56Z8N_top1m.csv",
+      "role": "official domains ranking; never safety labels",
+      "license": "Composite upstream attribution/terms: Umbrella free, Majestic CC-BY-3.0, CrUX CC-BY-SA-4.0, Radar CC-BY-NC-4.0, Farsight terms not fully established; research metadata only, product reuse not cleared",
+      "license_source": "https://tranco-list.eu/?from_column=20421",
+      "started_utc": "2026-10-23T11:05:07.138587+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "final_url": "https://tranco-list.eu/download/56Z8N/1000000",
+      "http_status": 200,
+      "content_type": "text/csv; charset=utf-8",
+      "headers": {
+        "Last-Modified": "Thu, 22 Oct 2026 23:00:16 GMT"
+      },
+      "status": "DOWNLOADED",
+      "bytes": 22618661,
+      "sha256": "bf3103bb0dec409876e02c753319dbe7a95f775a26142170e10d159fd183587a",
+      "finished_utc": "2026-10-23T11:05:10.970542+00:00"
+    },
+    {
+      "requested_url": "https://assets.publishing.service.gov.uk/media/69cbd582024cdf09254f3f7d/List_of_.gov.uk_domain_names_as_of_31_March_2026_1.csv",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/govuk_registry_20260331.csv",
+      "role": "authoritative .gov.uk registered domains, not endpoint safety",
+      "license": "Open Government Licence v3.0; attribution required; registry identity only",
+      "license_source": "https://www.gov.uk/government/publications/list-of-gov-uk-domain-names",
+      "started_utc": "2026-10-23T11:05:10.970542+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "final_url": "https://assets.publishing.service.gov.uk/media/69cbd582024cdf09254f3f7d/List_of_.gov.uk_domain_names_as_of_31_March_2026_1.csv",
+      "http_status": 200,
+      "content_type": "text/csv",
+      "headers": {
+        "Last-Modified": "Tue, 31 Mar 2026 14:09:06 GMT",
+        "ETag": "\"69cbd582-3322a\"",
+        "Content-Length": "209450"
+      },
+      "status": "DOWNLOADED",
+      "bytes": 209450,
+      "sha256": "6a938390d4f3088b5777d83215bfc71194ef2fd2b318d20a5b3466aad5741493",
+      "finished_utc": "2026-10-23T11:05:12.537691+00:00"
+    },
+    {
+      "requested_url": "https://api.github.com/repos/cisagov/dotgov-data/commits/main",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/cisagov_revision.json",
+      "role": "official registry repository revision metadata",
+      "license": "GitHub public repository metadata; dataset CC0-1.0",
+      "license_source": "https://github.com/cisagov/dotgov-data",
+      "started_utc": "2026-10-23T11:05:12.537691+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "final_url": "https://api.github.com/repos/cisagov/dotgov-data/commits/main",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "headers": {
+        "Last-Modified": "Thu, 22 Oct 2026 12:54:30 GMT",
+        "ETag": "W/\"5d6ece8364ecdf75792dd62d0594906cde6774f39fcf6cac9169edb7e97ce3ce\""
+      },
+      "status": "DOWNLOADED",
+      "bytes": 20097,
+      "sha256": "268a7179b2edce60a8b04fd52178bb4d92663af5c8be59d57af6bdd10634bd2e",
+      "finished_utc": "2026-10-23T11:05:13.273268+00:00"
+    },
+    {
+      "requested_url": "https://raw.githubusercontent.com/cisagov/dotgov-data/000237f4777395ae1282f596dd96b9815749f52f/current-full.csv",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/cisagov_current_full.csv",
+      "role": "authoritative registered .gov domains, not endpoint safety",
+      "license": "CC0-1.0",
+      "license_source": "https://github.com/cisagov/dotgov-data/blob/main/LICENSE",
+      "started_utc": "2026-10-23T11:05:13.292256+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "final_url": "https://raw.githubusercontent.com/cisagov/dotgov-data/000237f4777395ae1282f596dd96b9815749f52f/current-full.csv",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "headers": {
+        "ETag": "\"05d17fbe8a797c440879b3d8abe8e1b698d8ba76045df3b805fbdb168e2ad345\"",
+        "Content-Length": "1444230"
+      },
+      "status": "DOWNLOADED",
+      "bytes": 1444230,
+      "sha256": "f1bf731322871787f742508a2d7c026c7dfae268092b9dad86e23199c8cddd62",
+      "finished_utc": "2026-10-23T11:05:14.112779+00:00"
+    },
+    {
+      "requested_url": "https://raw.githubusercontent.com/cisagov/dotgov-data/000237f4777395ae1282f596dd96b9815749f52f/LICENSE",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/cisagov_LICENSE.txt",
+      "role": "dataset license metadata",
+      "license": "CC0-1.0",
+      "license_source": "https://github.com/cisagov/dotgov-data/blob/main/LICENSE",
+      "started_utc": "2026-10-23T11:05:14.112779+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "final_url": "https://raw.githubusercontent.com/cisagov/dotgov-data/000237f4777395ae1282f596dd96b9815749f52f/LICENSE",
+      "http_status": 200,
+      "content_type": "text/plain; charset=utf-8",
+      "headers": {
+        "ETag": "\"9d3fb2fa8cac7a8827d7cf7e62d6af81f1ffbb3fddb4d270334afebee9e1fc66\"",
+        "Content-Length": "7048"
+      },
+      "status": "DOWNLOADED",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "finished_utc": "2026-10-23T11:05:14.587543+00:00"
+    },
+    {
+      "requested_url": "https://api.data.mendeley.com/datasets/c2gw7fy2j4?version=3",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/mendeley_c2gw7fy2j4_v3_metadata.json",
+      "role": "publisher public research dataset metadata; 2020 collection/2021 release",
+      "license": "CC-BY-4.0 dataset; retain author/DOI attribution",
+      "license_source": "https://data.mendeley.com/datasets/c2gw7fy2j4/3",
+      "started_utc": "2026-10-23T11:05:14.587543+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "status": "MISSING_DOWNLOAD_FAILED",
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "finished_utc": "2026-10-23T11:05:15.557630+00:00"
+    },
+    {
+      "requested_url": "https://api.data.mendeley.com/datasets/c2gw7fy2j4/files?version=3",
+      "local_path": "reports/url_sprint_01/preparation_v2_20261023/sources/mendeley_c2gw7fy2j4_v3_files.json",
+      "role": "publisher public file catalogue; inspect before selecting CSV only",
+      "license": "CC-BY-4.0 dataset metadata",
+      "license_source": "https://data.mendeley.com/datasets/c2gw7fy2j4/3",
+      "started_utc": "2026-10-23T11:05:15.561659+00:00",
+      "authorization": "User limited public dataset and metadata download approval, 2026-10-23; NOT model training",
+      "status": "MISSING_DOWNLOAD_FAILED",
+      "error": "<HTTPError 401: 'Unauthorized'>",
+      "finished_utc": "2026-10-23T11:05:16.381483+00:00"
+    }
+  ]
+}

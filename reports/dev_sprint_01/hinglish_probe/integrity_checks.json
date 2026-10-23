@@ -1,0 +1,492 @@
+{
+  "status": "PASS",
+  "protected_existing_files": 1750,
+  "changed": [],
+  "git_file_by_file_identical": true,
+  "git_paths": [
+    {
+      "path": "README.md",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/agents/src/main/java/com/sentinel/ai/agents/sender/SenderClassifier.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/agents/src/main/java/com/sentinel/ai/agents/whatsapp/NotificationAgentCoordinator.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/agents/src/main/java/com/sentinel/ai/agents/whatsapp/NotificationEventBuilder.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/agents/src/main/java/com/sentinel/ai/agents/whatsapp/NotificationParser.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/agents/src/main/java/com/sentinel/ai/agents/whatsapp/NotificationThreatAnalyzer.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/agents/src/main/java/com/sentinel/ai/agents/whatsapp/WhatsAppModels.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/agents/src/test/java/com/sentinel/ai/agents/whatsapp/NotificationThreatAnalyzerTest.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/agents/src/test/java/com/sentinel/ai/agents/whatsapp/WhatsAppEventBuilderTest.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/agents/src/test/java/com/sentinel/ai/agents/whatsapp/WhatsAppNotificationParserTest.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/build.gradle.kts",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/main/assets/champion_v2_char_vocab_idf.json",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/app/src/main/assets/champion_v2_scaler.json",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/app/src/main/assets/champion_v2_trees.json",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/app/src/main/assets/champion_v2_word_vocab_idf.json",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/app/src/main/assets/v7_champion_portable.json",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/app/src/main/java/com/sentinel/ai/contacts/AndroidContactResolver.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/main/java/com/sentinel/ai/listeners/SentinelNotificationListener.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/main/java/com/sentinel/ai/protection/intent/IntentThreatAnalyzerImpl.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/main/java/com/sentinel/ai/protection/intent/ScanLoadingActivity.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/main/java/com/sentinel/ai/ui/settings/SettingsActivity.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/main/java/com/sentinel/ai/warning/WarningModule.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/main/res/drawable/ic_launcher.xml",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/main/res/values/themes.xml",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/test/java/com/sentinel/ai/ml/MessageReleaseSmokeTest.kt",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/app/src/test/java/com/sentinel/ai/protection/intent/IntentThreatAnalyzerImplTest.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/test/java/com/sentinel/ai/protection/intent/ScanLoadingActivityTest.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/app/src/test/java/com/sentinel/ai/protection/intent/link/BrowserLauncherTest.kt",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/app/src/test/java/com/sentinel/ai/protection/intent/link/BrowserSelectionPolicyTest.kt",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/core/src/main/assets/",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/browser/BrowserLauncher.kt",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/browser/BrowserSelectionPolicy.kt",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/di/MlModule.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/fusion/RiskFusionEngine.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/fusion/RiskFusionModels.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/DualTfidfVectorizer.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/FeatureScaler.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MessageAdjudicator.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MessageAssetLoader.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MessageFeatureExtractor.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MessageReleaseConfig.kt",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MessageScanner.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MultiClassTreeEvaluator.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/url/HistGbmTreeEvaluator.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/url/SafeDomainAdjudicator.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/url/UrlFeatureExtractor.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/ml/url/UrlScanner.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/preferences/BrowserPreferenceRepository.kt",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/sender/SenderIdentifierNormalizer.kt",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/main/java/com/sentinel/ai/core/url/",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/java/com/sentinel/ai/core/fusion/RiskFusionEngineTest.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/test/java/com/sentinel/ai/core/ml/messages/MessageAdjudicatorBoundaryTest.kt",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/java/com/sentinel/ai/core/ml/messages/MessageParityTest.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/test/java/com/sentinel/ai/core/ml/url/SafeDomainAdjudicationTest.kt",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/java/com/sentinel/ai/core/ml/url/UrlCanonicalizationTest.kt",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/java/com/sentinel/ai/core/ml/url/UrlParityTest.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/core/src/test/java/com/sentinel/ai/core/ml/url/UrlV8ParityTest.kt",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/java/com/sentinel/ai/core/preferences/BrowserPreferenceRepositoryTest.kt",
+      "before": " D",
+      "after": " D"
+    },
+    {
+      "path": "android-app/core/src/test/resources/golden_messages_v4_3.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/golden_messages_v4_4.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/golden_urls_v8.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/messages_v4_3_char_vocab_idf.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/messages_v4_3_scaler.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/messages_v4_3_trees.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/messages_v4_3_word_vocab_idf.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/messages_v4_4_char_vocab_idf.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/messages_v4_4_scaler.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/messages_v4_4_trees.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/messages_v4_4_word_vocab_idf.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/core/src/test/resources/v8_champion_portable.json",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "android-app/ui/src/main/java/com/sentinel/ai/ui/navigation/Screen.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/ui/src/main/java/com/sentinel/ai/ui/navigation/SentinelNavGraph.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/ui/src/main/java/com/sentinel/ai/ui/screens/dashboard/DashboardScreen.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/ui/src/main/java/com/sentinel/ai/ui/screens/dashboard/DashboardUiState.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/ui/src/main/java/com/sentinel/ai/ui/screens/dashboard/DashboardViewModel.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/ui/src/main/java/com/sentinel/ai/ui/screens/permissions/PermissionOnboardingScreen.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/ui/src/main/java/com/sentinel/ai/ui/screens/scanner/ScannerViewModel.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/ui/src/main/java/com/sentinel/ai/ui/screens/settings/SettingsScreen.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/ui/src/main/java/com/sentinel/ai/ui/screens/settings/SettingsViewModel.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "android-app/ui/src/test/java/com/sentinel/ai/ui/ScannerViewModelTest.kt",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "docs/EXPERIMENT_REPORT.md",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "docs/PROJECT_CONTEXT_DOSSIER.md",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "docs/PROJECT_STATE.md",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "docs/RELEASE_DECISION.md",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "docs/REPRODUCTION_COMMANDS.md",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "docs/ROOT_CAUSE_ANALYSIS.md",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "docs/architecture.md",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "docs/features.md",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "docs/ml-integration-contract.md",
+      "before": " M",
+      "after": " M"
+    },
+    {
+      "path": "installed-sentinel.apk",
+      "before": "??",
+      "after": "??"
+    },
+    {
+      "path": "ml-artifacts/message-model-archive/",
+      "before": "??",
+      "after": "??"
+    }
+  ],
+  "git_exit_codes": [
+    0,
+    0
+  ],
+  "probe_sha256": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44",
+  "design_sha256": "a1a78e72720f6fc36da5c978e2d906a57056eafc37adf60ec738e2f1fd335f13",
+  "freeze_hash_unchanged": true,
+  "design_unchanged_since_inference": true,
+  "user_review_columns_blank": true,
+  "CPU_only": true,
+  "GPU_requested": false,
+  "training_fits": 0,
+  "threshold_changes": 0,
+  "exports": 0,
+  "Android_Kotlin_Gradle_runs": 0,
+  "excluded_prohibited_inputs": [
+    "datasets_v5",
+    "user_data"
+  ]
+}

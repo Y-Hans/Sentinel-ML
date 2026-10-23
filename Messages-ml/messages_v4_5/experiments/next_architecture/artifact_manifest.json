@@ -1,0 +1,7 @@
+{
+  "model_file": "c:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\models\\auxiliary_semantic_model.pkl",
+  "embedding_cache": "c:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\data\\auxiliary_train_emb.npy",
+  "config_file": "c:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\config.json",
+  "evaluation_file": "c:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\evaluation_results.json",
+  "regression_forensic_file": "c:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\regression_forensic.json"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "STAGE4_APPROVAL_STOP",
+  "required_artifacts_present": [
+    "frozen/PROBE_V2_DESIGN.md",
+    "frozen/probe_v2.csv",
+    "frozen/probe_v2.sha256",
+    "PROBE_V2_RESULTS.md",
+    "frozen/REVIEW_SAMPLE_v2.csv",
+    "FEATURE_LEDGER.md",
+    "FEATURE_LEDGER.csv",
+    "DATA_AUDIT.md",
+    "PRE_REGISTRATION.md",
+    "TRAINING_LOG.md",
+    "RESULTS.md",
+    "DECISION.md",
+    "RUN_EVIDENCE.md",
+    "PROGRESS.md",
+    "QUESTIONS_FOR_USER.md"
+  ],
+  "manifest_sha256": "dd25f70ad900624ab4e908a6cfc13e3df4b69f9324ef628ca99943651b197099",
+  "approval_bundle_sha256": "3b11967d6b17f874b807b0aa872adca5d1bfc98897c11bdbb3d5acdfba529ea0",
+  "protected_unchanged": 1750,
+  "Git_identical": true,
+  "candidate_fits": 0,
+  "intake_status": "PENDING_DATASETS_MOVED",
+  "new_file_count": 123
+}

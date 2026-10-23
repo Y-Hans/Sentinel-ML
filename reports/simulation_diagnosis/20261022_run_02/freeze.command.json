@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\freeze.py"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "exit_code": 0,
+  "seconds": 84.99668002128601,
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "GIT_OPTIONAL_LOCKS": "0",
+    "PYTHONUTF8": "1"
+  },
+  "stdout_sha256": "bafa89b2f33f073a038822c9c187304fdb17d18059126f23dbbe2a576ee953f3",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

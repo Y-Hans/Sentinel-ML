@@ -1,0 +1,545 @@
+[
+  {
+    "file": "analyze_security_endpoint_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "analyze_security_endpoint"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 5.532407999038696,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "55a0b6a67488c4593702c7e87a2b5d2050cc413b500a962cad4bccea70cdfbb8",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "analyze_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "analyze"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 4.089492321014404,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "55a0b6a67488c4593702c7e87a2b5d2050cc413b500a962cad4bccea70cdfbb8",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "calibration_plot_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "calibration_plot"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 0.329653263092041,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "449867e853e94c6db83efefa26cc5121aa3f564b78ee703f129f76fbb68efcf4",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "cluster_evidence_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "cluster_evidence"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 0.4707810878753662,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "ecd981bb720b60f38ec00ab23a53333fbbd66a390b73a23b259c26c3f54a93cb",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "finding_summary_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "finding_summary"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 0.6938819885253906,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "62356f06a730b7683afb335de78c9b9123b61460aac1225bc8e4fa656f51a4db",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "freeze.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\freeze.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 84.99668002128601,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "bafa89b2f33f073a038822c9c187304fdb17d18059126f23dbbe2a576ee953f3",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "freeze_correction.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\freeze_correction.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 108.26615929603577,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "fb4899a7917ea418f4e3587bc1c4b7823b14aa11a420268d4ae0db0f6a2987cf",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "infer_messages_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "infer_messages"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 32.23803091049194,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "f2f0a28db149de66ab222c573698ce55e8ee1f895443af5aa046b41639e7cc82",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "legacy_comparison_complete_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "legacy_comparison_complete"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 15.415835857391357,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "3d514cca3209192c7349b1ad23c28ea096cd7829bebca202874152af5e63777c",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "messages_reproduction_only.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\messages_reproduction_only.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 1,
+    "seconds": 1.202976942062378,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "608c76ec4391a57e18cc46ac8081d35ccfcf6cc84b03bd4689dba4753645b99f"
+  },
+  {
+    "file": "messages_reproduction_only_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "messages_reproduction_only"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 36.03772449493408,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "14b7feddba7a33d8ac1bcfce270b13f52ecbbb536b748237ef4d48083381b4ce",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "proposed_gates_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "proposed_gates"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 0.23993539810180664,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "62e928d6ed2b6ada53d6f63a8b452aa7e4504b230ec9940bef6a87a818d04d04",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "provenance_followup_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "provenance_followup"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 0.25374436378479004,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "abd2667bf9010929c05e22e69cca9457e791bf149ae4ead54f549b84b8de513f",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "qa_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "qa"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 0.6185126304626465,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "f9c5815885595aed7c2bbdb56e64ac1c3f66b5fc1edd392042f1713a9ad9235d",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "recover.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\recover.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 0.5422468185424805,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "a342ae30dbd8852e819940803694c586ddcfe6601add0516a0f2de65ed91e9ec",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "recover_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\recover_v2.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 61.81797504425049,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "badbfb4d8ba99ff2abd29379f2771118ba853ba5c11aad589a7b86b943a82ea6",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "reproduction_extra_v2.command.json",
+    "argv": [
+      "sentinel-ml/URL-ml/venv/Scripts/python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "reproduction_extra"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 4.3730549812316895,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "30872f7d6159729df1b0ac1d6a4da80b8c68342265976b7af95e22fe9d95db54",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "snapshot_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\snapshot_v2.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 1,
+    "seconds": 0.22108936309814453,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "a3e9b4b1649c15d4b4a715597d6dd9c0a4ede7e181fbc358b9e2c6c7459c41b0"
+  },
+  {
+    "file": "url_form_trace_v2.command.json",
+    "argv": [
+      "sentinel-ml/URL-ml/venv/Scripts/python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "url_form_trace"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 2.4412167072296143,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "ad5f69d17c19e03b412680b1eba655188b6fde0b3a8a76d11ffdf5da4a8288e6",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "url_reproduction_only.command.json",
+    "argv": [
+      "sentinel-ml/URL-ml/venv/Scripts/python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\url_reproduction_only.py"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 1,
+    "seconds": 0.46914076805114746,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "de0cf44234a69f9c42d60cacbab433a714e6a6d9242d9fa1060caaaf42cc29d8"
+  },
+  {
+    "file": "url_reproduction_only_v2.command.json",
+    "argv": [
+      "sentinel-ml/URL-ml/venv/Scripts/python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "url_reproduction_only"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 81.9428026676178,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "166a689db2700550ee83b2eaf83eb9efed53811bacab16bd7e19e4f92bcb0d5c",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "url_simulation_only_v2.command.json",
+    "argv": [
+      "sentinel-ml/URL-ml/venv/Scripts/python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "url_simulation_only"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 3.4697554111480713,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "4bcdcac7ddb7cd8a920d55bf78a838d8c4a7e4a02935ab32400f1588bcfe7d47",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "write_development_plan_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "write_development_plan"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 0.355975866317749,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "55704957221057d079bf828a4f2f5a2cc2e0e45cc25e60dd9e053e9c10d2aaa6",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "write_reports_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "write_reports"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 0.6231610774993896,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "6e896676ce52efd00bde225c6acc450f036f0860ba85f3890e0925cb54f31d7c",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "write_supplement_v2.command.json",
+    "argv": [
+      "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+      "write_supplement"
+    ],
+    "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+    "exit_code": 0,
+    "seconds": 0.4983663558959961,
+    "environment_overrides": {
+      "PYTHONDONTWRITEBYTECODE": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "GIT_OPTIONAL_LOCKS": "0",
+      "PYTHONUTF8": "1"
+    },
+    "stdout_sha256": "3b60d1e11fcbaacaed815d5afa18be4145a11da3f289027e09554b210c040855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

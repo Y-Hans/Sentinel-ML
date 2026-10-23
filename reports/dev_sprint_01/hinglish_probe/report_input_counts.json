@@ -1,0 +1,34 @@
+{
+  "TEST_OOD_metadata": {
+    "test": {
+      "path": "sentinel-ml/Messages-ml/data/processed/test.jsonl",
+      "sha256": "988ca27e6c283c68da47787b3fe8bf727cafc953ff8479b2ddeb920c22859825",
+      "n": 2264,
+      "language_counts": {
+        "en": 2258,
+        "UNKNOWN": 3,
+        "hinglish": 3
+      }
+    },
+    "ood": {
+      "path": "sentinel-ml/Messages-ml/data/processed/ood.jsonl",
+      "sha256": "34cd57b5252fcc6fb9b89b8658d6ae3d2d98b22cb838346dbc2fc3f1698ac1a7",
+      "n": 1132,
+      "language_counts": {
+        "en": 1129,
+        "hinglish": 3
+      }
+    }
+  },
+  "report_source_sha256": "beaa0f0cf06b3de892b0d2558723d0ca73fd012ffe3bbc2c8add9f2ccd12aaa1",
+  "model_order": [
+    "V2",
+    "V4.3",
+    "V4.4_candidate_a_corrected",
+    "V4.4_candidate_b_refined",
+    "V4.4_candidate_c_balanced",
+    "V4.4_rc2_experiment_1",
+    "V4.4_rc2_experiment_2",
+    "V4.4_rc2_experiment_3"
+  ]
+}

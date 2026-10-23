@@ -1,0 +1,305 @@
+
+### FINAL_ANDROID_DEPLOYMENT_READINESS.md  (champ=True s22=False)  hits=4
+    50: - `champion_v2_word_vocab_idf.json`
+    51: - `champion_v2_char_vocab_idf.json`
+    52: - `champion_v2_scaler.json`
+    53: - `champion_v2_trees.json`
+
+### V3_ARCHITECTURE_AUDIT.md  (champ=True s22=False)  hits=1
+    17: | **Stage 1 (Base Classifier)** | **Learned ML (100%)** | `Messages-ml/champion_v2_model.pkl`<br>`champion_v2_tfidf_word
+
+### 6sep\FINAL_BEHAVIOR_DRIVEN_OPTIMIZATION_REPORT.md  (champ=True s22=True)  hits=5
+    188: 1. Messages-ml/champion_v2_model.pkl                          : MATCH (SHA256: 014e39ecbb5eb6c4...)
+    189: 2. Messages-ml/champion_v2_scaler.pkl                         : MATCH (SHA256: 7d6cba18608e98ec...)
+    190: 3. Messages-ml/champion_v2_tfidf_word.pkl                     : MATCH (SHA256: 9eef8315ea057a66...)
+    191: 4. Messages-ml/champion_v2_tfidf_char.pkl                     : MATCH (SHA256: f15b9c0309995583...)
+    214: | **Messages ML** | **Champion V2** | HistGradientBoosting (s22) | 70 det + 2000 TF-IDF | 0.704 | **RETAINED IN PRODUCTI
+
+### 6sep\FINAL_FINE_TUNING_REPORT.md  (champ=True s22=False)  hits=1
+    18: - **Messages-ML**: **Champion V2 RETAINED** (`champion_v2_model.pkl`).
+
+### 6sep\FINAL_IMMUTABLE_MANIFEST.json  (champ=True s22=False)  hits=9
+    14: "6sep/messages/android/champion_v2_char_vocab_idf.json": {
+    18: "6sep/messages/android/champion_v2_scaler.json": {
+    22: "6sep/messages/android/champion_v2_trees.json": {
+    26: "6sep/messages/android/champion_v2_word_vocab_idf.json": {
+    38: "6sep/messages/final/CHAMPION_V2_CONFIG.json": {
+    42: "6sep/messages/final/champion_v2_model.pkl": {
+    46: "6sep/messages/final/champion_v2_scaler.pkl": {
+    50: "6sep/messages/final/champion_v2_tfidf_char.pkl": {
+    54: "6sep/messages/final/champion_v2_tfidf_word.pkl": {
+
+### 6sep\messages\candidates\candidate_experiment_log.json  (champ=True s22=True)  hits=2
+    82: "base_model": "Champion V2 (s22)",
+    125: "decision": "CHAMPION_V2_RETAINED"
+
+### 6sep\messages\final\CHAMPION_V2_CONFIG.json  (champ=False s22=True)  hits=1
+    2: "name": "s22",
+
+### 6sep\messages\reports\MESSAGES_CANDIDATE_EVALUATION.json  (champ=True s22=False)  hits=1
+    2: "Champion_V2_Baseline": {
+
+### 6sep\messages\reports\MESSAGES_FINAL_OPTIMIZATION_REPORT.md  (champ=True s22=False)  hits=5
+    6: **Current Champion**: Champion V2 (`champion_v2_model.pkl`, HistGradientBoostingClassifier, 2,070 features, 309 trees, $
+    78: - `champion_v2_word_vocab_idf.json`: 1,500 word n-grams (1-2) with IDF weights (65.9 KB)
+    79: - `champion_v2_char_vocab_idf.json`: 500 character n-grams (3-5) with IDF weights (22.8 KB)
+    80: - `champion_v2_scaler.json`: 2,070 means and standard deviations (69.4 KB)
+    81: - `champion_v2_trees.json`: 309 trees across 103 iterations for 3 classes (2,383 KB)
+
+### 6sep\messages\reports\MESSAGES_V2_BASELINE_REPORT.md  (champ=True s22=False)  hits=1
+    3: **Model**: Champion V2 (`champion_v2_model.pkl`)
+
+### 6sep\shared\BASELINE_IMMUTABLE_MANIFEST.json  (champ=True s22=False)  hits=8
+    2: "Messages-ml\\champion_v2_scaler.pkl":  "6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999",
+    7: "android-runtime\\messages\\assets\\champion_v2_scaler.json":  "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac4
+    12: "Messages-ml\\champion_v2_model.pkl":  "d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887",
+    13: "android-runtime\\messages\\assets\\champion_v2_word_vocab_idf.json":  "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3
+    14: "android-runtime\\messages\\assets\\champion_v2_trees.json":  "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef
+    16: "Messages-ml\\champion_v2_tfidf_char.pkl":  "19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701",
+    17: "android-runtime\\messages\\assets\\champion_v2_char_vocab_idf.json":  "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f
+    18: "Messages-ml\\champion_v2_tfidf_word.pkl":  "b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495"
+
+### 7sep_messages_v3\EXPERIMENT_MANIFEST.json  (champ=True s22=False)  hits=18
+    28: "Messages-ml/champion_v2_model.pkl": {
+    29: "path": "Messages-ml/champion_v2_model.pkl",
+    33: "Messages-ml/champion_v2_scaler.pkl": {
+    34: "path": "Messages-ml/champion_v2_scaler.pkl",
+    38: "Messages-ml/champion_v2_tfidf_word.pkl": {
+    39: "path": "Messages-ml/champion_v2_tfidf_word.pkl",
+    43: "Messages-ml/champion_v2_tfidf_char.pkl": {
+    44: "path": "Messages-ml/champion_v2_tfidf_char.pkl",
+    48: "android-runtime/messages/assets/champion_v2_trees.json": {
+    49: "path": "android-runtime/messages/assets/champion_v2_trees.json",
+    53: "android-runtime/messages/assets/champion_v2_scaler.json": {
+    54: "path": "android-runtime/messages/assets/champion_v2_scaler.json",
+
+### 7sep_messages_v3\FINAL_DECISION.md  (champ=True s22=False)  hits=1
+    48: - **Stage 1 (Primary ML Detector)**: Retains frozen Champion V2 weights (`champion_v2_model.pkl`, $\tau = 0.704$).
+
+### 7sep_messages_v3\reports\PERFORMANCE_REPORT.md  (champ=True s22=False)  hits=4
+    30: - `champion_v2_word_vocab_idf.json`: 34 KB
+    31: - `champion_v2_char_vocab_idf.json`: 13 KB
+    32: - `champion_v2_scaler.json`: 87 KB
+    33: - `champion_v2_trees.json`: 2,407 KB
+
+### 7sep_messages_v3\reports\TRAINING_REPORT.md  (champ=True s22=False)  hits=1
+    25: - Preserves the frozen, independently audited Champion V2 model (`champion_v2_model.pkl`, $\tau = 0.704$).
+
+### android-runtime\ANDROID_MODEL_MANIFEST.json  (champ=True s22=False)  hits=4
+    142: "path": "android-runtime/messages/assets/champion_v2_word_vocab_idf.json",
+    148: "path": "android-runtime/messages/assets/champion_v2_char_vocab_idf.json",
+    154: "path": "android-runtime/messages/assets/champion_v2_scaler.json",
+    160: "path": "android-runtime/messages/assets/champion_v2_trees.json",
+
+### android-runtime\messages\src\test\kotlin\com\sentinel\messages\CompareS01.kt  (champ=True s22=False)  hits=4
+    9: val wFile = File(assetsDir, "champion_v2_word_vocab_idf.json")
+    10: val cFile = File(assetsDir, "champion_v2_char_vocab_idf.json")
+    11: val sFile = File(assetsDir, "champion_v2_scaler.json")
+    12: val tFile = File(assetsDir, "champion_v2_trees.json")
+
+### android-runtime\messages\src\test\kotlin\com\sentinel\messages\ContextualParityTest.kt  (champ=True s22=False)  hits=4
+    14: val wFile = File(assetsDir, "champion_v2_word_vocab_idf.json")
+    15: val cFile = File(assetsDir, "champion_v2_char_vocab_idf.json")
+    16: val sFile = File(assetsDir, "champion_v2_scaler.json")
+    17: val tFile = File(assetsDir, "champion_v2_trees.json")
+
+### android-runtime\messages\src\test\kotlin\com\sentinel\messages\MessageParityTest.kt  (champ=True s22=False)  hits=4
+    16: val wFile = File(assetsDir, "champion_v2_word_vocab_idf.json")
+    17: val cFile = File(assetsDir, "champion_v2_char_vocab_idf.json")
+    18: val sFile = File(assetsDir, "champion_v2_scaler.json")
+    19: val tFile = File(assetsDir, "champion_v2_trees.json")
+
+### android-runtime\reports\ANDROID_RESOURCE_BENCHMARK_FINAL.md  (champ=True s22=False)  hits=4
+    45: - `champion_v2_word_vocab_idf.json`: 34 KB
+    46: - `champion_v2_char_vocab_idf.json`: 13 KB
+    47: - `champion_v2_scaler.json`: 87 KB
+    48: - `champion_v2_trees.json`: 2,407 KB
+
+### android-runtime\reports\FINAL_ANDROID_DEPLOYMENT_READINESS.md  (champ=True s22=False)  hits=4
+    50: - `champion_v2_word_vocab_idf.json`
+    51: - `champion_v2_char_vocab_idf.json`
+    52: - `champion_v2_scaler.json`
+    53: - `champion_v2_trees.json`
+
+### android-runtime\reports\MESSAGES_V2_ANDROID_DEPLOYMENT.md  (champ=True s22=False)  hits=8
+    13: │   ├── champion_v2_word_vocab_idf.json   # 1,500 word vocabulary + IDF + stop words (34 KB)
+    14: │   ├── champion_v2_char_vocab_idf.json   # 500 char_wb vocabulary + IDF (13 KB)
+    15: │   ├── champion_v2_scaler.json           # 2,070 mean & scale parameters (87 KB)
+    16: │   └── champion_v2_trees.json            # 309 decision trees across 103 iterations (2,407 KB)
+    43: val wJson = context.assets.open("champion_v2_word_vocab_idf.json").bufferedReader().use { it.readText() }
+    44: val cJson = context.assets.open("champion_v2_char_vocab_idf.json").bufferedReader().use { it.readText() }
+    45: val sJson = context.assets.open("champion_v2_scaler.json").bufferedReader().use { it.readText() }
+    46: val tJson = context.assets.open("champion_v2_trees.json").bufferedReader().use { it.readText() }
+
+### android-runtime\tools\BenchmarkRunner.kt  (champ=True s22=False)  hits=8
+    65: val wJson = File(msgAssetsDir, "champion_v2_word_vocab_idf.json").readText(Charsets.UTF_8)
+    66: val cJson = File(msgAssetsDir, "champion_v2_char_vocab_idf.json").readText(Charsets.UTF_8)
+    67: val sJson = File(msgAssetsDir, "champion_v2_scaler.json").readText(Charsets.UTF_8)
+    68: val tJson = File(msgAssetsDir, "champion_v2_trees.json").readText(Charsets.UTF_8)
+    100: val totalMsgAssetBytes = File(msgAssetsDir, "champion_v2_word_vocab_idf.json").length() +
+    101: File(msgAssetsDir, "champion_v2_char_vocab_idf.json").length() +
+    102: File(msgAssetsDir, "champion_v2_scaler.json").length() +
+    103: File(msgAssetsDir, "champion_v2_trees.json").length()
+
+### android-runtime\tools\debug_trace.py  (champ=True s22=False)  hits=1
+    3: clf = pickle.load(open('Messages-ml/champion_v2_model.pkl', 'rb'))
+
+### android-runtime\tools\generate_golden_corpora.py  (champ=True s22=False)  hits=4
+    140: tw = pickle.load(open(ROOT / "Messages-ml" / "champion_v2_tfidf_word.pkl", "rb"))
+    141: tc = pickle.load(open(ROOT / "Messages-ml" / "champion_v2_tfidf_char.pkl", "rb"))
+    142: sc = pickle.load(open(ROOT / "Messages-ml" / "champion_v2_scaler.pkl", "rb"))
+    143: clf = pickle.load(open(ROOT / "Messages-ml" / "champion_v2_model.pkl", "rb"))
+
+### android-runtime\tools\make_msg_kt.py  (champ=True s22=False)  hits=16
+    1489: - `champion_v2_word_vocab_idf.json`: 34 KB
+    1490: - `champion_v2_char_vocab_idf.json`: 13 KB
+    1491: - `champion_v2_scaler.json`: 87 KB
+    1492: - `champion_v2_trees.json`: 2,407 KB
+    1613: │   ├── champion_v2_word_vocab_idf.json   # 1,500 word vocabulary + IDF + stop words (34 KB)
+    1614: │   ├── champion_v2_char_vocab_idf.json   # 500 char_wb vocabulary + IDF (13 KB)
+    1615: │   ├── champion_v2_scaler.json           # 2,070 mean & scale parameters (87 KB)
+    1616: │   └── champion_v2_trees.json            # 309 decision trees across 103 iterations (2,407 KB)
+    1643: val wJson = context.assets.open("champion_v2_word_vocab_idf.json").bufferedReader().use { it.readText() }
+    1644: val cJson = context.assets.open("champion_v2_char_vocab_idf.json").bufferedReader().use { it.readText() }
+    1645: val sJson = context.assets.open("champion_v2_scaler.json").bufferedReader().use { it.readText() }
+    1646: val tJson = context.assets.open("champion_v2_trees.json").bufferedReader().use { it.readText() }
+
+### android-runtime\tools\write_parity_files.py  (champ=True s22=False)  hits=17
+    182: val wFile = File(assetsDir, "champion_v2_word_vocab_idf.json")
+    183: val cFile = File(assetsDir, "champion_v2_char_vocab_idf.json")
+    184: val sFile = File(assetsDir, "champion_v2_scaler.json")
+    185: val tFile = File(assetsDir, "champion_v2_trees.json")
+    402: val wFile = File(assetsDir, "champion_v2_word_vocab_idf.json")
+    403: val cFile = File(assetsDir, "champion_v2_char_vocab_idf.json")
+    404: val sFile = File(assetsDir, "champion_v2_scaler.json")
+    405: val tFile = File(assetsDir, "champion_v2_trees.json")
+    438: clf = pickle.load(open('Messages-ml/champion_v2_model.pkl', 'rb'))
+    545: val wJson = File(msgAssetsDir, "champion_v2_word_vocab_idf.json").readText(Charsets.UTF_8)
+    546: val cJson = File(msgAssetsDir, "champion_v2_char_vocab_idf.json").readText(Charsets.UTF_8)
+    547: val sJson = File(msgAssetsDir, "champion_v2_scaler.json").readText(Charsets.UTF_8)
+
+### investigation\find_champion_trainer.py  (champ=True s22=True)  hits=5
+    1: """Find which trainer script produced champion_v2 (s22) and which dataset it used."""
+    6: "champion_v2_model": re.compile(r"champion_v2_model", re.I),
+    7: "s22": re.compile(r"\bs22\b"),
+    29: if "champion_v2_model" not in row:
+    35: if "champion_v2_model" in line or "load_dataset(" in line or "s22" in line.lower():
+
+### investigation\scan_sources.py  (champ=True s22=True)  hits=3
+    1: """Scan sentinel-ml sources (excluding data blobs) for champion_v2 / s22 producers."""
+    13: p_champ = re.compile(r"champion_v2", re.I)
+    37: print(f"\n### {rel}  (champ={c} s22={s})  hits={len(marks)}")
+
+### investigation\train_probe.py  (champ=True s22=False)  hits=1
+    17: for fn in ["champion_v2_model.pkl", "champion_v2_scaler.pkl", "champion_v2_tfidf_word.pkl", "champion_v2_tfidf_char.pkl"
+
+### investigation\train_probe.txt  (champ=True s22=False)  hits=4
+    2: champion_v2_model.pkl              d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887
+    3: champion_v2_scaler.pkl             6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999
+    4: champion_v2_tfidf_word.pkl         b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495
+    5: champion_v2_tfidf_char.pkl         19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701
+
+### investigation\v2_forensic.py  (champ=True s22=False)  hits=4
+    15: clf = pickle.load(open(os.path.join(ML_ROOT, "champion_v2_model.pkl"), "rb"))
+    16: tw = pickle.load(open(os.path.join(ML_ROOT, "champion_v2_tfidf_word.pkl"), "rb"))
+    17: tc = pickle.load(open(os.path.join(ML_ROOT, "champion_v2_tfidf_char.pkl"), "rb"))
+    18: sc = pickle.load(open(os.path.join(ML_ROOT, "champion_v2_scaler.pkl"), "rb"))
+
+### Messages-ml\MESSAGES_V3_FALSE_POSITIVE_AUDIT.md  (champ=True s22=False)  hits=1
+    20: All V2 artifacts (`champion_v2_model.pkl`, `champion_v2_scaler.pkl`, etc.) remained **frozen** and unmodified. No brand 
+
+### Messages-ml\model_training\autonomous_optimization_results.json  (champ=False s22=True)  hits=1
+    145: {"experiment_id": "s22", "round": 9, "timestamp": "2026-08-27T14:59:42.925662+00:00", "msedcl_p": 0.7037477561891178, "h
+
+### Messages-ml\model_training\challenger_experiment_round7.py  (champ=True s22=False)  hits=3
+    187: with open(ROOT / f"champion_v2_{suffix}.pkl", "wb") as f:
+    190: with open(ROOT / f"champion_v2_tfidf_char.pkl", "wb") as f:
+    200: with open(ROOT / "model_training" / "CHAMPION_V2_CONFIG.json", "w") as f:
+
+### Messages-ml\model_training\challenger_experiment_round8.py  (champ=True s22=False)  hits=1
+    164: with open(ROOT / f"champion_v2_{suffix}.pkl", "wb") as f:
+
+### Messages-ml\model_training\challenger_experiment_round9.py  (champ=True s22=False)  hits=2
+    154: with open(ROOT / f"champion_v2_{suffix}.pkl", "wb") as f:
+    160: with open(ROOT / "model_training" / "CHAMPION_V2_CONFIG.json", "w") as f:
+
+### Messages-ml\model_training\CHAMPION_V2_CONFIG.json  (champ=False s22=True)  hits=1
+    2: "name": "s22",
+
+### Messages-ml\model_training\CHAMPION_V2_CONFIG_s22_precontinuation.json  (champ=False s22=True)  hits=1
+    2: "name": "s22",
+
+### Messages-ml\model_training\FINAL_REMEDIATION_REPORT.md  (champ=True s22=False)  hits=1
+    39: - `champion_v2_*_s22_precontinuation.pkl` and `CHAMPION_V2_CONFIG_s22_precontinuation.json`: recoverable backup of the p
+
+### Messages-ml\model_training\verify_champion_v2.py  (champ=True s22=True)  hits=10
+    2: CHAMPION V2 VERIFICATION: Full gate check on s22 model
+    4: s22 passes VAL gates at t=0.704 but TEST FPR=1.92%, OOD FPR=1.18%.
+    40: print("CHAMPION V2 (s22) FULL VERIFICATION")
+    45: clf = pickle.load(open(ROOT / "champion_v2_model.pkl", "rb"))
+    46: tw = pickle.load(open(ROOT / "champion_v2_tfidf_word.pkl", "rb"))
+    47: tc = pickle.load(open(ROOT / "champion_v2_tfidf_char.pkl", "rb"))
+    48: sc = pickle.load(open(ROOT / "champion_v2_scaler.pkl", "rb"))
+    158: meta = json.load(open(ROOT / "model_training" / "CHAMPION_V2_CONFIG.json"))
+    161: with open(ROOT / "model_training" / "CHAMPION_V2_CONFIG.json", "w") as f:
+    165: print("  The s22 model passes VAL but not TEST/OOD.")
+
+### Messages-ml\scripts\export_v2_android.py  (champ=True s22=False)  hits=8
+    18: tw = pickle.load(open(MODELS_DIR / 'champion_v2_tfidf_word.pkl', 'rb'))
+    19: tc = pickle.load(open(MODELS_DIR / 'champion_v2_tfidf_char.pkl', 'rb'))
+    20: sc = pickle.load(open(MODELS_DIR / 'champion_v2_scaler.pkl', 'rb'))
+    21: clf = pickle.load(open(MODELS_DIR / 'champion_v2_model.pkl', 'rb'))
+    39: w_path = ASSETS_DIR / 'champion_v2_word_vocab_idf.json'
+    54: c_path = ASSETS_DIR / 'champion_v2_char_vocab_idf.json'
+    66: s_path = ASSETS_DIR / 'champion_v2_scaler.json'
+    104: t_path = ASSETS_DIR / 'champion_v2_trees.json'
+
+### scratch\audit_v3.py  (champ=True s22=False)  hits=4
+    15: clf = joblib.load(MODELS / "champion_v2_model.pkl")
+    16: scaler = joblib.load(MODELS / "champion_v2_scaler.pkl")
+    17: tfidf_word = joblib.load(MODELS / "champion_v2_tfidf_word.pkl")
+    18: tfidf_char = joblib.load(MODELS / "champion_v2_tfidf_char.pkl")
+
+### scratch\run_eval.py  (champ=True s22=False)  hits=4
+    15: clf = joblib.load(MODELS / "champion_v2_model.pkl")
+    16: scaler = joblib.load(MODELS / "champion_v2_scaler.pkl")
+    17: tfidf_word = joblib.load(MODELS / "champion_v2_tfidf_word.pkl")
+    18: tfidf_char = joblib.load(MODELS / "champion_v2_tfidf_char.pkl")
+
+### URL-ml\models\v8_parent_profiles.json  (champ=False s22=True)  hits=1
+    1: {"version":"8.0.0","global_prior_malicious":0.3209987966305656,"global_morphology":{"p50_len":31.0,"p90_len":64.0,"p50_p
+
+### URL-ml\reports\FINAL_ANDROID_MODEL_READINESS_AUDIT.json  (champ=True s22=False)  hits=15
+    24: "champion_identity": "champion_v2 (seed 22 / CHAMPION_F_EXACT_RECONSTRUCTED)",
+    26: "champion_v2_model.pkl": {
+    27: "path": "Messages-ml/champion_v2_model.pkl",
+    50: "champion_v2_scaler.pkl": {
+    51: "path": "Messages-ml/champion_v2_scaler.pkl",
+    60: "champion_v2_tfidf_word.pkl": {
+    61: "path": "Messages-ml/champion_v2_tfidf_word.pkl",
+    80: "champion_v2_tfidf_char.pkl": {
+    81: "path": "Messages-ml/champion_v2_tfidf_char.pkl",
+    122: "source": "champion_v2_tfidf_word.pkl"
+    126: "source": "champion_v2_tfidf_char.pkl"
+    264: "champion_v2_word_vocab_idf.json (1500 words)",
+
+### URL-ml\reports\FINAL_ANDROID_MODEL_READINESS_AUDIT.md  (champ=True s22=True)  hits=12
+    17: | **Messages-ML** | Champion V2 (`s22` / `CHAMPION_F_EXACT_RECONSTRUCTED`) | **`MODEL_READY_BUT_RUNTIME_PORT_REQUIRED`**
+    30: | `Messages-ml/champion_v2_model.pkl` | 1,786,995 | `d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887` |
+    31: | `Messages-ml/champion_v2_scaler.pkl` | 50,092 | `6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999` | `
+    32: | `Messages-ml/champion_v2_tfidf_word.pkl` | 58,464 | `b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495`
+    33: | `Messages-ml/champion_v2_tfidf_char.pkl` | 17,604 | `19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701`
+    39: The model classifier (`champion_v2_model.pkl`) and scaler (`champion_v2_scaler.pkl`) strictly require **2,070 input dime
+    111: * **Can we delete `champion_v2_scaler.pkl`?**: **`NO`**.
+    437: ├── champion_v2_word_vocab_idf.json  (1,500 words with float IDF values)
+    438: ├── champion_v2_char_vocab_idf.json  (500 char n-grams with float IDF values)
+    439: ├── champion_v2_scaler.json          (2,070 means and 2,070 scales)
+    440: └── champion_v2_trees.json           (309 tree structures for 3 classes)
+    482: * Implement an export script (`Messages-ml/scripts/export_v2_android.py`) that dumps `champion_v2_tfidf_word.pkl`, `cham
+
+### URL-ml\venv\Lib\site-packages\scipy\cluster\hierarchy.py  (champ=False s22=True)  hits=1
+    1003: :doi:`10.1093/bioinformatics/17.suppl_1.S22`
+
+### URL-ml\venv\Lib\site-packages\sklearn\datasets\_species_distributions.py  (champ=False s22=True)  hits=2
+    98: rec = np.loadtxt(F, skiprows=0, delimiter=",", dtype="S22,f4,f4")
+    230: dtype=[('species', 'S22'), ('dd long', '<f4'), ('dd lat', '<f4')])

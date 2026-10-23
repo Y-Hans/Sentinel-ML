@@ -1,0 +1,157 @@
+[
+  {
+    "rule_id": "Rule_L1_V7_Suspicious_Words_Exact",
+    "description": "Domain label contains exact V7 SUSPICIOUS_WORDS token or substring (len>=4)",
+    "regressed_malicious_detected (TP)": 16,
+    "regressed_malicious_missed (FN)": 256,
+    "malicious_recall_pct": 5.88,
+    "benign_15k_false_positives (FP)": 36,
+    "benign_15k_fpr_pct": 0.24,
+    "benchmark_200_false_positives": 1,
+    "benchmark_200_fpr_pct": 0.5,
+    "sample_caught_malicious": [
+      "http://verifica-secure.com/bper/",
+      "https://online-helpdesk-id.com/",
+      "https://tridentsecured.com",
+      "https://sfr-secure.fr/",
+      "https://verify-profile-nab.com/",
+      "https://dhl-secure-redelivery.com/",
+      "https://tridentsecured.com/",
+      "https://boi-loginsupport.com/"
+    ],
+    "sample_benign_false_positives": [
+      "https://accounts4tutorials.com/",
+      "https://nowsecure.com/",
+      "https://verificationhandbook.com/",
+      "https://ubiqsecurity.com/",
+      "https://thetokens.com/",
+      "https://ampliasecurity.com/",
+      "https://ewallet-optimizer.com/",
+      "https://securitygeneration.com/"
+    ]
+  },
+  {
+    "rule_id": "Rule_L2_High_Precision_Credential",
+    "description": "High-precision credential harvest tokens (login, signin, verify, verification, password, fatura, conta, banking, checkout, billing)",
+    "regressed_malicious_detected (TP)": 11,
+    "regressed_malicious_missed (FN)": 261,
+    "malicious_recall_pct": 4.04,
+    "benign_15k_false_positives (FP)": 12,
+    "benign_15k_fpr_pct": 0.08,
+    "benchmark_200_false_positives": 1,
+    "benchmark_200_fpr_pct": 0.5,
+    "sample_caught_malicious": [
+      "https://itaucardfaturadigital.app",
+      "https://faturamagaltau.com/",
+      "https://verify-profile-nab.com/",
+      "https://acessefatura.com",
+      "https://lulzafaturaoficial.com/",
+      "https://boi-loginsupport.com/",
+      "https://polska-login.cyou",
+      "https://bnz-secure-login.com/"
+    ],
+    "sample_benign_false_positives": [
+      "https://verificationhandbook.com/",
+      "https://manycontacts.com/",
+      "https://getcontact.com/",
+      "https://islamic-banking.com/",
+      "https://billingo.hu/",
+      "https://iseepassword.com/",
+      "https://login.gov/",
+      "https://zydusverify.com/"
+    ]
+  },
+  {
+    "rule_id": "Rule_L3_Financial_And_Auth",
+    "description": "Broad financial and auth tokens (bank, pay, card, auth, secure, login, fatura, finance, coin, wallet, crypto)",
+    "regressed_malicious_detected (TP)": 26,
+    "regressed_malicious_missed (FN)": 246,
+    "malicious_recall_pct": 9.56,
+    "benign_15k_false_positives (FP)": 110,
+    "benign_15k_fpr_pct": 0.733,
+    "benchmark_200_false_positives": 2,
+    "benchmark_200_fpr_pct": 1.0,
+    "sample_caught_malicious": [
+      "https://itaucardfaturadigital.app",
+      "https://auth-dkb-online.de/",
+      "https://hdbankfinance.shop/",
+      "https://pancake-staking.com/",
+      "http://verifica-secure.com/bper/",
+      "https://berimtoobank.net/",
+      "https://stgeorge-alert.com/",
+      "https://faturamagaltau.com/"
+    ],
+    "sample_benign_false_positives": [
+      "https://southbankmosaics.com/",
+      "https://cryptocompare.com/",
+      "https://pureecoinc.com/",
+      "https://matthieuricard.org/",
+      "https://cutbankpioneerpress.com/",
+      "https://coinsofmalta.com/",
+      "https://cornercard.ch/",
+      "https://swedbank.se/"
+    ]
+  },
+  {
+    "rule_id": "Rule_L4_Compound_Financial_With_Hyphen",
+    "description": "Compound rule: Broad financial/auth token AND (has hyphen OR length >= 14)",
+    "regressed_malicious_detected (TP)": 19,
+    "regressed_malicious_missed (FN)": 253,
+    "malicious_recall_pct": 6.99,
+    "benign_15k_false_positives (FP)": 51,
+    "benign_15k_fpr_pct": 0.34,
+    "benchmark_200_false_positives": 1,
+    "benchmark_200_fpr_pct": 0.5,
+    "sample_caught_malicious": [
+      "https://itaucardfaturadigital.app",
+      "https://auth-dkb-online.de/",
+      "https://pancake-staking.com/",
+      "http://verifica-secure.com/bper/",
+      "https://stgeorge-alert.com/",
+      "https://faturamagaltau.com/",
+      "https://tridentsecured.com",
+      "https://sfr-secure.fr/"
+    ],
+    "sample_benign_false_positives": [
+      "https://southbankmosaics.com/",
+      "https://matthieuricard.org/",
+      "https://cutbankpioneerpress.com/",
+      "https://thefederalsavingsbank.com/",
+      "https://123weddingcards.com/",
+      "https://ampliasecurity.com/",
+      "https://backwoodsauthor.com/",
+      "https://ewallet-optimizer.com/"
+    ]
+  },
+  {
+    "rule_id": "Rule_L5_Compound_Brand_Impersonation_Extended",
+    "description": "Extended brand token match (subword is in COMMON_BRANDS or regional banking keywords)",
+    "regressed_malicious_detected (TP)": 16,
+    "regressed_malicious_missed (FN)": 256,
+    "malicious_recall_pct": 5.88,
+    "benign_15k_false_positives (FP)": 69,
+    "benign_15k_fpr_pct": 0.46,
+    "benchmark_200_false_positives": 2,
+    "benchmark_200_fpr_pct": 1.0,
+    "sample_caught_malicious": [
+      "https://itaucardfaturadigital.app",
+      "https://meinedkb.me/",
+      "https://auth-dkb-online.de/",
+      "https://hk-poshmark.com/#/",
+      "https://hdbankfinance.shop/",
+      "https://dhl-hk.com/",
+      "https://cajaspiuranuevo.com/",
+      "https://amendes-gouvs.com/"
+    ],
+    "sample_benign_false_positives": [
+      "https://gov.au/",
+      "https://wp-amazon-plugin.com/",
+      "https://gov.ng/",
+      "https://gov.sg/",
+      "https://gov.ph/",
+      "https://gov.co/",
+      "https://visa-algerie.com/",
+      "https://gov.hk/"
+    ]
+  }
+]

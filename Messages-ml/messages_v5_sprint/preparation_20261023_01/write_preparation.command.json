@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v5_sprint\\preparation_20261023_01\\write_preparation.py"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "interpreter": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "exit_code": 0,
+  "start_epoch": 1792754223.0313027,
+  "wall_seconds": 0.6536011695861816,
+  "script_sha256": "80bc8429582ff7dd4297cf3c61a4c6ece7e79db6606091c893927c62c2e3ec50",
+  "stdout_sha256": "2c8ae0697763cc5947c6f065f6b1da300902235d2cc7b441203525e438e6900d",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  }
+}

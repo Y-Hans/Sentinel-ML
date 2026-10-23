@@ -1,0 +1,116 @@
+{
+  "benign_cases": [
+    {
+      "text": "Hello",
+      "sender": "+919999999991",
+      "p_v2_raw": 0.5203046114061619,
+      "p_ts": 0.05,
+      "stage2_label": "BENIGN",
+      "stage2_reason": "GREETING_DAMPENING",
+      "calibrated_score": 2.4857954545454546,
+      "risk_level": "GREEN",
+      "action": "ALLOW"
+    },
+    {
+      "text": "Hi",
+      "sender": "+919999999992",
+      "p_v2_raw": 0.18076400233834572,
+      "p_ts": 0.05,
+      "stage2_label": "BENIGN",
+      "stage2_reason": "GREETING_DAMPENING",
+      "calibrated_score": 2.4857954545454546,
+      "risk_level": "GREEN",
+      "action": "ALLOW"
+    },
+    {
+      "text": "Hey",
+      "sender": "+919999999993",
+      "p_v2_raw": 0.15348312136322526,
+      "p_ts": 0.05,
+      "stage2_label": "BENIGN",
+      "stage2_reason": "GREETING_DAMPENING",
+      "calibrated_score": 2.4857954545454546,
+      "risk_level": "GREEN",
+      "action": "ALLOW"
+    },
+    {
+      "text": "Bhai kal sham ko milte hain coffee pe?",
+      "sender": "+919999999994",
+      "p_v2_raw": 0.012768423057073455,
+      "p_ts": 0.012768423057073455,
+      "stage2_label": "BENIGN",
+      "stage2_reason": "CONVERSATIONAL_DAMPENING",
+      "calibrated_score": 0.6347937599397315,
+      "risk_level": "GREEN",
+      "action": "ALLOW"
+    },
+    {
+      "text": "PR review kar diya hai merge kar le",
+      "sender": "+919999999995",
+      "p_v2_raw": 0.05288607946965218,
+      "p_ts": 0.05288607946965218,
+      "stage2_label": "BENIGN",
+      "stage2_reason": "PASSTHROUGH",
+      "calibrated_score": 2.6292795190878215,
+      "risk_level": "GREEN",
+      "action": "ALLOW"
+    },
+    {
+      "text": "Check out this documentation https://developer.android.com/guide",
+      "sender": "+919999999996",
+      "p_v2_raw": 0.6605537523592897,
+      "p_ts": 0.6605537523592897,
+      "stage2_label": "BENIGN",
+      "stage2_reason": "PASSTHROUGH",
+      "calibrated_score": 32.84003030195333,
+      "risk_level": "GREEN",
+      "action": "ALLOW"
+    }
+  ],
+  "malicious_cases": [
+    {
+      "text": "Bhai OTP bhej do transaction karna hai",
+      "sender": "+919999999997",
+      "p_v2_raw": 0.28437537283035436,
+      "p_ts": 0.92,
+      "stage2_label": "MALICIOUS",
+      "stage2_reason": "THREAT_INTENT_ESCALATION",
+      "calibrated_score": 91.8918918918919,
+      "risk_level": "RED",
+      "action": "BLOCK"
+    },
+    {
+      "text": "Aapka SBI KYC expire ho gaya hai update kare http://sbi-kyc.in",
+      "sender": "+919999999998",
+      "p_v2_raw": 0.794446090638976,
+      "p_ts": 0.92,
+      "stage2_label": "MALICIOUS",
+      "stage2_reason": "THREAT_INTENT_ESCALATION",
+      "calibrated_score": 91.8918918918919,
+      "risk_level": "RED",
+      "action": "BLOCK"
+    },
+    {
+      "text": "http://secure-login.bankofamerica.com.account-verify.xyz/auth/login.html",
+      "sender": "+919999999999",
+      "p_v2_raw": 0.9448815642265362,
+      "p_ts": 0.9448815642265362,
+      "stage2_label": "MALICIOUS",
+      "stage2_reason": "THREAT_INTENT_ESCALATION",
+      "calibrated_score": 94.41367204998679,
+      "risk_level": "RED",
+      "action": "BLOCK"
+    },
+    {
+      "text": "NetBanking username aur password verify kare security maintenance",
+      "sender": "+919999999990",
+      "p_v2_raw": 0.14886759670205713,
+      "p_ts": 0.92,
+      "stage2_label": "MALICIOUS",
+      "stage2_reason": "THREAT_INTENT_ESCALATION",
+      "calibrated_score": 91.8918918918919,
+      "risk_level": "RED",
+      "action": "BLOCK"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "physical_cores": 10,
+  "fit_thread_cap": 5,
+  "method": "Windows GetLogicalProcessorInformationEx(RelationProcessorCore)",
+  "inference_threads": 1
+}

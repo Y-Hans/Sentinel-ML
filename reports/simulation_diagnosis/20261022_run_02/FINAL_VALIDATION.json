@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE_WITH_EXPLICIT_PROVISIONAL_EVIDENCE",
+  "deliverables": {
+    "SIMULATION_DESIGN.md": "c86af5f2179ec00f9fbe807edadb4db2a26f54fbe32ec3f234930d69077a9522",
+    "PROVENANCE_AND_LABELS.md": "18d7dfdf444c3b89f2b9fe69ce3a9d12cfa1b7d196635426740efe73494158a3",
+    "REVIEW_SHEET.csv": "c37ed7f518eeb586e01f57b738419692dad1b6c767b7330dcbe051b0336610bd",
+    "SIMULATION_BASELINE_RESULTS.md": "df3c4e8579fccf9ebb94bbea17841bbc453a2a10743e2a73c3477da16c80d6ab",
+    "FAILURE_DIAGNOSIS.md": "ca502daaecec6748157e550c0be433a0b65f244f1deef6c4fd120b52cbd00a70",
+    "FROM_SCRATCH_DEVELOPMENT_PLAN.md": "2a637b4d77a5f299a15c47769fd7a617b1f74f00d9b6b69ed9d7a8c35830f4f7",
+    "PLAN_AMENDMENT_TO_MASTER_PLAN.md": "dda18b0a215aeba85525c6319b29fa05af65d72764838c4261d126c0fc74bcab",
+    "SIMULATION_RUN_EVIDENCE.md": "2f8ac90d3fd5d5a3b248ff921f24cbc2d096e4d5ee6f77b2d5b92d3982484c1a"
+  },
+  "protected_files_checked": 1750,
+  "protected_hashes_unchanged": true,
+  "git_file_by_file_unchanged": true,
+  "simulation_and_exam_hashes_unchanged": {
+    "messages": true,
+    "urls": true,
+    "sealed_exam": true
+  },
+  "candidate_training_fits": 0,
+  "completion_manifest_sha256": "dd2fa27c7e71df641315a0ca7d887f9caa8e0df89831c1e375fcab46641d839d",
+  "manifest_output_files": 221,
+  "final_validation_self_hash_recorded": "external final command stdout"
+}

@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v5_sprint\\preparation_20261023_01\\overlap_diagnostic.py"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "interpreter": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "exit_code": 0,
+  "start_epoch": 1792753465.3422544,
+  "wall_seconds": 298.697625875473,
+  "script_sha256": "45151c6f5fd5828c8854fbae97b48f3e65a725a415fe8db464f4fa2b611c2b4f",
+  "stdout_sha256": "2db1444669abfb6a80298c8ed193c3d1fc263d57d966cbab9c7e5d273754ed6a",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "environment": {
+    "CUDA_VISIBLE_DEVICES": "-1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+    "Messages-ml\\champion_v2_scaler.pkl":  "6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999",
+    "URL-ml\\models\\v7_champion_portable.json":  "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b",
+    "Messages-ml\\data\\processed\\ood.jsonl":  "34cd57b5252fcc6fb9b89b8658d6ae3d2d98b22cb838346dbc2fc3f1698ac1a7",
+    "URL-ml\\data\\hard_dataset.csv":  "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+    "android-runtime\\golden_test_data\\golden_urls.json":  "21be65b957bc61e905184642f95e706d184b0ef363f0f29bd320e6099f3ea87e",
+    "android-runtime\\messages\\assets\\champion_v2_scaler.json":  "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa",
+    "Messages-ml\\data\\processed\\test.jsonl":  "988ca27e6c283c68da47787b3fe8bf727cafc953ff8479b2ddeb920c22859825",
+    "URL-ml\\data\\cleaned_dataset.csv":  "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+    "URL-ml\\reports\\URL_REMEDIATION_ADVERSARIAL_PREDICTIONS.csv":  "a729e2cd9978f1b9632ed19079c957933ee2ca0d9c54853b1dc5321ce12cff5a",
+    "android-runtime\\url\\assets\\v7_champion_portable.json":  "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b",
+    "Messages-ml\\champion_v2_model.pkl":  "d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887",
+    "android-runtime\\messages\\assets\\champion_v2_word_vocab_idf.json":  "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237",
+    "android-runtime\\messages\\assets\\champion_v2_trees.json":  "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43",
+    "android-runtime\\golden_test_data\\golden_messages.json":  "933e680a3c55382f3f322a2f292ceed43118644e6c971308c1c343f271ba78d7",
+    "Messages-ml\\champion_v2_tfidf_char.pkl":  "19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701",
+    "android-runtime\\messages\\assets\\champion_v2_char_vocab_idf.json":  "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941",
+    "Messages-ml\\champion_v2_tfidf_word.pkl":  "b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495"
+}

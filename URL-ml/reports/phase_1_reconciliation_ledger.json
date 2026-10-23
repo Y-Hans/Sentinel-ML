@@ -1,0 +1,86 @@
+{
+  "audit_metadata": {
+    "title": "Sentinel Phase 1 Preflight Reconciliation Ledger",
+    "timestamp_utc": "2026-10-21T21:28:00Z",
+    "governing_document": "SENTINEL_MASTER_PLAN.md v3.1.0-EVIDENCE-FIRST-CALIBRATED",
+    "git_branch": "reforge",
+    "git_head_commit": "85da31ca364b0a38c2265442d3919e11fc858390",
+    "workspace_status": "PRESERVED_90_PORCELAIN_LINES"
+  },
+  "frozen_model_hashes": {
+    "v8_champion_joblib": {
+      "path": "sentinel-ml/URL-ml/models/v8_champion.joblib",
+      "sha256": "073e70f215c0c3279288ec69a692ed5cab7e99a443ed7b4f87da51ae67cf0e58",
+      "size_bytes": 709417,
+      "status": "VERIFIED_EXACT_MATCH"
+    },
+    "v7_champion_joblib": {
+      "path": "sentinel-ml/URL-ml/models/v7_champion.joblib",
+      "sha256": "d414bf668484ea5ba6056b626f0d8e674e0085208ba23d964522b09557affdaa",
+      "size_bytes": 1649433,
+      "status": "VERIFIED_EXACT_MATCH"
+    },
+    "v8_champion_portable_json": {
+      "path": "sentinel-ai/android-app/core/src/main/assets/v8_champion_portable.json",
+      "sha256": "e0e5e817beb6e1718843641b2e19e5b131690a0fc959764d83702883f557e870",
+      "size_bytes": 1029275,
+      "status": "VERIFIED_EXACT_MATCH"
+    },
+    "messages_v4_3_trees_json": {
+      "path": "sentinel-ai/android-app/core/src/main/assets/messages_v4_3_trees.json",
+      "sha256": "4f36801978bc272631ec04269b4767afbeeddd8d19862e1c7247da83ced39537",
+      "size_bytes": 4012286,
+      "status": "VERIFIED_EXACT_MATCH"
+    },
+    "messages_v4_3_scaler_json": {
+      "path": "sentinel-ai/android-app/core/src/main/assets/messages_v4_3_scaler.json",
+      "sha256": "147bbb108807754ab838755987124e570757fabcae18900f501ad88bb6413df4",
+      "size_bytes": 258643,
+      "status": "VERIFIED_EXACT_MATCH"
+    },
+    "messages_v4_3_word_vocab_idf_json": {
+      "path": "sentinel-ai/android-app/core/src/main/assets/messages_v4_3_word_vocab_idf.json",
+      "sha256": "ee781ce8ac9b331bf5c2286c8dc38286d7c331232b4da9ee9e12ff34ee0015d7",
+      "size_bytes": 49981,
+      "status": "VERIFIED_EXACT_MATCH"
+    },
+    "messages_v4_3_char_vocab_idf_json": {
+      "path": "sentinel-ai/android-app/core/src/main/assets/messages_v4_3_char_vocab_idf.json",
+      "sha256": "9b26bc1d9886ea4ed1c7a6a366afe826f1d5a771ec568186c2f6f5299b923b5b",
+      "size_bytes": 73353,
+      "status": "VERIFIED_EXACT_MATCH"
+    }
+  },
+  "reconciled_issues": {
+    "issue_a_gate_5_discrepancy": {
+      "claimed_in_b1_report": "4248/4254 = 99.853%",
+      "verified_baseline_recall_v8": "4170/4254 = 98.025%",
+      "root_cause": "Conflation between the empty-path qualified bare-apex ratio (681/682 = 99.8533%) and the authoritative bare-apex phishing denominator (4,254). 4,254 * (681/682) = 4,247.76 ~ 4,248. Authoritative V8 Champion bare-apex recall is 4,170 / 4,254 (98.025%).",
+      "resolution": "Confirmed authoritative Gate 5 bare-apex phishing cohort N = 4,254, V8 Baseline Recall = 98.025% (4,170 TPs). Candidate B1 matches 0 additional URLs in this bare-apex set, maintaining exactly 4,170 / 4,254 (98.025%, PASS >= 98.000%)."
+    },
+    "issue_b_benign_denominator": {
+      "claimed_in_b1_report": "43,027 benign domains tested",
+      "verified_breakdown": {
+        "clean_test_benign_urls": 27353,
+        "benchmark_benign_urls": 500,
+        "golden_fixtures_benign_urls": 88,
+        "candidate_15k_benign_urls": 15000,
+        "total_benign_urls": 42941,
+        "unique_benign_urls": 42937,
+        "unique_benign_hosts": 42643,
+        "unique_benign_parent_domains": 40845
+      },
+      "root_cause": "The figure 43,027 was derived by adding the entire 174 golden fixtures (27,353 + 500 + 174 + 15,000 = 43,027) instead of only the 88 benign golden fixtures (42,941 + 86 malicious = 43,027).",
+      "resolution": "Corrected benign denominator is 42,941 total benign URLs (42,937 unique URLs, 42,643 unique hosts, 40,845 unique registrable domains). Net new false positives across all 42,941 benign URLs is exactly 0 (0.0000% FPR)."
+    },
+    "issue_c_benchmark_raw_vs_adjudicated": {
+      "reported_counts": {
+        "raw_model_fps": "419 / 500 (83.80%)",
+        "adjudicated_model_fps": "420 / 500 (84.00%)",
+        "historical_draft_errant_count": "304 / 500 (60.80%)"
+      },
+      "root_cause": "Historical draft error in Phase 1C.2B-2A S2 preflight subtracted 116 FPs from both baseline (420 - 116 = 304) and Track A candidate (228 - 116 = 112). True V8 baseline on Benchmark v1.0 is 419 raw FPs (83.80%) and 420 adjudicated FPs (84.00%). Category breakdown: Bare Apex 200/200 (100%), Deep Repo 145/150 (96.67%), Search 75/150 (50.00%).",
+      "resolution": "Definitively documented that V8 baseline benchmark FPR is 84.00% (420/500 adjudicated) and 83.80% (419/500 raw). The 304 figure is formally deprecated as a historical transcription slip."
+    }
+  }
+}

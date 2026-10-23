@@ -1,0 +1,62 @@
+{
+  "task": "URL-ML Controlled Candidate Optimization Experiments",
+  "base_model": "URL-ML Champion V7 (HistGBM 350 trees, 67 features, tau=0.225887)",
+  "experiments": [
+    {
+      "name": "Candidate_ConfBound_0.75",
+      "conf_bound": 0.75,
+      "threshold": 0.225887,
+      "hard_fpr": 0.00613,
+      "hard_recall": 0.96908,
+      "test_fpr": 0.00976,
+      "test_recall": 0.98761,
+      "adversarial_recall": 0.95538,
+      "status": "REJECTED (Higher Hard FPR: 12 FPs vs 9 FPs)"
+    },
+    {
+      "name": "Candidate_ConfBound_0.80 (Champion V7 Baseline)",
+      "conf_bound": 0.8,
+      "threshold": 0.225887,
+      "hard_fpr": 0.00459,
+      "hard_recall": 0.96908,
+      "test_fpr": 0.00976,
+      "test_recall": 0.98752,
+      "adversarial_recall": 0.95538,
+      "status": "CHAMPION RETAINED (Satisfies all 6 operational gates simultaneously)"
+    },
+    {
+      "name": "Candidate_ConfBound_0.82",
+      "conf_bound": 0.82,
+      "threshold": 0.225887,
+      "hard_fpr": 0.00408,
+      "hard_recall": 0.96908,
+      "test_fpr": 0.00976,
+      "test_recall": 0.98739,
+      "adversarial_recall": 0.95538,
+      "status": "REJECTED (Minor test recall regression)"
+    },
+    {
+      "name": "Candidate_ConfBound_0.85",
+      "conf_bound": 0.85,
+      "threshold": 0.225887,
+      "hard_fpr": 0.00408,
+      "hard_recall": 0.96908,
+      "test_fpr": 0.00976,
+      "test_recall": 0.98735,
+      "adversarial_recall": 0.95538,
+      "status": "REJECTED (Minor test recall regression)"
+    },
+    {
+      "name": "Candidate_ConfBound_0.88",
+      "conf_bound": 0.88,
+      "threshold": 0.225887,
+      "hard_fpr": 0.00408,
+      "hard_recall": 0.96908,
+      "test_fpr": 0.00976,
+      "test_recall": 0.98726,
+      "adversarial_recall": 0.95462,
+      "status": "REJECTED (Adversarial recall falls below 95.5% gate)"
+    }
+  ],
+  "decision": "CHAMPION_V7_RETAINED"
+}

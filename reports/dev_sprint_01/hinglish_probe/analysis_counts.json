@@ -1,0 +1,9 @@
+{
+  "summary_records": 108,
+  "breakdown_cells": 1402,
+  "paired_records": 2040,
+  "worst_miss_rows": 225,
+  "worst_false_alert_rows": 204,
+  "Wilson_z": 1.959963984540054,
+  "no_training_or_tuning": true
+}

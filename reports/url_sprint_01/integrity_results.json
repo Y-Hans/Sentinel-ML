@@ -1,0 +1,68 @@
+{
+  "status": "OBSERVED",
+  "fixed_entries": 1750,
+  "hashed_entries": 1249,
+  "explicit_no_read_skips": 501,
+  "missing_at_start": [],
+  "protected_changes_during_sprint": [],
+  "different_from_historical_manifest_before_sprint": [],
+  "git_before_exit": 128,
+  "git_after_exit": 128,
+  "git_status_changed_outside_sprint_roots": [],
+  "script_static_no_fit_audit": [
+    {
+      "path": "sentinel-ml/URL-ml/experiments/url_sprint_01/common.py",
+      "sha256": "c9dc87f1e0bf20976afc66fec5403feeb8c2b54fb629f9531f6625feb55302ce",
+      "fit_calls": []
+    },
+    {
+      "path": "sentinel-ml/URL-ml/experiments/url_sprint_01/composition.py",
+      "sha256": "0ad6f99ca8cd7b5f94a820383bdebc7eee797ef4b1bb7626ca9669c275baefb2",
+      "fit_calls": []
+    },
+    {
+      "path": "sentinel-ml/URL-ml/experiments/url_sprint_01/evaluate.py",
+      "sha256": "4ed66a2043727f00c26f706cb045e76c87705c4802057484e31cedcfe49d07b1",
+      "fit_calls": []
+    },
+    {
+      "path": "sentinel-ml/URL-ml/experiments/url_sprint_01/finalize.py",
+      "sha256": "090c18afbf81a15aa987b1981aee0e6b2defb4dd53c6472517089173c2324c9c",
+      "fit_calls": []
+    },
+    {
+      "path": "sentinel-ml/URL-ml/experiments/url_sprint_01/ledger.py",
+      "sha256": "1969ce060aa8a01862bfeaf5eb5c53b435b4a307c23c58130391f6dce76499f2",
+      "fit_calls": []
+    },
+    {
+      "path": "sentinel-ml/URL-ml/experiments/url_sprint_01/prepare.py",
+      "sha256": "d1ef6a9305cea9b648a483554956949bcfd300fc751183b845f328649b7bd005",
+      "fit_calls": []
+    },
+    {
+      "path": "sentinel-ml/URL-ml/experiments/url_sprint_01/safe_domain_prior.py",
+      "sha256": "5c265df09ad9b593edde390c5632a8fe5a02d5bbd5887bbcbc9e71932d7eecef",
+      "fit_calls": []
+    },
+    {
+      "path": "sentinel-ml/URL-ml/experiments/url_sprint_01/source_evidence.py",
+      "sha256": "f5ae7ae5eaa71d79320573d8538f1a4ad42facbef6bc6ee1850ca56ab59b0493",
+      "fit_calls": []
+    },
+    {
+      "path": "sentinel-ml/URL-ml/experiments/url_sprint_01/streamed_audit.py",
+      "sha256": "76b2bda61291258fb220715231f0b3f9541a863a34f798e0d458e85c15414a7e",
+      "fit_calls": []
+    },
+    {
+      "path": "sentinel-ml/URL-ml/experiments/url_sprint_01/write_reports.py",
+      "sha256": "122f3b34b574bd2155d348789f0b44151053234031acb414d4133d599ce2117c",
+      "fit_calls": []
+    }
+  ],
+  "no_network_tools_or_requests_used": true,
+  "no_installs": true,
+  "no_kotlin_or_build_execution": true,
+  "fit_count": 0
+}

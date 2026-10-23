@@ -1,0 +1,20 @@
+{
+  "argv": [
+    "sentinel-ml/URL-ml/venv/Scripts/python.exe",
+    "-B",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\url_reproduction_only.py"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "exit_code": 1,
+  "seconds": 0.46914076805114746,
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "GIT_OPTIONAL_LOCKS": "0",
+    "PYTHONUTF8": "1"
+  },
+  "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "stderr_sha256": "de0cf44234a69f9c42d60cacbab433a714e6a6d9242d9fa1060caaaf42cc29d8"
+}

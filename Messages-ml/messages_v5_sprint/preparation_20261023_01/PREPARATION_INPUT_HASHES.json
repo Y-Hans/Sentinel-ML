@@ -1,0 +1,42 @@
+{
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\assistant_review_20261023\\AGENT_A_NEXT.md": {
+    "bytes": 2979,
+    "sha256": "6eb36dafbde5b03a40dae69c8dc608652625966bc95a4209a2a152a7a3ecfddd"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\assistant_review_20261023\\INDEPENDENT_REVIEW.md": {
+    "bytes": 7961,
+    "sha256": "ae54cab2466e055f3c9c8e7ad7f539949ea8b44df8c773b5cffb338c1f28c6e4"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\assistant_review_20261023\\ANNOTATED_REVIEW_SAMPLE_v2.csv": {
+    "bytes": 50722,
+    "sha256": "38eb3030723a6a2c3d4f2ab2141e88301319619073f376d02f543afd8b00cff6"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel_datasets\\assistant_review_20261023\\DATASET_LABEL_TRIAGE.csv": {
+    "bytes": 11979,
+    "sha256": "b2333bed902cbd092da3eb67ba44371b3cbfc942c5e8c71462b7dacb5d30d183"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel_datasets\\DONE.json": {
+    "bytes": 47159,
+    "sha256": "cc0d7a7641e7517885d64a181dbae573b18159547b569504d056230f866ab372"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel_datasets\\CANDIDATES.md": {
+    "bytes": 25975,
+    "sha256": "2b22ad73122dd03d9d781098aa4f9c8d96389e4bdda1c0bebf3d6e1f40c6b55d"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel_datasets\\STATS.md": {
+    "bytes": 9679,
+    "sha256": "dcf2838ceaca633e31a416696595d1d6d07e12bdb0aef62b8592fbc8c0b96a55"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PRE_REGISTRATION.md": {
+    "bytes": 15253,
+    "sha256": "f4b3b618c7116bc1647c4893de8a998fe3ee7c2665ee277e5420a10c272e3ef6"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PRE_REGISTRATION_EXECUTION_CLARIFICATIONS.md": {
+    "bytes": 1762,
+    "sha256": "a5d0f8f5af906240b6015fa738b720eb1e527411937c2969a3d4ccaa05d6f9a7"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\frozen\\probe_v2.csv": {
+    "bytes": 364126,
+    "sha256": "b57438c786d163068844486d620a3617216ac5fa11564206bbf97ab607a86d48"
+  }
+}

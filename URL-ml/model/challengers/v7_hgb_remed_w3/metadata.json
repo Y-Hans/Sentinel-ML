@@ -1,0 +1,94 @@
+{
+  "campaign": "URL-ML V7",
+  "experiment_id": "v7_hgb_remed_w3",
+  "name": "HistGradientBoosting Weighted (W=3)",
+  "hypothesis": "HistGradientBoosting with 3x structural weighting eliminates false positives on unobserved legitimate domains",
+  "architecture": "HistGradientBoostingClassifier",
+  "feature_count": 53,
+  "feature_schema_sha256": "671ccacb5a8fb2ab5056e25c0acd6ff23df365d3d277507f40066d8610a52392",
+  "seed": 42,
+  "structural_weight": 3.0,
+  "threshold": 0.07146448224112056,
+  "source_dataset_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+  "structural_dataset_sha256": "8ef8245508c889161fff5a32f81dda0e6edb6513cc3f794f45003d1b7e560efd",
+  "hard_dataset_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+  "train_rows": 141178,
+  "structural_rows": 21290,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.009838602697324785,
+    "malicious_recall": 0.9776638378123527,
+    "roc_auc": 0.9949787479774477,
+    "confusion_matrix": [
+      [
+        26871,
+        267
+      ],
+      [
+        379,
+        16589
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.009834387452930209,
+    "malicious_recall": 0.9928750323862164,
+    "roc_auc": 0.9985934446651203,
+    "confusion_matrix": [
+      [
+        27084,
+        269
+      ],
+      [
+        165,
+        22993
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.3445635528330781,
+    "malicious_recall": 0.9667063020214031,
+    "roc_auc": 0.9252718785033738,
+    "confusion_matrix": [
+      [
+        1284,
+        675
+      ],
+      [
+        28,
+        813
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.9869230769230769,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        51,
+        3849
+      ]
+    ]
+  },
+  "fit_seconds": 51.22877369999878,
+  "artifact": "model/challengers/v7_hgb_remed_w3",
+  "model_size_bytes": 1109719,
+  "gates": {
+    "test_fpr_pass": true,
+    "test_recall_pass": true,
+    "hard_fpr_pass": false,
+    "hard_recall_pass": true,
+    "adversarial_recall_pass": true,
+    "bundle_size_pass": true,
+    "all_gates_pass": false
+  },
+  "promotion_status": "challenger_only"
+}

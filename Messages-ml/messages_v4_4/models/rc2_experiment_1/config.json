@@ -1,0 +1,18 @@
+{
+  "model_name": "Sentinel Messages V4.4 RC2 - Experiment 1",
+  "description": "Benign utility rebalancing to resolve utility false alarms",
+  "parent_model": "Candidate B (V4.4-RC1)",
+  "feature_dim": 4019,
+  "structural_signals": 19,
+  "word_ngrams": 1500,
+  "char_wb_ngrams": 2500,
+  "validation_threshold": 0.68,
+  "training_rows": 20495,
+  "corpus_hash": "1750808fb5d3d71f5db779d4273596404d480054115d96077d3ad4ad420a7f3e",
+  "random_seed": 20260914,
+  "classes": [
+    "BENIGN",
+    "SUSPICIOUS_SPAM",
+    "MALICIOUS"
+  ]
+}

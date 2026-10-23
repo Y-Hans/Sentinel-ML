@@ -1,0 +1,10 @@
+{
+  "fixed_count": 1750,
+  "preexisting_evidence_count": 216,
+  "historical_drift_at_entry": [],
+  "B_original_manifest_entries": 202,
+  "B_mismatches": 0,
+  "source_triage_location": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel_datasets\\assistant_review_20261023\\DATASET_LABEL_TRIAGE.csv",
+  "training_authorized": false,
+  "threshold_scan_authorized": false
+}

@@ -1,0 +1,8 @@
+{
+  "stage0": "COMPLETE_PENDING_FINAL_INTEGRITY",
+  "verdict_all_eight_text_only": "Recall is also a problem",
+  "proceed_to_Stage1": false,
+  "reason": "pre-registered recall-also rules triggered for both frozen reference models; user said Stage1 will be supplied afterStage0",
+  "GPU_requested": false,
+  "user_review_needed": "REVIEW_SAMPLE.csv, all80blinddisagreements andassumedlabels; no labelcorrection ortrainingauthorized"
+}

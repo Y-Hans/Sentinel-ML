@@ -1,0 +1,1 @@
+generated 1375 counts Counter({'Hinglish:MALICIOUS': 600, 'Hinglish:BENIGN': 400, 'English:MALICIOUS': 150, 'English:BENIGN': 100, 'Hinglish:SPAM': 100, 'English:SPAM': 25}) rejections {'BENIGN': 26, 'MALICIOUS': 13}

@@ -1,0 +1,16 @@
+{
+  "reason": "33 per family yielded excess SMS benign metadata",
+  "changed_ids": [
+    "HP2_00005",
+    "HP2_00007",
+    "HP2_00013",
+    "HP2_00019",
+    "HP2_00029",
+    "HP2_00037"
+  ],
+  "text_changes": 0,
+  "label_changes": 0,
+  "scored_before_repair": false,
+  "original_sha256": "85a46ec17e7ea96d935b50dcbc1a36f257dc384ba6bb3daa6c23cdc8d9d64952",
+  "corrected_sha256": "b57438c786d163068844486d620a3617216ac5fa11564206bbf97ab607a86d48"
+}

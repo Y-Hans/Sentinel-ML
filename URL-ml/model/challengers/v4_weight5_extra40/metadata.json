@@ -1,0 +1,67 @@
+{
+  "experiment_id": "v4_weight5_extra40",
+  "architecture": "ExtraTreesClassifier",
+  "families": [
+    "host",
+    "path",
+    "query",
+    "interactions"
+  ],
+  "feature_count": 92,
+  "seed": 42,
+  "remediation_weight": 5.0,
+  "threshold": 0.154,
+  "source_dataset_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+  "remediation_sha256": "0f8da3fba16a33e6bbf9217cb6d24308cf28c2ab8b0988aeacbb39d21fad527e",
+  "hard_dataset_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.00932272090795195,
+    "malicious_recall": 0.9935172088637435,
+    "roc_auc": 0.9981979502828524,
+    "confusion_matrix": [
+      [
+        26885,
+        253
+      ],
+      [
+        110,
+        16858
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.008408584067561144,
+    "malicious_recall": 0.9948613869936955,
+    "roc_auc": 0.9987611675278737,
+    "confusion_matrix": [
+      [
+        27123,
+        230
+      ],
+      [
+        119,
+        23039
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.6569678407350689,
+    "malicious_recall": 0.9892984542211652,
+    "roc_auc": 0.9573261370582069,
+    "confusion_matrix": [
+      [
+        672,
+        1287
+      ],
+      [
+        9,
+        832
+      ]
+    ]
+  },
+  "model_size_bytes": 4583232,
+  "artifact": "model/challengers/v4_weight5_extra40"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "rows": 1320,
+  "prediction_rows": 11220,
+  "groups": {
+    "V2/text_only": 1320,
+    "V2/SMS_with_sender_header": 660,
+    "V4.3/text_only": 1320,
+    "V4.4_candidate_a_corrected/text_only": 1320,
+    "V4.4_candidate_b_refined/text_only": 1320,
+    "V4.4_candidate_c_balanced/text_only": 1320,
+    "V4.4_rc2_experiment_1/text_only": 1320,
+    "V4.4_rc2_experiment_2/text_only": 1320,
+    "V4.4_rc2_experiment_3/text_only": 1320
+  },
+  "frozen_data_hash_unchanged": true,
+  "frozen_design_hash_unchanged": true,
+  "MALICIOUS_only_alert_asserted": true,
+  "SPAM_never_alerts": true,
+  "review_rows": 202,
+  "review_columns_blank": true,
+  "probabilities_sum_to_one": true,
+  "confusion_denominators_checked": true,
+  "all_eight_text_only_verdicts": "Recall is also a problem",
+  "candidate_training_fits": 0,
+  "GPU_requested": false,
+  "never_read_datasets_v5_or_user_data": true
+}

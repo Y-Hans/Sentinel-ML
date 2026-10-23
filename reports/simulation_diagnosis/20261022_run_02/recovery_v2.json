@@ -1,0 +1,159 @@
+{
+  "correction": "Initial recovery selected by aligned length/member count, insufficient for newline-transformed data; zero recovered rows was not evidence of zero records. This revision carves only strict SQLite serialized rows by UUID and 11-column schema. Original CR and LF cannot be distinguished; resulting content/timestamp bytes may be altered, all rows PROVISIONAL_SALVAGE.",
+  "pulls": [
+    {
+      "pull_id": "pull_1",
+      "source": "sentinel-ml/Databases/sentinel_db",
+      "source_sha256": "cecaa30a90d2a230b2a53a991b7650ea617030ba0722727542071161356095ec",
+      "transformed_bytes_sha256": "bf4195bae8c0a73e122abe553b38959506dbbfa7a77e9c09a8e9c2b6edef7c26",
+      "rows_recovered": 72,
+      "carve_attempts": 10640,
+      "probes": [
+        {
+          "view": "exact",
+          "path": "pull_1.v2.exact.readonly_copy.db",
+          "sha256": "bf4195bae8c0a73e122abe553b38959506dbbfa7a77e9c09a8e9c2b6edef7c26",
+          "transformation": "none",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "view": "standalone_header",
+          "path": "pull_1.v2.standalone_header.readonly_copy.db",
+          "sha256": "e35f28e58f61989b3a9f1edac9fbfe0ebd4889e5dfbfb7797bd44cf2fb5079fb",
+          "transformation": "bytes 18/19 WAL version -> rollback version in new view only; no WAL implied applied",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "fallback": "strict table-leaf scanner; validated UUID, 11 columns, record type/timestamp/content; no arbitrary column guessing",
+          "leaf_cells_seen": 0,
+          "parse_errors": [],
+          "valid_threat_rows": 0,
+          "completeness": "PROVISIONAL; table-root count/SQLite validation recorded separately"
+        }
+      ],
+      "logged_levels": {
+        "GREEN": 69,
+        "YELLOW": 2,
+        "RED": 1
+      },
+      "timestamp_min": 1789102737740,
+      "timestamp_max": 1789114601444,
+      "unrecoverable_exact_count": null,
+      "count_limitation": "source table count not trusted; exact missing total unknowable; count of validated recovered candidates exact",
+      "model_generation": "UNRESOLVED"
+    },
+    {
+      "pull_id": "pull_2",
+      "source": "sentinel-ml/Databases/sentinel_db(1)",
+      "source_sha256": "022fe888c5af8b38fd46c8fdeafb2a41a68548189295307a6dfe00837a833150",
+      "transformed_bytes_sha256": "0a7b62d04b122d12bca56e3475fa16a93dda594c879cedbc4f3a8f1a8f8f54d5",
+      "rows_recovered": 75,
+      "carve_attempts": 26880,
+      "probes": [
+        {
+          "view": "exact",
+          "path": "pull_2.v2.exact.readonly_copy.db",
+          "sha256": "0a7b62d04b122d12bca56e3475fa16a93dda594c879cedbc4f3a8f1a8f8f54d5",
+          "transformation": "none",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "view": "standalone_header",
+          "path": "pull_2.v2.standalone_header.readonly_copy.db",
+          "sha256": "58628c5d0910a945236d8719db4bd71618381ac6c28844d9ec681bd3621d2385",
+          "transformation": "bytes 18/19 WAL version -> rollback version in new view only; no WAL implied applied",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "fallback": "strict table-leaf scanner; validated UUID, 11 columns, record type/timestamp/content; no arbitrary column guessing",
+          "leaf_cells_seen": 0,
+          "parse_errors": [],
+          "valid_threat_rows": 0,
+          "completeness": "PROVISIONAL; table-root count/SQLite validation recorded separately"
+        }
+      ],
+      "logged_levels": {
+        "YELLOW": 9,
+        "GREEN": 60,
+        "RED": 6
+      },
+      "timestamp_min": 1788538847303,
+      "timestamp_max": 1788632160382,
+      "unrecoverable_exact_count": null,
+      "count_limitation": "source table count not trusted; exact missing total unknowable; count of validated recovered candidates exact",
+      "model_generation": "UNRESOLVED"
+    },
+    {
+      "pull_id": "pull_3",
+      "source": "sentinel-ml/Databases/22oct_pull/sentinel-history.tar",
+      "source_sha256": "4e18bd36e1c0b730aad9428277c9eb13a8602939971b04bad835728dd2c055bd",
+      "transformed_bytes_sha256": "082089ab302596d1ef5ef6c2b32f9788c53a3c0960fc735533a8531a42972733",
+      "rows_recovered": 568,
+      "carve_attempts": 398600,
+      "probes": [
+        {
+          "view": "exact",
+          "path": "pull_3.v2.main.exact.readonly_copy.db",
+          "sha256": "5d5b8d523b911f28cb32b6f2fc1b944326dd189c854885c4a38da2ef4315c565",
+          "transformation": "none",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "view": "standalone_header",
+          "path": "pull_3.v2.main.standalone_header.readonly_copy.db",
+          "sha256": "fe2c9423a2d70b62426d39a75872c6ae48baa0a32602dffef986ad065cbef07d",
+          "transformation": "bytes 18/19 WAL version -> rollback version in new view only; no WAL implied applied",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "fallback": "strict table-leaf scanner; validated UUID, 11 columns, record type/timestamp/content; no arbitrary column guessing",
+          "leaf_cells_seen": 0,
+          "parse_errors": [],
+          "valid_threat_rows": 0,
+          "completeness": "PROVISIONAL; table-root count/SQLite validation recorded separately"
+        }
+      ],
+      "logged_levels": {
+        "GREEN": 532,
+        "RED": 21,
+        "YELLOW": 15
+      },
+      "timestamp_min": 1790875589040,
+      "timestamp_max": 1792586395489,
+      "unrecoverable_exact_count": null,
+      "count_limitation": "source table count not trusted; exact missing total unknowable; count of validated recovered candidates exact",
+      "model_generation": "UNRESOLVED"
+    }
+  ],
+  "legacy_comparisons": [
+    {
+      "source": "sentinel-ml/New_history/bench_real_history_562.jsonl",
+      "sha256": "18987bb577f68979fb118095bf316be1939625b4f6b7788c9f1a9041b6cc6d09",
+      "legacy_rows": 562,
+      "matching_keys": 154,
+      "legacy_only_unique": 408,
+      "new_only_unique": 561
+    },
+    {
+      "source": "sentinel-ml/investigation/sentinel_db_parsed.jsonl",
+      "sha256": "e0f85d09c81be5e2743d10a3ccf69858b62e2c947593ae0e3427588ce1aeef72",
+      "legacy_rows": 34,
+      "matching_keys": 0,
+      "legacy_only_unique": 7,
+      "new_only_unique": 715
+    },
+    {
+      "source": "sentinel-ml/investigation/sentinel_db1_parsed.jsonl",
+      "sha256": "02437b7eb0684fe3b29d32b9ecf03f664041b1f8b3d3f3fd09dd4648884bc5b5",
+      "legacy_rows": 26,
+      "matching_keys": 0,
+      "legacy_only_unique": 8,
+      "new_only_unique": 715
+    }
+  ],
+  "dedup": {
+    "input_rows": 715,
+    "unique_rows": 715,
+    "duplicates": 0
+  }
+}

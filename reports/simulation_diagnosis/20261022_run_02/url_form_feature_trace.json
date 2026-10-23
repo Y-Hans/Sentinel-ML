@@ -1,0 +1,198 @@
+{
+  "source_sha256": "28bb05005281c2183c1996bcd91faac0d21a326295d783c742e60f931a13fac8",
+  "trace": [
+    {
+      "uid": "url_synth_safe_0",
+      "url": "https://www.instagram.com",
+      "feature_differences_vs_https_www": [],
+      "predictions": [
+        {
+          "uid": "url_synth_safe_0",
+          "model": "URL_V7",
+          "score": 0.001927708488996153,
+          "raw_score": 0.001927708488996153,
+          "adjudicated_score": 0.001,
+          "raw_alert": 0,
+          "adjudicated_alert": 0,
+          "threshold": 0.22588719359679843,
+          "policy_reason": "V7 safe-brand gating"
+        },
+        {
+          "uid": "url_synth_safe_0",
+          "model": "URL_V8",
+          "score": 0.001927708488996153,
+          "raw_score": 0.001927708488996153,
+          "adjudicated_score": 0.0010000000474974513,
+          "raw_alert": 0,
+          "adjudicated_alert": 0,
+          "threshold": 0.28,
+          "policy_reason": "BENIGN"
+        }
+      ]
+    },
+    {
+      "uid": "url_synth_safe_1",
+      "url": "www.instagram.com",
+      "feature_differences_vs_https_www": [],
+      "predictions": [
+        {
+          "uid": "url_synth_safe_1",
+          "model": "URL_V7",
+          "score": 0.001927708488996153,
+          "raw_score": 0.001927708488996153,
+          "adjudicated_score": 0.001,
+          "raw_alert": 0,
+          "adjudicated_alert": 0,
+          "threshold": 0.22588719359679843,
+          "policy_reason": "V7 safe-brand gating"
+        },
+        {
+          "uid": "url_synth_safe_1",
+          "model": "URL_V8",
+          "score": 0.001927708488996153,
+          "raw_score": 0.001927708488996153,
+          "adjudicated_score": 0.0010000000474974513,
+          "raw_alert": 0,
+          "adjudicated_alert": 0,
+          "threshold": 0.28,
+          "policy_reason": "BENIGN"
+        }
+      ]
+    },
+    {
+      "uid": "url_synth_safe_2",
+      "url": "//www.instagram.com",
+      "feature_differences_vs_https_www": [],
+      "predictions": [
+        {
+          "uid": "url_synth_safe_2",
+          "model": "URL_V7",
+          "score": 0.001927708488996153,
+          "raw_score": 0.001927708488996153,
+          "adjudicated_score": 0.001,
+          "raw_alert": 0,
+          "adjudicated_alert": 0,
+          "threshold": 0.22588719359679843,
+          "policy_reason": "V7 safe-brand gating"
+        },
+        {
+          "uid": "url_synth_safe_2",
+          "model": "URL_V8",
+          "score": 0.001927708488996153,
+          "raw_score": 0.001927708488996153,
+          "adjudicated_score": 0.0010000000474974513,
+          "raw_alert": 0,
+          "adjudicated_alert": 0,
+          "threshold": 0.28,
+          "policy_reason": "BENIGN"
+        }
+      ]
+    },
+    {
+      "uid": "url_synth_safe_3",
+      "url": "instagram.com",
+      "feature_differences_vs_https_www": [
+        {
+          "feature": "DomainLength",
+          "reference": 17.0,
+          "value": 13.0
+        },
+        {
+          "feature": "HostEntropy",
+          "reference": 3.454822301864624,
+          "value": 3.392747402191162
+        },
+        {
+          "feature": "NoOfSubDomain",
+          "reference": 1.0,
+          "value": 0.0
+        },
+        {
+          "feature": "SpecialCharRatio",
+          "reference": 0.11764705926179886,
+          "value": 0.07692307978868484
+        },
+        {
+          "feature": "URLCharEntropy",
+          "reference": 3.8634650707244873,
+          "value": 3.7849419116973877
+        },
+        {
+          "feature": "URLLength",
+          "reference": 25.0,
+          "value": 21.0
+        }
+      ],
+      "predictions": [
+        {
+          "uid": "url_synth_safe_3",
+          "model": "URL_V7",
+          "score": 0.6093701932473308,
+          "raw_score": 0.6093701932473308,
+          "adjudicated_score": 0.001,
+          "raw_alert": 1,
+          "adjudicated_alert": 0,
+          "threshold": 0.22588719359679843,
+          "policy_reason": "V7 safe-brand gating"
+        },
+        {
+          "uid": "url_synth_safe_3",
+          "model": "URL_V8",
+          "score": 0.6093701932473308,
+          "raw_score": 0.6093701932473308,
+          "adjudicated_score": 0.6093701720237732,
+          "raw_alert": 1,
+          "adjudicated_alert": 1,
+          "threshold": 0.28,
+          "policy_reason": "MALICIOUS"
+        }
+      ]
+    },
+    {
+      "uid": "url_synth_safe_4",
+      "url": "http://www.instagram.com",
+      "feature_differences_vs_https_www": [
+        {
+          "feature": "IsHTTPS",
+          "reference": 1.0,
+          "value": 0.0
+        },
+        {
+          "feature": "URLCharEntropy",
+          "reference": 3.8634650707244873,
+          "value": 3.855388641357422
+        },
+        {
+          "feature": "URLLength",
+          "reference": 25.0,
+          "value": 24.0
+        }
+      ],
+      "predictions": [
+        {
+          "uid": "url_synth_safe_4",
+          "model": "URL_V7",
+          "score": 0.969637230630553,
+          "raw_score": 0.969637230630553,
+          "adjudicated_score": 0.969637230630553,
+          "raw_alert": 1,
+          "adjudicated_alert": 1,
+          "threshold": 0.22588719359679843,
+          "policy_reason": "V7 safe-brand gating"
+        },
+        {
+          "uid": "url_synth_safe_4",
+          "model": "URL_V8",
+          "score": 0.969637230630553,
+          "raw_score": 0.969637230630553,
+          "adjudicated_score": 0.9696372151374817,
+          "raw_alert": 1,
+          "adjudicated_alert": 1,
+          "threshold": 0.28,
+          "policy_reason": "MALICIOUS"
+        }
+      ]
+    }
+  ],
+  "limitation": "These are current-source feature vectors and frozen weights, not historical APK proof; no new probes authored after freeze"
+}

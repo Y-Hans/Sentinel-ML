@@ -1,0 +1,5 @@
+{
+  "status": "fallback to complete bin curves in calibration_reliability.jsonl",
+  "error": "ModuleNotFoundError(\"No module named 'matplotlib'\")",
+  "input_sha256": "21f1d2714dc3c0fec5425307c5f09c6c47375301a093bef2ee36c7c5aeabf209"
+}

@@ -1,0 +1,19 @@
+{
+  "model_name": "Sentinel Messages V4.4 RC2 - Experiment 3",
+  "description": "Institutional recall correction and phishing callback lure balancing",
+  "parent_model": "RC2-EXPERIMENT-2",
+  "feature_dim": 4019,
+  "structural_signals": 19,
+  "word_ngrams": 1500,
+  "char_wb_ngrams": 2500,
+  "validation_threshold": 0.74,
+  "training_rows": 20581,
+  "corpus_hash": "e9b45c52834a00caf36a199c47669eea7b00def88e2b15140c64cdb9cec5b2b2",
+  "random_seed": 20260914,
+  "classes": [
+    "BENIGN",
+    "SUSPICIOUS_SPAM",
+    "MALICIOUS"
+  ],
+  "threshold_rationale": "Calibrated on validation split to strictly achieve FPR <= 2.0% (16/807 = 1.98%) with Malicious Recall = 95.68%"
+}

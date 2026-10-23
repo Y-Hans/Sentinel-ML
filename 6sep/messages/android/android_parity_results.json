@@ -1,0 +1,10 @@
+{
+  "model": "Messages-ML Champion V2",
+  "golden_dataset": "android-runtime/golden_test_data/golden_messages.json",
+  "total_evaluated": 116,
+  "label_parity": "116/116 (100.0%)",
+  "max_deterministic_diff": 0.0,
+  "max_probability_diff": 0.024714473634958267,
+  "mismatches_count": 0,
+  "status": "PASS"
+}

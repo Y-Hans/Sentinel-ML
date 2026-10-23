@@ -1,0 +1,55 @@
+# DATA_READINESS_v2 — preparation complete; intake/fit NOT ready
+
+Date23 October2026, Asia/Calcutta. OBSERVED means this run inspected/recomputed; REPORTED means a source/reviewer assertion; ASSUMED means design/estimate; PROVISIONAL means unresolved labels/lineage. No model inference, training, vocabulary/scaler/calibration fit, validation-threshold scan, export or Android execution occurred. All new outputs live only inside this Messages-ML preparation folder. Neither probe was changed or made training data.
+
+## Incoming review reconciliation
+
+OBSERVED: the annotated sample has120 rows (60M/40B/20S),119 distinct texts, and zero changes to inherited columns/labels versus the frozen sample. user_agree/user_note remain blank. HP2_00425 and HP2_00346 share identical benign text. Assistant statuses are118 scenario-plausible/not-independently-verified and2 duplicate flags. Comments include26 deliberately non-live .invalid URLs and one delivery-PIN context concern. The review is an AI analyst review, not independent human adjudication or evidence of endpoint safety. Zero explicit corrections is not a measured0% label-error rate; the >5% rule is neither passed nor waived.
+
+OBSERVED broader probe quality:1,375 rows contain1,337 distinct full texts. Distinct strings still share one author,60 authored attack phrase pairs, inherited benign contrasts, persona frames and scenario vocabulary. Existing row-level Wilson intervals describe those rows; neither1,375 rows nor1,337 texts is a defensible independent-population sample size. Report family/template clusters and author count beside N; do not convert the set into independent heldout evidence. The generator allowed near-identical components up to3; it did not enforce zero exact duplicates. Earlier reporting should have surfaced this explicitly. V1 and v2 remain permanently evaluation-only; no tuning or labels from scores.
+
+OBSERVED: DATASET_LABEL_TRIAGE.csv is absent from Sentinel's five-file assistant_review_20261023 folder, but located and hash-recorded in sibling sentinel_datasets/assistant_review_20261023. Its28 concerns are16 financial2025,9ridham,3sidzzz07. They are AI-selected triage candidates, not28 confirmed errors or a random population error estimate. No blanket label replacement occurred. Exact incoming hashes: PREPARATION_INPUT_HASHES.json; annotation/triage evidence: probe_review_audit.json, triage_counts.json.
+
+## Original B collection: verified external snapshot, not new intake
+
+OBSERVED: all202 listed files in B's original DONE.json match their SHA256. We rehashed before streaming original normalized files for this diagnostic. This certifies byte identity to that old manifest, not correctness, admissibility, or completion of B's active repair. No DATASETS MOVED signal or mutually exclusive copy/handoff occurred; no write to datasets_v5 or B's workspace. No new source is admitted to training. The source table is pre-remediation availability only; do not merge these counts with forthcoming corrected B counts.
+
+| Source | Original rows | Hinglish M | Hinglish B | SPAM | UNMAPPED | Normalized SHA256 |
+| --- | --- | --- | --- | --- | --- | --- |
+| sidzzz07 | 3720 | 258 | 502 | 0 | 0 | 73b027f1e1493f89b3e5d0b70693310312233855eb22c0c2024b7f3de41c920f |
+| ridham | 1068 | 234 | 0 | 0 | 531 | f73c5601b2a452c007572e4200b8deceebbb465a9c71a75f2a632123c2c6a9c4 |
+| ysangam | 743 | 0 | 0 | 0 | 743 | 7969f0bf71ab5c5623a6e68a799827fc19c2084effe4754f131aacbee545b6bc |
+| karan | 49 | 0 | 10 | 0 | 24 | 9b57b1579a841ea1e8663f5219211ddf52e5f767ad0066458608882a2036cfdf |
+| financial2025 | 419 | 0 | 0 | 0 | 0 | 21f0ede62d369d8da8bb3a39d6661e761cadc18a1ba12d91c7f3f2414a2ee9a1 |
+
+OBSERVED totals:5,999 original texts;9,903 rows with3,904 conversion variants. Original labels2,911 BENIGN/0SPAM/1,790MALICIOUS/1,298UNMAPPED. All3,904 variants have meaning_check=UNSURE. Every original/variant group has exactly one original and consistent inherited label, but that does not validate the label or conversion meaning. Groups/variants must remain together; each original contributes at most unit total weight after augmentation. Source-group audit and full source/language/class/conversion counts are saved.
+
+PROVISIONAL dispositions: financial2025 all419 originals QUARANTINED pending taxonomy/jurisdiction review; do not rescue individual obvious examples while the source audit is unresolved. Its scam category includes receipt/advertising/service contexts in the supplied concerns, and Bangladesh BDT/locale material cannot be silently treated as Indian deployment evidence. ysangam all743 original rows remain UNMAPPED until numeric polarity is explicitly documented; repeated text/metadata is not independent evidence. ridham safe mixes BENIGN/promotional, and some scam rows need intent review. sidzzz07 is authored synthetic template intent, not captured natural attacks; callback-only or bank wording alone is not proof of deception. karan is small and template-like. No variant marked UNSURE is admitted to any untouched test.
+
+## Source-heldout feasibility — gates remain UNPROVEN
+
+OBSERVED old-source Hinglish attack counts: sidzzz07258, ridham234, total492. Neither source supplies300 original Hinglish attacks by itself. Adding transliterations to reach300 does not create independent observations; most original labels themselves need review. Hinglish BENIGN is502 sidzzz07 +10karan; sidzzz07 can meet a raw row target but not a claim of300 independently collected real messages. There is currently no certified independent natural Hinglish300M+300B holdout. We have inspected source documentation/triage and counts; these existing materials cannot be relabeled a pristine new exam after design decisions. B's remediated release may reduce admissible counts further.
+
+PROPOSED: retain G3 as UNPROVEN when the independent-source/group requirement is unmet. Use source-disjoint synthetic stress tests only with that name; no waiver, pooled-source sleight of hand, converted variants as new independent N, or softened confidence gate. Do not select/fit using source test labels or model predictions. A later genuinely untouched source is required for a stronger deployment-generalization claim.
+
+## Deduplication / leakage diagnostics
+
+OBSERVED exact/Jaccard>=.85 original-source audit over5,999B originals: corrected confirmed evaluation overlaps are3financial2025 originals; historical training overlaps2financial2025 originals. Four financial originals also match raw/training-lineage/unclassified references; overlap categories may share rows and must not be summed. No cross-B-source matches at this lexical criterion. This is not proof of semantic/source independence. Variants inherit original overlap exclusions and additionally require their own exact/fuzzy audit after handoff, so this diagnostic is not a final split certificate.
+
+OBSERVED own correction: the initial comparison role marked all non-training filenames as evaluation, including all_processed/raw corpora. This yielded5financial evaluation-like matches and falsely flagged all1,169 historical SPAM rows. We preserved that broad result and corrected roles to explicitly identified test/val/OOD/benchmark/holdout/probe/simulation paths. Authoritative files: overlap_matches_v2.jsonl, overlap_role_correction.json and historical_SPAM_overlap_v2.jsonl. The corrected historical SPAM unique-row union is136/1,169, with per-file hits79val/39test/33OOD (overlapping counts). Raw corpus lineage is retained separately, not misrepresented as test leakage.
+
+OBSERVED historical SPAM: train.jsonl has1,169 SUSPICIOUS_SPAM rows (1,143 unique normalized strings):812IMC25,310Mendeley2022,47UCI. After excluding flagged template groups,1,033rows remain potential review candidates; zero are newly admitted. historical_SPAM_candidates_v3.csv uses canonical message_id/source_id/template_cluster_id and text hashes. Earlier diagnostics used id/source aliases and could show null/MISSING despite available canonical metadata; this was corrected, not treated as absent provenance. B's collection exclusion of already-used corpora does not automatically prohibit A's explicitly permitted established historical training reuse, but license/taxonomy/group leakage checks still apply. Keep SPAM as the third class; never fill a missing class with UNMAPPED or pseudo-labeled attacks.
+
+OBSERVED: sentinel-ml/user_data/hardneg_train.csv is absent. Hard-negative overlap is UNPROVEN, not zero. Sealed exams were neither enumerated nor opened. Hash-only exam access cannot establish fuzzy content overlap; obtain an owner-generated exclusion index or separately approved deferred leakage check during the single final exam read. Missing hardneg/exam prerequisites do not become passing gates.
+
+## Author/template split accounting
+
+OBSERVED AUTHOR_TEMPLATE_SPLIT_LEDGER.csv records9,903original/variant IDs with original group_id, source, author/generator assertion, parsed template/family and exact normalized fingerprint. SOURCE_TEMPLATE_COUNTS.csv has193 source/author/template/family cells. Metadata author names/LLM provenance are REPORTED, not authenticity verified. Every assigned_split is NOT_ASSIGNED. No training/validation/test partition has been fabricated.
+
+PROPOSED after admissible release: union original group_id, original source-template group, normalized exact/Jaccard links, genuine sender/thread and cross-source duplicate lineage. For unknown templates, use a conservative family/author block and mark unresolved groups rather than row-wise splitting. Do not group all unrelated messages solely because they share an author for the internal test, but reserve an entire author/source for the external source-heldout test; if only one usable author remains, that test is UNPROVEN. Emit actual source/author/template membership by split before fitting; current ledger is the required preparation scaffold, not a split approval.
+
+## B coordination / handoff contract
+
+OBSERVED: following AGENT_A_NEXT item3, a request was sent to the existing “Collect public SMS scam datasets” chat for immutable source manifests and quarantine lists. B was active in taxonomy repair at the recorded snapshot; no final corrected manifest was available to this run. B_COORDINATION_SNAPSHOT.json records the request/status. Its current commentary says financial review and ysangam polarity work are ongoing; this is REPORTED progress, not an accepted dataset.
+
+PROPOSED handoff: B finishes source audit outside Sentinel and freezes a release with DONE/manifest hashes, per-source accepted/quarantined/UNMAPPED decisions, row-level original/variant/template linkage, license evidence and review-status columns. A announces paused intake, user authorizes B's copy, B alone creates a new non-existing datasets_v5/release_<uniqueID>/ and writes completion receipt last. No in-place replacement or simultaneous A read while B copies. A resumes only after explicit handoff completion/DATASETS MOVED, rehashes every listed file, rejects traversal/duplicate entries/mismatch, and audits admitted rows. Nothing in this preparation authorizes copying or fitting.

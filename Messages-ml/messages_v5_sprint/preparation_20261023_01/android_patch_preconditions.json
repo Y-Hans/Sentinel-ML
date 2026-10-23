@@ -1,0 +1,16 @@
+{
+  "status": "PROPOSED_NOT_APPLIED_NOT_COMPILED",
+  "source_hashes": {
+    "sentinel-ai/android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MessageAdjudicator.kt": "38e14b24bc89c1ff9c89e0a49588abceec978765782356631d1c638f3f6af4b6",
+    "sentinel-ai/android-app/agents/src/main/java/com/sentinel/ai/agents/whatsapp/NotificationThreatAnalyzer.kt": "1076f48c1594b93ec8a09e457432e88abab3a6ea83ae46c431ed053f23919746",
+    "sentinel-ai/android-app/core/src/main/java/com/sentinel/ai/core/fusion/RiskFusionEngine.kt": "2fcd1b0c060613578e96b327f74016e1189708aab40d9315d0644003347309b1",
+    "sentinel-ai/android-app/agents/src/main/java/com/sentinel/ai/agents/whatsapp/NotificationAgentCoordinator.kt": "2e9844cc45e872fb397eb648ae7dcbf9142bc1073ead496483dccac7ab0bdea4"
+  },
+  "proposed_changed_files": [
+    "sentinel-ai/android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MessageAdjudicator.kt",
+    "sentinel-ai/android-app/agents/src/main/java/com/sentinel/ai/agents/whatsapp/NotificationThreatAnalyzer.kt"
+  ],
+  "proposed_diff_sha256": "97d381783af6425d6eb1254387e4ebe44c09fc072993cf8a84045a3c7185ac01",
+  "unchanged": "classifier decision, thresholds, probabilities, fusion, URL code, contact/group rules, failure handling",
+  "apply_requires": "separate explicit Android patch + test authorization and exact source hash recheck"
+}

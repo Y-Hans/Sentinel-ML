@@ -1,0 +1,27 @@
+from __future__ import annotations
+import json,sys
+from pathlib import Path
+from urllib.parse import urlsplit
+import joblib,numpy as np,pandas as pd
+from sklearn.model_selection import GroupShuffleSplit
+from sklearn.preprocessing import StandardScaler
+ROOT=Path(__file__).resolve().parents[1]; DATA=ROOT/'data'; REPORTS=ROOT/'reports'; sys.path.insert(0,str(ROOT/'scripts'))
+from url_features import FULL_FEATURES,domain_group,extract_url_features
+THRESHOLD=.4525
+def family(s):
+    s=str(s).lower(); return {'has_query':int('?' in s),'has_security':int(any(x in s for x in ['security','secure','verify','auth','login','signin','password','account','credential','identity'])),'has_payment':int(any(x in s for x in ['pay','billing','checkout','order','invoice','payment','wallet'])),'has_redirect':int(any(x in s for x in ['redirect','return=','next=','continue=','url='])),'has_encoding':int('%' in s),'path_depth':max(0,len(urlsplit(s).path.strip('/').split('/')) if urlsplit(s).path.strip('/') else 0),'query_params':int(s.count('&')+(1 if '?' in s else 0))}
+def main():
+    d=pd.read_csv(DATA/'final_dataset.csv'); X=d[FULL_FEATURES].astype(np.float32); y=d.label.astype(int).to_numpy(); groups=d.url.map(domain_group); tr,rest=next(GroupShuffleSplit(n_splits=1,test_size=.4,random_state=42).split(X,y,groups)); vr,te=next(GroupShuffleSplit(n_splits=1,test_size=.5,random_state=42).split(X.iloc[rest],y[rest],groups.iloc[rest])); test_idx=rest[te]; sc=StandardScaler().fit(X.iloc[tr]); xs=sc.transform(X); model=joblib.load(ROOT/'model/challengers/challenger_hardsource_v2_extra40/model.joblib'); hard=d.DatasetSource.to_numpy()=='hard'; hard_rows=d.loc[hard,['url','label']].copy(); hard_rows['score']=model.predict_proba(xs[hard])[:,1]; hard_rows['prediction']=(hard_rows.score>=THRESHOLD).astype(int); test_rows=d.iloc[test_idx][['url','label']].copy(); test_rows['score']=model.predict_proba(xs[test_idx])[:,1]; test_rows['prediction']=(test_rows.score>=THRESHOLD).astype(int)
+    for frame in [hard_rows,test_rows]:
+        vals=frame.url.map(family).apply(pd.Series); frame[vals.columns]=vals; frame['registrable_domain']=frame.url.map(domain_group); frame['hostname']=frame.url.map(lambda u:(urlsplit(u).hostname or '').lower()); frame['tld']=frame.hostname.map(lambda x:x.rsplit('.',1)[-1] if '.' in x else '')
+        features=pd.DataFrame([extract_url_features(u,FULL_FEATURES) for u in frame.url],index=frame.index); frame[features.columns]=features
+    residual=hard_rows[(hard_rows.label==0)&(hard_rows.prediction==1)].copy(); residual.to_csv(REPORTS/'URL_FINAL_REMEDIATION_RESIDUAL_FALSE_POSITIVES.csv',index=False)
+    groupset={'hard_residual_fp':residual,'hard_benign_tn':hard_rows[(hard_rows.label==0)&(hard_rows.prediction==0)],'hard_malicious':hard_rows[hard_rows.label==1],'test_benign':test_rows[test_rows.label==0],'test_malicious':test_rows[test_rows.label==1]}; summary={}
+    for name,frame in groupset.items(): summary[name]={'n':int(len(frame)),'domains':int(frame.registrable_domain.nunique()),'means':{c:float(frame[c].mean()) for c in FULL_FEATURES+['has_query','has_security','has_payment','has_redirect','has_encoding','path_depth','query_params']},'top_tlds':frame.tld.value_counts().head(10).to_dict()}
+    residual['pattern']=residual.apply(lambda r:'query+security/payment' if r.has_query and (r.has_security or r.has_payment) else 'security/payment' if (r.has_security or r.has_payment) else 'query' if r.has_query else 'deep_path' if r.path_depth>=3 else 'other',axis=1); clusters=residual.groupby('pattern').agg(n=('url','size'),mean_score=('score','mean'),mean_path_depth=('path_depth','mean'),query_rate=('has_query','mean'),security_rate=('has_security','mean'),payment_rate=('has_payment','mean'),domains=('registrable_domain','nunique')).reset_index().to_dict('records')
+    out={'threshold':THRESHOLD,'finalist_artifact':'model/challengers/challenger_hardsource_v2_extra40/model.joblib','heldout_rows_untouched':True,'residual_fp_count':int(len(residual)),'residual_fp_rate':float(len(residual)/len(hard_rows[hard_rows.label==0])),'clusters':clusters,'group_summary':summary,'interpretation':'Residual errors were evaluated against unchanged hard-source and domain-disjoint TEST rows. Cluster labels are deterministic structural categories, not domain allowlists.'}; (REPORTS/'URL_FINAL_REMEDIATION_FORENSIC.json').write_text(json.dumps(out,indent=2),encoding='utf-8')
+    lines=['# URL-ML Focused Final Remediation Forensic Analysis','',f'Finalist threshold: `{THRESHOLD}`. Residual hard-source benign false positives: **{len(residual)} / {len(hard_rows[hard_rows.label==0])} ({100*len(residual)/len(hard_rows[hard_rows.label==0]):.2f}%)**.','','## Residual clusters','']
+    for r in clusters: lines.append(f"- **{r['pattern']}**: n={r['n']}; domains={r['domains']}; mean score={r['mean_score']:.3f}; path depth={r['mean_path_depth']:.2f}; query rate={r['query_rate']:.3f}; security rate={r['security_rate']:.3f}; payment rate={r['payment_rate']:.3f}.")
+    lines += ['','## Comparison groups','', 'The JSON contains feature means for residual false positives, correctly classified hard benign URLs, hard malicious URLs, TEST benign URLs, and TEST malicious URLs. No held-out row was used to create training data or select a threshold.']
+    (REPORTS/'URL_FINAL_REMEDIATION_FORENSIC.md').write_text('\n'.join(lines)+'\n',encoding='utf-8'); print(json.dumps({'residual_fp':len(residual),'clusters':clusters},indent=2))
+if __name__=='__main__': main()

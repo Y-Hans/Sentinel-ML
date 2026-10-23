@@ -1,0 +1,23 @@
+{
+  "fixed_protected_count": 1750,
+  "fixed_changes": [],
+  "A_preexisting_evidence_count": 216,
+  "A_evidence_changes": [],
+  "B_original_manifest_files_rechecked": 202,
+  "B_original_changes": [],
+  "git_same_file_by_file": true,
+  "git_before_exit": 0,
+  "git_after_exit": 0,
+  "git_added_lines": [],
+  "git_removed_lines": [],
+  "frozen_changes": [],
+  "v1_sha256": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44",
+  "v2_sha256": "b57438c786d163068844486d620a3617216ac5fa11564206bbf97ab607a86d48",
+  "training_fits": 0,
+  "threshold_scans": 0,
+  "Kotlin_execution": false,
+  "Android_patch_applied": false,
+  "sealed_exam_opened": false,
+  "data_intake_approved": false,
+  "all_new_writes_confined_to": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\sentinel-ml\\Messages-ml\\messages_v5_sprint\\preparation_20261023_01"
+}

@@ -1,0 +1,76 @@
+{
+  "experiment_id": "challenger_source_invariant_v2_gb",
+  "architecture": "GradientBoostingClassifier",
+  "features": [
+    "URLLength",
+    "DomainLength",
+    "IsDomainIP",
+    "NoOfSubDomain",
+    "IsHTTPS",
+    "HasSuspiciousWords",
+    "SpecialCharRatio",
+    "DigitRatio",
+    "HasAtSymbol",
+    "SuspiciousTLD",
+    "BrandImpersonationScore",
+    "HyphenCount",
+    "PathQueryLength",
+    "KnownBrandDomain",
+    "DomainVowelRatio"
+  ],
+  "seed": 42,
+  "threshold": 0.322,
+  "remediation_dataset_sha256": "36ad0e29cfd6e35215fa86d100458c03c409eadd1878b5a0be05e827e946b344",
+  "remediation_weight": 5.0,
+  "fit_seconds": 8.126005299999974,
+  "artifact": "model/challengers/challenger_source_invariant_v2_gb/model.joblib",
+  "validation": {
+    "n": 49489,
+    "benign_fpr": 0.006202695218755769,
+    "malicious_recall": 0.9839314408141403,
+    "confusion_matrix": [
+      [
+        26917,
+        168
+      ],
+      [
+        360,
+        22044
+      ]
+    ],
+    "roc_auc": 0.9966542234457527
+  },
+  "test": {
+    "n": 43433,
+    "benign_fpr": 0.006651477289431133,
+    "malicious_recall": 0.9753406078540164,
+    "confusion_matrix": [
+      [
+        27031,
+        181
+      ],
+      [
+        400,
+        15821
+      ]
+    ],
+    "roc_auc": 0.99601801722375
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.46809596733027053,
+    "malicious_recall": 0.9096313912009513,
+    "confusion_matrix": [
+      [
+        1042,
+        917
+      ],
+      [
+        76,
+        765
+      ]
+    ],
+    "roc_auc": 0.8782505694926735
+  },
+  "serialized_model_bytes": 72649
+}

@@ -1,0 +1,25 @@
+{
+  "frozen_UTC": "2026-10-22T17:19:36.231371+00:00",
+  "path": "probe_set.csv",
+  "sha256": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44",
+  "rows": 1320,
+  "counts": {
+    "Hinglish:SPAM": 120,
+    "Hinglish:MALICIOUS": 480,
+    "Hinglish:BENIGN": 480,
+    "English:BENIGN": 120,
+    "English:MALICIOUS": 120
+  },
+  "design_preregistered_sha256": "09a64b06036cc174e6305b8e33d7fa285a72996b74c1d2bb93bbdf6341cf4482",
+  "corpus_audit_sha256": "514e2294cd7856f564df94ff2d1b339c395921c5b9979f04dc5e51b22c2c822a",
+  "overlap_tags_sha256": "9570d19bffcb2dc87467681c6cc5d3067cc6627092f61534d060a544999b3afc",
+  "blind_QA_sha256": "5d24f801fb6515b116710f2e3c53b17446049972761e2f16d4217fbb3c04b24c",
+  "blind_disagreements": 80,
+  "max_near_duplicate_component": 2,
+  "models_seen_set": false,
+  "training_fits": 0,
+  "GPU_requested": false,
+  "immutable_exam_for_future_training": true,
+  "all_labels": "ASSUMED single-generator intent; unreviewed",
+  "proposed_decision_rules_locked": true
+}

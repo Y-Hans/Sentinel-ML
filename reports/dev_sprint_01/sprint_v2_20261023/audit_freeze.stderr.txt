@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\user\Programing files\Yajat\Projects\sentinel\reports\dev_sprint_01\sprint_v2_20261023\audit_freeze.py", line 22, in <module>
+    assert all(sum(r['channel_style']=='SMS' for r in hg if r['expected']==lab)==n//2 for lab,n in [('MALICIOUS',600),('BENIGN',400),('SPAM',100)])
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

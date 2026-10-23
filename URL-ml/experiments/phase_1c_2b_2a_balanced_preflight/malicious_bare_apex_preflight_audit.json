@@ -1,0 +1,24 @@
+{
+  "total_train_malicious_urls": 60819,
+  "existing_root_bare_malicious_in_train": 8314,
+  "canonical_root_from_deep_path_in_train": 5203,
+  "total_unique_deduplicated_malicious_apex": 11151,
+  "selected_candidate_size": 3000,
+  "unique_parent_domains_selected": 2955,
+  "overlap_with_validation_domains": 0,
+  "overlap_with_test_domains": 0,
+  "overlap_with_golden_domains": 4,
+  "overlap_with_benchmark_domains": 0,
+  "top_tlds": {
+    "app": 1515,
+    "com": 801,
+    "net": 48,
+    "org": 39,
+    "xyz": 34,
+    "top": 34,
+    "ru": 33,
+    "fr": 29,
+    "info": 24,
+    "dev": 21
+  }
+}

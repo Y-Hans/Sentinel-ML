@@ -1,0 +1,10 @@
+{
+  "version": "Messages V4",
+  "feature_layout": [
+    {"offset": 0, "length": 70, "name": "legacy_deterministic", "used_by_selected_model": true},
+    {"offset": 70, "length": 1500, "name": "word_tfidf", "analyzer": "word", "ngram_range": [1, 2]},
+    {"offset": 1570, "length": 500, "name": "char_tfidf", "analyzer": "char_wb", "ngram_range": [3, 5]}
+  ],
+  "total_dimensions": 2070,
+  "selection_note": "The full-feature ablation narrowly outperformed text-only on validation under the locked selection rule. This is not a claim that deterministic features are safe; protected regression results reject the candidate."
+}

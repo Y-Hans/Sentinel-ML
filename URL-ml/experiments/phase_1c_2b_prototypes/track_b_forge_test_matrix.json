@@ -1,0 +1,154 @@
+[
+  {
+    "url": "https://gitlab.freedesktop.org/mesa/drm/-/blob/main/xf86drmMode.c",
+    "expected_label": "BENIGN",
+    "category": "legitimate_forge_subdomain",
+    "platform_brand": "gitlab",
+    "parent_domain": "freedesktop.org",
+    "rationale": "Self-hosted GitLab Community Edition on official freedesktop.org domain (Row 244)"
+  },
+  {
+    "url": "https://gitlab.freedesktop.org/poppler/poppler/-/blob/master/poppler/GfxState.cc",
+    "expected_label": "BENIGN",
+    "category": "legitimate_forge_subdomain",
+    "platform_brand": "gitlab",
+    "parent_domain": "freedesktop.org",
+    "rationale": "Poppler PDF renderer source file on freedesktop.org GitLab (Row 234)"
+  },
+  {
+    "url": "https://gitlab.archlinux.org/archlinux/packaging/packages/linux/-/blob/main/config",
+    "expected_label": "BENIGN",
+    "category": "legitimate_forge_subdomain",
+    "platform_brand": "gitlab",
+    "parent_domain": "archlinux.org",
+    "rationale": "Arch Linux official package repository"
+  },
+  {
+    "url": "https://gitlab.gnome.org/GNOME/mutter/-/blob/main/src/core/display.c",
+    "expected_label": "BENIGN",
+    "category": "legitimate_forge_subdomain",
+    "platform_brand": "gitlab",
+    "parent_domain": "gnome.org",
+    "rationale": "GNOME desktop environment official GitLab instance"
+  },
+  {
+    "url": "https://gitlab.alpinelinux.org/alpine/aports/-/blob/master/main/musl/APKBUILD",
+    "expected_label": "BENIGN",
+    "category": "legitimate_forge_subdomain",
+    "platform_brand": "gitlab",
+    "parent_domain": "alpinelinux.org",
+    "rationale": "Alpine Linux package build definition on Alpine GitLab"
+  },
+  {
+    "url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/kernel/sched/core.c",
+    "expected_label": "BENIGN",
+    "category": "legitimate_forge_subdomain",
+    "platform_brand": "git",
+    "parent_domain": "kernel.org",
+    "rationale": "Official Linux kernel cgit interface"
+  },
+  {
+    "url": "https://invent.kde.org/plasma/kwin/-/blob/master/src/main.cpp",
+    "expected_label": "BENIGN",
+    "category": "legitimate_forge_subdomain",
+    "platform_brand": "invent",
+    "parent_domain": "kde.org",
+    "rationale": "KDE Plasma window manager source on KDE GitLab"
+  },
+  {
+    "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/routers/web/repo/issue.go",
+    "expected_label": "BENIGN",
+    "category": "legitimate_forge_subdomain",
+    "platform_brand": "codeberg",
+    "parent_domain": "codeberg.org",
+    "rationale": "Forgejo self-hosted git forge code on Codeberg"
+  },
+  {
+    "url": "https://git.openwrt.org/project/ubus.git/blob/HEAD:/ubusd.c",
+    "expected_label": "BENIGN",
+    "category": "legitimate_forge_subdomain",
+    "platform_brand": "git",
+    "parent_domain": "openwrt.org",
+    "rationale": "OpenWrt project git repository"
+  },
+  {
+    "url": "https://git.netfilter.org/iptables/tree/extensions/libxt_conntrack.c",
+    "expected_label": "BENIGN",
+    "category": "legitimate_forge_subdomain",
+    "platform_brand": "git",
+    "parent_domain": "netfilter.org",
+    "rationale": "Netfilter project git repository"
+  },
+  {
+    "url": "https://gitlab.com.account-verification.ru/login",
+    "expected_label": "MALICIOUS",
+    "category": "brand_impersonation_phishing",
+    "platform_brand": "gitlab",
+    "parent_domain": "account-verification.ru",
+    "rationale": "Phishing targeting GitLab users via multi-label subdomain deception"
+  },
+  {
+    "url": "https://paypal.com.security-notice-update.top/login",
+    "expected_label": "MALICIOUS",
+    "category": "brand_impersonation_phishing",
+    "platform_brand": "paypal",
+    "parent_domain": "security-notice-update.top",
+    "rationale": "Financial brand impersonation credential harvester"
+  },
+  {
+    "url": "https://microsoft.com-security-alert.xyz/verify",
+    "expected_label": "MALICIOUS",
+    "category": "brand_impersonation_phishing",
+    "platform_brand": "microsoft",
+    "parent_domain": "com-security-alert.xyz",
+    "rationale": "Microsoft brand impersonation on suspicious TLD"
+  },
+  {
+    "url": "https://appleid.apple.com.login-verify.cf/auth",
+    "expected_label": "MALICIOUS",
+    "category": "brand_impersonation_phishing",
+    "platform_brand": "apple",
+    "parent_domain": "login-verify.cf",
+    "rationale": "Apple ID phishing harvester on free TLD"
+  },
+  {
+    "url": "https://github-account-security-update.online/oauth/authorize",
+    "expected_label": "MALICIOUS",
+    "category": "brand_impersonation_phishing",
+    "platform_brand": "github",
+    "parent_domain": "github-account-security-update.online",
+    "rationale": "Fake GitHub OAuth authorization portal"
+  },
+  {
+    "url": "https://google-drive-shared-file-access.info/signin",
+    "expected_label": "MALICIOUS",
+    "category": "brand_impersonation_phishing",
+    "platform_brand": "google",
+    "parent_domain": "google-drive-shared-file-access.info",
+    "rationale": "Google Drive credential harvester"
+  },
+  {
+    "url": "https://gitlab.freedesktop.org/evil/repo/-/raw/main/token_stealer.sh",
+    "expected_label": "MALICIOUS",
+    "category": "hostile_payload_on_forge",
+    "platform_brand": "gitlab",
+    "parent_domain": "freedesktop.org",
+    "rationale": "Hostile script with suspicious extension and hostile token on forge host"
+  },
+  {
+    "url": "https://gitlab.com/attacker/malware/-/raw/main/payload.exe",
+    "expected_label": "MALICIOUS",
+    "category": "hostile_payload_on_forge",
+    "platform_brand": "gitlab",
+    "parent_domain": "gitlab.com",
+    "rationale": "Executable binary payload hosted on public GitLab"
+  },
+  {
+    "url": "https://github.com/phishing/repo/redirect?target=https%3A%2F%2Fevil.com",
+    "expected_label": "MALICIOUS",
+    "category": "hostile_payload_on_forge",
+    "platform_brand": "github",
+    "parent_domain": "github.com",
+    "rationale": "Open redirect vector on public GitHub"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "seed": 202610230,
+  "review_seed": 202610231,
+  "counts": {
+    "Hinglish:MALICIOUS": 600,
+    "Hinglish:BENIGN": 400,
+    "English:MALICIOUS": 150,
+    "English:SPAM": 25,
+    "English:BENIGN": 100,
+    "Hinglish:SPAM": 100
+  },
+  "hinglish_word_bins": {
+    "6_15": 617,
+    "16_30": 483
+  },
+  "personas": {
+    "terse_service": 132,
+    "formal_desk": 138,
+    "friend": 143,
+    "student": 144,
+    "hurried_texter": 132,
+    "household": 137,
+    "merchant": 134,
+    "colloquial_adviser": 140
+  },
+  "rejected_before_scores": {
+    "BENIGN": 26,
+    "MALICIOUS": 13
+  },
+  "source_phrases": {
+    "new_attack_literal_pairs": 60,
+    "reused_v1_family_contexts_and_benign_contrasts": true,
+    "source_sha256": "1f07cbd6c62d66a49dbe44ea775228a8b08465507f3953acd2a3817c240b059a"
+  },
+  "model_imports": false,
+  "human_reviewed": false,
+  "phone_note": "invented diagnostic pattern; assignment status not verified; no call or resolution",
+  "design_sha256": "da628a3c9974f30ec9472e92bdb829b56b02add50ae9354d218dfe1d1920c00f"
+}

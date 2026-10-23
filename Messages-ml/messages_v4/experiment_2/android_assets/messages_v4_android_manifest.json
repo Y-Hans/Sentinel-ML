@@ -1,0 +1,19 @@
+{
+  "version": "Messages V4",
+  "threshold": 0.69,
+  "assets": {
+    "messages_v4_char_vocab_idf.json": "2047e94cde483e3f0b5bb2e0b47669802e366caa667797a887a3ce960dd7b7c1",
+    "messages_v4_scaler.json": "1f4251c4243625e18a45926a9e6bb92746ab1f47a58cafb13a65b4710257bacf",
+    "messages_v4_trees.json": "06d1480d0808cb59ebe3d2788a9b0366d194ecc34b2493f6a704ff1e0d699a02",
+    "messages_v4_word_vocab_idf.json": "7d9e7a945c9f0f3a95ad4d42c251d91af248399f79d5250263c399fd0ff5278f"
+  },
+  "python_artifacts": {
+    "messages_v4_calibration.json": "82bc339bf7fa4bf03ec5f5a5939225f9768f60cc4555761857fea61c9b228ec8",
+    "messages_v4_config.json": "e3420e0aba96e127782932b47f2f67ae9cd60880354d943cdef564ffbdde1474",
+    "messages_v4_model.pkl": "ca8d116d5d3c5e95babf634d29c0c15878dc526b56921b2e808fda28dec6201b",
+    "messages_v4_scaler.pkl": "06a911860e90b77dcc1d3fc911c8bff86bdb03e34995f31e0d2119d2f9798b0c",
+    "messages_v4_tfidf_char.pkl": "8dcdbe28b087df5c28b15c5c265ee9b1db30a14dc3147042d6c7f4859c1412c7",
+    "messages_v4_tfidf_word.pkl": "a98301fa974f3c9ddf37693ad5d9f5566d382834958d99f327a83083fe72ce02",
+    "messages_v4_threshold.json": "1efc19fbbd7ad1041b511d8ebd48b1d3e0e6bc948376c15599a48edfac3e1321"
+  }
+}

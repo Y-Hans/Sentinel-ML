@@ -1,0 +1,125 @@
+{
+  "spam_rows": 1169,
+  "confirmed_eval_overlap_rows": 136,
+  "not_flagged_against_confirmed_eval": 1033,
+  "flagged_by_confirmed_file": {
+    "sentinel-ml/Messages-ml/data/processed/val.jsonl": 79,
+    "sentinel-ml/Messages-ml/data/processed/ood.jsonl": 33,
+    "sentinel-ml/Messages-ml/data/processed/test.jsonl": 39
+  },
+  "source_counts_with_source_id_precedence": {
+    "SRC_IMC25_FISHING_SMISHING": 812,
+    "SRC_MENDELEY_SMISHING_2022": 310,
+    "SRC_UCI_SMS_SPAM_2011": 47
+  },
+  "metadata_examples_no_text": [
+    {
+      "message_id": "MSG_SRC_IMC25_FISHING_SMISHING_0006886",
+      "sender_header": "phone number",
+      "sender_type": "UNKNOWN",
+      "primary_type": "PROMOTIONAL",
+      "security_label": "SUSPICIOUS_SPAM",
+      "threat_vectors": [
+        "COMMERCIAL_SPAM"
+      ],
+      "language": "en",
+      "script": "LATIN",
+      "source_id": "SRC_IMC25_FISHING_SMISHING",
+      "source_type": "PUBLIC_RESEARCH",
+      "template_cluster_id": "TMPL_9d56c1ac9f7b0d87",
+      "split": "TRAIN",
+      "structural_metadata": {
+        "length_chars": 30,
+        "length_tokens": 6,
+        "has_url": 0,
+        "has_phone_number": 0,
+        "has_otp_numeric": 0,
+        "has_currency_amount": 0,
+        "has_upi_vpa": 0,
+        "has_zero_width": 0,
+        "has_homoglyphs": 0
+      },
+      "provenance_metadata": {
+        "license": "CC BY 4.0",
+        "paper": "Fishing for Smishing: Understanding SMS Phishing Infrastructure and Strategies by Mining Public User Reports (ACM IMC 2025)",
+        "scam_type": "spam",
+        "url_shortener": ""
+      }
+    },
+    {
+      "message_id": "MSG_SRC_MENDELEY_SMISHING_2022_0003045",
+      "sender_header": null,
+      "sender_type": "UNKNOWN",
+      "primary_type": "PROMOTIONAL",
+      "security_label": "SUSPICIOUS_SPAM",
+      "threat_vectors": [
+        "COMMERCIAL_SPAM"
+      ],
+      "language": "en",
+      "script": "LATIN",
+      "source_id": "SRC_MENDELEY_SMISHING_2022",
+      "source_type": "PUBLIC_RESEARCH",
+      "template_cluster_id": "TMPL_8fe816d110aaa9d2",
+      "split": "TRAIN",
+      "structural_metadata": {
+        "length_chars": 170,
+        "length_tokens": 27,
+        "has_url": 0,
+        "has_phone_number": 0,
+        "has_otp_numeric": 0,
+        "has_currency_amount": 1,
+        "has_upi_vpa": 0,
+        "has_zero_width": 0,
+        "has_homoglyphs": 0
+      },
+      "provenance_metadata": {
+        "license": "CC BY 4.0",
+        "doi": "10.17632/f45bkkt8pr.1",
+        "authors": [
+          "Sandhya Mishra",
+          "Dr. Devpriya Soni",
+          "Dr. Gunikhan Sonowal",
+          "Tiago A. Almeida"
+        ]
+      }
+    },
+    {
+      "message_id": "MSG_SRC_MENDELEY_SMISHING_2022_0004160",
+      "sender_header": null,
+      "sender_type": "UNKNOWN",
+      "primary_type": "PROMOTIONAL",
+      "security_label": "SUSPICIOUS_SPAM",
+      "threat_vectors": [
+        "COMMERCIAL_SPAM"
+      ],
+      "language": "en",
+      "script": "LATIN",
+      "source_id": "SRC_MENDELEY_SMISHING_2022",
+      "source_type": "PUBLIC_RESEARCH",
+      "template_cluster_id": "TMPL_8e0269b4560b32a3",
+      "split": "TRAIN",
+      "structural_metadata": {
+        "length_chars": 158,
+        "length_tokens": 28,
+        "has_url": 0,
+        "has_phone_number": 0,
+        "has_otp_numeric": 0,
+        "has_currency_amount": 0,
+        "has_upi_vpa": 0,
+        "has_zero_width": 0,
+        "has_homoglyphs": 0
+      },
+      "provenance_metadata": {
+        "license": "CC BY 4.0",
+        "doi": "10.17632/f45bkkt8pr.1",
+        "authors": [
+          "Sandhya Mishra",
+          "Dr. Devpriya Soni",
+          "Dr. Gunikhan Sonowal",
+          "Tiago A. Almeida"
+        ]
+      }
+    }
+  ],
+  "correction": "First broad pass mislabeled raw/all_processed/reference corpora as evaluation, flagging all1169. Confirmed-role filter corrects the classification without changing text matches. Unclassified lineage is retained, not asserted to be test leakage. No admission based on no-match alone."
+}

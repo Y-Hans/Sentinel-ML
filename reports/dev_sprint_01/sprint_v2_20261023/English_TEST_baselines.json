@@ -1,0 +1,354 @@
+[
+  {
+    "model": "V2",
+    "scope": "full_historical_TEST",
+    "confusion": [
+      [
+        500,
+        0,
+        20
+      ],
+      [
+        4,
+        145,
+        39
+      ],
+      [
+        44,
+        109,
+        1403
+      ]
+    ],
+    "n": 2264
+  },
+  {
+    "model": "V2",
+    "scope": "English_metadata_TEST",
+    "confusion": [
+      [
+        499,
+        0,
+        20
+      ],
+      [
+        4,
+        145,
+        39
+      ],
+      [
+        43,
+        109,
+        1399
+      ]
+    ],
+    "n": 2258
+  },
+  {
+    "model": "V4.3",
+    "scope": "full_historical_TEST",
+    "confusion": [
+      [
+        518,
+        0,
+        2
+      ],
+      [
+        3,
+        95,
+        90
+      ],
+      [
+        24,
+        22,
+        1510
+      ]
+    ],
+    "n": 2264
+  },
+  {
+    "model": "V4.3",
+    "scope": "English_metadata_TEST",
+    "confusion": [
+      [
+        517,
+        0,
+        2
+      ],
+      [
+        3,
+        95,
+        90
+      ],
+      [
+        23,
+        22,
+        1506
+      ]
+    ],
+    "n": 2258
+  },
+  {
+    "model": "V4.4_candidate_a_corrected",
+    "scope": "full_historical_TEST",
+    "confusion": [
+      [
+        517,
+        1,
+        2
+      ],
+      [
+        5,
+        99,
+        84
+      ],
+      [
+        27,
+        19,
+        1510
+      ]
+    ],
+    "n": 2264
+  },
+  {
+    "model": "V4.4_candidate_a_corrected",
+    "scope": "English_metadata_TEST",
+    "confusion": [
+      [
+        516,
+        1,
+        2
+      ],
+      [
+        5,
+        99,
+        84
+      ],
+      [
+        27,
+        19,
+        1505
+      ]
+    ],
+    "n": 2258
+  },
+  {
+    "model": "V4.4_candidate_b_refined",
+    "scope": "full_historical_TEST",
+    "confusion": [
+      [
+        518,
+        1,
+        1
+      ],
+      [
+        4,
+        96,
+        88
+      ],
+      [
+        29,
+        16,
+        1511
+      ]
+    ],
+    "n": 2264
+  },
+  {
+    "model": "V4.4_candidate_b_refined",
+    "scope": "English_metadata_TEST",
+    "confusion": [
+      [
+        517,
+        1,
+        1
+      ],
+      [
+        4,
+        96,
+        88
+      ],
+      [
+        29,
+        16,
+        1506
+      ]
+    ],
+    "n": 2258
+  },
+  {
+    "model": "V4.4_candidate_c_balanced",
+    "scope": "full_historical_TEST",
+    "confusion": [
+      [
+        517,
+        1,
+        2
+      ],
+      [
+        5,
+        97,
+        86
+      ],
+      [
+        30,
+        21,
+        1505
+      ]
+    ],
+    "n": 2264
+  },
+  {
+    "model": "V4.4_candidate_c_balanced",
+    "scope": "English_metadata_TEST",
+    "confusion": [
+      [
+        516,
+        1,
+        2
+      ],
+      [
+        5,
+        97,
+        86
+      ],
+      [
+        30,
+        21,
+        1500
+      ]
+    ],
+    "n": 2258
+  },
+  {
+    "model": "V4.4_rc2_experiment_1",
+    "scope": "full_historical_TEST",
+    "confusion": [
+      [
+        517,
+        0,
+        3
+      ],
+      [
+        6,
+        95,
+        87
+      ],
+      [
+        28,
+        21,
+        1507
+      ]
+    ],
+    "n": 2264
+  },
+  {
+    "model": "V4.4_rc2_experiment_1",
+    "scope": "English_metadata_TEST",
+    "confusion": [
+      [
+        516,
+        0,
+        3
+      ],
+      [
+        6,
+        95,
+        87
+      ],
+      [
+        28,
+        21,
+        1502
+      ]
+    ],
+    "n": 2258
+  },
+  {
+    "model": "V4.4_rc2_experiment_2",
+    "scope": "full_historical_TEST",
+    "confusion": [
+      [
+        517,
+        1,
+        2
+      ],
+      [
+        4,
+        96,
+        88
+      ],
+      [
+        29,
+        24,
+        1503
+      ]
+    ],
+    "n": 2264
+  },
+  {
+    "model": "V4.4_rc2_experiment_2",
+    "scope": "English_metadata_TEST",
+    "confusion": [
+      [
+        516,
+        1,
+        2
+      ],
+      [
+        4,
+        96,
+        88
+      ],
+      [
+        29,
+        24,
+        1498
+      ]
+    ],
+    "n": 2258
+  },
+  {
+    "model": "V4.4_rc2_experiment_3",
+    "scope": "full_historical_TEST",
+    "confusion": [
+      [
+        518,
+        1,
+        1
+      ],
+      [
+        9,
+        94,
+        85
+      ],
+      [
+        31,
+        31,
+        1494
+      ]
+    ],
+    "n": 2264
+  },
+  {
+    "model": "V4.4_rc2_experiment_3",
+    "scope": "English_metadata_TEST",
+    "confusion": [
+      [
+        517,
+        1,
+        1
+      ],
+      [
+        9,
+        94,
+        85
+      ],
+      [
+        31,
+        31,
+        1489
+      ]
+    ],
+    "n": 2258
+  }
+]

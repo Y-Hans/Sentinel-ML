@@ -1,0 +1,87 @@
+Traceback (most recent call last):
+  File "C:\Users\user\Programing files\Yajat\Projects\sentinel\reports\simulation_diagnosis\20261022_run_02\messages_reproduction_only.py", line 7, in <module>
+    exec(compile(s,'infer_messages.py (reproduction-only phase)','exec'))
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "infer_messages.py (reproduction-only phase)", line 4, in <module>
+    a=s.index('        pp=predict(sim)'); b=s.index('        print(name,meta',a)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\__init__.py", line 70, in <module>
+    from sklearn.base import clone  # noqa: E402
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\base.py", line 20, in <module>
+    from sklearn.utils._metadata_requests import _MetadataRequester, _routing_enabled
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\utils\__init__.py", line 9, in <module>
+    from sklearn.utils._chunking import gen_batches, gen_even_slices
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\utils\_chunking.py", line 11, in <module>
+    from sklearn.utils._param_validation import Interval, validate_params
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\sklearn\utils\_param_validation.py", line 14, in <module>
+    from scipy.sparse import csr_array, issparse
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\scipy\sparse\__init__.py", line 251, in <module>
+    from ._csr import *
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\scipy\sparse\_csr.py", line 15, in <module>
+    from ._compressed import _cs_matrix
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\scipy\sparse\_compressed.py", line 8, in <module>
+    from scipy._lib._util import _prune_array, copy_if_needed
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\scipy\_lib\_util.py", line 16, in <module>
+    from scipy._lib._array_api import (Array, array_namespace, is_lazy_array, is_numpy,
+                                       is_marray, xp_size, xp_result_device, xp_result_type)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\scipy\_lib\_array_api.py", line 24, in <module>
+    from scipy._external.array_api_compat import (
+    ...<17 lines>...
+    )
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\scipy\_external\array_api_compat\numpy\__init__.py", line 9, in <module>
+    __all__ = clone_module("numpy", globals())
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\scipy\_external\array_api_compat\_internal.py", line 64, in clone_module
+    exec(f"from {mod.__name__} import *", objs)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1, in <module>
+  File "<frozen importlib._bootstrap>", line 1429, in _handle_fromlist
+  File "<frozen importlib._bootstrap>", line 1431, in _handle_fromlist
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\numpy\__init__.py", line 742, in __getattr__
+    import numpy.testing as testing
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\numpy\testing\__init__.py", line 11, in <module>
+    from ._private import extbuild
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\numpy\testing\_private\extbuild.py", line 13, in <module>
+    from .utils import run_subprocess
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\site-packages\numpy\testing\_private\utils.py", line 90, in <module>
+    IS_WASM = platform.machine() in ["wasm32", "wasm64"]
+              ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\platform.py", line 1127, in machine
+    return uname().machine
+           ~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\platform.py", line 1016, in uname
+    release, version, csd, ptype = win32_ver()
+                                   ~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\platform.py", line 467, in win32_ver
+    version, csd, ptype, is_client = _win32_ver(version, csd, ptype)
+                                     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\platform.py", line 434, in _win32_ver
+    version = _syscmd_ver()[2]
+              ~~~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\platform.py", line 304, in _syscmd_ver
+    info = subprocess.check_output(cmd,
+                                   stdin=subprocess.DEVNULL,
+    ...<2 lines>...
+                                   encoding="locale",
+                                   shell=True)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\subprocess.py", line 473, in check_output
+    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+               **kwargs).stdout
+               ^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\subprocess.py", line 555, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\subprocess.py", line 1005, in __init__
+    errread, errwrite) = self._get_handles(stdin, stdout, stderr)
+                         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\subprocess.py", line 1374, in _get_handles
+    p2cread = msvcrt.get_osfhandle(self._get_devnull())
+                                   ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python314\Lib\subprocess.py", line 1149, in _get_devnull
+    self._devnull = os.open(os.devnull, os.O_RDWR)
+                    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Programing files\Yajat\Projects\sentinel\reports\simulation_diagnosis\20261022_run_02\runlib.py", line 28, in hook
+    if not any(p.is_relative_to(a) for a in ALLOWED): raise RuntimeError('HARD_STOP_PROTECTED_WRITE_ATTEMPT: '+str(p))
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: HARD_STOP_PROTECTED_WRITE_ATTEMPT: \\.\NUL

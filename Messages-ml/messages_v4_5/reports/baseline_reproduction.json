@@ -1,0 +1,507 @@
+{
+  "Validation Split": {
+    "V4.3": {
+      "threshold": 0.61,
+      "total": 3397,
+      "n_benign": 807,
+      "n_spam": 274,
+      "n_malicious": 2316,
+      "benign_fp": 16,
+      "benign_fpr": 0.01982651796778191,
+      "malicious_detected": 2222,
+      "malicious_recall": 0.959412780656304,
+      "malicious_to_spam": 37,
+      "malicious_to_benign": 57,
+      "confusion_matrix": [
+        [
+          791,
+          0,
+          16
+        ],
+        [
+          8,
+          133,
+          133
+        ],
+        [
+          57,
+          37,
+          2222
+        ]
+      ],
+      "mean_p_benign": 0.24684830174513378,
+      "mean_p_spam": 0.06315074357168861,
+      "mean_p_malicious": 0.6900009546831777
+    },
+    "RC1": {
+      "threshold": 0.63,
+      "total": 3397,
+      "n_benign": 807,
+      "n_spam": 274,
+      "n_malicious": 2316,
+      "benign_fp": 15,
+      "benign_fpr": 0.01858736059479554,
+      "malicious_detected": 2224,
+      "malicious_recall": 0.9602763385146805,
+      "malicious_to_spam": 34,
+      "malicious_to_benign": 58,
+      "confusion_matrix": [
+        [
+          792,
+          1,
+          14
+        ],
+        [
+          10,
+          133,
+          131
+        ],
+        [
+          58,
+          34,
+          2224
+        ]
+      ],
+      "mean_p_benign": 0.24782328139938933,
+      "mean_p_spam": 0.06371859930244136,
+      "mean_p_malicious": 0.6884581192981692
+    },
+    "RC2-Exp3": {
+      "threshold": 0.74,
+      "total": 3397,
+      "n_benign": 807,
+      "n_spam": 274,
+      "n_malicious": 2316,
+      "benign_fp": 16,
+      "benign_fpr": 0.01982651796778191,
+      "malicious_detected": 2216,
+      "malicious_recall": 0.9568221070811744,
+      "malicious_to_spam": 33,
+      "malicious_to_benign": 67,
+      "confusion_matrix": [
+        [
+          791,
+          1,
+          15
+        ],
+        [
+          10,
+          138,
+          126
+        ],
+        [
+          67,
+          33,
+          2216
+        ]
+      ],
+      "mean_p_benign": 0.24478290981026982,
+      "mean_p_spam": 0.06523658193646183,
+      "mean_p_malicious": 0.6899805082532684
+    }
+  },
+  "Primary TEST": {
+    "V4.3": {
+      "threshold": 0.61,
+      "total": 2264,
+      "n_benign": 520,
+      "n_spam": 188,
+      "n_malicious": 1556,
+      "benign_fp": 2,
+      "benign_fpr": 0.0038461538461538464,
+      "malicious_detected": 1510,
+      "malicious_recall": 0.9704370179948586,
+      "malicious_to_spam": 22,
+      "malicious_to_benign": 24,
+      "confusion_matrix": [
+        [
+          518,
+          0,
+          2
+        ],
+        [
+          3,
+          95,
+          90
+        ],
+        [
+          24,
+          22,
+          1510
+        ]
+      ],
+      "mean_p_benign": 0.2348398755045968,
+      "mean_p_spam": 0.06495009573359899,
+      "mean_p_malicious": 0.7002100287618043
+    },
+    "RC1": {
+      "threshold": 0.63,
+      "total": 2264,
+      "n_benign": 520,
+      "n_spam": 188,
+      "n_malicious": 1556,
+      "benign_fp": 2,
+      "benign_fpr": 0.0038461538461538464,
+      "malicious_detected": 1511,
+      "malicious_recall": 0.9710796915167095,
+      "malicious_to_spam": 16,
+      "malicious_to_benign": 29,
+      "confusion_matrix": [
+        [
+          518,
+          1,
+          1
+        ],
+        [
+          4,
+          96,
+          88
+        ],
+        [
+          29,
+          16,
+          1511
+        ]
+      ],
+      "mean_p_benign": 0.2332940085206276,
+      "mean_p_spam": 0.0641299833973804,
+      "mean_p_malicious": 0.702576008081992
+    },
+    "RC2-Exp3": {
+      "threshold": 0.74,
+      "total": 2264,
+      "n_benign": 520,
+      "n_spam": 188,
+      "n_malicious": 1556,
+      "benign_fp": 2,
+      "benign_fpr": 0.0038461538461538464,
+      "malicious_detected": 1494,
+      "malicious_recall": 0.9601542416452442,
+      "malicious_to_spam": 31,
+      "malicious_to_benign": 31,
+      "confusion_matrix": [
+        [
+          518,
+          1,
+          1
+        ],
+        [
+          9,
+          94,
+          85
+        ],
+        [
+          31,
+          31,
+          1494
+        ]
+      ],
+      "mean_p_benign": 0.23258864354843115,
+      "mean_p_spam": 0.06609808280676042,
+      "mean_p_malicious": 0.7013132736448084
+    }
+  },
+  "Primary OOD": {
+    "V4.3": {
+      "threshold": 0.61,
+      "total": 1132,
+      "n_benign": 255,
+      "n_spam": 83,
+      "n_malicious": 794,
+      "benign_fp": 1,
+      "benign_fpr": 0.00392156862745098,
+      "malicious_detected": 761,
+      "malicious_recall": 0.9584382871536524,
+      "malicious_to_spam": 16,
+      "malicious_to_benign": 17,
+      "confusion_matrix": [
+        [
+          254,
+          0,
+          1
+        ],
+        [
+          4,
+          48,
+          31
+        ],
+        [
+          17,
+          16,
+          761
+        ]
+      ],
+      "mean_p_benign": 0.23758547858816292,
+      "mean_p_spam": 0.06758088150542291,
+      "mean_p_malicious": 0.6948336399064142
+    },
+    "RC1": {
+      "threshold": 0.63,
+      "total": 1132,
+      "n_benign": 255,
+      "n_spam": 83,
+      "n_malicious": 794,
+      "benign_fp": 0,
+      "benign_fpr": 0.0,
+      "malicious_detected": 762,
+      "malicious_recall": 0.9596977329974811,
+      "malicious_to_spam": 15,
+      "malicious_to_benign": 17,
+      "confusion_matrix": [
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          4,
+          49,
+          30
+        ],
+        [
+          17,
+          15,
+          762
+        ]
+      ],
+      "mean_p_benign": 0.2369418692302753,
+      "mean_p_spam": 0.06815991262708491,
+      "mean_p_malicious": 0.6948982181426399
+    },
+    "RC2-Exp3": {
+      "threshold": 0.74,
+      "total": 1132,
+      "n_benign": 255,
+      "n_spam": 83,
+      "n_malicious": 794,
+      "benign_fp": 0,
+      "benign_fpr": 0.0,
+      "malicious_detected": 761,
+      "malicious_recall": 0.9584382871536524,
+      "malicious_to_spam": 14,
+      "malicious_to_benign": 19,
+      "confusion_matrix": [
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          6,
+          48,
+          29
+        ],
+        [
+          19,
+          14,
+          761
+        ]
+      ],
+      "mean_p_benign": 0.23565410867638578,
+      "mean_p_spam": 0.06534240743284979,
+      "mean_p_malicious": 0.6990034838907644
+    }
+  },
+  "Clean OOD (Zero Overlap)": {
+    "V4.3": {
+      "threshold": 0.61,
+      "total": 1075,
+      "n_benign": 249,
+      "n_spam": 79,
+      "n_malicious": 747,
+      "benign_fp": 1,
+      "benign_fpr": 0.004016064257028112,
+      "malicious_detected": 715,
+      "malicious_recall": 0.9571619812583668,
+      "malicious_to_spam": 15,
+      "malicious_to_benign": 17,
+      "confusion_matrix": [
+        [
+          248,
+          0,
+          1
+        ],
+        [
+          4,
+          44,
+          31
+        ],
+        [
+          17,
+          15,
+          715
+        ]
+      ],
+      "mean_p_benign": 0.24456521229415826,
+      "mean_p_spam": 0.0671824424722614,
+      "mean_p_malicious": 0.6882523452335803
+    },
+    "RC1": {
+      "threshold": 0.63,
+      "total": 1075,
+      "n_benign": 249,
+      "n_spam": 79,
+      "n_malicious": 747,
+      "benign_fp": 0,
+      "benign_fpr": 0.0,
+      "malicious_detected": 716,
+      "malicious_recall": 0.9585006693440429,
+      "malicious_to_spam": 14,
+      "malicious_to_benign": 17,
+      "confusion_matrix": [
+        [
+          249,
+          0,
+          0
+        ],
+        [
+          4,
+          45,
+          30
+        ],
+        [
+          17,
+          14,
+          716
+        ]
+      ],
+      "mean_p_benign": 0.24387648734462272,
+      "mean_p_spam": 0.06759035433363618,
+      "mean_p_malicious": 0.6885331583217411
+    },
+    "RC2-Exp3": {
+      "threshold": 0.74,
+      "total": 1075,
+      "n_benign": 249,
+      "n_spam": 79,
+      "n_malicious": 747,
+      "benign_fp": 0,
+      "benign_fpr": 0.0,
+      "malicious_detected": 715,
+      "malicious_recall": 0.9571619812583668,
+      "malicious_to_spam": 13,
+      "malicious_to_benign": 19,
+      "confusion_matrix": [
+        [
+          249,
+          0,
+          0
+        ],
+        [
+          6,
+          45,
+          28
+        ],
+        [
+          19,
+          13,
+          715
+        ]
+      ],
+      "mean_p_benign": 0.24253600396207065,
+      "mean_p_spam": 0.06516444661896936,
+      "mean_p_malicious": 0.69229954941896
+    }
+  },
+  "Real Mobile Simulation": {
+    "V4.3": {
+      "threshold": 0.61,
+      "total": 294,
+      "n_benign": 291,
+      "n_spam": 0,
+      "n_malicious": 3,
+      "benign_fp": 14,
+      "benign_fpr": 0.048109965635738834,
+      "malicious_detected": 3,
+      "malicious_recall": 1.0,
+      "malicious_to_spam": 0,
+      "malicious_to_benign": 0,
+      "confusion_matrix": [
+        [
+          277,
+          0,
+          14
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "mean_p_benign": 0.8955458263423243,
+      "mean_p_spam": 0.008732678203471626,
+      "mean_p_malicious": 0.09572149545420436
+    },
+    "RC1": {
+      "threshold": 0.63,
+      "total": 294,
+      "n_benign": 291,
+      "n_spam": 0,
+      "n_malicious": 3,
+      "benign_fp": 11,
+      "benign_fpr": 0.037800687285223365,
+      "malicious_detected": 3,
+      "malicious_recall": 1.0,
+      "malicious_to_spam": 0,
+      "malicious_to_benign": 0,
+      "confusion_matrix": [
+        [
+          280,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "mean_p_benign": 0.9047675531710258,
+      "mean_p_spam": 0.005173525510994349,
+      "mean_p_malicious": 0.09005892131798014
+    },
+    "RC2-Exp3": {
+      "threshold": 0.74,
+      "total": 294,
+      "n_benign": 291,
+      "n_spam": 0,
+      "n_malicious": 3,
+      "benign_fp": 9,
+      "benign_fpr": 0.030927835051546393,
+      "malicious_detected": 3,
+      "malicious_recall": 1.0,
+      "malicious_to_spam": 0,
+      "malicious_to_benign": 0,
+      "confusion_matrix": [
+        [
+          282,
+          0,
+          9
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "mean_p_benign": 0.8840672491043589,
+      "mean_p_spam": 0.007293442344879962,
+      "mean_p_malicious": 0.10863930855076102
+    }
+  }
+}

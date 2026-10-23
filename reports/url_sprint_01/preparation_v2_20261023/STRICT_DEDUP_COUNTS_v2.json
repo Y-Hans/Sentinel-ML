@@ -1,0 +1,23 @@
+{
+  "status": "OBSERVED; primary row-dedup census for readiness reports",
+  "raw_rows": 121547,
+  "canonical_contract_distinct_rows": 96194,
+  "class_counts": {
+    "BENIGN": 74548,
+    "ATTACK": 21646
+  },
+  "canonical_duplicate_excess": 25353,
+  "unique_parent_keys": 40056,
+  "parent_representatives_by_class": {
+    "BENIGN": 24853,
+    "ATTACK": 15203
+  },
+  "cross_class_exact_conflicts": 0,
+  "novel_parent_rows_by_class": {
+    "BENIGN": 71275,
+    "ATTACK": 21586
+  },
+  "fit_eligible_rows": 0,
+  "dedup_definition": "Hash the frozen canonicalize_url string, preserving scheme, port, userinfo, query and empty-vs-slash length. No feature changes. Published raw records remain in candidate_intake_v2.csv.",
+  "earlier_diagnostic_correction": "candidate_dedup_v2.csv/INTAKE_COUNTS_v2.json used a coarser host/path/query/fragment equivalence that omitted scheme/port/userinfo and merged empty vs / roots. Its 71208 count is a near-duplicate/leakage diagnostic, NOT exact canonical URL identity. Use this strict file for row census; never use the coarser signature to erase transport/authority distinctions in a future training pool. No fit/split/score was based on either."
+}

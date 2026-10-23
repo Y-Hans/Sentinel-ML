@@ -1,0 +1,55 @@
+{
+  "status": "OBSERVED",
+  "no_model_run": true,
+  "stream_method": "CSV row iterator; retain projected URL/label/group arrays only, never original row dictionaries",
+  "clean_test_rows_verified": 50511,
+  "test_index_sha256": "42b91876294280591c0080b668f97ec83c0424e0ac1e5508d74b0dcb3f5a7e2c",
+  "score_confusion_counts_verified": {
+    "v7_raw": {
+      "tn": 27086,
+      "tp": 22880,
+      "fn": 278,
+      "fp": 267
+    },
+    "v8_raw": {
+      "tn": 27146,
+      "tp": 22825,
+      "fn": 333,
+      "fp": 207
+    },
+    "v8_url_adjudicated": {
+      "tn": 27090,
+      "tp": 22835,
+      "fn": 323,
+      "fp": 263
+    },
+    "v8_no_url_fallback": {
+      "tn": 27146,
+      "tp": 22825,
+      "fn": 333,
+      "fp": 207
+    },
+    "prior": {
+      "tn": 27090,
+      "tp": 22853,
+      "fn": 305,
+      "fp": 263
+    }
+  },
+  "v7_v8_raw_max_abs_difference": 0.0,
+  "prior_paired_new_attack_misses": {},
+  "prior_paired_new_apex_misses": {},
+  "probe_counts": {
+    "BENIGN": 600,
+    "ATTACK": 300
+  },
+  "probe_canonical_unique_count": 800,
+  "burned_probe_overlap": 0,
+  "review_n": 120,
+  "review_empty_cells_verified": true,
+  "red_team_n": 160,
+  "feature_count": 67,
+  "all_freeze_hashes_match": true,
+  "pre_registration_hash_verified": true,
+  "known_limitation": "This verifies streaming correspondence and statistics; it does not erase the original evaluation ingestion materialization shortcoming or validate URL safety labels."
+}

@@ -1,0 +1,35 @@
+{
+  "artifact_name": "candidate_malicious_bare_apex_3k.csv",
+  "row_count": 3000,
+  "unique_registrable_domains": 3000,
+  "sha256": "5472d5ac9dd8074fccfde688816cde0fea85401426d90de106954fdadf300225",
+  "provenance_description": "Derived strictly from verified malicious parent domains in cleaned_dataset.csv training split, canonicalized to HTTPS root, filtered for dedicated non-shared hosting, and verified 100% domain-disjoint from all evaluation fixtures.",
+  "overlap_audit": {
+    "test_split_domain_overlap": 0,
+    "val_split_domain_overlap": 0,
+    "golden_fixture_domain_overlap": 0,
+    "benchmark_v1_domain_overlap": 0,
+    "adversarial_domain_overlap": 0,
+    "exact_url_overlap_with_test": 0,
+    "exact_url_overlap_with_val": 0,
+    "exact_url_overlap_with_golden": 0,
+    "exact_url_overlap_with_benchmark": 0
+  },
+  "tld_distribution": {
+    "com": 1500,
+    "net": 118,
+    "ga": 92,
+    "org": 86,
+    "top": 81,
+    "xyz": 76,
+    "cf": 75,
+    "ml": 66,
+    "info": 59,
+    "ru": 57,
+    "cn": 36,
+    "br": 33,
+    "de": 33,
+    "co": 29,
+    "gq": 27
+  }
+}

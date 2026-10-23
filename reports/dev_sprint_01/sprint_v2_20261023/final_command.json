@@ -1,0 +1,14 @@
+{
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\finish_evidence.py"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "interpreter": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "script_sha256": "588654a6a570d00b39e3ab8f178a236503cce000a112bbd0470a91512d7580fa",
+  "exit_code": 0,
+  "completion_checks": "required outputs exist; manifest recomputed; no protected/frozen changes in immediately preceding validation",
+  "wall_seconds_at_record": 0.5842740535736084,
+  "UTC": "2026-10-23T05:28:03.374761+00:00"
+}

@@ -1,0 +1,91 @@
+{
+  "source_sha256": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44",
+  "near_edges": [
+    {
+      "id1": "HP_00226",
+      "id2": "HP_00214",
+      "jaccard": 0.8666666666666667,
+      "exact": false
+    },
+    {
+      "id1": "HP_00435",
+      "id2": "HP_00421",
+      "jaccard": 0.8666666666666667,
+      "exact": false
+    },
+    {
+      "id1": "HP_00774",
+      "id2": "HP_00291",
+      "jaccard": 0.8666666666666667,
+      "exact": false
+    },
+    {
+      "id1": "HP_00839",
+      "id2": "HP_00767",
+      "jaccard": 0.8571428571428571,
+      "exact": false
+    },
+    {
+      "id1": "HP_00864",
+      "id2": "HP_00257",
+      "jaccard": 0.8666666666666667,
+      "exact": false
+    },
+    {
+      "id1": "HP_01070",
+      "id2": "HP_00004",
+      "jaccard": 0.8571428571428571,
+      "exact": false
+    },
+    {
+      "id1": "HP_01088",
+      "id2": "HP_01001",
+      "jaccard": 0.8666666666666667,
+      "exact": false
+    },
+    {
+      "id1": "HP_01194",
+      "id2": "HP_00726",
+      "jaccard": 0.8666666666666667,
+      "exact": false
+    }
+  ],
+  "components_gt1": [
+    [
+      "HP_00004",
+      "HP_01070"
+    ],
+    [
+      "HP_00214",
+      "HP_00226"
+    ],
+    [
+      "HP_00257",
+      "HP_00864"
+    ],
+    [
+      "HP_00291",
+      "HP_00774"
+    ],
+    [
+      "HP_00421",
+      "HP_00435"
+    ],
+    [
+      "HP_00726",
+      "HP_01194"
+    ],
+    [
+      "HP_00767",
+      "HP_00839"
+    ],
+    [
+      "HP_01001",
+      "HP_01088"
+    ]
+  ],
+  "max_component_size": 2,
+  "cap": 3,
+  "cap_pass": true,
+  "normalization": "NFKC casefold; URL/phone/digit masks; Unicode word tokens; token-set Jaccard>=.85, connected components (conservative)"
+}

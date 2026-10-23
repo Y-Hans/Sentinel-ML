@@ -1,0 +1,10 @@
+{
+  "source_rows_by_role": {
+    "financial2025|confirmed_evaluation": 3,
+    "financial2025|raw_training_lineage_or_unclassified": 4,
+    "financial2025|historical_training": 2
+  },
+  "original_raw_evaluation_role_was_overbroad": true,
+  "rule": "explicit benchmark/evaluation/holdout paths or test/val/ood/controlled-validation filenames; other references retained as lineage/unclassified",
+  "hardneg_status": "UNPROVEN, absent"
+}

@@ -1,0 +1,123 @@
+{
+  "manifest_schema": "sentinel-message-release/v1",
+  "release_decision": "BLOCKED",
+  "model_version": "4.3.0",
+  "message_model": {
+    "algorithm": "HistGradientBoostingClassifier",
+    "n_iterations": 111,
+    "feature_count": 4019,
+    "structural_features": 19,
+    "word_vectorizer_size": 1500,
+    "char_vectorizer_size": 2500,
+    "threshold": 0.61,
+    "threshold_semantics": "P(SUSPICIOUS_SPAM)+P(MALICIOUS) >= 0.61 is non-benign",
+    "class_order": [
+      "BENIGN",
+      "SUSPICIOUS_SPAM",
+      "MALICIOUS"
+    ]
+  },
+  "model_artifact_hashes": {
+    "char_vec.pkl": "fa56cf5548f3ae17f0ccc5c7e8b7ba801e27be8bcd522887ea5af8bae68468b1",
+    "model.pkl": "2ca29457acd27bf93d6967d8f9d64778b8ba0e404030175465c802fe1a138a7d",
+    "scaler.pkl": "aab17413541b12804b70677161a540fa384b0ec0eeebed8be308de3c3c0a21b9",
+    "word_vec.pkl": "10403d9e8b5f641fd3d200a5e08f5c65e3fdcd7afca65613d47d0f4cfbe96aac"
+  },
+  "android_asset_hashes": {
+    "messages_v4_3_word_vocab_idf.json": "ee781ce8ac9b331bf5c2286c8dc38286d7c331232b4da9ee9e12ff34ee0015d7",
+    "messages_v4_3_char_vocab_idf.json": "9b26bc1d9886ea4ed1c7a6a366afe826f1d5a771ec568186c2f6f5299b923b5b",
+    "messages_v4_3_scaler.json": "147bbb108807754ab838755987124e570757fabcae18900f501ad88bb6413df4",
+    "messages_v4_3_trees.json": "4f36801978bc272631ec04269b4767afbeeddd8d19862e1c7247da83ced39537"
+  },
+  "additional_packaged_ml_asset_hashes": {
+    "model.tflite": "ba73cb14d1d0b7690417643b72fb918e20e59bcae8144ad9ffdf2b58ea010f4a",
+    "scaler.json": "205ae661d614eae84610da84a18af45d3492aaa34b349e091e6407d4a53fd49a"
+  },
+  "url_model": {
+    "version": "8.0.0",
+    "threshold": 0.28,
+    "asset": "v8_champion_portable.json",
+    "sha256": "e0e5e817beb6e1718843641b2e19e5b131690a0fc959764d83702883f557e870"
+  },
+  "production_message_asset_set": [
+    "messages_v4_3_word_vocab_idf.json",
+    "messages_v4_3_char_vocab_idf.json",
+    "messages_v4_3_scaler.json",
+    "messages_v4_3_trees.json"
+  ],
+  "training_corpus_sha256": "d01d4d36144e8c4d09f4c0fd21eb15b02e10f1be4d488bebb07ce7eba9c11c11",
+  "validation_split_hashes": {
+    "VAL": "5c343ef10bc9a1e1cc18365903a8fabfdbba878f4ad0879f7c89c9dd342394b0",
+    "TEST": "988ca27e6c283c68da47787b3fe8bf727cafc953ff8479b2ddeb920c22859825",
+    "OOD": "34cd57b5252fcc6fb9b89b8658d6ae3d2d98b22cb838346dbc2fc3f1698ac1a7"
+  },
+  "reproduced_ml_baseline": {
+    "VAL": {
+      "malicious_correct": 2222,
+      "malicious_total": 2316,
+      "malicious_recall": 0.959412780656304,
+      "benign_fp": 16,
+      "benign_total": 807,
+      "benign_fpr": 0.01982651796778191
+    },
+    "TEST": {
+      "malicious_correct": 1510,
+      "malicious_total": 1556,
+      "malicious_recall": 0.9704370179948586,
+      "benign_fp": 2,
+      "benign_total": 520,
+      "benign_fpr": 0.0038461538461538464
+    },
+    "OOD": {
+      "malicious_correct": 761,
+      "malicious_total": 794,
+      "malicious_recall": 0.9584382871536524,
+      "benign_fp": 1,
+      "benign_total": 255,
+      "benign_fpr": 0.00392156862745098
+    }
+  },
+  "build_version": {
+    "application_id": "com.sentinel.ai",
+    "version_name": "2.1.0",
+    "version_code": 1,
+    "build_config_sentinel_version": "2.1.0",
+    "variant": "release",
+    "compile_sdk": 34,
+    "min_sdk": 26,
+    "apk_timestamp_utc": "2026-10-01T14:40:34.224848+00:00"
+  },
+  "source_commit": "85da31ca364b0a38c2265442d3919e11fc858390",
+  "source_worktree_dirty": true,
+  "source_worktree_status_entry_count": 112,
+  "android_source_tree_fingerprint": {
+    "sha256": "bc1ae1027d54f219080fe13b319bbcf9e0e6921edccf18f0ef725a98600e147b",
+    "file_count": 53336,
+    "algorithm": "SHA-256 of sorted relative-path + NUL + per-file SHA-256 lines"
+  },
+  "apk_path": "sentinel-ml/Messages-ml/release/apk/SentinelAI-2.1.0-release-unsigned.apk",
+  "apk_sha256": "a79f290d37ad625eef6600774a26eda2d44569e17365c7df321da32675f65398",
+  "apk_signing_status": "UNSIGNED; Gradle produced app-release-unsigned.apk; no release signing configuration/key is configured",
+  "android_parity": {
+    "golden_records": "130 / 130",
+    "label_parity": "100%",
+    "max_preprocessing_delta": null,
+    "max_probability_delta": null
+  },
+  "android_unit_tests": {
+    "test_suites": 49,
+    "tests": 377,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "smoke_suite": {
+    "case_count": 9,
+    "result": "PASS under Robolectric: message scanner, URL scanner, evidence extraction, and risk fusion",
+    "on_device_notification_action_flow": "NOT RUN; adb reported no connected devices"
+  },
+  "blockers": [
+    "APK unsigned; no release signing key/configuration",
+    "No Android device/emulator attached; physical notification listener and final system-notification/action path were not exercised on-device"
+  ]
+}

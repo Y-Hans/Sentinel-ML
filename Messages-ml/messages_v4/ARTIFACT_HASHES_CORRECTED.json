@@ -1,0 +1,11 @@
+{
+  "note": "Authoritative hashes after correcting V4 metadata and completing the Android-format export. The original evaluation files retain the training-time hashes for model/scaler/vectorizers; this file supersedes their config hash.",
+  "experiment_1": {
+    "messages_v4_model.pkl": "9b747822a941a92d278f11d0e1458c48497c14ce8c35ecf58dc72e7effaff7e0",
+    "messages_v4_scaler.pkl": "2cd9c0f415f7eba67d5f3e9a0486324e9aaab39de3154e69f720d38fdb8dad27",
+    "messages_v4_tfidf_word.pkl": "afe8f7697c6d8a5c4f2931408d17b780c599a818a32462ef53ade16aefac6a2d",
+    "messages_v4_tfidf_char.pkl": "b08e56a2761ceb78ecfe50cac2a3f5c8dd64d202a4e30f47738164c604fea21c",
+    "messages_v4_config.json": "93a8cfc0e593ab2fa9cd1c0a0ac1e1abbebad3bad39778a8b560b9045980f911",
+    "android_assets/messages_v4_trees.json": "3aecc7e04f7cc93232ab06326f2df68cdf591ba35f0af074b9cfe7a69dd4b716"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "status": "PROVISIONAL authored-label evidence",
+  "gates": [
+    {
+      "gate": "Probe false-alert reduction >=20% relative",
+      "value": 0.0852713178294574,
+      "pass_gate": false
+    },
+    {
+      "gate": "Clean attack recall loss <=0.2 percentage points",
+      "value": -0.0777269194230934,
+      "pass_gate": true
+    },
+    {
+      "gate": "Red-team bypass=0 and no discount",
+      "value": {
+        "n": 160,
+        "bypass": 0,
+        "discounted": 0
+      },
+      "pass_gate": true
+    },
+    {
+      "gate": "Golden correctness regressions=0 (REPORT ONLY)",
+      "value": 1,
+      "pass_gate": false
+    },
+    {
+      "gate": "500 false alerts no worse and no newly introduced (REPORT ONLY)",
+      "value": {
+        "baseline_fp": 420,
+        "candidate_fp": 422,
+        "new_fp": 2
+      },
+      "pass_gate": false
+    }
+  ],
+  "all_pass": false,
+  "strict_golden_output_parity_pass": false,
+  "no_fit": true
+}

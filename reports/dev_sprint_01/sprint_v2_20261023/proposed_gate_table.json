@@ -1,0 +1,57 @@
+{
+  "English_metadata_n": 2258,
+  "full_TEST_n": 2264,
+  "gates": [
+    [
+      "G1",
+      "PROPOSED",
+      "English metadata TEST malicious recall >=96.5%",
+      ">=1497/1551; current 1506/1551",
+      "Historical full TEST separately: >=1502/1556; current1510/1556. Report Wilson; avoid mixing denominators."
+    ],
+    [
+      "G2",
+      "PROPOSED",
+      "English metadata TEST MALICIOUS false alerts on BENIGN+SPAM <=V4.3",
+      "<=92/707 (13.013%)",
+      "Report each class separately; full TEST92/708 is a different denominator. Paired comparison with baseline, not benign-only2/520."
+    ],
+    [
+      "G3",
+      "PROPOSED",
+      "Hinglish attack recall point>=85%, Wilson lower>=80%, no N>=30family below70%",
+      "Probe>=510/600; each50-row family>=35/50; public heldout separately",
+      "At least300 source-heldout attacks:255/300 yields lower80.5%. FewerN use exact sample_size_arithmetic.json, no invented certainty."
+    ],
+    [
+      "G4",
+      "PROPOSED",
+      "Hinglish BENIGN+SPAM false alerts <=5% AND <=V4.3, on each probe and user hard-negative exam",
+      "Probe<=25/500; current211/500 (42.2%)",
+      "Exam uses floor(.05*N), baseline paired ceiling, independently; report95%upper, no pooling to conceal failures."
+    ],
+    [
+      "G5",
+      "PROPOSED",
+      "SPAM->MALICIOUS <=25% on each adequately sized required set",
+      "English<=47/188; current90/188; probe<=25/100; current14/100",
+      "N<30 indicative only, gate unproven. Report all tiny cells."
+    ],
+    [
+      "G6",
+      "PROPOSED",
+      "URL-less recall no more than10pp below URL-bearing, both must meet overall family rules",
+      "V4.3 probe207/240=86.25% vs287/360=79.72%",
+      "Directional condition URL-less>=URL-bearing-.10; stronger URL-less does not fail. Report difference interval by template bootstrap."
+    ],
+    [
+      "G7",
+      "PROPOSED",
+      "Final Android JSON assets total <=8 MiB",
+      "8,388,608 bytes across vocab/IDF/scaler/trees",
+      "No export authorized here. Training-time estimate is provisional; actual gate can only pass after later authorized export."
+    ]
+  ],
+  "status": "PROPOSED_NEEDS_APPROVAL",
+  "candidate_test_results": "not run"
+}

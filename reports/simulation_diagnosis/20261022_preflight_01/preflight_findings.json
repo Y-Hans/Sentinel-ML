@@ -1,0 +1,287 @@
+{
+  "database_files": [
+    {
+      "path": "sentinel-ml\\Databases\\sentinel_db",
+      "bytes": 131336,
+      "sha256": "cecaa30a90d2a230b2a53a991b7650ea617030ba0722727542071161356095ec",
+      "header_hex": "fffe530051004c00690074006500200066006f0072006d006100740020003300"
+    },
+    {
+      "path": "sentinel-ml\\Databases\\sentinel_db(1)",
+      "bytes": 263150,
+      "sha256": "022fe888c5af8b38fd46c8fdeafb2a41a68548189295307a6dfe00837a833150",
+      "header_hex": "fffe530051004c00690074006500200066006f0072006d006100740020003300"
+    },
+    {
+      "path": "sentinel-ml\\Databases\\sentinel_reconstructed.db",
+      "bytes": 131072,
+      "sha256": "a1c2282675cb19be3f717f3eeb1020b65540e9cd16443155db87dc89b005e037",
+      "header_hex": "53514c69746520666f726d617420330010000202004020200000001000000020",
+      "error": "DatabaseError('database disk image is malformed')"
+    },
+    {
+      "path": "sentinel-ml\\Databases\\sentinel_reconstructed.db-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+      "header_hex": "18e22d0000000000000000000100000000000000000000000000000000000000"
+    },
+    {
+      "path": "sentinel-ml\\Databases\\sentinel_reconstructed.db-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "header_hex": ""
+    },
+    {
+      "path": "sentinel-ml\\Databases\\test_fixed.db",
+      "bytes": 131073,
+      "sha256": "0a7b62d04b122d12bca56e3475fa16a93dda594c879cedbc4f3a8f1a8f8f54d5",
+      "header_hex": "53514c69746520666f726d617420330010000202004020200000001000000020",
+      "error": "DatabaseError('database disk image is malformed')"
+    }
+  ],
+  "archives": [
+    {
+      "path": "sentinel-ml\\Databases\\22oct_pull\\sentinel-history.tar",
+      "bytes": 2761124,
+      "sha256": "4e18bd36e1c0b730aad9428277c9eb13a8602939971b04bad835728dd2c055bd",
+      "header_hex": "fffe6400610074006100620061007300650073002f0000000000000000000000",
+      "error": "ReadError(\"file could not be opened successfully:\\n- method gz: ReadError('not a gzip file')\\n- method bz2: ReadError('not a bzip2 file')\\n- method xz: ReadError('not an lzma file')\\n- method zst: ReadError('not a zstd file')\\n- method tar: ReadError('bad checksum')\")"
+    }
+  ],
+  "json_record_sources": [],
+  "training_files": [
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train.jsonl",
+      "sha256": "26b6189ca02eba662d67b12308d2af1e270d26cd4220d6badc67df4b34f3cd9f",
+      "count": 15855,
+      "labels": {
+        "MISSING": 15855
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_contrastive.jsonl",
+      "sha256": "de7946c70432b6f9d4deeb8184a2f862192c0acb2c3f40ebc9975b7d2ece3ad8",
+      "count": 16215,
+      "labels": {
+        "MISSING": 16215
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded.jsonl",
+      "sha256": "a6706a1d5621e3933315fd49dffdb6ff20ca8d0a79c4f5f196d8c1f29abcd662",
+      "count": 16175,
+      "labels": {
+        "MISSING": 16175
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v2.jsonl",
+      "sha256": "dad65a13b31d999df518431df01541cebc501dd916e494624ba57b8426b02315",
+      "count": 16935,
+      "labels": {
+        "MISSING": 16935
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v3.jsonl",
+      "sha256": "9cdd06fe1ec60baf5092c1f71f31ac7b3bf3fe299f5d6212e199bfa3639346cb",
+      "count": 16725,
+      "labels": {
+        "MISSING": 16725
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v4.jsonl",
+      "sha256": "7223761acb75e1110ff244857ebc6dd840b19709420472b7ee9e66d18ccf415e",
+      "count": 17017,
+      "labels": {
+        "MISSING": 17017
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v4_3x.jsonl",
+      "sha256": "b44680c61c895824cd4c6342ed86a45ec99a2b47f9070bfd7e6e702a0c8dc4e3",
+      "count": 17181,
+      "labels": {
+        "MISSING": 17181
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v5.jsonl",
+      "sha256": "653b889d1d674246a99ed4a9ebf5427337a1d4331e1107f04c70d872c010667c",
+      "count": 17361,
+      "labels": {
+        "MISSING": 17361
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v6.jsonl",
+      "sha256": "ce4347a74120be7169ad6b92d9947f3d9098addb2512cec10bbca9f50728888f",
+      "count": 17629,
+      "labels": {
+        "MISSING": 17629
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v7.jsonl",
+      "sha256": "5b3f2a921980be3018a3e7ab81a62dc677204286d689c16cf7bf542073a6544d",
+      "count": 17541,
+      "labels": {
+        "MISSING": 17541
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v8.jsonl",
+      "sha256": "b4c97857160fa247fdff8b3cd7af3b8930afd15dd6819328c968703c123b4fe0",
+      "count": 18311,
+      "labels": {
+        "MISSING": 18311
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4\\data\\train_v4.jsonl",
+      "sha256": "fd02ad59f4b8b708df99dbfaa9c326cf98233d21e22ec2dc65898d14c69734f9",
+      "count": 17473,
+      "labels": {
+        "MISSING": 17473
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4\\experiment_2\\data\\train_v4_2.jsonl",
+      "sha256": "5920d5cc6e7858d38d7af94aaca0c7efb3a3292fcc173e3c0ca30467f0385e3a",
+      "count": 18601,
+      "labels": {
+        "MISSING": 18601
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_3\\data\\train_v4_3.jsonl",
+      "sha256": "d01d4d36144e8c4d09f4c0fd21eb15b02e10f1be4d488bebb07ce7eba9c11c11",
+      "count": 19672,
+      "labels": {
+        "MISSING": 19672
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4.jsonl",
+      "sha256": "3dd4b4b7cba0fffba059bd365e7e01ce19668a3f5981c3a1c943dc8dd8c4a14f",
+      "count": 20164,
+      "labels": {
+        "MISSING": 20164
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4_b.jsonl",
+      "sha256": "28bdb8c81e538c8a49cd7b56e9da89e5b206bbe2297e12f8b245fcf50c329ab0",
+      "count": 20257,
+      "labels": {
+        "MISSING": 20257
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4_c.jsonl",
+      "sha256": "e002632a201adccd072e41aff0574cd6e0ff5d64dba540185959eadd0bcc1384",
+      "count": 20404,
+      "labels": {
+        "MISSING": 20404
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4_rc2_exp1.jsonl",
+      "sha256": "1750808fb5d3d71f5db779d4273596404d480054115d96077d3ad4ad420a7f3e",
+      "count": 20495,
+      "labels": {
+        "MISSING": 20495
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4_rc2_exp2.jsonl",
+      "sha256": "e67311390888ffd590b360958d5f691a8a8bc8450b7073d0e59fd3d68a19a446",
+      "count": 20543,
+      "labels": {
+        "MISSING": 20543
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4_rc2_exp3.jsonl",
+      "sha256": "e9b45c52834a00caf36a199c47669eea7b00def88e2b15140c64cdb9cec5b2b2",
+      "count": 20581,
+      "labels": {
+        "MISSING": 20581
+      },
+      "template_keys": 0,
+      "errors": []
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\data\\auxiliary_train.jsonl",
+      "sha256": "2c74d90d81e31a15103b11b540fcbadef63470df9a850fea7f5ea84abba893e1",
+      "count": 12753,
+      "labels": {
+        "MISSING": 12753
+      },
+      "template_keys": 0,
+      "errors": []
+    }
+  ],
+  "replay_overlap": {
+    "path": "sentinel-ml\\7sep_messages_v3\\data\\bench_sentinel_replay.jsonl",
+    "sha256": "7f9f91f37f1b9933f760b33592bbafc2d3dadd02effbd7a2b0b6ea661ae20cf1",
+    "count": 294,
+    "columns": [
+      "behavioral_category",
+      "db_risk_level",
+      "db_risk_score",
+      "id",
+      "raw_text",
+      "security_label",
+      "sender_header",
+      "source"
+    ],
+    "labels": {
+      "MISSING": 294
+    },
+    "normalization": "casefold; URL -> <URL>; digits -> <NUM>; whitespace collapse",
+    "union_training_file_count": 21,
+    "matched_rows": 0,
+    "matched_1based_rows": [],
+    "limitation": "Conservative screen, not complete template lineage or semantic grouping; no domain overlap clearance."
+  }
+}

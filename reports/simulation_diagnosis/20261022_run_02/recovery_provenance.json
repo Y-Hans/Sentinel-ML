@@ -1,0 +1,267 @@
+{
+  "pulls": [
+    {
+      "pull_id": "pull_1",
+      "source": "sentinel-ml/Databases/sentinel_db",
+      "source_sha256": "cecaa30a90d2a230b2a53a991b7650ea617030ba0722727542071161356095ec",
+      "model_generation": "UNRESOLVED",
+      "variants": [
+        {
+          "tag": "cp437",
+          "bytes": 65667,
+          "sha256": "893f4483697821eccb9d2981a72947d34e0fb79c4f4f75720f3dce84289ca1b0",
+          "crlf_count": 131
+        },
+        {
+          "tag": "cp437_crlf_reversed",
+          "bytes": 65536,
+          "sha256": "bf4195bae8c0a73e122abe553b38959506dbbfa7a77e9c09a8e9c2b6edef7c26",
+          "crlf_count": 0
+        }
+      ],
+      "chosen_transform": "cp437_crlf_reversed",
+      "main_probes": [
+        {
+          "view": "exact",
+          "path": "pull_1.main.exact.readonly_copy.db",
+          "sha256": "bf4195bae8c0a73e122abe553b38959506dbbfa7a77e9c09a8e9c2b6edef7c26",
+          "transformation": "none",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "view": "standalone_header",
+          "path": "pull_1.main.standalone_header.readonly_copy.db",
+          "sha256": "e35f28e58f61989b3a9f1edac9fbfe0ebd4889e5dfbfb7797bd44cf2fb5079fb",
+          "transformation": "bytes 18/19 WAL version -> rollback version in new view only; no WAL implied applied",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "fallback": "strict table-leaf scanner; validated UUID, 11 columns, record type/timestamp/content; no arbitrary column guessing",
+          "leaf_cells_seen": 0,
+          "parse_errors": [],
+          "valid_threat_rows": 0,
+          "completeness": "PROVISIONAL; table-root count/SQLite validation recorded separately"
+        }
+      ],
+      "row_view": "main snapshot; no usable WAL member",
+      "rows_recovered": 0,
+      "logged_levels": {},
+      "explanation_patterns": {},
+      "timestamp_min": null,
+      "timestamp_max": null,
+      "unrecoverable_count": "UNKNOWN: no independently trusted source row-count; no fabricated total"
+    },
+    {
+      "pull_id": "pull_2",
+      "source": "sentinel-ml/Databases/sentinel_db(1)",
+      "source_sha256": "022fe888c5af8b38fd46c8fdeafb2a41a68548189295307a6dfe00837a833150",
+      "model_generation": "UNRESOLVED",
+      "variants": [
+        {
+          "tag": "cp437",
+          "bytes": 131574,
+          "sha256": "13b72a3c8d33714bbb1b14bcc415a8d9972ceb5694ffa188f8142094385a6e60",
+          "crlf_count": 501
+        },
+        {
+          "tag": "cp437_crlf_reversed",
+          "bytes": 131073,
+          "sha256": "0a7b62d04b122d12bca56e3475fa16a93dda594c879cedbc4f3a8f1a8f8f54d5",
+          "crlf_count": 0
+        }
+      ],
+      "chosen_transform": "cp437",
+      "main_probes": [
+        {
+          "view": "exact",
+          "path": "pull_2.main.exact.readonly_copy.db",
+          "sha256": "13b72a3c8d33714bbb1b14bcc415a8d9972ceb5694ffa188f8142094385a6e60",
+          "transformation": "none",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "view": "standalone_header",
+          "path": "pull_2.main.standalone_header.readonly_copy.db",
+          "sha256": "a7e73d702faeae6a81f701d77df24d7b41e8e7ee9fcffe536b25acd5c4084de6",
+          "transformation": "bytes 18/19 WAL version -> rollback version in new view only; no WAL implied applied",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "fallback": "strict table-leaf scanner; validated UUID, 11 columns, record type/timestamp/content; no arbitrary column guessing",
+          "leaf_cells_seen": 0,
+          "parse_errors": [],
+          "valid_threat_rows": 0,
+          "completeness": "PROVISIONAL; table-root count/SQLite validation recorded separately"
+        }
+      ],
+      "row_view": "main snapshot; no usable WAL member",
+      "rows_recovered": 0,
+      "logged_levels": {},
+      "explanation_patterns": {},
+      "timestamp_min": null,
+      "timestamp_max": null,
+      "unrecoverable_count": "UNKNOWN: no independently trusted source row-count; no fabricated total"
+    },
+    {
+      "pull_id": "pull_3",
+      "source": "sentinel-ml/Databases/22oct_pull/sentinel-history.tar",
+      "source_sha256": "4e18bd36e1c0b730aad9428277c9eb13a8602939971b04bad835728dd2c055bd",
+      "model_generation": "UNRESOLVED",
+      "variants": [
+        {
+          "tag": "cp437",
+          "bytes": 1380561,
+          "sha256": "9cd65fe2025c561bde355b45e427b69fe1a37e0ee113743b3aee711789c1ad37",
+          "crlf_count": 6366,
+          "members": [
+            {
+              "name": "databases/sentinel_db",
+              "bytes": 872448,
+              "sha256": "b3f822bde7b9cd5ab8f40965643bb72f3556df3e832536404aa010ec390622bf"
+            }
+          ]
+        },
+        {
+          "tag": "cp437_crlf_reversed",
+          "bytes": 1374195,
+          "sha256": "082089ab302596d1ef5ef6c2b32f9788c53a3c0960fc735533a8531a42972733",
+          "crlf_count": 0,
+          "members": [
+            {
+              "name": "databases/sentinel_db",
+              "bytes": 872448,
+              "sha256": "5d5b8d523b911f28cb32b6f2fc1b944326dd189c854885c4a38da2ef4315c565"
+            }
+          ]
+        }
+      ],
+      "chosen_transform": "cp437",
+      "main_probes": [
+        {
+          "view": "exact",
+          "path": "pull_3.main.exact.readonly_copy.db",
+          "sha256": "b3f822bde7b9cd5ab8f40965643bb72f3556df3e832536404aa010ec390622bf",
+          "transformation": "none",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "view": "standalone_header",
+          "path": "pull_3.main.standalone_header.readonly_copy.db",
+          "sha256": "6ee8f777403bbb867a19d24857e15910f0abc17aaf39edcd91230a705783785c",
+          "transformation": "bytes 18/19 WAL version -> rollback version in new view only; no WAL implied applied",
+          "error": "DatabaseError('database disk image is malformed')"
+        },
+        {
+          "fallback": "strict table-leaf scanner; validated UUID, 11 columns, record type/timestamp/content; no arbitrary column guessing",
+          "leaf_cells_seen": 0,
+          "parse_errors": [],
+          "valid_threat_rows": 0,
+          "completeness": "PROVISIONAL; table-root count/SQLite validation recorded separately"
+        }
+      ],
+      "row_view": "main snapshot; no usable WAL member",
+      "rows_recovered": 0,
+      "logged_levels": {},
+      "explanation_patterns": {},
+      "timestamp_min": null,
+      "timestamp_max": null,
+      "unrecoverable_count": "UNKNOWN: no independently trusted source row-count; no fabricated total"
+    }
+  ],
+  "apk_assets": [
+    {
+      "apk": "sentinel-ai/installed-sentinel.apk",
+      "sha256": "0d06c3e3ba24ae33e54eb34c9c8d0147cc99f9ed3c62b604768fe52487b6bf63",
+      "assets": [
+        {
+          "name": "assets/champion_v2_char_vocab_idf.json",
+          "bytes": 14629,
+          "sha256": "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941"
+        },
+        {
+          "name": "assets/champion_v2_scaler.json",
+          "bytes": 131696,
+          "sha256": "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa"
+        },
+        {
+          "name": "assets/champion_v2_trees.json",
+          "bytes": 2402739,
+          "sha256": "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43"
+        },
+        {
+          "name": "assets/champion_v2_word_vocab_idf.json",
+          "bytes": 53446,
+          "sha256": "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237"
+        },
+        {
+          "name": "assets/v7_champion_portable.json",
+          "bytes": 1029290,
+          "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+        }
+      ]
+    },
+    {
+      "apk": "sentinel-ml/Messages-ml/release/apk/SentinelAI-2.1.0-release-unsigned.apk",
+      "sha256": "a79f290d37ad625eef6600774a26eda2d44569e17365c7df321da32675f65398",
+      "assets": [
+        {
+          "name": "assets/messages_v4_3_char_vocab_idf.json",
+          "bytes": 73353,
+          "sha256": "9b26bc1d9886ea4ed1c7a6a366afe826f1d5a771ec568186c2f6f5299b923b5b"
+        },
+        {
+          "name": "assets/messages_v4_3_scaler.json",
+          "bytes": 258643,
+          "sha256": "147bbb108807754ab838755987124e570757fabcae18900f501ad88bb6413df4"
+        },
+        {
+          "name": "assets/messages_v4_3_trees.json",
+          "bytes": 4012286,
+          "sha256": "4f36801978bc272631ec04269b4767afbeeddd8d19862e1c7247da83ced39537"
+        },
+        {
+          "name": "assets/messages_v4_3_word_vocab_idf.json",
+          "bytes": 49981,
+          "sha256": "ee781ce8ac9b331bf5c2286c8dc38286d7c331232b4da9ee9e12ff34ee0015d7"
+        },
+        {
+          "name": "assets/v8_champion_portable.json",
+          "bytes": 1029275,
+          "sha256": "e0e5e817beb6e1718843641b2e19e5b131690a0fc959764d83702883f557e870"
+        }
+      ]
+    }
+  ],
+  "legacy_comparisons": [
+    {
+      "source": "sentinel-ml/New_history/bench_real_history_562.jsonl",
+      "sha256": "18987bb577f68979fb118095bf316be1939625b4f6b7788c9f1a9041b6cc6d09",
+      "legacy_rows": 562,
+      "matching_id_timestamp_content_keys": 0,
+      "legacy_only": 562,
+      "new_only": 0
+    },
+    {
+      "source": "sentinel-ml/investigation/sentinel_db_parsed.jsonl",
+      "sha256": "e0f85d09c81be5e2743d10a3ccf69858b62e2c947593ae0e3427588ce1aeef72",
+      "legacy_rows": 34,
+      "matching_id_timestamp_content_keys": 0,
+      "legacy_only": 7,
+      "new_only": 0
+    },
+    {
+      "source": "sentinel-ml/investigation/sentinel_db1_parsed.jsonl",
+      "sha256": "02437b7eb0684fe3b29d32b9ecf03f664041b1f8b3d3f3fd09dd4648884bc5b5",
+      "legacy_rows": 26,
+      "matching_id_timestamp_content_keys": 0,
+      "legacy_only": 8,
+      "new_only": 0
+    }
+  ],
+  "dedup": {
+    "input_rows": 0,
+    "unique_rows": 0,
+    "duplicates": 0,
+    "key": "id,recordType,timestamp,UTF8-content-SHA256"
+  }
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "query_text": "python async",
+    "query_length_category": "short",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=python+async",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "python async",
+    "query_length_category": "short",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=python+async",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "python async",
+    "query_length_category": "short",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=python+async",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "python async",
+    "query_length_category": "short",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=python+async",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "git status",
+    "query_length_category": "short",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=git+status",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "git status",
+    "query_length_category": "short",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=git+status",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "git status",
+    "query_length_category": "short",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=git+status",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "git status",
+    "query_length_category": "short",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=git+status",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "docker build",
+    "query_length_category": "short",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=docker+build",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "docker build",
+    "query_length_category": "short",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=docker+build",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "docker build",
+    "query_length_category": "short",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=docker+build",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "docker build",
+    "query_length_category": "short",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=docker+build",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "linux grep",
+    "query_length_category": "short",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=linux+grep",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "linux grep",
+    "query_length_category": "short",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=linux+grep",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "linux grep",
+    "query_length_category": "short",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=linux+grep",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "linux grep",
+    "query_length_category": "short",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=linux+grep",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "rust struct",
+    "query_length_category": "short",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=rust+struct",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "rust struct",
+    "query_length_category": "short",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=rust+struct",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "rust struct",
+    "query_length_category": "short",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=rust+struct",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "rust struct",
+    "query_length_category": "short",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=rust+struct",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "how to configure nginx reverse proxy with ssl",
+    "query_length_category": "medium",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=how+to+configure+nginx+reverse+proxy+with+ssl",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "how to configure nginx reverse proxy with ssl",
+    "query_length_category": "medium",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=how+to+configure+nginx+reverse+proxy+with+ssl",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "how to configure nginx reverse proxy with ssl",
+    "query_length_category": "medium",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=how+to+configure+nginx+reverse+proxy+with+ssl",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "how to configure nginx reverse proxy with ssl",
+    "query_length_category": "medium",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=how+to+configure+nginx+reverse+proxy+with+ssl",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "difference between process and thread in operating systems",
+    "query_length_category": "medium",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=difference+between+process+and+thread+in+operating+systems",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "difference between process and thread in operating systems",
+    "query_length_category": "medium",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=difference+between+process+and+thread+in+operating+systems",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "difference between process and thread in operating systems",
+    "query_length_category": "medium",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=difference+between+process+and+thread+in+operating+systems",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "difference between process and thread in operating systems",
+    "query_length_category": "medium",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=difference+between+process+and+thread+in+operating+systems",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "sql inner join vs left join with examples",
+    "query_length_category": "medium",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=sql+inner+join+vs+left+join+with+examples",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "sql inner join vs left join with examples",
+    "query_length_category": "medium",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=sql+inner+join+vs+left+join+with+examples",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "sql inner join vs left join with examples",
+    "query_length_category": "medium",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=sql+inner+join+vs+left+join+with+examples",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "sql inner join vs left join with examples",
+    "query_length_category": "medium",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=sql+inner+join+vs+left+join+with+examples",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "best practices for secure rest api authentication",
+    "query_length_category": "medium",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=best+practices+for+secure+rest+api+authentication",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "best practices for secure rest api authentication",
+    "query_length_category": "medium",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=best+practices+for+secure+rest+api+authentication",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "best practices for secure rest api authentication",
+    "query_length_category": "medium",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=best+practices+for+secure+rest+api+authentication",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "best practices for secure rest api authentication",
+    "query_length_category": "medium",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=best+practices+for+secure+rest+api+authentication",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "javascript event loop and promise microtasks explained",
+    "query_length_category": "medium",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=javascript+event+loop+and+promise+microtasks+explained",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "javascript event loop and promise microtasks explained",
+    "query_length_category": "medium",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=javascript+event+loop+and+promise+microtasks+explained",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "javascript event loop and promise microtasks explained",
+    "query_length_category": "medium",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=javascript+event+loop+and+promise+microtasks+explained",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "javascript event loop and promise microtasks explained",
+    "query_length_category": "medium",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=javascript+event+loop+and+promise+microtasks+explained",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "implementing distributed consensus algorithm raft python state machine replication leader election log compaction",
+    "query_length_category": "long",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=implementing+distributed+consensus+algorithm+raft+python+state+machine+replication+leader+election+log+compaction",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "implementing distributed consensus algorithm raft python state machine replication leader election log compaction",
+    "query_length_category": "long",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=implementing+distributed+consensus+algorithm+raft+python+state+machine+replication+leader+election+log+compaction",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "implementing distributed consensus algorithm raft python state machine replication leader election log compaction",
+    "query_length_category": "long",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=implementing+distributed+consensus+algorithm+raft+python+state+machine+replication+leader+election+log+compaction",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "implementing distributed consensus algorithm raft python state machine replication leader election log compaction",
+    "query_length_category": "long",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=implementing+distributed+consensus+algorithm+raft+python+state+machine+replication+leader+election+log+compaction",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "performance comparison between hist gradient boosting classifier and random forest on sparse high dimensional tabular data",
+    "query_length_category": "long",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=performance+comparison+between+hist+gradient+boosting+classifier+and+random+forest+on+sparse+high+dimensional+tabular+data",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "performance comparison between hist gradient boosting classifier and random forest on sparse high dimensional tabular data",
+    "query_length_category": "long",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=performance+comparison+between+hist+gradient+boosting+classifier+and+random+forest+on+sparse+high+dimensional+tabular+data",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "performance comparison between hist gradient boosting classifier and random forest on sparse high dimensional tabular data",
+    "query_length_category": "long",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=performance+comparison+between+hist+gradient+boosting+classifier+and+random+forest+on+sparse+high+dimensional+tabular+data",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "performance comparison between hist gradient boosting classifier and random forest on sparse high dimensional tabular data",
+    "query_length_category": "long",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=performance+comparison+between+hist+gradient+boosting+classifier+and+random+forest+on+sparse+high+dimensional+tabular+data",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "resolving segmentation fault in c shared library using gdb backtrace valgrind memory leak address sanitizer",
+    "query_length_category": "long",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=resolving+segmentation+fault+in+c+shared+library+using+gdb+backtrace+valgrind+memory+leak+address+sanitizer",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "resolving segmentation fault in c shared library using gdb backtrace valgrind memory leak address sanitizer",
+    "query_length_category": "long",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=resolving+segmentation+fault+in+c+shared+library+using+gdb+backtrace+valgrind+memory+leak+address+sanitizer",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "resolving segmentation fault in c shared library using gdb backtrace valgrind memory leak address sanitizer",
+    "query_length_category": "long",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=resolving+segmentation+fault+in+c+shared+library+using+gdb+backtrace+valgrind+memory+leak+address+sanitizer",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "resolving segmentation fault in c shared library using gdb backtrace valgrind memory leak address sanitizer",
+    "query_length_category": "long",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=resolving+segmentation+fault+in+c+shared+library+using+gdb+backtrace+valgrind+memory+leak+address+sanitizer",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "configuring systemd service with automatic restart watchdog timer resource limits and sandboxed security directives",
+    "query_length_category": "long",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=configuring+systemd+service+with+automatic+restart+watchdog+timer+resource+limits+and+sandboxed+security+directives",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "configuring systemd service with automatic restart watchdog timer resource limits and sandboxed security directives",
+    "query_length_category": "long",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=configuring+systemd+service+with+automatic+restart+watchdog+timer+resource+limits+and+sandboxed+security+directives",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "configuring systemd service with automatic restart watchdog timer resource limits and sandboxed security directives",
+    "query_length_category": "long",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=configuring+systemd+service+with+automatic+restart+watchdog+timer+resource+limits+and+sandboxed+security+directives",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "configuring systemd service with automatic restart watchdog timer resource limits and sandboxed security directives",
+    "query_length_category": "long",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=configuring+systemd+service+with+automatic+restart+watchdog+timer+resource+limits+and+sandboxed+security+directives",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "optimizing postgresql query plan using explain analyze btree index scan vacuum analyze and connection pooling",
+    "query_length_category": "long",
+    "host_type": "apex",
+    "route_type": "root",
+    "provider": "duckduckgo.com",
+    "url": "https://duckduckgo.com/?q=optimizing+postgresql+query+plan+using+explain+analyze+btree+index+scan+vacuum+analyze+and+connection+pooling",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "optimizing postgresql query plan using explain analyze btree index scan vacuum analyze and connection pooling",
+    "query_length_category": "long",
+    "host_type": "subdomain",
+    "route_type": "root",
+    "provider": "www.qwant.com",
+    "url": "https://www.qwant.com/?q=optimizing+postgresql+query+plan+using+explain+analyze+btree+index+scan+vacuum+analyze+and+connection+pooling",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "optimizing postgresql query plan using explain analyze btree index scan vacuum analyze and connection pooling",
+    "query_length_category": "long",
+    "host_type": "apex",
+    "route_type": "routed",
+    "provider": "searx.space",
+    "url": "https://searx.space/search?q=optimizing+postgresql+query+plan+using+explain+analyze+btree+index+scan+vacuum+analyze+and+connection+pooling",
+    "expected_label": "BENIGN"
+  },
+  {
+    "query_text": "optimizing postgresql query plan using explain analyze btree index scan vacuum analyze and connection pooling",
+    "query_length_category": "long",
+    "host_type": "subdomain",
+    "route_type": "routed",
+    "provider": "search.brave.com",
+    "url": "https://search.brave.com/search?q=optimizing+postgresql+query+plan+using+explain+analyze+btree+index+scan+vacuum+analyze+and+connection+pooling",
+    "expected_label": "BENIGN"
+  }
+]

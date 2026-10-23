@@ -1,0 +1,1268 @@
+{
+  "word_size": 1500,
+  "char_size": 2500,
+  "nonASCII_word_tokens": 3,
+  "nonASCII_char_tokens": 0,
+  "script_coverage": [
+    {
+      "uid": "synth:English:0:SMS:1:1",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 4,
+      "char_nonzero": 40
+    },
+    {
+      "uid": "synth:English:0:WhatsApp:1:1",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 4,
+      "char_nonzero": 40
+    },
+    {
+      "uid": "synth:English:0:WhatsApp:group",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 4,
+      "char_nonzero": 40
+    },
+    {
+      "uid": "synth:English:0:other_app:UNKNOWN",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 4,
+      "char_nonzero": 40
+    },
+    {
+      "uid": "synth:English:1:SMS:1:1",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 13,
+      "char_nonzero": 93
+    },
+    {
+      "uid": "synth:English:1:WhatsApp:1:1",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 13,
+      "char_nonzero": 93
+    },
+    {
+      "uid": "synth:English:1:WhatsApp:group",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 13,
+      "char_nonzero": 93
+    },
+    {
+      "uid": "synth:English:1:other_app:UNKNOWN",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 13,
+      "char_nonzero": 93
+    },
+    {
+      "uid": "synth:English:2:SMS:1:1",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 6,
+      "char_nonzero": 104
+    },
+    {
+      "uid": "synth:English:2:WhatsApp:1:1",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 6,
+      "char_nonzero": 104
+    },
+    {
+      "uid": "synth:English:2:WhatsApp:group",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 6,
+      "char_nonzero": 104
+    },
+    {
+      "uid": "synth:English:2:other_app:UNKNOWN",
+      "language": "English",
+      "y": 0,
+      "word_nonzero": 6,
+      "char_nonzero": 104
+    },
+    {
+      "uid": "synth:English:3:SMS:1:1",
+      "language": "English",
+      "y": 1,
+      "word_nonzero": 16,
+      "char_nonzero": 127
+    },
+    {
+      "uid": "synth:English:3:WhatsApp:1:1",
+      "language": "English",
+      "y": 1,
+      "word_nonzero": 16,
+      "char_nonzero": 127
+    },
+    {
+      "uid": "synth:English:3:WhatsApp:group",
+      "language": "English",
+      "y": 1,
+      "word_nonzero": 16,
+      "char_nonzero": 127
+    },
+    {
+      "uid": "synth:English:3:other_app:UNKNOWN",
+      "language": "English",
+      "y": 1,
+      "word_nonzero": 16,
+      "char_nonzero": 127
+    },
+    {
+      "uid": "synth:English:4:SMS:1:1",
+      "language": "English",
+      "y": 1,
+      "word_nonzero": 16,
+      "char_nonzero": 146
+    },
+    {
+      "uid": "synth:English:4:WhatsApp:1:1",
+      "language": "English",
+      "y": 1,
+      "word_nonzero": 16,
+      "char_nonzero": 146
+    },
+    {
+      "uid": "synth:English:4:WhatsApp:group",
+      "language": "English",
+      "y": 1,
+      "word_nonzero": 16,
+      "char_nonzero": 146
+    },
+    {
+      "uid": "synth:English:4:other_app:UNKNOWN",
+      "language": "English",
+      "y": 1,
+      "word_nonzero": 16,
+      "char_nonzero": 146
+    },
+    {
+      "uid": "synth:Hinglish:0:SMS:1:1",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 5,
+      "char_nonzero": 53
+    },
+    {
+      "uid": "synth:Hinglish:0:WhatsApp:1:1",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 5,
+      "char_nonzero": 53
+    },
+    {
+      "uid": "synth:Hinglish:0:WhatsApp:group",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 5,
+      "char_nonzero": 53
+    },
+    {
+      "uid": "synth:Hinglish:0:other_app:UNKNOWN",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 5,
+      "char_nonzero": 53
+    },
+    {
+      "uid": "synth:Hinglish:1:SMS:1:1",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 4,
+      "char_nonzero": 46
+    },
+    {
+      "uid": "synth:Hinglish:1:WhatsApp:1:1",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 4,
+      "char_nonzero": 46
+    },
+    {
+      "uid": "synth:Hinglish:1:WhatsApp:group",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 4,
+      "char_nonzero": 46
+    },
+    {
+      "uid": "synth:Hinglish:1:other_app:UNKNOWN",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 4,
+      "char_nonzero": 46
+    },
+    {
+      "uid": "synth:Hinglish:2:SMS:1:1",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 5,
+      "char_nonzero": 88
+    },
+    {
+      "uid": "synth:Hinglish:2:WhatsApp:1:1",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 5,
+      "char_nonzero": 88
+    },
+    {
+      "uid": "synth:Hinglish:2:WhatsApp:group",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 5,
+      "char_nonzero": 88
+    },
+    {
+      "uid": "synth:Hinglish:2:other_app:UNKNOWN",
+      "language": "Hinglish",
+      "y": 0,
+      "word_nonzero": 5,
+      "char_nonzero": 88
+    },
+    {
+      "uid": "synth:Hinglish:3:SMS:1:1",
+      "language": "Hinglish",
+      "y": 1,
+      "word_nonzero": 6,
+      "char_nonzero": 82
+    },
+    {
+      "uid": "synth:Hinglish:3:WhatsApp:1:1",
+      "language": "Hinglish",
+      "y": 1,
+      "word_nonzero": 6,
+      "char_nonzero": 82
+    },
+    {
+      "uid": "synth:Hinglish:3:WhatsApp:group",
+      "language": "Hinglish",
+      "y": 1,
+      "word_nonzero": 6,
+      "char_nonzero": 82
+    },
+    {
+      "uid": "synth:Hinglish:3:other_app:UNKNOWN",
+      "language": "Hinglish",
+      "y": 1,
+      "word_nonzero": 6,
+      "char_nonzero": 82
+    },
+    {
+      "uid": "synth:Hinglish:4:SMS:1:1",
+      "language": "Hinglish",
+      "y": 1,
+      "word_nonzero": 8,
+      "char_nonzero": 82
+    },
+    {
+      "uid": "synth:Hinglish:4:WhatsApp:1:1",
+      "language": "Hinglish",
+      "y": 1,
+      "word_nonzero": 8,
+      "char_nonzero": 82
+    },
+    {
+      "uid": "synth:Hinglish:4:WhatsApp:group",
+      "language": "Hinglish",
+      "y": 1,
+      "word_nonzero": 8,
+      "char_nonzero": 82
+    },
+    {
+      "uid": "synth:Hinglish:4:other_app:UNKNOWN",
+      "language": "Hinglish",
+      "y": 1,
+      "word_nonzero": 8,
+      "char_nonzero": 82
+    },
+    {
+      "uid": "synth:Hindi:0:SMS:1:1",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Hindi:0:WhatsApp:1:1",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Hindi:0:WhatsApp:group",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Hindi:0:other_app:UNKNOWN",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Hindi:1:SMS:1:1",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 3,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Hindi:1:WhatsApp:1:1",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 3,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Hindi:1:WhatsApp:group",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 3,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Hindi:1:other_app:UNKNOWN",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 3,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Hindi:2:SMS:1:1",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Hindi:2:WhatsApp:1:1",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Hindi:2:WhatsApp:group",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Hindi:2:other_app:UNKNOWN",
+      "language": "Hindi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Hindi:3:SMS:1:1",
+      "language": "Hindi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Hindi:3:WhatsApp:1:1",
+      "language": "Hindi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Hindi:3:WhatsApp:group",
+      "language": "Hindi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Hindi:3:other_app:UNKNOWN",
+      "language": "Hindi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Hindi:4:SMS:1:1",
+      "language": "Hindi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Hindi:4:WhatsApp:1:1",
+      "language": "Hindi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Hindi:4:WhatsApp:group",
+      "language": "Hindi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Hindi:4:other_app:UNKNOWN",
+      "language": "Hindi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Gujarati:0:SMS:1:1",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Gujarati:0:WhatsApp:1:1",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Gujarati:0:WhatsApp:group",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Gujarati:0:other_app:UNKNOWN",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Gujarati:1:SMS:1:1",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Gujarati:1:WhatsApp:1:1",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Gujarati:1:WhatsApp:group",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Gujarati:1:other_app:UNKNOWN",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Gujarati:2:SMS:1:1",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Gujarati:2:WhatsApp:1:1",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Gujarati:2:WhatsApp:group",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Gujarati:2:other_app:UNKNOWN",
+      "language": "Gujarati",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Gujarati:3:SMS:1:1",
+      "language": "Gujarati",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Gujarati:3:WhatsApp:1:1",
+      "language": "Gujarati",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Gujarati:3:WhatsApp:group",
+      "language": "Gujarati",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Gujarati:3:other_app:UNKNOWN",
+      "language": "Gujarati",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Gujarati:4:SMS:1:1",
+      "language": "Gujarati",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Gujarati:4:WhatsApp:1:1",
+      "language": "Gujarati",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Gujarati:4:WhatsApp:group",
+      "language": "Gujarati",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Gujarati:4:other_app:UNKNOWN",
+      "language": "Gujarati",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Tamil:0:SMS:1:1",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Tamil:0:WhatsApp:1:1",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Tamil:0:WhatsApp:group",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Tamil:0:other_app:UNKNOWN",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Tamil:1:SMS:1:1",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Tamil:1:WhatsApp:1:1",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Tamil:1:WhatsApp:group",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Tamil:1:other_app:UNKNOWN",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Tamil:2:SMS:1:1",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Tamil:2:WhatsApp:1:1",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Tamil:2:WhatsApp:group",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Tamil:2:other_app:UNKNOWN",
+      "language": "Tamil",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Tamil:3:SMS:1:1",
+      "language": "Tamil",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Tamil:3:WhatsApp:1:1",
+      "language": "Tamil",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Tamil:3:WhatsApp:group",
+      "language": "Tamil",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Tamil:3:other_app:UNKNOWN",
+      "language": "Tamil",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Tamil:4:SMS:1:1",
+      "language": "Tamil",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Tamil:4:WhatsApp:1:1",
+      "language": "Tamil",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Tamil:4:WhatsApp:group",
+      "language": "Tamil",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Tamil:4:other_app:UNKNOWN",
+      "language": "Tamil",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Telugu:0:SMS:1:1",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Telugu:0:WhatsApp:1:1",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Telugu:0:WhatsApp:group",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Telugu:0:other_app:UNKNOWN",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Telugu:1:SMS:1:1",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Telugu:1:WhatsApp:1:1",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Telugu:1:WhatsApp:group",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Telugu:1:other_app:UNKNOWN",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Telugu:2:SMS:1:1",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Telugu:2:WhatsApp:1:1",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Telugu:2:WhatsApp:group",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Telugu:2:other_app:UNKNOWN",
+      "language": "Telugu",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Telugu:3:SMS:1:1",
+      "language": "Telugu",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Telugu:3:WhatsApp:1:1",
+      "language": "Telugu",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Telugu:3:WhatsApp:group",
+      "language": "Telugu",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Telugu:3:other_app:UNKNOWN",
+      "language": "Telugu",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Telugu:4:SMS:1:1",
+      "language": "Telugu",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Telugu:4:WhatsApp:1:1",
+      "language": "Telugu",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Telugu:4:WhatsApp:group",
+      "language": "Telugu",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Telugu:4:other_app:UNKNOWN",
+      "language": "Telugu",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Bengali:0:SMS:1:1",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Bengali:0:WhatsApp:1:1",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Bengali:0:WhatsApp:group",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Bengali:0:other_app:UNKNOWN",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Bengali:1:SMS:1:1",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Bengali:1:WhatsApp:1:1",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Bengali:1:WhatsApp:group",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Bengali:1:other_app:UNKNOWN",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Bengali:2:SMS:1:1",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Bengali:2:WhatsApp:1:1",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Bengali:2:WhatsApp:group",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Bengali:2:other_app:UNKNOWN",
+      "language": "Bengali",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Bengali:3:SMS:1:1",
+      "language": "Bengali",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Bengali:3:WhatsApp:1:1",
+      "language": "Bengali",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Bengali:3:WhatsApp:group",
+      "language": "Bengali",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Bengali:3:other_app:UNKNOWN",
+      "language": "Bengali",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Bengali:4:SMS:1:1",
+      "language": "Bengali",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Bengali:4:WhatsApp:1:1",
+      "language": "Bengali",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Bengali:4:WhatsApp:group",
+      "language": "Bengali",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Bengali:4:other_app:UNKNOWN",
+      "language": "Bengali",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Marathi:0:SMS:1:1",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Marathi:0:WhatsApp:1:1",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Marathi:0:WhatsApp:group",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Marathi:0:other_app:UNKNOWN",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Marathi:1:SMS:1:1",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Marathi:1:WhatsApp:1:1",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Marathi:1:WhatsApp:group",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Marathi:1:other_app:UNKNOWN",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Marathi:2:SMS:1:1",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Marathi:2:WhatsApp:1:1",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Marathi:2:WhatsApp:group",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Marathi:2:other_app:UNKNOWN",
+      "language": "Marathi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Marathi:3:SMS:1:1",
+      "language": "Marathi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Marathi:3:WhatsApp:1:1",
+      "language": "Marathi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Marathi:3:WhatsApp:group",
+      "language": "Marathi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Marathi:3:other_app:UNKNOWN",
+      "language": "Marathi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 3
+    },
+    {
+      "uid": "synth:Marathi:4:SMS:1:1",
+      "language": "Marathi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Marathi:4:WhatsApp:1:1",
+      "language": "Marathi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Marathi:4:WhatsApp:group",
+      "language": "Marathi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Marathi:4:other_app:UNKNOWN",
+      "language": "Marathi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 11
+    },
+    {
+      "uid": "synth:Punjabi:0:SMS:1:1",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Punjabi:0:WhatsApp:1:1",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Punjabi:0:WhatsApp:group",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Punjabi:0:other_app:UNKNOWN",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 1
+    },
+    {
+      "uid": "synth:Punjabi:1:SMS:1:1",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Punjabi:1:WhatsApp:1:1",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Punjabi:1:WhatsApp:group",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Punjabi:1:other_app:UNKNOWN",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Punjabi:2:SMS:1:1",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Punjabi:2:WhatsApp:1:1",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Punjabi:2:WhatsApp:group",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Punjabi:2:other_app:UNKNOWN",
+      "language": "Punjabi",
+      "y": 0,
+      "word_nonzero": 0,
+      "char_nonzero": 0
+    },
+    {
+      "uid": "synth:Punjabi:3:SMS:1:1",
+      "language": "Punjabi",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Punjabi:3:WhatsApp:1:1",
+      "language": "Punjabi",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Punjabi:3:WhatsApp:group",
+      "language": "Punjabi",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Punjabi:3:other_app:UNKNOWN",
+      "language": "Punjabi",
+      "y": 1,
+      "word_nonzero": 0,
+      "char_nonzero": 2
+    },
+    {
+      "uid": "synth:Punjabi:4:SMS:1:1",
+      "language": "Punjabi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Punjabi:4:WhatsApp:1:1",
+      "language": "Punjabi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Punjabi:4:WhatsApp:group",
+      "language": "Punjabi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    },
+    {
+      "uid": "synth:Punjabi:4:other_app:UNKNOWN",
+      "language": "Punjabi",
+      "y": 1,
+      "word_nonzero": 1,
+      "char_nonzero": 10
+    }
+  ]
+}

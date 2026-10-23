@@ -1,0 +1,65 @@
+{
+  "G1_English_min_TP": 1497,
+  "G1_full_TEST_min_TP": 1502,
+  "G2_English_FAR": 0.13012729844413012,
+  "G2_full_FAR": 0.12994350282485875,
+  "G3_probe_Wilson_at_510_of_600": [
+    0.8192063850925662,
+    0.8763404241978434
+  ],
+  "G4_Wilson_at_25_of_500": [
+    0.034093745243849435,
+    0.0727681611715476
+  ],
+  "zero_FP_N_for_Wilson_upper_le_002": 1917,
+  "scenarios": [
+    {
+      "ASSUMED_prevalence": 0.001,
+      "ASSUMED_recall": 0.85,
+      "ASSUMED_FPR": 0.05,
+      "ASSUMED_notifications_per_day": 100,
+      "projected_PPV": 0.016732283464566927,
+      "false_alerts_per_user_day": 4.995000000000001
+    },
+    {
+      "ASSUMED_prevalence": 0.001,
+      "ASSUMED_recall": 0.85,
+      "ASSUMED_FPR": 0.002,
+      "ASSUMED_notifications_per_day": 100,
+      "projected_PPV": 0.29845505617977525,
+      "false_alerts_per_user_day": 0.1998
+    },
+    {
+      "ASSUMED_prevalence": 0.01,
+      "ASSUMED_recall": 0.85,
+      "ASSUMED_FPR": 0.05,
+      "ASSUMED_notifications_per_day": 100,
+      "projected_PPV": 0.14655172413793105,
+      "false_alerts_per_user_day": 4.95
+    },
+    {
+      "ASSUMED_prevalence": 0.01,
+      "ASSUMED_recall": 0.85,
+      "ASSUMED_FPR": 0.002,
+      "ASSUMED_notifications_per_day": 100,
+      "projected_PPV": 0.8110687022900764,
+      "false_alerts_per_user_day": 0.198
+    },
+    {
+      "ASSUMED_prevalence": 0.05,
+      "ASSUMED_recall": 0.85,
+      "ASSUMED_FPR": 0.05,
+      "ASSUMED_notifications_per_day": 100,
+      "projected_PPV": 0.47222222222222227,
+      "false_alerts_per_user_day": 4.75
+    },
+    {
+      "ASSUMED_prevalence": 0.05,
+      "ASSUMED_recall": 0.85,
+      "ASSUMED_FPR": 0.002,
+      "ASSUMED_notifications_per_day": 100,
+      "projected_PPV": 0.9572072072072072,
+      "false_alerts_per_user_day": 0.19
+    }
+  ]
+}

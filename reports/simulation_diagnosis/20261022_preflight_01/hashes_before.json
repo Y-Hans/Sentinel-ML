@@ -1,0 +1,1178 @@
+{
+  "sentinel-ai/android-app/.gradle-home/caches/transforms-4/5c215ffc42a44169cf7f27a0b60634ab/transformed/out/assets/messages_v4_3_char_vocab_idf.json": {
+    "bytes": 73353,
+    "sha256": "9b26bc1d9886ea4ed1c7a6a366afe826f1d5a771ec568186c2f6f5299b923b5b"
+  },
+  "sentinel-ai/android-app/.gradle-home/caches/transforms-4/5c215ffc42a44169cf7f27a0b60634ab/transformed/out/assets/messages_v4_3_scaler.json": {
+    "bytes": 258643,
+    "sha256": "147bbb108807754ab838755987124e570757fabcae18900f501ad88bb6413df4"
+  },
+  "sentinel-ai/android-app/.gradle-home/caches/transforms-4/5c215ffc42a44169cf7f27a0b60634ab/transformed/out/assets/messages_v4_3_trees.json": {
+    "bytes": 4012286,
+    "sha256": "4f36801978bc272631ec04269b4767afbeeddd8d19862e1c7247da83ced39537"
+  },
+  "sentinel-ai/android-app/.gradle-home/caches/transforms-4/5c215ffc42a44169cf7f27a0b60634ab/transformed/out/assets/messages_v4_3_word_vocab_idf.json": {
+    "bytes": 49981,
+    "sha256": "ee781ce8ac9b331bf5c2286c8dc38286d7c331232b4da9ee9e12ff34ee0015d7"
+  },
+  "sentinel-ai/android-app/.gradle-home/caches/transforms-4/5c215ffc42a44169cf7f27a0b60634ab/transformed/out/assets/v8_champion_portable.json": {
+    "bytes": 1029275,
+    "sha256": "e0e5e817beb6e1718843641b2e19e5b131690a0fc959764d83702883f557e870"
+  },
+  "sentinel-ai/android-app/app/src/main/assets/scaler.json": {
+    "bytes": 1242,
+    "sha256": "205ae661d614eae84610da84a18af45d3492aaa34b349e091e6407d4a53fd49a"
+  },
+  "sentinel-ai/android-app/core/src/main/assets/messages_v4_3_char_vocab_idf.json": {
+    "bytes": 73353,
+    "sha256": "9b26bc1d9886ea4ed1c7a6a366afe826f1d5a771ec568186c2f6f5299b923b5b"
+  },
+  "sentinel-ai/android-app/core/src/main/assets/messages_v4_3_scaler.json": {
+    "bytes": 258643,
+    "sha256": "147bbb108807754ab838755987124e570757fabcae18900f501ad88bb6413df4"
+  },
+  "sentinel-ai/android-app/core/src/main/assets/messages_v4_3_trees.json": {
+    "bytes": 4012286,
+    "sha256": "4f36801978bc272631ec04269b4767afbeeddd8d19862e1c7247da83ced39537"
+  },
+  "sentinel-ai/android-app/core/src/main/assets/messages_v4_3_word_vocab_idf.json": {
+    "bytes": 49981,
+    "sha256": "ee781ce8ac9b331bf5c2286c8dc38286d7c331232b4da9ee9e12ff34ee0015d7"
+  },
+  "sentinel-ai/android-app/core/src/main/assets/v8_champion_portable.json": {
+    "bytes": 1029275,
+    "sha256": "e0e5e817beb6e1718843641b2e19e5b131690a0fc959764d83702883f557e870"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/champion_v2_char_vocab_idf.json": {
+    "bytes": 14629,
+    "sha256": "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/champion_v2_scaler.json": {
+    "bytes": 131696,
+    "sha256": "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/champion_v2_trees.json": {
+    "bytes": 2402739,
+    "sha256": "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/champion_v2_word_vocab_idf.json": {
+    "bytes": 53446,
+    "sha256": "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/messages_v4_3_char_vocab_idf.json": {
+    "bytes": 73353,
+    "sha256": "9b26bc1d9886ea4ed1c7a6a366afe826f1d5a771ec568186c2f6f5299b923b5b"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/messages_v4_3_scaler.json": {
+    "bytes": 258643,
+    "sha256": "147bbb108807754ab838755987124e570757fabcae18900f501ad88bb6413df4"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/messages_v4_3_trees.json": {
+    "bytes": 4012286,
+    "sha256": "4f36801978bc272631ec04269b4767afbeeddd8d19862e1c7247da83ced39537"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/messages_v4_3_word_vocab_idf.json": {
+    "bytes": 49981,
+    "sha256": "ee781ce8ac9b331bf5c2286c8dc38286d7c331232b4da9ee9e12ff34ee0015d7"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/messages_v4_4_char_vocab_idf.json": {
+    "bytes": 73442,
+    "sha256": "e57f24fd5af4422148a0230b6a68036211182ee00cc81459e5aeb15265ee1305"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/messages_v4_4_scaler.json": {
+    "bytes": 258580,
+    "sha256": "b891e89d0edf0929f4a017e03b3a9898c062a6012380b435a623861bd9394dd5"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/messages_v4_4_trees.json": {
+    "bytes": 4004786,
+    "sha256": "de387ad8fa48c1aa27e1099fbcefe3b2b5b1fb69a092419ed6416a64b1c73888"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/messages_v4_4_word_vocab_idf.json": {
+    "bytes": 49986,
+    "sha256": "8eb3f64a56098e7a4279283ac91575c555d4fa412bea07be4a748fa33a0a81f3"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/v7_champion_portable.json": {
+    "bytes": 1029290,
+    "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+  },
+  "sentinel-ai/android-app/core/src/test/resources/v8_champion_portable.json": {
+    "bytes": 1029275,
+    "sha256": "e0e5e817beb6e1718843641b2e19e5b131690a0fc959764d83702883f557e870"
+  },
+  "sentinel-ai/installed-sentinel.apk": {
+    "bytes": 40434863,
+    "sha256": "0d06c3e3ba24ae33e54eb34c9c8d0147cc99f9ed3c62b604768fe52487b6bf63"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/android-assets/champion_v2_char_vocab_idf.json": {
+    "bytes": 14629,
+    "sha256": "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/android-assets/champion_v2_scaler.json": {
+    "bytes": 131696,
+    "sha256": "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/android-assets/champion_v2_trees.json": {
+    "bytes": 2402739,
+    "sha256": "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/android-assets/champion_v2_word_vocab_idf.json": {
+    "bytes": 53446,
+    "sha256": "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/android-assets/messages_v4_4_char_vocab_idf.json": {
+    "bytes": 73442,
+    "sha256": "e57f24fd5af4422148a0230b6a68036211182ee00cc81459e5aeb15265ee1305"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/android-assets/messages_v4_4_scaler.json": {
+    "bytes": 258580,
+    "sha256": "b891e89d0edf0929f4a017e03b3a9898c062a6012380b435a623861bd9394dd5"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/android-assets/messages_v4_4_trees.json": {
+    "bytes": 4004786,
+    "sha256": "de387ad8fa48c1aa27e1099fbcefe3b2b5b1fb69a092419ed6416a64b1c73888"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/android-assets/messages_v4_4_word_vocab_idf.json": {
+    "bytes": 49986,
+    "sha256": "8eb3f64a56098e7a4279283ac91575c555d4fa412bea07be4a748fa33a0a81f3"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/app-assets/messages_v4_3_char_vocab_idf.json": {
+    "bytes": 73353,
+    "sha256": "9b26bc1d9886ea4ed1c7a6a366afe826f1d5a771ec568186c2f6f5299b923b5b"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/app-assets/messages_v4_3_scaler.json": {
+    "bytes": 258643,
+    "sha256": "147bbb108807754ab838755987124e570757fabcae18900f501ad88bb6413df4"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/app-assets/messages_v4_3_trees.json": {
+    "bytes": 4012286,
+    "sha256": "4f36801978bc272631ec04269b4767afbeeddd8d19862e1c7247da83ced39537"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/app-assets/messages_v4_3_word_vocab_idf.json": {
+    "bytes": 49981,
+    "sha256": "ee781ce8ac9b331bf5c2286c8dc38286d7c331232b4da9ee9e12ff34ee0015d7"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/app-assets/v7_champion_portable.json": {
+    "bytes": 1029290,
+    "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/core-assets/champion_v2_char_vocab_idf.json": {
+    "bytes": 14629,
+    "sha256": "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/core-assets/champion_v2_scaler.json": {
+    "bytes": 131696,
+    "sha256": "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/core-assets/champion_v2_trees.json": {
+    "bytes": 2402739,
+    "sha256": "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/core-assets/champion_v2_word_vocab_idf.json": {
+    "bytes": 53446,
+    "sha256": "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/core-assets/messages_v4_4_char_vocab_idf.json": {
+    "bytes": 73442,
+    "sha256": "e57f24fd5af4422148a0230b6a68036211182ee00cc81459e5aeb15265ee1305"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/core-assets/messages_v4_4_scaler.json": {
+    "bytes": 258580,
+    "sha256": "b891e89d0edf0929f4a017e03b3a9898c062a6012380b435a623861bd9394dd5"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/core-assets/messages_v4_4_trees.json": {
+    "bytes": 4004786,
+    "sha256": "de387ad8fa48c1aa27e1099fbcefe3b2b5b1fb69a092419ed6416a64b1c73888"
+  },
+  "sentinel-ai/ml-artifacts/message-model-archive/core-assets/messages_v4_4_word_vocab_idf.json": {
+    "bytes": 49986,
+    "sha256": "8eb3f64a56098e7a4279283ac91575c555d4fa412bea07be4a748fa33a0a81f3"
+  },
+  "sentinel-ai/ml-artifacts/Messages-ml/Model/champion_v2_char_vocab_idf.json": {
+    "bytes": 14629,
+    "sha256": "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941"
+  },
+  "sentinel-ai/ml-artifacts/Messages-ml/Model/champion_v2_scaler.json": {
+    "bytes": 131696,
+    "sha256": "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa"
+  },
+  "sentinel-ai/ml-artifacts/Messages-ml/Model/champion_v2_trees.json": {
+    "bytes": 2402739,
+    "sha256": "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43"
+  },
+  "sentinel-ai/ml-artifacts/Messages-ml/Model/champion_v2_word_vocab_idf.json": {
+    "bytes": 53446,
+    "sha256": "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237"
+  },
+  "sentinel-ai/ml-artifacts/URL-ml/Model/v7_champion_portable.json": {
+    "bytes": 1029290,
+    "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+  },
+  "sentinel-ml/6sep/FINAL_IMMUTABLE_MANIFEST.json": {
+    "bytes": 4922,
+    "sha256": "dc7a9afbb3f8d8a7e00e090eefa42feb68c37c446ea6d87d18de8da20ecfa70e"
+  },
+  "sentinel-ml/6sep/messages/android/champion_v2_char_vocab_idf.json": {
+    "bytes": 14629,
+    "sha256": "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941"
+  },
+  "sentinel-ml/6sep/messages/android/champion_v2_scaler.json": {
+    "bytes": 131696,
+    "sha256": "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa"
+  },
+  "sentinel-ml/6sep/messages/android/champion_v2_trees.json": {
+    "bytes": 2402739,
+    "sha256": "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43"
+  },
+  "sentinel-ml/6sep/messages/android/champion_v2_word_vocab_idf.json": {
+    "bytes": 53446,
+    "sha256": "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237"
+  },
+  "sentinel-ml/6sep/messages/candidates/candidate_v3a_model.pkl": {
+    "bytes": 1811492,
+    "sha256": "5f93e7f42f93012fa1c891b5f0506963db240fb7733cd1e93ca7d176aea30e45"
+  },
+  "sentinel-ml/6sep/messages/candidates/candidate_v3a_scaler.pkl": {
+    "bytes": 50332,
+    "sha256": "892ecd2683565f3ae6c28003404f81a11e9dff3ad8cee25e112cfa57e6dc15a6"
+  },
+  "sentinel-ml/6sep/messages/candidates/candidate_v3a_tfidf_char.pkl": {
+    "bytes": 17604,
+    "sha256": "19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701"
+  },
+  "sentinel-ml/6sep/messages/candidates/candidate_v3a_tfidf_word.pkl": {
+    "bytes": 58464,
+    "sha256": "735c1225092236322283eea9e2d1177ba93c6485e6b5819387a1bcc9649ec7b1"
+  },
+  "sentinel-ml/6sep/messages/candidates/candidate_v3b_model.pkl": {
+    "bytes": 1587998,
+    "sha256": "dd633f9c6b502cd50ff73412390479852ff1240071925e4865c676439a37c841"
+  },
+  "sentinel-ml/6sep/messages/candidates/candidate_v3b_scaler.pkl": {
+    "bytes": 50092,
+    "sha256": "1fd6d99922f71c972cf571d91e41cc39c8d27cc9818a197f84529cbe4d23bb40"
+  },
+  "sentinel-ml/6sep/messages/candidates/candidate_v3b_tfidf_char.pkl": {
+    "bytes": 17604,
+    "sha256": "95f9c53fa685b74f6c7e4df57e1b439d6a5bb7b2f6a54246c77a69cdae74cc7c"
+  },
+  "sentinel-ml/6sep/messages/candidates/candidate_v3b_tfidf_word.pkl": {
+    "bytes": 58493,
+    "sha256": "f6ccb461bf935175ea45d09f1c4cd03f79056dbf171ff5862225aa0d32a34551"
+  },
+  "sentinel-ml/6sep/messages/final/champion_v2_model.pkl": {
+    "bytes": 1786995,
+    "sha256": "d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887"
+  },
+  "sentinel-ml/6sep/messages/final/champion_v2_scaler.pkl": {
+    "bytes": 50092,
+    "sha256": "6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999"
+  },
+  "sentinel-ml/6sep/messages/final/champion_v2_tfidf_char.pkl": {
+    "bytes": 17604,
+    "sha256": "19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701"
+  },
+  "sentinel-ml/6sep/messages/final/champion_v2_tfidf_word.pkl": {
+    "bytes": 58464,
+    "sha256": "b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495"
+  },
+  "sentinel-ml/6sep/shared/BASELINE_IMMUTABLE_MANIFEST.json": {
+    "bytes": 2132,
+    "sha256": "a1c977a2bbfe5453c5c4331982aeb52d587b2a2de4b201b0af44b16d26b1eced"
+  },
+  "sentinel-ml/6sep/url/android/v7_champion_portable.json": {
+    "bytes": 1029290,
+    "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+  },
+  "sentinel-ml/6sep/url/final/v7_champion.joblib": {
+    "bytes": 1649433,
+    "sha256": "d414bf668484ea5ba6056b626f0d8e674e0085208ba23d964522b09557affdaa"
+  },
+  "sentinel-ml/6sep/url/final/v7_champion_portable.json": {
+    "bytes": 1029290,
+    "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+  },
+  "sentinel-ml/7sep_messages_v3/DATASET_MANIFEST.json": {
+    "bytes": 3229,
+    "sha256": "5f53a413af6000753fa0d426c50c794af09a5357afd6efa94261cb5fc8e3973c"
+  },
+  "sentinel-ml/7sep_messages_v3/EXPERIMENT_MANIFEST.json": {
+    "bytes": 13708,
+    "sha256": "34d348688f1b55b65b09f72ef0260cdbebd6eab1410e637c13bed1aa3eac3f5d"
+  },
+  "sentinel-ml/7sep_messages_v3/models/candidate_single_stage/candidate_single_stage_model.pkl": {
+    "bytes": 1633203,
+    "sha256": "40e8270c8f1211c135893701d02bae220e60c601eae44a81397299a48ee91472"
+  },
+  "sentinel-ml/7sep_messages_v3/models/candidate_single_stage/candidate_single_stage_scaler.pkl": {
+    "bytes": 50092,
+    "sha256": "7875e537d05f7492aab89e6ffb7f6cbc7ce03746023e808ddcf6fb0e10b299f8"
+  },
+  "sentinel-ml/7sep_messages_v3/models/candidate_single_stage/candidate_single_stage_tfidf_char.pkl": {
+    "bytes": 17606,
+    "sha256": "c6b93e7ab8ea019b9572dc42ca1a04d76744614f8d147ae8b691b5ec34a7f870"
+  },
+  "sentinel-ml/7sep_messages_v3/models/candidate_single_stage/candidate_single_stage_tfidf_word.pkl": {
+    "bytes": 58483,
+    "sha256": "8b4322958d40e1b9cd53fec096f54312d610e9b51c7a6bbadf8a75cfbe200c70"
+  },
+  "sentinel-ml/android-runtime/ANDROID_MODEL_MANIFEST.json": {
+    "bytes": 6347,
+    "sha256": "cda57b57d8947e1cb1958c34e5c7ba849a3cbf79d816074a4ab1df94243be9d7"
+  },
+  "sentinel-ml/android-runtime/messages/assets/champion_v2_char_vocab_idf.json": {
+    "bytes": 14629,
+    "sha256": "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941"
+  },
+  "sentinel-ml/android-runtime/messages/assets/champion_v2_scaler.json": {
+    "bytes": 131696,
+    "sha256": "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa"
+  },
+  "sentinel-ml/android-runtime/messages/assets/champion_v2_trees.json": {
+    "bytes": 2402739,
+    "sha256": "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43"
+  },
+  "sentinel-ml/android-runtime/messages/assets/champion_v2_word_vocab_idf.json": {
+    "bytes": 53446,
+    "sha256": "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237"
+  },
+  "sentinel-ml/android-runtime/url/assets/v7_champion_portable.json": {
+    "bytes": 1029290,
+    "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+  },
+  "sentinel-ml/android-runtime/url/assets/v8_champion_portable.json": {
+    "bytes": 1029275,
+    "sha256": "e0e5e817beb6e1718843641b2e19e5b131690a0fc959764d83702883f557e870"
+  },
+  "sentinel-ml/Databases/22oct_pull/sentinel-history.tar": {
+    "bytes": 2761124,
+    "sha256": "4e18bd36e1c0b730aad9428277c9eb13a8602939971b04bad835728dd2c055bd"
+  },
+  "sentinel-ml/Databases/sentinel_db": {
+    "bytes": 131336,
+    "sha256": "cecaa30a90d2a230b2a53a991b7650ea617030ba0722727542071161356095ec"
+  },
+  "sentinel-ml/Databases/sentinel_db(1)": {
+    "bytes": 263150,
+    "sha256": "022fe888c5af8b38fd46c8fdeafb2a41a68548189295307a6dfe00837a833150"
+  },
+  "sentinel-ml/Databases/sentinel_reconstructed.db": {
+    "bytes": 131072,
+    "sha256": "a1c2282675cb19be3f717f3eeb1020b65540e9cd16443155db87dc89b005e037"
+  },
+  "sentinel-ml/Databases/sentinel_reconstructed.db-shm": {
+    "bytes": 32768,
+    "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb"
+  },
+  "sentinel-ml/Databases/sentinel_reconstructed.db-wal": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "sentinel-ml/Databases/test_fixed.db": {
+    "bytes": 131073,
+    "sha256": "0a7b62d04b122d12bca56e3475fa16a93dda594c879cedbc4f3a8f1a8f8f54d5"
+  },
+  "sentinel-ml/Messages-ml/challenger_model_CHALLENGER_D_charngram_3x.pkl": {
+    "bytes": 1632090,
+    "sha256": "384c04ee7f8084ccf6311e1efd9bb45cf2476bdb69c96d0d2a75eaf43ec111d1"
+  },
+  "sentinel-ml/Messages-ml/challenger_scaler_CHALLENGER_D_charngram_3x.pkl": {
+    "bytes": 50092,
+    "sha256": "a9e5aaaf1b5fa345793c7b7244b54cc70e3160af02ccd6d20849648dabe54719"
+  },
+  "sentinel-ml/Messages-ml/challenger_tfidf_char_CHALLENGER_D_charngram_3x.pkl": {
+    "bytes": 17604,
+    "sha256": "4eec35a3a39e0552cb5a8933ee747bc03050085332e2c4afc396e26bccf52386"
+  },
+  "sentinel-ml/Messages-ml/challenger_tfidf_word_CHALLENGER_D_charngram_3x.pkl": {
+    "bytes": 58497,
+    "sha256": "a2a6392c46f863a742e28c1f8dfd7971ce600bdc2251f1483179dc685ecf0069"
+  },
+  "sentinel-ml/Messages-ml/champion_model.pkl": {
+    "bytes": 1540923,
+    "sha256": "d329e3e3c87e9beaa15a2c19b2acb1e1c7e78fd659ead64ae14b3b5f418fdeff"
+  },
+  "sentinel-ml/Messages-ml/champion_scaler.pkl": {
+    "bytes": 50092,
+    "sha256": "cfe11482591c465a9c496658e7542461e55044c0051dfcdfb30ad3e12d4b1520"
+  },
+  "sentinel-ml/Messages-ml/champion_tfidf.pkl": {
+    "bytes": 78323,
+    "sha256": "ce023e6aeafd5d9196a6574512b65a34994631d65df6a0956c8d8af331b9e6a8"
+  },
+  "sentinel-ml/Messages-ml/champion_v2_model.pkl": {
+    "bytes": 1786995,
+    "sha256": "d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887"
+  },
+  "sentinel-ml/Messages-ml/champion_v2_model_s22_precontinuation.pkl": {
+    "bytes": 1786995,
+    "sha256": "d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887"
+  },
+  "sentinel-ml/Messages-ml/champion_v2_scaler.pkl": {
+    "bytes": 50092,
+    "sha256": "6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999"
+  },
+  "sentinel-ml/Messages-ml/champion_v2_scaler_s22_precontinuation.pkl": {
+    "bytes": 50092,
+    "sha256": "6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999"
+  },
+  "sentinel-ml/Messages-ml/champion_v2_tfidf_char.pkl": {
+    "bytes": 17604,
+    "sha256": "19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701"
+  },
+  "sentinel-ml/Messages-ml/champion_v2_tfidf_char_s22_precontinuation.pkl": {
+    "bytes": 17604,
+    "sha256": "19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701"
+  },
+  "sentinel-ml/Messages-ml/champion_v2_tfidf_word.pkl": {
+    "bytes": 58464,
+    "sha256": "b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495"
+  },
+  "sentinel-ml/Messages-ml/champion_v2_tfidf_word_s22_precontinuation.pkl": {
+    "bytes": 58464,
+    "sha256": "b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495"
+  },
+  "sentinel-ml/Messages-ml/data/raw/acquisition_manifest.json": {
+    "bytes": 2997,
+    "sha256": "64b2069bbe338b147163a2c22ddffdbc40025d2acd65ae5bdccbee772762f9a9"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/android_assets/messages_v4_android_manifest.json": {
+    "bytes": 1230,
+    "sha256": "2c923ed6f6741c4b2081a65a80572f81fbfcf4c7413a782f07d3b73902788ba7"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/android_assets/messages_v4_char_vocab_idf.json": {
+    "bytes": 14645,
+    "sha256": "efd614fb10bc670c8a38cb5ad082262f18b9bc5d81a9d64df0f3cfd8fde15a3d"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/android_assets/messages_v4_scaler.json": {
+    "bytes": 131702,
+    "sha256": "06b1e09557273faf74b08c24e67d65228f0390b3bac6e2831a0e0bb1deb48b4f"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/android_assets/messages_v4_trees.json": {
+    "bytes": 2210574,
+    "sha256": "3aecc7e04f7cc93232ab06326f2df68cdf591ba35f0af074b9cfe7a69dd4b716"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/android_assets/messages_v4_word_vocab_idf.json": {
+    "bytes": 53241,
+    "sha256": "07cbb7e78dbbda321be86707732d36fa776287afe09bfb1a64088f874eafe3d7"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/artifacts/messages_v4_model.pkl": {
+    "bytes": 1467770,
+    "sha256": "9b747822a941a92d278f11d0e1458c48497c14ce8c35ecf58dc72e7effaff7e0"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/artifacts/messages_v4_scaler.pkl": {
+    "bytes": 50109,
+    "sha256": "2cd9c0f415f7eba67d5f3e9a0486324e9aaab39de3154e69f720d38fdb8dad27"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/artifacts/messages_v4_tfidf_char.pkl": {
+    "bytes": 17605,
+    "sha256": "b08e56a2761ceb78ecfe50cac2a3f5c8dd64d202a4e30f47738164c604fea21c"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/artifacts/messages_v4_tfidf_word.pkl": {
+    "bytes": 58451,
+    "sha256": "afe8f7697c6d8a5c4f2931408d17b780c599a818a32462ef53ade16aefac6a2d"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/dataset_manifest.json": {
+    "bytes": 1116,
+    "sha256": "cdc637ce50dbf411075b517edc8e59f4eac2f8c88176a117b12a56413b24f7fe"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/android_assets/messages_v4_android_manifest.json": {
+    "bytes": 1230,
+    "sha256": "7b032a53fca71862d0bdcac5831744efd08f2039b94bed9594527c24acaccb1b"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/android_assets/messages_v4_char_vocab_idf.json": {
+    "bytes": 14650,
+    "sha256": "2047e94cde483e3f0b5bb2e0b47669802e366caa667797a887a3ce960dd7b7c1"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/android_assets/messages_v4_scaler.json": {
+    "bytes": 131638,
+    "sha256": "1f4251c4243625e18a45926a9e6bb92746ab1f47a58cafb13a65b4710257bacf"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/android_assets/messages_v4_trees.json": {
+    "bytes": 2276033,
+    "sha256": "06d1480d0808cb59ebe3d2788a9b0366d194ecc34b2493f6a704ff1e0d699a02"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/android_assets/messages_v4_word_vocab_idf.json": {
+    "bytes": 53814,
+    "sha256": "7d9e7a945c9f0f3a95ad4d42c251d91af248399f79d5250263c399fd0ff5278f"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/artifacts/messages_v4_model.pkl": {
+    "bytes": 1557917,
+    "sha256": "ca8d116d5d3c5e95babf634d29c0c15878dc526b56921b2e808fda28dec6201b"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/artifacts/messages_v4_scaler.pkl": {
+    "bytes": 50109,
+    "sha256": "06a911860e90b77dcc1d3fc911c8bff86bdb03e34995f31e0d2119d2f9798b0c"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/artifacts/messages_v4_tfidf_char.pkl": {
+    "bytes": 17593,
+    "sha256": "8dcdbe28b087df5c28b15c5c265ee9b1db30a14dc3147042d6c7f4859c1412c7"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/artifacts/messages_v4_tfidf_word.pkl": {
+    "bytes": 58858,
+    "sha256": "a98301fa974f3c9ddf37693ad5d9f5566d382834958d99f327a83083fe72ce02"
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/dataset_manifest_v4_2.json": {
+    "bytes": 1212,
+    "sha256": "293ab9621eb4daef2f155b74521498ff11f323a2be2839745b2681c9635778c4"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/android/messages_v4_3_char_vocab_idf.json": {
+    "bytes": 73353,
+    "sha256": "9b26bc1d9886ea4ed1c7a6a366afe826f1d5a771ec568186c2f6f5299b923b5b"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/android/messages_v4_3_scaler.json": {
+    "bytes": 258643,
+    "sha256": "147bbb108807754ab838755987124e570757fabcae18900f501ad88bb6413df4"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/android/messages_v4_3_trees.json": {
+    "bytes": 4012286,
+    "sha256": "4f36801978bc272631ec04269b4767afbeeddd8d19862e1c7247da83ced39537"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/android/messages_v4_3_word_vocab_idf.json": {
+    "bytes": 49981,
+    "sha256": "ee781ce8ac9b331bf5c2286c8dc38286d7c331232b4da9ee9e12ff34ee0015d7"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/data/dataset_manifest_v4_3.json": {
+    "bytes": 1477,
+    "sha256": "d6e069257ca5c4e502b59aa2c008141d349fa6e0ff3dd71af3a4a8fe46315992"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_b/char_vec.pkl": {
+    "bytes": 68370,
+    "sha256": "f36fa47557ee5b0ce70bc7e9deadaa42a51f1233ac256d32201b624a0dfdc943"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_b/model.pkl": {
+    "bytes": 2038550,
+    "sha256": "0ef3f912633ba0d039f2ba8bd2cf5f48958fd0b8ea9078d512de966bdbaec98d"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_b/scaler.pkl": {
+    "bytes": 84421,
+    "sha256": "e897df0c1e88356ad459f3c2366a0f3d6680fc697fe0f6a3e5e4018d59cfaaaa"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_b/word_vec.pkl": {
+    "bytes": 57724,
+    "sha256": "8c75d73a298eee37b16b940d650a0c3ac77867d7d22586fdc903b93970b1293c"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_c/char_vec.pkl": {
+    "bytes": 51401,
+    "sha256": "39c7686a5be4c9cffadfa7eee1a93671de0b85ce20374ee484f01ee1eecb0d09"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_c/model.pkl": {
+    "bytes": 1719927,
+    "sha256": "57e3705d2397a9a4f3092281ccee98eb7b5fdac368096468cbbc48411fe317d4"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_c/scaler.pkl": {
+    "bytes": 62860,
+    "sha256": "58f70a064c4a0991206deaf86645a58e41a774bbf924b1ed54458b190026aa8d"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_c/svd.pkl": {
+    "bytes": 50074,
+    "sha256": "2df27b9981c104605aefc61d892a9db8a6c4a60ac768502f6273d599382ee0c2"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_c/word_vec.pkl": {
+    "bytes": 38678,
+    "sha256": "0dee8885c4a576955520a7fc24031de319d93be0feb861baca7d5b8073c7f2ef"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_d/char_vec.pkl": {
+    "bytes": 84522,
+    "sha256": "fa56cf5548f3ae17f0ccc5c7e8b7ba801e27be8bcd522887ea5af8bae68468b1"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_d/model.pkl": {
+    "bytes": 2707591,
+    "sha256": "2ca29457acd27bf93d6967d8f9d64778b8ba0e404030175465c802fe1a138a7d"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_d/scaler.pkl": {
+    "bytes": 96877,
+    "sha256": "aab17413541b12804b70677161a540fa384b0ec0eeebed8be308de3c3c0a21b9"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_d/word_vec.pkl": {
+    "bytes": 57681,
+    "sha256": "10403d9e8b5f641fd3d200a5e08f5c65e3fdcd7afca65613d47d0f4cfbe96aac"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/android/messages_v4_4_char_vocab_idf.json": {
+    "bytes": 73442,
+    "sha256": "e57f24fd5af4422148a0230b6a68036211182ee00cc81459e5aeb15265ee1305"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/android/messages_v4_4_scaler.json": {
+    "bytes": 258580,
+    "sha256": "b891e89d0edf0929f4a017e03b3a9898c062a6012380b435a623861bd9394dd5"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/android/messages_v4_4_trees.json": {
+    "bytes": 4004786,
+    "sha256": "de387ad8fa48c1aa27e1099fbcefe3b2b5b1fb69a092419ed6416a64b1c73888"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/android/messages_v4_4_word_vocab_idf.json": {
+    "bytes": 49986,
+    "sha256": "8eb3f64a56098e7a4279283ac91575c555d4fa412bea07be4a748fa33a0a81f3"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/data/dataset_manifest_v4_4.json": {
+    "bytes": 1649,
+    "sha256": "c93cda2ce8040f50ecaedd6a976a92b6aa2d8da1236570324220773adcd8aa1a"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/data/dataset_manifest_v4_4_b.json": {
+    "bytes": 656,
+    "sha256": "924b3ae276273b3fbc33361107b5d69c68df88e591ab97fe635135cc72efd577"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/data/dataset_manifest_v4_4_c.json": {
+    "bytes": 659,
+    "sha256": "01701b410c50e770689545f2d89dbf028eb6f25894eb2f780d62dedcb439fea1"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_a_corrected/char_vec.pkl": {
+    "bytes": 84515,
+    "sha256": "089dcd906b0f5d7c77f9c54b45160a9fad37e0fbe203d29e9ca4bc78c235c163"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_a_corrected/model.pkl": {
+    "bytes": 2583181,
+    "sha256": "08bfcf6a3da137ae1752cf74c08a39bfb26231435cca9427a6f472420e1d82a7"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_a_corrected/scaler.pkl": {
+    "bytes": 96877,
+    "sha256": "04a9c525de01d64027774cdca55dd96cb09d061692fa4d9f243db884a12779b7"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_a_corrected/word_vec.pkl": {
+    "bytes": 57632,
+    "sha256": "e3f1868a602c9cda0340070919d4e7547f44ab234db49e1518878b96f5f0d7fd"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_b_refined/char_vec.pkl": {
+    "bytes": 84516,
+    "sha256": "f75f0c5ae63baa26f8702d014a01826c002c1a4803f6d1a8a26656bcdc6a4abe"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_b_refined/model.pkl": {
+    "bytes": 2711541,
+    "sha256": "7b6d137bc623635c132840b79e41cac6cfed8134952491ad9563730b5f9fea34"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_b_refined/scaler.pkl": {
+    "bytes": 96877,
+    "sha256": "6fae3b169a7a6d885970f80e3876007b2ae1648882ccdd1c795cf021f6012fac"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_b_refined/word_vec.pkl": {
+    "bytes": 57626,
+    "sha256": "5a1fd2c62cd5b28426091a69be44c6a871887e875ef7317d8388d9e5991ab277"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_c_balanced/char_vec.pkl": {
+    "bytes": 84516,
+    "sha256": "2c4604d288aaeaf5f8344971406f2efcd79dcfa8bca7b9d534b4024d68fba985"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_c_balanced/model.pkl": {
+    "bytes": 2900460,
+    "sha256": "633357c366da6ef389097f5fc4af91692f06057bcd60af41a7ddb3d617afec21"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_c_balanced/scaler.pkl": {
+    "bytes": 96877,
+    "sha256": "55db1580c1aa59822f9cef622b337fa860dbd22d23f2db3844dcd4368845b2f9"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/candidate_c_balanced/word_vec.pkl": {
+    "bytes": 57626,
+    "sha256": "dcdeb955a1804be9f322d93502468c205c8bc6c2dd1509f224ff8aa6649fe1f1"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_1/char_vec.pkl": {
+    "bytes": 84525,
+    "sha256": "7d48cb01bc993c4d4089ff878b1b6110e674742c837edbe28d41040780645508"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_1/model.pkl": {
+    "bytes": 2819411,
+    "sha256": "c408eb8d99b854eedb9133cb841d00db2c49e49eec162ca87d2d8f48be047f73"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_1/scaler.pkl": {
+    "bytes": 96877,
+    "sha256": "9f2fa9fe3058d14240b3920b4641b5242ba1e12c45c5f05623be434152b2ab69"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_1/word_vec.pkl": {
+    "bytes": 57630,
+    "sha256": "1d4a34147563c4ea74af5250e5fbf0f01917c04b8ecfefa19b51afc0c67398be"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_2/char_vec.pkl": {
+    "bytes": 84523,
+    "sha256": "f81b1b62f497709e612b65eff36391f35e562c3b1478b917fa461f9c52032d78"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_2/model.pkl": {
+    "bytes": 2872178,
+    "sha256": "3cad1d9aa70a3bb4d145a40ef9d4b18bab3aece32c42efc3c859aad3f7080cf5"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_2/scaler.pkl": {
+    "bytes": 96877,
+    "sha256": "6db5f8b7df2261a7fb6e9a1f93b2e743171d42b7b04d083f7158b97d9b90a695"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_2/word_vec.pkl": {
+    "bytes": 57636,
+    "sha256": "41aa2ee88ae2393a5ae3761e8828a36b7cdf861b1187f49d2e09c98e3f50ef8f"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_3/char_vec.pkl": {
+    "bytes": 84525,
+    "sha256": "6f5865df37105b38e09619a44bfbb848506febba6853d34161c91637cbfe7d23"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_3/model.pkl": {
+    "bytes": 2648600,
+    "sha256": "6449e7720eebf6f70a8a23d405fc8a3890da164417aa47c982c1a19157ae79f3"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_3/scaler.pkl": {
+    "bytes": 96877,
+    "sha256": "7c8e9b21a01b60120373e5b637f689e235ac071c2531de622009512a9610386c"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/models/rc2_experiment_3/word_vec.pkl": {
+    "bytes": 57633,
+    "sha256": "87be636122faaa43f7b78c5ee385dd875e3749b9d377712cb11ca3e71c3919b6"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/experiments/next_architecture/artifact_manifest.json": {
+    "bytes": 931,
+    "sha256": "7c05ec1f150926ddfd6af8a444cf6283c5be756c7122613eae8647a7e247020b"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/experiments/next_architecture/models/auxiliary_semantic_model.pkl": {
+    "bytes": 5259,
+    "sha256": "edf783190f53c6461ad657c294c8d93f6b09f3c85dfc4d5ec17cf6012a29efea"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/experiments/next_architecture/training_manifest.json": {
+    "bytes": 627,
+    "sha256": "a594f46facc685635dae3794a03b70e27c99b00273250de9c395e1c81e45a311"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/models/ablation_a_clf.pkl": {
+    "bytes": 5256,
+    "sha256": "ed780e5d1e6b025eadfdc233d4c5037404047ec079e3dd53e190c90c132e7a12"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/models/ablation_c_clf.pkl": {
+    "bytes": 5484,
+    "sha256": "e18d81df4c650b62f3a40122551fadc16d6d60231cf6f6ac02c054d7d8934d14"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/models/ablation_c_hgb.pkl": {
+    "bytes": 1686752,
+    "sha256": "f825d359cea88186d8036dd748ec402ea859122ad49188c5d872506b8d5ba498"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/models/scaler_structural.pkl": {
+    "bytes": 864,
+    "sha256": "6c895c7d9932bb08856c1f4d335b172e4882d91b533ac2f04c5d7f84b5094438"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/reports/artifact_manifest.json": {
+    "bytes": 3050,
+    "sha256": "b10daba2ba6ffc4348d0900eacd8420b917cb38b0d5f71d5c8b5118ac8c70996"
+  },
+  "sentinel-ml/Messages-ml/release/apk/SentinelAI-2.1.0-release-unsigned.apk": {
+    "bytes": 33270787,
+    "sha256": "a79f290d37ad625eef6600774a26eda2d44569e17365c7df321da32675f65398"
+  },
+  "sentinel-ml/Messages-ml/release/RELEASE_MANIFEST.json": {
+    "bytes": 4875,
+    "sha256": "94dd4181ffaa702903cff1119261e0d0284cdc804e0dce0c6d2c4b1fa6515c0f"
+  },
+  "sentinel-ml/Messages-ml/release/SENTINEL_MESSAGE_RELEASE_MANIFEST.json": {
+    "bytes": 4875,
+    "sha256": "94dd4181ffaa702903cff1119261e0d0284cdc804e0dce0c6d2c4b1fa6515c0f"
+  },
+  "sentinel-ml/Messages-ml/SENTINEL_MASTER_PLAN.md": {
+    "bytes": 60647,
+    "sha256": "1c3307cd3a60916f1f4ec6b4e4e99c6ec98360304d2c1b5011a9598aecc0ac46"
+  },
+  "sentinel-ml/URL-ml/experiments/phase_1c_2b_2a_balanced_preflight/candidate_malicious_bare_apex_manifest.json": {
+    "bytes": 1113,
+    "sha256": "0d2c0fd8b207d7dd4c3235d3af77e0c8a5e3c25dce8eda5b563dc56dc59a5778"
+  },
+  "sentinel-ml/URL-ml/experiments/phase_1c_2b_2a_brand_dictionary_eval/candidate_brand_dictionary_manifest.json": {
+    "bytes": 8174,
+    "sha256": "5002f1c88f89dc7988d3ae14b3bebe056fe758722d1a53a631c36cabe0eda957"
+  },
+  "sentinel-ml/URL-ml/experiments/phase_1c_2b_2a_s2_f/candidate_balanced_repaired_model.joblib": {
+    "bytes": 1649402,
+    "sha256": "ff8d45ae1ed4a7fc0aadea9fd29edbc9f318220a737ba0726f2b08f77df0ad82"
+  },
+  "sentinel-ml/URL-ml/experiments/phase_1c_2b_2a_s2_f/candidate_malicious_bare_apex_repaired_manifest.json": {
+    "bytes": 2055,
+    "sha256": "da5ac59b40267de07a708a9dbc5041f5df88b944007bf2689765bdd8c47a1a48"
+  },
+  "sentinel-ml/URL-ml/experiments/phase_1c_2b_2a_s2_f/control_model_reproduced.joblib": {
+    "bytes": 1649482,
+    "sha256": "d3816ac3537b7a9d630e32718ad51ddb94e7b59c940402a492e7adfdedc5c94c"
+  },
+  "sentinel-ml/URL-ml/experiments/phase_1c_2b_2a_track_a/candidate_model.joblib": {
+    "bytes": 1649290,
+    "sha256": "63066600b1c8a4de5a27c8dee23fef768dcb5ad8387486b288d434bca061e3f1"
+  },
+  "sentinel-ml/URL-ml/experiments/phase_1c_2b_2a_track_a/control_model.joblib": {
+    "bytes": 1649482,
+    "sha256": "3df22b22837a0d905cb181989a0e3eb60803db944f54d39eed935d55adb4ad4e"
+  },
+  "sentinel-ml/URL-ml/experiments/phase_1c_2b_prototypes/candidate_root_queries_manifest.json": {
+    "bytes": 616,
+    "sha256": "c80e3f9775672c00d7cdbba917eac04bd2f6360a6dcdf5e65169b69700c56ffe"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v1_full_w1/model.joblib": {
+    "bytes": 12931161,
+    "sha256": "5513366cb2245fc1a6d53b2f716403cf8f4d9d43dc396739499a4248566824bd"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v1_full_w1/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v1_full_w10/model.joblib": {
+    "bytes": 12917401,
+    "sha256": "b66bb4cd70e4519a11c6f19915fc5dcc6ea50160132a04910c2b8bcbc206f666"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v1_full_w10/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v1_full_w5/model.joblib": {
+    "bytes": 13486201,
+    "sha256": "2d3072776720678c785d696ecc78e18bb0a52a465ecfdfb7f7015c8747a0950b"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v1_full_w5/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v1_structural_w5/model.joblib": {
+    "bytes": 15497401,
+    "sha256": "9c1119abfd382d335ddd3e984e44850c31bdda110a9d3e6d26db1b7fed262d51"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v1_structural_w5/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v2_extra40/model.joblib": {
+    "bytes": 4824825,
+    "sha256": "7538d7f3974348123e7984c6b73547f98361fc9799065d80aa88fe407fbdb8b3"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v2_extra40/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v2_extra40_reproduction/model.joblib": {
+    "bytes": 4825001,
+    "sha256": "73602de6579250cab18cf8d553130202e607145201ea9d21a2659dec9ff9ec8f"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v2_extra40_reproduction/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v2_rf40/model.joblib": {
+    "bytes": 7463561,
+    "sha256": "8f69e56e3bce3c9711d4de1ab2cd8b2f5155c57dd3e1f1ac1bd036d6455ba252"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v2_rf40/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v3_extra40/model.joblib": {
+    "bytes": 4817785,
+    "sha256": "e1538d1252db822c422cb10e314dec8d5947392251537c131990ec2f80d66ec0"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v3_extra40/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v3_extra40_reproduction/model.joblib": {
+    "bytes": 4817961,
+    "sha256": "0c413a1e63a8a18e0d8865be896558d8cb6d1a5b3fb73faa69c95ba055bebef7"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v3_extra40_reproduction/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v3_extra40_w2/model.joblib": {
+    "bytes": 4835385,
+    "sha256": "a1b06c665cb5c35e8e1b9508b014a3371eac7ea401ee7c42c948819de79edda8"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_hardsource_v3_extra40_w2/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_source_invariant_v2_extra40/model.joblib": {
+    "bytes": 4426185,
+    "sha256": "0326aa6d64fcdae32912f21e9c9942167ebc077f60ba4a76d303a172e07b0c7c"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_source_invariant_v2_extra40/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_source_invariant_v2_gb/model.joblib": {
+    "bytes": 72649,
+    "sha256": "e24a74bd9a1af8b7a8f0b9c393f8a7a2b823ba4638cf03525112d8859a7b1a4f"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_source_invariant_v2_gb/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_source_invariant_v2_rf40/model.joblib": {
+    "bytes": 7360281,
+    "sha256": "b53b4859aed461ce9b94a4268f92924f551f4bb6a440453ee6eea93e4147e9d2"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_source_invariant_v2_rf40/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_source_invariant_v3_logistic/model.joblib": {
+    "bytes": 991,
+    "sha256": "dafe00bd18766249706e569b9a716383e0fb3fc98eff77771e97bdc6159672ab"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_source_invariant_v3_logistic/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_source_invariant_v3_sgd/model.joblib": {
+    "bytes": 1237,
+    "sha256": "047db7137d8ca7ed8ce50f00d28c6af7394be03814b19e094c821727b902cf1f"
+  },
+  "sentinel-ml/URL-ml/model/challengers/challenger_source_invariant_v3_sgd/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_char_full_1000/model.joblib": {
+    "bytes": 9627,
+    "sha256": "de318d42559c2009e24002f3fbe84b4e8f77e741bea8f6dcde3c884e1d2ba3d1"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_char_full_1000/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "add0af0f5fdef52c4fb3d4aadaf6e108b5bf5262a35b3298498b1f5eb1e742be"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_char_scopes_1500/model.joblib": {
+    "bytes": 13627,
+    "sha256": "40e1f75f577131b199048a8dd97031ecb915a3e7766afe572e3520b934f838dc"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_char_scopes_1500/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "add0af0f5fdef52c4fb3d4aadaf6e108b5bf5262a35b3298498b1f5eb1e742be"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_deterministic_only/model.joblib": {
+    "bytes": 13219321,
+    "sha256": "ec2d328a765752d00a43c2fe4b3de82507d02f3388260dee262bfb77374e086a"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_deterministic_only/scaler.joblib": {
+    "bytes": 927,
+    "sha256": "1008cbbf56e65cfbbc898e71f5a8c09d448a6d241bd5ef3d039fe9939457e937"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_host_path/model.joblib": {
+    "bytes": 15526201,
+    "sha256": "f49e57554a756e829cf02f4543b56513e1feddad782e8f5eea0966a6e91563b2"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_host_path/scaler.joblib": {
+    "bytes": 1975,
+    "sha256": "f1dd2776d6da10244b6037c1efc405d92af01a31d1fece545ef23a496ec24a9c"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_host_path_query/model.joblib": {
+    "bytes": 14012921,
+    "sha256": "32cebd5920a64517e3289c90a2c59f3de9327807663c53fcf69383772ff74c2c"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_host_path_query/scaler.joblib": {
+    "bytes": 2511,
+    "sha256": "93664b9fdc6453f2cbaf8d9b6deb3d284301a979cd45b75dc743942a84f2d5a9"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_host_path_query_interactions/model.joblib": {
+    "bytes": 13004761,
+    "sha256": "c7ba0e6d7fa97456da5963097ec3a6d830b08dcea9be3b16c7bd2b519ad3331b"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_host_path_query_interactions/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "add0af0f5fdef52c4fb3d4aadaf6e108b5bf5262a35b3298498b1f5eb1e742be"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight10_extra40/model.joblib": {
+    "bytes": 4620921,
+    "sha256": "038ebe03d47e27cdb179cc3302d81b84e797608d5e551898d0744e4f6d06bebc"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight10_extra40/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight160_extra40/model.joblib": {
+    "bytes": 4873081,
+    "sha256": "757878f9045b6718edb7bc44b250090f09f4f4669f9e07193baff5de50b8fcd0"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight160_extra40/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight20_extra40/model.joblib": {
+    "bytes": 4930681,
+    "sha256": "759d80921ee5c5ea4f44e5d3babf08705fcbb02bde138fe2e68b217dd8304fc8"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight20_extra40/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight40_extra40/model.joblib": {
+    "bytes": 4760121,
+    "sha256": "761f95572bcdac481a02bed77565fb74b3fa4ac28f99a771cbc6e0e2b066de7e"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight40_extra40/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight5_extra40/model.joblib": {
+    "bytes": 4580441,
+    "sha256": "e9c1f4cc7b336e0a30381ba84dc8a7db016952eb1bf330768a7a29dd1e8e0885"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight5_extra40/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight80_extra40/model.joblib": {
+    "bytes": 4474361,
+    "sha256": "b1f7815e466bc3019592c7d6a983d51da7b1f480a8d42ebce8c291093b890032"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v4_weight80_extra40/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v5_hgb92_rem160/model.joblib": {
+    "bytes": 698136,
+    "sha256": "1b8b85ebf7a956047fa4baf1d0e9ca7cdfef286a8afaf49199e210d7ac372ed1"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v5_hgb92_rem160/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v5_hgb92_rem40/model.joblib": {
+    "bytes": 699928,
+    "sha256": "3cd17cda4381b2875c70ed947cf0c65a49c77f0c306f85c1d255e7a7bf0729ed"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v5_hgb92_rem40/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v6_char_tfidf_logreg/model.joblib": {
+    "bytes": 480875,
+    "sha256": "1a87c62b033c97bb840b38718975e073e1048a61d07362fa8492aa2de3935f74"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v6_char_tfidf_logreg/vectorizer.joblib": {
+    "bytes": 2042960,
+    "sha256": "a6b0c69fa86335554e20a9b421c35ce864fdc1ce4e14098caf7452c55c66d1f7"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v6_et_rem3_syn1_w20/model.joblib": {
+    "bytes": 16600761,
+    "sha256": "65953e6e57d34474f8a338ee3c39b466a5cfdde211ab09ac7e62de6365f8f156"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v6_et_rem3_syn1_w20/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v6_et_rem3_syn2_w10/model.joblib": {
+    "bytes": 16159001,
+    "sha256": "4bf12092fce82f309060edf51f5843704c4c9afa980f1addff5f633a75fe1e87"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v6_et_rem3_syn2_w10/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v6_hgb_rem3_syn1_w20/model.joblib": {
+    "bytes": 918616,
+    "sha256": "bf6bd9a1b7807a31d3f78809aa9246190f23d2aa6a9a1d516f28130468f963eb"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v6_hgb_rem3_syn1_w20/scaler.joblib": {
+    "bytes": 2791,
+    "sha256": "cb27ac159bd30ef48b7c6065a703f27f6ab1399985f9b3e95f0400ef1d513432"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_et_base_w1/model.joblib": {
+    "bytes": 23895001,
+    "sha256": "ca53e66ddb050038bcce6f28441fa1332bda8504231827742d3192d26c3aa34d"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_et_base_w1/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "28420175d500e61636fd681fd1ea6357c09f640073157e00dc9a4ab4369a8a7f"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_et_compact_w1/model.joblib": {
+    "bytes": 6902841,
+    "sha256": "994929033d4902efdcf5cb51cc44cc6eb66859904c543bdd76846bc3f7a02b2b"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_et_compact_w1/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "02fd4709c5681c397eb7ef1231320d38fc90489aaad2c8665f2313cb06d0772e"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_et_compact_w3/model.joblib": {
+    "bytes": 6789561,
+    "sha256": "28d99982d7a82cd2f75d0d0da7b4b41b70b8dd9283cbb918a5fafcecefefe08f"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_et_compact_w3/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "02fd4709c5681c397eb7ef1231320d38fc90489aaad2c8665f2313cb06d0772e"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_et_compact_w5/model.joblib": {
+    "bytes": 6748441,
+    "sha256": "c078affa3191ed6c51291a9d0cc052c9bb95665834e384614120015c19583904"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_et_compact_w5/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "02fd4709c5681c397eb7ef1231320d38fc90489aaad2c8665f2313cb06d0772e"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_et_remed_w3/model.joblib": {
+    "bytes": 23541721,
+    "sha256": "0ff1290ca1c64edcd3f483e47ccd2bc3630c4f18144f89b657119692dfe84345"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_et_remed_w3/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "28420175d500e61636fd681fd1ea6357c09f640073157e00dc9a4ab4369a8a7f"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_hgb_base_w1/model.joblib": {
+    "bytes": 1107240,
+    "sha256": "16caf701bb1c9b8b40c903e831922321ac90d688f508ed77241d17be89fcf134"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_hgb_base_w1/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "28420175d500e61636fd681fd1ea6357c09f640073157e00dc9a4ab4369a8a7f"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_hgb_reg_w1/model.joblib": {
+    "bytes": 1107416,
+    "sha256": "d6da7bf69a2f44e55d5037b223b2980b72077f1b409dd6f7f95bfaa42bd29ea0"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_hgb_reg_w1/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "02fd4709c5681c397eb7ef1231320d38fc90489aaad2c8665f2313cb06d0772e"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_hgb_reg_w3/model.joblib": {
+    "bytes": 1107720,
+    "sha256": "d2539d0a2feecd7f3cbf394fe2c9bd5c8f66246a7f2e9c999f4eed952422d8d5"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_hgb_reg_w3/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "02fd4709c5681c397eb7ef1231320d38fc90489aaad2c8665f2313cb06d0772e"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_hgb_remed_w3/model.joblib": {
+    "bytes": 1107880,
+    "sha256": "34e2bf50bb8d19f834110fdaf8673ee258fd975574fd9011cd7e5b7572bd3dc2"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_hgb_remed_w3/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "28420175d500e61636fd681fd1ea6357c09f640073157e00dc9a4ab4369a8a7f"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_mlp_dense_w1/model.joblib": {
+    "bytes": 216724,
+    "sha256": "0032bc188543b056a366111018798bd9a829b064f3319905f57b6a56de6ab714"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_mlp_dense_w1/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "02fd4709c5681c397eb7ef1231320d38fc90489aaad2c8665f2313cb06d0772e"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_rf_compact_w3/model.joblib": {
+    "bytes": 12064137,
+    "sha256": "9704ef072d625f2b6de0a0ebec917e8d8613b9fcebce651955c8174a16d28838"
+  },
+  "sentinel-ml/URL-ml/model/challengers/v7_rf_compact_w3/scaler.joblib": {
+    "bytes": 1839,
+    "sha256": "02fd4709c5681c397eb7ef1231320d38fc90489aaad2c8665f2313cb06d0772e"
+  },
+  "sentinel-ml/URL-ml/model/champion/model.joblib": {
+    "bytes": 4996169,
+    "sha256": "bd412cae0749e18ee85ca3cb069ca1de7f67c9ea37f4f59d9ea0adb8bffbac2a"
+  },
+  "sentinel-ml/URL-ml/model/champion/scaler.joblib": {
+    "bytes": 1423,
+    "sha256": "71564b7ae3dcd88f37d04970e2f101652568e1873e6467909925b6d433b29c27"
+  },
+  "sentinel-ml/URL-ml/model/scaler.json": {
+    "bytes": 1242,
+    "sha256": "205ae661d614eae84610da84a18af45d3492aaa34b349e091e6407d4a53fd49a"
+  },
+  "sentinel-ml/URL-ml/model/scaler.pkl": {
+    "bytes": 1423,
+    "sha256": "b7925bed683fba41a85f834571682a3fe1f7a84c06d6dd9646144dfed48bdd2e"
+  },
+  "sentinel-ml/URL-ml/models/v7_champion.joblib": {
+    "bytes": 1649433,
+    "sha256": "d414bf668484ea5ba6056b626f0d8e674e0085208ba23d964522b09557affdaa"
+  },
+  "sentinel-ml/URL-ml/models/v7_champion_portable.json": {
+    "bytes": 1029290,
+    "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+  },
+  "sentinel-ml/URL-ml/models/v8_champion.joblib": {
+    "bytes": 709417,
+    "sha256": "073e70f215c0c3279288ec69a692ed5cab7e99a443ed7b4f87da51ae67cf0e58"
+  },
+  "sentinel-ml/URL-ml/models/v8_champion_portable.json": {
+    "bytes": 1029275,
+    "sha256": "e0e5e817beb6e1718843641b2e19e5b131690a0fc959764d83702883f557e870"
+  }
+}

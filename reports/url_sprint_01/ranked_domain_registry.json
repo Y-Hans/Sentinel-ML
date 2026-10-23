@@ -1,0 +1,246 @@
+{
+  "domains": [
+    {
+      "domain": "arxiv.org",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "atlassian.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "bing.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "bitbucket.org",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "chess.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "chessigma.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "cloudflare.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "codenames.game",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "crazygames.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "crazygames.io",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "dailymotion.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "digitalocean.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "disneyplus.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "docker.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "duckduckgo.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "epicgames.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "fastly.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "github.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "gitlab.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "google.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "heroku.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "hulu.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "itch.io",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "kubernetes.io",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "lichess.org",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "miniclip.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "mozilla.org",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "netflix.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "netlify.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "npmjs.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "poki.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "pypi.org",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "python.org",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "roblox.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "soundcloud.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "spotify.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "stackoverflow.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "steamcommunity.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "steampowered.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "trello.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "twitch.tv",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "vercel.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "vimeo.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "wikipedia.org",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "youtu.be",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "youtube.com",
+      "rank": null,
+      "source": "OBSERVED curated v8_classifier.py domain membership"
+    },
+    {
+      "domain": "instagram.com",
+      "rank": null,
+      "source": "PROVISIONAL user platform example"
+    },
+    {
+      "domain": "claude.ai",
+      "rank": null,
+      "source": "PROVISIONAL user platform example"
+    }
+  ],
+  "tranco_used": false,
+  "rank_semantics": "null = curated prototype, no measured popularity"
+}

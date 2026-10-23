@@ -1,0 +1,94 @@
+{
+  "campaign": "URL-ML V7",
+  "experiment_id": "v7_hgb_reg_w1",
+  "name": "HistGradientBoosting Regularized (W=1)",
+  "hypothesis": "Refined features + L2 regularized HGB achieves smooth non-linear separation on continuous threat features",
+  "architecture": "HistGradientBoostingClassifier",
+  "feature_count": 53,
+  "feature_schema_sha256": "852bd096b106b49bdd41a98605a119b6dc28993ebfd272e68880e2bacbad2b54",
+  "seed": 42,
+  "structural_weight": 1.0,
+  "threshold": 0.24787618809404705,
+  "source_dataset_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+  "structural_dataset_sha256": "f67c2f86692e68c368210191ba173d75988b96ccc9f808971230f3a1e39f152e",
+  "hard_dataset_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+  "train_rows": 141178,
+  "structural_rows": 48290,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.009949148795047534,
+    "malicious_recall": 0.9513201320132013,
+    "roc_auc": 0.9923944365118107,
+    "confusion_matrix": [
+      [
+        26868,
+        270
+      ],
+      [
+        826,
+        16142
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.009615033085950353,
+    "malicious_recall": 0.9775887382330081,
+    "roc_auc": 0.9975366347351677,
+    "confusion_matrix": [
+      [
+        27090,
+        263
+      ],
+      [
+        519,
+        22639
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.17713118938233793,
+    "malicious_recall": 0.9607609988109393,
+    "roc_auc": 0.9474682841290449,
+    "confusion_matrix": [
+      [
+        1612,
+        347
+      ],
+      [
+        33,
+        808
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.9733333333333334,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        104,
+        3796
+      ]
+    ]
+  },
+  "fit_seconds": 61.8415015999999,
+  "artifact": "model/challengers/v7_hgb_reg_w1",
+  "model_size_bytes": 1109255,
+  "gates": {
+    "test_fpr_pass": true,
+    "test_recall_pass": false,
+    "hard_fpr_pass": false,
+    "hard_recall_pass": true,
+    "adversarial_recall_pass": true,
+    "bundle_size_pass": true,
+    "all_gates_pass": false
+  },
+  "promotion_status": "challenger_only"
+}

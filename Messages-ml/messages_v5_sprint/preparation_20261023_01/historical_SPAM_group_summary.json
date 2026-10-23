@@ -1,0 +1,11 @@
+{
+  "rows": 1169,
+  "unique_message_ids": 1169,
+  "unique_template_groups": 1157,
+  "row_flags": 136,
+  "excluded_groups": 133,
+  "excluded_group_rows": 136,
+  "potential_rows_after_group_exclusion": 1033,
+  "actual_admitted_rows": 0,
+  "correction": "Use canonical message_id/source_id/template_cluster_id; earlier metadata extraction used id/source and can show null/MISSING despite available fields. Count-based text matches unchanged."
+}

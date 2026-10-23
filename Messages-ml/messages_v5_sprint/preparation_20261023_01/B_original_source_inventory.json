@@ -1,0 +1,163 @@
+{
+  "scope": "OBSERVED archived pre-remediation external sources; no admission/split",
+  "sources": {
+    "sidzzz07": {
+      "sha256": "73b027f1e1493f89b3e5d0b70693310312233855eb22c0c2024b7f3de41c920f",
+      "rows": 7270,
+      "originals": 3720,
+      "original_labels": {
+        "MALICIOUS": 1004,
+        "BENIGN": 2716
+      },
+      "original_language_class": {
+        "hinglish:MALICIOUS": 258,
+        "hi:MALICIOUS": 506,
+        "hinglish:BENIGN": 502,
+        "en:MALICIOUS": 240,
+        "en:BENIGN": 945,
+        "hi:BENIGN": 1269
+      },
+      "all_language_class": {
+        "hinglish:MALICIOUS": 1270,
+        "hi:MALICIOUS": 506,
+        "hinglish:BENIGN": 3040,
+        "en:MALICIOUS": 240,
+        "en:BENIGN": 945,
+        "hi:BENIGN": 1269
+      },
+      "original_label_values": {
+        "1": 1004,
+        "0": 2716
+      },
+      "notes_examples": [
+        "Original deterministic template-generated synthetic subset; all inherited real-source rows excluded. source_row_id=synth_ind_000042; source_language=Hinglish; source_template_group=group_kyc_icici; source_intent=Fake KYC. Template family must also be grouped when splitting; upstream train/validation/test assignments are not retained as an evaluation guarantee. language annotated by a deterministic token/script rule; human review needed for code mixing."
+      ],
+      "license_values": [
+        "MIT"
+      ]
+    },
+    "ridham": {
+      "sha256": "f73c5601b2a452c007572e4200b8deceebbb465a9c71a75f2a632123c2c6a9c4",
+      "rows": 1402,
+      "originals": 1068,
+      "original_labels": {
+        "MALICIOUS": 537,
+        "UNMAPPED": 531
+      },
+      "original_language_class": {
+        "en:MALICIOUS": 216,
+        "hinglish:MALICIOUS": 234,
+        "hi:UNMAPPED": 80,
+        "hi:MALICIOUS": 87,
+        "hinglish:UNMAPPED": 200,
+        "en:UNMAPPED": 251
+      },
+      "all_language_class": {
+        "en:MALICIOUS": 216,
+        "hinglish:MALICIOUS": 408,
+        "hi:UNMAPPED": 80,
+        "hinglish:UNMAPPED": 360,
+        "hi:MALICIOUS": 87,
+        "en:UNMAPPED": 251
+      },
+      "original_label_values": {
+        "scam": 537,
+        "safe": 531
+      },
+      "notes_examples": [
+        "Synthetic LLM text; upstream audit performed largely by an AI assistant, not full human annotation. source_row_id=e2866c10585a; source_language=hinglish; generator=gemini/gemini-3.5-flash-lite; generator_original_label=scam; audit_action=keep; scam_type=fake_bank_otp. language annotated by a deterministic token/script rule; human review needed for code mixing."
+      ],
+      "license_values": [
+        "CC-BY-4.0"
+      ]
+    },
+    "ysangam": {
+      "sha256": "7969f0bf71ab5c5623a6e68a799827fc19c2084effe4754f131aacbee545b6bc",
+      "rows": 743,
+      "originals": 743,
+      "original_labels": {
+        "UNMAPPED": 743
+      },
+      "original_language_class": {
+        "hinglish:UNMAPPED": 743
+      },
+      "all_language_class": {
+        "hinglish:UNMAPPED": 743
+      },
+      "original_label_values": {
+        "0": 110,
+        "1": 633
+      },
+      "notes_examples": [
+        "Call/utterance-style data, template-like repetition; not verified captured SMS. Source scam_category=none; caller_type=family; language_style=hinglish. Metadata can disagree with text. language annotated by a deterministic token/script rule; human review needed for code mixing."
+      ],
+      "license_values": [
+        "Apache-2.0"
+      ]
+    },
+    "karan": {
+      "sha256": "9b57b1579a841ea1e8663f5219211ddf52e5f767ad0066458608882a2036cfdf",
+      "rows": 69,
+      "originals": 49,
+      "original_labels": {
+        "UNMAPPED": 24,
+        "BENIGN": 25
+      },
+      "original_language_class": {
+        "hi:UNMAPPED": 10,
+        "en:BENIGN": 15,
+        "hinglish:UNMAPPED": 11,
+        "hinglish:BENIGN": 10,
+        "en:UNMAPPED": 3
+      },
+      "all_language_class": {
+        "hi:UNMAPPED": 10,
+        "hinglish:UNMAPPED": 31,
+        "en:BENIGN": 15,
+        "hinglish:BENIGN": 10,
+        "en:UNMAPPED": 3
+      },
+      "original_label_values": {
+        "scam": 24,
+        "legit": 25
+      },
+      "notes_examples": [
+        "Very small template-like source with random-looking language/domain tags and repeated urgency suffixes. source_language=Hindi; source_domain=ecommerce; source_reason=Urgency, reward or suspicious instruction. language annotated by a deterministic token/script rule; human review needed for code mixing."
+      ],
+      "license_values": [
+        "Apache-2.0"
+      ]
+    },
+    "financial2025": {
+      "sha256": "21f0ede62d369d8da8bb3a39d6661e761cadc18a1ba12d91c7f3f2414a2ee9a1",
+      "rows": 419,
+      "originals": 419,
+      "original_labels": {
+        "MALICIOUS": 249,
+        "BENIGN": 170
+      },
+      "original_language_class": {
+        "en:MALICIOUS": 249,
+        "en:BENIGN": 170
+      },
+      "all_language_class": {
+        "en:MALICIOUS": 249,
+        "en:BENIGN": 170
+      },
+      "original_label_values": {
+        "scam": 249,
+        "ham": 170
+      },
+      "notes_examples": [
+        "Distinct Mendeley 2025 financial-scam release, DOI 10.17632/znsk27yk3h.2; unrelated to excluded Mendeley 2022 dataset. Authors report consent-based real SMS/chat/email collection, anonymization and manual scam/ham labels; these claims were not independently verified. Short template-like messages occur; per-row communication medium is absent. Source languages English and Bangla; Bengali-script rows excluded locally. No external language/label API used. language annotated by a deterministic token/script rule; human review needed for code mixing."
+      ],
+      "license_values": [
+        "CC-BY-4.0"
+      ]
+    }
+  },
+  "total_originals": 5999,
+  "total_with_variants": 9903,
+  "training_rows_admitted": 0,
+  "untouched_real_Hinglish_holdout_certified": 0
+}

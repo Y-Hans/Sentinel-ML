@@ -1,0 +1,33 @@
+{
+  "status": "OBSERVED official-file prefix extraction; rank is not safety evidence",
+  "list_id": "56Z8N",
+  "configuration": {
+    "list_id": "56Z8N",
+    "available": true,
+    "failed": false,
+    "download": "https://tranco-list.eu/download/56Z8N/1000000",
+    "created_on": "2026-10-22T22:00:01.893809",
+    "configuration": {
+      "listPrefix": "1000000",
+      "combinationMethod": "dowdall",
+      "providers": [
+        "crux",
+        "farsight",
+        "majestic",
+        "radar",
+        "umbrella"
+      ],
+      "filterTLD": "false",
+      "startDate": "2026-09-23",
+      "filterPLD": "on",
+      "isDailyList": true,
+      "endDate": "2026-10-22"
+    }
+  },
+  "source_sha256": "bf3103bb0dec409876e02c753319dbe7a95f775a26142170e10d159fd183587a",
+  "derived_domains_only_path": "reports/url_sprint_01/preparation_v2_20261023/tranco_56Z8N_top100k_domains.csv",
+  "derived_sha256": "ce5fe845850a45c6232c0cce3f7c3cd5b23687128309e2d135c12d133cf4febc",
+  "rows": 100000,
+  "transform": "Keep domains from ranks 1..100000, preserve order, remove rank column; no model/policy evaluation or label assignment",
+  "terms_status": "COMPOSITE_UPSTREAM_TERMS_REVIEW_REQUIRED_BEFORE_PRODUCT_USE"
+}

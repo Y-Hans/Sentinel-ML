@@ -1,0 +1,69 @@
+{
+  "status": "REPORTED historical model outcomes; OBSERVED files/counts/hashes",
+  "sources": {
+    "sentinel-ml/Messages-ml/SENTINEL_MASTER_PLAN.md": {
+      "sha256": "1c3307cd3a60916f1f4ec6b4e4e99c6ec98360304d2c1b5011a9598aecc0ac46",
+      "bytes": 60647
+    },
+    "sentinel-ml/7sep_messages_v3/reports/HINGLISH_520_ATTACK_AUDIT.json": {
+      "sha256": "2d1e2fab0a5e82616ea0d5972dcd4dc7e209fbf4c07c2c60b4f597702c8d9a44",
+      "bytes": 207931
+    },
+    "sentinel-ml/7sep_messages_v3/reports/HINGLISH_ROBUSTNESS_REPORT.md": {
+      "sha256": "082067a5e531f15770eb48101de7b8ed2b8b6215591506ec7dcbe87af8e37ea5",
+      "bytes": 4436
+    },
+    "sentinel-ml/7sep_messages_v3/data/bench_hinglish_robustness.jsonl": {
+      "sha256": "ddcf2d464a7f1a7d9f95a5174883b30224209e5fa44d66d24998a75f4f606ce6",
+      "bytes": 13523
+    }
+  },
+  "master_claim": "section6.2 attributes87.1% and67/520misses toV2Champion",
+  "underlying_520_source": "sentinel-ml/7sep_messages_v3/reports/HINGLISH_520_ATTACK_AUDIT.json",
+  "dataset_location": "sentinel-ml/7sep_messages_v3/reports/HINGLISH_520_ATTACK_AUDIT.json::detailed_eval (embedded520authored attack records; no separate source-file provenance certified)",
+  "embedded_records": 520,
+  "embedded_fields": [
+    "category",
+    "raw_text",
+    "sender",
+    "p_v2",
+    "v2_detected",
+    "p_v3_ts",
+    "v3_ts_reason",
+    "v3_ts_detected",
+    "status",
+    "failure_reason"
+  ],
+  "reported_v2_recall": 0.6288461538461538,
+  "reported_v2_detected": 327,
+  "reported_V3_two_stage_recall": 0.8711538461538462,
+  "reported_V3_two_stage_detected": 453,
+  "category_counts": {
+    "OTP": 40,
+    "UPI": 40,
+    "PIN": 40,
+    "KYC": 40,
+    "banking": 40,
+    "electricity": 40,
+    "delivery": 40,
+    "account_takeover": 40,
+    "credential_theft": 40,
+    "malicious_links": 40,
+    "remote_access": 40,
+    "apk": 40,
+    "qr_payment": 40
+  },
+  "misattribution": "87.115%=453/520 belongs toV3two-stage, notV2;V2reported327/520=62.885%. Master figure is preserved but not treated as a V2 baseline.",
+  "historical_100_slice": {
+    "path": "sentinel-ml/7sep_messages_v3/data/bench_hinglish_robustness.jsonl",
+    "rows": 100,
+    "stored_labels": {
+      "MALICIOUS": 50,
+      "BENIGN": 50
+    },
+    "reported_V2_recall_from_report": 0.14,
+    "report_denominator": 50
+  },
+  "prior_never_intentionally_tested_premise": "Contradicted forV2 by existing100row slice and520row audit; not claiming every currentvariant previouslytested",
+  "new_probe_reused_historical_text": false
+}

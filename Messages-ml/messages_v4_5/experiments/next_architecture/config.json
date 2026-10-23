@@ -1,0 +1,12 @@
+{
+  "primary_model": "Sentinel Messages V4.3 Candidate-D",
+  "primary_tau": 0.61,
+  "auxiliary_model": "SentenceTransformer all-MiniLM-L6-v2 + LogisticRegression",
+  "auxiliary_train_size": 12753,
+  "theta_upgrade": 0.95,
+  "upgrade_margin_min": 0.4,
+  "theta_downgrade_benign": 0.95,
+  "downgrade_v43_p_mal_ceiling": 0.7,
+  "downgrade_aux_p_mal_ceiling": 0.05,
+  "downgrade_margin_min": 0.5
+}

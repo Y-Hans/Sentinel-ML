@@ -1,0 +1,18 @@
+{
+  "status": "UNAPPROVED_PREPARATION_ONLY",
+  "parent_files": {
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PRE_REGISTRATION.md": "f4b3b618c7116bc1647c4893de8a998fe3ee7c2665ee277e5420a10c272e3ef6",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PRE_REGISTRATION_EXECUTION_CLARIFICATIONS.md": "a5d0f8f5af906240b6015fa738b720eb1e527411937c2969a3d4ccaa05d6f9a7"
+  },
+  "new_files": {
+    "DATA_READINESS_v2.md": "305de60f7b225a347d31b29c48ea51788bffad072ee9704d9c587d325d07ee27",
+    "PRE_REGISTRATION_AMENDMENT_v2.md": "e20c38f3b484b5a7166528c409f246183a24d95156ba3bedfa1de4c089f51000",
+    "BLOCKERS_v2.md": "27272ff9475ce99d6fdd234824cdf5b6c0e87851489fda14140a0695c89dbd2b",
+    "PROPOSED_APPROVAL_TEXT.md": "889b5373e1e0caad78e1575f2aa2ef7cd6695731bb944c039105d4ea93fdbf21",
+    "ANDROID_PATCH_PROPOSAL.md": "4aec0a57d27d05e5eb102e500fb5eca5f213df8b49b2ad34522f8c545f2a972a",
+    "PROPOSED_ANDROID_MALICIOUS_ONLY.patch": "97d381783af6425d6eb1254387e4ebe44c09fc072993cf8a84045a3c7185ac01",
+    "PROPOSED_ANDROID_TEST_MATRIX.csv": "bcacad65d8e08bcc65f9d6eb48eefe7fe4e9391180136e6c37780c5a6e5b5068"
+  },
+  "new_model_training_authorized": false,
+  "validation_threshold_scan_authorized": false
+}

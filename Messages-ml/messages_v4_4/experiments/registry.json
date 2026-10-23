@@ -1,0 +1,105 @@
+{
+  "project": "Sentinel Messages V4.4 RC2 Iterative Pipeline",
+  "baseline_parent": {
+    "name": "Candidate B (V4.4-RC1)",
+    "status": "FROZEN_RELEASE_CANDIDATE",
+    "model_hash": "7b6d137bc623635c132840b79e41cac6cfed8134952491ad9563730b5f9fea34",
+    "scaler_hash": "6fae3b169a7a6d885970f80e3876007b2ae1648882ccdd1c795cf021f6012fac",
+    "word_vec_hash": "5a1fd2c62cd5b28426091a69be44c6a871887e875ef7317d8388d9e5991ab277",
+    "char_vec_hash": "f75f0c5ae63baa26f8702d014a01826c002c1a4803f6d1a8a26656bcdc6a4abe",
+    "config_hash": "a833f64776004d44cb451f05cfa4ffc211dd9dfb598af14ecaeaef31ce599373",
+    "corpus_path": "messages_v4_4/data/train_v4_4_b.jsonl",
+    "corpus_hash": "132646ea8cbf3eaeb05d76d3f27ff9d71c4c1d76ca096ff8659d486d34b41a87",
+    "corpus_rows": 20257,
+    "validation_threshold": 0.63,
+    "known_issues": [
+      "Benign utility holdout probe FPR = 47.3% (26/55 FPs)",
+      "Single-word 'Hello' false positive (p=0.9459)",
+      "Institutional partnerships recall regression (56.2% vs V4.3's 75.0%)",
+      "Legitimate OTP SMS FPR = 68.0% (17/25 FPs) in system notifications holdout"
+    ]
+  },
+  "experiments": [
+    {
+      "experiment_id": "RC2-EXPERIMENT-1",
+      "title": "Benign Utility Rebalancing",
+      "parent_model": "Candidate B (V4.4-RC1)",
+      "parent_model_hash": "7b6d137bc623635c132840b79e41cac6cfed8134952491ad9563730b5f9fea34",
+      "corpus_path": "messages_v4_4/data/train_v4_4_rc2_exp1.jsonl",
+      "corpus_hash": "1750808fb5d3d71f5db779d4273596404d480054115d96077d3ad4ad420a7f3e",
+      "corpus_rows": 20495,
+      "exact_corpus_additions": "238 authentic multi-state DISCOM notices, official bills, payment receipts, meter readings, solar net metering credits",
+      "threshold": 0.68,
+      "model_hash": "c408eb8d99b854eedb9133cb841d00db2c49e49eec162ca87d2d8f48be047f73",
+      "scaler_hash": "9f2fa9fe3058d14240b3920b4641b5242ba1e12c45c5f05623be434152b2ab69",
+      "word_vec_hash": "1d4a34147563c4ea74af5250e5fbf0f01917c04b8ecfefa19b51afc0c67398be",
+      "char_vec_hash": "7d48cb01bc993c4d4089ff878b1b6110e674742c837edbe28d41040780645508",
+      "key_metrics": {
+        "benign_electricity_holdout_fp": "11/55 (20.0%) vs RC1 26/55 (47.3%)",
+        "malicious_electricity_slice": "3/3 (100.0%)",
+        "malicious_electricity_holdout": "52/55 (94.5%)",
+        "clean_ood_fpr": "0/249 (0.00%)",
+        "clean_ood_recall": "714/747 (95.6%)",
+        "test_split_fpr": "3/520 (0.58%)",
+        "test_split_recall": "1507/1556 (96.85%)",
+        "real_mobile_simulation_fp": "9/291 (3.1%) vs RC1 11/291 (3.8%)"
+      },
+      "decision": "ACCEPTED_AND_FROZEN_AS_PARENT_FOR_EXP2"
+    },
+    {
+      "experiment_id": "RC2-EXPERIMENT-2",
+      "title": "Isolated Greeting Calibration & Conversational Lures",
+      "parent_model": "RC2-EXPERIMENT-1",
+      "parent_model_hash": "c408eb8d99b854eedb9133cb841d00db2c49e49eec162ca87d2d8f48be047f73",
+      "corpus_path": "messages_v4_4/data/train_v4_4_rc2_exp2.jsonl",
+      "corpus_hash": "e67311390888ffd590b360958d5f691a8a8bc8450b7073d0e59fd3d68a19a446",
+      "corpus_rows": 20543,
+      "exact_corpus_additions": "48 targeted greeting records (38 benign short greetings & variants, 10 balanced conversational lures)",
+      "threshold": 0.68,
+      "model_hash": "3cad1d9aa70a3bb4d145a40ef9d4b18bab3aece32c42efc3c859aad3f7080cf5",
+      "scaler_hash": "6db5f8b7df2261a7fb6e9a1f93b2e743171d42b7b04d083f7158b97d9b90a695",
+      "word_vec_hash": "41aa2ee88ae2393a5ae3761e8828a36b7cdf861b1187f49d2e09c98e3f50ef8f",
+      "char_vec_hash": "f81b1b62f497709e612b65eff36391f35e562c3b1478b917fa461f9c52032d78",
+      "key_metrics": {
+        "benign_electricity_holdout_fp": "12/55 (21.8%) vs RC1 26/55 (47.3%)",
+        "malicious_electricity_slice": "3/3 (100.0%)",
+        "malicious_electricity_holdout": "54/55 (98.2%)",
+        "clean_ood_fpr": "0/249 (0.00%)",
+        "clean_ood_recall": "717/747 (95.98%)",
+        "test_split_fpr": "3/520 (0.58%)",
+        "test_split_recall": "1503/1556 (96.59%)",
+        "real_mobile_simulation_fp": "10/291 (3.44%) vs RC1 11/291 (3.78%)",
+        "greeting_probes": "Hello. p=0.6693 (PASS), Hi p=0.5780 (PASS), bare Hello p=0.8322 (down from 0.9459)"
+      },
+      "decision": "ACCEPTED_AND_FROZEN_AS_PARENT_FOR_EXP3"
+    },
+    {
+      "experiment_id": "RC2-EXPERIMENT-3",
+      "title": "Institutional Callback & Phishing Lure Balancing",
+      "parent_model": "RC2-EXPERIMENT-2",
+      "parent_model_hash": "3cad1d9aa70a3bb4d145a40ef9d4b18bab3aece32c42efc3c859aad3f7080cf5",
+      "corpus_path": "messages_v4_4/data/train_v4_4_rc2_exp3.jsonl",
+      "corpus_hash": "e9b45c52834a00caf36a199c47669eea7b00def88e2b15140c64cdb9cec5b2b2",
+      "corpus_rows": 20581,
+      "exact_corpus_additions": "38 verified zero-leakage institutional records (24 phishing lures with APK/OTP/CVV/fee triggers, 14 authentic departmental notices)",
+      "threshold": 0.74,
+      "model_hash": "6449e7720eebf6f70a8a23d405fc8a3890da164417aa47c982c1a19157ae79f3",
+      "scaler_hash": "7c8e9b21a01b60120373e5b637f689e235ac071c2531de622009512a9610386c",
+      "word_vec_hash": "87be636122faaa43f7b78c5ee385dd875e3749b9d377712cb11ca3e71c3919b6",
+      "char_vec_hash": "6f5865df37105b38e09619a44bfbb848506febba6853d34161c91637cbfe7d23",
+      "key_metrics": {
+        "benign_electricity_holdout_fp": "9/55 (16.4%) vs RC1 26/55 (47.3%)",
+        "malicious_electricity_slice": "3/3 (100.0%)",
+        "malicious_electricity_holdout": "53/55 (96.4%)",
+        "clean_ood_fpr": "0/249 (0.00%)",
+        "clean_ood_recall": "715/747 (95.72%)",
+        "test_split_fpr": "2/520 (0.38%)",
+        "test_split_recall": "1494/1556 (96.02%)",
+        "real_mobile_simulation_fp": "9/291 (3.09%) vs RC1 11/291 (3.78%)",
+        "institutional_callback_probe_fp": "6/30 (20.0%) vs RC1 15/30 (50.0%)",
+        "greeting_probes": "Hello. p=0.5512 (PASS), Hi p=0.5640 (PASS), bare Hello p=0.7975"
+      },
+      "decision": "EVALUATED_AND_FROZEN_AS_RC2_EXP3"
+    }
+  ]
+}

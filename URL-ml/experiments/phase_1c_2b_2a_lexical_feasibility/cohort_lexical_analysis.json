@@ -1,0 +1,266 @@
+[
+  {
+    "cohort": "Regressed_Malicious_Apex_N272",
+    "total_urls": 272,
+    "mean_domain_label_len": 11.72,
+    "median_domain_label_len": 11.0,
+    "has_hyphen_count": 70,
+    "has_hyphen_pct": 25.74,
+    "has_digit_count": 8,
+    "has_digit_pct": 2.94,
+    "v7_suspicious_word_count": 16,
+    "v7_suspicious_word_pct": 5.88,
+    "extended_phish_keyword_count": 38,
+    "extended_phish_keyword_pct": 13.97,
+    "high_precision_keyword_count": 13,
+    "high_precision_keyword_pct": 4.78,
+    "common_brand_token_count": 4,
+    "common_brand_token_pct": 1.47,
+    "top_keywords": [
+      [
+        "secure",
+        8
+      ],
+      [
+        "login",
+        5
+      ],
+      [
+        "fatura",
+        4
+      ],
+      [
+        "bank",
+        4
+      ],
+      [
+        "coin",
+        3
+      ],
+      [
+        "auth",
+        2
+      ],
+      [
+        "delivery",
+        2
+      ],
+      [
+        "service",
+        2
+      ],
+      [
+        "office",
+        2
+      ],
+      [
+        "verify",
+        2
+      ]
+    ]
+  },
+  {
+    "cohort": "Retained_Malicious_Apex_N3916",
+    "total_urls": 3916,
+    "mean_domain_label_len": 9.48,
+    "median_domain_label_len": 7.0,
+    "has_hyphen_count": 866,
+    "has_hyphen_pct": 22.11,
+    "has_digit_count": 509,
+    "has_digit_pct": 13.0,
+    "v7_suspicious_word_count": 44,
+    "v7_suspicious_word_pct": 1.12,
+    "extended_phish_keyword_count": 198,
+    "extended_phish_keyword_pct": 5.06,
+    "high_precision_keyword_count": 28,
+    "high_precision_keyword_pct": 0.72,
+    "common_brand_token_count": 389,
+    "common_brand_token_pct": 9.93,
+    "top_keywords": [
+      [
+        "express",
+        27
+      ],
+      [
+        "service",
+        22
+      ],
+      [
+        "support",
+        14
+      ],
+      [
+        "auth",
+        13
+      ],
+      [
+        "fatura",
+        12
+      ],
+      [
+        "bank",
+        10
+      ],
+      [
+        "secure",
+        9
+      ],
+      [
+        "access",
+        8
+      ],
+      [
+        "update",
+        7
+      ],
+      [
+        "security",
+        7
+      ]
+    ]
+  },
+  {
+    "cohort": "Benchmark_Benign_Apex_N200",
+    "total_urls": 200,
+    "mean_domain_label_len": 6.88,
+    "median_domain_label_len": 6.5,
+    "has_hyphen_count": 7,
+    "has_hyphen_pct": 3.5,
+    "has_digit_count": 1,
+    "has_digit_pct": 0.5,
+    "v7_suspicious_word_count": 1,
+    "v7_suspicious_word_pct": 0.5,
+    "extended_phish_keyword_count": 3,
+    "extended_phish_keyword_pct": 1.5,
+    "high_precision_keyword_count": 1,
+    "high_precision_keyword_pct": 0.5,
+    "common_brand_token_count": 2,
+    "common_brand_token_pct": 1.0,
+    "top_keywords": [
+      [
+        "auth",
+        1
+      ],
+      [
+        "security",
+        1
+      ],
+      [
+        "conta",
+        1
+      ]
+    ]
+  },
+  {
+    "cohort": "Baseline_CleanTest_FP_N263",
+    "total_urls": 263,
+    "mean_domain_label_len": 13.05,
+    "median_domain_label_len": 10.0,
+    "has_hyphen_count": 102,
+    "has_hyphen_pct": 38.78,
+    "has_digit_count": 53,
+    "has_digit_pct": 20.15,
+    "v7_suspicious_word_count": 1,
+    "v7_suspicious_word_pct": 0.38,
+    "extended_phish_keyword_count": 8,
+    "extended_phish_keyword_pct": 3.04,
+    "high_precision_keyword_count": 0,
+    "high_precision_keyword_pct": 0.0,
+    "common_brand_token_count": 15,
+    "common_brand_token_pct": 5.7,
+    "top_keywords": [
+      [
+        "service",
+        1
+      ],
+      [
+        "finance",
+        1
+      ],
+      [
+        "crypto",
+        1
+      ],
+      [
+        "wallet",
+        1
+      ],
+      [
+        "card",
+        1
+      ],
+      [
+        "fund",
+        1
+      ],
+      [
+        "bank",
+        1
+      ],
+      [
+        "express",
+        1
+      ]
+    ]
+  },
+  {
+    "cohort": "Independent_Benign_Apex_N15k",
+    "total_urls": 15000,
+    "mean_domain_label_len": 11.02,
+    "median_domain_label_len": 11.0,
+    "has_hyphen_count": 1161,
+    "has_hyphen_pct": 7.74,
+    "has_digit_count": 408,
+    "has_digit_pct": 2.72,
+    "v7_suspicious_word_count": 36,
+    "v7_suspicious_word_pct": 0.24,
+    "extended_phish_keyword_count": 249,
+    "extended_phish_keyword_pct": 1.66,
+    "high_precision_keyword_count": 13,
+    "high_precision_keyword_pct": 0.09,
+    "common_brand_token_count": 69,
+    "common_brand_token_pct": 0.46,
+    "top_keywords": [
+      [
+        "bank",
+        35
+      ],
+      [
+        "card",
+        22
+      ],
+      [
+        "express",
+        20
+      ],
+      [
+        "coin",
+        15
+      ],
+      [
+        "service",
+        14
+      ],
+      [
+        "portal",
+        12
+      ],
+      [
+        "office",
+        12
+      ],
+      [
+        "invest",
+        11
+      ],
+      [
+        "fund",
+        10
+      ],
+      [
+        "security",
+        10
+      ]
+    ]
+  }
+]

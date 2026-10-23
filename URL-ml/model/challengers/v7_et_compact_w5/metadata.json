@@ -1,0 +1,94 @@
+{
+  "campaign": "URL-ML V7",
+  "experiment_id": "v7_et_compact_w5",
+  "name": "ExtraTrees Compact (80 Trees, Depth 16, W=5)",
+  "hypothesis": "5x sample weight further drives down hard-source FPR while monitoring TEST recall",
+  "architecture": "ExtraTreesClassifier",
+  "feature_count": 53,
+  "feature_schema_sha256": "852bd096b106b49bdd41a98605a119b6dc28993ebfd272e68880e2bacbad2b54",
+  "seed": 42,
+  "structural_weight": 5.0,
+  "threshold": 0.641179339669835,
+  "source_dataset_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+  "structural_dataset_sha256": "f67c2f86692e68c368210191ba173d75988b96ccc9f808971230f3a1e39f152e",
+  "hard_dataset_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+  "train_rows": 141178,
+  "structural_rows": 48290,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.009985997494288452,
+    "malicious_recall": 0.7578382838283828,
+    "roc_auc": 0.9043398136400924,
+    "confusion_matrix": [
+      [
+        26867,
+        271
+      ],
+      [
+        4109,
+        12859
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.009432237780133806,
+    "malicious_recall": 0.7773555574747387,
+    "roc_auc": 0.952258141974296,
+    "confusion_matrix": [
+      [
+        27095,
+        258
+      ],
+      [
+        5156,
+        18002
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.0010209290454313426,
+    "malicious_recall": 0.667063020214031,
+    "roc_auc": 0.991478095245032,
+    "confusion_matrix": [
+      [
+        1957,
+        2
+      ],
+      [
+        280,
+        561
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.7225641025641025,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        1082,
+        2818
+      ]
+    ]
+  },
+  "fit_seconds": 33.280700199999046,
+  "artifact": "model/challengers/v7_et_compact_w5",
+  "model_size_bytes": 6750280,
+  "gates": {
+    "test_fpr_pass": true,
+    "test_recall_pass": false,
+    "hard_fpr_pass": true,
+    "hard_recall_pass": false,
+    "adversarial_recall_pass": false,
+    "bundle_size_pass": true,
+    "all_gates_pass": false
+  },
+  "promotion_status": "challenger_only"
+}

@@ -1,0 +1,81 @@
+=== CHAMPION V2 ARTIFACT HASHES ===
+champion_v2_model.pkl              d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887
+champion_v2_scaler.pkl             6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999
+champion_v2_tfidf_word.pkl         b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495
+champion_v2_tfidf_char.pkl         19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701
+loaded train.jsonl: 15855
+loaded val.jsonl: 3397
+loaded test.jsonl: 2264
+loaded ood.jsonl: 1132
+loaded train_expanded_v8.jsonl: 18311
+
+=== N-GRAM PRESENCE BY SPLIT x LABEL (docs containing) ===
+
+-- train.jsonl --  BENIGN:3714, MALICIOUS:10972, SUSPICIOUS_SPAM:1169
+   institutional  BENI:0/0/0/0/0/0  SUSP:1/0/0/1/0/0  MALI:0/0/0/10/0/0   grams=['partnered', 'procure', 'available next week', 'announcement', 'scholarship', 'campus drive']
+   hinglish_chat  BENI:0/0/0/0/0/36  SUSP:0/0/1/0/0/1  MALI:1/0/2/1/1/9   grams=['baje', 'dekhte', 'karke', 'bhej', 'chalega', 'meeting']
+   promo          BENI:0/0  SUSP:0/5  MALI:3/65   grams=['amazon prime', 'jio']
+   delivery_otp   BENI:20/10  SUSP:0/0  MALI:0/18   grams=['delivery otp', 'out for delivery']
+
+-- val.jsonl --  BENIGN:807, MALICIOUS:2316, SUSPICIOUS_SPAM:274
+   institutional  BENI:0/0/0/0/0/0  SUSP:0/0/0/0/0/0  MALI:1/0/0/1/0/0   grams=['partnered', 'procure', 'available next week', 'announcement', 'scholarship', 'campus drive']
+   hinglish_chat  BENI:0/0/0/0/0/9  SUSP:0/0/0/0/0/0  MALI:0/0/0/2/0/3   grams=['baje', 'dekhte', 'karke', 'bhej', 'chalega', 'meeting']
+   promo          BENI:0/0  SUSP:0/1  MALI:0/10   grams=['amazon prime', 'jio']
+   delivery_otp   BENI:0/0  SUSP:0/0  MALI:0/2   grams=['delivery otp', 'out for delivery']
+
+-- test.jsonl --  BENIGN:520, MALICIOUS:1556, SUSPICIOUS_SPAM:188
+   institutional  BENI:0/0/0/0/0/0  SUSP:0/0/0/0/0/0  MALI:0/0/0/0/0/0   grams=['partnered', 'procure', 'available next week', 'announcement', 'scholarship', 'campus drive']
+   hinglish_chat  BENI:0/0/0/0/0/2  SUSP:0/0/0/0/0/0  MALI:0/0/0/0/0/2   grams=['baje', 'dekhte', 'karke', 'bhej', 'chalega', 'meeting']
+   promo          BENI:0/0  SUSP:0/1  MALI:0/13   grams=['amazon prime', 'jio']
+   delivery_otp   BENI:0/0  SUSP:0/0  MALI:0/3   grams=['delivery otp', 'out for delivery']
+
+-- ood.jsonl --  BENIGN:255, MALICIOUS:794, SUSPICIOUS_SPAM:83
+   institutional  BENI:0/0/0/0/0/0  SUSP:0/0/0/0/0/0  MALI:1/0/0/0/0/0   grams=['partnered', 'procure', 'available next week', 'announcement', 'scholarship', 'campus drive']
+   hinglish_chat  BENI:0/0/0/0/0/4  SUSP:0/0/0/0/0/0  MALI:0/0/0/0/0/2   grams=['baje', 'dekhte', 'karke', 'bhej', 'chalega', 'meeting']
+   promo          BENI:0/0  SUSP:0/0  MALI:0/4   grams=['amazon prime', 'jio']
+   delivery_otp   BENI:0/10  SUSP:0/0  MALI:0/1   grams=['delivery otp', 'out for delivery']
+
+-- train_expanded_v8.jsonl --  BENIGN:5132, MALICIOUS:12010, SUSPICIOUS_SPAM:1169
+   institutional  BENI:3/0/0/0/0/0  SUSP:1/0/0/1/0/0  MALI:0/0/0/10/0/0   grams=['partnered', 'procure', 'available next week', 'announcement', 'scholarship', 'campus drive']
+   hinglish_chat  BENI:0/0/0/0/0/36  SUSP:0/0/1/0/0/1  MALI:1/0/2/1/1/9   grams=['baje', 'dekhte', 'karke', 'bhej', 'chalega', 'meeting']
+   promo          BENI:0/23  SUSP:0/5  MALI:3/91   grams=['amazon prime', 'jio']
+   delivery_otp   BENI:20/10  SUSP:0/0  MALI:0/18   grams=['delivery otp', 'out for delivery']
+
+=== CONTAMINATION CHECK (failure texts vs splits) ===
+-- INST_FP --
+   [ABSENT                                                      ] 'Dear students, the university has partnered with Dell to offer discoun'
+   [ABSENT                                                      ] 'Hi everyone, our institution has procured new campus software licenses'
+   [ABSENT                                                      ] 'Infrastructure announcements: New campus Wi-Fi provided by Cisco. Avai'
+   [ABSENT                                                      ] 'Scholarship announcements: Our institution has provided new funds. Ava'
+   [ABSENT                                                      ] 'IT announcements: Dear team, university email migration next week. Pro'
+   [ABSENT                                                      ] 'Library announcements: Dear students, our institution has partnered wi'
+-- INST_MISS --
+   [ABSENT                                                      ] 'College announcement: Faculty must install this .apk for new campus la'
+   [ABSENT                                                      ] 'Corporate partnership: Microsoft requires you to update password immed'
+   [ABSENT                                                      ] 'Internship announcements: We have partnered with firms. Pay processing'
+   [ABSENT                                                      ] 'Event announcements: Campus festival next week. Buy tickets, UPI trans'
+   [ABSENT                                                      ] 'Faculty notices: Next week meetings. Last chance to avoid account susp'
+-- SIM_FP --
+   [train.jsonl:NEAR(1.00,MALICIOUS)                            ] 'Dear Customer,\nAmazon Prime is included in your Jio plan. Activate now'
+   [ABSENT                                                      ] 'Okay baad mein meeting run karke dikhana aur explain karna'
+   [ABSENT                                                      ] 'aaradhay and yashika: quality check + lesion segmentation model'
+   [ABSENT                                                      ] 'Meeting time? Link ka dekhte hai'
+   [ABSENT                                                      ] 'aur simulation code se bana sakte hai shayad toh github code mile ya f'
+   [ABSENT                                                      ] 'DR severity vala 8 nahi, 4-5 hai.. 2-3 ek hi model se ho jayenge separ'
+   [ABSENT                                                      ] 'https://github.com/rsk97/Diabetic-Retinopathy-Detection'
+   [ABSENT                                                      ] 'https://drive.google.com/drive/folders/1b7CsAPxwJZupBE8d_WD'
+   [ABSENT                                                      ] 'Meeting hai na 10 bhaje?'
+   [ABSENT                                                      ] 'SENTINEL - SUNDAY SINOVA - SUNDAY'
+   [ABSENT                                                      ] 'Run kar sakte hai..like values change kar sakte hai'
+   [ABSENT                                                      ] 'Retina.. Diabetic retinopathy'
+   [ABSENT                                                      ] 'Raat ko jab sab free ho @all 9 baje chalega?'
+   [ABSENT                                                      ] 'Ha ha..voh toh aap bhej do..because protype link hai'
+   [ABSENT                                                      ] '1. AI-Doctor Disagreement Alert Sometimes the AI and doctor may give d'
+   [ABSENT                                                      ] 'Your order is out for delivery. Share delivery OTP with partner upon a'
+
+=== LANGUAGE FIELDS IN SPLITS ===
+train.jsonl              {'en': 15792, 'hinglish': 49, 'UNKNOWN': 14}
+val.jsonl                {'en': 3377, 'hinglish': 18, 'UNKNOWN': 2}
+test.jsonl               {'en': 2258, 'UNKNOWN': 3, 'hinglish': 3}
+ood.jsonl                {'en': 1129, 'hinglish': 3}
+train_expanded_v8.jsonl  {'en': 18248, 'hinglish': 49, 'UNKNOWN': 14}

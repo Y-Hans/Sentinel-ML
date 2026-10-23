@@ -1,0 +1,53 @@
+{
+  "total_records": 22648,
+  "exact_duplicates_removed": 11739,
+  "template_cluster_count": 21680,
+  "split_counts": {
+    "TRAIN": 15855,
+    "VALIDATION": 3397,
+    "TEST": 2264,
+    "OOD": 1132
+  },
+  "security_distribution": {
+    "MALICIOUS": 15638,
+    "BENIGN": 5296,
+    "SUSPICIOUS_SPAM": 1714
+  },
+  "intent_distribution": {
+    "UNKNOWN": 4704,
+    "GOVERNMENT_INFO": 1426,
+    "PERSONAL_P2P": 5042,
+    "BANKING_TRANSACTIONAL": 6753,
+    "DELIVERY": 1362,
+    "SERVICE_UPDATE": 1483,
+    "PROMOTIONAL": 1737,
+    "OTP_AUTH": 141
+  },
+  "threat_vector_distribution": {
+    "CREDENTIAL_REQUEST": 7547,
+    "NONE": 5296,
+    "BANK_KYC_SUSPENSION": 6763,
+    "DELIVERY_SCAM": 1262,
+    "COMMERCIAL_SPAM": 1714,
+    "APK_MALWARE_DROPPER": 258,
+    "ELECTRICITY_DISCONNECTION_SCAM": 24,
+    "UPI_COLLECT_FRAUD": 20,
+    "LOTTERY_PRIZE_FRAUD": 10,
+    "OTP_DISCLOSURE_REQUEST": 41,
+    "PART_TIME_JOB_SCAM": 3,
+    "PAYMENT_SCAM": 30,
+    "TRAFFIC_CHALLAN_PHISHING": 1
+  },
+  "language_distribution": {
+    "en": 22556,
+    "hinglish": 73,
+    "UNKNOWN": 19
+  },
+  "sender_distribution": {
+    "UNKNOWN": 22078,
+    "ALPHANUMERIC_HEADER": 487,
+    "PHONE_NUMBER": 83
+  },
+  "hard_negatives_in_benign": 299,
+  "hard_negatives_proportion_in_benign": "5.65%"
+}

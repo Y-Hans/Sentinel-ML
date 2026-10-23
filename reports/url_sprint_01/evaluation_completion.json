@@ -1,0 +1,8 @@
+{
+  "time_utc": "2026-10-23T05:09:11.454304+00:00",
+  "elapsed_seconds": 288.46900000000005,
+  "fit_count": 0,
+  "exit_code_expected": 0,
+  "probe_sha256_after": "635cbda6f0728ae837536b7caec54444ee8d13c1f7c61dea6eb5898d9849e03b",
+  "policy_sha256_after": "5c265df09ad9b593edde390c5632a8fe5a02d5bbd5887bbcbc9e71932d7eecef"
+}

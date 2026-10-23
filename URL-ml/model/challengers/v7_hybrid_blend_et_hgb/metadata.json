@@ -1,0 +1,84 @@
+{
+  "campaign": "URL-ML V7",
+  "experiment_id": "v7_hybrid_blend_et_hgb",
+  "name": "Hybrid Blend (Compact ExtraTrees + Regularized HGB)",
+  "hypothesis": "Equal blend of compact ExtraTrees and regularized HGB provides stable joint operating point under 8 MB bundle size",
+  "architecture": "Ensemble(ExtraTrees+HistGradientBoosting)",
+  "feature_count": 53,
+  "threshold": 0.4267866433216609,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.009985997494288452,
+    "malicious_recall": 0.9220297029702971,
+    "roc_auc": 0.9715023695920018,
+    "confusion_matrix": [
+      [
+        26867,
+        271
+      ],
+      [
+        1323,
+        15645
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.00870105655686762,
+    "malicious_recall": 0.9323775801019086,
+    "roc_auc": 0.9911586035666218,
+    "confusion_matrix": [
+      [
+        27115,
+        238
+      ],
+      [
+        1566,
+        21592
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.11281265952016335,
+    "malicious_recall": 0.9084423305588585,
+    "roc_auc": 0.9731256513581936,
+    "confusion_matrix": [
+      [
+        1738,
+        221
+      ],
+      [
+        77,
+        764
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.9574358974358974,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        166,
+        3734
+      ]
+    ]
+  },
+  "model_size_bytes": 7905675,
+  "gates": {
+    "test_fpr_pass": true,
+    "test_recall_pass": false,
+    "hard_fpr_pass": false,
+    "hard_recall_pass": false,
+    "adversarial_recall_pass": true,
+    "bundle_size_pass": true,
+    "all_gates_pass": false
+  },
+  "promotion_status": "challenger_only"
+}

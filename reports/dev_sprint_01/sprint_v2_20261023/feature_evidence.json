@@ -1,0 +1,27 @@
+{
+  "sources": {
+    "sentinel-ml/Messages-ml/scripts/feature_extraction.py": "ddf1a00b33ee7a5b7336183efbccb23b10aaf444de759c20be2f9c11591f24d5",
+    "sentinel-ml/Messages-ml/scripts/feature_config.py": "1b8c43a7b170fdb8ebd629a19fe73c350956c62ac991ee502c6307830fe6ed6d",
+    "sentinel-ml/Messages-ml/scripts/text_normalization.py": "99991e367bec5e6155540e5b30dbe5f10b32366448ee2046493e8272a6451e42",
+    "sentinel-ml/Messages-ml/scripts/sender_parser.py": "cc37e11f7c38bb63f6abec6b9976e40b811d37e0518ae9223f3c30b189322a36",
+    "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_d_v4_3.py": "1bd7587c3195dcf2aa77df7941c0d0e712dd4b4ad01e3d0ff9a8444828f749f2",
+    "sentinel-ai/android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MessageFeatureExtractor.kt": "722dfed151940dc861409a444a6997eaaff47f24062788f534bf22755f36f67a",
+    "sentinel-ai/android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MessageAdjudicator.kt": "38e14b24bc89c1ff9c89e0a49588abceec978765782356631d1c638f3f6af4b6",
+    "sentinel-ai/android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/MessageScanner.kt": "46782397b5e0ac34468521a012e1877ce9dd2f4e9dbdfa7cb0e58ea8d4f9f2bb",
+    "sentinel-ai/android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/SenderParser.kt": "5e1e3c47e9debbd2206dae2a27f581007ab1494ca764ba1140ed95773465bcb4",
+    "sentinel-ai/android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/TextNormalizer.kt": "7ef3e1c6546df7e3f72c9db2b4b65c352424938418929f69917e20f0a5a06bdd",
+    "sentinel-ai/android-app/core/src/main/java/com/sentinel/ai/core/ml/messages/DualTfidfVectorizer.kt": "166d678f15866f6d4035e7e2dc690cf6d105ec39fd5f66daf14ac982396fff7d",
+    "sentinel-ai/android-app/agents/src/main/java/com/sentinel/ai/agents/sender/SenderClassifier.kt": "27382ec08cf76a213bba1eea1ef6c87c0457905c2324ba1ffc4fac0c229de3d0"
+  },
+  "ledger_rows": 6089,
+  "structural_features": {
+    "V2": 70,
+    "V4.3": 19
+  },
+  "training_files": 23,
+  "permutation_runs": 315,
+  "elapsed_seconds": 62.19405221939087,
+  "no_training": true,
+  "threads": 1,
+  "Kotlin_executed": false
+}

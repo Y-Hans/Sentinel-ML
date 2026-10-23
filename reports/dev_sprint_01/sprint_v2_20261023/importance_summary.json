@@ -1,0 +1,842 @@
+[
+  {
+    "model": "V2",
+    "feature": "account_blocked_signal",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0008591065292096236,
+    "balanced_accuracy_drop": 0.0005910165484633856
+  },
+  {
+    "model": "V2",
+    "feature": "avg_word_length",
+    "scope": "individual_structural",
+    "recall_drop": 0.013333333333333234,
+    "false_alert_increase": -0.0034364261168384896,
+    "balanced_accuracy_drop": 0.009893617021276632
+  },
+  {
+    "model": "V2",
+    "feature": "balance_keyword_present",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0008591065292096236,
+    "balanced_accuracy_drop": 0.0005910165484633856
+  },
+  {
+    "model": "V2",
+    "feature": "banking_x_disclosure",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "currency_amount_present",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "deadline_word_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": -0.0008591065292096236,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "debit_credit_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "delivery_otp_context",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "digit_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0008591065292096236,
+    "balanced_accuracy_drop": 0.0017730496453901197
+  },
+  {
+    "model": "V2",
+    "feature": "digit_ratio",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0017182130584192424,
+    "balanced_accuracy_drop": 0.002364066193853468
+  },
+  {
+    "model": "V2",
+    "feature": "disconnection_signal",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "fear_x_cta",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "financial_x_credential",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "has_apk_reference",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "has_homoglyphs",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "has_legit_institution",
+    "scope": "individual_structural",
+    "recall_drop": -0.001666666666666668,
+    "false_alert_increase": 0.004295532646048113,
+    "balanced_accuracy_drop": 0.00358156028368802
+  },
+  {
+    "model": "V2",
+    "feature": "has_legit_notice",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "has_raw_ip_url",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "has_shortener_url",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "has_time_limit_pattern",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "high_pressure_score",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": -0.0008591065292096236,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "institutional_x_url",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "is_mixed_script",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0008591065292096236,
+    "balanced_accuracy_drop": 0.0005910165484633856
+  },
+  {
+    "model": "V2",
+    "feature": "kyc_pan_signal",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "kyc_x_sender",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "legal_action_signal",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "legit_context_score",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0008591065292096189,
+    "balanced_accuracy_drop": 0.0029550827423168538
+  },
+  {
+    "model": "V2",
+    "feature": "legit_institution_keyword_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "legit_notice_keyword_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "masked_account_present",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "message_length",
+    "scope": "individual_structural",
+    "recall_drop": 0.001666666666666668,
+    "false_alert_increase": 0.0008591065292096236,
+    "balanced_accuracy_drop": 0.0029196217494090737
+  },
+  {
+    "model": "V2",
+    "feature": "newline_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.003333333333333336,
+    "false_alert_increase": 0.004295532646048109,
+    "balanced_accuracy_drop": 0.004231678486997718
+  },
+  {
+    "model": "V2",
+    "feature": "numeric_code_length",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "numeric_code_present",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "otp_disclosure_request",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "otp_generic_present",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "otp_intent_risk_score",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "otp_negation_warning",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "otp_present",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0008591065292096236,
+    "balanced_accuracy_drop": 0.0005910165484633856
+  },
+  {
+    "model": "V2",
+    "feature": "otp_x_protective",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "password_present",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "penalty_signal",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "phone_number_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "pin_present",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "prize_lure_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.011168384879725088,
+    "balanced_accuracy_drop": 0.009940898345153734
+  },
+  {
+    "model": "V2",
+    "feature": "sender_has_bank_match",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "sender_is_alphanumeric",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "sender_is_dlt_shape",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "sender_is_phone_number",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "sender_is_shortcode",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "sender_phone_with_banking_body",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "special_char_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0005910165484634226
+  },
+  {
+    "model": "V2",
+    "feature": "special_char_ratio",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.009450171821305841,
+    "balanced_accuracy_drop": 0.007092198581560294
+  },
+  {
+    "model": "V2",
+    "feature": "suspension_x_protective",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "total_fear_signals_count",
+    "scope": "individual_structural",
+    "recall_drop": -0.001666666666666668,
+    "false_alert_increase": 0.015463917525773202,
+    "balanced_accuracy_drop": 0.011264775413711625
+  },
+  {
+    "model": "V2",
+    "feature": "unauthorized_activity_signal",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "upi_collect_keyword_present",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "upi_vpa_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "uppercase_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.006013745704467356,
+    "balanced_accuracy_drop": 0.010248226950354692
+  },
+  {
+    "model": "V2",
+    "feature": "uppercase_ratio",
+    "scope": "individual_structural",
+    "recall_drop": -0.0050000000000000044,
+    "false_alert_increase": 0.006872852233676975,
+    "balanced_accuracy_drop": 0.0046572104018913025
+  },
+  {
+    "model": "V2",
+    "feature": "urgency_word_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "urgency_x_credential",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "urgency_x_legit_intent",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "url_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "url_x_cta",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "url_x_sender",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "whatsapp_cta_present",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "whitespace_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0017182130584192472,
+    "balanced_accuracy_drop": 0.0029550827423168538
+  },
+  {
+    "model": "V2",
+    "feature": "word_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "zero_width_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "ALL_STRUCTURAL",
+    "scope": "group",
+    "recall_drop": 0.008333333333333267,
+    "false_alert_increase": 0.109106529209622,
+    "balanced_accuracy_drop": 0.1432860520094563
+  },
+  {
+    "model": "V2",
+    "feature": "WORD_TFIDF",
+    "scope": "group",
+    "recall_drop": 0.05499999999999994,
+    "false_alert_increase": 0.05412371134020618,
+    "balanced_accuracy_drop": 0.06796690307328608
+  },
+  {
+    "model": "V2",
+    "feature": "CHAR_TFIDF",
+    "scope": "group",
+    "recall_drop": 0.2283333333333333,
+    "false_alert_increase": 0.2989690721649485,
+    "balanced_accuracy_drop": 0.3346690307328606
+  },
+  {
+    "model": "V2",
+    "feature": "AUTH",
+    "scope": "group",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "CTA",
+    "scope": "group",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "FEAR_THREAT",
+    "scope": "group",
+    "recall_drop": -0.001666666666666668,
+    "false_alert_increase": 0.017182130584192438,
+    "balanced_accuracy_drop": 0.012446808510638322
+  },
+  {
+    "model": "V2",
+    "feature": "FINANCIAL",
+    "scope": "group",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.011168384879725088,
+    "balanced_accuracy_drop": 0.009940898345153734
+  },
+  {
+    "model": "V2",
+    "feature": "INTERACTION",
+    "scope": "group",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "LEGIT_INTENT",
+    "scope": "group",
+    "recall_drop": -0.001666666666666668,
+    "false_alert_increase": 0.007731958762886598,
+    "balanced_accuracy_drop": 0.007127659574468111
+  },
+  {
+    "model": "V2",
+    "feature": "OTP_INTENT",
+    "scope": "group",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0008591065292096236,
+    "balanced_accuracy_drop": 0.0005910165484633856
+  },
+  {
+    "model": "V2",
+    "feature": "SENDER",
+    "scope": "group",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V2",
+    "feature": "STRUCTURAL",
+    "scope": "group",
+    "recall_drop": 0.009999999999999934,
+    "false_alert_increase": 0.05670103092783505,
+    "balanced_accuracy_drop": 0.11373522458628842
+  },
+  {
+    "model": "V2",
+    "feature": "URGENCY",
+    "scope": "group",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "message_length",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": -0.005154639175257741,
+    "balanced_accuracy_drop": -0.0035460992907802393
+  },
+  {
+    "model": "V4.3",
+    "feature": "word_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": -0.0017182130584192563,
+    "balanced_accuracy_drop": -0.0011820330969266972
+  },
+  {
+    "model": "V4.3",
+    "feature": "avg_word_length",
+    "scope": "individual_structural",
+    "recall_drop": -0.003333333333333336,
+    "false_alert_increase": -0.0025773195876288755,
+    "balanced_accuracy_drop": -0.0012174940898345883
+  },
+  {
+    "model": "V4.3",
+    "feature": "digit_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": -0.0008591065292096282,
+    "balanced_accuracy_drop": -0.0005910165484633486
+  },
+  {
+    "model": "V4.3",
+    "feature": "digit_ratio",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0034364261168384758,
+    "balanced_accuracy_drop": 0.0023640661938533944
+  },
+  {
+    "model": "V4.3",
+    "feature": "uppercase_count",
+    "scope": "individual_structural",
+    "recall_drop": -0.001666666666666668,
+    "false_alert_increase": -0.0017182130584192563,
+    "balanced_accuracy_drop": 3.5460992907669166e-05
+  },
+  {
+    "model": "V4.3",
+    "feature": "uppercase_ratio",
+    "scope": "individual_structural",
+    "recall_drop": -0.011666666666666678,
+    "false_alert_increase": 0.023195876288659767,
+    "balanced_accuracy_drop": 0.01710401891252944
+  },
+  {
+    "model": "V4.3",
+    "feature": "special_char_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": -0.0017182130584192563,
+    "balanced_accuracy_drop": -0.0011820330969266972
+  },
+  {
+    "model": "V4.3",
+    "feature": "special_char_ratio",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": -0.0017182130584192563,
+    "balanced_accuracy_drop": -0.0011820330969266972
+  },
+  {
+    "model": "V4.3",
+    "feature": "url_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "has_url",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "phone_count",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "has_phone",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "is_question",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "is_short",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "is_naked_url",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "has_suspicious_tld",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "has_hex_or_ip_url",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "is_suspicious_naked_url",
+    "scope": "individual_structural",
+    "recall_drop": 0.0,
+    "false_alert_increase": 0.0,
+    "balanced_accuracy_drop": 0.0
+  },
+  {
+    "model": "V4.3",
+    "feature": "ALL_STRUCTURAL",
+    "scope": "group",
+    "recall_drop": -0.003333333333333336,
+    "false_alert_increase": 0.0515463917525773,
+    "balanced_accuracy_drop": 0.046914893617021135
+  },
+  {
+    "model": "V4.3",
+    "feature": "WORD_TFIDF",
+    "scope": "group",
+    "recall_drop": -0.003333333333333336,
+    "false_alert_increase": 0.03350515463917523,
+    "balanced_accuracy_drop": 0.024751773049645338
+  },
+  {
+    "model": "V4.3",
+    "feature": "CHAR_TFIDF",
+    "scope": "group",
+    "recall_drop": 0.375,
+    "false_alert_increase": 0.31529209621993126,
+    "balanced_accuracy_drop": 0.42919621749408976
+  }
+]

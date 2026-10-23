@@ -1,0 +1,969 @@
+[
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_1_CLOSURE_AND_GOVERNANCE_REPORT.md",
+    "sha256": "a9348f1abf7b3c0d4235092022824a6e2430edf70ea54f9738b769a3e509e42f",
+    "bytes": 16500,
+    "lines": 184,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 82,
+        "text": "| Normality of score deltas is rejected (Shapiro-Wilk p = 2.57e-20), though non-parametric Wilcoxon is decisive (p = 1.44e-34). |"
+      },
+      {
+        "line": 152,
+        "text": "| 2. Cleaned Test Partition FPR @ 0.28    | 0.96%              | <= 1.00% (Zero FPR Regression)     |"
+      },
+      {
+        "line": 153,
+        "text": "| 3. Cleaned Test Malicious Recall @ 0.28 | 98.53%             | >= 98.00% (Zero Security Drop)     |"
+      },
+      {
+        "line": 163,
+        "text": "- If any candidate model causes `Test Malicious Recall` to drop below $98.00\\%$, training must immediately halt."
+      },
+      {
+        "line": 164,
+        "text": "- If adversarial robustness falls below $95.00\\%$, the candidate is rejected."
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_1_VERIFICATION_GATE_REPORT.md",
+    "sha256": "3d8b099a1b847903d6aad854d165088929ec4efdd967461964b40f45e19c0bde",
+    "bytes": 16225,
+    "lines": 210,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 173,
+        "text": "- **Normality Check:** Shapiro-Wilk test on score differences yields $W = 0.6407, p = 2.57 \\times 10^{-20}$, decisively rejecting normality."
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2A_FAILURE_ATTRIBUTION_REPORT.md",
+    "sha256": "7a4eedf1f59447c27ba020adfbf687a839ec0f3113aa6ac660b7ba4533ac5ced",
+    "bytes": 23308,
+    "lines": 263,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 108,
+        "text": "   - Subset with `PathDepth >= 5` ($N=135$): Mean raw probability = **$0.9629$**, FPR@0.28 = **$97.8\\%$** (132/135)."
+      },
+      {
+        "line": 168,
+        "text": "| Release Gate / Metric | Evaluation Dataset | Denominator ($N$) | Point Target | 95% Wilson CI at Target | Margin of Error | Baseline Champion Performance |"
+      },
+      {
+        "line": 175,
+        "text": "| **Cleaned Test Malicious Recall**| `cleaned_dataset.csv` Test Malicious | $N = 23,158$ | $\\ge \\mathbf{99.000\\%}$ ($k \\ge 22,926$) | $[98.862\\%, 99.119\\%]$| $\\pm 0.129\\%$ | **99.434%** (23,027/23,158) |"
+      },
+      {
+        "line": 176,
+        "text": "| **Remediation Adversarial Recall**| `remediation_adversarial.csv` | $N = 3,900$ | $\\ge \\mathbf{85.000\\%}$ ($k \\ge 3,315$) | $[83.845\\%, 86.086\\%]$| $\\pm 1.121\\%$ | **89.410%** (3,487/3,900) |"
+      },
+      {
+        "line": 239,
+        "text": "To resolve all three failure families without degrading the 99.0% malicious recall or 85.0% adversarial recall, Phase 1C.2B must follow a disciplined, four-part retraining plan:"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_0_EXPERIMENT_DESIGN_AND_RECONCILIATION_REPORT.md",
+    "sha256": "1916f9d3d246ba9f48cbddc6ddb6126e985e8b185e004388f55829c29425eea7",
+    "bytes": 29249,
+    "lines": 364,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 67,
+        "text": "| Category | Denominator ($N$) | Raw FP @ 0.28 | Raw FPR (%) | Final FP @ 0.28 | Final FPR (%) | Raw FP @ 0.50 | Final FP @ 0.50 |"
+      },
+      {
+        "line": 76,
+        "text": "### 2.3 Exact Subgroup Denominators & URL Memberships"
+      },
+      {
+        "line": 173,
+        "text": "To rigorously establish the optimal path forward without modifying production code, the following controlled experiment matrix is defined. Every experiment specifies a precise hypothesis, control, dataset, expected evidence, possible regressions, and stop criteria."
+      },
+      {
+        "line": 213,
+        "text": "- **Possible Regressions:** Lowering detection on bare malicious phishing domains (`.xyz`, `.top`)."
+      },
+      {
+        "line": 214,
+        "text": "- **Stop Criteria:** Cleaned Test Malicious Recall drops $< 99.0\\%$ or Adversarial Recall drops $< 85.0\\%$."
+      },
+      {
+        "line": 222,
+        "text": "- **Possible Regressions:** Malicious payloads hosted on developer platforms scored as benign."
+      },
+      {
+        "line": 231,
+        "text": "- **Possible Regressions:** Overlooking root-level SQL injection or open redirect parameters."
+      },
+      {
+        "line": 240,
+        "text": "- **Possible Regressions:** Reduced recall on malicious bare apex phishing domains."
+      },
+      {
+        "line": 241,
+        "text": "- **Stop Criteria:** Cleaned Test Malicious Recall $< 99.00\\%$ or Cleaned Test FPR $> 1.000\\%$."
+      },
+      {
+        "line": 249,
+        "text": "- **Possible Regressions:** Missing deep directory-traversal attacks."
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_1_ISOLATED_PROTOTYPE_REPORT.md",
+    "sha256": "c87e60892183feb3d3e8d3ae47d0404db596175e59c940b604c45fabad84144a",
+    "bytes": 21191,
+    "lines": 264,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 96,
+        "text": "### 3.5 Validation & Malicious Recall Check Protocol"
+      },
+      {
+        "line": 100,
+        "text": "   - Malicious Recall must remain $\\ge \\mathbf{99.000\\%}$ ($k \\ge 22,926$ / 23,158)."
+      },
+      {
+        "line": 102,
+        "text": "   - Adversarial Recall must remain $\\ge \\mathbf{85.000\\%}$ ($k \\ge 3,315$ / 3,900)."
+      },
+      {
+        "line": 228,
+        "text": "| Metric / Gate | Denominator ($N$) | Point Target | 95% Wilson CI at Target | Margin of Error | Statistical Limitation / Guidance |"
+      },
+      {
+        "line": 231,
+        "text": "| **Cleaned Test Malicious Recall**| 23,158 | $\\ge 99.000\\%$ | $[98.862\\%, 99.119\\%]$| $\\pm 0.129\\%$ | High statistical power; bound is tight |"
+      },
+      {
+        "line": 232,
+        "text": "| **Adversarial Recall** | 3,900 | $\\ge 85.000\\%$ | $[83.845\\%, 86.086\\%]$| $\\pm 1.121\\%$ | High statistical power |"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_BARE_APEX_EXPERIMENT_REPORT.md",
+    "sha256": "0d8f21d0355454e7fff5ff38b1a860bcf5a8f1162d8e3dda94507e679806ff15",
+    "bytes": 17738,
+    "lines": 224,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 22,
+        "text": "2. **The Security Regression Uncovered:**  "
+      },
+      {
+        "line": 23,
+        "text": "   On the Clean Test Split ($N = 50,511$), the candidate suffered an unexpected **$-1.200\\%$ recall regression on malicious URLs** (dropping from $98.605\\%$ to $97.405\\%$, representing 278 newly missed malicious URLs):"
+      },
+      {
+        "line": 25,
+        "text": "   - **Malicious Bare-Apex Recall:** Dropped by **$-5.97\\%$** (from $98.03\\%$ to $92.05\\%$)."
+      },
+      {
+        "line": 26,
+        "text": "   - **Malicious Subdomain Recall:** Remained virtually unaffected (from $98.74\\%$ to $98.61\\%$, delta $-0.13\\%$)."
+      },
+      {
+        "line": 27,
+        "text": "   - **Clean Test Benign FPR:** Increased slightly from $0.962\\%$ (263 FP) to $1.068\\%$ (292 FP), exceeding the $\\le 1.000\\%$ gate."
+      },
+      {
+        "line": 28,
+        "text": "3. **Forensic Root-Cause of the Regression:**  "
+      },
+      {
+        "line": 31,
+        "text": "   **REJECT promotion of the Candidate in its current form.** Training augmentation alone resolves the false-positive blind spot, but exposing the underlying feature representation deficiency causes an unacceptable $-5.97\\%$ recall regression on bare-apex threats. Track A must be paired with domain-lexical / brand token feature refinements in Phase 1C.2B before a production-grade candidate can be trained."
+      },
+      {
+        "line": 94,
+        "text": "| **Clean Test Benign FPR ($N=27,353$)** | **0.962%** (263 / 27,353) | **1.068%** (292 / 27,353) | **+0.106%** | $[0.952\\%, 1.196\\%]$ | $\\le 1.000\\%$ | **FAILED** |"
+      },
+      {
+        "line": 95,
+        "text": "| **Clean Test Malicious Recall ($N=23,158$)** | **98.605%** (22,835 / 23,158) | **97.405%** (22,557 / 23,158) | **-1.200%** | $[97.192\\%, 97.602\\%]$ | $\\ge 99.000\\%$ | **FAILED** |"
+      },
+      {
+        "line": 96,
+        "text": "| **Adversarial Recall ($N=3,900$)** | **97.051%** (3,785 / 3,900) | **96.359%** (3,758 / 3,900) | **-0.692%** | $[95.724\\%, 96.903\\%]$ | $\\ge 85.000\\%$ | **PASSED** |"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_R_REGRESSION_ATTRIBUTION_REPORT.md",
+    "sha256": "9a3ea9b1bb58e5e7ed2608af9301e25ec11524a89b11d0c5510bb461977568b9",
+    "bytes": 16834,
+    "lines": 244,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 1,
+        "text": "# Sentinel Phase 1C.2B-2A-R — Bare-Apex Regression Attribution Report"
+      },
+      {
+        "line": 5,
+        "text": "**Status:** **INVESTIGATION COMPLETE — CANDIDATE REMAINS REJECTED**  "
+      },
+      {
+        "line": 8,
+        "text": "**Forensics Output Directory:** `sentinel-ml/URL-ml/experiments/phase_1c_2b_2a_regression_forensics/`  "
+      },
+      {
+        "line": 14,
+        "text": "During the Phase 1C.2B-2A candidate training experiment (Track A: augmenting 15,000 benign bare-apex URLs), benchmark bare-apex false positives were successfully reduced from **100.0% (200/200)** to **4.0% (8/200)**. However, the Track A candidate suffered an unexpected malicious recall drop on the Clean Test Split ($N = 50,511$):"
+      },
+      {
+        "line": 15,
+        "text": "- **Malicious Recall:** Fell from **$98.605\\%$ (22,835 / 23,158)** to **$97.405\\%$ (22,557 / 23,158)** ($\\Delta = -1.200\\%$)."
+      },
+      {
+        "line": 17,
+        "text": "- **Bare-Apex Recall Regression:** Malicious bare-apex recall plummeted by **$-5.97\\%$** (from $98.03\\%$ to $92.05\\%$)."
+      },
+      {
+        "line": 20,
+        "text": "Forensic analysis establishes that the baseline V8 model's high recall on bare-apex phishing lures was **spurious**:"
+      },
+      {
+        "line": 49,
+        "text": "### 2.1 Host Architecture & Clean Test Denominators"
+      },
+      {
+        "line": 51,
+        "text": "| Test Set Cohort | Total in Test Split | Control Caught | Candidate Caught | Regressed (Missed) | Recall Delta |"
+      },
+      {
+        "line": 57,
+        "text": "- **Bare-apex lures** represent **85.0%** of all regressions ($272 / 320$)."
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_S1_BRAND_DICTIONARY_EVAL_REPORT.md",
+    "sha256": "aba64d1364a9fb265f187041fdddec2e0fbf2d11112cf9eff5563888300cc809",
+    "bytes": 15891,
+    "lines": 197,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 5,
+        "text": "**Status:** **EVALUATION COMPLETE — PRODUCTION UNCHANGED — TRACK A REMAINS REJECTED**  "
+      },
+      {
+        "line": 14,
+        "text": "Phase 1C.2B-2A-S1 conducted an **offline, read-only evaluation** of expanding `COMMON_BRANDS` to include verified regional banks, government portals, and Web3 crypto platforms identified during the Phase 1C.2B-2A regression forensics."
+      },
+      {
+        "line": 34,
+        "text": "> **3. Recommendation:** Adopt the 16 approved candidate tokens into the entity catalog as a high-precision defense-in-depth layer, but **do not expect it to resolve the bare-apex recall regression on its own**. Follow-up must pair this dictionary with **Rank 2: Balanced Malicious Bare-Apex Training Augmentation**."
+      },
+      {
+        "line": 40,
+        "text": "We audited 22 candidate tokens: 16 were approved for offline evaluation, and 6 high-risk ambiguous tokens were explicitly rejected as negative controls."
+      },
+      {
+        "line": 63,
+        "text": "### 2.2 Rejected High-Risk / Ambiguous Tokens (Negative Controls)"
+      },
+      {
+        "line": 65,
+        "text": "| Token | Target / Meaning | Rejection Rationale & Risk Assessment | Offline Collision Test Result (15k Benign) |"
+      },
+      {
+        "line": 68,
+        "text": "| `card` | Generic word | Substring of valid entities: `cardiff.ac.uk`, `cardinalhealth.com`, `postcard`. | High substring risk; rejected |"
+      },
+      {
+        "line": 70,
+        "text": "| `air` | Generic word | Substring of airlines and names: `airfrance`, `aircanada`, `sinclair`, `belair`. | Severe collision risk; rejected |"
+      },
+      {
+        "line": 138,
+        "text": "- Because $0.3809 < 0.80$, the engine rejects the match. Unless words are delimited by hyphens or dots, compound domain labels dilute the brand ratio below the 0.80 threshold."
+      },
+      {
+        "line": 168,
+        "text": "| **Android Golden Fixture Regressions** | Exactly 0 new matches | **0 new matches** (0 / 174) | **PASS** |"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_S2_BALANCED_PREFLIGHT_REPORT.md",
+    "sha256": "ed3c68b48e8aec39a62c476b1df9cbeee969fc8e0e203d887694f61b643992ce",
+    "bytes": 13320,
+    "lines": 171,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 14,
+        "text": "Phase 1C.2B-2A-S2 prepared and preflighted—**without training any models or altering production artifacts**—a strictly controlled experiment to evaluate whether augmenting the training set with verified malicious bare-apex URLs alongside benign bare-apex augmentation can restore malicious recall while preserving the reduction in benign apex false positives."
+      },
+      {
+        "line": 37,
+        "text": "4. **Pre-Registered Evaluation Gates:** Seven quantitative release gates are pre-registered, including a hard-fail ceiling of $\\le 1.00\\%$ on clean test benign FPR and a floor of $\\ge 98.20\\%$ on clean test malicious recall."
+      },
+      {
+        "line": 116,
+        "text": "| Gate ID | Target Metric & Corpus | Baseline Control | Track A Candidate (Rejected) | Pre-Registered Gate Threshold | Hard-Fail Boundary |"
+      },
+      {
+        "line": 118,
+        "text": "| **Gate 1** | **Clean Test Malicious Recall** ($N = 23,158$) | $98.605\\%$ (22,835) | $97.405\\%$ (22,557) | $\\ge \\mathbf{98.200\\%}$ ($\\le 0.40\\%$ drop) | $< 98.000\\%$ |"
+      },
+      {
+        "line": 119,
+        "text": "| **Gate 2** | **Clean Test Benign FPR** ($N = 27,353$) | $0.962\\%$ (263) | $1.068\\%$ (292) | $\\le \\mathbf{1.000\\%}$ ($\\le 273$ FPs) | $> 1.100\\%$ |"
+      },
+      {
+        "line": 122,
+        "text": "| **Gate 5** | **Test Bare-Apex Malicious Recall** ($N = 4,254$) | $98.03\\%$ (4,170) | $92.05\\%$ (3,916) | $\\ge \\mathbf{96.00\\%}$ ($\\ge 4,084$) | $< 95.00\\%$ |"
+      },
+      {
+        "line": 123,
+        "text": "| **Gate 6** | **Adversarial Split Recall** ($N = 8,054$) | $98.24\\%$ | $98.24\\%$ | $\\ge \\mathbf{98.00\\%}$ | $< 97.50\\%$ |"
+      },
+      {
+        "line": 124,
+        "text": "| **Gate 7** | **Android Golden Fixture Parity** ($N = 174$) | 100% Agreement | 100% Agreement | **Exactly 0 Regressions** | $\\ge 1$ Regression |"
+      },
+      {
+        "line": 137,
+        "text": "│ Model C1: Track A Candidate (Rejected Reference Baseline)              │"
+      },
+      {
+        "line": 167,
+        "text": "- **Track A Candidate:** Formally **REJECTED**."
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_S2_E_CLOSURE_AUDIT_REPORT.md",
+    "sha256": "ab3bae45ccdcc196391ca54ba1ab28320fbb909ff70df9e821a77f6421f91cbb",
+    "bytes": 26374,
+    "lines": 347,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 21,
+        "text": "4. **Internal Consistency & Denominator Audit (Check 4):** Metrics in `PHASE_1C_2B_2A_S2_E_EXPERIMENT_REPORT.md` match `s2_e_execution_metrics.json` across all reported confusion matrices, raw/adjudicated splits, confidence intervals, golden regressions ($8$), and output hashes. Additionally, forensic auditing revealed why Gate 5 evaluated on $N = 23,078$ rather than $N \\approx 4,217$: the protocol script computed `_subdomain_depth` on `parent_domain` (which is always 0 for registrable domains) rather than `host`."
+      },
+      {
+        "line": 33,
+        "text": "│ 4. S2-E Internal Consistency          │ Full JSON cross-check    │ VERIFIED (Gate 5 mask noted)│"
+      },
+      {
+        "line": 176,
+        "text": "     # Golden Fixture Regressions Check"
+      },
+      {
+        "line": 179,
+        "text": "-    c0_eval_results[\"golden_fixtures\"][\"regressions_count\"] = int(c0_gold_res)"
+      },
+      {
+        "line": 180,
+        "text": "-    v8_eval_results[\"golden_fixtures\"][\"regressions_count\"] = int(v8_gold_res)"
+      },
+      {
+        "line": 183,
+        "text": "+    v8_gold_regressions = int(np.sum(v8_gold_preds != y_golden))"
+      },
+      {
+        "line": 184,
+        "text": "+    c0_gold_regressions = int(np.sum(c0_gold_preds != y_golden))"
+      },
+      {
+        "line": 186,
+        "text": "+    c0_eval_results[\"golden_fixtures\"][\"regressions_count\"] = c0_gold_regressions"
+      },
+      {
+        "line": 187,
+        "text": "+    v8_eval_results[\"golden_fixtures\"][\"regressions_count\"] = v8_gold_regressions"
+      },
+      {
+        "line": 190,
+        "text": "     test_delta_rec_pp = deltas[\"clean_test\"][\"delta_recall_pp\"]"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_S2_E_EXPERIMENT_REPORT.md",
+    "sha256": "7bae6363bfbfc94793bb5282239899b35ed825822a5b8e69f31248ea9e3d0c0f",
+    "bytes": 24593,
+    "lines": 226,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 19,
+        "text": "   Control model C0 achieved **$100.000\\%$ prediction agreement** with the frozen production V8 champion across all $50,511$ Clean Test URLs ($22,835$ TPs, $263$ FPs, $27,090$ TNs, $323$ FNs). Every metric delta ($\\Delta \\text{Recall}$, $\\Delta \\text{FPR}$) on the primary test partition was identically **$0.0000$ percentage points**, satisfying the strict tolerance requirements ($\\le \\pm 0.05$ pp recall, $\\le \\pm 0.01$ pp FPR) with zero regressions on the 174 Android golden fixtures."
+      },
+      {
+        "line": 20,
+        "text": "2. **Severe Recall Regression Across Test Corpus (Gate 1 Hard Fail):**  "
+      },
+      {
+        "line": 21,
+        "text": "   Augmenting the baseline with 15,000 benign and 2,843 malicious bare-apex URLs caused Candidate A1's Clean Test malicious recall to collapse from **$98.605\\%$ down to $97.543\\%$** (a drop of **$-1.062$ percentage points**, representing **$246$ newly missed malicious URLs**). This violates the Gate 1 hard-fail threshold ($< 98.000\\%$)."
+      },
+      {
+        "line": 25,
+        "text": "   Candidate A1 incurred **$8$ regressions** on the 174 frozen Android golden fixtures ($5$ false negatives and $3$ false positives), violating the zero-regression invariant."
+      },
+      {
+        "line": 27,
+        "text": "   Candidate A1 triggered **three Hard Failures** (Gate 1, Gate 3, Gate 7) and **two Warnings** (Gate 2, Gate 4). Only Gates 5 and 6 passed. Consequently, the candidate model is **REJECTED**."
+      },
+      {
+        "line": 34,
+        "text": "│ • C0 Baseline Equivalence: 100.000% Agreement (ΔRecall = 0.0000 pp)    │"
+      },
+      {
+        "line": 35,
+        "text": "│ • Gate 1 (Clean Test Recall): HARD FAIL (97.543% vs Target >= 98.200%) │"
+      },
+      {
+        "line": 39,
+        "text": "│ • Gate 5 (Test Apex Malicious Recall): PASS (97.556% vs >= 96.00%)     │"
+      },
+      {
+        "line": 40,
+        "text": "│ • Gate 6 (Adversarial Split Recall): PASS (96.513% vs >= 96.50%)       │"
+      },
+      {
+        "line": 41,
+        "text": "│ • Gate 7 (Android Golden Parity): HARD FAIL (8 regressions vs == 0)    │"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_S2_E_GATE_5_CORRECTION_ADDENDUM.md",
+    "sha256": "4fb687b36e46f4da82f505adf8116f1b7c7908b2b635701f52a7dee712d87f79",
+    "bytes": 16418,
+    "lines": 198,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 1,
+        "text": "# Sentinel — Phase 1C.2B-2A-S2-E: Gate 5 Correction and Forensic Reconciliation Addendum"
+      },
+      {
+        "line": 5,
+        "text": "> **Candidate Final Decision:** **`REJECTED — NOT PROMOTED`**  "
+      },
+      {
+        "line": 13,
+        "text": "This forensic addendum resolves the Phase 1C.2B-2A-S2-E Gate 5 evaluation discrepancy identified during the read-only closure audit."
+      },
+      {
+        "line": 17,
+        "text": "             GATE 5 STATUS: CORRECTED — FAIL (HARD FAIL)"
+      },
+      {
+        "line": 18,
+        "text": "            OVERALL CANDIDATE DECISION: REJECTED — NOT PROMOTED"
+      },
+      {
+        "line": 23,
+        "text": "1. **Gate 5 Denominator Distortion Explained:** The protocol script evaluated `_subdomain_depth` on the parsed `parent_domain` rather than `host`. Because `parent_domain` is already an effective top-level domain plus one label (eTLD+1), its subdomain depth is always $0$, unintentionally inflating the evaluation set from the intended bare-apex malicious cohort to almost the entirety of the malicious test set ($N = 23,078$ out of $23,158$)."
+      },
+      {
+        "line": 25,
+        "text": "3. **Dual Verification of Gate 5 Outcome:**"
+      },
+      {
+        "line": 26,
+        "text": "   - **Strict Saved-Artifact Rule:** Because per-URL probability arrays were deleted from memory before serializing `s2_e_execution_metrics.json`, no raw test prediction CSV exists on disk. From saved serialized predictions alone, Gate 5 is **`UNVERIFIABLE WITHOUT NEW INFERENCE`**."
+      },
+      {
+        "line": 27,
+        "text": "   - **Read-Only Model Binary Forensic Inference:** Executing read-only inference with the frozen, unaltered model binaries (`control_model_reproduced.joblib`, `candidate_balanced_repaired_model.joblib`, and `v8_champion.joblib`) reveals that Candidate A1 achieves only **$93.912\\%$ recall** ($3,995 / 4,254$) on the intended cohort, suffering a $-4.114\\text{ pp}$ recall loss ($+175$ false negatives) against C0 / V8 ($98.025\\%$)."
+      },
+      {
+        "line": 28,
+        "text": "   - Because $93.912\\% < 95.00\\%$, Candidate A1 **fails Gate 5 as a HARD_FAIL** under both cohort definitions."
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_S2_F_VERIFICATION_REPORT.md",
+    "sha256": "98b67770864365f312c53e9fd1494a5af8727cc3f7a053b9e1832b4ffa7ce28e",
+    "bytes": 16230,
+    "lines": 148,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 52,
+        "text": "| **Blocker 7: Gate 6 Adversarial Baseline Conflict** | S2 report cited phantom $N=8,054$ with $98.24\\%$ recall, derived from a script byte size. | Reconciled ground truth from [`URL_REMEDIATION_ADVERSARIAL_PREDICTIONS.csv`](file:///c:/Users/user/Programing%20files/Yajat/Projects/sentinel/sentinel-ml/URL-ml/reports/URL_REMEDIATION_ADVERSARIAL_PREDICTIONS.csv): $N = 3,900$, baseline recall $97.051\\%$. Corrected target to $\\ge 96.50\\%$ with hard fail $< 96.00\\%$. | Gate 6 in repaired protocol bound to exact 3,900-URL fixture. |"
+      },
+      {
+        "line": 109,
+        "text": "│ Proceeds unconditionally      │ Requires documented risk justification     │ Immediate model rejection     │"
+      },
+      {
+        "line": 113,
+        "text": "| Gate ID | Target Metric & Corpus | Denominator ($N$) | Baseline Ground Truth | Corrected Target | Warning Zone | Hard-Fail Boundary |"
+      },
+      {
+        "line": 115,
+        "text": "| **Gate 1** | **Clean Test Recall** | $23,158$ | $98.605\\%$ | $\\ge \\mathbf{98.200\\%}$ | $[98.000\\%, 98.200\\%)$ | $< 98.000\\%$ |"
+      },
+      {
+        "line": 116,
+        "text": "| **Gate 2** | **Clean Test Benign FPR** | $27,353$ | $0.962\\%$ | $\\le \\mathbf{1.000\\%}$ | $(1.000\\%, 1.100\\%]$ | $> 1.100\\%$ |"
+      },
+      {
+        "line": 119,
+        "text": "| **Gate 5** | **Test Apex Recall Subgroup** | $4,254$ | $98.025\\%$ | $\\ge \\mathbf{96.00\\%}$ | $[95.00\\%, 96.00\\%)$ | $< 95.00\\%$ |"
+      },
+      {
+        "line": 120,
+        "text": "| **Gate 6** | **Adversarial Split Recall** | $3,900$ | $97.051\\%$ | $\\ge \\mathbf{96.50\\%}$ | $[96.00\\%, 96.50\\%)$ | $< 96.00\\%$ |"
+      },
+      {
+        "line": 121,
+        "text": "| **Gate 7** | **Android Golden Parity** | $174$ | $100.0\\%$ | **0 Regressions** | N/A | $\\ge 1$ Regression |"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_S2_FR_FINAL_REVIEW_REPORT.md",
+    "sha256": "1fe0e6b0ce02d9e58d1cd6a9b5159f0b371c3ff0c49dd67545c92116969f27d6",
+    "bytes": 25544,
+    "lines": 252,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 21,
+        "text": "4. **Evaluation Specification Rigor:** All 7 evaluation gates incorporate exact numerators and denominators, separate raw model predictions from post-adjudication relational outcomes, treat Benchmark v1.0 strictly as a diagnostic reference, and explicitly acknowledge test-driven repair limitations."
+      },
+      {
+        "line": 67,
+        "text": "> **Expected Empirical Tolerance:** C0 is expected to match the V8 champion within **$\\pm 0.05\\%$ malicious recall** and **$\\pm 0.01\\%$ benign FPR** on the test split. True bit-for-bit joblib hash equality can only be established upon authorized runtime execution."
+      },
+      {
+        "line": 91,
+        "text": "| **`VERBATIM_DUPLICATE_IN_BASE_TRAIN`** | **104** | URLs already present in `clean.iloc[tr][\"url\"]`. Includes 10 contradictory benign-labeled base train URLs (e.g., `https://secureserver.net/`, `https://free.fr/`) and 94 malicious duplicates. Eliminating these removed all conflicting label collisions with [`candidate_bare_apex_15k.csv`](file:///c:/Users/user/Programing%20files/Yajat/Projects/sentinel/sentinel-ml/URL-ml/experiments/phase_1c_2b_prototypes/candidate_bare_apex_15k.csv). |"
+      },
+      {
+        "line": 167,
+        "text": "The repaired protocol establishes seven unambiguous, mathematically grounded decision gates. Each gate features a **Pass Zone**, a **Warning Zone** (requiring documented risk justification), and a **Hard-Fail Boundary** (triggering immediate model rejection):"
+      },
+      {
+        "line": 169,
+        "text": "| Gate ID | Target Metric & Corpus | Exact Denominator ($N$) | V8 Champion Baseline Ground Truth | Target Threshold (Pass Zone) | Warning Zone | Hard-Fail Boundary |"
+      },
+      {
+        "line": 171,
+        "text": "| **Gate 1** | **Clean Test Recall** | $23,158$ | $98.605\\%$ ($22,835 / 23,158$) | $\\ge \\mathbf{98.200\\%}$ | $[98.000\\%, 98.200\\%)$ | $< 98.000\\%$ |"
+      },
+      {
+        "line": 172,
+        "text": "| **Gate 2** | **Clean Test Benign FPR** | $27,353$ | $0.962\\%$ ($263 / 27,353$) | $\\le \\mathbf{1.000\\%}$ | $(1.000\\%, 1.100\\%]$ | $> 1.100\\%$ |"
+      },
+      {
+        "line": 175,
+        "text": "| **Gate 5** | **Test Apex Malicious Recall Subgroup** | $4,254$ | $98.025\\%$ ($4,170 / 4,254$) | $\\ge \\mathbf{96.00\\%}$ | $[95.00\\%, 96.00\\%)$ | $< 95.00\\%$ |"
+      },
+      {
+        "line": 176,
+        "text": "| **Gate 6** | **Remediation Adversarial Recall** | $3,900$ | $97.051\\%$ ($3,785 / 3,900$) | $\\ge \\mathbf{96.50\\%}$ | $[96.00\\%, 96.50\\%)$ | $< 96.00\\%$ |"
+      },
+      {
+        "line": 177,
+        "text": "| **Gate 7** | **Android Golden Fixture Parity** | $174$ | $100.00\\%$ ($174 / 174$) | **0 Regressions** | N/A | $\\ge 1$ Regression |"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_S2_R_RECONCILIATION_REPORT.md",
+    "sha256": "fab311074733141a23759056b48f50a07882f9cc2bf6f4cb85d3a08fce388532",
+    "bytes": 23250,
+    "lines": 227,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 18,
+        "text": "> Authorization to execute the balanced training experiment **CANNOT BE GRANTED** in the current state. The audit has uncovered seven fundamental discrepancies, empirical contradictions, and script deficiencies:"
+      },
+      {
+        "line": 21,
+        "text": "> 3. **Conflicting Label Contradictions:** 10 URLs in the 3,000 candidate dataset duplicate rows in [`candidate_bare_apex_15k.csv`](file:///c:/Users/user/Programing%20files/Yajat/Projects/sentinel/sentinel-ml/URL-ml/experiments/phase_1c_2b_prototypes/candidate_bare_apex_15k.csv) with **opposite labels** (label `0` vs label `1`)."
+      },
+      {
+        "line": 25,
+        "text": "> 7. **Phantom Adversarial Baseline in Gate 6:** Gate 6 cited $N = 8,054$ with $98.24\\%$ recall, which was a phantom artifact caused by misinterpreting the byte size of `verify_parity.py` ($8,054$ bytes) as a dataset row count. Verified adversarial ground truth is **$N = 3,900$ with $97.051\\%$ recall**."
+      },
+      {
+        "line": 62,
+        "text": "`| Gate 6 | Adversarial Split Recall (N = 8,054) | 98.24% | 98.24% | >= 98.00% | < 97.50% |`"
+      },
+      {
+        "line": 68,
+        "text": "   - Baseline Recall: **$97.051\\%$** [95% Wilson CI: $96.472\\% - 97.538\\%$]"
+      },
+      {
+        "line": 72,
+        "text": "   - Candidate Recall: **$96.359\\%$** [95% Wilson CI: $95.724\\% - 96.903\\%$]"
+      },
+      {
+        "line": 138,
+        "text": "1. **10 Contradictory Label Duplicates:** Exactly 10 URLs in `candidate_malicious_bare_apex_3k.csv` are identical duplicates of URLs in [`candidate_bare_apex_15k.csv`](file:///c:/Users/user/Programing%20files/Yajat/Projects/sentinel/sentinel-ml/URL-ml/experiments/phase_1c_2b_prototypes/candidate_bare_apex_15k.csv), but with **directly contradictory labels**:"
+      },
+      {
+        "line": 160,
+        "text": "To eliminate ambiguity and resolve conflicting baseline values, every gate is defined with its exact numerator, denominator, evaluation pipeline, and decision boundary. The original gates are preserved, and corrected targets are formally documented."
+      },
+      {
+        "line": 167,
+        "text": "│ Proceeds unconditionally      │ Requires documented risk justification     │ Immediate model rejection     │"
+      },
+      {
+        "line": 171,
+        "text": "| Gate ID | Target Metric & Corpus | Denominator ($N$) & Exact Pipeline | Verified Baseline (Control) | Verified Track A (Rejected) | Original Target (S2 Preflight) | Corrected Target | Hard-Fail Boundary | Decision Rule |"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_2B_2A_S_LEXICAL_FEASIBILITY_REPORT.md",
+    "sha256": "837eafa965673060a67874dfca2a9664c170b96d26faef446769faf6cd79bea6",
+    "bytes": 18402,
+    "lines": 217,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 5,
+        "text": "**Status:** **FEASIBILITY STUDY COMPLETE — EXPERIMENTS UNEXECUTED — TRACK A REMAINS REJECTED**  "
+      },
+      {
+        "line": 14,
+        "text": "Phase 1C.2B-2A-S evaluated whether existing or expanded registrable-domain lexical features can reliably recover the **272 regressed bare-apex malicious URLs** without causing false-positive regressions on legitimate bare-apex domains."
+      },
+      {
+        "line": 17,
+        "text": "> **Direct lexical keyword matching on the registrable domain is INFEASIBLE as a standalone solution for the 272 bare-apex regressions.**"
+      },
+      {
+        "line": 21,
+        "text": "3. **Severe Precision/Recall Asymmetry:** Simple lexical decision rules catch at most **4.0% to 9.6%** of regressed lures while generating **12 to 110 false positives per 15,000 clean domains** (a false-positive multiplier of $1.5\\times$ to $5\\times$ over baseline tolerances)."
+      },
+      {
+        "line": 94,
+        "text": "### 3.3 Overlap Limitations & Denominator Rigor"
+      },
+      {
+        "line": 104,
+        "text": "| Rule ID | Rule Logic / Description | Malicious Detected (TP / 272) | Malicious Recall | Benign False Positives (FP / 15k) | Benign 15k FPR | Benchmark v1.0 FP (/200) |"
+      },
+      {
+        "line": 118,
+        "text": "Even compound lexical rules suffer from an unfavorable trade-off: catching **19 malicious URLs (6.99%)** requires accepting **51 false positives** on clean domains. Standalone lexical filtering is mathematically incapable of solving this regression."
+      },
+      {
+        "line": 124,
+        "text": "To understand why lexical rules have low recall, the 272 regressed bare-apex lures were classified into five functional archetypes:"
+      },
+      {
+        "line": 173,
+        "text": "- **Regression Risks:** Overlapping common words (`air` in `critair`, `mark` in `poshmark`)."
+      },
+      {
+        "line": 181,
+        "text": "- **Regression Risks:** Test set leakage if domain grouping is imperfect."
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1C_GROUP_CONTEXT_REPORT.md",
+    "sha256": "934f23e857664af217055a02ec608cce2cde9801e2c23b49733089514cc92ed7",
+    "bytes": 7670,
+    "lines": 122,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 5,
+        "text": "**Status:** COMPLETE & VERIFIED — ZERO REGRESSIONS  "
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1D_0_1_RECONCILIATION_REPORT.md",
+    "sha256": "b83e572bb39bb7101544ee0af93abab336e67bb9795e5645691bd7100ac3d030",
+    "bytes": 25526,
+    "lines": 236,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 19,
+        "text": "4. **Three-Tier Acceptance Policy Formalized:** Explicit numerical ranges are established for `PASS`, `WARNING / CONDITIONAL REVIEW`, and `HARD FAIL` across all seven gates, maintaining zero permitted regressions on the 174 Android golden fixtures."
+      },
+      {
+        "line": 171,
+        "text": "  - *Action:* Immediate, unconditional prototype rejection. No promotion, release, or override permitted."
+      },
+      {
+        "line": 177,
+        "text": "| **Gate 1** | Clean Test Malicious | $23,158$ | Adjudicated Recall | **$\\ge 98.600\\%$** ($\\ge 22,834$) | $[98.400\\%, 98.600\\%)$ ($22,788$ to $22,833$) | **$< 98.400\\%$** ($< 22,788$ TPs) |"
+      },
+      {
+        "line": 178,
+        "text": "| **Gate 2** | Clean Test Benign | $27,353$ | Adjudicated FPR | **$\\le 0.962\\%$** ($\\le 263$ FPs) | $(0.962\\%, 1.000\\%]$ ($264$ to $273$ FPs) | **$> 1.000\\%$** ($> 273$ FPs) |"
+      },
+      {
+        "line": 181,
+        "text": "| **Gate 5** | Clean Test Bare-Apex Phishing| $4,254$ | Bare-Apex Recall | **$\\ge 98.000\\%$** ($\\ge 4,169$) | $[97.500\\%, 98.000\\%)$ ($4,148$ to $4,168$) | **$< 97.500\\%$** ($< 4,148$ TPs) |"
+      },
+      {
+        "line": 182,
+        "text": "| **Gate 6** | Remediation Adversarial | $3,900$ | Adversarial Recall | **$\\ge 97.000\\%$** ($\\ge 3,783$) | $[96.500\\%, 97.000\\%)$ ($3,764$ to $3,782$) | **$< 96.500\\%$** ($< 3,764$ TPs) |"
+      },
+      {
+        "line": 183,
+        "text": "| **Gate 7** | Android Golden Fixtures | $174$ | Golden Regressions | **EXACTLY 0 REGRESSIONS** | *NO WARNING ZONE PERMITTED* | **$\\ge 1$ REGRESSION** |"
+      },
+      {
+        "line": 187,
+        "text": "2. **Clean Test Split ($N = 50,511$):** Labeled as an **Internal Regression Benchmark**. Passing Gate 5 confirms regression recovery on known historical lures, but does not prove generalization on unseen apex attacks."
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1D_0_EVIDENCE_FREEZE_AND_REMEDIATION_DESIGN_REPORT.md",
+    "sha256": "e60aef0ec36d40bfa2d74ad1c10844bbddc159b0ea4a7851f5c98e7e6598965f",
+    "bytes": 31830,
+    "lines": 342,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 13,
+        "text": "Phase 1D.0 establishes an authoritative evidence freeze across all experimental work conducted in Phase 1C, consolidates empirical findings from Phase 1C.2B-2A-S2-E (including the closure audit and Gate 5 correction addendum), and designs a principled, evidence-backed remediation strategy to resolve the bare-apex false-positive problem without degrading generalized malicious recall or Android runtime parity."
+      },
+      {
+        "line": 18,
+        "text": "   - Track A caused an unacceptable **$5.97\\text{ pp}$ recall regression** on bare-apex phishing ($272$ new false negatives)."
+      },
+      {
+        "line": 19,
+        "text": "   - Candidate A1 (S2-E) recovered only 79 of those false negatives while inducing a **$-1.062\\text{ pp}$ recall loss on general test phishing** ($246$ new false negatives, Gate 1 Hard Fail), causing benign bare-apex false positives to rebound to **$14.50\\%$** on the 200 benchmark (Gate 3 Hard Fail), failing bare-apex phishing recall at **$93.912\\%$** (Gate 5 Hard Fail), and causing **8 regressions across the 174 Android golden fixtures** (Gate 7 Hard Fail)."
+      },
+      {
+        "line": 57,
+        "text": "| **Clean Test Malicious** ($N = 23,158$) | Recall (Adjudicated) | **$98.605\\%$** ($22,835$) | $97.405\\%$ ($22,557$) | **$98.605\\%$** ($22,835$) | $97.543\\%$ ($22,589$) | **$-1.062\\text{ pp}$** ($-246$ TPs) |"
+      },
+      {
+        "line": 59,
+        "text": "| | Recall (Raw Base Model) | $98.562\\%$ ($22,825$) | $97.357\\%$ ($22,546$) | $98.562\\%$ ($22,825$) | $97.495\\%$ ($22,578$) | **$-1.067\\text{ pp}$** |"
+      },
+      {
+        "line": 60,
+        "text": "| **Clean Test Benign** ($N = 27,353$) | FPR (Adjudicated) | **$0.962\\%$** ($263$) | $1.068\\%$ ($292$) | **$0.962\\%$** ($263$) | $0.885\\%$ ($242$) | **$-0.077\\text{ pp}$** ($-21$ FPs) |"
+      },
+      {
+        "line": 62,
+        "text": "| **Test Phishing Bare Apex** ($N = 4,254$) | Recall (Adjudicated) | **$98.025\\%$** ($4,170$) | $92.055\\%$ ($3,916$) | **$98.025\\%$** ($4,170$) | $93.912\\%$ ($3,995$) | **$-4.114\\text{ pp}$** ($-175$ TPs) |"
+      },
+      {
+        "line": 64,
+        "text": "| | Recall (Raw Base Model) | $97.978\\%$ ($4,168$) | $91.984\\%$ ($3,913$) | $97.978\\%$ ($4,168$) | $93.865\\%$ ($3,993$) | **$-4.113\\text{ pp}$** |"
+      },
+      {
+        "line": 69,
+        "text": "| **Adversarial Remediation Split** ($N=3,900$)| Recall (Adjudicated) | **$97.051\\%$** ($3,785$) | $96.359\\%$ ($3,758$) | **$97.051\\%$** ($3,785$) | $96.513\\%$ ($3,764$) | **$-0.538\\text{ pp}$** ($-21$ TPs) |"
+      },
+      {
+        "line": 70,
+        "text": "| **Android Golden Fixtures** ($N = 174$) | Regressions vs Baseline | **$0$** | N/A | **$0$** | **$8$ regressions** | **$+8$ regressions** (FAIL) |"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1D_1_A0_A1_A2_EXPERIMENT_REPORT.md",
+    "sha256": "95b5860a6db35f3b87259ea94158c6eafa7b510c3f10b15d7e7e987e915721fb",
+    "bytes": 20008,
+    "lines": 194,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 32,
+        "text": "2. **Immediate Malicious Recall Degradation:**"
+      },
+      {
+        "line": 33,
+        "text": "   While threshold shifting fails to suppress benign false positives, it immediately degrades malicious recall on real bare-apex phishing lures:"
+      },
+      {
+        "line": 35,
+        "text": "   - **Policy A2 ($\\tau_{\\text{apex}} = 0.6500$):** Misses 3 phishing lures in Clean Test (`irsstimuluscheckeligibility.site`, `lnicioerlineaennpresasscoltiaperu.com`, `spk-kundenserrvice-prozess.de`), pushing Gate 1 ($98.592\\%$) and Gate 5 ($97.955\\%$) into `WARNING_REVIEW`."
+      },
+      {
+        "line": 36,
+        "text": "   - **Gate 7 Hard Fail under A2:** A2 causes **1 regression on the Android Golden Fixtures** (`https://github.com`, $p = 0.5674$, which flips from malicious to benign), triggering an immediate Hard Fail."
+      },
+      {
+        "line": 105,
+        "text": "| **Gate 1** | Clean Test Malicious | $23,158$ | Recall | **$98.605\\%$** ($22,835$) <br>**PASS** | **$98.601\\%$** ($22,834$) <br>**PASS** | **$98.592\\%$** ($22,832$) <br>**WARNING_REVIEW** | Target: $\\ge 98.600\\%$<br>Warn: $[98.400\\%, 98.600\\%)$<br>Fail: $< 98.400\\%$ |"
+      },
+      {
+        "line": 106,
+        "text": "| **Gate 2** | Clean Test Benign | $27,353$ | FPR | **$0.962\\%$** ($263$) <br>**PASS** | **$0.962\\%$** ($263$) <br>**PASS** | **$0.962\\%$** ($263$) <br>**PASS** | Target: $\\le 0.962\\%$<br>Warn: $(0.962\\%, 1.000\\%]$<br>Fail: $> 1.000\\%$ |"
+      },
+      {
+        "line": 107,
+        "text": "| **Gate 3** | Benchmark (Bare Apex) | $200$ | Category 1 FPR | **$100.00\\%$** ($200$) <br>**HARD_FAIL** | **$98.50\\%$** ($197$) <br>**HARD_FAIL** | **$98.50\\%$** ($197$) <br>**HARD_FAIL** | Target: $\\le 10.00\\%$<br>Warn: $(10.00\\%, 15.00\\%]$<br>Fail: $> 15.00\\%$ |"
+      },
+      {
+        "line": 108,
+        "text": "| **Gate 4** | Benchmark (Overall) | $500$ | Overall FPR | **$84.00\\%$** ($420$) <br>**HARD_FAIL** | **$83.40\\%$** ($417$) <br>**HARD_FAIL** | **$83.40\\%$** ($417$) <br>**HARD_FAIL** | Target: $\\le 45.00\\%$<br>Warn: $(45.00\\%, 50.00\\%]$<br>Fail: $> 50.00\\%$ |"
+      },
+      {
+        "line": 109,
+        "text": "| **Gate 5** | Test Phishing Apex | $4,254$ | Bare-Apex Recall | **$98.025\\%$** ($4,170$) <br>**PASS** | **$98.002\\%$** ($4,169$) <br>**PASS** | **$97.955\\%$** ($4,167$) <br>**WARNING_REVIEW** | Target: $\\ge 98.000\\%$<br>Warn: $[97.500\\%, 98.000\\%)$<br>Fail: $< 97.500\\%$ |"
+      },
+      {
+        "line": 110,
+        "text": "| **Gate 6** | Remediation Adversarial | $3,900$ | Adversarial Recall | **$97.051\\%$** ($3,785$) <br>**PASS** | **$96.974\\%$** ($3,782$) <br>**WARNING_REVIEW** | **$96.923\\%$** ($3,780$) <br>**WARNING_REVIEW** | Target: $\\ge 97.000\\%$<br>Warn: $[96.500\\%, 97.000\\%)$<br>Fail: $< 96.500\\%$ |"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1D_1_B1_EXPERIMENT_REPORT.md",
+    "sha256": "624574d153e422d57cb4be1dcbbc0240edd8592dfeb17180fb179533bd20317f",
+    "bytes": 27905,
+    "lines": 279,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 39,
+        "text": "   - **Clean Test ($N=50,511$):** Matched **55 malicious lures** (0 benign). 54 were already predicted malicious in baseline A0, and **1 previously missed lure was recovered** (`https://www.mygov-login.hmc.edu.au`, raw score $0.0676 \\to 0.9500$), elevating Clean Test Recall from $98.605\\%$ to **$98.610\\%$** (+1 TP)."
+      },
+      {
+        "line": 42,
+        "text": "3. **Zero Impact on Benchmark Bare-Apex FPR (Gates 3 and 4 Remain HARD_FAIL):**"
+      },
+      {
+        "line": 44,
+        "text": "   - As a consequence, Benchmark Category 1 Bare-Apex FPR remains unchanged at **$98.50\\%$** ($197 / 200$ FPs, **HARD_FAIL**), and Overall Benchmark FPR remains at **$60.80\\%$** ($304 / 500$ post-adjudicated FPs, **HARD_FAIL**)."
+      },
+      {
+        "line": 99,
+        "text": "2. **Minimum Token Length:** All 16 tokens satisfy $\\text{len}(T) \\ge 5$ (range: 5 to 12). Tokens shorter than 4 characters (e.g. `dkb`, `dhl`) were rejected in Phase 1C.2B-2A-S1 due to structural engine limits."
+      },
+      {
+        "line": 151,
+        "text": "  Baseline A0:     Recall = 98.605% (22,835 / 23,158 TPs) | FPR = 0.962% (263 / 27,353 FPs)"
+      },
+      {
+        "line": 152,
+        "text": "  Candidate B1:    Recall = 98.610% (22,836 / 23,158 TPs) | FPR = 0.962% (263 / 27,353 FPs)"
+      },
+      {
+        "line": 161,
+        "text": "  Baseline A0:     Recall = 97.051% (3,785 / 3,900 TPs)"
+      },
+      {
+        "line": 162,
+        "text": "  Candidate B1:    Recall = 97.051% (3,785 / 3,900 TPs)"
+      },
+      {
+        "line": 166,
+        "text": "  Baseline A0:     Malicious Recall = 100.00% (86 / 86) | Benign FPR = 0.00% (0 / 88)"
+      },
+      {
+        "line": 167,
+        "text": "  Candidate B1:    Malicious Recall = 100.00% (86 / 86) | Benign FPR = 0.00% (0 / 88)"
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1D_INTEGRATION_REGRESSION_REPORT.md",
+    "sha256": "40af96db45fe0149da98042f50ca356aa6115c9d4dfb5dcac647bad023ab973a",
+    "bytes": 5260,
+    "lines": 67,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 1,
+        "text": "# Sentinel — Phase 1D: Integration Gate & Full Regression Report"
+      },
+      {
+        "line": 2,
+        "text": "**Document ID:** `PHASE_1D_INTEGRATION_REGRESSION_REPORT`  "
+      },
+      {
+        "line": 5,
+        "text": "**Status:** ALL GATES PASSED — ZERO REGRESSIONS  "
+      },
+      {
+        "line": 11,
+        "text": "Phase 1D executes the complete, consolidated integration gate and multi-module regression suite across the entire Sentinel Android codebase, verifying that:"
+      },
+      {
+        "line": 64,
+        "text": "- Consolidated regression across `:core`, `:agents`, `:ui`, and `:app` passed with zero errors."
+      },
+      {
+        "line": 67,
+        "text": "- Complete regression closure achieved."
+      }
+    ]
+  },
+  {
+    "path": "sentinel-ml/URL-ml/reports/PHASE_1D_URLML_RECONCILIATION_REPORT.md",
+    "sha256": "57eaa4c2353ef4c2e6fb3b932414d62b7d57b06d3c4b5d6ce9ab66047d065666",
+    "bytes": 13982,
+    "lines": 175,
+    "status": "REPORTED historical evidence; not a current measurement",
+    "selected_excerpts": [
+      {
+        "line": 19,
+        "text": " Issue A (Gate 5 Recall):       RESOLVED. 4,248/4,254 (99.853%) proven to be a "
+      },
+      {
+        "line": 22,
+        "text": "                                the 4,254 denominator. True V8 baseline recall on the "
+      },
+      {
+        "line": 26,
+        "text": " Issue B (Benign Denominator):   RESOLVED. 43,027 was derived by adding the entire "
+      },
+      {
+        "line": 49,
+        "text": "## 2. Issue A Forensic Resolution: Gate 5 Recall Discrepancy"
+      },
+      {
+        "line": 62,
+        "text": "2. When evaluating Gate 5, the script ran `is_bare_apex_qualified(u) and y == 1`."
+      },
+      {
+        "line": 65,
+        "text": "   $$\\text{Recall} = \\frac{681}{682} = \\mathbf{0.99853372... \\quad (99.853\\%)}$$"
+      },
+      {
+        "line": 66,
+        "text": "5. The script printed `Observed: 0.99853`. In the narrative markdown report, the author took the intended Gate 5 denominator ($4,254$) and multiplied it by the observed float:"
+      },
+      {
+        "line": 81,
+        "text": "## 3. Issue B Forensic Resolution: Benign Collision Denominator"
+      },
+      {
+        "line": 160,
+        "text": "| **Gate 1** | Clean Test Malicious | $23,158$ | Adjudicated Recall | **$\\ge 98.600\\%$** ($\\ge 22,834$) | $[98.400\\%, 98.600\\%)$ ($22,788$–$22,833$) | **$< 98.400\\%$** ($< 22,788$) |"
+      },
+      {
+        "line": 161,
+        "text": "| **Gate 2** | Clean Test Benign | $27,353$ | Adjudicated FPR | **$\\le 0.962\\%$** ($\\le 263$) | $(0.962\\%, 1.000\\%]$ ($264$–$273$) | **$> 1.000\\%$** ($> 273$) |"
+      }
+    ]
+  }
+]

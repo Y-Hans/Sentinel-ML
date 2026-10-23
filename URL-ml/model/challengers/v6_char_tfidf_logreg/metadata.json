@@ -1,0 +1,82 @@
+{
+  "campaign": "URL-ML V6",
+  "experiment_id": "v6_char_tfidf_logreg",
+  "hypothesis": "normalized character morphology can provide domain-independent separation missed by scalar structural features",
+  "architecture": "TfidfVectorizer(char 2-5)+LogisticRegression",
+  "feature_count": 60000,
+  "seed": 42,
+  "threshold": 0.0785,
+  "source_dataset_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+  "remediation_sha256": "0f8da3fba16a33e6bbf9217cb6d24308cf28c2ab8b0988aeacbb39d21fad527e",
+  "hard_dataset_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+  "train_rows": 141178,
+  "remediation_rows": 3430,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.008917385216301865,
+    "malicious_recall": 0.9956977840641207,
+    "roc_auc": 0.9986135774635231,
+    "confusion_matrix": [
+      [
+        26896,
+        242
+      ],
+      [
+        73,
+        16895
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.007860198150111505,
+    "malicious_recall": 0.996631833491666,
+    "roc_auc": 0.9990159506214545,
+    "confusion_matrix": [
+      [
+        27138,
+        215
+      ],
+      [
+        78,
+        23080
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.6983154670750383,
+    "malicious_recall": 1.0,
+    "roc_auc": 0.8833822250304852,
+    "confusion_matrix": [
+      [
+        591,
+        1368
+      ],
+      [
+        0,
+        841
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.9958974358974358,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        16,
+        3884
+      ]
+    ]
+  },
+  "fit_seconds": 9.04795489999924,
+  "artifact": "model/challengers/v6_char_tfidf_logreg",
+  "model_size_bytes": 2523835,
+  "promotion_status": "challenger_only"
+}

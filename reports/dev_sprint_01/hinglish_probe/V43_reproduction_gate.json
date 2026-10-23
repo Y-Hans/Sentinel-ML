@@ -1,0 +1,29 @@
+{
+  "source": "sentinel-ml\\Messages-ml\\data\\processed\\test.jsonl",
+  "source_sha256": "988ca27e6c283c68da47787b3fe8bf727cafc953ff8479b2ddeb920c22859825",
+  "threshold": 0.61,
+  "malicious_correct": 1510,
+  "malicious_n": 1556,
+  "benign_FP_any": 2,
+  "benign_FP_M_only": 2,
+  "benign_n": 520,
+  "passed": true,
+  "confusion": [
+    [
+      518,
+      0,
+      2
+    ],
+    [
+      3,
+      95,
+      90
+    ],
+    [
+      24,
+      22,
+      1510
+    ]
+  ],
+  "probe_scored_before_gate": false
+}

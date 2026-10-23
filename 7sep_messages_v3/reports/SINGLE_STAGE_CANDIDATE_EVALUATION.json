@@ -1,0 +1,130 @@
+{
+  "TEST": {
+    "N": 2264,
+    "benign_N": 520,
+    "mal_N": 1556,
+    "threshold": 0.798,
+    "fpr": 0.019230769230769232,
+    "rec": 0.8798200514138818
+  },
+  "OOD": {
+    "N": 1132,
+    "benign_N": 255,
+    "mal_N": 794,
+    "threshold": 0.798,
+    "fpr": 0.00392156862745098,
+    "rec": 0.8866498740554156
+  },
+  "VAL": {
+    "N": 3397,
+    "benign_N": 807,
+    "mal_N": 2316,
+    "threshold": 0.798,
+    "fpr": 0.007434944237918215,
+    "rec": 0.8622625215889465
+  },
+  "Electricity Scam": {
+    "N": 3,
+    "benign_N": 0,
+    "mal_N": 3,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 0.6666666666666666
+  },
+  "OTP Theft": {
+    "N": 4,
+    "benign_N": 0,
+    "mal_N": 4,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 1.0
+  },
+  "Banking Scam": {
+    "N": 3,
+    "benign_N": 0,
+    "mal_N": 3,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 1.0
+  },
+  "Hard Negatives": {
+    "N": 3,
+    "benign_N": 3,
+    "mal_N": 0,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 0.0
+  },
+  "Unknown Benign": {
+    "N": 50,
+    "benign_N": 50,
+    "mal_N": 0,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 0.0
+  },
+  "Unknown Malicious": {
+    "N": 50,
+    "benign_N": 0,
+    "mal_N": 50,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 0.64
+  },
+  "Hinglish Robustness": {
+    "N": 100,
+    "benign_N": 50,
+    "mal_N": 50,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 0.14
+  },
+  "Semantic Pairs": {
+    "N": 80,
+    "benign_N": 40,
+    "mal_N": 40,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 0.1
+  },
+  "System Notifications": {
+    "N": 45,
+    "benign_N": 30,
+    "mal_N": 15,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 0.8666666666666667
+  },
+  "Trusted Malicious": {
+    "N": 40,
+    "benign_N": 0,
+    "mal_N": 40,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 0.625
+  },
+  "Group Benign": {
+    "N": 40,
+    "benign_N": 40,
+    "mal_N": 0,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 0.0
+  },
+  "Group Malicious": {
+    "N": 40,
+    "benign_N": 0,
+    "mal_N": 40,
+    "threshold": 0.798,
+    "fpr": 0.0,
+    "rec": 0.625
+  },
+  "Sentinel Replay": {
+    "N": 294,
+    "benign_N": 291,
+    "mal_N": 3,
+    "threshold": 0.798,
+    "fpr": 0.03436426116838488,
+    "rec": 1.0
+  }
+}

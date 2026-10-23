@@ -1,0 +1,38 @@
+{
+  "protected_count": 1750,
+  "protected_changed": [],
+  "git_status_identical": true,
+  "git_exit_codes": [
+    0,
+    0
+  ],
+  "git_added_lines": [],
+  "git_removed_lines": [],
+  "freeze_changes": [],
+  "freeze_before_inference_process_log_created": true,
+  "prediction_rows": 32120,
+  "M_only_alert_errors": 0,
+  "v1_prior_parity_failures": [],
+  "v1_prior_parity_compared": 10560,
+  "probe_v2_counts": {
+    "Hinglish:MALICIOUS": 600,
+    "Hinglish:BENIGN": 400,
+    "English:MALICIOUS": 150,
+    "English:SPAM": 25,
+    "English:BENIGN": 100,
+    "Hinglish:SPAM": 100
+  },
+  "random_review_counts": {
+    "BENIGN": 40,
+    "SPAM": 20,
+    "MALICIOUS": 60
+  },
+  "PRE_REGISTRATION_sha256": "f4b3b618c7116bc1647c4893de8a998fe3ee7c2665ee277e5420a10c272e3ef6",
+  "no_candidate_training": true,
+  "datasets_v5_or_user_data_opened": false,
+  "Kotlin_executed": false,
+  "GPU_requested": false,
+  "fixed_manifest_used": true,
+  "directory_walk_for_protected_hashes": false,
+  "v1_sha256_after": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44"
+}

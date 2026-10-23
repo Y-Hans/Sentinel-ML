@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SentinelMessageRecord",
+  "description": "Canonical schema for Message ML dataset records with independent security risk and intent annotations.",
+  "type": "object",
+  "required": [
+    "message_id",
+    "raw_text",
+    "security_label",
+    "source_id"
+  ],
+  "properties": {
+    "message_id": {
+      "type": "string",
+      "description": "Unique record identifier (e.g. SHA-256 hash of sender + raw_text, or UUID)"
+    },
+    "raw_text": {
+      "type": "string",
+      "description": "Exact verbatim text content of the message"
+    },
+    "security_label": {
+      "type": "string",
+      "enum": ["BENIGN", "SUSPICIOUS_SPAM", "MALICIOUS"],
+      "description": "Primary 3-tier security classification"
+    },
+    "source_id": {
+      "type": "string",
+      "description": "Provenance identifier tracking source corpus, generation batch, or contributor"
+    },
+    "source_type": {
+      "type": "string",
+      "enum": [
+        "SYNTHETIC",
+        "CURATED_BENCHMARK",
+        "CROWDSOURCED_ANONYMIZED",
+        "PUBLIC_RESEARCH",
+        "ADVERSARIAL_GENERATION",
+        "UNKNOWN"
+      ],
+      "default": "UNKNOWN"
+    },
+    "primary_type": {
+      "type": "string",
+      "enum": [
+        "OTP_AUTH",
+        "BANKING_TRANSACTIONAL",
+        "SERVICE_UPDATE",
+        "PROMOTIONAL",
+        "GOVERNMENT_INFO",
+        "PERSONAL_P2P",
+        "DELIVERY",
+        "UNKNOWN"
+      ],
+      "default": "UNKNOWN"
+    },
+    "threat_vectors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "NONE",
+          "OTP_DISCLOSURE_REQUEST",
+          "CREDENTIAL_REQUEST",
+          "BANK_KYC_SUSPENSION",
+          "ELECTRICITY_DISCONNECTION_SCAM",
+          "UPI_COLLECT_FRAUD",
+          "PAYMENT_SCAM",
+          "PART_TIME_JOB_SCAM",
+          "APK_MALWARE_DROPPER",
+          "LOTTERY_PRIZE_FRAUD",
+          "TRAFFIC_CHALLAN_PHISHING",
+          "DELIVERY_SCAM",
+          "INVESTMENT_SCAM",
+          "EXTORTION_HARASSMENT",
+          "COMMERCIAL_SPAM",
+          "OTHER"
+        ]
+      },
+      "default": ["NONE"]
+    },
+    "sender_header": {
+      "type": ["string", "null"],
+      "description": "Originating sender header string (e.g. 'VK-HDFCBK', '+919876543210', '567676')"
+    },
+    "sender_type": {
+      "type": "string",
+      "enum": [
+        "ALPHANUMERIC_HEADER",
+        "PHONE_NUMBER",
+        "SHORTCODE",
+        "UNKNOWN"
+      ],
+      "default": "UNKNOWN"
+    },
+    "language": {
+      "type": "string",
+      "enum": ["en", "hi", "hinglish", "mr", "ta", "te", "bn", "other", "unknown"],
+      "default": "unknown"
+    },
+    "script": {
+      "type": "string",
+      "enum": ["LATIN", "DEVANAGARI", "MIXED", "OTHER", "UNKNOWN"],
+      "default": "UNKNOWN"
+    },
+    "cleaned_text": {
+      "type": "string",
+      "description": "Normalized text representation"
+    },
+    "template_cluster_id": {
+      "type": "string",
+      "description": "Cluster identifier of the parameterized template skeleton"
+    },
+    "structural_metadata": {
+      "type": "object",
+      "properties": {
+        "url_count": { "type": "integer" },
+        "has_shortener_url": { "type": "boolean" },
+        "has_raw_ip_url": { "type": "boolean" },
+        "phone_number_count": { "type": "integer" },
+        "upi_vpa_count": { "type": "integer" },
+        "has_apk_reference": { "type": "boolean" }
+      }
+    },
+    "split": {
+      "type": "string",
+      "enum": ["TRAIN", "VALIDATION", "TEST", "BENCHMARK", "OOD", "UNASSIGNED"],
+      "default": "UNASSIGNED"
+    },
+    "provenance_metadata": {
+      "type": "object",
+      "properties": {
+        "license": { "type": "string" },
+        "anonymized": { "type": "boolean" },
+        "collection_timestamp": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": true
+}

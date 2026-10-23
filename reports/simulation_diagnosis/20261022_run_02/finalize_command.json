@@ -1,0 +1,15 @@
+{
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "reports/simulation_diagnosis/20261022_run_02/safe_entry.py",
+    "finalize"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "started_UTC": "2026-10-22T09:47:11.339893+00:00",
+  "integrity_check_completed_UTC": "2026-10-22T09:47:47.610331+00:00",
+  "exit_code": 0,
+  "note": "Invocation exits0 only after final file/hash validation; external shell result is final confirmation. No dispatcher outputs are written after completion manifest."
+}

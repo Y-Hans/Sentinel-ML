@@ -1,0 +1,7 @@
+audited 0 / 5999
+audited 1000 / 5999
+audited 2000 / 5999
+audited 3000 / 5999
+audited 4000 / 5999
+audited 5000 / 5999
+pairs 60 source flags {'financial2025': {'evaluation': 5, 'historical_training': 2}}

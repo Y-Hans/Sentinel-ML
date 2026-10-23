@@ -1,0 +1,169 @@
+{
+  "status": "OBSERVED counts; historical fit attribution limited to current code + release-report hashes",
+  "clean_source_rows": 235795,
+  "clean_full_benign_n": 134850,
+  "clean_full_benign_www_n": 134850,
+  "clean_train_benign_n": 80359,
+  "clean_train_attack_n": 60819,
+  "clean_split_sizes": {
+    "train": 141178,
+    "validation": 44106,
+    "test": 50511
+  },
+  "clean_split_index_hashes": {
+    "train": "2afe56e2d0bb4e0663e455c5b7527833ab0210ea57803a18efc928877624b715",
+    "validation": "797a9a667eb86ae4e8aae7572d9cff551ece6e0690ee1f4644342c259a2eaa2b",
+    "test": "42b91876294280591c0080b668f97ec83c0424e0ac1e5508d74b0dcb3f5a7e2c"
+  },
+  "clean_form_counts": [
+    {
+      "split": "full_clean_file",
+      "class": "ATTACK",
+      "host_shape": "apex_legacy",
+      "n": 15147
+    },
+    {
+      "split": "full_clean_file",
+      "class": "ATTACK",
+      "host_shape": "subdomain",
+      "n": 44054
+    },
+    {
+      "split": "full_clean_file",
+      "class": "ATTACK",
+      "host_shape": "www",
+      "n": 41744
+    },
+    {
+      "split": "full_clean_file",
+      "class": "BENIGN",
+      "host_shape": "www",
+      "n": 134850
+    },
+    {
+      "split": "test",
+      "class": "ATTACK",
+      "host_shape": "apex_legacy",
+      "n": 4217
+    },
+    {
+      "split": "test",
+      "class": "ATTACK",
+      "host_shape": "subdomain",
+      "n": 9384
+    },
+    {
+      "split": "test",
+      "class": "ATTACK",
+      "host_shape": "www",
+      "n": 9557
+    },
+    {
+      "split": "test",
+      "class": "BENIGN",
+      "host_shape": "www",
+      "n": 27353
+    },
+    {
+      "split": "train",
+      "class": "ATTACK",
+      "host_shape": "apex_legacy",
+      "n": 8147
+    },
+    {
+      "split": "train",
+      "class": "ATTACK",
+      "host_shape": "subdomain",
+      "n": 28622
+    },
+    {
+      "split": "train",
+      "class": "ATTACK",
+      "host_shape": "www",
+      "n": 24050
+    },
+    {
+      "split": "train",
+      "class": "BENIGN",
+      "host_shape": "www",
+      "n": 80359
+    },
+    {
+      "split": "validation",
+      "class": "ATTACK",
+      "host_shape": "apex_legacy",
+      "n": 2783
+    },
+    {
+      "split": "validation",
+      "class": "ATTACK",
+      "host_shape": "subdomain",
+      "n": 6048
+    },
+    {
+      "split": "validation",
+      "class": "ATTACK",
+      "host_shape": "www",
+      "n": 8137
+    },
+    {
+      "split": "validation",
+      "class": "BENIGN",
+      "host_shape": "www",
+      "n": 27138
+    }
+  ],
+  "structural_source_rows": 48290,
+  "structural_counts": [
+    {
+      "class": "BENIGN",
+      "host_shape": "apex_legacy",
+      "n": 9770
+    },
+    {
+      "class": "BENIGN",
+      "host_shape": "subdomain",
+      "n": 30151
+    },
+    {
+      "class": "BENIGN",
+      "host_shape": "www",
+      "n": 8369
+    }
+  ],
+  "reconstructed_total_fit_rows": 189468,
+  "reconstructed_total_fit_benign_rows": 128649,
+  "historical_training_script": {
+    "path": "sentinel-ml/URL-ml/scripts/reproduce_v7_champion.py",
+    "sha256": "ec847c13a9e794458e51dbe6ba405c254c2a0b8b4bac75cf1935711ebd1fe41d",
+    "executed": false,
+    "fit_composition_observed": "clean train indices plus every structural benign row, not all 134850 clean benign rows"
+  },
+  "release_report": {
+    "path": "sentinel-ml/URL-ml/reports/URL_V7_FINAL_RELEASE_AUDIT.json",
+    "sha256": "c177dc1b105a8b257d953cd9aed280062abe5784a5199ca0147559571b634b88",
+    "model_hash_matches_frozen_v7": true
+  },
+  "source_hash_checks": [
+    {
+      "path": "sentinel-ml/URL-ml/data/cleaned_dataset.csv",
+      "actual_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+      "reported_release_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+      "matches_release_report": true
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/v7_structural_benign.csv",
+      "actual_sha256": "4a34e661060c35ae26d3417b28ed2ada074d8b017bee528b5f7e2d5bcf722e6b",
+      "reported_release_sha256": "4a34e661060c35ae26d3417b28ed2ada074d8b017bee528b5f7e2d5bcf722e6b",
+      "matches_release_report": true
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/hard_dataset.csv",
+      "actual_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+      "reported_release_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+      "matches_release_report": true
+    }
+  ],
+  "historical_row_manifest_available": false,
+  "correction": "134850/134850 is the full cleaned-file benign host skew, not an independently proved count of all benign examples fitted by V7. The current script adds structural data; review its counts and any hash mismatch. Reconstructed membership is evidence of present code, not proof of historical execution."
+}

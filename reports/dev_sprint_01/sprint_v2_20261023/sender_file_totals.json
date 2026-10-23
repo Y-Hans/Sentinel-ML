@@ -1,0 +1,186 @@
+{
+  "sentinel-ml/6sep/messages/candidates/train_candidate_v1.jsonl": {
+    "n": 17511,
+    "null_or_blank": 11694,
+    "nonempty": 5817,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6678088058934384
+  },
+  "sentinel-ml/6sep/messages/candidates/train_candidate_v3b.jsonl": {
+    "n": 17384,
+    "null_or_blank": 11694,
+    "nonempty": 5690,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.67268752876208
+  },
+  "sentinel-ml/Messages-ml/data/processed/train.jsonl": {
+    "n": 15855,
+    "null_or_blank": 10188,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6425733207190161
+  },
+  "sentinel-ml/Messages-ml/data/processed/train_contrastive.jsonl": {
+    "n": 16215,
+    "null_or_blank": 10548,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.650508788159112
+  },
+  "sentinel-ml/Messages-ml/data/processed/train_expanded.jsonl": {
+    "n": 16175,
+    "null_or_blank": 10508,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.649644513137558
+  },
+  "sentinel-ml/Messages-ml/data/processed/train_expanded_v2.jsonl": {
+    "n": 16935,
+    "null_or_blank": 11268,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6653675819309123
+  },
+  "sentinel-ml/Messages-ml/data/processed/train_expanded_v3.jsonl": {
+    "n": 16725,
+    "null_or_blank": 11058,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6611659192825112
+  },
+  "sentinel-ml/Messages-ml/data/processed/train_expanded_v4.jsonl": {
+    "n": 17017,
+    "null_or_blank": 11350,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6669800787447846
+  },
+  "sentinel-ml/Messages-ml/data/processed/train_expanded_v4_3x.jsonl": {
+    "n": 17181,
+    "null_or_blank": 11514,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6701588964553867
+  },
+  "sentinel-ml/Messages-ml/data/processed/train_expanded_v5.jsonl": {
+    "n": 17361,
+    "null_or_blank": 11694,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6735787109037498
+  },
+  "sentinel-ml/Messages-ml/data/processed/train_expanded_v6.jsonl": {
+    "n": 17629,
+    "null_or_blank": 11962,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6785410403312724
+  },
+  "sentinel-ml/Messages-ml/data/processed/train_expanded_v7.jsonl": {
+    "n": 17541,
+    "null_or_blank": 11874,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6769283393193091
+  },
+  "sentinel-ml/Messages-ml/data/processed/train_expanded_v8.jsonl": {
+    "n": 18311,
+    "null_or_blank": 12644,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6905138987493856
+  },
+  "sentinel-ml/Messages-ml/messages_v4/data/train_v4.jsonl": {
+    "n": 17473,
+    "null_or_blank": 11806,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6756710353116236
+  },
+  "sentinel-ml/Messages-ml/messages_v4/experiment_2/data/train_v4_2.jsonl": {
+    "n": 18601,
+    "null_or_blank": 12934,
+    "nonempty": 5667,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6953389602709532
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/data/train_v4_3.jsonl": {
+    "n": 19672,
+    "null_or_blank": 12789,
+    "nonempty": 6883,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6501118340788938
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4.jsonl": {
+    "n": 20164,
+    "null_or_blank": 13281,
+    "nonempty": 6883,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6586490775639754
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_b.jsonl": {
+    "n": 20257,
+    "null_or_blank": 13374,
+    "nonempty": 6883,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6602162215530434
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_c.jsonl": {
+    "n": 20404,
+    "null_or_blank": 13521,
+    "nonempty": 6883,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6626641834934327
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp1.jsonl": {
+    "n": 20495,
+    "null_or_blank": 13374,
+    "nonempty": 7121,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6525494022932422
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp2.jsonl": {
+    "n": 20543,
+    "null_or_blank": 13422,
+    "nonempty": 7121,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6533612422723069
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp3.jsonl": {
+    "n": 20581,
+    "null_or_blank": 13460,
+    "nonempty": 7121,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.654001263301103
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/experiments/next_architecture/data/auxiliary_train.jsonl": {
+    "n": 12753,
+    "null_or_blank": 8695,
+    "nonempty": 4058,
+    "suffix_P": 0,
+    "suffix_G": 0,
+    "missing_share": 0.6818003606994433
+  }
+}

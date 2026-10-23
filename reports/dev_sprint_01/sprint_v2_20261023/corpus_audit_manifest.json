@@ -1,0 +1,528 @@
+{
+  "sources": [
+    {
+      "path": "reports/dev_sprint_01/hinglish_probe/probe_set.csv",
+      "sha256": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44",
+      "rows": 1320,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "reports/simulation_diagnosis/20261022_run_02/simulation_messages.jsonl",
+      "sha256": "1acf68ad96993007f12c8abb8ac3be87d0919bd99895532f0a1030b779125978",
+      "rows": 1005,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "reports/simulation_diagnosis/20261022_run_02/simulation_messages_v2.jsonl",
+      "sha256": "e1fe47c1d48720c94e74dfb28284dac809592a2d715b6ab500375ce00f6dc5d2",
+      "rows": 1005,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "reports/simulation_diagnosis/20261022_run_02/simulation_urls.jsonl",
+      "sha256": "af26f46969081154f7d1654a1bf99eb1ebb11f200117d890328717e0d98708b0",
+      "rows": 0,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "reports/simulation_diagnosis/20261022_run_02/simulation_urls_v2.jsonl",
+      "sha256": "4ee7b9b2ae48e8172a0a91149895a5218a59dfc42a755a734b578579e6503318",
+      "rows": 0,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ai/ml-artifacts/Messages-ml/model_training/AUDIT_EXPERIMENT_REGISTRY.jsonl",
+      "sha256": "5193a23db1d9d77cb8feb35630bc8e27d79f783a44737d82cf39ced4e66acd7b",
+      "rows": 0,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/6sep/messages/candidates/train_candidate_v1.jsonl",
+      "sha256": "0844b76780b180bff51b387e09b31e2abcf672955eae9b5c24f54f2b7124c2cb",
+      "rows": 17511,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/6sep/messages/candidates/train_candidate_v3b.jsonl",
+      "sha256": "8dd890ae3e384e1d21a42c16e3f3ea38705d8d41b9fda2c2e27965f999b2f82e",
+      "rows": 17384,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/data/bench_adversarial_semantic_pairs.jsonl",
+      "sha256": "8c43f9ada3f8006139d5bbe33500a6c58ad9b47f9f6ed0509b9d95a96566174b",
+      "rows": 80,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/data/bench_group_context_benign.jsonl",
+      "sha256": "4bf2503f2aeca319f31acba275ab653d34accab96185c9c4792360803dfe6085",
+      "rows": 40,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/data/bench_group_context_malicious.jsonl",
+      "sha256": "22222b93b9631b621a97d8591a82394c8cc3b7e574016b9b82adbde7837f47c8",
+      "rows": 40,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/data/bench_hinglish_robustness.jsonl",
+      "sha256": "ddcf2d464a7f1a7d9f95a5174883b30224209e5fa44d66d24998a75f4f606ce6",
+      "rows": 100,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/data/bench_sentinel_replay.jsonl",
+      "sha256": "7f9f91f37f1b9933f760b33592bbafc2d3dadd02effbd7a2b0b6ea661ae20cf1",
+      "rows": 294,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/data/bench_system_notifications.jsonl",
+      "sha256": "8947d39c4adb9a4781f0e6725fb13ee05d674ef801aa5a18e4dc457480698f9a",
+      "rows": 45,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/data/bench_trusted_sender_malicious.jsonl",
+      "sha256": "d4aacd979368bb7d3500eaa384a2aa9b66c2b4c4dce08bc4bc83493071874494",
+      "rows": 40,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/data/bench_unknown_benign.jsonl",
+      "sha256": "d33dc0685a0f18d4b9de8bf28d0f168ea0c877302ce0b52318d1c5af71e4fdc0",
+      "rows": 50,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/data/bench_unknown_malicious.jsonl",
+      "sha256": "b6fcda2132bbdc514537a96bf1f2368c5af468e2a1d3b90b50e6a07470607b49",
+      "rows": 50,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/reports/CONTEXT_BYPASS_SECURITY_AUDIT.json",
+      "sha256": "feab1eae7b282a940a9ec56f5838de940f94b5f15bdbeb74ddfd915c4295dc78",
+      "rows": 9,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/reports/HINGLISH_520_ATTACK_AUDIT.json",
+      "sha256": "2d1e2fab0a5e82616ea0d5972dcd4dc7e209fbf4c07c2c60b4f597702c8d9a44",
+      "rows": 520,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/reports/SENTINEL_DB_DETAILED_AUDIT.json",
+      "sha256": "adca48086b8820bd3d6042897b7f8cef56365a0bd172a091caf720f78e27ecee",
+      "rows": 30,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/reports/SENTINEL_DB_REPLAY_V2.json",
+      "sha256": "56e796c69583f3a60f0115f4d685913ea1b0d20684a7646fa2853629908df179",
+      "rows": 30,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/reports/SYSTEM_NOTIFICATION_AUDIT.json",
+      "sha256": "27a14b31fc1201ec3d9ca2b00c61fdc5e1bf6a26689a1ae38ac6c3eb9821ea79",
+      "rows": 15,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/7sep_messages_v3/reports/UNKNOWN_SENDER_AUDIT.json",
+      "sha256": "47acc45cb584fa93cdbfed9c35920e8c67403a555c3eab76c90d85c33fb9e529",
+      "rows": 10,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/DATASET_COMPOSITION_AUDIT.json",
+      "sha256": "4c05167dea323ed503cbd36cb23146e1434fb2df5656ad2300f02cb54c448edf",
+      "rows": 216,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/benchmarks/slice_banking_scam.jsonl",
+      "sha256": "88806768a9cb1c051011d2ea99c344f1a4c423346c9759cf55d4c808b5eb8261",
+      "rows": 3,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/benchmarks/slice_electricity_scam.jsonl",
+      "sha256": "36c06fecda056eeba9832db4a107bda445c05e12660fbe855d3d1d3d46dfcdf6",
+      "rows": 3,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/benchmarks/slice_hard_negatives.jsonl",
+      "sha256": "ea6301a2c770373a35d9f90f9223168c5d557ab28e146909d51205be16ca202a",
+      "rows": 4,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/benchmarks/slice_hinglish_smishing.jsonl",
+      "sha256": "27b6ce03353245a8641a9e0eb025e73edffc33c0ec983cdf91629d88ffa9a495",
+      "rows": 3,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/benchmarks/slice_institutional_partnerships.jsonl",
+      "sha256": "4f9218c1d19f0bb1e97b4c280aece2ad39eef51b4efc8532cab8e7eb670df1dd",
+      "rows": 32,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/benchmarks/slice_legit_banking.jsonl",
+      "sha256": "c112e21800bbf09de34031f7427ed8db82298140d37eda66b48f88a41615b067",
+      "rows": 3,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/benchmarks/slice_legit_delivery.jsonl",
+      "sha256": "00f4cc69fc890297f354e70a124d62c01af3fb2e1a3ba60e3e7805549f6bb0bf",
+      "rows": 3,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/benchmarks/slice_legit_otp.jsonl",
+      "sha256": "78c1cdec9a91c741d8c358517078f2c3a6ab621f082e42e568d2c9b48b9b3665",
+      "rows": 5,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/benchmarks/slice_otp_theft.jsonl",
+      "sha256": "8891eceb8f9d288188aee2f9e32a45ad03dc6ec0f7af7222cb4744195f9cf901",
+      "rows": 4,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/benchmarks/synthetic_pipeline_fixtures.jsonl",
+      "sha256": "e736f8cc4192c73a7a45bc2cbd07b760a6d8eba284b11b5a7ba4382ca82d1784",
+      "rows": 16,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/all_processed.jsonl",
+      "sha256": "f94bace2327763899b8350707e5f15335e2cf87e13eeeb7b6aa7d0c2f97c2079",
+      "rows": 22648,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/ood.jsonl",
+      "sha256": "34cd57b5252fcc6fb9b89b8658d6ae3d2d98b22cb838346dbc2fc3f1698ac1a7",
+      "rows": 1132,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/test.jsonl",
+      "sha256": "988ca27e6c283c68da47787b3fe8bf727cafc953ff8479b2ddeb920c22859825",
+      "rows": 2264,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train.jsonl",
+      "sha256": "26b6189ca02eba662d67b12308d2af1e270d26cd4220d6badc67df4b34f3cd9f",
+      "rows": 15855,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_contrastive.jsonl",
+      "sha256": "de7946c70432b6f9d4deeb8184a2f862192c0acb2c3f40ebc9975b7d2ece3ad8",
+      "rows": 16215,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded.jsonl",
+      "sha256": "a6706a1d5621e3933315fd49dffdb6ff20ca8d0a79c4f5f196d8c1f29abcd662",
+      "rows": 16175,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v2.jsonl",
+      "sha256": "dad65a13b31d999df518431df01541cebc501dd916e494624ba57b8426b02315",
+      "rows": 16935,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v3.jsonl",
+      "sha256": "9cdd06fe1ec60baf5092c1f71f31ac7b3bf3fe299f5d6212e199bfa3639346cb",
+      "rows": 16725,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v4.jsonl",
+      "sha256": "7223761acb75e1110ff244857ebc6dd840b19709420472b7ee9e66d18ccf415e",
+      "rows": 17017,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v4_3x.jsonl",
+      "sha256": "b44680c61c895824cd4c6342ed86a45ec99a2b47f9070bfd7e6e702a0c8dc4e3",
+      "rows": 17181,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v5.jsonl",
+      "sha256": "653b889d1d674246a99ed4a9ebf5427337a1d4331e1107f04c70d872c010667c",
+      "rows": 17361,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v6.jsonl",
+      "sha256": "ce4347a74120be7169ad6b92d9947f3d9098addb2512cec10bbca9f50728888f",
+      "rows": 17629,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v7.jsonl",
+      "sha256": "5b3f2a921980be3018a3e7ab81a62dc677204286d689c16cf7bf542073a6544d",
+      "rows": 17541,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/train_expanded_v8.jsonl",
+      "sha256": "b4c97857160fa247fdff8b3cd7af3b8930afd15dd6819328c968703c123b4fe0",
+      "rows": 18311,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/processed/val.jsonl",
+      "sha256": "5c343ef10bc9a1e1cc18365903a8fabfdbba878f4ad0879f7c89c9dd342394b0",
+      "rows": 3397,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/raw/SRC_CURATED_HARD_NEGATIVES_V1/curated_hard_negatives.jsonl",
+      "sha256": "9f01916eef3f27fb37956fb4fff3d7e9c461065f6d1ee3f0bdb08d64ad5ceedf",
+      "rows": 500,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/raw/SRC_IMC25_FISHING_SMISHING/final_dataset_output.csv",
+      "sha256": "1bbd1e9e82c3ea023112207b80da268a5c4a07d2353c2b0898360ab037fa9a64",
+      "rows": 33869,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/data/raw/SRC_MENDELEY_SMISHING_2022/Dataset_5971.csv",
+      "sha256": "649844f1c62a6b27e145eaf17a65f7010c56c390e11a794ea8329993a05ba71e",
+      "rows": 0,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4/data/train_v4.jsonl",
+      "sha256": "fd02ad59f4b8b708df99dbfaa9c326cf98233d21e22ec2dc65898d14c69734f9",
+      "rows": 17473,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4/experiment_2/data/train_v4_2.jsonl",
+      "sha256": "5920d5cc6e7858d38d7af94aaca0c7efb3a3292fcc173e3c0ca30467f0385e3a",
+      "rows": 18601,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_3/data/train_v4_3.jsonl",
+      "sha256": "d01d4d36144e8c4d09f4c0fd21eb15b02e10f1be4d488bebb07ce7eba9c11c11",
+      "rows": 19672,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_3/evaluation/independent_semantic_generalization.jsonl",
+      "sha256": "11edb237816f9a27f01e63177b784e1410e517027e68b10f10eaecae2070c861",
+      "rows": 50,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_3/evaluation/reproduction_20260930/counterfactual_probes.json",
+      "sha256": "b72c287d84e7d58ee317f10ce9786d300bc96230f99fffec152e3a845fff5621",
+      "rows": 20,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_3/evaluation/reproduction_20260930/ood_errors.json",
+      "sha256": "6b93caadbff6d27e23288d7ca7b092b5261545c272ca468b012db1ef6152cbdd",
+      "rows": 69,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_3/evaluation/reproduction_20260930/test_errors.json",
+      "sha256": "27e13909df0c49c552706fd8a2968648c34cf77e2b9015a012cc4ebd7862b268",
+      "rows": 141,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_3/evaluation/reproduction_20260930/val_errors.json",
+      "sha256": "46ea03ef9c5516bde963c12246134e4100d12da384c7a20838828e1255520150",
+      "rows": 251,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/benign_utility_rc2_exp1.jsonl",
+      "sha256": "639c1e3420d10e641fc53191e352c6a270807125411a014e1d42f18561a09bab",
+      "rows": 238,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/institutional_rc2_exp3.jsonl",
+      "sha256": "ce6ba20eb135a57583e1d6b072d91d2e46ab5312cf3f7713267139d7fdd9c585",
+      "rows": 38,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4.jsonl",
+      "sha256": "3dd4b4b7cba0fffba059bd365e7e01ce19668a3f5981c3a1c943dc8dd8c4a14f",
+      "rows": 20164,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_b.jsonl",
+      "sha256": "28bdb8c81e538c8a49cd7b56e9da89e5b206bbe2297e12f8b245fcf50c329ab0",
+      "rows": 20257,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_c.jsonl",
+      "sha256": "e002632a201adccd072e41aff0574cd6e0ff5d64dba540185959eadd0bcc1384",
+      "rows": 20404,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp1.jsonl",
+      "sha256": "1750808fb5d3d71f5db779d4273596404d480054115d96077d3ad4ad420a7f3e",
+      "rows": 20495,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp2.jsonl",
+      "sha256": "e67311390888ffd590b360958d5f691a8a8bc8450b7073d0e59fd3d68a19a446",
+      "rows": 20543,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/data/train_v4_4_rc2_exp3.jsonl",
+      "sha256": "e9b45c52834a00caf36a199c47669eea7b00def88e2b15140c64cdb9cec5b2b2",
+      "rows": 20581,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/evaluation/forensic_test_results.json",
+      "sha256": "26056c3738543cb89b7cb734bea27658e095f14fce0f4c0ec7d355a308e2733a",
+      "rows": 25,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/evaluation/holdouts/holdout_apk_payload.jsonl",
+      "sha256": "6ba7e39e61922e1d58d67398d39fb9897a17affcf9dae878598f0a61a7db3ecb",
+      "rows": 60,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/evaluation/holdouts/holdout_conversational_social_eng.jsonl",
+      "sha256": "830999245dc91d9d91f9019c12e07ba9e4a9078ec6ae70193b14a0108f7bdbe7",
+      "rows": 207,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/evaluation/holdouts/holdout_counterfactual_semantic.jsonl",
+      "sha256": "deedcb6a5710488a8c3fd81a6fdbbf2915d97b1a0ee0ea8af4c9cf009b6d96df",
+      "rows": 110,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/evaluation/holdouts/holdout_electricity.jsonl",
+      "sha256": "c34f002f6ab2fe56225a0cfa866de04abb1e7d9eb1ae80ebb332a7de66caa090",
+      "rows": 110,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/evaluation/holdouts/holdout_greetings.jsonl",
+      "sha256": "a1e7fedd893681dc9e787594de165c52665aa7bc48bd89fe9299559df59e07ae",
+      "rows": 110,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/evaluation/holdouts/holdout_institutional_callback.jsonl",
+      "sha256": "854c1209a2a4ae9e6e31f1bc1782b579ec7b193635bab40a37b74bb010752e0d",
+      "rows": 60,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_4/evaluation/holdouts/holdout_system_notifications.jsonl",
+      "sha256": "9d65068d1d5bca55479537ef62e1f4da7c9caabc8b5feb9f0a71e4052556fa65",
+      "rows": 55,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_5/experiments/next_architecture/controlled_validation_results.json",
+      "sha256": "e1e6472b15cec5af7ae42b962f3cfff1469faca2c7adb6eba3ad5c33a5a7e5ba",
+      "rows": 303,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_5/experiments/next_architecture/data/auxiliary_train.jsonl",
+      "sha256": "2c74d90d81e31a15103b11b540fcbadef63470df9a850fea7f5ea84abba893e1",
+      "rows": 12753,
+      "role": "training"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_5/experiments/next_architecture/data/controlled_validation_set.jsonl",
+      "sha256": "11a930e230f956f346e92544ff6986b79e847fa0ee5f7f6bff8756a5db410ca2",
+      "rows": 303,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_5/experiments/next_architecture/regression_forensic.json",
+      "sha256": "bdaa7315f827d2f5a73f0db3e7255424352decb17e055b8e234130c1afb9cde5",
+      "rows": 1557,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/messages_v4_5/reports/v4_5_forensic_records.json",
+      "sha256": "e3f1c0ead7663af05b770f027aba6c3052902a5fe1fc84a96bbda15a9b3b9d60",
+      "rows": 329,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/model_training/AUDIT_EXPERIMENT_REGISTRY.jsonl",
+      "sha256": "5193a23db1d9d77cb8feb35630bc8e27d79f783a44737d82cf39ced4e66acd7b",
+      "rows": 0,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/model_training/HARD_NEGATIVE_ADJUDICATION.json",
+      "sha256": "8247571ac17f1169226258538c0070e54c8077043b6456eab13c5b4c8170a001",
+      "rows": 41,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/reports/v3_false_positive_audit.json",
+      "sha256": "64a5c16b7ae427cf1d65ebf8ad9adbde747efd7e13942123ae87ad82bfa2d930",
+      "rows": 1,
+      "role": "evaluation_or_report"
+    },
+    {
+      "path": "sentinel-ml/android-runtime/golden_test_data/golden_messages.json",
+      "sha256": "933e680a3c55382f3f322a2f292ceed43118644e6c971308c1c343f271ba78d7",
+      "rows": 115,
+      "role": "evaluation_or_report"
+    }
+  ],
+  "skipped": [
+    {
+      "path": "sentinel-ml/Messages-ml/model_training/CREDENTIAL_REQUEST_AUDIT.json",
+      "reason": "JSON >=1MB prohibited by reading limit"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/model_training/FINAL_RELEASE_GATE_AUDIT.json",
+      "reason": "JSON >=1MB prohibited by reading limit"
+    }
+  ],
+  "unique_normalized_texts": 42660,
+  "flagged_rows": 43,
+  "normalization": "NFKC casefold URL/phone/numeric masking, word tokens, Jaccard >= .85",
+  "limitation": "lexical audit only; shared author/context grammar remains; sealed exams unopened"
+}

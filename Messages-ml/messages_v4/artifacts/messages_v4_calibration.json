@@ -1,0 +1,4 @@
+{
+  "method": "native HistGradientBoosting probabilities",
+  "note": "No post-hoc calibration fitted: validation was used exclusively for threshold selection."
+}

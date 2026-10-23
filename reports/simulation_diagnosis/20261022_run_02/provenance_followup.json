@@ -1,0 +1,192 @@
+{
+  "pulls": [
+    {
+      "pull_id": "pull_1",
+      "model_generation": "UNRESOLVED",
+      "valid_candidate_rows": 72,
+      "UUID_occurrences": 266,
+      "candidate_offsets_not_accepted": 194,
+      "unrecoverable_total": "UNKNOWN: candidate offsets include index copies, no reliable table count; not an estimate of missing threat records",
+      "timestamp_min_UTC": "2026-09-11T04:58:57.740000+00:00",
+      "timestamp_max_UTC": "2026-09-11T08:16:41.444000+00:00",
+      "explanation_patterns": {
+        "Messages ML model predicted BENIGN (score: <N>/<N>); OTP or verification code present in message; Sender is not a known contact": 1,
+        "No heuristic risk signals found. URL appears safe; URL ML model predicted MALICIOUS (score: <N>/<N>)": 2,
+        "Messages ML model predicted BENIGN (score: <N>/<N>)": 59,
+        "Messages ML model predicted MALICIOUS (score: <N>/<N>); Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Sender is not a known contact": 9
+      },
+      "explicit_version_strings": [],
+      "reason": "Explanation scores/name templates do not uniquely identify model artifact; content/metadata transfer corruption and runtime policy can alter scores; APK asset contents prove packages, not historical installed generation"
+    },
+    {
+      "pull_id": "pull_2",
+      "model_generation": "UNRESOLVED",
+      "valid_candidate_rows": 75,
+      "UUID_occurrences": 672,
+      "candidate_offsets_not_accepted": 597,
+      "unrecoverable_total": "UNKNOWN: candidate offsets include index copies, no reliable table count; not an estimate of missing threat records",
+      "timestamp_min_UTC": "2026-09-04T16:20:47.303000+00:00",
+      "timestamp_max_UTC": "2026-09-05T18:16:00.382000+00:00",
+      "explanation_patterns": {
+        "Messages ML model predicted MALICIOUS (score: <N>/<N>); Sender is not a known contact": 5,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Sender is not a known contact": 34,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Account-related language detected; OTP or verification code present in message; Sender is not a known contact": 1,
+        "Messages ML model predicted SUSPICIOUS_SPAM (score: <N>/<N>); Sender is not a known contact": 2,
+        "Messages ML model predicted BENIGN (score: <N>/<N>)": 30,
+        "Messages ML model predicted MALICIOUS (score: <N>/<N>)": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); OTP or verification code present in message; Sender is not a known contact": 2
+      },
+      "explicit_version_strings": [],
+      "reason": "Explanation scores/name templates do not uniquely identify model artifact; content/metadata transfer corruption and runtime policy can alter scores; APK asset contents prove packages, not historical installed generation"
+    },
+    {
+      "pull_id": "pull_3",
+      "model_generation": "UNRESOLVED",
+      "valid_candidate_rows": 568,
+      "UUID_occurrences": 9965,
+      "candidate_offsets_not_accepted": 9397,
+      "unrecoverable_total": "UNKNOWN: candidate offsets include index copies, no reliable table count; not an estimate of missing threat records",
+      "timestamp_min_UTC": "2026-10-01T17:26:29.040000+00:00",
+      "timestamp_max_UTC": "2026-10-21T12:39:55.489000+00:00",
+      "explanation_patterns": {
+        "Messages ML model predicted BENIGN (score: <N>/<N>)": 460,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Sender is not a known contact": 34,
+        "Messages ML model predicted MALICIOUS (score: <N>/<N>); Sender is not a known contact": 8,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://om-kaurani.github.io/VelocitiWebsitee/": 1,
+        "Messages ML model predicted MALICIOUS (score: <N>/<N>)": 20,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://www.instagram.com/reel/Dbx<N>Rt-soLk; Sender is not a known contact": 2,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://garticphone.com/en/<N>FEDB<N>A": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://meet.google.com/yec-mssq-mqc": 1,
+        "Messages ML model predicted SUSPICIOUS_SPAM (score: <N>/<N>); Sender is not a known contact": 1,
+        "Messages ML model predicted MALICIOUS (score: <N>/<N>); Verified safe brand domain: https://share.gemini.google/Qp<N>LYw<N>oIvkn": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://share.gemini.google/sn<N>c<N>nV<N>gbW<N>": 1,
+        "Messages ML model predicted MALICIOUS (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://youtube.com/shorts/DaEGUlvT<N>Pw?si=G<N>mYheh<N>iBBabkpH; Sender is not a known contact": 1,
+        "Messages ML model predicted MALICIOUS (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://youtube.com/shorts/ZFMRJxM<N>sVc?si=<N>jiPlFC<N>_osz<N>GJ<N>; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://codenames.game/r/zahos-sozat": 1,
+        "Messages ML model predicted MALICIOUS (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://garticphone.com/en/<N>B<N>D<N>E": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://garticphone.com/en/<N>F<N>F<N>": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://garticphone.com/en/<N>AEA<N>": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://garticphone.com/en/<N>D<N>": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://garticphone.com/en/<N>DF<N>": 1,
+        "Messages ML model predicted SUSPICIOUS_SPAM (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://skribbl.io/?tlCTLxgx": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://meet.google.com/sri-oqnz-czg": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://codenames.game/r/monos-luron": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for www.jio.com/r/EIXJRmyeU; URL ML model predicted BENIGN (score: <N>/<N>) for https://www.jio.com/r/EIXJRmyeU; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for www.jio.com/r/U<N>Z<N>lfNEM; URL ML model predicted BENIGN (score: <N>/<N>) for https://www.jio.com/r/U<N>Z<N>lfNEM; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://www.jio.com/selfcare/autopay/; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for www.jio.com/r/U<N>mXxk<N>CL; URL ML model predicted BENIGN (score: <N>/<N>) for https://www.jio.com/r/U<N>mXxk<N>CL; Sender is not a known contact": 1,
+        "Messages ML model predicted MALICIOUS (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for https://www.instagram.com/reel/DajUjcNOROs/?exln=czRmcDRhMmg<N>ZWZh": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://meet.google.com/dgx-trvr-ypp": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for www.jio.com/r/EJqAoqctW; URL ML model predicted BENIGN (score: <N>/<N>) for https://www.jio.com/r/EJqAoqctW; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://www.instagram.com/reel/DejxzenIC<N>f/?vrfl=aTNlc<N>RjcHpzbjdx; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for www.jio.com/r/U<N>Jj<N>jb<N>r; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for www.jio.com/r/EJShmYkhz; URL ML model predicted BENIGN (score: <N>/<N>) for https://www.jio.com/r/EJShmYkhz; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://meet.google.com/hcg-gicv-umi": 1,
+        "Messages ML model predicted SUSPICIOUS_SPAM (score: <N>/<N>); Verified safe brand domain: https://www.instagram.com/reel/DejZRPdM-mq/?cplk=ZmlybG<N>jOXp<N>amwy": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://codenames.game/r/bojuz-harul": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for www.jio.com/r/EKmqphRwg; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://meet.google.com/mvx-mgfx-dcr": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Verified safe brand domain: https://meet.google.com/ohz-nmsy-dxh": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Promotional offer language detected; Sender is not a known contact": 7,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); Account-related language detected; Financial language detected: upi": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for www.jio.com/r/EKQCCNdEN; URL ML model predicted BENIGN (score: <N>/<N>) for https://www.jio.com/r/EKQCCNdEN; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for www.jio.com/r/ELu<N>OmyHq; URL ML model predicted BENIGN (score: <N>/<N>) for https://www.jio.com/r/ELu<N>OmyHq; Sender is not a known contact": 1,
+        "Messages ML model predicted BENIGN (score: <N>/<N>); URL ML model predicted BENIGN (score: <N>/<N>) for www.jio.com/r/ELjgtmpGr; Sender is not a known contact": 1
+      },
+      "explicit_version_strings": [],
+      "reason": "Explanation scores/name templates do not uniquely identify model artifact; content/metadata transfer corruption and runtime policy can alter scores; APK asset contents prove packages, not historical installed generation"
+    }
+  ],
+  "canonical_artifacts": {
+    "sentinel-ml/6sep/messages/final/champion_v2_model.pkl": {
+      "bytes": 1786995,
+      "sha256": "d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887"
+    },
+    "sentinel-ml/Messages-ml/messages_v4/artifacts/messages_v4_model.pkl": {
+      "bytes": 1467770,
+      "sha256": "9b747822a941a92d278f11d0e1458c48497c14ce8c35ecf58dc72e7effaff7e0"
+    },
+    "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_d/model.pkl": {
+      "bytes": 2707591,
+      "sha256": "2ca29457acd27bf93d6967d8f9d64778b8ba0e404030175465c802fe1a138a7d"
+    },
+    "sentinel-ml/URL-ml/models/v7_champion.joblib": {
+      "bytes": 1649433,
+      "sha256": "d414bf668484ea5ba6056b626f0d8e674e0085208ba23d964522b09557affdaa"
+    },
+    "sentinel-ml/URL-ml/models/v8_champion.joblib": {
+      "bytes": 709417,
+      "sha256": "073e70f215c0c3279288ec69a692ed5cab7e99a443ed7b4f87da51ae67cf0e58"
+    }
+  },
+  "apk_assets": [
+    {
+      "apk": "sentinel-ai/installed-sentinel.apk",
+      "sha256": "0d06c3e3ba24ae33e54eb34c9c8d0147cc99f9ed3c62b604768fe52487b6bf63",
+      "assets": [
+        {
+          "name": "assets/champion_v2_char_vocab_idf.json",
+          "bytes": 14629,
+          "sha256": "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941"
+        },
+        {
+          "name": "assets/champion_v2_scaler.json",
+          "bytes": 131696,
+          "sha256": "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa"
+        },
+        {
+          "name": "assets/champion_v2_trees.json",
+          "bytes": 2402739,
+          "sha256": "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43"
+        },
+        {
+          "name": "assets/champion_v2_word_vocab_idf.json",
+          "bytes": 53446,
+          "sha256": "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237"
+        },
+        {
+          "name": "assets/v7_champion_portable.json",
+          "bytes": 1029290,
+          "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+        }
+      ]
+    },
+    {
+      "apk": "sentinel-ml/Messages-ml/release/apk/SentinelAI-2.1.0-release-unsigned.apk",
+      "sha256": "a79f290d37ad625eef6600774a26eda2d44569e17365c7df321da32675f65398",
+      "assets": [
+        {
+          "name": "assets/messages_v4_3_char_vocab_idf.json",
+          "bytes": 73353,
+          "sha256": "9b26bc1d9886ea4ed1c7a6a366afe826f1d5a771ec568186c2f6f5299b923b5b"
+        },
+        {
+          "name": "assets/messages_v4_3_scaler.json",
+          "bytes": 258643,
+          "sha256": "147bbb108807754ab838755987124e570757fabcae18900f501ad88bb6413df4"
+        },
+        {
+          "name": "assets/messages_v4_3_trees.json",
+          "bytes": 4012286,
+          "sha256": "4f36801978bc272631ec04269b4767afbeeddd8d19862e1c7247da83ced39537"
+        },
+        {
+          "name": "assets/messages_v4_3_word_vocab_idf.json",
+          "bytes": 49981,
+          "sha256": "ee781ce8ac9b331bf5c2286c8dc38286d7c331232b4da9ee9e12ff34ee0015d7"
+        },
+        {
+          "name": "assets/v8_champion_portable.json",
+          "bytes": 1029275,
+          "sha256": "e0e5e817beb6e1718843641b2e19e5b131690a0fc959764d83702883f557e870"
+        }
+      ]
+    }
+  ],
+  "claims": {
+    "user": "pull1 Messages v1/URLv7; pull2,pull3 Messagesv2/URLv8",
+    "master": "562-row history V2/V7; unsigned 2.1.0 V4.3/V8"
+  },
+  "adjudication": "aggregate master-plan claim found; record-level independent annotation map not found"
+}

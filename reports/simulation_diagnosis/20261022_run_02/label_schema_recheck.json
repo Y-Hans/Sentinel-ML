@@ -1,0 +1,57 @@
+{
+  "primary_type": {
+    "schema_enum": [
+      "OTP_AUTH",
+      "BANKING_TRANSACTIONAL",
+      "SERVICE_UPDATE",
+      "PROMOTIONAL",
+      "GOVERNMENT_INFO",
+      "PERSONAL_P2P",
+      "DELIVERY",
+      "UNKNOWN"
+    ],
+    "invalid_rows": 3817,
+    "invalid_values": {
+      "ACADEMIC_ANNOUNCEMENT": 273,
+      "CAMPUS_IMPERSONATION_PHISHING": 273,
+      "BILLING_INFORMATION": 120,
+      "POWER_CUT_SCAM": 90,
+      "OTP_RECEIPT_OR_QUERY": 65,
+      "CREDENTIAL_THEFT_DEMAND": 52,
+      "INFORMATIONAL_P2P": 240,
+      "SMISHING_COERCION": 140,
+      "THEFT_DEMAND": 648,
+      "CASUAL_CHAT": 720,
+      "NAKED_MALICIOUS_LINK": 250,
+      "CLEAN_RESOURCE_LINK": 20,
+      "PACKAGE_STATUS": 147,
+      "FAKE_PACKAGE_SMISHING": 147,
+      "BILL_AND_SERVICE": 60,
+      "SIM_BLOCK_SCAM": 40,
+      "LEGIT_POWER_NOTICE": 144,
+      "LEGIT_DELIVERY_ALERT": 168,
+      "LEGIT_BANKING_NOTICE": 140,
+      "LEGIT_GOVT_ADVISORY": 80
+    }
+  },
+  "source_type": {
+    "schema_enum": [
+      "SYNTHETIC",
+      "CURATED_BENCHMARK",
+      "CROWDSOURCED_ANONYMIZED",
+      "PUBLIC_RESEARCH",
+      "ADVERSARIAL_GENERATION",
+      "UNKNOWN"
+    ],
+    "invalid_rows": 4047,
+    "invalid_values": {
+      "INTERNAL_CURATED": 230,
+      "CONTROLLED_CONTRASTIVE": 3817
+    }
+  },
+  "Devanagari_train_labels": {
+    "MALICIOUS": 68,
+    "SUSPICIOUS_SPAM": 1
+  },
+  "schema_sha256": "756331ab3bb39cce586968fe853cb399836738f48755826ddf05f815f36f8252"
+}

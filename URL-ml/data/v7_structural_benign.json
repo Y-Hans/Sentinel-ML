@@ -1,0 +1,25 @@
+{
+  "dataset_name": "v7_structural_benign.csv",
+  "sha256": "4a34e661060c35ae26d3417b28ed2ada074d8b017bee528b5f7e2d5bcf722e6b",
+  "total_rows": 48290,
+  "unique_registrable_domains": 15045,
+  "http_ratio": 0.2,
+  "categories_distribution": {
+    "v7_structural_search_tracking_queries": 5059,
+    "v7_structural_general_pages": 5057,
+    "v7_structural_documentation_api": 5029,
+    "v7_structural_account_auth": 5010,
+    "v7_structural_internal_redirects": 4999,
+    "v7_structural_cdn_assets": 4984,
+    "v7_structural_payment_commerce": 4979,
+    "v7_structural_media_editorial": 4954,
+    "v7_structural_localized_navigation": 4929,
+    "remediation_legitimate_provider_expansion": 1410,
+    "remediation_legitimate_provider": 940,
+    "remediation_legitimate_provider_http_path_expansion": 940
+  },
+  "protected_domain_overlap": 0,
+  "validation_domain_overlap": 0,
+  "test_domain_overlap": 0,
+  "hard_dataset_domain_overlap": 0
+}

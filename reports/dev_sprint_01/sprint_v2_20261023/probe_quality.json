@@ -1,0 +1,13 @@
+{
+  "hinglish_n": 1100,
+  "attack_n": 600,
+  "URLless_attack_n": 240,
+  "phone_regex_matching_n": 242,
+  "url_regex_matching_n": 834,
+  "words_6_30_n": 1100,
+  "words_over30_n": 0,
+  "min_words": 7,
+  "max_words": 29,
+  "near_max_component": 3,
+  "model_scores_seen": false
+}

@@ -1,0 +1,19 @@
+{
+  "version": "Messages V4",
+  "threshold": 0.69,
+  "assets": {
+    "messages_v4_char_vocab_idf.json": "efd614fb10bc670c8a38cb5ad082262f18b9bc5d81a9d64df0f3cfd8fde15a3d",
+    "messages_v4_scaler.json": "06b1e09557273faf74b08c24e67d65228f0390b3bac6e2831a0e0bb1deb48b4f",
+    "messages_v4_trees.json": "3aecc7e04f7cc93232ab06326f2df68cdf591ba35f0af074b9cfe7a69dd4b716",
+    "messages_v4_word_vocab_idf.json": "07cbb7e78dbbda321be86707732d36fa776287afe09bfb1a64088f874eafe3d7"
+  },
+  "python_artifacts": {
+    "messages_v4_calibration.json": "82bc339bf7fa4bf03ec5f5a5939225f9768f60cc4555761857fea61c9b228ec8",
+    "messages_v4_config.json": "e3420e0aba96e127782932b47f2f67ae9cd60880354d943cdef564ffbdde1474",
+    "messages_v4_model.pkl": "9b747822a941a92d278f11d0e1458c48497c14ce8c35ecf58dc72e7effaff7e0",
+    "messages_v4_scaler.pkl": "2cd9c0f415f7eba67d5f3e9a0486324e9aaab39de3154e69f720d38fdb8dad27",
+    "messages_v4_tfidf_char.pkl": "b08e56a2761ceb78ecfe50cac2a3f5c8dd64d202a4e30f47738164c604fea21c",
+    "messages_v4_tfidf_word.pkl": "afe8f7697c6d8a5c4f2931408d17b780c599a818a32462ef53ade16aefac6a2d",
+    "messages_v4_threshold.json": "cae3914a6f0a15b98dcad80c96a10a9beaa612e87c586ee32f531193e42fc27f"
+  }
+}

@@ -1,0 +1,12 @@
+| Model | v2 recall, Wilson95 | benign false alerts | spam false alerts | English pair gap | Verdict |
+|---|---|---|---|---|---|
+| V2 | 453/600 = 75.5% [71.9, 78.8] | 264/400 = 66.0% [61.2, 70.5] | 38/100 = 38.0% [29.1, 47.8] | 8.7 pp | Recall is also a problem |
+| V4.3 | 494/600 = 82.3% [79.1, 85.2] | 197/400 = 49.2% [44.4, 54.1] | 14/100 = 14.0% [8.5, 22.1] | 13.3 pp | Recall is also a problem |
+| V4.4_candidate_a_corrected | 569/600 = 94.8% [92.8, 96.3] | 280/400 = 70.0% [65.3, 74.3] | 27/100 = 27.0% [19.3, 36.4] | 2.0 pp | False positives are the main problem |
+| V4.4_candidate_b_refined | 504/600 = 84.0% [80.9, 86.7] | 238/400 = 59.5% [54.6, 64.2] | 13/100 = 13.0% [7.8, 21.0] | 10.7 pp | Recall is also a problem |
+| V4.4_candidate_c_balanced | 477/600 = 79.5% [76.1, 82.5] | 203/400 = 50.7% [45.9, 55.6] | 13/100 = 13.0% [7.8, 21.0] | 12.7 pp | Recall is also a problem |
+| V4.4_rc2_experiment_1 | 431/600 = 71.8% [68.1, 75.3] | 172/400 = 43.0% [38.2, 47.9] | 7/100 = 7.0% [3.4, 13.7] | 17.3 pp | Recall is also a problem |
+| V4.4_rc2_experiment_2 | 415/600 = 69.2% [65.4, 72.7] | 181/400 = 45.2% [40.4, 50.1] | 10/100 = 10.0% [5.5, 17.4] | 18.0 pp | Recall is also a problem |
+| V4.4_rc2_experiment_3 | 384/600 = 64.0% [60.1, 67.7] | 152/400 = 38.0% [33.4, 42.8] | 7/100 = 7.0% [3.4, 13.7] | 22.0 pp | Recall is also a problem |
+
+Stage 0B completed

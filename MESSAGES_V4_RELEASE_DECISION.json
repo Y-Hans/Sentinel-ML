@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "date": "2026-09-14",
+  "decision": "DATA_REQUIRED",
+  "promotion": false,
+  "production_model": "messages_v2_frozen",
+  "v3_status": "experimental_rejected_for_promotion",
+  "blockers": [
+    "credential_request_population_contains_1656_ambiguous_records_out_of_2302",
+    "hinglish_coverage_is_73_of_22648_processed_records",
+    "v3_saved_contact_malicious_url_block_rate_is_15_of_25",
+    "raw_simulation_databases_are_not_independently_readable",
+    "no_source_template_provider_disjoint_release_holdout",
+    "no_v4_android_artifact_or_equivalence_evidence"
+  ],
+  "v2_artifact_hashes": {
+    "model": "d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887",
+    "scaler": "6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999",
+    "tfidf_word": "b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495",
+    "tfidf_char": "19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701"
+  },
+  "verified_command": "python -m pytest sentinel-ml\\Messages-ml\\tests -q --cache-clear",
+  "verified_result": "40 passed"
+}

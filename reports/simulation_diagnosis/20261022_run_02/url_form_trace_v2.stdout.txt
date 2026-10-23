@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://www.instagram.com",
+    "different_features": 0,
+    "V8": 0.0010000000474974513
+  },
+  {
+    "url": "www.instagram.com",
+    "different_features": 0,
+    "V8": 0.0010000000474974513
+  },
+  {
+    "url": "//www.instagram.com",
+    "different_features": 0,
+    "V8": 0.0010000000474974513
+  },
+  {
+    "url": "instagram.com",
+    "different_features": 6,
+    "V8": 0.6093701720237732
+  },
+  {
+    "url": "http://www.instagram.com",
+    "different_features": 3,
+    "V8": 0.9696372151374817
+  }
+]

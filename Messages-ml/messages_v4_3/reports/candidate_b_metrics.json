@@ -1,0 +1,733 @@
+{
+  "threshold": 0.91,
+  "validation": {
+    "n_total": 3397,
+    "n_malicious": 2316,
+    "malicious_correct": 2021,
+    "malicious_missed": 295,
+    "malicious_recall": 0.8726252158894646,
+    "n_benign": 807,
+    "benign_fp": 15,
+    "benign_clean": 792,
+    "benign_fpr": 0.01858736059479554,
+    "n_nonbenign": 2590,
+    "nonbenign_correct": 2428,
+    "nonbenign_recall": 0.9374517374517375,
+    "macro_f1": 0.8105160550710532,
+    "confusion_matrix": [
+      [
+        792,
+        0,
+        15
+      ],
+      [
+        22,
+        191,
+        61
+      ],
+      [
+        140,
+        155,
+        2021
+      ]
+    ],
+    "threshold": 0.91
+  },
+  "test": {
+    "n_total": 2264,
+    "n_malicious": 1556,
+    "malicious_correct": 1380,
+    "malicious_missed": 176,
+    "malicious_recall": 0.8868894601542416,
+    "n_benign": 520,
+    "benign_fp": 0,
+    "benign_clean": 520,
+    "benign_fpr": 0.0,
+    "n_nonbenign": 1744,
+    "nonbenign_correct": 1650,
+    "nonbenign_recall": 0.9461009174311926,
+    "macro_f1": 0.831280620752211,
+    "confusion_matrix": [
+      [
+        520,
+        0,
+        0
+      ],
+      [
+        16,
+        137,
+        35
+      ],
+      [
+        78,
+        98,
+        1380
+      ]
+    ],
+    "threshold": 0.91
+  },
+  "ood": {
+    "n_total": 1132,
+    "n_malicious": 794,
+    "malicious_correct": 689,
+    "malicious_missed": 105,
+    "malicious_recall": 0.8677581863979849,
+    "n_benign": 255,
+    "benign_fp": 0,
+    "benign_clean": 255,
+    "benign_fpr": 0.0,
+    "n_nonbenign": 877,
+    "nonbenign_correct": 813,
+    "nonbenign_recall": 0.927023945267959,
+    "macro_f1": 0.8228866306745074,
+    "confusion_matrix": [
+      [
+        255,
+        0,
+        0
+      ],
+      [
+        9,
+        65,
+        9
+      ],
+      [
+        55,
+        50,
+        689
+      ]
+    ],
+    "threshold": 0.91
+  },
+  "benchmarks": {
+    "bench_adversarial_semantic_pairs.jsonl": {
+      "n_total": 80,
+      "n_malicious": 40,
+      "malicious_correct": 5,
+      "malicious_missed": 35,
+      "malicious_recall": 0.125,
+      "n_benign": 40,
+      "benign_fp": 0,
+      "benign_clean": 40,
+      "benign_fpr": 0.0,
+      "n_nonbenign": 40,
+      "nonbenign_correct": 5,
+      "nonbenign_recall": 0.125,
+      "macro_f1": 0.45893719806763283,
+      "confusion_matrix": [
+        [
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          35,
+          0,
+          5
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "bench_group_context_benign.jsonl": {
+      "n_total": 40,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 40,
+      "benign_fp": 0,
+      "benign_clean": 40,
+      "benign_fpr": 0.0,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "bench_group_context_malicious.jsonl": {
+      "n_total": 40,
+      "n_malicious": 40,
+      "malicious_correct": 23,
+      "malicious_missed": 17,
+      "malicious_recall": 0.575,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 40,
+      "nonbenign_correct": 23,
+      "nonbenign_recall": 0.575,
+      "macro_f1": 0.36507936507936506,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          17,
+          0,
+          23
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "bench_hinglish_robustness.jsonl": {
+      "n_total": 100,
+      "n_malicious": 50,
+      "malicious_correct": 6,
+      "malicious_missed": 44,
+      "malicious_recall": 0.12,
+      "n_benign": 50,
+      "benign_fp": 0,
+      "benign_clean": 50,
+      "benign_fpr": 0.0,
+      "n_nonbenign": 50,
+      "nonbenign_correct": 6,
+      "nonbenign_recall": 0.12,
+      "macro_f1": 0.45436507936507936,
+      "confusion_matrix": [
+        [
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          44,
+          0,
+          6
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "bench_sentinel_replay.jsonl": {
+      "n_total": 294,
+      "n_malicious": 3,
+      "malicious_correct": 3,
+      "malicious_missed": 0,
+      "malicious_recall": 1.0,
+      "n_benign": 291,
+      "benign_fp": 9,
+      "benign_clean": 282,
+      "benign_fpr": 0.030927835051546393,
+      "n_nonbenign": 3,
+      "nonbenign_correct": 3,
+      "nonbenign_recall": 1.0,
+      "macro_f1": 0.4819438850852464,
+      "confusion_matrix": [
+        [
+          282,
+          2,
+          7
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "bench_system_notifications.jsonl": {
+      "n_total": 45,
+      "n_malicious": 15,
+      "malicious_correct": 12,
+      "malicious_missed": 3,
+      "malicious_recall": 0.8,
+      "n_benign": 30,
+      "benign_fp": 1,
+      "benign_clean": 29,
+      "benign_fpr": 0.03333333333333333,
+      "n_nonbenign": 15,
+      "nonbenign_correct": 12,
+      "nonbenign_recall": 0.8,
+      "macro_f1": 0.8963133640552995,
+      "confusion_matrix": [
+        [
+          29,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          12
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "bench_trusted_sender_malicious.jsonl": {
+      "n_total": 40,
+      "n_malicious": 40,
+      "malicious_correct": 23,
+      "malicious_missed": 17,
+      "malicious_recall": 0.575,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 40,
+      "nonbenign_correct": 23,
+      "nonbenign_recall": 0.575,
+      "macro_f1": 0.36507936507936506,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          17,
+          0,
+          23
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "bench_unknown_benign.jsonl": {
+      "n_total": 50,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 50,
+      "benign_fp": 0,
+      "benign_clean": 50,
+      "benign_fpr": 0.0,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          50,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "bench_unknown_malicious.jsonl": {
+      "n_total": 50,
+      "n_malicious": 50,
+      "malicious_correct": 30,
+      "malicious_missed": 20,
+      "malicious_recall": 0.6,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 50,
+      "nonbenign_correct": 31,
+      "nonbenign_recall": 0.62,
+      "macro_f1": 0.25,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          19,
+          1,
+          30
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "slice_banking_scam.jsonl": {
+      "n_total": 3,
+      "n_malicious": 3,
+      "malicious_correct": 3,
+      "malicious_missed": 0,
+      "malicious_recall": 1.0,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 3,
+      "nonbenign_correct": 3,
+      "nonbenign_recall": 1.0,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "slice_electricity_scam.jsonl": {
+      "n_total": 3,
+      "n_malicious": 3,
+      "malicious_correct": 2,
+      "malicious_missed": 1,
+      "malicious_recall": 0.6666666666666666,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 3,
+      "nonbenign_correct": 2,
+      "nonbenign_recall": 0.6666666666666666,
+      "macro_f1": 0.4,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "slice_hard_negatives.jsonl": {
+      "n_total": 4,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 4,
+      "benign_fp": 1,
+      "benign_clean": 3,
+      "benign_fpr": 0.25,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 0.42857142857142855,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "slice_hinglish_smishing.jsonl": {
+      "n_total": 3,
+      "n_malicious": 3,
+      "malicious_correct": 2,
+      "malicious_missed": 1,
+      "malicious_recall": 0.6666666666666666,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 3,
+      "nonbenign_correct": 2,
+      "nonbenign_recall": 0.6666666666666666,
+      "macro_f1": 0.4,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          2
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "slice_institutional_partnerships.jsonl": {
+      "n_total": 32,
+      "n_malicious": 16,
+      "malicious_correct": 5,
+      "malicious_missed": 11,
+      "malicious_recall": 0.3125,
+      "n_benign": 16,
+      "benign_fp": 0,
+      "benign_clean": 16,
+      "benign_fpr": 0.0,
+      "n_nonbenign": 16,
+      "nonbenign_correct": 5,
+      "nonbenign_recall": 0.3125,
+      "macro_f1": 0.6101882613510521,
+      "confusion_matrix": [
+        [
+          16,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          11,
+          0,
+          5
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "slice_legit_banking.jsonl": {
+      "n_total": 3,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 3,
+      "benign_fp": 2,
+      "benign_clean": 1,
+      "benign_fpr": 0.6666666666666666,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 0.25,
+      "confusion_matrix": [
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "slice_legit_delivery.jsonl": {
+      "n_total": 3,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 3,
+      "benign_fp": 0,
+      "benign_clean": 3,
+      "benign_fpr": 0.0,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "slice_legit_otp.jsonl": {
+      "n_total": 5,
+      "n_malicious": 0,
+      "malicious_correct": 0,
+      "malicious_missed": 0,
+      "malicious_recall": null,
+      "n_benign": 5,
+      "benign_fp": 0,
+      "benign_clean": 5,
+      "benign_fpr": 0.0,
+      "n_nonbenign": 0,
+      "nonbenign_correct": 0,
+      "nonbenign_recall": null,
+      "macro_f1": 1.0,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "slice_otp_theft.jsonl": {
+      "n_total": 4,
+      "n_malicious": 4,
+      "malicious_correct": 2,
+      "malicious_missed": 2,
+      "malicious_recall": 0.5,
+      "n_benign": 0,
+      "benign_fp": 0,
+      "benign_clean": 0,
+      "benign_fpr": null,
+      "n_nonbenign": 4,
+      "nonbenign_correct": 2,
+      "nonbenign_recall": 0.5,
+      "macro_f1": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          2
+        ]
+      ],
+      "threshold": 0.91
+    },
+    "synthetic_pipeline_fixtures.jsonl": {
+      "n_total": 16,
+      "n_malicious": 7,
+      "malicious_correct": 4,
+      "malicious_missed": 3,
+      "malicious_recall": 0.5714285714285714,
+      "n_benign": 7,
+      "benign_fp": 1,
+      "benign_clean": 6,
+      "benign_fpr": 0.14285714285714285,
+      "n_nonbenign": 9,
+      "nonbenign_correct": 5,
+      "nonbenign_recall": 0.5555555555555556,
+      "macro_f1": 0.45751633986928103,
+      "confusion_matrix": [
+        [
+          6,
+          0,
+          1
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          4
+        ]
+      ],
+      "threshold": 0.91
+    }
+  },
+  "model_name": "Candidate_B_Subword_Morpheme_Trees",
+  "training_time_s": 511.7755410671234
+}

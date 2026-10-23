@@ -1,0 +1,19 @@
+{
+  "dataset_version": "v4_4_candidate_c_refined",
+  "created_utc": "2026-09-19T14:03:11.937383+00:00",
+  "base_source": "messages_v4_4/data/train_v4_4_b.jsonl",
+  "base_records": 20257,
+  "iteration_c_records": 147,
+  "total_records": 20404,
+  "sha256": "e002632a201adccd072e41aff0574cd6e0ff5d64dba540185959eadd0bcc1384",
+  "label_distribution": {
+    "MALICIOUS": 12777,
+    "BENIGN": 6458,
+    "SUSPICIOUS_SPAM": 1169
+  },
+  "leakage_verification": {
+    "protected_texts_indexed": 7912,
+    "leakage_violations": 0,
+    "policy": "Strict zero-leakage verified across all 22 baseline suites and 7 new V4.4 protected holdout suites."
+  }
+}

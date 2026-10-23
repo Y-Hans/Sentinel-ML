@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-10-23T05:04:44.528640+00:00",
+  "files": {
+    "frozen/PROBE_V2_DESIGN.md": "6a2fc5b3c71b70278dff210fd05f3ca4188b51e901bb1c2c6d0ae7adae750245",
+    "frozen/probe_v2.csv": "b57438c786d163068844486d620a3617216ac5fa11564206bbf97ab607a86d48",
+    "probe_v1_normalized.csv": "930ad6d92d334ca6a77f5b51a1dad2d5d1ccba42a6f063214069f575e07a3a9e",
+    "frozen/REVIEW_SAMPLE_v2.csv": "4df4e630bd7e02e7b8fe260d907245b7536ddda12e79101b0aad69560612933e",
+    "generation_manifest.json": "ad4b960d9fa60917de63b409345100994f3e367aeeba65386c32e80762475585",
+    "intra_probe_audit_audit02.json": "80df636040c77f2f7271ae0eb312c927ea43a5c6078d628b3be47f8709aa8f87",
+    "overlap_tags.jsonl": "0296180c0cdec614aa8572acd99398e34e3a1e2afd4141a56a2119bf4393b839"
+  },
+  "models_run": false,
+  "rows": 1375
+}

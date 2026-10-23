@@ -1,0 +1,15 @@
+{
+  "candidate_name": "candidate_a_corrected",
+  "date": "2026-09-19",
+  "architecture": "HistGradientBoosting + 19 Structural + 1500 Word (1-2) + 2500 Char_wb (2-5)",
+  "feature_dimensions": 4019,
+  "structural_dimensions": 19,
+  "word_dimensions": 1500,
+  "char_dimensions": 2500,
+  "random_state": 20260914,
+  "threshold": 0.56,
+  "training_rows": 20164,
+  "training_time_seconds": 1066.1752662658691,
+  "training_data_file": "messages_v4_4/data/train_v4_4.jsonl",
+  "selection_criterion": "Smallest threshold on val.jsonl satisfying Benign FPR <= 2.0%"
+}

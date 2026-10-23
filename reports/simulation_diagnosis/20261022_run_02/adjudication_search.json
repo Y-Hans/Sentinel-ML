@@ -1,0 +1,43 @@
+{
+  "hits": [
+    {
+      "path": "sentinel-ml/Messages-ml/LABEL_SEMANTICS_AUDIT.md",
+      "sha256": "95ddd48ebb6a622aa487a58c948fb1c5769cb3cb141663e867029f4b0ef0e2eb",
+      "line": 79,
+      "excerpt": "**INFERENCE:** topic words alone cannot define the three security labels. Metadata has overlapping promotional/security topics; primary_type provides a coarse intent category but not full action intent/channel trust. This establishes annotation-schema inconsistency and ambiguity, but **does not establish that the security labels themselves are incorrect** without provenance-aware human review. Actual SPAM→MALICIOUS prediction evidence is in CLASS_CONFUSION_ANALYSIS.md."
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/SENTINEL_MASTER_PLAN.md",
+      "sha256": "1c3307cd3a60916f1f4ec6b4e4e99c6ec98360304d2c1b5011a9598aecc0ac46",
+      "line": 27,
+      "excerpt": "2. **Scan-History Extraction & Adjudicated Regression Benchmark**: The corrupted archive `sentinel-history.tar` was successfully recovered using 32-bit linear WAL frame checksum solving and tolerant B-tree parsing, recovering exactly **562 out of 562 threat records** (100% record recovery). An audit of all 31 non-green alerts identified 2 synthetic test fixture links (true positives) and adjudicated the remaining 29 natural chat alerts as false alarms based on human review. Because label adjudication carries evaluator subjectivity on informal slang, this recovered dataset serves as a high-value regression benchmark with explicit label provenance rather than conclusive ground truth; the original archive and recovered records are preserved immutable, adjudicated label rationales are documented, and an independent review of disputed cases is required before treating this as conclusive proof of real-world false-positive rates."
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/SENTINEL_MASTER_PLAN.md",
+      "sha256": "1c3307cd3a60916f1f4ec6b4e4e99c6ec98360304d2c1b5011a9598aecc0ac46",
+      "line": 84,
+      "excerpt": "| **EVD-04** | All 29 natural chat alerts in scan history adjudicated as false alarms under human review. Matters for regression testing on real user stream. | **Adjudicated Regression Benchmark (Human Review)** | Recovered `threat_records.json` | Exhaustive human security review of all 31 non-green rows | 0 true attacks identified in natural stream. Flagged items: WhatsApp hackathon chat, college exam timetables, TRAI alerts, Instagram reels, reactions. | Adjudication carries evaluator subjectivity on borderline informal slang; does not constitute conclusive ground-truth proof of real-world FPR. Disputed labels require independent review. | Medium-High (85%) | Independent adjudicators confirming active attack payloads in the 29 rows. | Preserve original archive and recovered records; maintain as regression benchmark with explicit label provenance; seek independent adjudication for disputed labels. |"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/SENTINEL_MASTER_PLAN.md",
+      "sha256": "1c3307cd3a60916f1f4ec6b4e4e99c6ec98360304d2c1b5011a9598aecc0ac46",
+      "line": 194,
+      "excerpt": "| **BENCH_HISTORY_562** | Recovered `threat_records.json` | 562 | 2 Mal, 560 Benign | Simulated device notifications | 0.0% (0 keys) | **Adjudicated Regression Benchmark (Explicit Provenance)** | **Tier 2 Regression Gate**: Real-world alert regression testing (subject to ongoing independent review; not conclusive real-world ground truth). |"
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/SENTINEL_MASTER_PLAN.md",
+      "sha256": "1c3307cd3a60916f1f4ec6b4e4e99c6ec98360304d2c1b5011a9598aecc0ac46",
+      "line": 429,
+      "excerpt": "- **Task 6.2**: Verify that all 29 natural chat false alarms are completely extinguished (0 false alarms)."
+    },
+    {
+      "path": "sentinel-ml/Messages-ml/SENTINEL_MASTER_PLAN.md",
+      "sha256": "1c3307cd3a60916f1f4ec6b4e4e99c6ec98360304d2c1b5011a9598aecc0ac46",
+      "line": 499,
+      "excerpt": "| **Gate 5: Scan History FPR** | Recovered Scan History ($N=562$) | **$0.00\\%$ FPs on Adjudicated Benign** | All 29 natural chat alerts adjudicated as safe must be cleared on regression replay, pending independent review of disputed cases. | Replay harness across all 562 historical notifications with documented label provenance. |"
+    }
+  ],
+  "record_level_human_label_map_found": false,
+  "reason": "aggregate narrative claims found, no hash-linked 31-row human annotation file in searched sources; docs inspected do not provide per-record review IDs",
+  "not_found": "threat_records.json"
+}

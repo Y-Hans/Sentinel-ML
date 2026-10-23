@@ -1,0 +1,29 @@
+[
+  {
+    "pull_id": "pull_1",
+    "valid_candidate_rows": 72,
+    "UUID_occurrences": 266,
+    "candidate_offsets_not_accepted": 194,
+    "timestamp_min_UTC": "2026-09-11T04:58:57.740000+00:00",
+    "timestamp_max_UTC": "2026-09-11T08:16:41.444000+00:00",
+    "explicit_version_strings": []
+  },
+  {
+    "pull_id": "pull_2",
+    "valid_candidate_rows": 75,
+    "UUID_occurrences": 672,
+    "candidate_offsets_not_accepted": 597,
+    "timestamp_min_UTC": "2026-09-04T16:20:47.303000+00:00",
+    "timestamp_max_UTC": "2026-09-05T18:16:00.382000+00:00",
+    "explicit_version_strings": []
+  },
+  {
+    "pull_id": "pull_3",
+    "valid_candidate_rows": 568,
+    "UUID_occurrences": 9965,
+    "candidate_offsets_not_accepted": 9397,
+    "timestamp_min_UTC": "2026-10-01T17:26:29.040000+00:00",
+    "timestamp_max_UTC": "2026-10-21T12:39:55.489000+00:00",
+    "explicit_version_strings": []
+  }
+]

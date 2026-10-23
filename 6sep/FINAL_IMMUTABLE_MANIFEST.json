@@ -1,0 +1,118 @@
+{
+  "6sep/FINAL_FINE_TUNING_REPORT.md": {
+    "size_bytes": 13224,
+    "sha256": "5fcecb17a6eb7d33f09905ff4eb7ff563037683cce67f5f9ab245d2563d1f238"
+  },
+  "6sep/messages/android/android_benchmark_results.json": {
+    "size_bytes": 400,
+    "sha256": "2dbf4a85abae8405d2eb4ab9bbf0585c0c1f71913bae958236d196731e6a5ecb"
+  },
+  "6sep/messages/android/android_parity_results.json": {
+    "size_bytes": 316,
+    "sha256": "bacc1f6fb9855080bda87a33043de055bffeff0e9ed997d9f3ae030fa45baa47"
+  },
+  "6sep/messages/android/champion_v2_char_vocab_idf.json": {
+    "size_bytes": 14629,
+    "sha256": "a70c6e2ec4864aef30f1754d5f16ee5b05f875435f17e57f4598db34c0f72941"
+  },
+  "6sep/messages/android/champion_v2_scaler.json": {
+    "size_bytes": 131696,
+    "sha256": "bb9dbb5ec42707331d31980f671b4d651045701cfe95e1866ab32ac47439a1fa"
+  },
+  "6sep/messages/android/champion_v2_trees.json": {
+    "size_bytes": 2402739,
+    "sha256": "d248cfdd6fa681f55a019590cb7b4dffcb091523391ee7b43f8b30aef75a6e43"
+  },
+  "6sep/messages/android/champion_v2_word_vocab_idf.json": {
+    "size_bytes": 53446,
+    "sha256": "1e966ae39b7a53bb43b945ddb8c65431aaa002c4ae077ce3ce8b024453f79237"
+  },
+  "6sep/messages/candidates/candidate_experiment_log.json": {
+    "size_bytes": 3093,
+    "sha256": "4397f29eab6ae31a4c2e8cbf2114492319274cf4dcabf7adb86ea2376e65c0fe"
+  },
+  "6sep/messages/candidates/train_candidate_v1.jsonl": {
+    "size_bytes": 18620456,
+    "sha256": "0844b76780b180bff51b387e09b31e2abcf672955eae9b5c24f54f2b7124c2cb"
+  },
+  "6sep/messages/final/CHAMPION_V2_CONFIG.json": {
+    "size_bytes": 245,
+    "sha256": "cd925e7e9cf7712db740c720f7aa924e7113096ff517726ac9f54aaf6e342a94"
+  },
+  "6sep/messages/final/champion_v2_model.pkl": {
+    "size_bytes": 1786995,
+    "sha256": "d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887"
+  },
+  "6sep/messages/final/champion_v2_scaler.pkl": {
+    "size_bytes": 50092,
+    "sha256": "6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999"
+  },
+  "6sep/messages/final/champion_v2_tfidf_char.pkl": {
+    "size_bytes": 17604,
+    "sha256": "19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701"
+  },
+  "6sep/messages/final/champion_v2_tfidf_word.pkl": {
+    "size_bytes": 58464,
+    "sha256": "b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495"
+  },
+  "6sep/messages/reports/MESSAGES_CANDIDATE_EVALUATION.json": {
+    "size_bytes": 19236,
+    "sha256": "06dca3610082c3194b7db8b4dc927d70f156bb64497996e2b749981fd37fca12"
+  },
+  "6sep/messages/reports/MESSAGES_CANDIDATE_EVALUATION.md": {
+    "size_bytes": 3501,
+    "sha256": "93da7846aa8c64cffe6e83270763e520fbc103219b3d1a384d06e6d086b01c25"
+  },
+  "6sep/messages/reports/MESSAGES_FINAL_OPTIMIZATION_REPORT.md": {
+    "size_bytes": 10426,
+    "sha256": "858b53c4432ea6a76b1e72f789e0d3e89f6982ac5dfc478dff4b043bf0092e4c"
+  },
+  "6sep/messages/reports/MESSAGES_V2_BASELINE_REPORT.json": {
+    "size_bytes": 11404,
+    "sha256": "838a398ace004b19d098d74715174e8649a68cd2c564460215dedbf688b430e3"
+  },
+  "6sep/messages/reports/MESSAGES_V2_BASELINE_REPORT.md": {
+    "size_bytes": 3417,
+    "sha256": "99044219e5f1c9a3a0648662455531170ebf5f328ad4fc61570507ae0e446592"
+  },
+  "6sep/shared/BASELINE_IMMUTABLE_MANIFEST.json": {
+    "size_bytes": 2132,
+    "sha256": "a1c977a2bbfe5453c5c4331982aeb52d587b2a2de4b201b0af44b16d26b1eced"
+  },
+  "6sep/url/android/android_benchmark_results.json": {
+    "size_bytes": 366,
+    "sha256": "b510a5a27770c2bbe7d20576755cdfa871edd6c6a1da5d3fb32a55ae32776a03"
+  },
+  "6sep/url/android/android_parity_results.json": {
+    "size_bytes": 324,
+    "sha256": "2e0c6c5286c833c57ed2c278d9a63d1c78925cff51de5089cfedef93318715a0"
+  },
+  "6sep/url/android/v7_champion_portable.json": {
+    "size_bytes": 1029290,
+    "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+  },
+  "6sep/url/candidates/URL_CANDIDATE_EXPERIMENTS.json": {
+    "size_bytes": 1938,
+    "sha256": "48e2d9469d3c36ded7f170d728505a0184f00f6ec63b11d7e3b10879ae1e27be"
+  },
+  "6sep/url/final/URL_CHAMPION_FREEZE.json": {
+    "size_bytes": 3088,
+    "sha256": "a5facbc31c4b285e13a503fe9fbfb5b08c0cb635294eed22e5457281efbd05d4"
+  },
+  "6sep/url/final/v7_champion.joblib": {
+    "size_bytes": 1649433,
+    "sha256": "d414bf668484ea5ba6056b626f0d8e674e0085208ba23d964522b09557affdaa"
+  },
+  "6sep/url/final/v7_champion_portable.json": {
+    "size_bytes": 1029290,
+    "sha256": "9ae18a06cb03ca138e0cedc4def90d8bededa759622fe06924392e146c1de57b"
+  },
+  "6sep/url/reports/URL_FINAL_OPTIMIZATION_REPORT.md": {
+    "size_bytes": 8004,
+    "sha256": "8791f37d73538845b96bb8fa34df0e838eddd3287ceb6df176d781f94ec31dab"
+  },
+  "6sep/url/reports/URL_V7_BASELINE_REPORT.json": {
+    "size_bytes": 3660,
+    "sha256": "cfdb5e361628e1c5fa666e9dc9808156300e986bf77e69fd65758990d53a9bd8"
+  }
+}

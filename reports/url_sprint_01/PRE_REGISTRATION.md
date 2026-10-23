@@ -1,0 +1,18 @@
+# Pre-registration — STOP FOR APPROVAL
+PROVISIONAL plan; written after baseline/policy evaluation and before any fresh fit. No fit is authorized by this document. Execute training only after the exact user reply APPROVED, delivery/review of the required evidence-backed new composition, and hashed split manifest. No existing artifact is replaced.
+
+Approved scope sought: <=8 fresh HistGradientBoostingClassifier CPU fits, <=4 aggregate CPU-hours, the exact current 67 features/order, one numerical CPU thread, new domain/source-balanced pool with domain-disjoint splits, validation-only global threshold and candidate selection. No network, package install, GPU, Kotlin/build/Git mutation, architecture/feature change, Track A/S2-E replay, B1 dictionary, or apex-only threshold modulation. Output roots remain reports/url_sprint_01/ and sentinel-ml/URL-ml/experiments/url_sprint_01/. New stage-specific filenames must avoid overwriting sprint evidence.
+
+Immutable plan: URL_FROM_SCRATCH_PLAN.md SHA-256 `65795a79275601708f459750da7393c03562958fe0cb1c43c3da800ee29e5ba2`.
+Baseline report: BASELINE_RESULTS.md SHA-256 `2955086d44b2c30476d07d31106370f2d6bd976b707a940012608e50c11be7f5`.
+Feature order/source ledger: FEATURE_LEDGER.csv SHA-256 `e840833a44c1ef5ab4fdf2fe6bff4d5c94788ee882f59c8deba11a6dad17ce8a`.
+Policy frozen gates: `39879b244d46f8591d41562bd65090246f38eff5e6a5c545a4d2dc585b3da8b2`; prototype source: `5c265df09ad9b593edde390c5632a8fe5a02d5bbd5887bbcbc9e71932d7eecef` (failed prototype is not automatically included in training output).
+Probe: `635cbda6f0728ae837536b7caec54444ee8d13c1f7c61dea6eb5898d9849e03b`. The probe is development evidence, not a private exam. If user review finds >5% wrong labels (>6/120), invalidate/regenerate and re-register before fitting.
+
+Hard gates for the selected final model: probe benign FP <=309/600 and attack TP=300/300; clean TP>=22,789/23,158 with <=46 paired new misses; V8-normalized apex TP>=4,162/4,254 with <=8 paired new misses; clean FP<=273/27,353; zero payload/redirect/credential bypass; zero golden expected-output regression; no increase/new false alerts on the 500 (regression reports only). New domain-disjoint validation/test require FPR<=1%, recall>=98.405%, apex/critical-slice recall within 0.2 points of frozen V8 on the same split. Private exam: pre-register >=20% relative FP reduction, <=0.2-point recall loss and zero invariant bypass before its results/URLs are exposed. No candidate/threshold selection from clean test/probe/golden/500/private exam. No second chosen candidate after final report failure. All gates conjunctive; failure means reject promotion.
+
+New pool requirements, conflict/source audit, private/public suffix grouping, 70/15/15 domain splits, two compositions x two leaf choices x two seeds, tie-breaks, CPU supervisor/timeouts and user-held exam are specified in the hashed plan. No data/source changes after freeze without a new user-reviewed registration. All <=8 attempted fits including timeouts count; budget exhaustion rejects additional fits. Keep model outputs out of labels. A feature change requires a separate written Python/Kotlin cost proposal and user authorization.
+
+Outstanding user review/provision: REVIEW_SAMPLE.csv; dated domains-only Tranco top-100k and metadata; evidence-backed benign/attack URL sources including low-signal apex attacks; offline public/private suffix list; hidden exam independently held by user. Current safe-prior gate outcome is in gates.json; a failed candidate cannot be promoted. Golden expected-output/semantic safety conflict requires separate review; no implicit waiver.
+
+STOP. Reply APPROVED to authorize this plan subject to the above data prerequisites. Until then, fit count remains zero.

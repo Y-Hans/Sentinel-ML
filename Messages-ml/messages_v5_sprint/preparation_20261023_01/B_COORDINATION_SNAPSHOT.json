@@ -1,0 +1,15 @@
+{
+  "authorization": "User requested following AGENT_A_NEXT.md item 3: coordinate with B.",
+  "threadId": "01a1671f-0295-7b00-a5af-2c81db7bb91e",
+  "title": "Collect public SMS scam datasets",
+  "coordination_request_sent": true,
+  "request_summary": "Source hashes/manifests, quarantine list, original/variant/template provenance; no copying during A active preparation; no DATASETS MOVED assumed.",
+  "snapshot_status": {
+    "type": "active",
+    "activeFlags": []
+  },
+  "latest_message": "I’ve read all 531 Ridham “safe” originals and all 419 retained financial2025 originals. There are clear promotional candidates, but coupon-sharing chats, reward receipts, generic job offers, and unverified call-back messages need separate treatment. The current ysangam card and file listing still do not document numeric polarity. I’ll retain all 743 unique rows as UNMAPPED.",
+  "latest_message_id": "msg_098ffecc3c66aac1016adb3f6fcd6c8191b246e202204428d2",
+  "cursor": "dbf62241-3469-46c2-9125-b3e7cf0b1b4e:1",
+  "final_remediation_manifest_received": false
+}

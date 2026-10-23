@@ -1,0 +1,94 @@
+{
+  "campaign": "URL-ML V7",
+  "experiment_id": "v7_et_base_w1",
+  "name": "ExtraTrees Base (W=1)",
+  "hypothesis": "Context-aware threat interactions + diverse structural coverage allow trees to separate deep paths without hard-source false positives",
+  "architecture": "ExtraTreesClassifier",
+  "feature_count": 53,
+  "feature_schema_sha256": "671ccacb5a8fb2ab5056e25c0acd6ff23df365d3d277507f40066d8610a52392",
+  "seed": 42,
+  "structural_weight": 1.0,
+  "threshold": 0.3063469234617309,
+  "source_dataset_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+  "structural_dataset_sha256": "8ef8245508c889161fff5a32f81dda0e6edb6513cc3f794f45003d1b7e560efd",
+  "hard_dataset_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+  "train_rows": 141178,
+  "structural_rows": 21290,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.009985997494288452,
+    "malicious_recall": 0.9727722772277227,
+    "roc_auc": 0.9970939160851746,
+    "confusion_matrix": [
+      [
+        26867,
+        271
+      ],
+      [
+        462,
+        16506
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.009432237780133806,
+    "malicious_recall": 0.9909318594006391,
+    "roc_auc": 0.9985227703387468,
+    "confusion_matrix": [
+      [
+        27095,
+        258
+      ],
+      [
+        210,
+        22948
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.4277692700357325,
+    "malicious_recall": 0.9785969084423306,
+    "roc_auc": 0.9740094044438942,
+    "confusion_matrix": [
+      [
+        1121,
+        838
+      ],
+      [
+        18,
+        823
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.9874358974358974,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        49,
+        3851
+      ]
+    ]
+  },
+  "fit_seconds": 45.33825810000053,
+  "artifact": "model/challengers/v7_et_base_w1",
+  "model_size_bytes": 23896840,
+  "gates": {
+    "test_fpr_pass": true,
+    "test_recall_pass": true,
+    "hard_fpr_pass": false,
+    "hard_recall_pass": true,
+    "adversarial_recall_pass": true,
+    "bundle_size_pass": false,
+    "all_gates_pass": false
+  },
+  "promotion_status": "challenger_only"
+}

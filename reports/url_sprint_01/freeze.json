@@ -1,0 +1,30 @@
+{
+  "time_utc": "2026-10-23T04:59:23.101856+00:00",
+  "probe_sha256": "635cbda6f0728ae837536b7caec54444ee8d13c1f7c61dea6eb5898d9849e03b",
+  "red_team_sha256": "2f0e5834ed2bc8ad91fd2daad910ae69b8662edaee9987308910408489a92f49",
+  "review_sha256": "c9bf4c1725de716c5a7bbe6da38302c394f906cca0acef0a8e2c6ac5825e4474",
+  "n": 900,
+  "class_counts": {
+    "BENIGN": 600,
+    "ATTACK": 300
+  },
+  "forms": {
+    "bare_apex": 104,
+    "www": 50,
+    "schemeless": 50,
+    "protocol_relative": 50,
+    "deep_path": 506,
+    "search": 40,
+    "root_query": 40,
+    "raw_ip": 30,
+    "encoded": 30
+  },
+  "generation_seed": 20261023,
+  "root_groups": 50,
+  "blind_exclusions": {},
+  "burned_membership_only_inputs": {
+    "sentinel-ml\\URL-ml\\data\\hard_benign_benchmark_500.json": "d89f532ce8a5f5c35251622cc80dacdcf1318bda62cbf45d88deb6ba7456520f",
+    "sentinel-ml\\android-runtime\\golden_test_data\\golden_urls_v8.json": "47dde6e5837a1b91da6e224a0f85dad75694f0f1a12aad11d7576d48f6a1aacb"
+  },
+  "tranco_candidates": []
+}

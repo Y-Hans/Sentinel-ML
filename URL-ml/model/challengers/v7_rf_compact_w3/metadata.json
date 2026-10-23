@@ -1,0 +1,94 @@
+{
+  "campaign": "URL-ML V7",
+  "experiment_id": "v7_rf_compact_w3",
+  "name": "RandomForest Compact (80 Trees, Depth 16, W=3)",
+  "hypothesis": "RandomForest bootstrap aggregation provides alternative split variance reduction vs ExtraTrees",
+  "architecture": "RandomForestClassifier",
+  "feature_count": 53,
+  "feature_schema_sha256": "852bd096b106b49bdd41a98605a119b6dc28993ebfd272e68880e2bacbad2b54",
+  "seed": 42,
+  "structural_weight": 3.0,
+  "threshold": 0.67966008004002,
+  "source_dataset_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+  "structural_dataset_sha256": "f67c2f86692e68c368210191ba173d75988b96ccc9f808971230f3a1e39f152e",
+  "hard_dataset_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+  "train_rows": 141178,
+  "structural_rows": 48290,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.009949148795047534,
+    "malicious_recall": 0.8719354078264969,
+    "roc_auc": 0.9671890054478743,
+    "confusion_matrix": [
+      [
+        26868,
+        270
+      ],
+      [
+        2173,
+        14795
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.00921288341315395,
+    "malicious_recall": 0.882459625183522,
+    "roc_auc": 0.9829270360483615,
+    "confusion_matrix": [
+      [
+        27101,
+        252
+      ],
+      [
+        2722,
+        20436
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.019908116385911178,
+    "malicious_recall": 0.6135552913198573,
+    "roc_auc": 0.9630092278146717,
+    "confusion_matrix": [
+      [
+        1920,
+        39
+      ],
+      [
+        325,
+        516
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.9128205128205128,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        340,
+        3560
+      ]
+    ]
+  },
+  "fit_seconds": 16.425118799999836,
+  "artifact": "model/challengers/v7_rf_compact_w3",
+  "model_size_bytes": 12065976,
+  "gates": {
+    "test_fpr_pass": true,
+    "test_recall_pass": false,
+    "hard_fpr_pass": false,
+    "hard_recall_pass": false,
+    "adversarial_recall_pass": false,
+    "bundle_size_pass": false,
+    "all_gates_pass": false
+  },
+  "promotion_status": "challenger_only"
+}

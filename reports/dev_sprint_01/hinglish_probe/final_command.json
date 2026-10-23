@@ -1,0 +1,13 @@
+{
+  "argv": [
+    "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "reports/dev_sprint_01/hinglish_probe/finish.py"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "interpreter": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "completed_checks_UTC": "2026-10-22T17:28:55.436522+00:00",
+  "exit_code": 0,
+  "note": "external shell exit0 confirms completion; no logging wrapper writes after output manifest"
+}

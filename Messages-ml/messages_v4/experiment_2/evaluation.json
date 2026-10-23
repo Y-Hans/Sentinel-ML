@@ -1,0 +1,2931 @@
+{
+  "selected": "full_features",
+  "candidates": {
+    "full_features": {
+      "deterministic_features": true,
+      "training_seconds": 143.72100138664246,
+      "threshold": 0.77,
+      "validation": {
+        "n": 3397,
+        "threshold": 0.77,
+        "macro_f1": 0.821439777494355,
+        "benign_nonbenign_fpr": 0.01982651796778191,
+        "malicious_recall": 0.8752158894645942,
+        "nonbenign_recall": 0.9579150579150579,
+        "confusion_matrix": [
+          [
+            791,
+            3,
+            13
+          ],
+          [
+            13,
+            210,
+            51
+          ],
+          [
+            96,
+            193,
+            2027
+          ]
+        ]
+      },
+      "frontier": [
+        {
+          "n": 3397,
+          "threshold": 0.5,
+          "macro_f1": 0.8304512732864414,
+          "benign_nonbenign_fpr": 0.0322180916976456,
+          "malicious_recall": 0.8886010362694301,
+          "nonbenign_recall": 0.976061776061776,
+          "confusion_matrix": [
+            [
+              781,
+              8,
+              18
+            ],
+            [
+              4,
+              216,
+              54
+            ],
+            [
+              58,
+              200,
+              2058
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.51,
+          "macro_f1": 0.8304512732864414,
+          "benign_nonbenign_fpr": 0.0322180916976456,
+          "malicious_recall": 0.8886010362694301,
+          "nonbenign_recall": 0.976061776061776,
+          "confusion_matrix": [
+            [
+              781,
+              8,
+              18
+            ],
+            [
+              4,
+              216,
+              54
+            ],
+            [
+              58,
+              200,
+              2058
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.52,
+          "macro_f1": 0.8300134155877318,
+          "benign_nonbenign_fpr": 0.0322180916976456,
+          "malicious_recall": 0.8877374784110535,
+          "nonbenign_recall": 0.974903474903475,
+          "confusion_matrix": [
+            [
+              781,
+              8,
+              18
+            ],
+            [
+              4,
+              216,
+              54
+            ],
+            [
+              61,
+              199,
+              2056
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.53,
+          "macro_f1": 0.8300134155877318,
+          "benign_nonbenign_fpr": 0.0322180916976456,
+          "malicious_recall": 0.8877374784110535,
+          "nonbenign_recall": 0.974903474903475,
+          "confusion_matrix": [
+            [
+              781,
+              8,
+              18
+            ],
+            [
+              4,
+              216,
+              54
+            ],
+            [
+              61,
+              199,
+              2056
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.54,
+          "macro_f1": 0.828350034118512,
+          "benign_nonbenign_fpr": 0.0322180916976456,
+          "malicious_recall": 0.8864421416234888,
+          "nonbenign_recall": 0.9733590733590733,
+          "confusion_matrix": [
+            [
+              781,
+              8,
+              18
+            ],
+            [
+              5,
+              215,
+              54
+            ],
+            [
+              64,
+              199,
+              2053
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.55,
+          "macro_f1": 0.828350034118512,
+          "benign_nonbenign_fpr": 0.0322180916976456,
+          "malicious_recall": 0.8864421416234888,
+          "nonbenign_recall": 0.9733590733590733,
+          "confusion_matrix": [
+            [
+              781,
+              8,
+              18
+            ],
+            [
+              5,
+              215,
+              54
+            ],
+            [
+              64,
+              199,
+              2053
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.56,
+          "macro_f1": 0.8279169639478207,
+          "benign_nonbenign_fpr": 0.0322180916976456,
+          "malicious_recall": 0.8855785837651122,
+          "nonbenign_recall": 0.9722007722007722,
+          "confusion_matrix": [
+            [
+              781,
+              8,
+              18
+            ],
+            [
+              5,
+              215,
+              54
+            ],
+            [
+              67,
+              198,
+              2051
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.57,
+          "macro_f1": 0.8268079244990222,
+          "benign_nonbenign_fpr": 0.030978934324659233,
+          "malicious_recall": 0.8847150259067358,
+          "nonbenign_recall": 0.971042471042471,
+          "confusion_matrix": [
+            [
+              782,
+              8,
+              17
+            ],
+            [
+              6,
+              214,
+              54
+            ],
+            [
+              69,
+              198,
+              2049
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.58,
+          "macro_f1": 0.8265388690693038,
+          "benign_nonbenign_fpr": 0.030978934324659233,
+          "malicious_recall": 0.8842832469775475,
+          "nonbenign_recall": 0.9706563706563707,
+          "confusion_matrix": [
+            [
+              782,
+              8,
+              17
+            ],
+            [
+              6,
+              214,
+              54
+            ],
+            [
+              70,
+              198,
+              2048
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.59,
+          "macro_f1": 0.8265516332670774,
+          "benign_nonbenign_fpr": 0.02973977695167286,
+          "malicious_recall": 0.8838514680483592,
+          "nonbenign_recall": 0.9702702702702702,
+          "confusion_matrix": [
+            [
+              783,
+              8,
+              16
+            ],
+            [
+              6,
+              214,
+              54
+            ],
+            [
+              71,
+              198,
+              2047
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.6,
+          "macro_f1": 0.8267915125168761,
+          "benign_nonbenign_fpr": 0.028500619578686492,
+          "malicious_recall": 0.883419689119171,
+          "nonbenign_recall": 0.9698841698841699,
+          "confusion_matrix": [
+            [
+              784,
+              7,
+              16
+            ],
+            [
+              6,
+              214,
+              54
+            ],
+            [
+              72,
+              198,
+              2046
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.61,
+          "macro_f1": 0.8267915125168761,
+          "benign_nonbenign_fpr": 0.028500619578686492,
+          "malicious_recall": 0.883419689119171,
+          "nonbenign_recall": 0.9698841698841699,
+          "confusion_matrix": [
+            [
+              784,
+              7,
+              16
+            ],
+            [
+              6,
+              214,
+              54
+            ],
+            [
+              72,
+              198,
+              2046
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.62,
+          "macro_f1": 0.8273006896205294,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.883419689119171,
+          "nonbenign_recall": 0.9698841698841699,
+          "confusion_matrix": [
+            [
+              785,
+              6,
+              16
+            ],
+            [
+              6,
+              214,
+              54
+            ],
+            [
+              72,
+              198,
+              2046
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.63,
+          "macro_f1": 0.8270321546319962,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.8829879101899827,
+          "nonbenign_recall": 0.9694980694980695,
+          "confusion_matrix": [
+            [
+              785,
+              6,
+              16
+            ],
+            [
+              6,
+              214,
+              54
+            ],
+            [
+              73,
+              198,
+              2045
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.64,
+          "macro_f1": 0.8256423560500202,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.8821243523316062,
+          "nonbenign_recall": 0.9683397683397683,
+          "confusion_matrix": [
+            [
+              785,
+              6,
+              16
+            ],
+            [
+              7,
+              213,
+              54
+            ],
+            [
+              75,
+              198,
+              2043
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.65,
+          "macro_f1": 0.825525163237031,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.8821243523316062,
+          "nonbenign_recall": 0.967953667953668,
+          "confusion_matrix": [
+            [
+              785,
+              6,
+              16
+            ],
+            [
+              8,
+              213,
+              53
+            ],
+            [
+              75,
+              198,
+              2043
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.66,
+          "macro_f1": 0.8254082245215928,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.8821243523316062,
+          "nonbenign_recall": 0.9675675675675676,
+          "confusion_matrix": [
+            [
+              785,
+              6,
+              16
+            ],
+            [
+              9,
+              213,
+              52
+            ],
+            [
+              75,
+              198,
+              2043
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.67,
+          "macro_f1": 0.8256465039419948,
+          "benign_nonbenign_fpr": 0.026022304832713755,
+          "malicious_recall": 0.8816925734024179,
+          "nonbenign_recall": 0.9664092664092664,
+          "confusion_matrix": [
+            [
+              786,
+              6,
+              15
+            ],
+            [
+              9,
+              213,
+              52
+            ],
+            [
+              78,
+              196,
+              2042
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.68,
+          "macro_f1": 0.8250350740823742,
+          "benign_nonbenign_fpr": 0.024783147459727387,
+          "malicious_recall": 0.8812607944732297,
+          "nonbenign_recall": 0.9656370656370656,
+          "confusion_matrix": [
+            [
+              787,
+              5,
+              15
+            ],
+            [
+              10,
+              212,
+              52
+            ],
+            [
+              79,
+              196,
+              2041
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.69,
+          "macro_f1": 0.8251640175830683,
+          "benign_nonbenign_fpr": 0.023543990086741014,
+          "malicious_recall": 0.8808290155440415,
+          "nonbenign_recall": 0.9648648648648649,
+          "confusion_matrix": [
+            [
+              788,
+              5,
+              14
+            ],
+            [
+              10,
+              212,
+              52
+            ],
+            [
+              81,
+              195,
+              2040
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.7,
+          "macro_f1": 0.8251781197870534,
+          "benign_nonbenign_fpr": 0.022304832713754646,
+          "malicious_recall": 0.8803972366148531,
+          "nonbenign_recall": 0.9644787644787645,
+          "confusion_matrix": [
+            [
+              789,
+              5,
+              13
+            ],
+            [
+              10,
+              212,
+              52
+            ],
+            [
+              82,
+              195,
+              2039
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.71,
+          "macro_f1": 0.8251781197870534,
+          "benign_nonbenign_fpr": 0.022304832713754646,
+          "malicious_recall": 0.8803972366148531,
+          "nonbenign_recall": 0.9644787644787645,
+          "confusion_matrix": [
+            [
+              789,
+              5,
+              13
+            ],
+            [
+              10,
+              212,
+              52
+            ],
+            [
+              82,
+              195,
+              2039
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.72,
+          "macro_f1": 0.824267121499937,
+          "benign_nonbenign_fpr": 0.022304832713754646,
+          "malicious_recall": 0.8791018998272885,
+          "nonbenign_recall": 0.962934362934363,
+          "confusion_matrix": [
+            [
+              789,
+              5,
+              13
+            ],
+            [
+              11,
+              212,
+              51
+            ],
+            [
+              85,
+              195,
+              2036
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.73,
+          "macro_f1": 0.8240021163856189,
+          "benign_nonbenign_fpr": 0.022304832713754646,
+          "malicious_recall": 0.8786701208981001,
+          "nonbenign_recall": 0.9625482625482625,
+          "confusion_matrix": [
+            [
+              789,
+              5,
+              13
+            ],
+            [
+              11,
+              212,
+              51
+            ],
+            [
+              86,
+              195,
+              2035
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.74,
+          "macro_f1": 0.8238379086181021,
+          "benign_nonbenign_fpr": 0.021065675340768277,
+          "malicious_recall": 0.8773747841105354,
+          "nonbenign_recall": 0.961003861003861,
+          "confusion_matrix": [
+            [
+              790,
+              4,
+              13
+            ],
+            [
+              11,
+              212,
+              51
+            ],
+            [
+              90,
+              194,
+              2032
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.75,
+          "macro_f1": 0.8235738197877861,
+          "benign_nonbenign_fpr": 0.021065675340768277,
+          "malicious_recall": 0.8769430051813472,
+          "nonbenign_recall": 0.9606177606177606,
+          "confusion_matrix": [
+            [
+              790,
+              4,
+              13
+            ],
+            [
+              11,
+              212,
+              51
+            ],
+            [
+              91,
+              194,
+              2031
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.76,
+          "macro_f1": 0.8231667882278376,
+          "benign_nonbenign_fpr": 0.021065675340768277,
+          "malicious_recall": 0.8760794473229706,
+          "nonbenign_recall": 0.9594594594594594,
+          "confusion_matrix": [
+            [
+              790,
+              4,
+              13
+            ],
+            [
+              11,
+              212,
+              51
+            ],
+            [
+              94,
+              193,
+              2029
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.77,
+          "macro_f1": 0.821439777494355,
+          "benign_nonbenign_fpr": 0.01982651796778191,
+          "malicious_recall": 0.8752158894645942,
+          "nonbenign_recall": 0.9579150579150579,
+          "confusion_matrix": [
+            [
+              791,
+              3,
+              13
+            ],
+            [
+              13,
+              210,
+              51
+            ],
+            [
+              96,
+              193,
+              2027
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.78,
+          "macro_f1": 0.8212997511631493,
+          "benign_nonbenign_fpr": 0.01982651796778191,
+          "malicious_recall": 0.8747841105354058,
+          "nonbenign_recall": 0.9571428571428572,
+          "confusion_matrix": [
+            [
+              791,
+              3,
+              13
+            ],
+            [
+              13,
+              210,
+              51
+            ],
+            [
+              98,
+              192,
+              2026
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.79,
+          "macro_f1": 0.8212890224707063,
+          "benign_nonbenign_fpr": 0.01858736059479554,
+          "malicious_recall": 0.8739205526770294,
+          "nonbenign_recall": 0.9563706563706563,
+          "confusion_matrix": [
+            [
+              792,
+              2,
+              13
+            ],
+            [
+              13,
+              210,
+              51
+            ],
+            [
+              100,
+              192,
+              2024
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.8,
+          "macro_f1": 0.8212795728932116,
+          "benign_nonbenign_fpr": 0.01734820322180917,
+          "malicious_recall": 0.8730569948186528,
+          "nonbenign_recall": 0.9555984555984556,
+          "confusion_matrix": [
+            [
+              793,
+              1,
+              13
+            ],
+            [
+              13,
+              210,
+              51
+            ],
+            [
+              102,
+              192,
+              2022
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.81,
+          "macro_f1": 0.8210180338646174,
+          "benign_nonbenign_fpr": 0.01734820322180917,
+          "malicious_recall": 0.8726252158894646,
+          "nonbenign_recall": 0.9552123552123553,
+          "confusion_matrix": [
+            [
+              793,
+              1,
+              13
+            ],
+            [
+              13,
+              210,
+              51
+            ],
+            [
+              103,
+              192,
+              2021
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.82,
+          "macro_f1": 0.8193753591829722,
+          "benign_nonbenign_fpr": 0.01734820322180917,
+          "malicious_recall": 0.8713298791018999,
+          "nonbenign_recall": 0.9536679536679536,
+          "confusion_matrix": [
+            [
+              793,
+              1,
+              13
+            ],
+            [
+              14,
+              209,
+              51
+            ],
+            [
+              106,
+              192,
+              2018
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.83,
+          "macro_f1": 0.818868306689286,
+          "benign_nonbenign_fpr": 0.0161090458488228,
+          "malicious_recall": 0.8696027633851469,
+          "nonbenign_recall": 0.9513513513513514,
+          "confusion_matrix": [
+            [
+              794,
+              1,
+              12
+            ],
+            [
+              14,
+              209,
+              51
+            ],
+            [
+              112,
+              190,
+              2014
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.84,
+          "macro_f1": 0.8180900791388215,
+          "benign_nonbenign_fpr": 0.0161090458488228,
+          "malicious_recall": 0.8683074265975821,
+          "nonbenign_recall": 0.9501930501930502,
+          "confusion_matrix": [
+            [
+              794,
+              1,
+              12
+            ],
+            [
+              14,
+              209,
+              51
+            ],
+            [
+              115,
+              190,
+              2011
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.85,
+          "macro_f1": 0.8172326625294373,
+          "benign_nonbenign_fpr": 0.0161090458488228,
+          "malicious_recall": 0.8678756476683938,
+          "nonbenign_recall": 0.9486486486486486,
+          "confusion_matrix": [
+            [
+              794,
+              1,
+              12
+            ],
+            [
+              15,
+              208,
+              51
+            ],
+            [
+              118,
+              188,
+              2010
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.86,
+          "macro_f1": 0.8162661808381863,
+          "benign_nonbenign_fpr": 0.013630731102850062,
+          "malicious_recall": 0.8661485319516408,
+          "nonbenign_recall": 0.9463320463320464,
+          "confusion_matrix": [
+            [
+              796,
+              0,
+              11
+            ],
+            [
+              16,
+              207,
+              51
+            ],
+            [
+              123,
+              187,
+              2006
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.87,
+          "macro_f1": 0.8158871388137209,
+          "benign_nonbenign_fpr": 0.013630731102850062,
+          "malicious_recall": 0.8652849740932642,
+          "nonbenign_recall": 0.9451737451737452,
+          "confusion_matrix": [
+            [
+              796,
+              0,
+              11
+            ],
+            [
+              16,
+              207,
+              51
+            ],
+            [
+              126,
+              186,
+              2004
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.88,
+          "macro_f1": 0.8146049843318166,
+          "benign_nonbenign_fpr": 0.013630731102850062,
+          "malicious_recall": 0.863126079447323,
+          "nonbenign_recall": 0.9432432432432433,
+          "confusion_matrix": [
+            [
+              796,
+              0,
+              11
+            ],
+            [
+              16,
+              207,
+              51
+            ],
+            [
+              131,
+              186,
+              1999
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.89,
+          "macro_f1": 0.815480477338011,
+          "benign_nonbenign_fpr": 0.0012391573729863693,
+          "malicious_recall": 0.8613989637305699,
+          "nonbenign_recall": 0.9413127413127413,
+          "confusion_matrix": [
+            [
+              806,
+              0,
+              1
+            ],
+            [
+              17,
+              206,
+              51
+            ],
+            [
+              135,
+              186,
+              1995
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.9,
+          "macro_f1": 0.813479796818719,
+          "benign_nonbenign_fpr": 0.0012391573729863693,
+          "malicious_recall": 0.8592400690846287,
+          "nonbenign_recall": 0.9386100386100386,
+          "confusion_matrix": [
+            [
+              806,
+              0,
+              1
+            ],
+            [
+              18,
+              205,
+              51
+            ],
+            [
+              141,
+              185,
+              1990
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.91,
+          "macro_f1": 0.8098004365278567,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.8562176165803109,
+          "nonbenign_recall": 0.9335907335907336,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              21,
+              202,
+              51
+            ],
+            [
+              151,
+              182,
+              1983
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.92,
+          "macro_f1": 0.8070625328816453,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.8527633851468048,
+          "nonbenign_recall": 0.9297297297297298,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              22,
+              201,
+              51
+            ],
+            [
+              160,
+              181,
+              1975
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.93,
+          "macro_f1": 0.8058119145727632,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.8506044905008635,
+          "nonbenign_recall": 0.9277992277992279,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              22,
+              201,
+              51
+            ],
+            [
+              165,
+              181,
+              1970
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.94,
+          "macro_f1": 0.7994391131996107,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.8449913644214162,
+          "nonbenign_recall": 0.9196911196911197,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              27,
+              197,
+              50
+            ],
+            [
+              181,
+              178,
+              1957
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.95,
+          "macro_f1": 0.7950408023712274,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.8398100172711571,
+          "nonbenign_recall": 0.9135135135135135,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              29,
+              195,
+              50
+            ],
+            [
+              195,
+              176,
+              1945
+            ]
+          ]
+        }
+      ]
+    },
+    "text_only": {
+      "deterministic_features": false,
+      "training_seconds": 120.30019283294678,
+      "threshold": 0.7,
+      "validation": {
+        "n": 3397,
+        "threshold": 0.7,
+        "macro_f1": 0.8084087933051252,
+        "benign_nonbenign_fpr": 0.01858736059479554,
+        "malicious_recall": 0.8613989637305699,
+        "nonbenign_recall": 0.9505791505791505,
+        "confusion_matrix": [
+          [
+            792,
+            1,
+            14
+          ],
+          [
+            17,
+            206,
+            51
+          ],
+          [
+            111,
+            210,
+            1995
+          ]
+        ]
+      },
+      "frontier": [
+        {
+          "n": 3397,
+          "threshold": 0.5,
+          "macro_f1": 0.8123404990035107,
+          "benign_nonbenign_fpr": 0.04460966542750929,
+          "malicious_recall": 0.8726252158894646,
+          "nonbenign_recall": 0.9656370656370656,
+          "confusion_matrix": [
+            [
+              771,
+              5,
+              31
+            ],
+            [
+              10,
+              211,
+              53
+            ],
+            [
+              79,
+              216,
+              2021
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.51,
+          "macro_f1": 0.8124382603000458,
+          "benign_nonbenign_fpr": 0.04460966542750929,
+          "malicious_recall": 0.8726252158894646,
+          "nonbenign_recall": 0.9652509652509652,
+          "confusion_matrix": [
+            [
+              771,
+              5,
+              31
+            ],
+            [
+              10,
+              211,
+              53
+            ],
+            [
+              80,
+              215,
+              2021
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.52,
+          "macro_f1": 0.8121717468205851,
+          "benign_nonbenign_fpr": 0.04460966542750929,
+          "malicious_recall": 0.8721934369602763,
+          "nonbenign_recall": 0.9648648648648649,
+          "confusion_matrix": [
+            [
+              771,
+              5,
+              31
+            ],
+            [
+              10,
+              211,
+              53
+            ],
+            [
+              81,
+              215,
+              2020
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.53,
+          "macro_f1": 0.8121717468205851,
+          "benign_nonbenign_fpr": 0.04460966542750929,
+          "malicious_recall": 0.8721934369602763,
+          "nonbenign_recall": 0.9648648648648649,
+          "confusion_matrix": [
+            [
+              771,
+              5,
+              31
+            ],
+            [
+              10,
+              211,
+              53
+            ],
+            [
+              81,
+              215,
+              2020
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.54,
+          "macro_f1": 0.8111565823807222,
+          "benign_nonbenign_fpr": 0.04460966542750929,
+          "malicious_recall": 0.8717616580310881,
+          "nonbenign_recall": 0.9637065637065637,
+          "confusion_matrix": [
+            [
+              771,
+              5,
+              31
+            ],
+            [
+              11,
+              210,
+              53
+            ],
+            [
+              83,
+              214,
+              2019
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.55,
+          "macro_f1": 0.8116550011240209,
+          "benign_nonbenign_fpr": 0.04337050805452292,
+          "malicious_recall": 0.8717616580310881,
+          "nonbenign_recall": 0.9637065637065637,
+          "confusion_matrix": [
+            [
+              772,
+              4,
+              31
+            ],
+            [
+              11,
+              210,
+              53
+            ],
+            [
+              83,
+              214,
+              2019
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.56,
+          "macro_f1": 0.8117557249758572,
+          "benign_nonbenign_fpr": 0.04337050805452292,
+          "malicious_recall": 0.8717616580310881,
+          "nonbenign_recall": 0.9633204633204633,
+          "confusion_matrix": [
+            [
+              772,
+              4,
+              31
+            ],
+            [
+              11,
+              210,
+              53
+            ],
+            [
+              84,
+              213,
+              2019
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.57,
+          "macro_f1": 0.8106947964308899,
+          "benign_nonbenign_fpr": 0.04337050805452292,
+          "malicious_recall": 0.8700345423143351,
+          "nonbenign_recall": 0.9617760617760618,
+          "confusion_matrix": [
+            [
+              772,
+              4,
+              31
+            ],
+            [
+              11,
+              210,
+              53
+            ],
+            [
+              88,
+              213,
+              2015
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.58,
+          "macro_f1": 0.8132529536313129,
+          "benign_nonbenign_fpr": 0.030978934324659233,
+          "malicious_recall": 0.8696027633851469,
+          "nonbenign_recall": 0.9613899613899614,
+          "confusion_matrix": [
+            [
+              782,
+              4,
+              21
+            ],
+            [
+              11,
+              210,
+              53
+            ],
+            [
+              89,
+              213,
+              2014
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.59,
+          "macro_f1": 0.8129881427678369,
+          "benign_nonbenign_fpr": 0.030978934324659233,
+          "malicious_recall": 0.8691709844559585,
+          "nonbenign_recall": 0.961003861003861,
+          "confusion_matrix": [
+            [
+              782,
+              4,
+              21
+            ],
+            [
+              11,
+              210,
+              53
+            ],
+            [
+              90,
+              213,
+              2013
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.6,
+          "macro_f1": 0.8119769927036025,
+          "benign_nonbenign_fpr": 0.030978934324659233,
+          "malicious_recall": 0.8687392055267703,
+          "nonbenign_recall": 0.9598455598455599,
+          "confusion_matrix": [
+            [
+              782,
+              4,
+              21
+            ],
+            [
+              12,
+              209,
+              53
+            ],
+            [
+              92,
+              212,
+              2012
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.61,
+          "macro_f1": 0.8109655450591564,
+          "benign_nonbenign_fpr": 0.030978934324659233,
+          "malicious_recall": 0.8683074265975821,
+          "nonbenign_recall": 0.9586872586872587,
+          "confusion_matrix": [
+            [
+              782,
+              4,
+              21
+            ],
+            [
+              13,
+              208,
+              53
+            ],
+            [
+              94,
+              211,
+              2011
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.62,
+          "macro_f1": 0.8124599411979848,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.8683074265975821,
+          "nonbenign_recall": 0.9586872586872587,
+          "confusion_matrix": [
+            [
+              785,
+              1,
+              21
+            ],
+            [
+              13,
+              208,
+              53
+            ],
+            [
+              94,
+              211,
+              2011
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.63,
+          "macro_f1": 0.8119331721164302,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.8674438687392055,
+          "nonbenign_recall": 0.9579150579150579,
+          "confusion_matrix": [
+            [
+              785,
+              1,
+              21
+            ],
+            [
+              13,
+              208,
+              53
+            ],
+            [
+              96,
+              211,
+              2009
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.64,
+          "macro_f1": 0.8119331721164302,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.8674438687392055,
+          "nonbenign_recall": 0.9579150579150579,
+          "confusion_matrix": [
+            [
+              785,
+              1,
+              21
+            ],
+            [
+              13,
+              208,
+              53
+            ],
+            [
+              96,
+              211,
+              2009
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.65,
+          "macro_f1": 0.8115587224837563,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.8670120898100173,
+          "nonbenign_recall": 0.9571428571428572,
+          "confusion_matrix": [
+            [
+              785,
+              1,
+              21
+            ],
+            [
+              14,
+              208,
+              52
+            ],
+            [
+              97,
+              211,
+              2008
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.66,
+          "macro_f1": 0.8107693969161356,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.8657167530224525,
+          "nonbenign_recall": 0.9552123552123553,
+          "confusion_matrix": [
+            [
+              785,
+              1,
+              21
+            ],
+            [
+              15,
+              208,
+              51
+            ],
+            [
+              101,
+              210,
+              2005
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.67,
+          "macro_f1": 0.8085380226152905,
+          "benign_nonbenign_fpr": 0.027261462205700124,
+          "malicious_recall": 0.864853195164076,
+          "nonbenign_recall": 0.9536679536679536,
+          "confusion_matrix": [
+            [
+              785,
+              1,
+              21
+            ],
+            [
+              17,
+              206,
+              51
+            ],
+            [
+              103,
+              210,
+              2003
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.68,
+          "macro_f1": 0.8080353573530527,
+          "benign_nonbenign_fpr": 0.026022304832713755,
+          "malicious_recall": 0.8635578583765112,
+          "nonbenign_recall": 0.9525096525096525,
+          "confusion_matrix": [
+            [
+              786,
+              1,
+              20
+            ],
+            [
+              17,
+              206,
+              51
+            ],
+            [
+              106,
+              210,
+              2000
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.69,
+          "macro_f1": 0.8080545091733736,
+          "benign_nonbenign_fpr": 0.024783147459727387,
+          "malicious_recall": 0.863126079447323,
+          "nonbenign_recall": 0.9521235521235522,
+          "confusion_matrix": [
+            [
+              787,
+              1,
+              19
+            ],
+            [
+              17,
+              206,
+              51
+            ],
+            [
+              107,
+              210,
+              1999
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.7,
+          "macro_f1": 0.8084087933051252,
+          "benign_nonbenign_fpr": 0.01858736059479554,
+          "malicious_recall": 0.8613989637305699,
+          "nonbenign_recall": 0.9505791505791505,
+          "confusion_matrix": [
+            [
+              792,
+              1,
+              14
+            ],
+            [
+              17,
+              206,
+              51
+            ],
+            [
+              111,
+              210,
+              1995
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.71,
+          "macro_f1": 0.808167581356822,
+          "benign_nonbenign_fpr": 0.01734820322180917,
+          "malicious_recall": 0.8605354058721935,
+          "nonbenign_recall": 0.9498069498069498,
+          "confusion_matrix": [
+            [
+              793,
+              1,
+              13
+            ],
+            [
+              17,
+              206,
+              51
+            ],
+            [
+              113,
+              210,
+              1993
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.72,
+          "macro_f1": 0.808167581356822,
+          "benign_nonbenign_fpr": 0.01734820322180917,
+          "malicious_recall": 0.8605354058721935,
+          "nonbenign_recall": 0.9498069498069498,
+          "confusion_matrix": [
+            [
+              793,
+              1,
+              13
+            ],
+            [
+              17,
+              206,
+              51
+            ],
+            [
+              113,
+              210,
+              1993
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.73,
+          "macro_f1": 0.807908053073315,
+          "benign_nonbenign_fpr": 0.01734820322180917,
+          "malicious_recall": 0.8601036269430051,
+          "nonbenign_recall": 0.9494208494208494,
+          "confusion_matrix": [
+            [
+              793,
+              1,
+              13
+            ],
+            [
+              17,
+              206,
+              51
+            ],
+            [
+              114,
+              210,
+              1992
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.74,
+          "macro_f1": 0.8070912257448022,
+          "benign_nonbenign_fpr": 0.01486988847583643,
+          "malicious_recall": 0.8592400690846287,
+          "nonbenign_recall": 0.9482625482625483,
+          "confusion_matrix": [
+            [
+              795,
+              1,
+              11
+            ],
+            [
+              18,
+              205,
+              51
+            ],
+            [
+              116,
+              210,
+              1990
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.75,
+          "macro_f1": 0.8057181711898013,
+          "benign_nonbenign_fpr": 0.01486988847583643,
+          "malicious_recall": 0.8583765112262521,
+          "nonbenign_recall": 0.9471042471042471,
+          "confusion_matrix": [
+            [
+              795,
+              1,
+              11
+            ],
+            [
+              19,
+              204,
+              51
+            ],
+            [
+              118,
+              210,
+              1988
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.76,
+          "macro_f1": 0.8057181711898013,
+          "benign_nonbenign_fpr": 0.01486988847583643,
+          "malicious_recall": 0.8583765112262521,
+          "nonbenign_recall": 0.9471042471042471,
+          "confusion_matrix": [
+            [
+              795,
+              1,
+              11
+            ],
+            [
+              19,
+              204,
+              51
+            ],
+            [
+              118,
+              210,
+              1988
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.77,
+          "macro_f1": 0.8047983215922266,
+          "benign_nonbenign_fpr": 0.01486988847583643,
+          "malicious_recall": 0.8566493955094991,
+          "nonbenign_recall": 0.9451737451737452,
+          "confusion_matrix": [
+            [
+              795,
+              1,
+              11
+            ],
+            [
+              19,
+              204,
+              51
+            ],
+            [
+              123,
+              209,
+              1984
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.78,
+          "macro_f1": 0.8035124639653038,
+          "benign_nonbenign_fpr": 0.01486988847583643,
+          "malicious_recall": 0.8544905008635578,
+          "nonbenign_recall": 0.9432432432432433,
+          "confusion_matrix": [
+            [
+              795,
+              1,
+              11
+            ],
+            [
+              19,
+              204,
+              51
+            ],
+            [
+              128,
+              209,
+              1979
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.79,
+          "macro_f1": 0.8031142127582965,
+          "benign_nonbenign_fpr": 0.01486988847583643,
+          "malicious_recall": 0.8536269430051814,
+          "nonbenign_recall": 0.9420849420849421,
+          "confusion_matrix": [
+            [
+              795,
+              1,
+              11
+            ],
+            [
+              19,
+              204,
+              51
+            ],
+            [
+              131,
+              208,
+              1977
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.8,
+          "macro_f1": 0.8013518466306141,
+          "benign_nonbenign_fpr": 0.01486988847583643,
+          "malicious_recall": 0.8518998272884283,
+          "nonbenign_recall": 0.9397683397683397,
+          "confusion_matrix": [
+            [
+              795,
+              1,
+              11
+            ],
+            [
+              20,
+              203,
+              51
+            ],
+            [
+              136,
+              207,
+              1973
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.81,
+          "macro_f1": 0.8001960576793886,
+          "benign_nonbenign_fpr": 0.01486988847583643,
+          "malicious_recall": 0.8497409326424871,
+          "nonbenign_recall": 0.9374517374517375,
+          "confusion_matrix": [
+            [
+              795,
+              1,
+              11
+            ],
+            [
+              20,
+              203,
+              51
+            ],
+            [
+              142,
+              206,
+              1968
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.82,
+          "macro_f1": 0.8001960576793886,
+          "benign_nonbenign_fpr": 0.01486988847583643,
+          "malicious_recall": 0.8497409326424871,
+          "nonbenign_recall": 0.9374517374517375,
+          "confusion_matrix": [
+            [
+              795,
+              1,
+              11
+            ],
+            [
+              20,
+              203,
+              51
+            ],
+            [
+              142,
+              206,
+              1968
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.83,
+          "macro_f1": 0.7981910429146137,
+          "benign_nonbenign_fpr": 0.01486988847583643,
+          "malicious_recall": 0.8475820379965457,
+          "nonbenign_recall": 0.9347490347490347,
+          "confusion_matrix": [
+            [
+              795,
+              1,
+              11
+            ],
+            [
+              21,
+              202,
+              51
+            ],
+            [
+              148,
+              205,
+              1963
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.84,
+          "macro_f1": 0.7964375523150755,
+          "benign_nonbenign_fpr": 0.013630731102850062,
+          "malicious_recall": 0.8449913644214162,
+          "nonbenign_recall": 0.9316602316602317,
+          "confusion_matrix": [
+            [
+              796,
+              0,
+              11
+            ],
+            [
+              22,
+              201,
+              51
+            ],
+            [
+              155,
+              204,
+              1957
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.85,
+          "macro_f1": 0.7961857784912844,
+          "benign_nonbenign_fpr": 0.013630731102850062,
+          "malicious_recall": 0.844559585492228,
+          "nonbenign_recall": 0.9312741312741313,
+          "confusion_matrix": [
+            [
+              796,
+              0,
+              11
+            ],
+            [
+              22,
+              201,
+              51
+            ],
+            [
+              156,
+              204,
+              1956
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.86,
+          "macro_f1": 0.7975746778504549,
+          "benign_nonbenign_fpr": 0.0012391573729863693,
+          "malicious_recall": 0.8432642487046632,
+          "nonbenign_recall": 0.9289575289575289,
+          "confusion_matrix": [
+            [
+              806,
+              0,
+              1
+            ],
+            [
+              23,
+              200,
+              51
+            ],
+            [
+              161,
+              202,
+              1953
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.87,
+          "macro_f1": 0.7967264732451076,
+          "benign_nonbenign_fpr": 0.0012391573729863693,
+          "malicious_recall": 0.8419689119170984,
+          "nonbenign_recall": 0.9274131274131274,
+          "confusion_matrix": [
+            [
+              806,
+              0,
+              1
+            ],
+            [
+              24,
+              200,
+              50
+            ],
+            [
+              164,
+              202,
+              1950
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.88,
+          "macro_f1": 0.7961306623639914,
+          "benign_nonbenign_fpr": 0.0012391573729863693,
+          "malicious_recall": 0.8411053540587219,
+          "nonbenign_recall": 0.9262548262548262,
+          "confusion_matrix": [
+            [
+              806,
+              0,
+              1
+            ],
+            [
+              25,
+              200,
+              49
+            ],
+            [
+              166,
+              202,
+              1948
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.89,
+          "macro_f1": 0.7941512603616262,
+          "benign_nonbenign_fpr": 0.0012391573729863693,
+          "malicious_recall": 0.8389464594127807,
+          "nonbenign_recall": 0.9235521235521236,
+          "confusion_matrix": [
+            [
+              806,
+              0,
+              1
+            ],
+            [
+              26,
+              199,
+              49
+            ],
+            [
+              172,
+              201,
+              1943
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.9,
+          "macro_f1": 0.7927005471050476,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.8354922279792746,
+          "nonbenign_recall": 0.9196911196911197,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              26,
+              199,
+              49
+            ],
+            [
+              182,
+              199,
+              1935
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.91,
+          "macro_f1": 0.7891726010470523,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.8307426597582038,
+          "nonbenign_recall": 0.9142857142857143,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              28,
+              198,
+              48
+            ],
+            [
+              194,
+              198,
+              1924
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.92,
+          "macro_f1": 0.7840574916951205,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.8229706390328152,
+          "nonbenign_recall": 0.9065637065637066,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              29,
+              197,
+              48
+            ],
+            [
+              213,
+              197,
+              1906
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.93,
+          "macro_f1": 0.7830023067420188,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.8212435233160622,
+          "nonbenign_recall": 0.9046332046332046,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              30,
+              197,
+              47
+            ],
+            [
+              217,
+              197,
+              1902
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.94,
+          "macro_f1": 0.779392135025687,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.8173575129533679,
+          "nonbenign_recall": 0.8996138996138996,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              32,
+              195,
+              47
+            ],
+            [
+              228,
+              195,
+              1893
+            ]
+          ]
+        },
+        {
+          "n": 3397,
+          "threshold": 0.95,
+          "macro_f1": 0.7770737889116847,
+          "benign_nonbenign_fpr": 0.0,
+          "malicious_recall": 0.812607944732297,
+          "nonbenign_recall": 0.8918918918918919,
+          "confusion_matrix": [
+            [
+              807,
+              0,
+              0
+            ],
+            [
+              33,
+              194,
+              47
+            ],
+            [
+              247,
+              187,
+              1882
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "threshold_locked_from": "validation",
+  "validation": {
+    "n": 3397,
+    "threshold": 0.77,
+    "macro_f1": 0.821439777494355,
+    "benign_nonbenign_fpr": 0.01982651796778191,
+    "malicious_recall": 0.8752158894645942,
+    "nonbenign_recall": 0.9579150579150579,
+    "confusion_matrix": [
+      [
+        791,
+        3,
+        13
+      ],
+      [
+        13,
+        210,
+        51
+      ],
+      [
+        96,
+        193,
+        2027
+      ]
+    ]
+  },
+  "test": {
+    "n": 2264,
+    "threshold": 0.77,
+    "macro_f1": 0.8379364658361673,
+    "benign_nonbenign_fpr": 0.019230769230769232,
+    "malicious_recall": 0.8901028277634961,
+    "nonbenign_recall": 0.9655963302752294,
+    "confusion_matrix": [
+      [
+        510,
+        0,
+        10
+      ],
+      [
+        9,
+        148,
+        31
+      ],
+      [
+        51,
+        120,
+        1385
+      ]
+    ]
+  },
+  "ood": {
+    "n": 1132,
+    "threshold": 0.77,
+    "macro_f1": 0.8338692114043734,
+    "benign_nonbenign_fpr": 0.00392156862745098,
+    "malicious_recall": 0.8904282115869018,
+    "nonbenign_recall": 0.9578107183580388,
+    "confusion_matrix": [
+      [
+        254,
+        0,
+        1
+      ],
+      [
+        6,
+        65,
+        12
+      ],
+      [
+        31,
+        56,
+        707
+      ]
+    ]
+  },
+  "benchmarks": {
+    "slice_banking_scam.jsonl": {
+      "n": 3,
+      "threshold": 0.77,
+      "macro_f1": 1.0,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 1.0,
+      "nonbenign_recall": 1.0,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "slice_electricity_scam.jsonl": {
+      "n": 3,
+      "threshold": 0.77,
+      "macro_f1": 0.25,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.3333333333333333,
+      "nonbenign_recall": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    "slice_hard_negatives.jsonl": {
+      "n": 4,
+      "threshold": 0.77,
+      "macro_f1": 1.0,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.0,
+      "nonbenign_recall": 0.0,
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "slice_hinglish_smishing.jsonl": {
+      "n": 3,
+      "threshold": 0.77,
+      "macro_f1": 0.25,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.3333333333333333,
+      "nonbenign_recall": 0.3333333333333333,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          1
+        ]
+      ]
+    },
+    "slice_institutional_partnerships.jsonl": {
+      "n": 32,
+      "threshold": 0.77,
+      "macro_f1": 0.6666666666666667,
+      "benign_nonbenign_fpr": 0.0625,
+      "malicious_recall": 0.4375,
+      "nonbenign_recall": 0.4375,
+      "confusion_matrix": [
+        [
+          15,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          9,
+          0,
+          7
+        ]
+      ]
+    },
+    "slice_legit_banking.jsonl": {
+      "n": 3,
+      "threshold": 0.77,
+      "macro_f1": 1.0,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.0,
+      "nonbenign_recall": 0.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "slice_legit_delivery.jsonl": {
+      "n": 3,
+      "threshold": 0.77,
+      "macro_f1": 1.0,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.0,
+      "nonbenign_recall": 0.0,
+      "confusion_matrix": [
+        [
+          3,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "slice_legit_otp.jsonl": {
+      "n": 5,
+      "threshold": 0.77,
+      "macro_f1": 1.0,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.0,
+      "nonbenign_recall": 0.0,
+      "confusion_matrix": [
+        [
+          5,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "slice_otp_theft.jsonl": {
+      "n": 4,
+      "threshold": 0.77,
+      "macro_f1": 0.42857142857142855,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.75,
+      "nonbenign_recall": 0.75,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          3
+        ]
+      ]
+    },
+    "synthetic_pipeline_fixtures.jsonl": {
+      "n": 16,
+      "threshold": 0.77,
+      "macro_f1": 0.5370370370370371,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.7142857142857143,
+      "nonbenign_recall": 0.5555555555555556,
+      "confusion_matrix": [
+        [
+          7,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          5
+        ]
+      ]
+    },
+    "bench_adversarial_semantic_pairs.jsonl": {
+      "n": 80,
+      "threshold": 0.77,
+      "macro_f1": 0.33796296296296297,
+      "benign_nonbenign_fpr": 0.025,
+      "malicious_recall": 0.175,
+      "nonbenign_recall": 0.275,
+      "confusion_matrix": [
+        [
+          39,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          29,
+          4,
+          7
+        ]
+      ]
+    },
+    "bench_group_context_benign.jsonl": {
+      "n": 40,
+      "threshold": 0.77,
+      "macro_f1": 0.4936708860759494,
+      "benign_nonbenign_fpr": 0.025,
+      "malicious_recall": 0.0,
+      "nonbenign_recall": 0.0,
+      "confusion_matrix": [
+        [
+          39,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bench_group_context_malicious.jsonl": {
+      "n": 40,
+      "threshold": 0.77,
+      "macro_f1": 0.2626262626262626,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.65,
+      "nonbenign_recall": 0.675,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          1,
+          26
+        ]
+      ]
+    },
+    "bench_hinglish_robustness.jsonl": {
+      "n": 100,
+      "threshold": 0.77,
+      "macro_f1": 0.29120229652144547,
+      "benign_nonbenign_fpr": 0.02,
+      "malicious_recall": 0.1,
+      "nonbenign_recall": 0.16,
+      "confusion_matrix": [
+        [
+          49,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          42,
+          3,
+          5
+        ]
+      ]
+    },
+    "bench_sentinel_replay.jsonl": {
+      "n": 294,
+      "threshold": 0.77,
+      "macro_f1": 0.4596491228070176,
+      "benign_nonbenign_fpr": 0.041237113402061855,
+      "malicious_recall": 1.0,
+      "nonbenign_recall": 1.0,
+      "confusion_matrix": [
+        [
+          279,
+          3,
+          9
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          3
+        ]
+      ]
+    },
+    "bench_system_notifications.jsonl": {
+      "n": 45,
+      "threshold": 0.77,
+      "macro_f1": 0.6026541764246681,
+      "benign_nonbenign_fpr": 0.03333333333333333,
+      "malicious_recall": 0.8,
+      "nonbenign_recall": 0.8666666666666667,
+      "confusion_matrix": [
+        [
+          29,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          1,
+          12
+        ]
+      ]
+    },
+    "bench_trusted_sender_malicious.jsonl": {
+      "n": 40,
+      "threshold": 0.77,
+      "macro_f1": 0.25641025641025644,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.625,
+      "nonbenign_recall": 0.65,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          14,
+          1,
+          25
+        ]
+      ]
+    },
+    "bench_unknown_benign.jsonl": {
+      "n": 50,
+      "threshold": 0.77,
+      "macro_f1": 0.494949494949495,
+      "benign_nonbenign_fpr": 0.02,
+      "malicious_recall": 0.0,
+      "nonbenign_recall": 0.0,
+      "confusion_matrix": [
+        [
+          49,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "bench_unknown_malicious.jsonl": {
+      "n": 50,
+      "threshold": 0.77,
+      "macro_f1": 0.2698412698412698,
+      "benign_nonbenign_fpr": 0.0,
+      "malicious_recall": 0.68,
+      "nonbenign_recall": 0.72,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          14,
+          2,
+          34
+        ]
+      ]
+    }
+  },
+  "artifact_hashes": {
+    "messages_v4_calibration.json": "82bc339bf7fa4bf03ec5f5a5939225f9768f60cc4555761857fea61c9b228ec8",
+    "messages_v4_config.json": "e3420e0aba96e127782932b47f2f67ae9cd60880354d943cdef564ffbdde1474",
+    "messages_v4_model.pkl": "ca8d116d5d3c5e95babf634d29c0c15878dc526b56921b2e808fda28dec6201b",
+    "messages_v4_scaler.pkl": "06a911860e90b77dcc1d3fc911c8bff86bdb03e34995f31e0d2119d2f9798b0c",
+    "messages_v4_tfidf_char.pkl": "8dcdbe28b087df5c28b15c5c265ee9b1db30a14dc3147042d6c7f4859c1412c7",
+    "messages_v4_tfidf_word.pkl": "a98301fa974f3c9ddf37693ad5d9f5566d382834958d99f327a83083fe72ce02",
+    "messages_v4_threshold.json": "1efc19fbbd7ad1041b511d8ebd48b1d3e0e6bc948376c15599a48edfac3e1321"
+  }
+}

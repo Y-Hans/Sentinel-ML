@@ -1,0 +1,11 @@
+{
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "physical_cores": null,
+  "cpu_cap": 1,
+  "inference_threads": 1,
+  "core_discovery": "CIM access denied; psutil unavailable; conservative one thread",
+  "historical_hash_differences": [],
+  "fixed_manifest_sha256": "b0a142f0bcb2b2d9858cade17f3609d37d40386c216394f0867e637e52d0b282",
+  "v1_sha256": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44"
+}

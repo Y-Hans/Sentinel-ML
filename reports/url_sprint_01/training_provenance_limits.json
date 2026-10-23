@@ -1,0 +1,8 @@
+{
+  "source_hashes": {
+    "sentinel-ml/URL-ml/scripts/export_v8_joblib.py": "5714db1f2582aff7a7f7f2f04605587b1e3a966e8e02d696d21d42b63d8e45d9",
+    "sentinel-ml/URL-ml/scripts/train_v8_candidates.py": "e0c2e803f571d99fdc006d9ffe837952c64bf410fab5b135f1a9220c8c33ccd3"
+  },
+  "observed_export_behavior": "export_v8_joblib.py wraps frozen V7 base_model with V8 adjudicator and threshold 0.28; it is not a fresh V8 fit. Its smoke-test assertion conflicts with the current closed-phase high-score guard, so do not execute it. train_v8_candidates.py explores additional features and writes existing artifacts; it is neither executed nor adopted.",
+  "limitation": "Historical source and file counts do not prove the complete row manifest actually used for the frozen base model. Require a training manifest; do not sum overlapping CSV counts into a claimed independent dataset."
+}

@@ -1,0 +1,158 @@
+{
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "interpreter": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "numpy": "2.5.2",
+  "sklearn": "1.9.0",
+  "CPU_only": true,
+  "GPU_requested": false,
+  "CUDA_VISIBLE_DEVICES": "-1",
+  "model_configurations": [
+    {
+      "model": "V2",
+      "threshold": 0.704,
+      "v2_sender_header_supported": true,
+      "files": {
+        "sentinel-ml\\6sep\\messages\\final\\champion_v2_model.pkl": "d10108f3e38e53b0c93185a2544327c7a06ed320109e6c219a5184e9bd8ca887",
+        "sentinel-ml\\6sep\\messages\\final\\champion_v2_scaler.pkl": "6b5ecf4e4df650494b87e659a2479141d88fc28fa6f05fcbe09d2d5fe50fe999",
+        "sentinel-ml\\6sep\\messages\\final\\champion_v2_tfidf_word.pkl": "b1244fba45db377986d2ba1b25c525051c6e2552e103c11676cfdc05da3f1495",
+        "sentinel-ml\\6sep\\messages\\final\\champion_v2_tfidf_char.pkl": "19308b9e48529704127d8102e54ec844681c2310dcc3d71d2a5d5bd33fdd4701"
+      },
+      "unpickle_warnings": [
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\6sep\\\\messages\\\\final\\\\champion_v2_model.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\6sep\\\\messages\\\\final\\\\champion_v2_scaler.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\6sep\\\\messages\\\\final\\\\champion_v2_tfidf_word.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\6sep\\\\messages\\\\final\\\\champion_v2_tfidf_char.pkl'>"
+      ]
+    },
+    {
+      "model": "V4.3",
+      "threshold": 0.61,
+      "v2_sender_header_supported": false,
+      "files": {
+        "sentinel-ml\\Messages-ml\\messages_v4_3\\models\\candidate_d\\model.pkl": "2ca29457acd27bf93d6967d8f9d64778b8ba0e404030175465c802fe1a138a7d",
+        "sentinel-ml\\Messages-ml\\messages_v4_3\\models\\candidate_d\\scaler.pkl": "aab17413541b12804b70677161a540fa384b0ec0eeebed8be308de3c3c0a21b9",
+        "sentinel-ml\\Messages-ml\\messages_v4_3\\models\\candidate_d\\word_vec.pkl": "10403d9e8b5f641fd3d200a5e08f5c65e3fdcd7afca65613d47d0f4cfbe96aac",
+        "sentinel-ml\\Messages-ml\\messages_v4_3\\models\\candidate_d\\char_vec.pkl": "fa56cf5548f3ae17f0ccc5c7e8b7ba801e27be8bcd522887ea5af8bae68468b1"
+      },
+      "unpickle_warnings": [
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_3\\\\models\\\\candidate_d\\\\model.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_3\\\\models\\\\candidate_d\\\\scaler.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_3\\\\models\\\\candidate_d\\\\word_vec.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_3\\\\models\\\\candidate_d\\\\char_vec.pkl'>"
+      ]
+    },
+    {
+      "model": "V4.4_candidate_a_corrected",
+      "threshold": 0.56,
+      "v2_sender_header_supported": false,
+      "files": {
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_a_corrected\\model.pkl": "08bfcf6a3da137ae1752cf74c08a39bfb26231435cca9427a6f472420e1d82a7",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_a_corrected\\scaler.pkl": "04a9c525de01d64027774cdca55dd96cb09d061692fa4d9f243db884a12779b7",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_a_corrected\\word_vec.pkl": "e3f1868a602c9cda0340070919d4e7547f44ab234db49e1518878b96f5f0d7fd",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_a_corrected\\char_vec.pkl": "089dcd906b0f5d7c77f9c54b45160a9fad37e0fbe203d29e9ca4bc78c235c163"
+      },
+      "unpickle_warnings": [
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_a_corrected\\\\model.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_a_corrected\\\\scaler.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_a_corrected\\\\word_vec.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_a_corrected\\\\char_vec.pkl'>"
+      ]
+    },
+    {
+      "model": "V4.4_candidate_b_refined",
+      "threshold": 0.63,
+      "v2_sender_header_supported": false,
+      "files": {
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_b_refined\\model.pkl": "7b6d137bc623635c132840b79e41cac6cfed8134952491ad9563730b5f9fea34",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_b_refined\\scaler.pkl": "6fae3b169a7a6d885970f80e3876007b2ae1648882ccdd1c795cf021f6012fac",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_b_refined\\word_vec.pkl": "5a1fd2c62cd5b28426091a69be44c6a871887e875ef7317d8388d9e5991ab277",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_b_refined\\char_vec.pkl": "f75f0c5ae63baa26f8702d014a01826c002c1a4803f6d1a8a26656bcdc6a4abe"
+      },
+      "unpickle_warnings": [
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_b_refined\\\\model.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_b_refined\\\\scaler.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_b_refined\\\\word_vec.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_b_refined\\\\char_vec.pkl'>"
+      ]
+    },
+    {
+      "model": "V4.4_candidate_c_balanced",
+      "threshold": 0.63,
+      "v2_sender_header_supported": false,
+      "files": {
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_c_balanced\\model.pkl": "633357c366da6ef389097f5fc4af91692f06057bcd60af41a7ddb3d617afec21",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_c_balanced\\scaler.pkl": "55db1580c1aa59822f9cef622b337fa860dbd22d23f2db3844dcd4368845b2f9",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_c_balanced\\word_vec.pkl": "dcdeb955a1804be9f322d93502468c205c8bc6c2dd1509f224ff8aa6649fe1f1",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\candidate_c_balanced\\char_vec.pkl": "2c4604d288aaeaf5f8344971406f2efcd79dcfa8bca7b9d534b4024d68fba985"
+      },
+      "unpickle_warnings": [
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_c_balanced\\\\model.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_c_balanced\\\\scaler.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_c_balanced\\\\word_vec.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\candidate_c_balanced\\\\char_vec.pkl'>"
+      ]
+    },
+    {
+      "model": "V4.4_rc2_experiment_1",
+      "threshold": 0.68,
+      "v2_sender_header_supported": false,
+      "files": {
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_1\\model.pkl": "c408eb8d99b854eedb9133cb841d00db2c49e49eec162ca87d2d8f48be047f73",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_1\\scaler.pkl": "9f2fa9fe3058d14240b3920b4641b5242ba1e12c45c5f05623be434152b2ab69",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_1\\word_vec.pkl": "1d4a34147563c4ea74af5250e5fbf0f01917c04b8ecfefa19b51afc0c67398be",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_1\\char_vec.pkl": "7d48cb01bc993c4d4089ff878b1b6110e674742c837edbe28d41040780645508"
+      },
+      "unpickle_warnings": [
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_1\\\\model.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_1\\\\scaler.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_1\\\\word_vec.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_1\\\\char_vec.pkl'>"
+      ]
+    },
+    {
+      "model": "V4.4_rc2_experiment_2",
+      "threshold": 0.68,
+      "v2_sender_header_supported": false,
+      "files": {
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_2\\model.pkl": "3cad1d9aa70a3bb4d145a40ef9d4b18bab3aece32c42efc3c859aad3f7080cf5",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_2\\scaler.pkl": "6db5f8b7df2261a7fb6e9a1f93b2e743171d42b7b04d083f7158b97d9b90a695",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_2\\word_vec.pkl": "41aa2ee88ae2393a5ae3761e8828a36b7cdf861b1187f49d2e09c98e3f50ef8f",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_2\\char_vec.pkl": "f81b1b62f497709e612b65eff36391f35e562c3b1478b917fa461f9c52032d78"
+      },
+      "unpickle_warnings": [
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_2\\\\model.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_2\\\\scaler.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_2\\\\word_vec.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_2\\\\char_vec.pkl'>"
+      ]
+    },
+    {
+      "model": "V4.4_rc2_experiment_3",
+      "threshold": 0.74,
+      "v2_sender_header_supported": false,
+      "files": {
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_3\\model.pkl": "6449e7720eebf6f70a8a23d405fc8a3890da164417aa47c982c1a19157ae79f3",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_3\\scaler.pkl": "7c8e9b21a01b60120373e5b637f689e235ac071c2531de622009512a9610386c",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_3\\word_vec.pkl": "87be636122faaa43f7b78c5ee385dd875e3749b9d377712cb11ca3e71c3919b6",
+        "sentinel-ml\\Messages-ml\\messages_v4_4\\models\\rc2_experiment_3\\char_vec.pkl": "6f5865df37105b38e09619a44bfbb848506febba6853d34161c91637cbfe7d23"
+      },
+      "unpickle_warnings": [
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_3\\\\model.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_3\\\\scaler.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_3\\\\word_vec.pkl'>",
+        "unclosed file <_io.BufferedReader name='C:\\\\Users\\\\user\\\\Programing files\\\\Yajat\\\\Projects\\\\sentinel\\\\sentinel-ml\\\\Messages-ml\\\\messages_v4_4\\\\models\\\\rc2_experiment_3\\\\char_vec.pkl'>"
+      ]
+    }
+  ],
+  "probe_sha256": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44",
+  "design_sha256_before_probe": "a1a78e72720f6fc36da5c978e2d906a57056eafc37adf60ec738e2f1fd335f13",
+  "prediction_rows": 11220,
+  "label_order": [
+    "BENIGN",
+    "SPAM",
+    "MALICIOUS"
+  ],
+  "primary_alert": "thresholded_predicted == MALICIOUS; SPAM never alerts",
+  "no_training": true,
+  "Condition2_excluded": "V4.3 and sixV4.4 feature extractors accept text only; metadata not injected into text"
+}

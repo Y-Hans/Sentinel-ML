@@ -1,0 +1,10 @@
+V2 text_only rows 1320 M-only alerts 308
+V2 SMS_with_sender_header rows 660 M-only alerts 16
+V4.3 text_only rows 1320 M-only alerts 463
+V4.4_candidate_a_corrected text_only rows 1320 M-only alerts 731
+V4.4_candidate_b_refined text_only rows 1320 M-only alerts 605
+V4.4_candidate_c_balanced text_only rows 1320 M-only alerts 552
+V4.4_rc2_experiment_1 text_only rows 1320 M-only alerts 384
+V4.4_rc2_experiment_2 text_only rows 1320 M-only alerts 414
+V4.4_rc2_experiment_3 text_only rows 1320 M-only alerts 318
+predictions 11220 CPU only

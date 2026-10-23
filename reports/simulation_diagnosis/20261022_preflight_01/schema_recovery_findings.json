@@ -1,0 +1,658 @@
+{
+  "supersedes": "preflight_findings.json training text/labels and replay overlap ONLY: first parser did not recognize raw_text/security_label; its zero-overlap result is INVALID. Database errors and hashes remain valid.",
+  "training_inventory": [
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train.jsonl",
+      "sha256": "26b6189ca02eba662d67b12308d2af1e270d26cd4220d6badc67df4b34f3cd9f",
+      "count": 15855,
+      "labels": {
+        "MALICIOUS": 10972,
+        "BENIGN": 3714,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15176,
+      "missing_template_id": 0
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_contrastive.jsonl",
+      "sha256": "de7946c70432b6f9d4deeb8184a2f862192c0acb2c3f40ebc9975b7d2ece3ad8",
+      "count": 16215,
+      "labels": {
+        "MALICIOUS": 11152,
+        "BENIGN": 3894,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15194,
+      "missing_template_id": 360
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded.jsonl",
+      "sha256": "a6706a1d5621e3933315fd49dffdb6ff20ca8d0a79c4f5f196d8c1f29abcd662",
+      "count": 16175,
+      "labels": {
+        "MALICIOUS": 10972,
+        "BENIGN": 4034,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15192,
+      "missing_template_id": 320
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v2.jsonl",
+      "sha256": "dad65a13b31d999df518431df01541cebc501dd916e494624ba57b8426b02315",
+      "count": 16935,
+      "labels": {
+        "MALICIOUS": 11512,
+        "BENIGN": 4254,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15230,
+      "missing_template_id": 1080
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v3.jsonl",
+      "sha256": "9cdd06fe1ec60baf5092c1f71f31ac7b3bf3fe299f5d6212e199bfa3639346cb",
+      "count": 16725,
+      "labels": {
+        "MALICIOUS": 11247,
+        "BENIGN": 4309,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15214,
+      "missing_template_id": 870
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v4.jsonl",
+      "sha256": "7223761acb75e1110ff244857ebc6dd840b19709420472b7ee9e66d18ccf415e",
+      "count": 17017,
+      "labels": {
+        "MALICIOUS": 11548,
+        "BENIGN": 4300,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15312,
+      "missing_template_id": 1162
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v4_3x.jsonl",
+      "sha256": "b44680c61c895824cd4c6342ed86a45ec99a2b47f9070bfd7e6e702a0c8dc4e3",
+      "count": 17181,
+      "labels": {
+        "MALICIOUS": 11620,
+        "BENIGN": 4392,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15312,
+      "missing_template_id": 1326
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v5.jsonl",
+      "sha256": "653b889d1d674246a99ed4a9ebf5427337a1d4331e1107f04c70d872c010667c",
+      "count": 17361,
+      "labels": {
+        "MALICIOUS": 11740,
+        "BENIGN": 4452,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15372,
+      "missing_template_id": 1506
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v6.jsonl",
+      "sha256": "ce4347a74120be7169ad6b92d9947f3d9098addb2512cec10bbca9f50728888f",
+      "count": 17629,
+      "labels": {
+        "MALICIOUS": 11928,
+        "BENIGN": 4532,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15500,
+      "missing_template_id": 1774
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v7.jsonl",
+      "sha256": "5b3f2a921980be3018a3e7ab81a62dc677204286d689c16cf7bf542073a6544d",
+      "count": 17541,
+      "labels": {
+        "MALICIOUS": 11900,
+        "BENIGN": 4472,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15405,
+      "missing_template_id": 1686
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\data\\processed\\train_expanded_v8.jsonl",
+      "sha256": "b4c97857160fa247fdff8b3cd7af3b8930afd15dd6819328c968703c123b4fe0",
+      "count": 18311,
+      "labels": {
+        "MALICIOUS": 12010,
+        "BENIGN": 5132,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15526,
+      "missing_template_id": 2456
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4\\data\\train_v4.jsonl",
+      "sha256": "fd02ad59f4b8b708df99dbfaa9c326cf98233d21e22ec2dc65898d14c69734f9",
+      "count": 17473,
+      "labels": {
+        "MALICIOUS": 11796,
+        "BENIGN": 4508,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15418,
+      "missing_template_id": 1618
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4\\experiment_2\\data\\train_v4_2.jsonl",
+      "sha256": "5920d5cc6e7858d38d7af94aaca0c7efb3a3292fcc173e3c0ca30467f0385e3a",
+      "count": 18601,
+      "labels": {
+        "MALICIOUS": 12360,
+        "BENIGN": 5072,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 15704,
+      "missing_template_id": 2746
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_3\\data\\train_v4_3.jsonl",
+      "sha256": "d01d4d36144e8c4d09f4c0fd21eb15b02e10f1be4d488bebb07ce7eba9c11c11",
+      "count": 19672,
+      "labels": {
+        "MALICIOUS": 12612,
+        "BENIGN": 5891,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 16709,
+      "missing_template_id": 3817
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4.jsonl",
+      "sha256": "3dd4b4b7cba0fffba059bd365e7e01ce19668a3f5981c3a1c943dc8dd8c4a14f",
+      "count": 20164,
+      "labels": {
+        "MALICIOUS": 12769,
+        "BENIGN": 6226,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 17201,
+      "missing_template_id": 4309
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4_b.jsonl",
+      "sha256": "28bdb8c81e538c8a49cd7b56e9da89e5b206bbe2297e12f8b245fcf50c329ab0",
+      "count": 20257,
+      "labels": {
+        "MALICIOUS": 12777,
+        "BENIGN": 6311,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 17293,
+      "missing_template_id": 4402
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4_c.jsonl",
+      "sha256": "e002632a201adccd072e41aff0574cd6e0ff5d64dba540185959eadd0bcc1384",
+      "count": 20404,
+      "labels": {
+        "MALICIOUS": 12777,
+        "BENIGN": 6458,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 17440,
+      "missing_template_id": 4549
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4_rc2_exp1.jsonl",
+      "sha256": "1750808fb5d3d71f5db779d4273596404d480054115d96077d3ad4ad420a7f3e",
+      "count": 20495,
+      "labels": {
+        "MALICIOUS": 12777,
+        "BENIGN": 6549,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 17517,
+      "missing_template_id": 4640
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4_rc2_exp2.jsonl",
+      "sha256": "e67311390888ffd590b360958d5f691a8a8bc8450b7073d0e59fd3d68a19a446",
+      "count": 20543,
+      "labels": {
+        "MALICIOUS": 12787,
+        "BENIGN": 6587,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 17565,
+      "missing_template_id": 4688
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_4\\data\\train_v4_4_rc2_exp3.jsonl",
+      "sha256": "e9b45c52834a00caf36a199c47669eea7b00def88e2b15140c64cdb9cec5b2b2",
+      "count": 20581,
+      "labels": {
+        "MALICIOUS": 12811,
+        "BENIGN": 6601,
+        "SUSPICIOUS_SPAM": 1169
+      },
+      "template_keys": 17603,
+      "missing_template_id": 4726
+    },
+    {
+      "path": "sentinel-ml\\Messages-ml\\messages_v4_5\\experiments\\next_architecture\\data\\auxiliary_train.jsonl",
+      "sha256": "2c74d90d81e31a15103b11b540fcbadef63470df9a850fea7f5ea84abba893e1",
+      "count": 12753,
+      "labels": {
+        "MALICIOUS": 8101,
+        "BENIGN": 3614,
+        "SUSPICIOUS_SPAM": 1038
+      },
+      "template_keys": 12373,
+      "missing_template_id": 14
+    }
+  ],
+  "sources": [
+    {
+      "path": "sentinel-ml/7sep_messages_v3/data/bench_sentinel_replay.jsonl",
+      "sha256": "7f9f91f37f1b9933f760b33592bbafc2d3dadd02effbd7a2b0b6ea661ae20cf1",
+      "count": 294,
+      "keys": [
+        "id",
+        "source",
+        "sender_header",
+        "raw_text",
+        "db_risk_level",
+        "db_risk_score",
+        "security_label",
+        "behavioral_category"
+      ],
+      "labels": {
+        "BENIGN": 291,
+        "MALICIOUS": 3
+      },
+      "normalized_overlap_rows": 9,
+      "overlap_1based_rows": [
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        200,
+        201,
+        202
+      ],
+      "channel_counts": {
+        "com.whatsapp": 283,
+        "com.google.android.apps.messaging": 7,
+        "Intent (Link)": 3,
+        "com.google.android.gm": 1
+      },
+      "missing_template_id": 294
+    },
+    {
+      "path": "sentinel-ml/New_history/bench_real_history_562.jsonl",
+      "sha256": "18987bb577f68979fb118095bf316be1939625b4f6b7788c9f1a9041b6cc6d09",
+      "count": 562,
+      "keys": [
+        "id",
+        "recordType",
+        "source",
+        "senderDisplayName",
+        "senderIdentifier",
+        "content",
+        "riskLevel",
+        "riskScore",
+        "explanation",
+        "recommendation",
+        "timestamp",
+        "_page",
+        "_src",
+        "_rowid"
+      ],
+      "labels": {
+        "MISSING": 562
+      },
+      "normalized_overlap_rows": 6,
+      "overlap_1based_rows": [
+        207,
+        208,
+        246,
+        365,
+        503,
+        540
+      ],
+      "channel_counts": {
+        "com.whatsapp": 552,
+        "com.google.android.apps.messaging": 8,
+        "Intent (Link)": 2
+      },
+      "missing_template_id": 562
+    },
+    {
+      "path": "sentinel-ml/investigation/sentinel_db_parsed.jsonl",
+      "sha256": "e0f85d09c81be5e2743d10a3ccf69858b62e2c947593ae0e3427588ce1aeef72",
+      "count": 34,
+      "keys": [
+        "id",
+        "recordType",
+        "source",
+        "senderDisplayName",
+        "senderIdentifier",
+        "content",
+        "riskLevel",
+        "riskScore",
+        "explanation",
+        "recommendation",
+        "timestamp"
+      ],
+      "labels": {
+        "MISSING": 34
+      },
+      "normalized_overlap_rows": 0,
+      "overlap_1based_rows": [],
+      "channel_counts": {
+        "69": 22,
+        "\u0017O)\u0001\u0000indexsqlite": 1,
+        "timestamp` INTEGER NOT NULL, PRIMARY KEY(`": 7,
+        " `explanation` TEXT NOT NULL, `recommendation` TEXT": 1,
+        " NULL, PRIMARY KEY(`id`, `recordType`));\u0003\u0006": 1,
+        "45": 1,
+        "\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000": 1
+      },
+      "missing_template_id": 34
+    },
+    {
+      "path": "sentinel-ml/investigation/sentinel_db1_parsed.jsonl",
+      "sha256": "02437b7eb0684fe3b29d32b9ecf03f664041b1f8b3d3f3fd09dd4648884bc5b5",
+      "count": 26,
+      "keys": [
+        "id",
+        "recordType",
+        "source",
+        "senderDisplayName",
+        "senderIdentifier",
+        "content",
+        "riskLevel",
+        "riskScore",
+        "explanation",
+        "recommendation",
+        "timestamp"
+      ],
+      "labels": {
+        "MISSING": 26
+      },
+      "normalized_overlap_rows": 0,
+      "overlap_1based_rows": [],
+      "channel_counts": {
+        "69": 17,
+        "eat_records\u0005\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000W\u0001\u0006\u0017--\u0001ctableandroid_m": 1,
+        "\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0005\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0005\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000": 1,
+        "RY KEY(`id`, `recordType`));\u0003\u0006\u0017O)\u0001\u0000i": 1,
+        "\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0005\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0005\u0005\u0000\u0000\u0000\u0004": 1,
+        "timestamp` INTEGER NOT NULL, PRIMARY KEY(`": 3,
+        "\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0005\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0004\u0005\u0000\u0000\u0000\u0005\u0005\u0000\u0000\u0000\u0004": 1,
+        ")\u0001\u0000indexsqlite_autoindex_threat_records_1t": 1
+      },
+      "missing_template_id": 26
+    }
+  ],
+  "recovery_probes": [
+    {
+      "path": "sentinel-ml/Databases/sentinel_db",
+      "sha256": "cecaa30a90d2a230b2a53a991b7650ea617030ba0722727542071161356095ec",
+      "operation": "decode UTF-16LE strictly, inspect code points; no lossy substitution or source writes",
+      "replacement_characters": 0,
+      "non_latin1_codepoints": 385,
+      "decoded_characters": 65667,
+      "non_latin1_histogram": {
+        "0x252c": 6,
+        "0x192": 31,
+        "0x3a3": 6,
+        "0x2248": 7,
+        "0x2584": 6,
+        "0x221a": 2,
+        "0x221e": 4,
+        "0x3c4": 2,
+        "0x393": 70,
+        "0x255f": 6,
+        "0x2588": 3,
+        "0x255e": 3,
+        "0x2550": 2,
+        "0x2261": 28,
+        "0x2556": 8,
+        "0x2563": 5,
+        "0x2560": 3,
+        "0x3b4": 3,
+        "0x2310": 7,
+        "0x2524": 5,
+        "0x2510": 1,
+        "0x2320": 3,
+        "0x250c": 3,
+        "0x3b1": 12,
+        "0x2593": 3,
+        "0x2552": 4,
+        "0x2558": 6,
+        "0x2559": 4,
+        "0x2561": 1,
+        "0x207f": 2,
+        "0x255b": 4,
+        "0x3b5": 6,
+        "0x2518": 6,
+        "0x2514": 11,
+        "0x3c6": 4,
+        "0x2265": 4,
+        "0x2264": 2,
+        "0x2592": 4,
+        "0x2566": 4,
+        "0x258c": 6,
+        "0x20a7": 7,
+        "0x253c": 2,
+        "0x2229": 3,
+        "0x3a6": 6,
+        "0x2551": 3,
+        "0x2565": 1,
+        "0x2591": 5,
+        "0x3c0": 4,
+        "0x25a0": 5,
+        "0x2500": 1,
+        "0x398": 1,
+        "0x3a9": 4,
+        "0x2553": 3,
+        "0x2534": 5,
+        "0x3c3": 4,
+        "0x2554": 2,
+        "0x2557": 1,
+        "0x2555": 4,
+        "0x2590": 5,
+        "0x2219": 2,
+        "0x2569": 3,
+        "0x256c": 2,
+        "0x256a": 2,
+        "0x2562": 4,
+        "0x2567": 3,
+        "0x251c": 2,
+        "0x2568": 1,
+        "0x255c": 1,
+        "0x255d": 1,
+        "0x2321": 1
+      },
+      "blocked": "Cannot establish lossless byte reversal; existing text encoding contains code points outside Latin-1. Do not fabricate recovered records."
+    },
+    {
+      "path": "sentinel-ml/Databases/sentinel_db(1)",
+      "sha256": "022fe888c5af8b38fd46c8fdeafb2a41a68548189295307a6dfe00837a833150",
+      "operation": "decode UTF-16LE strictly, inspect code points; no lossy substitution or source writes",
+      "replacement_characters": 0,
+      "non_latin1_codepoints": 1112,
+      "decoded_characters": 131574,
+      "non_latin1_histogram": {
+        "0x252c": 6,
+        "0x192": 48,
+        "0x3a3": 8,
+        "0x2248": 14,
+        "0x221a": 7,
+        "0x221e": 13,
+        "0x3c4": 7,
+        "0x393": 116,
+        "0x258c": 10,
+        "0x256a": 11,
+        "0x2565": 9,
+        "0x2560": 10,
+        "0x255e": 11,
+        "0x2514": 29,
+        "0x2551": 8,
+        "0x2524": 11,
+        "0x2580": 10,
+        "0x2591": 5,
+        "0x2588": 7,
+        "0x3b1": 159,
+        "0x2261": 46,
+        "0x3a6": 7,
+        "0x2534": 12,
+        "0x25a0": 8,
+        "0x2556": 15,
+        "0x2310": 22,
+        "0x255c": 14,
+        "0x3c3": 7,
+        "0x253c": 9,
+        "0x20a7": 12,
+        "0x2563": 12,
+        "0x2569": 12,
+        "0x2553": 6,
+        "0x3c6": 16,
+        "0x256b": 5,
+        "0x2592": 7,
+        "0x3c0": 5,
+        "0x207f": 7,
+        "0x3a9": 11,
+        "0x2584": 7,
+        "0x2559": 10,
+        "0x3b4": 5,
+        "0x3b5": 7,
+        "0x2510": 13,
+        "0x255f": 34,
+        "0x250c": 7,
+        "0x2518": 12,
+        "0x2567": 8,
+        "0x2564": 6,
+        "0x2320": 13,
+        "0x2555": 6,
+        "0x2561": 18,
+        "0x2219": 5,
+        "0x2264": 8,
+        "0x2550": 13,
+        "0x255d": 9,
+        "0x2568": 8,
+        "0x2554": 43,
+        "0x2562": 2,
+        "0x2552": 14,
+        "0x2557": 8,
+        "0x398": 5,
+        "0x255b": 12,
+        "0x2502": 8,
+        "0x2593": 8,
+        "0x251c": 10,
+        "0x2566": 7,
+        "0x2590": 4,
+        "0x2500": 4,
+        "0x2265": 6,
+        "0x2321": 3,
+        "0x256c": 7,
+        "0x2229": 4,
+        "0x255a": 40,
+        "0x2558": 6
+      },
+      "blocked": "Cannot establish lossless byte reversal; existing text encoding contains code points outside Latin-1. Do not fabricate recovered records."
+    },
+    {
+      "path": "sentinel-ml/Databases/22oct_pull/sentinel-history.tar",
+      "sha256": "4e18bd36e1c0b730aad9428277c9eb13a8602939971b04bad835728dd2c055bd",
+      "operation": "decode UTF-16LE strictly, inspect code points; no lossy substitution or source writes",
+      "replacement_characters": 0,
+      "non_latin1_codepoints": 24766,
+      "decoded_characters": 1380561,
+      "non_latin1_histogram": {
+        "0x2552": 185,
+        "0x252c": 148,
+        "0x192": 2183,
+        "0x3a3": 200,
+        "0x2248": 851,
+        "0x221a": 136,
+        "0x221e": 116,
+        "0x3c4": 120,
+        "0x393": 1438,
+        "0x2584": 61,
+        "0x2553": 193,
+        "0x2568": 95,
+        "0x2569": 231,
+        "0x2500": 237,
+        "0x255b": 734,
+        "0x2555": 332,
+        "0x2593": 304,
+        "0x25a0": 250,
+        "0x2265": 187,
+        "0x3b1": 6529,
+        "0x250c": 72,
+        "0x2558": 150,
+        "0x256c": 70,
+        "0x255a": 194,
+        "0x255d": 209,
+        "0x2562": 143,
+        "0x2591": 536,
+        "0x20a7": 219,
+        "0x207f": 161,
+        "0x2261": 1300,
+        "0x3a9": 88,
+        "0x2590": 105,
+        "0x256a": 111,
+        "0x2565": 267,
+        "0x2560": 72,
+        "0x255e": 131,
+        "0x2514": 323,
+        "0x2551": 186,
+        "0x2524": 120,
+        "0x2320": 87,
+        "0x3b5": 116,
+        "0x3a6": 147,
+        "0x2559": 144,
+        "0x2564": 110,
+        "0x2550": 127,
+        "0x2566": 103,
+        "0x2554": 136,
+        "0x255f": 125,
+        "0x253c": 101,
+        "0x251c": 177,
+        "0x2534": 83,
+        "0x2510": 309,
+        "0x255c": 102,
+        "0x2557": 150,
+        "0x2563": 240,
+        "0x2556": 1015,
+        "0x2561": 217,
+        "0x2502": 152,
+        "0x2310": 158,
+        "0x2588": 92,
+        "0x2567": 125,
+        "0x2592": 183,
+        "0x2264": 103,
+        "0x3c3": 308,
+        "0x398": 86,
+        "0x2518": 81,
+        "0x2321": 66,
+        "0x3b4": 82,
+        "0x2229": 187,
+        "0x2219": 86,
+        "0x256b": 114,
+        "0x2580": 102,
+        "0x3c6": 105,
+        "0x3c0": 194,
+        "0x258c": 66
+      },
+      "blocked": "Cannot establish lossless byte reversal; existing text encoding contains code points outside Latin-1. Do not fabricate recovered records."
+    }
+  ]
+}

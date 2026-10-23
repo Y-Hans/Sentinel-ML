@@ -1,0 +1,21 @@
+{
+  "argv": [
+    "sentinel-ml/URL-ml/venv/Scripts/python.exe",
+    "-B",
+    "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\simulation_diagnosis\\20261022_run_02\\safe_entry.py",
+    "url_form_trace"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "exit_code": 0,
+  "seconds": 2.4412167072296143,
+  "environment_overrides": {
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "GIT_OPTIONAL_LOCKS": "0",
+    "PYTHONUTF8": "1"
+  },
+  "stdout_sha256": "ad5f69d17c19e03b412680b1eba655188b6fde0b3a8a76d11ffdf5da4a8288e6",
+  "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

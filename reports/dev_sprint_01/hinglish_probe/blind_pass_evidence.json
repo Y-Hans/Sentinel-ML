@@ -1,0 +1,9 @@
+{
+  "input_path": "blind_input.csv",
+  "input_sha256": "6af46787c8225556e2331f34d6949ebf79b2d513384abe9316709a15662eca26",
+  "classifier_source_sha256": "461e0f484ed46502bf7f34e13370de93a90492231c00f5d5cad81c22d42305e5",
+  "rows": 1320,
+  "expected_field_accessed": false,
+  "method": "deterministic text-only content-rule reclassification, no frozen model and no label/family/pair access in this process",
+  "limitation": "same-author grammar knowledge; not an independent human blind adjudication"
+}

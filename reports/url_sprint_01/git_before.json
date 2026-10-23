@@ -1,0 +1,12 @@
+{
+  "command": [
+    "git",
+    "status",
+    "--porcelain=v1",
+    "--untracked-files=all"
+  ],
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "exit_code": 128,
+  "entries": [],
+  "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "model": "V2",
+    "verdict": "Recall is also a problem",
+    "recall": {
+      "k": 453,
+      "n": 600,
+      "rate": 0.755,
+      "wilson95": [
+        0.7190355577019193,
+        0.7877199747810933
+      ],
+      "interpretation": "recall",
+      "quality": "synthetic descriptive"
+    },
+    "families_below80": 7,
+    "English_gap": 0.08666666666666667
+  },
+  {
+    "model": "V4.3",
+    "verdict": "Recall is also a problem",
+    "recall": {
+      "k": 494,
+      "n": 600,
+      "rate": 0.8233333333333334,
+      "wilson95": [
+        0.7907874378257218,
+        0.8517653288520852
+      ],
+      "interpretation": "recall",
+      "quality": "synthetic descriptive"
+    },
+    "families_below80": 4,
+    "English_gap": 0.13333333333333333
+  },
+  {
+    "model": "V4.4_candidate_a_corrected",
+    "verdict": "False positives are the main problem",
+    "recall": {
+      "k": 569,
+      "n": 600,
+      "rate": 0.9483333333333334,
+      "wilson95": [
+        0.9275970853316893,
+        0.9633652560926926
+      ],
+      "interpretation": "recall",
+      "quality": "synthetic descriptive"
+    },
+    "families_below80": 0,
+    "English_gap": 0.02
+  },
+  {
+    "model": "V4.4_candidate_b_refined",
+    "verdict": "Recall is also a problem",
+    "recall": {
+      "k": 504,
+      "n": 600,
+      "rate": 0.84,
+      "wilson95": [
+        0.8085165323763267,
+        0.8671575109343569
+      ],
+      "interpretation": "recall",
+      "quality": "synthetic descriptive"
+    },
+    "families_below80": 4,
+    "English_gap": 0.10666666666666667
+  },
+  {
+    "model": "V4.4_candidate_c_balanced",
+    "verdict": "Recall is also a problem",
+    "recall": {
+      "k": 477,
+      "n": 600,
+      "rate": 0.795,
+      "wilson95": [
+        0.7608693025980815,
+        0.8253772938038353
+      ],
+      "interpretation": "recall",
+      "quality": "synthetic descriptive"
+    },
+    "families_below80": 5,
+    "English_gap": 0.12666666666666668
+  },
+  {
+    "model": "V4.4_rc2_experiment_1",
+    "verdict": "Recall is also a problem",
+    "recall": {
+      "k": 431,
+      "n": 600,
+      "rate": 0.7183333333333334,
+      "wilson95": [
+        0.6810403824737422,
+        0.7528483414169419
+      ],
+      "interpretation": "recall",
+      "quality": "synthetic descriptive"
+    },
+    "families_below80": 9,
+    "English_gap": 0.17333333333333334
+  },
+  {
+    "model": "V4.4_rc2_experiment_2",
+    "verdict": "Recall is also a problem",
+    "recall": {
+      "k": 415,
+      "n": 600,
+      "rate": 0.6916666666666667,
+      "wilson95": [
+        0.6535934690094297,
+        0.7273012122686516
+      ],
+      "interpretation": "recall",
+      "quality": "synthetic descriptive"
+    },
+    "families_below80": 11,
+    "English_gap": 0.18
+  },
+  {
+    "model": "V4.4_rc2_experiment_3",
+    "verdict": "Recall is also a problem",
+    "recall": {
+      "k": 384,
+      "n": 600,
+      "rate": 0.64,
+      "wilson95": [
+        0.6008140729852128,
+        0.6774046507309509
+      ],
+      "interpretation": "recall",
+      "quality": "synthetic descriptive"
+    },
+    "families_below80": 11,
+    "English_gap": 0.22
+  }
+]

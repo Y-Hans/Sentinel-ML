@@ -1,0 +1,233 @@
+{
+  "artifacts": {
+    "sha256": {
+      "char_vec.pkl": "fa56cf5548f3ae17f0ccc5c7e8b7ba801e27be8bcd522887ea5af8bae68468b1",
+      "model.pkl": "2ca29457acd27bf93d6967d8f9d64778b8ba0e404030175465c802fe1a138a7d",
+      "scaler.pkl": "aab17413541b12804b70677161a540fa384b0ec0eeebed8be308de3c3c0a21b9",
+      "word_vec.pkl": "10403d9e8b5f641fd3d200a5e08f5c65e3fdcd7afca65613d47d0f4cfbe96aac"
+    },
+    "classes_": [
+      0,
+      1,
+      2
+    ],
+    "n_features_in_": 4019,
+    "n_iter_": 111,
+    "max_iter": 300,
+    "early_stopping": "auto",
+    "validation_fraction": 0.1,
+    "n_iter_no_change": 10,
+    "tol": 1e-07,
+    "learning_rate": 0.08,
+    "max_leaf_nodes": 31,
+    "l2_regularization": 1.0,
+    "class_weight": {
+      "0": 1.5,
+      "1": 1.0,
+      "2": 1.0
+    },
+    "word_features": 1500,
+    "word_config": {
+      "ngram_range": [
+        1,
+        2
+      ],
+      "max_features": 1500,
+      "sublinear_tf": true,
+      "lowercase": true,
+      "strip_accents": null
+    },
+    "char_features": 2500,
+    "char_config": {
+      "analyzer": "char_wb",
+      "ngram_range": [
+        2,
+        5
+      ],
+      "max_features": 2500,
+      "sublinear_tf": true,
+      "lowercase": true,
+      "strip_accents": null
+    },
+    "scaler_features": 4019
+  },
+  "splits": {
+    "val": {
+      "n": 3397,
+      "label_counts": {
+        "BENIGN": 807,
+        "SUSPICIOUS_SPAM": 274,
+        "MALICIOUS": 2316
+      },
+      "confusion_matrix_true_by_pred_benign_spam_malicious": [
+        [
+          791,
+          0,
+          16
+        ],
+        [
+          8,
+          133,
+          133
+        ],
+        [
+          57,
+          37,
+          2222
+        ]
+      ],
+      "malicious_recall": 0.959412780656304,
+      "malicious_correct": 2222,
+      "malicious_fn": 94,
+      "benign_fpr": 0.01982651796778191,
+      "benign_fp": 16,
+      "spam_to_malicious": 133,
+      "malicious_to_spam": 37,
+      "p_nonbenign_quantiles": {
+        "0": 0.00010848256704245366,
+        "0.25": 0.5219169921942823,
+        "0.5": 0.9995499214892014,
+        "0.75": 0.9999241360398788,
+        "0.9": 0.9999748236221875,
+        "0.95": 0.9999852314317422,
+        "0.99": 0.9999926851513371,
+        "1": 0.9999954669354856
+      },
+      "mean_probabilities_by_true_label": {
+        "BENIGN": [
+          0.9574573684599471,
+          0.004274402802856023,
+          0.038268228737196236
+        ],
+        "SUSPICIOUS_SPAM": [
+          0.03582263843937507,
+          0.48117620597668426,
+          0.4830011555839406
+        ],
+        "MALICIOUS": [
+          0.02420560524553241,
+          0.034210428503242664,
+          0.941583966251227
+        ]
+      }
+    },
+    "test": {
+      "n": 2264,
+      "label_counts": {
+        "BENIGN": 520,
+        "SUSPICIOUS_SPAM": 188,
+        "MALICIOUS": 1556
+      },
+      "confusion_matrix_true_by_pred_benign_spam_malicious": [
+        [
+          518,
+          0,
+          2
+        ],
+        [
+          3,
+          95,
+          90
+        ],
+        [
+          24,
+          22,
+          1510
+        ]
+      ],
+      "malicious_recall": 0.9704370179948586,
+      "malicious_correct": 1510,
+      "malicious_fn": 46,
+      "benign_fpr": 0.0038461538461538464,
+      "benign_fp": 2,
+      "spam_to_malicious": 90,
+      "malicious_to_spam": 22,
+      "p_nonbenign_quantiles": {
+        "0": 8.403593339058358e-05,
+        "0.25": 0.8061222344448571,
+        "0.5": 0.9996423493766518,
+        "0.75": 0.9999276779586476,
+        "0.9": 0.9999774325939333,
+        "0.95": 0.9999876208143471,
+        "0.99": 0.99999350153101,
+        "1": 0.9999965210981081
+      },
+      "mean_probabilities_by_true_label": {
+        "BENIGN": [
+          0.9625707835912396,
+          0.005820797152832547,
+          0.0316084192559268
+        ],
+        "SUSPICIOUS_SPAM": [
+          0.03226488938767589,
+          0.5175072868604081,
+          0.450227823751916
+        ],
+        "MALICIOUS": [
+          0.016114955957634236,
+          0.030031383220847353,
+          0.9538536608215187
+        ]
+      }
+    },
+    "ood": {
+      "n": 1132,
+      "label_counts": {
+        "BENIGN": 255,
+        "SUSPICIOUS_SPAM": 83,
+        "MALICIOUS": 794
+      },
+      "confusion_matrix_true_by_pred_benign_spam_malicious": [
+        [
+          254,
+          0,
+          1
+        ],
+        [
+          4,
+          48,
+          31
+        ],
+        [
+          17,
+          16,
+          761
+        ]
+      ],
+      "malicious_recall": 0.9584382871536524,
+      "malicious_correct": 761,
+      "malicious_fn": 33,
+      "benign_fpr": 0.00392156862745098,
+      "benign_fp": 1,
+      "spam_to_malicious": 31,
+      "malicious_to_spam": 16,
+      "p_nonbenign_quantiles": {
+        "0": 0.0001788333080454385,
+        "0.25": 0.7083129922443245,
+        "0.5": 0.9996078336030846,
+        "0.75": 0.9999228421619415,
+        "0.9": 0.9999765646730973,
+        "0.95": 0.9999875800939826,
+        "0.99": 0.9999926312475746,
+        "1": 0.9999957395583838
+      },
+      "mean_probabilities_by_true_label": {
+        "BENIGN": [
+          0.9640450895159558,
+          0.0064257095632817614,
+          0.02952920092076235
+        ],
+        "SUSPICIOUS_SPAM": [
+          0.057565304395529024,
+          0.5555387979108091,
+          0.38689589769366206
+        ],
+        "MALICIOUS": [
+          0.023094891272547605,
+          0.03621320113212186,
+          0.940691907595331
+        ]
+      }
+    }
+  }
+}

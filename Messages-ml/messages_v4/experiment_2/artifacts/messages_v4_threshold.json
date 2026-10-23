@@ -1,0 +1,5 @@
+{
+  "nonbenign_threshold": 0.77,
+  "selection_split": "validation",
+  "policy": "max malicious recall subject to benign FPR <= 2%"
+}

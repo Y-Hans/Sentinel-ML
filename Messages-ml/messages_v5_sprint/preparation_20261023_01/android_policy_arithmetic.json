@@ -1,0 +1,110 @@
+[
+  {
+    "case": "spam_high",
+    "probabilities": [
+      0.02,
+      0.95,
+      0.03
+    ],
+    "class_index": 1,
+    "old_evidence_score": 98.46153846153845,
+    "proposed_evidence_score": 0.0,
+    "old_severity": "CRITICAL",
+    "proposed_severity": "INFO",
+    "isolated_old_fused_score": 93.53846153846152,
+    "isolated_proposed_fused_score": 0.0,
+    "isolated_old_alert_ge40": true,
+    "isolated_proposed_alert_ge40": false,
+    "status": "OBSERVED Python arithmetic; NOT Kotlin parity"
+  },
+  {
+    "case": "malicious_high",
+    "probabilities": [
+      0.02,
+      0.03,
+      0.95
+    ],
+    "class_index": 2,
+    "old_evidence_score": 98.46153846153845,
+    "proposed_evidence_score": 98.46153846153845,
+    "old_severity": "CRITICAL",
+    "proposed_severity": "CRITICAL",
+    "isolated_old_fused_score": 93.53846153846152,
+    "isolated_proposed_fused_score": 93.53846153846152,
+    "isolated_old_alert_ge40": true,
+    "isolated_proposed_alert_ge40": true,
+    "status": "OBSERVED Python arithmetic; NOT Kotlin parity"
+  },
+  {
+    "case": "benign",
+    "probabilities": [
+      0.95,
+      0.03,
+      0.02
+    ],
+    "class_index": 0,
+    "old_evidence_score": 2.8688524590163937,
+    "proposed_evidence_score": 2.8688524590163937,
+    "old_severity": "LOW",
+    "proposed_severity": "LOW",
+    "isolated_old_fused_score": 2.725409836065574,
+    "isolated_proposed_fused_score": 2.725409836065574,
+    "isolated_old_alert_ge40": false,
+    "isolated_proposed_alert_ge40": false,
+    "status": "OBSERVED Python arithmetic; NOT Kotlin parity"
+  },
+  {
+    "case": "spam_at_boundary",
+    "probabilities": [
+      0.39,
+      0.61,
+      0
+    ],
+    "class_index": 1,
+    "old_evidence_score": 70.0,
+    "proposed_evidence_score": 0.0,
+    "old_severity": "HIGH",
+    "proposed_severity": "INFO",
+    "isolated_old_fused_score": 66.5,
+    "isolated_proposed_fused_score": 0.0,
+    "isolated_old_alert_ge40": true,
+    "isolated_proposed_alert_ge40": false,
+    "status": "OBSERVED Python arithmetic; NOT Kotlin parity"
+  },
+  {
+    "case": "malicious_at_boundary",
+    "probabilities": [
+      0.39,
+      0,
+      0.61
+    ],
+    "class_index": 2,
+    "old_evidence_score": 70.0,
+    "proposed_evidence_score": 70.0,
+    "old_severity": "HIGH",
+    "proposed_severity": "HIGH",
+    "isolated_old_fused_score": 66.5,
+    "isolated_proposed_fused_score": 66.5,
+    "isolated_old_alert_ge40": true,
+    "isolated_proposed_alert_ge40": true,
+    "status": "OBSERVED Python arithmetic; NOT Kotlin parity"
+  },
+  {
+    "case": "tie_boundary",
+    "probabilities": [
+      0.39,
+      0.305,
+      0.305
+    ],
+    "class_index": 2,
+    "old_evidence_score": 70.0,
+    "proposed_evidence_score": 70.0,
+    "old_severity": "HIGH",
+    "proposed_severity": "HIGH",
+    "isolated_old_fused_score": 66.5,
+    "isolated_proposed_fused_score": 66.5,
+    "isolated_old_alert_ge40": true,
+    "isolated_proposed_alert_ge40": true,
+    "status": "OBSERVED Python arithmetic; NOT Kotlin parity"
+  }
+]

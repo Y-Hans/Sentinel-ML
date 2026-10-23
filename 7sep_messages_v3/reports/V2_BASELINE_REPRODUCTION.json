@@ -1,0 +1,354 @@
+{
+  "TEST": {
+    "name": "TEST",
+    "N": 2264,
+    "benign_N": 520,
+    "malicious_N": 1556,
+    "non_benign_N": 1744,
+    "fp": 10,
+    "fpr": 0.019230769230769232,
+    "mal_tp": 1402,
+    "mal_recall": 0.9010282776349614,
+    "nb_recall": 0.9724770642201835,
+    "confusion_matrix": [
+      [
+        510,
+        0,
+        10
+      ],
+      [
+        4,
+        145,
+        39
+      ],
+      [
+        44,
+        110,
+        1402
+      ]
+    ],
+    "p_non_benign_mean": 0.7662000414001019,
+    "p_non_benign_median": 0.9989079004644712,
+    "p_non_benign_p90": 0.9999466996226855
+  },
+  "OOD": {
+    "name": "OOD",
+    "N": 1132,
+    "benign_N": 255,
+    "malicious_N": 794,
+    "non_benign_N": 877,
+    "fp": 3,
+    "fpr": 0.011764705882352941,
+    "mal_tp": 714,
+    "mal_recall": 0.8992443324937027,
+    "nb_recall": 0.9657924743443558,
+    "confusion_matrix": [
+      [
+        252,
+        3,
+        0
+      ],
+      [
+        5,
+        64,
+        14
+      ],
+      [
+        25,
+        55,
+        714
+      ]
+    ],
+    "p_non_benign_mean": 0.7610233303931067,
+    "p_non_benign_median": 0.9986462434069172,
+    "p_non_benign_p90": 0.9999399946401129
+  },
+  "VAL": {
+    "name": "VAL",
+    "N": 3397,
+    "benign_N": 807,
+    "malicious_N": 2316,
+    "non_benign_N": 2590,
+    "fp": 6,
+    "fpr": 0.007434944237918215,
+    "mal_tp": 2049,
+    "mal_recall": 0.8847150259067358,
+    "nb_recall": 0.9648648648648649,
+    "confusion_matrix": [
+      [
+        801,
+        2,
+        4
+      ],
+      [
+        12,
+        199,
+        63
+      ],
+      [
+        79,
+        188,
+        2049
+      ]
+    ],
+    "p_non_benign_mean": 0.7538960502790999,
+    "p_non_benign_median": 0.9987131736930693,
+    "p_non_benign_p90": 0.9999421395326624
+  },
+  "Slice: Electricity Scam": {
+    "name": "Slice: Electricity Scam",
+    "N": 3,
+    "benign_N": 0,
+    "malicious_N": 3,
+    "non_benign_N": 3,
+    "fp": 0,
+    "fpr": 0.0,
+    "mal_tp": 2,
+    "mal_recall": 0.6666666666666666,
+    "nb_recall": 0.6666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2
+      ]
+    ],
+    "p_non_benign_mean": 0.7518182047823596,
+    "p_non_benign_median": 0.7412169237729523,
+    "p_non_benign_p90": 0.9250237840736271
+  },
+  "Slice: OTP Theft": {
+    "name": "Slice: OTP Theft",
+    "N": 4,
+    "benign_N": 0,
+    "malicious_N": 4,
+    "non_benign_N": 4,
+    "fp": 0,
+    "fpr": 0.0,
+    "mal_tp": 4,
+    "mal_recall": 1.0,
+    "nb_recall": 1.0,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        4
+      ]
+    ],
+    "p_non_benign_mean": 0.9406890927797862,
+    "p_non_benign_median": 0.967348301139636,
+    "p_non_benign_p90": 0.9855158269628558
+  },
+  "Slice: Banking Scam": {
+    "name": "Slice: Banking Scam",
+    "N": 3,
+    "benign_N": 0,
+    "malicious_N": 3,
+    "non_benign_N": 3,
+    "fp": 0,
+    "fpr": 0.0,
+    "mal_tp": 3,
+    "mal_recall": 1.0,
+    "nb_recall": 1.0,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        3
+      ]
+    ],
+    "p_non_benign_mean": 0.9784393106726106,
+    "p_non_benign_median": 0.9698860904735506,
+    "p_non_benign_p90": 0.9918939513879936
+  },
+  "Slice: Hard Negatives": {
+    "name": "Slice: Hard Negatives",
+    "N": 3,
+    "benign_N": 3,
+    "malicious_N": 0,
+    "non_benign_N": 0,
+    "fp": 0,
+    "fpr": 0.0,
+    "mal_tp": 0,
+    "mal_recall": 0.0,
+    "nb_recall": 0.0,
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "p_non_benign_mean": 0.16524837042019574,
+    "p_non_benign_median": 0.22683029004422525,
+    "p_non_benign_p90": 0.2549872848628838
+  },
+  "Slice: Hinglish Smishing": {
+    "name": "Slice: Hinglish Smishing",
+    "N": 3,
+    "benign_N": 0,
+    "malicious_N": 3,
+    "non_benign_N": 3,
+    "fp": 0,
+    "fpr": 0.0,
+    "mal_tp": 2,
+    "mal_recall": 0.6666666666666666,
+    "nb_recall": 0.6666666666666666,
+    "confusion_matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        2
+      ]
+    ],
+    "p_non_benign_mean": 0.7957526197007434,
+    "p_non_benign_median": 0.7769753807911509,
+    "p_non_benign_p90": 0.9483414628015447
+  },
+  "Slice: Legit Banking": {
+    "name": "Slice: Legit Banking",
+    "N": 3,
+    "benign_N": 3,
+    "malicious_N": 0,
+    "non_benign_N": 0,
+    "fp": 0,
+    "fpr": 0.0,
+    "mal_tp": 0,
+    "mal_recall": 0.0,
+    "nb_recall": 0.0,
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "p_non_benign_mean": 0.17148669368091218,
+    "p_non_benign_median": 0.1659550634289361,
+    "p_non_benign_p90": 0.2163343411899673
+  },
+  "Slice: Legit Delivery": {
+    "name": "Slice: Legit Delivery",
+    "N": 3,
+    "benign_N": 3,
+    "malicious_N": 0,
+    "non_benign_N": 0,
+    "fp": 0,
+    "fpr": 0.0,
+    "mal_tp": 0,
+    "mal_recall": 0.0,
+    "nb_recall": 0.0,
+    "confusion_matrix": [
+      [
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "p_non_benign_mean": 0.09504059319934481,
+    "p_non_benign_median": 0.09695316992815396,
+    "p_non_benign_p90": 0.1497095912137992
+  },
+  "Slice: Legit OTP": {
+    "name": "Slice: Legit OTP",
+    "N": 5,
+    "benign_N": 5,
+    "malicious_N": 0,
+    "non_benign_N": 0,
+    "fp": 1,
+    "fpr": 0.2,
+    "mal_tp": 0,
+    "mal_recall": 0.0,
+    "nb_recall": 0.0,
+    "confusion_matrix": [
+      [
+        4,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "p_non_benign_mean": 0.16120393339585193,
+    "p_non_benign_median": 0.025723333320754757,
+    "p_non_benign_p90": 0.4552095151654694
+  }
+}

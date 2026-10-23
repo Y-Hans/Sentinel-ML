@@ -1,0 +1,2548 @@
+{
+  "Ablation_A": {
+    "tau": 0.865,
+    "p98": 0.8600526452064514,
+    "sweep": [
+      {
+        "threshold": 0.05,
+        "benign_fpr": 0.41511771995043373,
+        "benign_fp": 335,
+        "malicious_recall": 0.8402417962003454,
+        "malicious_detected": 1946
+      },
+      {
+        "threshold": 0.055,
+        "benign_fpr": 0.40396530359355637,
+        "benign_fp": 326,
+        "malicious_recall": 0.8398100172711571,
+        "malicious_detected": 1945
+      },
+      {
+        "threshold": 0.06,
+        "benign_fpr": 0.3952912019826518,
+        "benign_fp": 319,
+        "malicious_recall": 0.8398100172711571,
+        "malicious_detected": 1945
+      },
+      {
+        "threshold": 0.065,
+        "benign_fpr": 0.38661710037174724,
+        "benign_fp": 312,
+        "malicious_recall": 0.8398100172711571,
+        "malicious_detected": 1945
+      },
+      {
+        "threshold": 0.07,
+        "benign_fpr": 0.37298636926889717,
+        "benign_fp": 301,
+        "malicious_recall": 0.8398100172711571,
+        "malicious_detected": 1945
+      },
+      {
+        "threshold": 0.075,
+        "benign_fpr": 0.3618339529120198,
+        "benign_fp": 292,
+        "malicious_recall": 0.8398100172711571,
+        "malicious_detected": 1945
+      },
+      {
+        "threshold": 0.08,
+        "benign_fpr": 0.355638166047088,
+        "benign_fp": 287,
+        "malicious_recall": 0.8393782383419689,
+        "malicious_detected": 1944
+      },
+      {
+        "threshold": 0.085,
+        "benign_fpr": 0.3469640644361834,
+        "benign_fp": 280,
+        "malicious_recall": 0.8393782383419689,
+        "malicious_detected": 1944
+      },
+      {
+        "threshold": 0.09,
+        "benign_fpr": 0.33705080545229243,
+        "benign_fp": 272,
+        "malicious_recall": 0.8393782383419689,
+        "malicious_detected": 1944
+      },
+      {
+        "threshold": 0.095,
+        "benign_fpr": 0.32837670384138784,
+        "benign_fp": 265,
+        "malicious_recall": 0.8393782383419689,
+        "malicious_detected": 1944
+      },
+      {
+        "threshold": 0.1,
+        "benign_fpr": 0.31226765799256506,
+        "benign_fp": 252,
+        "malicious_recall": 0.8389464594127807,
+        "malicious_detected": 1943
+      },
+      {
+        "threshold": 0.105,
+        "benign_fpr": 0.30607187112763323,
+        "benign_fp": 247,
+        "malicious_recall": 0.8376511226252159,
+        "malicious_detected": 1940
+      },
+      {
+        "threshold": 0.11,
+        "benign_fpr": 0.30359355638166047,
+        "benign_fp": 245,
+        "malicious_recall": 0.8376511226252159,
+        "malicious_detected": 1940
+      },
+      {
+        "threshold": 0.115,
+        "benign_fpr": 0.29615861214374223,
+        "benign_fp": 239,
+        "malicious_recall": 0.8376511226252159,
+        "malicious_detected": 1940
+      },
+      {
+        "threshold": 0.12,
+        "benign_fpr": 0.29120198265179675,
+        "benign_fp": 235,
+        "malicious_recall": 0.8376511226252159,
+        "malicious_detected": 1940
+      },
+      {
+        "threshold": 0.125,
+        "benign_fpr": 0.2862453531598513,
+        "benign_fp": 231,
+        "malicious_recall": 0.8376511226252159,
+        "malicious_detected": 1940
+      },
+      {
+        "threshold": 0.13,
+        "benign_fpr": 0.2825278810408922,
+        "benign_fp": 228,
+        "malicious_recall": 0.8376511226252159,
+        "malicious_detected": 1940
+      },
+      {
+        "threshold": 0.135,
+        "benign_fpr": 0.2788104089219331,
+        "benign_fp": 225,
+        "malicious_recall": 0.8372193436960277,
+        "malicious_detected": 1939
+      },
+      {
+        "threshold": 0.14,
+        "benign_fpr": 0.27757125154894674,
+        "benign_fp": 224,
+        "malicious_recall": 0.8367875647668394,
+        "malicious_detected": 1938
+      },
+      {
+        "threshold": 0.145,
+        "benign_fpr": 0.2701363073110285,
+        "benign_fp": 218,
+        "malicious_recall": 0.8363557858376511,
+        "malicious_detected": 1937
+      },
+      {
+        "threshold": 0.15,
+        "benign_fpr": 0.2664188351920694,
+        "benign_fp": 215,
+        "malicious_recall": 0.8363557858376511,
+        "malicious_detected": 1937
+      },
+      {
+        "threshold": 0.155,
+        "benign_fpr": 0.2589838909541512,
+        "benign_fp": 209,
+        "malicious_recall": 0.8363557858376511,
+        "malicious_detected": 1937
+      },
+      {
+        "threshold": 0.16,
+        "benign_fpr": 0.2527881040892193,
+        "benign_fp": 204,
+        "malicious_recall": 0.8363557858376511,
+        "malicious_detected": 1937
+      },
+      {
+        "threshold": 0.165,
+        "benign_fpr": 0.24535315985130113,
+        "benign_fp": 198,
+        "malicious_recall": 0.8363557858376511,
+        "malicious_detected": 1937
+      },
+      {
+        "threshold": 0.17,
+        "benign_fpr": 0.241635687732342,
+        "benign_fp": 195,
+        "malicious_recall": 0.8363557858376511,
+        "malicious_detected": 1937
+      },
+      {
+        "threshold": 0.175,
+        "benign_fpr": 0.23296158612143741,
+        "benign_fp": 188,
+        "malicious_recall": 0.8359240069084629,
+        "malicious_detected": 1936
+      },
+      {
+        "threshold": 0.18,
+        "benign_fpr": 0.2255266418835192,
+        "benign_fp": 182,
+        "malicious_recall": 0.8359240069084629,
+        "malicious_detected": 1936
+      },
+      {
+        "threshold": 0.185,
+        "benign_fpr": 0.22428748451053285,
+        "benign_fp": 181,
+        "malicious_recall": 0.8359240069084629,
+        "malicious_detected": 1936
+      },
+      {
+        "threshold": 0.19,
+        "benign_fpr": 0.22304832713754646,
+        "benign_fp": 180,
+        "malicious_recall": 0.8359240069084629,
+        "malicious_detected": 1936
+      },
+      {
+        "threshold": 0.195,
+        "benign_fpr": 0.22057001239157373,
+        "benign_fp": 178,
+        "malicious_recall": 0.8346286701208981,
+        "malicious_detected": 1933
+      },
+      {
+        "threshold": 0.2,
+        "benign_fpr": 0.21933085501858737,
+        "benign_fp": 177,
+        "malicious_recall": 0.8346286701208981,
+        "malicious_detected": 1933
+      },
+      {
+        "threshold": 0.205,
+        "benign_fpr": 0.218091697645601,
+        "benign_fp": 176,
+        "malicious_recall": 0.8346286701208981,
+        "malicious_detected": 1933
+      },
+      {
+        "threshold": 0.21,
+        "benign_fpr": 0.21561338289962825,
+        "benign_fp": 174,
+        "malicious_recall": 0.8346286701208981,
+        "malicious_detected": 1933
+      },
+      {
+        "threshold": 0.215,
+        "benign_fpr": 0.21561338289962825,
+        "benign_fp": 174,
+        "malicious_recall": 0.8346286701208981,
+        "malicious_detected": 1933
+      },
+      {
+        "threshold": 0.22,
+        "benign_fpr": 0.21313506815365552,
+        "benign_fp": 172,
+        "malicious_recall": 0.8337651122625216,
+        "malicious_detected": 1931
+      },
+      {
+        "threshold": 0.225,
+        "benign_fpr": 0.20817843866171004,
+        "benign_fp": 168,
+        "malicious_recall": 0.8333333333333334,
+        "malicious_detected": 1930
+      },
+      {
+        "threshold": 0.23,
+        "benign_fpr": 0.2057001239157373,
+        "benign_fp": 166,
+        "malicious_recall": 0.8333333333333334,
+        "malicious_detected": 1930
+      },
+      {
+        "threshold": 0.235,
+        "benign_fpr": 0.20322180916976457,
+        "benign_fp": 164,
+        "malicious_recall": 0.8324697754749568,
+        "malicious_detected": 1928
+      },
+      {
+        "threshold": 0.24,
+        "benign_fpr": 0.20074349442379183,
+        "benign_fp": 162,
+        "malicious_recall": 0.8324697754749568,
+        "malicious_detected": 1928
+      },
+      {
+        "threshold": 0.245,
+        "benign_fpr": 0.19950433705080545,
+        "benign_fp": 161,
+        "malicious_recall": 0.8320379965457686,
+        "malicious_detected": 1927
+      },
+      {
+        "threshold": 0.25,
+        "benign_fpr": 0.1982651796778191,
+        "benign_fp": 160,
+        "malicious_recall": 0.8316062176165803,
+        "malicious_detected": 1926
+      },
+      {
+        "threshold": 0.255,
+        "benign_fpr": 0.19330855018587362,
+        "benign_fp": 156,
+        "malicious_recall": 0.8316062176165803,
+        "malicious_detected": 1926
+      },
+      {
+        "threshold": 0.26,
+        "benign_fpr": 0.19330855018587362,
+        "benign_fp": 156,
+        "malicious_recall": 0.8316062176165803,
+        "malicious_detected": 1926
+      },
+      {
+        "threshold": 0.265,
+        "benign_fpr": 0.19206939281288724,
+        "benign_fp": 155,
+        "malicious_recall": 0.8316062176165803,
+        "malicious_detected": 1926
+      },
+      {
+        "threshold": 0.27,
+        "benign_fpr": 0.18711276332094176,
+        "benign_fp": 151,
+        "malicious_recall": 0.831174438687392,
+        "malicious_detected": 1925
+      },
+      {
+        "threshold": 0.275,
+        "benign_fpr": 0.18339529120198264,
+        "benign_fp": 148,
+        "malicious_recall": 0.8307426597582038,
+        "malicious_detected": 1924
+      },
+      {
+        "threshold": 0.28,
+        "benign_fpr": 0.18339529120198264,
+        "benign_fp": 148,
+        "malicious_recall": 0.8307426597582038,
+        "malicious_detected": 1924
+      },
+      {
+        "threshold": 0.285,
+        "benign_fpr": 0.1821561338289963,
+        "benign_fp": 147,
+        "malicious_recall": 0.8303108808290155,
+        "malicious_detected": 1923
+      },
+      {
+        "threshold": 0.29,
+        "benign_fpr": 0.1809169764560099,
+        "benign_fp": 146,
+        "malicious_recall": 0.8303108808290155,
+        "malicious_detected": 1923
+      },
+      {
+        "threshold": 0.295,
+        "benign_fpr": 0.17596034696406443,
+        "benign_fp": 142,
+        "malicious_recall": 0.8303108808290155,
+        "malicious_detected": 1923
+      },
+      {
+        "threshold": 0.3,
+        "benign_fpr": 0.17472118959107807,
+        "benign_fp": 141,
+        "malicious_recall": 0.8303108808290155,
+        "malicious_detected": 1923
+      },
+      {
+        "threshold": 0.305,
+        "benign_fpr": 0.1734820322180917,
+        "benign_fp": 140,
+        "malicious_recall": 0.8298791018998273,
+        "malicious_detected": 1922
+      },
+      {
+        "threshold": 0.31,
+        "benign_fpr": 0.1734820322180917,
+        "benign_fp": 140,
+        "malicious_recall": 0.8298791018998273,
+        "malicious_detected": 1922
+      },
+      {
+        "threshold": 0.315,
+        "benign_fpr": 0.17100371747211895,
+        "benign_fp": 138,
+        "malicious_recall": 0.8298791018998273,
+        "malicious_detected": 1922
+      },
+      {
+        "threshold": 0.32,
+        "benign_fpr": 0.16852540272614622,
+        "benign_fp": 136,
+        "malicious_recall": 0.8294473229706391,
+        "malicious_detected": 1921
+      },
+      {
+        "threshold": 0.325,
+        "benign_fpr": 0.16852540272614622,
+        "benign_fp": 136,
+        "malicious_recall": 0.8294473229706391,
+        "malicious_detected": 1921
+      },
+      {
+        "threshold": 0.33,
+        "benign_fpr": 0.16356877323420074,
+        "benign_fp": 132,
+        "malicious_recall": 0.8290155440414507,
+        "malicious_detected": 1920
+      },
+      {
+        "threshold": 0.335,
+        "benign_fpr": 0.16356877323420074,
+        "benign_fp": 132,
+        "malicious_recall": 0.8290155440414507,
+        "malicious_detected": 1920
+      },
+      {
+        "threshold": 0.34,
+        "benign_fpr": 0.16356877323420074,
+        "benign_fp": 132,
+        "malicious_recall": 0.8290155440414507,
+        "malicious_detected": 1920
+      },
+      {
+        "threshold": 0.345,
+        "benign_fpr": 0.14745972738537794,
+        "benign_fp": 119,
+        "malicious_recall": 0.8281519861830743,
+        "malicious_detected": 1918
+      },
+      {
+        "threshold": 0.35,
+        "benign_fpr": 0.14250309789343246,
+        "benign_fp": 115,
+        "malicious_recall": 0.8272884283246977,
+        "malicious_detected": 1916
+      },
+      {
+        "threshold": 0.355,
+        "benign_fpr": 0.14002478314745972,
+        "benign_fp": 113,
+        "malicious_recall": 0.8268566493955095,
+        "malicious_detected": 1915
+      },
+      {
+        "threshold": 0.36,
+        "benign_fpr": 0.13878562577447337,
+        "benign_fp": 112,
+        "malicious_recall": 0.8264248704663213,
+        "malicious_detected": 1914
+      },
+      {
+        "threshold": 0.365,
+        "benign_fpr": 0.13630731102850063,
+        "benign_fp": 110,
+        "malicious_recall": 0.8255613126079447,
+        "malicious_detected": 1912
+      },
+      {
+        "threshold": 0.37,
+        "benign_fpr": 0.13506815365551425,
+        "benign_fp": 109,
+        "malicious_recall": 0.8255613126079447,
+        "malicious_detected": 1912
+      },
+      {
+        "threshold": 0.375,
+        "benign_fpr": 0.13135068153655513,
+        "benign_fp": 106,
+        "malicious_recall": 0.8255613126079447,
+        "malicious_detected": 1912
+      },
+      {
+        "threshold": 0.38,
+        "benign_fpr": 0.13135068153655513,
+        "benign_fp": 106,
+        "malicious_recall": 0.8251295336787565,
+        "malicious_detected": 1911
+      },
+      {
+        "threshold": 0.385,
+        "benign_fpr": 0.13135068153655513,
+        "benign_fp": 106,
+        "malicious_recall": 0.82426597582038,
+        "malicious_detected": 1909
+      },
+      {
+        "threshold": 0.39,
+        "benign_fpr": 0.13135068153655513,
+        "benign_fp": 106,
+        "malicious_recall": 0.8234024179620034,
+        "malicious_detected": 1907
+      },
+      {
+        "threshold": 0.395,
+        "benign_fpr": 0.1288723667905824,
+        "benign_fp": 104,
+        "malicious_recall": 0.8234024179620034,
+        "malicious_detected": 1907
+      },
+      {
+        "threshold": 0.4,
+        "benign_fpr": 0.12763320941759604,
+        "benign_fp": 103,
+        "malicious_recall": 0.8229706390328152,
+        "malicious_detected": 1906
+      },
+      {
+        "threshold": 0.405,
+        "benign_fpr": 0.1251548946716233,
+        "benign_fp": 101,
+        "malicious_recall": 0.8229706390328152,
+        "malicious_detected": 1906
+      },
+      {
+        "threshold": 0.41,
+        "benign_fpr": 0.1251548946716233,
+        "benign_fp": 101,
+        "malicious_recall": 0.8229706390328152,
+        "malicious_detected": 1906
+      },
+      {
+        "threshold": 0.415,
+        "benign_fpr": 0.12267657992565056,
+        "benign_fp": 99,
+        "malicious_recall": 0.8221070811744386,
+        "malicious_detected": 1904
+      },
+      {
+        "threshold": 0.42,
+        "benign_fpr": 0.12267657992565056,
+        "benign_fp": 99,
+        "malicious_recall": 0.8216753022452504,
+        "malicious_detected": 1903
+      },
+      {
+        "threshold": 0.425,
+        "benign_fpr": 0.12143742255266418,
+        "benign_fp": 98,
+        "malicious_recall": 0.8212435233160622,
+        "malicious_detected": 1902
+      },
+      {
+        "threshold": 0.43,
+        "benign_fpr": 0.11895910780669144,
+        "benign_fp": 96,
+        "malicious_recall": 0.8208117443868739,
+        "malicious_detected": 1901
+      },
+      {
+        "threshold": 0.435,
+        "benign_fpr": 0.11771995043370508,
+        "benign_fp": 95,
+        "malicious_recall": 0.8203799654576857,
+        "malicious_detected": 1900
+      },
+      {
+        "threshold": 0.44,
+        "benign_fpr": 0.11524163568773234,
+        "benign_fp": 93,
+        "malicious_recall": 0.8203799654576857,
+        "malicious_detected": 1900
+      },
+      {
+        "threshold": 0.445,
+        "benign_fpr": 0.1127633209417596,
+        "benign_fp": 91,
+        "malicious_recall": 0.8199481865284974,
+        "malicious_detected": 1899
+      },
+      {
+        "threshold": 0.45,
+        "benign_fpr": 0.11028500619578686,
+        "benign_fp": 89,
+        "malicious_recall": 0.8195164075993091,
+        "malicious_detected": 1898
+      },
+      {
+        "threshold": 0.455,
+        "benign_fpr": 0.11028500619578686,
+        "benign_fp": 89,
+        "malicious_recall": 0.8190846286701209,
+        "malicious_detected": 1897
+      },
+      {
+        "threshold": 0.46,
+        "benign_fpr": 0.10780669144981413,
+        "benign_fp": 87,
+        "malicious_recall": 0.8190846286701209,
+        "malicious_detected": 1897
+      },
+      {
+        "threshold": 0.465,
+        "benign_fpr": 0.10656753407682776,
+        "benign_fp": 86,
+        "malicious_recall": 0.8190846286701209,
+        "malicious_detected": 1897
+      },
+      {
+        "threshold": 0.47,
+        "benign_fpr": 0.10656753407682776,
+        "benign_fp": 86,
+        "malicious_recall": 0.8190846286701209,
+        "malicious_detected": 1897
+      },
+      {
+        "threshold": 0.475,
+        "benign_fpr": 0.10408921933085502,
+        "benign_fp": 84,
+        "malicious_recall": 0.8190846286701209,
+        "malicious_detected": 1897
+      },
+      {
+        "threshold": 0.48,
+        "benign_fpr": 0.10408921933085502,
+        "benign_fp": 84,
+        "malicious_recall": 0.8190846286701209,
+        "malicious_detected": 1897
+      },
+      {
+        "threshold": 0.485,
+        "benign_fpr": 0.10037174721189591,
+        "benign_fp": 81,
+        "malicious_recall": 0.8190846286701209,
+        "malicious_detected": 1897
+      },
+      {
+        "threshold": 0.49,
+        "benign_fpr": 0.09913258983890955,
+        "benign_fp": 80,
+        "malicious_recall": 0.8182210708117443,
+        "malicious_detected": 1895
+      },
+      {
+        "threshold": 0.495,
+        "benign_fpr": 0.09913258983890955,
+        "benign_fp": 80,
+        "malicious_recall": 0.8182210708117443,
+        "malicious_detected": 1895
+      },
+      {
+        "threshold": 0.5,
+        "benign_fpr": 0.09789343246592318,
+        "benign_fp": 79,
+        "malicious_recall": 0.8177892918825561,
+        "malicious_detected": 1894
+      },
+      {
+        "threshold": 0.505,
+        "benign_fpr": 0.09789343246592318,
+        "benign_fp": 79,
+        "malicious_recall": 0.8173575129533679,
+        "malicious_detected": 1893
+      },
+      {
+        "threshold": 0.51,
+        "benign_fpr": 0.09789343246592318,
+        "benign_fp": 79,
+        "malicious_recall": 0.8160621761658031,
+        "malicious_detected": 1890
+      },
+      {
+        "threshold": 0.515,
+        "benign_fpr": 0.09665427509293681,
+        "benign_fp": 78,
+        "malicious_recall": 0.8151986183074266,
+        "malicious_detected": 1888
+      },
+      {
+        "threshold": 0.52,
+        "benign_fpr": 0.09665427509293681,
+        "benign_fp": 78,
+        "malicious_recall": 0.8134715025906736,
+        "malicious_detected": 1884
+      },
+      {
+        "threshold": 0.525,
+        "benign_fpr": 0.09665427509293681,
+        "benign_fp": 78,
+        "malicious_recall": 0.8134715025906736,
+        "malicious_detected": 1884
+      },
+      {
+        "threshold": 0.53,
+        "benign_fpr": 0.09541511771995044,
+        "benign_fp": 77,
+        "malicious_recall": 0.8130397236614854,
+        "malicious_detected": 1883
+      },
+      {
+        "threshold": 0.535,
+        "benign_fpr": 0.09293680297397769,
+        "benign_fp": 75,
+        "malicious_recall": 0.8130397236614854,
+        "malicious_detected": 1883
+      },
+      {
+        "threshold": 0.54,
+        "benign_fpr": 0.09293680297397769,
+        "benign_fp": 75,
+        "malicious_recall": 0.8130397236614854,
+        "malicious_detected": 1883
+      },
+      {
+        "threshold": 0.545,
+        "benign_fpr": 0.09045848822800495,
+        "benign_fp": 73,
+        "malicious_recall": 0.8130397236614854,
+        "malicious_detected": 1883
+      },
+      {
+        "threshold": 0.55,
+        "benign_fpr": 0.09045848822800495,
+        "benign_fp": 73,
+        "malicious_recall": 0.8130397236614854,
+        "malicious_detected": 1883
+      },
+      {
+        "threshold": 0.555,
+        "benign_fpr": 0.08798017348203221,
+        "benign_fp": 71,
+        "malicious_recall": 0.8121761658031088,
+        "malicious_detected": 1881
+      },
+      {
+        "threshold": 0.56,
+        "benign_fpr": 0.08674101610904585,
+        "benign_fp": 70,
+        "malicious_recall": 0.8121761658031088,
+        "malicious_detected": 1881
+      },
+      {
+        "threshold": 0.565,
+        "benign_fpr": 0.08426270136307311,
+        "benign_fp": 68,
+        "malicious_recall": 0.8117443868739206,
+        "malicious_detected": 1880
+      },
+      {
+        "threshold": 0.57,
+        "benign_fpr": 0.080545229244114,
+        "benign_fp": 65,
+        "malicious_recall": 0.8117443868739206,
+        "malicious_detected": 1880
+      },
+      {
+        "threshold": 0.575,
+        "benign_fpr": 0.07930607187112763,
+        "benign_fp": 64,
+        "malicious_recall": 0.810880829015544,
+        "malicious_detected": 1878
+      },
+      {
+        "threshold": 0.58,
+        "benign_fpr": 0.07930607187112763,
+        "benign_fp": 64,
+        "malicious_recall": 0.8100172711571675,
+        "malicious_detected": 1876
+      },
+      {
+        "threshold": 0.585,
+        "benign_fpr": 0.07930607187112763,
+        "benign_fp": 64,
+        "malicious_recall": 0.8087219343696027,
+        "malicious_detected": 1873
+      },
+      {
+        "threshold": 0.59,
+        "benign_fpr": 0.07806691449814127,
+        "benign_fp": 63,
+        "malicious_recall": 0.8082901554404145,
+        "malicious_detected": 1872
+      },
+      {
+        "threshold": 0.595,
+        "benign_fpr": 0.07806691449814127,
+        "benign_fp": 63,
+        "malicious_recall": 0.8078583765112263,
+        "malicious_detected": 1871
+      },
+      {
+        "threshold": 0.6,
+        "benign_fpr": 0.07806691449814127,
+        "benign_fp": 63,
+        "malicious_recall": 0.8078583765112263,
+        "malicious_detected": 1871
+      },
+      {
+        "threshold": 0.605,
+        "benign_fpr": 0.07806691449814127,
+        "benign_fp": 63,
+        "malicious_recall": 0.8078583765112263,
+        "malicious_detected": 1871
+      },
+      {
+        "threshold": 0.61,
+        "benign_fpr": 0.07806691449814127,
+        "benign_fp": 63,
+        "malicious_recall": 0.8078583765112263,
+        "malicious_detected": 1871
+      },
+      {
+        "threshold": 0.615,
+        "benign_fpr": 0.07806691449814127,
+        "benign_fp": 63,
+        "malicious_recall": 0.8078583765112263,
+        "malicious_detected": 1871
+      },
+      {
+        "threshold": 0.62,
+        "benign_fpr": 0.07806691449814127,
+        "benign_fp": 63,
+        "malicious_recall": 0.8069948186528497,
+        "malicious_detected": 1869
+      },
+      {
+        "threshold": 0.625,
+        "benign_fpr": 0.0768277571251549,
+        "benign_fp": 62,
+        "malicious_recall": 0.8061312607944733,
+        "malicious_detected": 1867
+      },
+      {
+        "threshold": 0.63,
+        "benign_fpr": 0.07558859975216853,
+        "benign_fp": 61,
+        "malicious_recall": 0.8061312607944733,
+        "malicious_detected": 1867
+      },
+      {
+        "threshold": 0.635,
+        "benign_fpr": 0.07434944237918216,
+        "benign_fp": 60,
+        "malicious_recall": 0.8052677029360967,
+        "malicious_detected": 1865
+      },
+      {
+        "threshold": 0.64,
+        "benign_fpr": 0.07434944237918216,
+        "benign_fp": 60,
+        "malicious_recall": 0.8052677029360967,
+        "malicious_detected": 1865
+      },
+      {
+        "threshold": 0.645,
+        "benign_fpr": 0.07434944237918216,
+        "benign_fp": 60,
+        "malicious_recall": 0.8035405872193437,
+        "malicious_detected": 1861
+      },
+      {
+        "threshold": 0.65,
+        "benign_fpr": 0.07434944237918216,
+        "benign_fp": 60,
+        "malicious_recall": 0.8031088082901554,
+        "malicious_detected": 1860
+      },
+      {
+        "threshold": 0.655,
+        "benign_fpr": 0.07311028500619579,
+        "benign_fp": 59,
+        "malicious_recall": 0.8031088082901554,
+        "malicious_detected": 1860
+      },
+      {
+        "threshold": 0.66,
+        "benign_fpr": 0.07187112763320942,
+        "benign_fp": 58,
+        "malicious_recall": 0.8031088082901554,
+        "malicious_detected": 1860
+      },
+      {
+        "threshold": 0.665,
+        "benign_fpr": 0.06939281288723669,
+        "benign_fp": 56,
+        "malicious_recall": 0.8018134715025906,
+        "malicious_detected": 1857
+      },
+      {
+        "threshold": 0.67,
+        "benign_fpr": 0.06815365551425032,
+        "benign_fp": 55,
+        "malicious_recall": 0.8005181347150259,
+        "malicious_detected": 1854
+      },
+      {
+        "threshold": 0.675,
+        "benign_fpr": 0.06815365551425032,
+        "benign_fp": 55,
+        "malicious_recall": 0.7996545768566494,
+        "malicious_detected": 1852
+      },
+      {
+        "threshold": 0.68,
+        "benign_fpr": 0.06691449814126393,
+        "benign_fp": 54,
+        "malicious_recall": 0.7983592400690847,
+        "malicious_detected": 1849
+      },
+      {
+        "threshold": 0.685,
+        "benign_fpr": 0.06567534076827757,
+        "benign_fp": 53,
+        "malicious_recall": 0.7949050086355786,
+        "malicious_detected": 1841
+      },
+      {
+        "threshold": 0.69,
+        "benign_fpr": 0.06567534076827757,
+        "benign_fp": 53,
+        "malicious_recall": 0.7944732297063903,
+        "malicious_detected": 1840
+      },
+      {
+        "threshold": 0.695,
+        "benign_fpr": 0.06319702602230483,
+        "benign_fp": 51,
+        "malicious_recall": 0.7936096718480138,
+        "malicious_detected": 1838
+      },
+      {
+        "threshold": 0.7,
+        "benign_fpr": 0.06071871127633209,
+        "benign_fp": 49,
+        "malicious_recall": 0.7931778929188256,
+        "malicious_detected": 1837
+      },
+      {
+        "threshold": 0.705,
+        "benign_fpr": 0.06071871127633209,
+        "benign_fp": 49,
+        "malicious_recall": 0.7927461139896373,
+        "malicious_detected": 1836
+      },
+      {
+        "threshold": 0.71,
+        "benign_fpr": 0.05947955390334572,
+        "benign_fp": 48,
+        "malicious_recall": 0.792314335060449,
+        "malicious_detected": 1835
+      },
+      {
+        "threshold": 0.715,
+        "benign_fpr": 0.058240396530359353,
+        "benign_fp": 47,
+        "malicious_recall": 0.7914507772020726,
+        "malicious_detected": 1833
+      },
+      {
+        "threshold": 0.72,
+        "benign_fpr": 0.057001239157372985,
+        "benign_fp": 46,
+        "malicious_recall": 0.790587219343696,
+        "malicious_detected": 1831
+      },
+      {
+        "threshold": 0.725,
+        "benign_fpr": 0.055762081784386616,
+        "benign_fp": 45,
+        "malicious_recall": 0.7897236614853195,
+        "malicious_detected": 1829
+      },
+      {
+        "threshold": 0.73,
+        "benign_fpr": 0.042131350681536554,
+        "benign_fp": 34,
+        "malicious_recall": 0.7879965457685665,
+        "malicious_detected": 1825
+      },
+      {
+        "threshold": 0.735,
+        "benign_fpr": 0.040892193308550186,
+        "benign_fp": 33,
+        "malicious_recall": 0.7862694300518135,
+        "malicious_detected": 1821
+      },
+      {
+        "threshold": 0.74,
+        "benign_fpr": 0.03965303593556382,
+        "benign_fp": 32,
+        "malicious_recall": 0.7845423143350605,
+        "malicious_detected": 1817
+      },
+      {
+        "threshold": 0.745,
+        "benign_fpr": 0.03965303593556382,
+        "benign_fp": 32,
+        "malicious_recall": 0.7841105354058722,
+        "malicious_detected": 1816
+      },
+      {
+        "threshold": 0.75,
+        "benign_fpr": 0.03717472118959108,
+        "benign_fp": 30,
+        "malicious_recall": 0.7823834196891192,
+        "malicious_detected": 1812
+      },
+      {
+        "threshold": 0.755,
+        "benign_fpr": 0.03717472118959108,
+        "benign_fp": 30,
+        "malicious_recall": 0.7797927461139896,
+        "malicious_detected": 1806
+      },
+      {
+        "threshold": 0.76,
+        "benign_fpr": 0.03717472118959108,
+        "benign_fp": 30,
+        "malicious_recall": 0.7789291882556131,
+        "malicious_detected": 1804
+      },
+      {
+        "threshold": 0.765,
+        "benign_fpr": 0.03717472118959108,
+        "benign_fp": 30,
+        "malicious_recall": 0.7772020725388601,
+        "malicious_detected": 1800
+      },
+      {
+        "threshold": 0.77,
+        "benign_fpr": 0.03717472118959108,
+        "benign_fp": 30,
+        "malicious_recall": 0.7759067357512953,
+        "malicious_detected": 1797
+      },
+      {
+        "threshold": 0.775,
+        "benign_fpr": 0.03717472118959108,
+        "benign_fp": 30,
+        "malicious_recall": 0.7750431778929189,
+        "malicious_detected": 1795
+      },
+      {
+        "threshold": 0.78,
+        "benign_fpr": 0.03717472118959108,
+        "benign_fp": 30,
+        "malicious_recall": 0.7728842832469776,
+        "malicious_detected": 1790
+      },
+      {
+        "threshold": 0.785,
+        "benign_fpr": 0.03593556381660471,
+        "benign_fp": 29,
+        "malicious_recall": 0.7711571675302246,
+        "malicious_detected": 1786
+      },
+      {
+        "threshold": 0.79,
+        "benign_fpr": 0.03593556381660471,
+        "benign_fp": 29,
+        "malicious_recall": 0.768566493955095,
+        "malicious_detected": 1780
+      },
+      {
+        "threshold": 0.795,
+        "benign_fpr": 0.03469640644361834,
+        "benign_fp": 28,
+        "malicious_recall": 0.7651122625215889,
+        "malicious_detected": 1772
+      },
+      {
+        "threshold": 0.8,
+        "benign_fpr": 0.026022304832713755,
+        "benign_fp": 21,
+        "malicious_recall": 0.7633851468048359,
+        "malicious_detected": 1768
+      },
+      {
+        "threshold": 0.805,
+        "benign_fpr": 0.026022304832713755,
+        "benign_fp": 21,
+        "malicious_recall": 0.7629533678756477,
+        "malicious_detected": 1767
+      },
+      {
+        "threshold": 0.81,
+        "benign_fpr": 0.026022304832713755,
+        "benign_fp": 21,
+        "malicious_recall": 0.7616580310880829,
+        "malicious_detected": 1764
+      },
+      {
+        "threshold": 0.815,
+        "benign_fpr": 0.024783147459727387,
+        "benign_fp": 20,
+        "malicious_recall": 0.7603626943005182,
+        "malicious_detected": 1761
+      },
+      {
+        "threshold": 0.82,
+        "benign_fpr": 0.022304832713754646,
+        "benign_fp": 18,
+        "malicious_recall": 0.7573402417962003,
+        "malicious_detected": 1754
+      },
+      {
+        "threshold": 0.825,
+        "benign_fpr": 0.022304832713754646,
+        "benign_fp": 18,
+        "malicious_recall": 0.7547495682210709,
+        "malicious_detected": 1748
+      },
+      {
+        "threshold": 0.83,
+        "benign_fpr": 0.022304832713754646,
+        "benign_fp": 18,
+        "malicious_recall": 0.7525906735751295,
+        "malicious_detected": 1743
+      },
+      {
+        "threshold": 0.835,
+        "benign_fpr": 0.022304832713754646,
+        "benign_fp": 18,
+        "malicious_recall": 0.7495682210708118,
+        "malicious_detected": 1736
+      },
+      {
+        "threshold": 0.84,
+        "benign_fpr": 0.022304832713754646,
+        "benign_fp": 18,
+        "malicious_recall": 0.7474093264248705,
+        "malicious_detected": 1731
+      },
+      {
+        "threshold": 0.845,
+        "benign_fpr": 0.022304832713754646,
+        "benign_fp": 18,
+        "malicious_recall": 0.7370466321243523,
+        "malicious_detected": 1707
+      },
+      {
+        "threshold": 0.85,
+        "benign_fpr": 0.021065675340768277,
+        "benign_fp": 17,
+        "malicious_recall": 0.7366148531951641,
+        "malicious_detected": 1706
+      },
+      {
+        "threshold": 0.855,
+        "benign_fpr": 0.021065675340768277,
+        "benign_fp": 17,
+        "malicious_recall": 0.7357512953367875,
+        "malicious_detected": 1704
+      },
+      {
+        "threshold": 0.86,
+        "benign_fpr": 0.021065675340768277,
+        "benign_fp": 17,
+        "malicious_recall": 0.7348877374784111,
+        "malicious_detected": 1702
+      },
+      {
+        "threshold": 0.865,
+        "benign_fpr": 0.012391573729863693,
+        "benign_fp": 10,
+        "malicious_recall": 0.729706390328152,
+        "malicious_detected": 1690
+      },
+      {
+        "threshold": 0.87,
+        "benign_fpr": 0.012391573729863693,
+        "benign_fp": 10,
+        "malicious_recall": 0.7258203799654577,
+        "malicious_detected": 1681
+      },
+      {
+        "threshold": 0.875,
+        "benign_fpr": 0.011152416356877323,
+        "benign_fp": 9,
+        "malicious_recall": 0.7223661485319517,
+        "malicious_detected": 1673
+      },
+      {
+        "threshold": 0.88,
+        "benign_fpr": 0.011152416356877323,
+        "benign_fp": 9,
+        "malicious_recall": 0.718048359240069,
+        "malicious_detected": 1663
+      },
+      {
+        "threshold": 0.885,
+        "benign_fpr": 0.011152416356877323,
+        "benign_fp": 9,
+        "malicious_recall": 0.7120034542314335,
+        "malicious_detected": 1649
+      },
+      {
+        "threshold": 0.89,
+        "benign_fpr": 0.011152416356877323,
+        "benign_fp": 9,
+        "malicious_recall": 0.707685664939551,
+        "malicious_detected": 1639
+      },
+      {
+        "threshold": 0.895,
+        "benign_fpr": 0.009913258983890954,
+        "benign_fp": 8,
+        "malicious_recall": 0.7029360967184801,
+        "malicious_detected": 1628
+      },
+      {
+        "threshold": 0.9,
+        "benign_fpr": 0.009913258983890954,
+        "benign_fp": 8,
+        "malicious_recall": 0.7007772020725389,
+        "malicious_detected": 1623
+      },
+      {
+        "threshold": 0.905,
+        "benign_fpr": 0.008674101610904586,
+        "benign_fp": 7,
+        "malicious_recall": 0.6955958549222798,
+        "malicious_detected": 1611
+      },
+      {
+        "threshold": 0.91,
+        "benign_fpr": 0.008674101610904586,
+        "benign_fp": 7,
+        "malicious_recall": 0.6917098445595855,
+        "malicious_detected": 1602
+      },
+      {
+        "threshold": 0.915,
+        "benign_fpr": 0.008674101610904586,
+        "benign_fp": 7,
+        "malicious_recall": 0.6860967184801382,
+        "malicious_detected": 1589
+      },
+      {
+        "threshold": 0.92,
+        "benign_fpr": 0.008674101610904586,
+        "benign_fp": 7,
+        "malicious_recall": 0.6787564766839378,
+        "malicious_detected": 1572
+      },
+      {
+        "threshold": 0.925,
+        "benign_fpr": 0.008674101610904586,
+        "benign_fp": 7,
+        "malicious_recall": 0.6709844559585493,
+        "malicious_detected": 1554
+      },
+      {
+        "threshold": 0.93,
+        "benign_fpr": 0.008674101610904586,
+        "benign_fp": 7,
+        "malicious_recall": 0.6636442141623489,
+        "malicious_detected": 1537
+      },
+      {
+        "threshold": 0.935,
+        "benign_fpr": 0.007434944237918215,
+        "benign_fp": 6,
+        "malicious_recall": 0.6563039723661486,
+        "malicious_detected": 1520
+      },
+      {
+        "threshold": 0.94,
+        "benign_fpr": 0.007434944237918215,
+        "benign_fp": 6,
+        "malicious_recall": 0.646804835924007,
+        "malicious_detected": 1498
+      },
+      {
+        "threshold": 0.945,
+        "benign_fpr": 0.007434944237918215,
+        "benign_fp": 6,
+        "malicious_recall": 0.635146804835924,
+        "malicious_detected": 1471
+      },
+      {
+        "threshold": 0.95,
+        "benign_fpr": 0.007434944237918215,
+        "benign_fp": 6,
+        "malicious_recall": 0.6213298791018999,
+        "malicious_detected": 1439
+      }
+    ]
+  },
+  "Ablation_C": {
+    "tau": 0.86,
+    "p98": 0.8563568592071533,
+    "sweep": [
+      {
+        "threshold": 0.05,
+        "benign_fpr": 0.3680297397769517,
+        "benign_fp": 297,
+        "malicious_recall": 0.8454231433506045,
+        "malicious_detected": 1958
+      },
+      {
+        "threshold": 0.055,
+        "benign_fpr": 0.3630731102850062,
+        "benign_fp": 293,
+        "malicious_recall": 0.8449913644214162,
+        "malicious_detected": 1957
+      },
+      {
+        "threshold": 0.06,
+        "benign_fpr": 0.35315985130111527,
+        "benign_fp": 285,
+        "malicious_recall": 0.8449913644214162,
+        "malicious_detected": 1957
+      },
+      {
+        "threshold": 0.065,
+        "benign_fpr": 0.3382899628252788,
+        "benign_fp": 273,
+        "malicious_recall": 0.8449913644214162,
+        "malicious_detected": 1957
+      },
+      {
+        "threshold": 0.07,
+        "benign_fpr": 0.32837670384138784,
+        "benign_fp": 265,
+        "malicious_recall": 0.8449913644214162,
+        "malicious_detected": 1957
+      },
+      {
+        "threshold": 0.075,
+        "benign_fpr": 0.31970260223048325,
+        "benign_fp": 258,
+        "malicious_recall": 0.8449913644214162,
+        "malicious_detected": 1957
+      },
+      {
+        "threshold": 0.08,
+        "benign_fpr": 0.3110285006195787,
+        "benign_fp": 251,
+        "malicious_recall": 0.8449913644214162,
+        "malicious_detected": 1957
+      },
+      {
+        "threshold": 0.085,
+        "benign_fpr": 0.3048327137546468,
+        "benign_fp": 246,
+        "malicious_recall": 0.8449913644214162,
+        "malicious_detected": 1957
+      },
+      {
+        "threshold": 0.09,
+        "benign_fpr": 0.29739776951672864,
+        "benign_fp": 240,
+        "malicious_recall": 0.844559585492228,
+        "malicious_detected": 1956
+      },
+      {
+        "threshold": 0.095,
+        "benign_fpr": 0.29120198265179675,
+        "benign_fp": 235,
+        "malicious_recall": 0.8441278065630398,
+        "malicious_detected": 1955
+      },
+      {
+        "threshold": 0.1,
+        "benign_fpr": 0.2812887236679058,
+        "benign_fp": 227,
+        "malicious_recall": 0.8441278065630398,
+        "malicious_detected": 1955
+      },
+      {
+        "threshold": 0.105,
+        "benign_fpr": 0.27757125154894674,
+        "benign_fp": 224,
+        "malicious_recall": 0.8436960276338514,
+        "malicious_detected": 1954
+      },
+      {
+        "threshold": 0.11,
+        "benign_fpr": 0.27261462205700127,
+        "benign_fp": 220,
+        "malicious_recall": 0.8436960276338514,
+        "malicious_detected": 1954
+      },
+      {
+        "threshold": 0.115,
+        "benign_fpr": 0.2614622057001239,
+        "benign_fp": 211,
+        "malicious_recall": 0.8436960276338514,
+        "malicious_detected": 1954
+      },
+      {
+        "threshold": 0.12,
+        "benign_fpr": 0.2552664188351921,
+        "benign_fp": 206,
+        "malicious_recall": 0.8432642487046632,
+        "malicious_detected": 1953
+      },
+      {
+        "threshold": 0.125,
+        "benign_fpr": 0.25154894671623296,
+        "benign_fp": 203,
+        "malicious_recall": 0.8432642487046632,
+        "malicious_detected": 1953
+      },
+      {
+        "threshold": 0.13,
+        "benign_fpr": 0.24783147459727387,
+        "benign_fp": 200,
+        "malicious_recall": 0.8432642487046632,
+        "malicious_detected": 1953
+      },
+      {
+        "threshold": 0.135,
+        "benign_fpr": 0.24287484510532836,
+        "benign_fp": 196,
+        "malicious_recall": 0.842832469775475,
+        "malicious_detected": 1952
+      },
+      {
+        "threshold": 0.14,
+        "benign_fpr": 0.24039653035935563,
+        "benign_fp": 194,
+        "malicious_recall": 0.842832469775475,
+        "malicious_detected": 1952
+      },
+      {
+        "threshold": 0.145,
+        "benign_fpr": 0.23296158612143741,
+        "benign_fp": 188,
+        "malicious_recall": 0.8424006908462867,
+        "malicious_detected": 1951
+      },
+      {
+        "threshold": 0.15,
+        "benign_fpr": 0.23048327137546468,
+        "benign_fp": 186,
+        "malicious_recall": 0.8419689119170984,
+        "malicious_detected": 1950
+      },
+      {
+        "threshold": 0.155,
+        "benign_fpr": 0.22428748451053285,
+        "benign_fp": 181,
+        "malicious_recall": 0.8419689119170984,
+        "malicious_detected": 1950
+      },
+      {
+        "threshold": 0.16,
+        "benign_fpr": 0.21065675340768278,
+        "benign_fp": 170,
+        "malicious_recall": 0.8415371329879102,
+        "malicious_detected": 1949
+      },
+      {
+        "threshold": 0.165,
+        "benign_fpr": 0.20817843866171004,
+        "benign_fp": 168,
+        "malicious_recall": 0.8415371329879102,
+        "malicious_detected": 1949
+      },
+      {
+        "threshold": 0.17,
+        "benign_fpr": 0.2057001239157373,
+        "benign_fp": 166,
+        "malicious_recall": 0.8415371329879102,
+        "malicious_detected": 1949
+      },
+      {
+        "threshold": 0.175,
+        "benign_fpr": 0.20198265179677818,
+        "benign_fp": 163,
+        "malicious_recall": 0.8415371329879102,
+        "malicious_detected": 1949
+      },
+      {
+        "threshold": 0.18,
+        "benign_fpr": 0.1982651796778191,
+        "benign_fp": 160,
+        "malicious_recall": 0.8415371329879102,
+        "malicious_detected": 1949
+      },
+      {
+        "threshold": 0.185,
+        "benign_fpr": 0.19454770755885997,
+        "benign_fp": 157,
+        "malicious_recall": 0.8411053540587219,
+        "malicious_detected": 1948
+      },
+      {
+        "threshold": 0.19,
+        "benign_fpr": 0.19206939281288724,
+        "benign_fp": 155,
+        "malicious_recall": 0.8406735751295337,
+        "malicious_detected": 1947
+      },
+      {
+        "threshold": 0.195,
+        "benign_fpr": 0.19206939281288724,
+        "benign_fp": 155,
+        "malicious_recall": 0.8402417962003454,
+        "malicious_detected": 1946
+      },
+      {
+        "threshold": 0.2,
+        "benign_fpr": 0.19083023543990088,
+        "benign_fp": 154,
+        "malicious_recall": 0.8402417962003454,
+        "malicious_detected": 1946
+      },
+      {
+        "threshold": 0.205,
+        "benign_fpr": 0.18587360594795538,
+        "benign_fp": 150,
+        "malicious_recall": 0.8398100172711571,
+        "malicious_detected": 1945
+      },
+      {
+        "threshold": 0.21,
+        "benign_fpr": 0.18463444857496902,
+        "benign_fp": 149,
+        "malicious_recall": 0.8398100172711571,
+        "malicious_detected": 1945
+      },
+      {
+        "threshold": 0.215,
+        "benign_fpr": 0.1809169764560099,
+        "benign_fp": 146,
+        "malicious_recall": 0.8398100172711571,
+        "malicious_detected": 1945
+      },
+      {
+        "threshold": 0.22,
+        "benign_fpr": 0.1809169764560099,
+        "benign_fp": 146,
+        "malicious_recall": 0.8385146804835925,
+        "malicious_detected": 1942
+      },
+      {
+        "threshold": 0.225,
+        "benign_fpr": 0.17967781908302355,
+        "benign_fp": 145,
+        "malicious_recall": 0.8372193436960277,
+        "malicious_detected": 1939
+      },
+      {
+        "threshold": 0.23,
+        "benign_fpr": 0.17843866171003717,
+        "benign_fp": 144,
+        "malicious_recall": 0.8372193436960277,
+        "malicious_detected": 1939
+      },
+      {
+        "threshold": 0.235,
+        "benign_fpr": 0.1771995043370508,
+        "benign_fp": 143,
+        "malicious_recall": 0.8372193436960277,
+        "malicious_detected": 1939
+      },
+      {
+        "threshold": 0.24,
+        "benign_fpr": 0.1771995043370508,
+        "benign_fp": 143,
+        "malicious_recall": 0.8372193436960277,
+        "malicious_detected": 1939
+      },
+      {
+        "threshold": 0.245,
+        "benign_fpr": 0.17472118959107807,
+        "benign_fp": 141,
+        "malicious_recall": 0.8367875647668394,
+        "malicious_detected": 1938
+      },
+      {
+        "threshold": 0.25,
+        "benign_fpr": 0.17472118959107807,
+        "benign_fp": 141,
+        "malicious_recall": 0.8363557858376511,
+        "malicious_detected": 1937
+      },
+      {
+        "threshold": 0.255,
+        "benign_fpr": 0.1734820322180917,
+        "benign_fp": 140,
+        "malicious_recall": 0.8359240069084629,
+        "malicious_detected": 1936
+      },
+      {
+        "threshold": 0.26,
+        "benign_fpr": 0.16728624535315986,
+        "benign_fp": 135,
+        "malicious_recall": 0.8350604490500864,
+        "malicious_detected": 1934
+      },
+      {
+        "threshold": 0.265,
+        "benign_fpr": 0.15117719950433706,
+        "benign_fp": 122,
+        "malicious_recall": 0.8350604490500864,
+        "malicious_detected": 1934
+      },
+      {
+        "threshold": 0.27,
+        "benign_fpr": 0.14993804213135067,
+        "benign_fp": 121,
+        "malicious_recall": 0.8341968911917098,
+        "malicious_detected": 1932
+      },
+      {
+        "threshold": 0.275,
+        "benign_fpr": 0.14869888475836432,
+        "benign_fp": 120,
+        "malicious_recall": 0.8341968911917098,
+        "malicious_detected": 1932
+      },
+      {
+        "threshold": 0.28,
+        "benign_fpr": 0.14745972738537794,
+        "benign_fp": 119,
+        "malicious_recall": 0.8341968911917098,
+        "malicious_detected": 1932
+      },
+      {
+        "threshold": 0.285,
+        "benign_fpr": 0.14745972738537794,
+        "benign_fp": 119,
+        "malicious_recall": 0.8341968911917098,
+        "malicious_detected": 1932
+      },
+      {
+        "threshold": 0.29,
+        "benign_fpr": 0.14622057001239158,
+        "benign_fp": 118,
+        "malicious_recall": 0.8341968911917098,
+        "malicious_detected": 1932
+      },
+      {
+        "threshold": 0.295,
+        "benign_fpr": 0.14250309789343246,
+        "benign_fp": 115,
+        "malicious_recall": 0.8337651122625216,
+        "malicious_detected": 1931
+      },
+      {
+        "threshold": 0.3,
+        "benign_fpr": 0.14250309789343246,
+        "benign_fp": 115,
+        "malicious_recall": 0.8333333333333334,
+        "malicious_detected": 1930
+      },
+      {
+        "threshold": 0.305,
+        "benign_fpr": 0.14250309789343246,
+        "benign_fp": 115,
+        "malicious_recall": 0.8333333333333334,
+        "malicious_detected": 1930
+      },
+      {
+        "threshold": 0.31,
+        "benign_fpr": 0.1412639405204461,
+        "benign_fp": 114,
+        "malicious_recall": 0.832901554404145,
+        "malicious_detected": 1929
+      },
+      {
+        "threshold": 0.315,
+        "benign_fpr": 0.14002478314745972,
+        "benign_fp": 113,
+        "malicious_recall": 0.832901554404145,
+        "malicious_detected": 1929
+      },
+      {
+        "threshold": 0.32,
+        "benign_fpr": 0.13878562577447337,
+        "benign_fp": 112,
+        "malicious_recall": 0.832901554404145,
+        "malicious_detected": 1929
+      },
+      {
+        "threshold": 0.325,
+        "benign_fpr": 0.137546468401487,
+        "benign_fp": 111,
+        "malicious_recall": 0.8324697754749568,
+        "malicious_detected": 1928
+      },
+      {
+        "threshold": 0.33,
+        "benign_fpr": 0.137546468401487,
+        "benign_fp": 111,
+        "malicious_recall": 0.8324697754749568,
+        "malicious_detected": 1928
+      },
+      {
+        "threshold": 0.335,
+        "benign_fpr": 0.13506815365551425,
+        "benign_fp": 109,
+        "malicious_recall": 0.8324697754749568,
+        "malicious_detected": 1928
+      },
+      {
+        "threshold": 0.34,
+        "benign_fpr": 0.1325898389095415,
+        "benign_fp": 107,
+        "malicious_recall": 0.8324697754749568,
+        "malicious_detected": 1928
+      },
+      {
+        "threshold": 0.345,
+        "benign_fpr": 0.13135068153655513,
+        "benign_fp": 106,
+        "malicious_recall": 0.8324697754749568,
+        "malicious_detected": 1928
+      },
+      {
+        "threshold": 0.35,
+        "benign_fpr": 0.13135068153655513,
+        "benign_fp": 106,
+        "malicious_recall": 0.8324697754749568,
+        "malicious_detected": 1928
+      },
+      {
+        "threshold": 0.355,
+        "benign_fpr": 0.1288723667905824,
+        "benign_fp": 104,
+        "malicious_recall": 0.8324697754749568,
+        "malicious_detected": 1928
+      },
+      {
+        "threshold": 0.36,
+        "benign_fpr": 0.12639405204460966,
+        "benign_fp": 102,
+        "malicious_recall": 0.8320379965457686,
+        "malicious_detected": 1927
+      },
+      {
+        "threshold": 0.365,
+        "benign_fpr": 0.1251548946716233,
+        "benign_fp": 101,
+        "malicious_recall": 0.8316062176165803,
+        "malicious_detected": 1926
+      },
+      {
+        "threshold": 0.37,
+        "benign_fpr": 0.12391573729863693,
+        "benign_fp": 100,
+        "malicious_recall": 0.8307426597582038,
+        "malicious_detected": 1924
+      },
+      {
+        "threshold": 0.375,
+        "benign_fpr": 0.12019826517967781,
+        "benign_fp": 97,
+        "malicious_recall": 0.8307426597582038,
+        "malicious_detected": 1924
+      },
+      {
+        "threshold": 0.38,
+        "benign_fpr": 0.11771995043370508,
+        "benign_fp": 95,
+        "malicious_recall": 0.8307426597582038,
+        "malicious_detected": 1924
+      },
+      {
+        "threshold": 0.385,
+        "benign_fpr": 0.11524163568773234,
+        "benign_fp": 93,
+        "malicious_recall": 0.8303108808290155,
+        "malicious_detected": 1923
+      },
+      {
+        "threshold": 0.39,
+        "benign_fpr": 0.11400247831474597,
+        "benign_fp": 92,
+        "malicious_recall": 0.8298791018998273,
+        "malicious_detected": 1922
+      },
+      {
+        "threshold": 0.395,
+        "benign_fpr": 0.11152416356877323,
+        "benign_fp": 90,
+        "malicious_recall": 0.8294473229706391,
+        "malicious_detected": 1921
+      },
+      {
+        "threshold": 0.4,
+        "benign_fpr": 0.11152416356877323,
+        "benign_fp": 90,
+        "malicious_recall": 0.8294473229706391,
+        "malicious_detected": 1921
+      },
+      {
+        "threshold": 0.405,
+        "benign_fpr": 0.11152416356877323,
+        "benign_fp": 90,
+        "malicious_recall": 0.8281519861830743,
+        "malicious_detected": 1918
+      },
+      {
+        "threshold": 0.41,
+        "benign_fpr": 0.1090458488228005,
+        "benign_fp": 88,
+        "malicious_recall": 0.8277202072538861,
+        "malicious_detected": 1917
+      },
+      {
+        "threshold": 0.415,
+        "benign_fpr": 0.10780669144981413,
+        "benign_fp": 87,
+        "malicious_recall": 0.8272884283246977,
+        "malicious_detected": 1916
+      },
+      {
+        "threshold": 0.42,
+        "benign_fpr": 0.10532837670384139,
+        "benign_fp": 85,
+        "malicious_recall": 0.8268566493955095,
+        "malicious_detected": 1915
+      },
+      {
+        "threshold": 0.425,
+        "benign_fpr": 0.10532837670384139,
+        "benign_fp": 85,
+        "malicious_recall": 0.8255613126079447,
+        "malicious_detected": 1912
+      },
+      {
+        "threshold": 0.43,
+        "benign_fpr": 0.10285006195786865,
+        "benign_fp": 83,
+        "malicious_recall": 0.8255613126079447,
+        "malicious_detected": 1912
+      },
+      {
+        "threshold": 0.435,
+        "benign_fpr": 0.10161090458488228,
+        "benign_fp": 82,
+        "malicious_recall": 0.8255613126079447,
+        "malicious_detected": 1912
+      },
+      {
+        "threshold": 0.44,
+        "benign_fpr": 0.10037174721189591,
+        "benign_fp": 81,
+        "malicious_recall": 0.8255613126079447,
+        "malicious_detected": 1912
+      },
+      {
+        "threshold": 0.445,
+        "benign_fpr": 0.09913258983890955,
+        "benign_fp": 80,
+        "malicious_recall": 0.8251295336787565,
+        "malicious_detected": 1911
+      },
+      {
+        "threshold": 0.45,
+        "benign_fpr": 0.09665427509293681,
+        "benign_fp": 78,
+        "malicious_recall": 0.8251295336787565,
+        "malicious_detected": 1911
+      },
+      {
+        "threshold": 0.455,
+        "benign_fpr": 0.09665427509293681,
+        "benign_fp": 78,
+        "malicious_recall": 0.8251295336787565,
+        "malicious_detected": 1911
+      },
+      {
+        "threshold": 0.46,
+        "benign_fpr": 0.09417596034696406,
+        "benign_fp": 76,
+        "malicious_recall": 0.8251295336787565,
+        "malicious_detected": 1911
+      },
+      {
+        "threshold": 0.465,
+        "benign_fpr": 0.09293680297397769,
+        "benign_fp": 75,
+        "malicious_recall": 0.8251295336787565,
+        "malicious_detected": 1911
+      },
+      {
+        "threshold": 0.47,
+        "benign_fpr": 0.09293680297397769,
+        "benign_fp": 75,
+        "malicious_recall": 0.8246977547495682,
+        "malicious_detected": 1910
+      },
+      {
+        "threshold": 0.475,
+        "benign_fpr": 0.09169764560099132,
+        "benign_fp": 74,
+        "malicious_recall": 0.8238341968911918,
+        "malicious_detected": 1908
+      },
+      {
+        "threshold": 0.48,
+        "benign_fpr": 0.09045848822800495,
+        "benign_fp": 73,
+        "malicious_recall": 0.8234024179620034,
+        "malicious_detected": 1907
+      },
+      {
+        "threshold": 0.485,
+        "benign_fpr": 0.09045848822800495,
+        "benign_fp": 73,
+        "malicious_recall": 0.8234024179620034,
+        "malicious_detected": 1907
+      },
+      {
+        "threshold": 0.49,
+        "benign_fpr": 0.08921933085501858,
+        "benign_fp": 72,
+        "malicious_recall": 0.8229706390328152,
+        "malicious_detected": 1906
+      },
+      {
+        "threshold": 0.495,
+        "benign_fpr": 0.08674101610904585,
+        "benign_fp": 70,
+        "malicious_recall": 0.8229706390328152,
+        "malicious_detected": 1906
+      },
+      {
+        "threshold": 0.5,
+        "benign_fpr": 0.08674101610904585,
+        "benign_fp": 70,
+        "malicious_recall": 0.8229706390328152,
+        "malicious_detected": 1906
+      },
+      {
+        "threshold": 0.505,
+        "benign_fpr": 0.08426270136307311,
+        "benign_fp": 68,
+        "malicious_recall": 0.822538860103627,
+        "malicious_detected": 1905
+      },
+      {
+        "threshold": 0.51,
+        "benign_fpr": 0.08426270136307311,
+        "benign_fp": 68,
+        "malicious_recall": 0.8221070811744386,
+        "malicious_detected": 1904
+      },
+      {
+        "threshold": 0.515,
+        "benign_fpr": 0.08302354399008674,
+        "benign_fp": 67,
+        "malicious_recall": 0.8221070811744386,
+        "malicious_detected": 1904
+      },
+      {
+        "threshold": 0.52,
+        "benign_fpr": 0.08302354399008674,
+        "benign_fp": 67,
+        "malicious_recall": 0.8216753022452504,
+        "malicious_detected": 1903
+      },
+      {
+        "threshold": 0.525,
+        "benign_fpr": 0.08178438661710037,
+        "benign_fp": 66,
+        "malicious_recall": 0.8212435233160622,
+        "malicious_detected": 1902
+      },
+      {
+        "threshold": 0.53,
+        "benign_fpr": 0.08178438661710037,
+        "benign_fp": 66,
+        "malicious_recall": 0.8212435233160622,
+        "malicious_detected": 1902
+      },
+      {
+        "threshold": 0.535,
+        "benign_fpr": 0.080545229244114,
+        "benign_fp": 65,
+        "malicious_recall": 0.8203799654576857,
+        "malicious_detected": 1900
+      },
+      {
+        "threshold": 0.54,
+        "benign_fpr": 0.080545229244114,
+        "benign_fp": 65,
+        "malicious_recall": 0.8203799654576857,
+        "malicious_detected": 1900
+      },
+      {
+        "threshold": 0.545,
+        "benign_fpr": 0.07806691449814127,
+        "benign_fp": 63,
+        "malicious_recall": 0.8195164075993091,
+        "malicious_detected": 1898
+      },
+      {
+        "threshold": 0.55,
+        "benign_fpr": 0.07558859975216853,
+        "benign_fp": 61,
+        "malicious_recall": 0.8195164075993091,
+        "malicious_detected": 1898
+      },
+      {
+        "threshold": 0.555,
+        "benign_fpr": 0.07311028500619579,
+        "benign_fp": 59,
+        "malicious_recall": 0.8190846286701209,
+        "malicious_detected": 1897
+      },
+      {
+        "threshold": 0.56,
+        "benign_fpr": 0.07311028500619579,
+        "benign_fp": 59,
+        "malicious_recall": 0.8190846286701209,
+        "malicious_detected": 1897
+      },
+      {
+        "threshold": 0.565,
+        "benign_fpr": 0.07063197026022305,
+        "benign_fp": 57,
+        "malicious_recall": 0.8190846286701209,
+        "malicious_detected": 1897
+      },
+      {
+        "threshold": 0.57,
+        "benign_fpr": 0.07063197026022305,
+        "benign_fp": 57,
+        "malicious_recall": 0.8182210708117443,
+        "malicious_detected": 1895
+      },
+      {
+        "threshold": 0.575,
+        "benign_fpr": 0.06939281288723669,
+        "benign_fp": 56,
+        "malicious_recall": 0.8182210708117443,
+        "malicious_detected": 1895
+      },
+      {
+        "threshold": 0.58,
+        "benign_fpr": 0.06939281288723669,
+        "benign_fp": 56,
+        "malicious_recall": 0.8182210708117443,
+        "malicious_detected": 1895
+      },
+      {
+        "threshold": 0.585,
+        "benign_fpr": 0.06815365551425032,
+        "benign_fp": 55,
+        "malicious_recall": 0.8173575129533679,
+        "malicious_detected": 1893
+      },
+      {
+        "threshold": 0.59,
+        "benign_fpr": 0.06691449814126393,
+        "benign_fp": 54,
+        "malicious_recall": 0.8169257340241797,
+        "malicious_detected": 1892
+      },
+      {
+        "threshold": 0.595,
+        "benign_fpr": 0.06567534076827757,
+        "benign_fp": 53,
+        "malicious_recall": 0.8169257340241797,
+        "malicious_detected": 1892
+      },
+      {
+        "threshold": 0.6,
+        "benign_fpr": 0.06567534076827757,
+        "benign_fp": 53,
+        "malicious_recall": 0.8169257340241797,
+        "malicious_detected": 1892
+      },
+      {
+        "threshold": 0.605,
+        "benign_fpr": 0.0644361833952912,
+        "benign_fp": 52,
+        "malicious_recall": 0.8169257340241797,
+        "malicious_detected": 1892
+      },
+      {
+        "threshold": 0.61,
+        "benign_fpr": 0.06319702602230483,
+        "benign_fp": 51,
+        "malicious_recall": 0.8164939550949913,
+        "malicious_detected": 1891
+      },
+      {
+        "threshold": 0.615,
+        "benign_fpr": 0.061957868649318466,
+        "benign_fp": 50,
+        "malicious_recall": 0.8151986183074266,
+        "malicious_detected": 1888
+      },
+      {
+        "threshold": 0.62,
+        "benign_fpr": 0.061957868649318466,
+        "benign_fp": 50,
+        "malicious_recall": 0.8147668393782384,
+        "malicious_detected": 1887
+      },
+      {
+        "threshold": 0.625,
+        "benign_fpr": 0.061957868649318466,
+        "benign_fp": 50,
+        "malicious_recall": 0.8147668393782384,
+        "malicious_detected": 1887
+      },
+      {
+        "threshold": 0.63,
+        "benign_fpr": 0.06071871127633209,
+        "benign_fp": 49,
+        "malicious_recall": 0.8139032815198618,
+        "malicious_detected": 1885
+      },
+      {
+        "threshold": 0.635,
+        "benign_fpr": 0.06071871127633209,
+        "benign_fp": 49,
+        "malicious_recall": 0.8139032815198618,
+        "malicious_detected": 1885
+      },
+      {
+        "threshold": 0.64,
+        "benign_fpr": 0.06071871127633209,
+        "benign_fp": 49,
+        "malicious_recall": 0.8139032815198618,
+        "malicious_detected": 1885
+      },
+      {
+        "threshold": 0.645,
+        "benign_fpr": 0.06071871127633209,
+        "benign_fp": 49,
+        "malicious_recall": 0.812607944732297,
+        "malicious_detected": 1882
+      },
+      {
+        "threshold": 0.65,
+        "benign_fpr": 0.05328376703841388,
+        "benign_fp": 43,
+        "malicious_recall": 0.812607944732297,
+        "malicious_detected": 1882
+      },
+      {
+        "threshold": 0.655,
+        "benign_fpr": 0.05204460966542751,
+        "benign_fp": 42,
+        "malicious_recall": 0.8113126079447323,
+        "malicious_detected": 1879
+      },
+      {
+        "threshold": 0.66,
+        "benign_fpr": 0.05204460966542751,
+        "benign_fp": 42,
+        "malicious_recall": 0.8104490500863558,
+        "malicious_detected": 1877
+      },
+      {
+        "threshold": 0.665,
+        "benign_fpr": 0.05204460966542751,
+        "benign_fp": 42,
+        "malicious_recall": 0.8082901554404145,
+        "malicious_detected": 1872
+      },
+      {
+        "threshold": 0.67,
+        "benign_fpr": 0.05204460966542751,
+        "benign_fp": 42,
+        "malicious_recall": 0.8082901554404145,
+        "malicious_detected": 1872
+      },
+      {
+        "threshold": 0.675,
+        "benign_fpr": 0.05204460966542751,
+        "benign_fp": 42,
+        "malicious_recall": 0.8074265975820379,
+        "malicious_detected": 1870
+      },
+      {
+        "threshold": 0.68,
+        "benign_fpr": 0.05204460966542751,
+        "benign_fp": 42,
+        "malicious_recall": 0.8074265975820379,
+        "malicious_detected": 1870
+      },
+      {
+        "threshold": 0.685,
+        "benign_fpr": 0.05080545229244114,
+        "benign_fp": 41,
+        "malicious_recall": 0.8069948186528497,
+        "malicious_detected": 1869
+      },
+      {
+        "threshold": 0.69,
+        "benign_fpr": 0.05080545229244114,
+        "benign_fp": 41,
+        "malicious_recall": 0.8061312607944733,
+        "malicious_detected": 1867
+      },
+      {
+        "threshold": 0.695,
+        "benign_fpr": 0.05080545229244114,
+        "benign_fp": 41,
+        "malicious_recall": 0.8048359240069085,
+        "malicious_detected": 1864
+      },
+      {
+        "threshold": 0.7,
+        "benign_fpr": 0.04956629491945477,
+        "benign_fp": 40,
+        "malicious_recall": 0.8044041450777202,
+        "malicious_detected": 1863
+      },
+      {
+        "threshold": 0.705,
+        "benign_fpr": 0.04956629491945477,
+        "benign_fp": 40,
+        "malicious_recall": 0.802245250431779,
+        "malicious_detected": 1858
+      },
+      {
+        "threshold": 0.71,
+        "benign_fpr": 0.048327137546468404,
+        "benign_fp": 39,
+        "malicious_recall": 0.802245250431779,
+        "malicious_detected": 1858
+      },
+      {
+        "threshold": 0.715,
+        "benign_fpr": 0.048327137546468404,
+        "benign_fp": 39,
+        "malicious_recall": 0.8009499136442142,
+        "malicious_detected": 1855
+      },
+      {
+        "threshold": 0.72,
+        "benign_fpr": 0.048327137546468404,
+        "benign_fp": 39,
+        "malicious_recall": 0.8000863557858376,
+        "malicious_detected": 1853
+      },
+      {
+        "threshold": 0.725,
+        "benign_fpr": 0.04708798017348203,
+        "benign_fp": 38,
+        "malicious_recall": 0.7992227979274611,
+        "malicious_detected": 1851
+      },
+      {
+        "threshold": 0.73,
+        "benign_fpr": 0.04708798017348203,
+        "benign_fp": 38,
+        "malicious_recall": 0.7979274611398963,
+        "malicious_detected": 1848
+      },
+      {
+        "threshold": 0.735,
+        "benign_fpr": 0.04584882280049566,
+        "benign_fp": 37,
+        "malicious_recall": 0.7979274611398963,
+        "malicious_detected": 1848
+      },
+      {
+        "threshold": 0.74,
+        "benign_fpr": 0.04584882280049566,
+        "benign_fp": 37,
+        "malicious_recall": 0.7974956822107081,
+        "malicious_detected": 1847
+      },
+      {
+        "threshold": 0.745,
+        "benign_fpr": 0.04584882280049566,
+        "benign_fp": 37,
+        "malicious_recall": 0.7957685664939551,
+        "malicious_detected": 1843
+      },
+      {
+        "threshold": 0.75,
+        "benign_fpr": 0.03345724907063197,
+        "benign_fp": 27,
+        "malicious_recall": 0.7940414507772021,
+        "malicious_detected": 1839
+      },
+      {
+        "threshold": 0.755,
+        "benign_fpr": 0.03345724907063197,
+        "benign_fp": 27,
+        "malicious_recall": 0.7940414507772021,
+        "malicious_detected": 1839
+      },
+      {
+        "threshold": 0.76,
+        "benign_fpr": 0.03345724907063197,
+        "benign_fp": 27,
+        "malicious_recall": 0.7936096718480138,
+        "malicious_detected": 1838
+      },
+      {
+        "threshold": 0.765,
+        "benign_fpr": 0.03345724907063197,
+        "benign_fp": 27,
+        "malicious_recall": 0.792314335060449,
+        "malicious_detected": 1835
+      },
+      {
+        "threshold": 0.77,
+        "benign_fpr": 0.0322180916976456,
+        "benign_fp": 26,
+        "malicious_recall": 0.7910189982728842,
+        "malicious_detected": 1832
+      },
+      {
+        "threshold": 0.775,
+        "benign_fpr": 0.0322180916976456,
+        "benign_fp": 26,
+        "malicious_recall": 0.7892918825561313,
+        "malicious_detected": 1828
+      },
+      {
+        "threshold": 0.78,
+        "benign_fpr": 0.0322180916976456,
+        "benign_fp": 26,
+        "malicious_recall": 0.7867012089810017,
+        "malicious_detected": 1822
+      },
+      {
+        "threshold": 0.785,
+        "benign_fpr": 0.0322180916976456,
+        "benign_fp": 26,
+        "malicious_recall": 0.7862694300518135,
+        "malicious_detected": 1821
+      },
+      {
+        "threshold": 0.79,
+        "benign_fpr": 0.0322180916976456,
+        "benign_fp": 26,
+        "malicious_recall": 0.7858376511226253,
+        "malicious_detected": 1820
+      },
+      {
+        "threshold": 0.795,
+        "benign_fpr": 0.030978934324659233,
+        "benign_fp": 25,
+        "malicious_recall": 0.7841105354058722,
+        "malicious_detected": 1816
+      },
+      {
+        "threshold": 0.8,
+        "benign_fpr": 0.02973977695167286,
+        "benign_fp": 24,
+        "malicious_recall": 0.7815198618307426,
+        "malicious_detected": 1810
+      },
+      {
+        "threshold": 0.805,
+        "benign_fpr": 0.02973977695167286,
+        "benign_fp": 24,
+        "malicious_recall": 0.7789291882556131,
+        "malicious_detected": 1804
+      },
+      {
+        "threshold": 0.81,
+        "benign_fpr": 0.028500619578686492,
+        "benign_fp": 23,
+        "malicious_recall": 0.7737478411053541,
+        "malicious_detected": 1792
+      },
+      {
+        "threshold": 0.815,
+        "benign_fpr": 0.027261462205700124,
+        "benign_fp": 22,
+        "malicious_recall": 0.7724525043177893,
+        "malicious_detected": 1789
+      },
+      {
+        "threshold": 0.82,
+        "benign_fpr": 0.027261462205700124,
+        "benign_fp": 22,
+        "malicious_recall": 0.7711571675302246,
+        "malicious_detected": 1786
+      },
+      {
+        "threshold": 0.825,
+        "benign_fpr": 0.026022304832713755,
+        "benign_fp": 21,
+        "malicious_recall": 0.7698618307426598,
+        "malicious_detected": 1783
+      },
+      {
+        "threshold": 0.83,
+        "benign_fpr": 0.026022304832713755,
+        "benign_fp": 21,
+        "malicious_recall": 0.7689982728842832,
+        "malicious_detected": 1781
+      },
+      {
+        "threshold": 0.835,
+        "benign_fpr": 0.026022304832713755,
+        "benign_fp": 21,
+        "malicious_recall": 0.7659758203799655,
+        "malicious_detected": 1774
+      },
+      {
+        "threshold": 0.84,
+        "benign_fpr": 0.026022304832713755,
+        "benign_fp": 21,
+        "malicious_recall": 0.7642487046632125,
+        "malicious_detected": 1770
+      },
+      {
+        "threshold": 0.845,
+        "benign_fpr": 0.026022304832713755,
+        "benign_fp": 21,
+        "malicious_recall": 0.7620898100172712,
+        "malicious_detected": 1765
+      },
+      {
+        "threshold": 0.85,
+        "benign_fpr": 0.026022304832713755,
+        "benign_fp": 21,
+        "malicious_recall": 0.7599309153713298,
+        "malicious_detected": 1760
+      },
+      {
+        "threshold": 0.855,
+        "benign_fpr": 0.026022304832713755,
+        "benign_fp": 21,
+        "malicious_recall": 0.7582037996545768,
+        "malicious_detected": 1756
+      },
+      {
+        "threshold": 0.86,
+        "benign_fpr": 0.01982651796778191,
+        "benign_fp": 16,
+        "malicious_recall": 0.7551813471502591,
+        "malicious_detected": 1749
+      },
+      {
+        "threshold": 0.865,
+        "benign_fpr": 0.01982651796778191,
+        "benign_fp": 16,
+        "malicious_recall": 0.7525906735751295,
+        "malicious_detected": 1743
+      },
+      {
+        "threshold": 0.87,
+        "benign_fpr": 0.01858736059479554,
+        "benign_fp": 15,
+        "malicious_recall": 0.7491364421416234,
+        "malicious_detected": 1735
+      },
+      {
+        "threshold": 0.875,
+        "benign_fpr": 0.01734820322180917,
+        "benign_fp": 14,
+        "malicious_recall": 0.7383419689119171,
+        "malicious_detected": 1710
+      },
+      {
+        "threshold": 0.88,
+        "benign_fpr": 0.01734820322180917,
+        "benign_fp": 14,
+        "malicious_recall": 0.7366148531951641,
+        "malicious_detected": 1706
+      },
+      {
+        "threshold": 0.885,
+        "benign_fpr": 0.01734820322180917,
+        "benign_fp": 14,
+        "malicious_recall": 0.7318652849740933,
+        "malicious_detected": 1695
+      },
+      {
+        "threshold": 0.89,
+        "benign_fpr": 0.01734820322180917,
+        "benign_fp": 14,
+        "malicious_recall": 0.7284110535405872,
+        "malicious_detected": 1687
+      },
+      {
+        "threshold": 0.895,
+        "benign_fpr": 0.0161090458488228,
+        "benign_fp": 13,
+        "malicious_recall": 0.7240932642487047,
+        "malicious_detected": 1677
+      },
+      {
+        "threshold": 0.9,
+        "benign_fpr": 0.013630731102850062,
+        "benign_fp": 11,
+        "malicious_recall": 0.7223661485319517,
+        "malicious_detected": 1673
+      },
+      {
+        "threshold": 0.905,
+        "benign_fpr": 0.013630731102850062,
+        "benign_fp": 11,
+        "malicious_recall": 0.718048359240069,
+        "malicious_detected": 1663
+      },
+      {
+        "threshold": 0.91,
+        "benign_fpr": 0.012391573729863693,
+        "benign_fp": 10,
+        "malicious_recall": 0.7137305699481865,
+        "malicious_detected": 1653
+      },
+      {
+        "threshold": 0.915,
+        "benign_fpr": 0.012391573729863693,
+        "benign_fp": 10,
+        "malicious_recall": 0.7107081174438687,
+        "malicious_detected": 1646
+      },
+      {
+        "threshold": 0.92,
+        "benign_fpr": 0.012391573729863693,
+        "benign_fp": 10,
+        "malicious_recall": 0.7059585492227979,
+        "malicious_detected": 1635
+      },
+      {
+        "threshold": 0.925,
+        "benign_fpr": 0.012391573729863693,
+        "benign_fp": 10,
+        "malicious_recall": 0.6999136442141624,
+        "malicious_detected": 1621
+      },
+      {
+        "threshold": 0.93,
+        "benign_fpr": 0.012391573729863693,
+        "benign_fp": 10,
+        "malicious_recall": 0.6925734024179621,
+        "malicious_detected": 1604
+      },
+      {
+        "threshold": 0.935,
+        "benign_fpr": 0.012391573729863693,
+        "benign_fp": 10,
+        "malicious_recall": 0.6852331606217616,
+        "malicious_detected": 1587
+      },
+      {
+        "threshold": 0.94,
+        "benign_fpr": 0.012391573729863693,
+        "benign_fp": 10,
+        "malicious_recall": 0.6817789291882557,
+        "malicious_detected": 1579
+      },
+      {
+        "threshold": 0.945,
+        "benign_fpr": 0.012391573729863693,
+        "benign_fp": 10,
+        "malicious_recall": 0.67573402417962,
+        "malicious_detected": 1565
+      },
+      {
+        "threshold": 0.95,
+        "benign_fpr": 0.011152416356877323,
+        "benign_fp": 9,
+        "malicious_recall": 0.6610535405872193,
+        "malicious_detected": 1531
+      }
+    ]
+  }
+}

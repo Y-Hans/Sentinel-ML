@@ -1,0 +1,81 @@
+{
+  "apk_findings": {
+    "bench_slice_banking_scam": {
+      "total_matching": 1,
+      "benign": 0,
+      "spam": 0,
+      "malicious": 1,
+      "preds": {
+        "MALICIOUS": 1
+      }
+    },
+    "bench_slice_institutional_partnerships": {
+      "total_matching": 1,
+      "benign": 0,
+      "spam": 0,
+      "malicious": 1,
+      "preds": {
+        "BENIGN": 1
+      }
+    },
+    "bench_synthetic_pipeline_fixtures": {
+      "total_matching": 1,
+      "benign": 0,
+      "spam": 0,
+      "malicious": 1,
+      "preds": {
+        "MALICIOUS": 1
+      }
+    },
+    "holdout_holdout_apk_payload": {
+      "total_matching": 30,
+      "benign": 0,
+      "spam": 0,
+      "malicious": 30,
+      "preds": {
+        "MALICIOUS": 30
+      }
+    },
+    "holdout_holdout_conversational_social_eng": {
+      "total_matching": 3,
+      "benign": 0,
+      "spam": 0,
+      "malicious": 3,
+      "preds": {
+        "MALICIOUS": 3
+      }
+    },
+    "holdout_holdout_counterfactual_semantic": {
+      "total_matching": 3,
+      "benign": 0,
+      "spam": 0,
+      "malicious": 3,
+      "preds": {
+        "MALICIOUS": 3
+      }
+    },
+    "holdout_holdout_electricity": {
+      "total_matching": 1,
+      "benign": 0,
+      "spam": 0,
+      "malicious": 1,
+      "preds": {
+        "MALICIOUS": 1
+      }
+    },
+    "holdout_holdout_greetings": {
+      "total_matching": 5,
+      "benign": 0,
+      "spam": 0,
+      "malicious": 5,
+      "preds": {
+        "MALICIOUS": 5
+      }
+    }
+  },
+  "raw_apk_counts": {
+    "curated_hard_negatives.jsonl": 20,
+    "final_dataset_output.csv": 7,
+    "Dataset_5971.csv": 1
+  }
+}

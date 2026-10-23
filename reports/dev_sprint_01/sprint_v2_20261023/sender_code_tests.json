@@ -1,0 +1,164 @@
+[
+  {
+    "header": null,
+    "parser": {
+      "raw_header": null,
+      "sender_type": "UNKNOWN",
+      "has_dlt_structural_shape": false,
+      "dlt_prefix": null,
+      "dlt_entity_code": null,
+      "dlt_suffix_category": null,
+      "is_domestic_phone": false,
+      "is_international_phone": false,
+      "is_shortcode": false,
+      "known_entity_match": null,
+      "known_entity_category": null,
+      "header_length": 0
+    },
+    "features": {
+      "sender_is_alphanumeric": 0.0,
+      "sender_is_dlt_shape": 0.0,
+      "sender_is_phone_number": 0.0,
+      "sender_is_shortcode": 0.0,
+      "sender_has_bank_match": 0.0,
+      "sender_phone_with_banking_body": 0.0,
+      "kyc_x_sender": 0.0,
+      "url_x_sender": 0.0
+    }
+  },
+  {
+    "header": "AD-HDFCBK-P",
+    "parser": {
+      "raw_header": "AD-HDFCBK-P",
+      "sender_type": "ALPHANUMERIC_HEADER",
+      "has_dlt_structural_shape": true,
+      "dlt_prefix": "AD",
+      "dlt_entity_code": "HDFCBK",
+      "dlt_suffix_category": "P",
+      "is_domestic_phone": false,
+      "is_international_phone": false,
+      "is_shortcode": false,
+      "known_entity_match": "HDFCBK",
+      "known_entity_category": "BANK",
+      "header_length": 11
+    },
+    "features": {
+      "sender_is_alphanumeric": 1.0,
+      "sender_is_dlt_shape": 1.0,
+      "sender_is_phone_number": 0.0,
+      "sender_is_shortcode": 0.0,
+      "sender_has_bank_match": 1.0,
+      "sender_phone_with_banking_body": 0.0,
+      "kyc_x_sender": 1.0,
+      "url_x_sender": 0.0
+    }
+  },
+  {
+    "header": "AD-HDFCBK-G",
+    "parser": {
+      "raw_header": "AD-HDFCBK-G",
+      "sender_type": "ALPHANUMERIC_HEADER",
+      "has_dlt_structural_shape": true,
+      "dlt_prefix": "AD",
+      "dlt_entity_code": "HDFCBK",
+      "dlt_suffix_category": "G",
+      "is_domestic_phone": false,
+      "is_international_phone": false,
+      "is_shortcode": false,
+      "known_entity_match": "HDFCBK",
+      "known_entity_category": "BANK",
+      "header_length": 11
+    },
+    "features": {
+      "sender_is_alphanumeric": 1.0,
+      "sender_is_dlt_shape": 1.0,
+      "sender_is_phone_number": 0.0,
+      "sender_is_shortcode": 0.0,
+      "sender_has_bank_match": 1.0,
+      "sender_phone_with_banking_body": 0.0,
+      "kyc_x_sender": 1.0,
+      "url_x_sender": 0.0
+    }
+  },
+  {
+    "header": "AD-HDFCBK-S",
+    "parser": {
+      "raw_header": "AD-HDFCBK-S",
+      "sender_type": "ALPHANUMERIC_HEADER",
+      "has_dlt_structural_shape": true,
+      "dlt_prefix": "AD",
+      "dlt_entity_code": "HDFCBK",
+      "dlt_suffix_category": "S",
+      "is_domestic_phone": false,
+      "is_international_phone": false,
+      "is_shortcode": false,
+      "known_entity_match": "HDFCBK",
+      "known_entity_category": "BANK",
+      "header_length": 11
+    },
+    "features": {
+      "sender_is_alphanumeric": 1.0,
+      "sender_is_dlt_shape": 1.0,
+      "sender_is_phone_number": 0.0,
+      "sender_is_shortcode": 0.0,
+      "sender_has_bank_match": 1.0,
+      "sender_phone_with_banking_body": 0.0,
+      "kyc_x_sender": 1.0,
+      "url_x_sender": 0.0
+    }
+  },
+  {
+    "header": "HDFCBK-P",
+    "parser": {
+      "raw_header": "HDFCBK-P",
+      "sender_type": "UNKNOWN",
+      "has_dlt_structural_shape": false,
+      "dlt_prefix": null,
+      "dlt_entity_code": null,
+      "dlt_suffix_category": null,
+      "is_domestic_phone": false,
+      "is_international_phone": false,
+      "is_shortcode": false,
+      "known_entity_match": null,
+      "known_entity_category": null,
+      "header_length": 8
+    },
+    "features": {
+      "sender_is_alphanumeric": 0.0,
+      "sender_is_dlt_shape": 0.0,
+      "sender_is_phone_number": 0.0,
+      "sender_is_shortcode": 0.0,
+      "sender_has_bank_match": 0.0,
+      "sender_phone_with_banking_body": 0.0,
+      "kyc_x_sender": 0.0,
+      "url_x_sender": 0.0
+    }
+  },
+  {
+    "header": "9000000123",
+    "parser": {
+      "raw_header": "9000000123",
+      "sender_type": "PHONE_NUMBER",
+      "has_dlt_structural_shape": false,
+      "dlt_prefix": null,
+      "dlt_entity_code": null,
+      "dlt_suffix_category": null,
+      "is_domestic_phone": true,
+      "is_international_phone": false,
+      "is_shortcode": false,
+      "known_entity_match": null,
+      "known_entity_category": null,
+      "header_length": 10
+    },
+    "features": {
+      "sender_is_alphanumeric": 0.0,
+      "sender_is_dlt_shape": 0.0,
+      "sender_is_phone_number": 1.0,
+      "sender_is_shortcode": 0.0,
+      "sender_has_bank_match": 0.0,
+      "sender_phone_with_banking_body": 1.0,
+      "kyc_x_sender": 0.0,
+      "url_x_sender": 0.0
+    }
+  }
+]

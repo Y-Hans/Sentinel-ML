@@ -1,0 +1,22 @@
+{
+  "architecture": "extratrees_full",
+  "features": [
+    "URLLength",
+    "DomainLength",
+    "IsDomainIP",
+    "NoOfSubDomain",
+    "IsHTTPS",
+    "HasSuspiciousWords",
+    "SpecialCharRatio",
+    "DigitRatio",
+    "HasAtSymbol",
+    "SuspiciousTLD",
+    "BrandImpersonationScore",
+    "HyphenCount",
+    "PathQueryLength",
+    "KnownBrandDomain",
+    "DomainVowelRatio"
+  ],
+  "threshold": 0.333,
+  "seed": 42
+}

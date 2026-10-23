@@ -1,0 +1,2626 @@
+{
+  "status": "OBSERVED counts; dataset label provenance REPORTED, not re-verified truth",
+  "method": "CSV DictReader streaming row by row, retain counters only; V8 fixed suffix table approximate registrable groups (not full PSL). Host mix is independent of path shape; hostname apex does not imply empty path. Data files are not assumed disjoint. Original/cleaned labels inverted per existing code; final and authored/structural files use direct labels.",
+  "files": [
+    {
+      "path": "sentinel-ml/URL-ml/data/cleaned_dataset.csv",
+      "sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+      "label_mapping": "1-original_label",
+      "class_counts": {
+        "BENIGN": 134850,
+        "ATTACK": 100945
+      },
+      "parse_errors": 0,
+      "unique_registrable_domains_approx": 175355,
+      "cross_class_domain_count": 272,
+      "duplicate_domain_excess_rows": 60440,
+      "exact_url_class_duplicate_excess_rows": 425,
+      "cross_class_exact_url_count": 0,
+      "top_domains": [
+        {
+          "domain": "firebaseapp.com",
+          "class_counts": {
+            "ATTACK": 5594
+          },
+          "n": 5594
+        },
+        {
+          "domain": "repl.co",
+          "class_counts": {
+            "ATTACK": 3754
+          },
+          "n": 3754
+        },
+        {
+          "domain": "weeblysite.com",
+          "class_counts": {
+            "ATTACK": 3097
+          },
+          "n": 3097
+        },
+        {
+          "domain": "ipfs.io",
+          "class_counts": {
+            "ATTACK": 1559
+          },
+          "n": 1559
+        },
+        {
+          "domain": "workers.dev",
+          "class_counts": {
+            "ATTACK": 1438
+          },
+          "n": 1438
+        },
+        {
+          "domain": "square.site",
+          "class_counts": {
+            "ATTACK": 1199
+          },
+          "n": 1199
+        },
+        {
+          "domain": "dweb.link",
+          "class_counts": {
+            "ATTACK": 975
+          },
+          "n": 975
+        },
+        {
+          "domain": "xsph.ru",
+          "class_counts": {
+            "ATTACK": 928
+          },
+          "n": 928
+        },
+        {
+          "domain": "pantheonsite.io",
+          "class_counts": {
+            "ATTACK": 900
+          },
+          "n": 900
+        },
+        {
+          "domain": "google.com",
+          "class_counts": {
+            "ATTACK": 782
+          },
+          "n": 782
+        },
+        {
+          "domain": "godaddysites.com",
+          "class_counts": {
+            "ATTACK": 781
+          },
+          "n": 781
+        },
+        {
+          "domain": "duckdns.org",
+          "class_counts": {
+            "ATTACK": 642,
+            "BENIGN": 1
+          },
+          "n": 643
+        },
+        {
+          "domain": "webwave.dev",
+          "class_counts": {
+            "ATTACK": 567
+          },
+          "n": 567
+        },
+        {
+          "domain": "weebly.com",
+          "class_counts": {
+            "ATTACK": 555
+          },
+          "n": 555
+        },
+        {
+          "domain": "glitch.me",
+          "class_counts": {
+            "ATTACK": 515
+          },
+          "n": 515
+        },
+        {
+          "domain": "cf-ipfs.com",
+          "class_counts": {
+            "ATTACK": 494
+          },
+          "n": 494
+        },
+        {
+          "domain": "fleek.co",
+          "class_counts": {
+            "ATTACK": 471
+          },
+          "n": 471
+        },
+        {
+          "domain": "wixsite.com",
+          "class_counts": {
+            "ATTACK": 455
+          },
+          "n": 455
+        },
+        {
+          "domain": "gov.au",
+          "class_counts": {
+            "BENIGN": 442
+          },
+          "n": 442
+        },
+        {
+          "domain": "tw1.ru",
+          "class_counts": {
+            "ATTACK": 429
+          },
+          "n": 429
+        },
+        {
+          "domain": "co.za",
+          "class_counts": {
+            "BENIGN": 289,
+            "ATTACK": 127
+          },
+          "n": 416
+        },
+        {
+          "domain": "deliverylifesupport.com",
+          "class_counts": {
+            "ATTACK": 393
+          },
+          "n": 393
+        },
+        {
+          "domain": "cloudflare-ipfs.com",
+          "class_counts": {
+            "ATTACK": 360
+          },
+          "n": 360
+        },
+        {
+          "domain": "windows.net",
+          "class_counts": {
+            "ATTACK": 359
+          },
+          "n": 359
+        },
+        {
+          "domain": "amazonaws.com",
+          "class_counts": {
+            "ATTACK": 318
+          },
+          "n": 318
+        }
+      ],
+      "source_counts": [
+        {
+          "class": "ATTACK",
+          "source": "UNREPORTED",
+          "n": 100945
+        },
+        {
+          "class": "BENIGN",
+          "source": "UNREPORTED",
+          "n": 134850
+        }
+      ],
+      "shapes": [
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "apex",
+          "n": 21342
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 37859
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 41744
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "deep_path",
+          "n": 7785
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 73489
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 19671
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 94866
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 5046
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "root_query",
+          "n": 1033
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 51749
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 49196
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 134850
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 134850
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 134850
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 134850
+        }
+      ],
+      "per_class_domain_counts": {
+        "BENIGN": 127047,
+        "ATTACK": 48580
+      }
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/data.csv",
+      "sha256": "a236549cd369cd80bd478ff8e1779cbf44c58d5c3f79f7a51a1adbed7d06d1c6",
+      "label_mapping": "1-original_label",
+      "class_counts": {
+        "BENIGN": 134850,
+        "ATTACK": 100945
+      },
+      "parse_errors": 0,
+      "unique_registrable_domains_approx": 175355,
+      "cross_class_domain_count": 272,
+      "duplicate_domain_excess_rows": 60440,
+      "exact_url_class_duplicate_excess_rows": 425,
+      "cross_class_exact_url_count": 0,
+      "top_domains": [
+        {
+          "domain": "firebaseapp.com",
+          "class_counts": {
+            "ATTACK": 5594
+          },
+          "n": 5594
+        },
+        {
+          "domain": "repl.co",
+          "class_counts": {
+            "ATTACK": 3754
+          },
+          "n": 3754
+        },
+        {
+          "domain": "weeblysite.com",
+          "class_counts": {
+            "ATTACK": 3097
+          },
+          "n": 3097
+        },
+        {
+          "domain": "ipfs.io",
+          "class_counts": {
+            "ATTACK": 1559
+          },
+          "n": 1559
+        },
+        {
+          "domain": "workers.dev",
+          "class_counts": {
+            "ATTACK": 1438
+          },
+          "n": 1438
+        },
+        {
+          "domain": "square.site",
+          "class_counts": {
+            "ATTACK": 1199
+          },
+          "n": 1199
+        },
+        {
+          "domain": "dweb.link",
+          "class_counts": {
+            "ATTACK": 975
+          },
+          "n": 975
+        },
+        {
+          "domain": "xsph.ru",
+          "class_counts": {
+            "ATTACK": 928
+          },
+          "n": 928
+        },
+        {
+          "domain": "pantheonsite.io",
+          "class_counts": {
+            "ATTACK": 900
+          },
+          "n": 900
+        },
+        {
+          "domain": "google.com",
+          "class_counts": {
+            "ATTACK": 782
+          },
+          "n": 782
+        },
+        {
+          "domain": "godaddysites.com",
+          "class_counts": {
+            "ATTACK": 781
+          },
+          "n": 781
+        },
+        {
+          "domain": "duckdns.org",
+          "class_counts": {
+            "ATTACK": 642,
+            "BENIGN": 1
+          },
+          "n": 643
+        },
+        {
+          "domain": "webwave.dev",
+          "class_counts": {
+            "ATTACK": 567
+          },
+          "n": 567
+        },
+        {
+          "domain": "weebly.com",
+          "class_counts": {
+            "ATTACK": 555
+          },
+          "n": 555
+        },
+        {
+          "domain": "glitch.me",
+          "class_counts": {
+            "ATTACK": 515
+          },
+          "n": 515
+        },
+        {
+          "domain": "cf-ipfs.com",
+          "class_counts": {
+            "ATTACK": 494
+          },
+          "n": 494
+        },
+        {
+          "domain": "fleek.co",
+          "class_counts": {
+            "ATTACK": 471
+          },
+          "n": 471
+        },
+        {
+          "domain": "wixsite.com",
+          "class_counts": {
+            "ATTACK": 455
+          },
+          "n": 455
+        },
+        {
+          "domain": "gov.au",
+          "class_counts": {
+            "BENIGN": 442
+          },
+          "n": 442
+        },
+        {
+          "domain": "tw1.ru",
+          "class_counts": {
+            "ATTACK": 429
+          },
+          "n": 429
+        },
+        {
+          "domain": "co.za",
+          "class_counts": {
+            "BENIGN": 289,
+            "ATTACK": 127
+          },
+          "n": 416
+        },
+        {
+          "domain": "deliverylifesupport.com",
+          "class_counts": {
+            "ATTACK": 393
+          },
+          "n": 393
+        },
+        {
+          "domain": "cloudflare-ipfs.com",
+          "class_counts": {
+            "ATTACK": 360
+          },
+          "n": 360
+        },
+        {
+          "domain": "windows.net",
+          "class_counts": {
+            "ATTACK": 359
+          },
+          "n": 359
+        },
+        {
+          "domain": "amazonaws.com",
+          "class_counts": {
+            "ATTACK": 318
+          },
+          "n": 318
+        }
+      ],
+      "source_counts": [
+        {
+          "class": "ATTACK",
+          "source": "UNREPORTED",
+          "n": 100945
+        },
+        {
+          "class": "BENIGN",
+          "source": "UNREPORTED",
+          "n": 134850
+        }
+      ],
+      "shapes": [
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "apex",
+          "n": 21342
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 37859
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 41744
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "deep_path",
+          "n": 7785
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 73489
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 19671
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 94866
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 5046
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "root_query",
+          "n": 1033
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 51749
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 49196
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 134850
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 134850
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 134850
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 134850
+        }
+      ],
+      "per_class_domain_counts": {
+        "BENIGN": 127047,
+        "ATTACK": 48580
+      }
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/final_dataset.csv",
+      "sha256": "cbabd318016cbe8f047c511431a44dbb6b74ab7796780ff73a359b8012a98380",
+      "label_mapping": "label directly (0 benign,1 attack)",
+      "class_counts": {
+        "BENIGN": 136807,
+        "ATTACK": 101361
+      },
+      "parse_errors": 0,
+      "unique_registrable_domains_approx": 176010,
+      "cross_class_domain_count": 275,
+      "duplicate_domain_excess_rows": 62158,
+      "exact_url_class_duplicate_excess_rows": 0,
+      "cross_class_exact_url_count": 0,
+      "top_domains": [
+        {
+          "domain": "firebaseapp.com",
+          "class_counts": {
+            "ATTACK": 5546
+          },
+          "n": 5546
+        },
+        {
+          "domain": "repl.co",
+          "class_counts": {
+            "ATTACK": 3746
+          },
+          "n": 3746
+        },
+        {
+          "domain": "weeblysite.com",
+          "class_counts": {
+            "ATTACK": 3079
+          },
+          "n": 3079
+        },
+        {
+          "domain": "ipfs.io",
+          "class_counts": {
+            "ATTACK": 1552
+          },
+          "n": 1552
+        },
+        {
+          "domain": "workers.dev",
+          "class_counts": {
+            "ATTACK": 1423
+          },
+          "n": 1423
+        },
+        {
+          "domain": "square.site",
+          "class_counts": {
+            "ATTACK": 1187
+          },
+          "n": 1187
+        },
+        {
+          "domain": "dweb.link",
+          "class_counts": {
+            "ATTACK": 959
+          },
+          "n": 959
+        },
+        {
+          "domain": "xsph.ru",
+          "class_counts": {
+            "ATTACK": 928
+          },
+          "n": 928
+        },
+        {
+          "domain": "pantheonsite.io",
+          "class_counts": {
+            "ATTACK": 891
+          },
+          "n": 891
+        },
+        {
+          "domain": "google.com",
+          "class_counts": {
+            "ATTACK": 782,
+            "BENIGN": 39
+          },
+          "n": 821
+        },
+        {
+          "domain": "godaddysites.com",
+          "class_counts": {
+            "ATTACK": 770
+          },
+          "n": 770
+        },
+        {
+          "domain": "duckdns.org",
+          "class_counts": {
+            "ATTACK": 641,
+            "BENIGN": 1
+          },
+          "n": 642
+        },
+        {
+          "domain": "webwave.dev",
+          "class_counts": {
+            "ATTACK": 559
+          },
+          "n": 559
+        },
+        {
+          "domain": "weebly.com",
+          "class_counts": {
+            "ATTACK": 552
+          },
+          "n": 552
+        },
+        {
+          "domain": "glitch.me",
+          "class_counts": {
+            "ATTACK": 509
+          },
+          "n": 509
+        },
+        {
+          "domain": "cf-ipfs.com",
+          "class_counts": {
+            "ATTACK": 494
+          },
+          "n": 494
+        },
+        {
+          "domain": "fleek.co",
+          "class_counts": {
+            "ATTACK": 468
+          },
+          "n": 468
+        },
+        {
+          "domain": "wixsite.com",
+          "class_counts": {
+            "ATTACK": 454
+          },
+          "n": 454
+        },
+        {
+          "domain": "gov.au",
+          "class_counts": {
+            "BENIGN": 442
+          },
+          "n": 442
+        },
+        {
+          "domain": "tw1.ru",
+          "class_counts": {
+            "ATTACK": 427
+          },
+          "n": 427
+        },
+        {
+          "domain": "co.za",
+          "class_counts": {
+            "BENIGN": 289,
+            "ATTACK": 127
+          },
+          "n": 416
+        },
+        {
+          "domain": "deliverylifesupport.com",
+          "class_counts": {
+            "ATTACK": 393
+          },
+          "n": 393
+        },
+        {
+          "domain": "cloudflare-ipfs.com",
+          "class_counts": {
+            "ATTACK": 360
+          },
+          "n": 360
+        },
+        {
+          "domain": "windows.net",
+          "class_counts": {
+            "ATTACK": 357
+          },
+          "n": 357
+        },
+        {
+          "domain": "amazonaws.com",
+          "class_counts": {
+            "ATTACK": 318
+          },
+          "n": 318
+        }
+      ],
+      "source_counts": [
+        {
+          "class": "ATTACK",
+          "source": "hard",
+          "n": 841
+        },
+        {
+          "class": "ATTACK",
+          "source": "original",
+          "n": 100520
+        },
+        {
+          "class": "BENIGN",
+          "source": "hard",
+          "n": 1959
+        },
+        {
+          "class": "BENIGN",
+          "source": "original",
+          "n": 134848
+        }
+      ],
+      "shapes": [
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "apex",
+          "n": 21859
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 37784
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 41718
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "deep_path",
+          "n": 7728
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 73354
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 20279
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 95125
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 5208
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "root_query",
+          "n": 1028
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 51849
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 49512
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "apex",
+          "n": 1015
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 139
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 135653
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "deep_path",
+          "n": 356
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 134904
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 1547
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 136684
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 123
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 81
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 136726
+        }
+      ],
+      "per_class_domain_counts": {
+        "BENIGN": 127116,
+        "ATTACK": 49169
+      }
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/v7_structural_benign.csv",
+      "sha256": "4a34e661060c35ae26d3417b28ed2ada074d8b017bee528b5f7e2d5bcf722e6b",
+      "label_mapping": "label directly (0 benign,1 attack)",
+      "class_counts": {
+        "BENIGN": 48290
+      },
+      "parse_errors": 0,
+      "unique_registrable_domains_approx": 15049,
+      "cross_class_domain_count": 0,
+      "duplicate_domain_excess_rows": 33241,
+      "exact_url_class_duplicate_excess_rows": 0,
+      "cross_class_exact_url_count": 0,
+      "top_domains": [
+        {
+          "domain": "intuit.com",
+          "class_counts": {
+            "BENIGN": 140
+          },
+          "n": 140
+        },
+        {
+          "domain": "state.gov",
+          "class_counts": {
+            "BENIGN": 73
+          },
+          "n": 73
+        },
+        {
+          "domain": "asana.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "docusign.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "duolingo.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "figma.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "gofundme.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "grammarly.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "indeed.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "jetblue.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "kayak.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "mailchimp.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "masterclass.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "mercury.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "nordstrom.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "okta.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "patreon.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "plaid.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "proton.me",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "qantas.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "samsclub.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "signal.org",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "skillshare.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "southwest.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "squareup.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        }
+      ],
+      "source_counts": [
+        {
+          "class": "BENIGN",
+          "source": "remediation_legitimate_provider",
+          "n": 940
+        },
+        {
+          "class": "BENIGN",
+          "source": "remediation_legitimate_provider_expansion",
+          "n": 1410
+        },
+        {
+          "class": "BENIGN",
+          "source": "remediation_legitimate_provider_http_path_expansion",
+          "n": 940
+        },
+        {
+          "class": "BENIGN",
+          "source": "v7_structural_account_auth",
+          "n": 5010
+        },
+        {
+          "class": "BENIGN",
+          "source": "v7_structural_cdn_assets",
+          "n": 4984
+        },
+        {
+          "class": "BENIGN",
+          "source": "v7_structural_documentation_api",
+          "n": 5029
+        },
+        {
+          "class": "BENIGN",
+          "source": "v7_structural_general_pages",
+          "n": 5057
+        },
+        {
+          "class": "BENIGN",
+          "source": "v7_structural_internal_redirects",
+          "n": 4999
+        },
+        {
+          "class": "BENIGN",
+          "source": "v7_structural_localized_navigation",
+          "n": 4929
+        },
+        {
+          "class": "BENIGN",
+          "source": "v7_structural_media_editorial",
+          "n": 4954
+        },
+        {
+          "class": "BENIGN",
+          "source": "v7_structural_payment_commerce",
+          "n": 4979
+        },
+        {
+          "class": "BENIGN",
+          "source": "v7_structural_search_tracking_queries",
+          "n": 5059
+        }
+      ],
+      "shapes": [
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "apex",
+          "n": 9774
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 30147
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 8369
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "deep_path",
+          "n": 19204
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 369
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 28717
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 34150
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 14140
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 9658
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 38632
+        }
+      ],
+      "per_class_domain_counts": {
+        "BENIGN": 15049,
+        "ATTACK": 0
+      }
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/hard_dataset.csv",
+      "sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+      "label_mapping": "label directly (0 benign,1 attack)",
+      "class_counts": {
+        "BENIGN": 1959,
+        "ATTACK": 841
+      },
+      "parse_errors": 0,
+      "unique_registrable_domains_approx": 688,
+      "cross_class_domain_count": 0,
+      "duplicate_domain_excess_rows": 2112,
+      "exact_url_class_duplicate_excess_rows": 0,
+      "cross_class_exact_url_count": 0,
+      "top_domains": [
+        {
+          "domain": "booking.com",
+          "class_counts": {
+            "BENIGN": 40
+          },
+          "n": 40
+        },
+        {
+          "domain": "google.com",
+          "class_counts": {
+            "BENIGN": 39
+          },
+          "n": 39
+        },
+        {
+          "domain": "apple.com",
+          "class_counts": {
+            "BENIGN": 35
+          },
+          "n": 35
+        },
+        {
+          "domain": "amazon.com",
+          "class_counts": {
+            "BENIGN": 35
+          },
+          "n": 35
+        },
+        {
+          "domain": "wsj.com",
+          "class_counts": {
+            "BENIGN": 34
+          },
+          "n": 34
+        },
+        {
+          "domain": "forbes.com",
+          "class_counts": {
+            "BENIGN": 29
+          },
+          "n": 29
+        },
+        {
+          "domain": "discord.com",
+          "class_counts": {
+            "BENIGN": 28
+          },
+          "n": 28
+        },
+        {
+          "domain": "doordash.com",
+          "class_counts": {
+            "BENIGN": 28
+          },
+          "n": 28
+        },
+        {
+          "domain": "intel.com",
+          "class_counts": {
+            "BENIGN": 27
+          },
+          "n": 27
+        },
+        {
+          "domain": "cdc.gov",
+          "class_counts": {
+            "BENIGN": 27
+          },
+          "n": 27
+        },
+        {
+          "domain": "nih.gov",
+          "class_counts": {
+            "BENIGN": 27
+          },
+          "n": 27
+        },
+        {
+          "domain": "bloomberg.com",
+          "class_counts": {
+            "BENIGN": 27
+          },
+          "n": 27
+        },
+        {
+          "domain": "harvard.edu",
+          "class_counts": {
+            "BENIGN": 27
+          },
+          "n": 27
+        },
+        {
+          "domain": "quora.com",
+          "class_counts": {
+            "BENIGN": 26
+          },
+          "n": 26
+        },
+        {
+          "domain": "nytimes.com",
+          "class_counts": {
+            "BENIGN": 26
+          },
+          "n": 26
+        },
+        {
+          "domain": "target.com",
+          "class_counts": {
+            "BENIGN": 26
+          },
+          "n": 26
+        },
+        {
+          "domain": "netflix.com",
+          "class_counts": {
+            "BENIGN": 25
+          },
+          "n": 25
+        },
+        {
+          "domain": "stackoverflow.com",
+          "class_counts": {
+            "BENIGN": 25
+          },
+          "n": 25
+        },
+        {
+          "domain": "usa.gov",
+          "class_counts": {
+            "BENIGN": 25
+          },
+          "n": 25
+        },
+        {
+          "domain": "facebook.com",
+          "class_counts": {
+            "BENIGN": 25
+          },
+          "n": 25
+        },
+        {
+          "domain": "cnn.com",
+          "class_counts": {
+            "BENIGN": 25
+          },
+          "n": 25
+        },
+        {
+          "domain": "microsoft.com",
+          "class_counts": {
+            "BENIGN": 25
+          },
+          "n": 25
+        },
+        {
+          "domain": "dropbox.com",
+          "class_counts": {
+            "BENIGN": 25
+          },
+          "n": 25
+        },
+        {
+          "domain": "ebay.com",
+          "class_counts": {
+            "BENIGN": 25
+          },
+          "n": 25
+        },
+        {
+          "domain": "spotify.com",
+          "class_counts": {
+            "BENIGN": 24
+          },
+          "n": 24
+        }
+      ],
+      "source_counts": [
+        {
+          "class": "ATTACK",
+          "source": "UNREPORTED",
+          "n": 841
+        },
+        {
+          "class": "BENIGN",
+          "source": "UNREPORTED",
+          "n": 1959
+        }
+      ],
+      "shapes": [
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "apex",
+          "n": 645
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 196
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 118
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 723
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 676
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 165
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 214
+        },
+        {
+          "class": "ATTACK",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 627
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "apex",
+          "n": 1015
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 139
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 805
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "deep_path",
+          "n": 356
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 56
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 1547
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 1836
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 123
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 81
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 1878
+        }
+      ],
+      "per_class_domain_counts": {
+        "BENIGN": 99,
+        "ATTACK": 589
+      }
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/remediation_hard_negatives_v1.csv",
+      "sha256": "36ad0e29cfd6e35215fa86d100458c03c409eadd1878b5a0be05e827e946b344",
+      "label_mapping": "label directly (0 benign,1 attack)",
+      "class_counts": {
+        "BENIGN": 980
+      },
+      "parse_errors": 0,
+      "unique_registrable_domains_approx": 48,
+      "cross_class_domain_count": 0,
+      "duplicate_domain_excess_rows": 932,
+      "exact_url_class_duplicate_excess_rows": 0,
+      "cross_class_exact_url_count": 0,
+      "top_domains": [
+        {
+          "domain": "intuit.com",
+          "class_counts": {
+            "BENIGN": 40
+          },
+          "n": 40
+        },
+        {
+          "domain": "asana.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "docusign.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "duolingo.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "figma.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "gofundme.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "grammarly.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "indeed.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "jetblue.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "kayak.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "mailchimp.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "masterclass.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "mercury.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "nordstrom.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "okta.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "patreon.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "plaid.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "proton.me",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "qantas.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "samsclub.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "signal.org",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "skillshare.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "southwest.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "squareup.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "stripe.com",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        }
+      ],
+      "source_counts": [
+        {
+          "class": "BENIGN",
+          "source": "remediation_legitimate_provider",
+          "n": 980
+        }
+      ],
+      "shapes": [
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "apex",
+          "n": 598
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 39
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 343
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "deep_path",
+          "n": 98
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 49
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 833
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 833
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 147
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 49
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 931
+        }
+      ],
+      "per_class_domain_counts": {
+        "BENIGN": 48,
+        "ATTACK": 0
+      }
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/remediation_hard_negatives_v2.csv",
+      "sha256": "ab4168c474363eba0f62691beb2a39ac22c3936078fc30b8d3c9869112f5a43c",
+      "label_mapping": "label directly (0 benign,1 attack)",
+      "class_counts": {
+        "BENIGN": 2450
+      },
+      "parse_errors": 0,
+      "unique_registrable_domains_approx": 48,
+      "cross_class_domain_count": 0,
+      "duplicate_domain_excess_rows": 2402,
+      "exact_url_class_duplicate_excess_rows": 0,
+      "cross_class_exact_url_count": 0,
+      "top_domains": [
+        {
+          "domain": "intuit.com",
+          "class_counts": {
+            "BENIGN": 100
+          },
+          "n": 100
+        },
+        {
+          "domain": "asana.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "docusign.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "duolingo.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "figma.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "gofundme.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "grammarly.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "indeed.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "jetblue.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "kayak.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "mailchimp.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "masterclass.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "mercury.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "nordstrom.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "okta.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "patreon.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "plaid.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "proton.me",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "qantas.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "samsclub.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "signal.org",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "skillshare.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "southwest.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "squareup.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        },
+        {
+          "domain": "stripe.com",
+          "class_counts": {
+            "BENIGN": 50
+          },
+          "n": 50
+        }
+      ],
+      "source_counts": [
+        {
+          "class": "BENIGN",
+          "source": "remediation_legitimate_provider",
+          "n": 980
+        },
+        {
+          "class": "BENIGN",
+          "source": "remediation_legitimate_provider_expansion",
+          "n": 1470
+        }
+      ],
+      "shapes": [
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "apex",
+          "n": 1610
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 105
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 735
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "deep_path",
+          "n": 196
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 49
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 2205
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 1911
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 539
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 196
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 2254
+        }
+      ],
+      "per_class_domain_counts": {
+        "BENIGN": 48,
+        "ATTACK": 0
+      }
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/remediation_hard_negatives_v3.csv",
+      "sha256": "0f8da3fba16a33e6bbf9217cb6d24308cf28c2ab8b0988aeacbb39d21fad527e",
+      "label_mapping": "label directly (0 benign,1 attack)",
+      "class_counts": {
+        "BENIGN": 3430
+      },
+      "parse_errors": 0,
+      "unique_registrable_domains_approx": 48,
+      "cross_class_domain_count": 0,
+      "duplicate_domain_excess_rows": 3382,
+      "exact_url_class_duplicate_excess_rows": 0,
+      "cross_class_exact_url_count": 0,
+      "top_domains": [
+        {
+          "domain": "intuit.com",
+          "class_counts": {
+            "BENIGN": 140
+          },
+          "n": 140
+        },
+        {
+          "domain": "asana.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "docusign.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "duolingo.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "figma.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "gofundme.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "grammarly.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "indeed.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "jetblue.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "kayak.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "mailchimp.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "masterclass.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "mercury.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "nordstrom.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "okta.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "patreon.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "plaid.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "proton.me",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "qantas.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "samsclub.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "signal.org",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "skillshare.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "southwest.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "squareup.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        },
+        {
+          "domain": "stripe.com",
+          "class_counts": {
+            "BENIGN": 70
+          },
+          "n": 70
+        }
+      ],
+      "source_counts": [
+        {
+          "class": "BENIGN",
+          "source": "remediation_legitimate_provider",
+          "n": 980
+        },
+        {
+          "class": "BENIGN",
+          "source": "remediation_legitimate_provider_expansion",
+          "n": 1470
+        },
+        {
+          "class": "BENIGN",
+          "source": "remediation_legitimate_provider_http_path_expansion",
+          "n": 980
+        }
+      ],
+      "shapes": [
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "apex",
+          "n": 2346
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 153
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 931
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "deep_path",
+          "n": 490
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 49
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 2891
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 2891
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 539
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 686
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 2744
+        }
+      ],
+      "per_class_domain_counts": {
+        "BENIGN": 48,
+        "ATTACK": 0
+      }
+    },
+    {
+      "path": "sentinel-ml/URL-ml/data/v6_synthetic_benign.csv",
+      "sha256": "ea6849ac51ae18bb2442ba4f36ced17aa4752fe8405e1b8d06c03208ff4e663b",
+      "label_mapping": "label directly (0 benign,1 attack)",
+      "class_counts": {
+        "BENIGN": 400
+      },
+      "parse_errors": 0,
+      "unique_registrable_domains_approx": 20,
+      "cross_class_domain_count": 0,
+      "duplicate_domain_excess_rows": 380,
+      "exact_url_class_duplicate_excess_rows": 0,
+      "cross_class_exact_url_count": 0,
+      "top_domains": [
+        {
+          "domain": "alpinejournal.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "civicservices.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "northstarhealth.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "openlearning.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "greenvalley.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "harbortransit.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "communitybank.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "researchcommons.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "localmarket.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "publiclibrary.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "cloudstatus.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "regionalenergy.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "artisanworks.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "citywater.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "travelcollective.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "memberportal.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "softwarecatalog.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "universitypress.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "museumarchive.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        },
+        {
+          "domain": "farmerscoop.example",
+          "class_counts": {
+            "BENIGN": 20
+          },
+          "n": 20
+        }
+      ],
+      "source_counts": [
+        {
+          "class": "BENIGN",
+          "source": "v6_synthetic_structural_benign",
+          "n": 400
+        }
+      ],
+      "shapes": [
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "other_subdomain",
+          "n": 140
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "host_mix",
+          "value": "www",
+          "n": 260
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "deep_path",
+          "n": 160
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "empty_path",
+          "n": 20
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "path_shape",
+          "value": "short_path",
+          "n": 220
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "no_query",
+          "n": 320
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "query_shape",
+          "value": "path_query",
+          "n": 80
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "http",
+          "n": 57
+        },
+        {
+          "class": "BENIGN",
+          "dimension": "scheme_form",
+          "value": "https",
+          "n": 343
+        }
+      ],
+      "per_class_domain_counts": {
+        "BENIGN": 20,
+        "ATTACK": 0
+      }
+    }
+  ]
+}

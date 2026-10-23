@@ -1,0 +1,19 @@
+{
+  "by_origin": {
+    "financial2025_none.csv": 16,
+    "ridham_none.csv": 9,
+    "sidzzz07_none.csv": 3
+  },
+  "provisional_triage": {
+    "BENIGN": 1,
+    "SPAM": 8,
+    "BENIGN_OR_CONTEXT": 1,
+    "BENIGN_OR_SERVICE": 6,
+    "BENIGN_OR_UNCLEAR": 4,
+    "SPAM_OR_UNCLEAR": 3,
+    "MALICIOUS_OR_UNCLEAR": 5
+  },
+  "confirmed_errors": null,
+  "source_error_rate": null,
+  "note": "Nonrandom AI-selected concerns, not a prevalence estimate"
+}

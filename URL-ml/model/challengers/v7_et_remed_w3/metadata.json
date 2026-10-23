@@ -1,0 +1,94 @@
+{
+  "campaign": "URL-ML V7",
+  "experiment_id": "v7_et_remed_w3",
+  "name": "ExtraTrees Weighted (W=3)",
+  "hypothesis": "Moderate sample weighting on 6,000+ domain-disjoint structural paths reinforces safe deep navigation without hurting TEST recall",
+  "architecture": "ExtraTreesClassifier",
+  "feature_count": 53,
+  "feature_schema_sha256": "671ccacb5a8fb2ab5056e25c0acd6ff23df365d3d277507f40066d8610a52392",
+  "seed": 42,
+  "structural_weight": 3.0,
+  "threshold": 0.33883066533266637,
+  "source_dataset_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+  "structural_dataset_sha256": "8ef8245508c889161fff5a32f81dda0e6edb6513cc3f794f45003d1b7e560efd",
+  "hard_dataset_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+  "train_rows": 141178,
+  "structural_rows": 21290,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.0098754513965657,
+    "malicious_recall": 0.9462517680339463,
+    "roc_auc": 0.9940737082654603,
+    "confusion_matrix": [
+      [
+        26870,
+        268
+      ],
+      [
+        912,
+        16056
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.008993529046174094,
+    "malicious_recall": 0.9778478279644184,
+    "roc_auc": 0.9978077690022524,
+    "confusion_matrix": [
+      [
+        27107,
+        246
+      ],
+      [
+        513,
+        22645
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.1812149055640633,
+    "malicious_recall": 0.9595719381688466,
+    "roc_auc": 0.9765277365541762,
+    "confusion_matrix": [
+      [
+        1604,
+        355
+      ],
+      [
+        34,
+        807
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.9792307692307692,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        81,
+        3819
+      ]
+    ]
+  },
+  "fit_seconds": 49.247763000001214,
+  "artifact": "model/challengers/v7_et_remed_w3",
+  "model_size_bytes": 23543560,
+  "gates": {
+    "test_fpr_pass": true,
+    "test_recall_pass": false,
+    "hard_fpr_pass": false,
+    "hard_recall_pass": true,
+    "adversarial_recall_pass": true,
+    "bundle_size_pass": false,
+    "all_gates_pass": false
+  },
+  "promotion_status": "challenger_only"
+}

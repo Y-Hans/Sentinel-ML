@@ -1,0 +1,88 @@
+{
+  "manifest_version": "1.0.0",
+  "description": "Comprehensive Benchmark and Robustness Datasets for Messages V3 Optimization Loop",
+  "total_benchmark_files": 9,
+  "datasets": [
+    {
+      "filename": "bench_adversarial_semantic_pairs.jsonl",
+      "path": "7sep_messages_v3/data/bench_adversarial_semantic_pairs.jsonl",
+      "record_count": 80,
+      "benign_count": 40,
+      "malicious_count": 40,
+      "size_bytes": 13596,
+      "sha256": "8c43f9ada3f8006139d5bbe33500a6c58ad9b47f9f6ed0509b9d95a96566174b"
+    },
+    {
+      "filename": "bench_group_context_benign.jsonl",
+      "path": "7sep_messages_v3/data/bench_group_context_benign.jsonl",
+      "record_count": 40,
+      "benign_count": 40,
+      "malicious_count": 0,
+      "size_bytes": 5139,
+      "sha256": "4bf2503f2aeca319f31acba275ab653d34accab96185c9c4792360803dfe6085"
+    },
+    {
+      "filename": "bench_group_context_malicious.jsonl",
+      "path": "7sep_messages_v3/data/bench_group_context_malicious.jsonl",
+      "record_count": 40,
+      "benign_count": 0,
+      "malicious_count": 40,
+      "size_bytes": 8474,
+      "sha256": "22222b93b9631b621a97d8591a82394c8cc3b7e574016b9b82adbde7837f47c8"
+    },
+    {
+      "filename": "bench_hinglish_robustness.jsonl",
+      "path": "7sep_messages_v3/data/bench_hinglish_robustness.jsonl",
+      "record_count": 100,
+      "benign_count": 50,
+      "malicious_count": 50,
+      "size_bytes": 13523,
+      "sha256": "ddcf2d464a7f1a7d9f95a5174883b30224209e5fa44d66d24998a75f4f606ce6"
+    },
+    {
+      "filename": "bench_sentinel_replay.jsonl",
+      "path": "7sep_messages_v3/data/bench_sentinel_replay.jsonl",
+      "record_count": 294,
+      "benign_count": 291,
+      "malicious_count": 3,
+      "size_bytes": 91821,
+      "sha256": "7f9f91f37f1b9933f760b33592bbafc2d3dadd02effbd7a2b0b6ea661ae20cf1"
+    },
+    {
+      "filename": "bench_system_notifications.jsonl",
+      "path": "7sep_messages_v3/data/bench_system_notifications.jsonl",
+      "record_count": 45,
+      "benign_count": 30,
+      "malicious_count": 15,
+      "size_bytes": 8563,
+      "sha256": "8947d39c4adb9a4781f0e6725fb13ee05d674ef801aa5a18e4dc457480698f9a"
+    },
+    {
+      "filename": "bench_trusted_sender_malicious.jsonl",
+      "path": "7sep_messages_v3/data/bench_trusted_sender_malicious.jsonl",
+      "record_count": 40,
+      "benign_count": 0,
+      "malicious_count": 40,
+      "size_bytes": 8983,
+      "sha256": "d4aacd979368bb7d3500eaa384a2aa9b66c2b4c4dce08bc4bc83493071874494"
+    },
+    {
+      "filename": "bench_unknown_benign.jsonl",
+      "path": "7sep_messages_v3/data/bench_unknown_benign.jsonl",
+      "record_count": 50,
+      "benign_count": 50,
+      "malicious_count": 0,
+      "size_bytes": 5852,
+      "sha256": "d33dc0685a0f18d4b9de8bf28d0f168ea0c877302ce0b52318d1c5af71e4fdc0"
+    },
+    {
+      "filename": "bench_unknown_malicious.jsonl",
+      "path": "7sep_messages_v3/data/bench_unknown_malicious.jsonl",
+      "record_count": 50,
+      "benign_count": 0,
+      "malicious_count": 50,
+      "size_bytes": 9743,
+      "sha256": "b6fcda2132bbdc514537a96bf1f2368c5af468e2a1d3b90b50e6a07470607b49"
+    }
+  ]
+}

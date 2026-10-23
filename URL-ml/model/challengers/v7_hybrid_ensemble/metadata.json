@@ -1,0 +1,84 @@
+{
+  "campaign": "URL-ML V7",
+  "experiment_id": "v7_hybrid_ensemble",
+  "name": "Hybrid Stacking Ensemble",
+  "hypothesis": "Ensemble blending calibrated tree boundaries with smooth neural probabilities achieves the optimal joint operating point",
+  "architecture": "Ensemble(ExtraTrees+HistGradientBoosting+MLP)",
+  "feature_count": 53,
+  "threshold": 0.19190420210105055,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.009801753998083867,
+    "malicious_recall": 0.9737741631305987,
+    "roc_auc": 0.9964721996109153,
+    "confusion_matrix": [
+      [
+        26872,
+        266
+      ],
+      [
+        445,
+        16523
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.008847292801520856,
+    "malicious_recall": 0.9922273080576907,
+    "roc_auc": 0.9984990577824724,
+    "confusion_matrix": [
+      [
+        27111,
+        242
+      ],
+      [
+        180,
+        22978
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.299642674834099,
+    "malicious_recall": 0.9726516052318668,
+    "roc_auc": 0.9710388772451183,
+    "confusion_matrix": [
+      [
+        1372,
+        587
+      ],
+      [
+        23,
+        818
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.9887179487179487,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        44,
+        3856
+      ]
+    ]
+  },
+  "model_size_bytes": 24658030,
+  "gates": {
+    "test_fpr_pass": true,
+    "test_recall_pass": true,
+    "hard_fpr_pass": false,
+    "hard_recall_pass": true,
+    "adversarial_recall_pass": true,
+    "bundle_size_pass": false,
+    "all_gates_pass": false
+  },
+  "promotion_status": "challenger_only"
+}

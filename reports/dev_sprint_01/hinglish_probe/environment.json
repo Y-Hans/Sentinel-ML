@@ -1,0 +1,12 @@
+{
+  "python": "3.14.4 (tags/v3.14.4:23116f9, Apr  7 2026, 14:10:54) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "cwd": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel",
+  "CPU_only": true,
+  "CUDA_VISIBLE_DEVICES": "-1",
+  "excluded_inputs": [
+    "datasets_v5",
+    "user_data"
+  ],
+  "inventory_exclusions": "hidden/build/tool/venv/cache dirs and permitted new experiment dirs; no datasets_v5 or user_data opened"
+}

@@ -1,0 +1,13 @@
+{
+  "status": "PROPOSED_AWAITING_USER_APPROVAL",
+  "files": {
+    "PRE_REGISTRATION.md": "f4b3b618c7116bc1647c4893de8a998fe3ee7c2665ee277e5420a10c272e3ef6",
+    "PRE_REGISTRATION_EXECUTION_CLARIFICATIONS.md": "a5d0f8f5af906240b6015fa738b720eb1e527411937c2969a3d4ccaa05d6f9a7"
+  },
+  "prerequisites": [
+    "DATASETS MOVED and manifest verification or approved hour10 English fallback",
+    "reviewed labels/mappings",
+    "sealed exclusion-index or approved deferred leakage check"
+  ],
+  "fits_so_far": 0
+}

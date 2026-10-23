@@ -1,0 +1,70 @@
+{
+  "model_policy_changes": {
+    "Messages_V2": {
+      "changed_rows": 25,
+      "known_benign": 1,
+      "known_attack": 4,
+      "unknown": 20
+    },
+    "Messages_V4.3": {
+      "changed_rows": 26,
+      "known_benign": 20,
+      "known_attack": 4,
+      "unknown": 2
+    },
+    "Messages_V4.4_candidate_a_corrected": {
+      "changed_rows": 36,
+      "known_benign": 23,
+      "known_attack": 0,
+      "unknown": 13
+    },
+    "Messages_V4.4_candidate_b_refined": {
+      "changed_rows": 53,
+      "known_benign": 35,
+      "known_attack": 4,
+      "unknown": 14
+    },
+    "Messages_V4.4_candidate_c_balanced": {
+      "changed_rows": 51,
+      "known_benign": 39,
+      "known_attack": 4,
+      "unknown": 8
+    },
+    "Messages_V4.4_rc2_experiment_1": {
+      "changed_rows": 61,
+      "known_benign": 42,
+      "known_attack": 4,
+      "unknown": 15
+    },
+    "Messages_V4.4_rc2_experiment_2": {
+      "changed_rows": 74,
+      "known_benign": 61,
+      "known_attack": 0,
+      "unknown": 13
+    },
+    "Messages_V4.4_rc2_experiment_3": {
+      "changed_rows": 67,
+      "known_benign": 48,
+      "known_attack": 0,
+      "unknown": 19
+    },
+    "URL_V7": {
+      "changed_rows": 11,
+      "known_benign": 1,
+      "known_attack": 0,
+      "unknown": 10
+    },
+    "URL_V8": {
+      "changed_rows": 1,
+      "known_benign": 0,
+      "known_attack": 1,
+      "unknown": 0
+    }
+  },
+  "message_label_counts": {
+    "NEEDS_REVIEW": 117,
+    "PROVISIONAL_BENIGN_UNREVIEWED": 708,
+    "SYNTHETIC_AUTHORED": 180
+  },
+  "small_cells": 988
+}

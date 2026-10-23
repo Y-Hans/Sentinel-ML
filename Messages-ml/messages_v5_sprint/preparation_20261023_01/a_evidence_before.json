@@ -1,0 +1,866 @@
+{
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\analyze_probe.command.json": {
+    "bytes": 810,
+    "sha256": "71af06c97dfceca135ba504c225aec1b670a41f735ab398205424df5d3349d8b"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\analyze_probe.py": {
+    "bytes": 7861,
+    "sha256": "c1fcc6a856548b112b523e83dedd2bdd8bf129b1196d2317f9fc48cb48be8e5e"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\analyze_probe.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\analyze_probe.stdout.txt": {
+    "bytes": 1377,
+    "sha256": "3c21cc482f8a5de3747a65aeb82bff5601c88b77bf719b7eafed37cf58e10b8c"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\approval_bundle.json": {
+    "bytes": 507,
+    "sha256": "3b11967d6b17f874b807b0aa872adca5d1bfc98897c11bdbb3d5acdfba529ea0"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\audit_freeze.command.json": {
+    "bytes": 808,
+    "sha256": "71a7b28b72c12de83173cc9bbe13867adaffddcd9c27c9b9777abfef68330084"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\audit_freeze.py": {
+    "bytes": 5233,
+    "sha256": "31f6df7de3f2ba564b950e5279ff9ec506eb1801c2d2638f2e3d81886fe66916"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\audit_freeze.stderr.txt": {
+    "bytes": 494,
+    "sha256": "db214498ed0aa0e2a6089a94257d78876bc6df93a113aaef4e8054e3800c6df8"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\audit_freeze.stdout.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\audit_freeze_02.command.json": {
+    "bytes": 812,
+    "sha256": "54ef0a18d1471f276abf66cf325bfa9929200b43aebf285c748cb506b4dbce41"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\audit_freeze_02.py": {
+    "bytes": 5291,
+    "sha256": "3aae3d9f79fdb671cbdcca1f317a83b3afe5e379b7a12ebf66aab413f7ea2528"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\audit_freeze_02.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\audit_freeze_02.stdout.txt": {
+    "bytes": 64,
+    "sha256": "a947c1b0c8b2591332e986753777c5c4af472fb2e8fcc96bc6e6a4c9a5e76a20"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\command_ledger.json": {
+    "bytes": 9366,
+    "sha256": "50ab4c885342270a17ef2929408c78badf5e831879d3b87649d8721997763793"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\corpus_audit_manifest.json": {
+    "bytes": 20825,
+    "sha256": "c6e08b4e5cd45d6b1af1c9c06fb8b64ff52d321fcd5a35d4d0cd22021f0c63d8"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\cpu_topology.json": {
+    "bytes": 154,
+    "sha256": "4b8ca197b8b7740606d04dd4dc70f9aa133055649e2d73287af395c94bb6f937"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\DATA_AUDIT.md": {
+    "bytes": 6267,
+    "sha256": "1366971906b1fab93356ddab1521e12ebc539c643c0a04c5fdf4eb9fbe27aee7"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\DECISION.md": {
+    "bytes": 950,
+    "sha256": "2bb5ad9ffd7e43cecf4f671cd88136547e2391fee6211d13b67f2c12490ea2f4"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\diagnostic_summary.json": {
+    "bytes": 19831,
+    "sha256": "2c40e3cca4c08cce18609134ece701ab428dab7c2049f47280c37c77de2591e3"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\English_TEST_baselines.json": {
+    "bytes": 4432,
+    "sha256": "8f6b43736156d9345d6bf466b15e0b920e83c20002f59a078861eb1752603124"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\environment.json": {
+    "bytes": 559,
+    "sha256": "7b2176bcf239718d53ed236b0bebb6102c25e3d639526be96a78e598cebf5d77"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\feature_analysis.command.json": {
+    "bytes": 812,
+    "sha256": "4f832d65c2ad8b88d89b681816467c3444bcf3d5b7291a69e50d5da9e3fe4435"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\feature_analysis.py": {
+    "bytes": 11738,
+    "sha256": "a74a129e1be0e0a50ce2531407762503debb3f566ebcdc2a86104fc3eb278d0b"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\feature_analysis.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\feature_analysis.stdout.txt": {
+    "bytes": 3262,
+    "sha256": "65a5118e9fd67e423d3c317dc4cd6fa7f0f702ae20c063ffcbeb48664eb01343"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\FEATURE_CANDIDATES.md": {
+    "bytes": 4210,
+    "sha256": "e0b79d0e1fc0e7eb9a6dca930e2fcf7da00692ec27a12f930d9b2c328004060b"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\feature_definitions.json": {
+    "bytes": 33909,
+    "sha256": "ef736d64e84c30bafd61b813871552dcc8bb9d0299413a8f567fc5d842e3594b"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\feature_evidence.json": {
+    "bytes": 2110,
+    "sha256": "c0378f9db5237d6b4d6d36e776c934522a1966a6a90c67ff2814c6ff4ce52719"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\FEATURE_LEDGER.csv": {
+    "bytes": 2875427,
+    "sha256": "a91db0682e59324fb60c1c7584795f7ae7e1f8df0f3a70a6d0d10b009a68bf2f"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\FEATURE_LEDGER.md": {
+    "bytes": 10294,
+    "sha256": "77d201af4c16c78bfed49f8290354119cb45bc63c1828740d66fb326653fb490"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\FEATURE_POLICY_LEDGER.csv": {
+    "bytes": 860,
+    "sha256": "985c7768b858ab90b7ca8ef287f7c4269ab282ee20104a53d4511bc0ab761288"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\feature_regexes.json": {
+    "bytes": 3624,
+    "sha256": "de90698bb6ec7dc6fa5d9b93d65dfb0c15ca7e0f15042e235557d6b7f47c005c"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\final_command.json": {
+    "bytes": 739,
+    "sha256": "e852e0e1a569d55669e29ed2940439cea4a2cfc159e13426275823a62af20ffa"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\finish_evidence.py": {
+    "bytes": 13651,
+    "sha256": "588654a6a570d00b39e3ab8f178a236503cce000a112bbd0470a91512d7580fa"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\freeze_manifest.json": {
+    "bytes": 808,
+    "sha256": "370bd56f005ac9d23d536ea81a44a703985712f73f575d1ba65d585f423ac870"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\gate_projection_arithmetic.json": {
+    "bytes": 1792,
+    "sha256": "31a85e58280e1c3fed80afdc57ae6263e2297cdd7f640f162ea9cf67d4e60469"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\generate_v2.command.json": {
+    "bytes": 808,
+    "sha256": "9821cfe78b818a732c35a93272a77d3025ab0b8d9768953250f15511790a3887"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\generate_v2.py": {
+    "bytes": 16064,
+    "sha256": "0c146a76f2d249ce1f0a80787ba0c0350d9a3d2ff7bac938ed4413e968f4a275"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\generate_v2.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\generate_v2.stdout.txt": {
+    "bytes": 218,
+    "sha256": "32a3ca8cda034c174205719e3bd4985b20329c8d5b5444c9cdf15d04898802cf"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\generation_manifest.json": {
+    "bytes": 1036,
+    "sha256": "ad4b960d9fa60917de63b409345100994f3e367aeeba65386c32e80762475585"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\git_after.json": {
+    "bytes": 7728,
+    "sha256": "db5a8346a2b0d3960d5a30e331a5ff30e78107a65743c43bb1505660a1c0d3a3"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\git_before.json": {
+    "bytes": 7728,
+    "sha256": "db5a8346a2b0d3960d5a30e331a5ff30e78107a65743c43bb1505660a1c0d3a3"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\importance_summary.json": {
+    "bytes": 21584,
+    "sha256": "f1bd60b335c357ca2603e27395f192caf06110f0a068356b48761b7c922f20d6"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\inference.py": {
+    "bytes": 2086,
+    "sha256": "4a3e56afaf40b3c67ada70110d80969929af8224cbda9c0839769694ee1fc360"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\inference_02.command.json": {
+    "bytes": 808,
+    "sha256": "cc4a7493e86229b4908720ac025a1e9da5071449052ad2d1c65e2bdf15058ced"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\inference_02.py": {
+    "bytes": 2093,
+    "sha256": "89ed0bc1a112cc6b930d3b3bb1ed0e70d64861c92fd59033049bbb3f44a0fc7b"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\inference_02.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\inference_02.stdout.txt": {
+    "bytes": 1025,
+    "sha256": "df22ad4cb4327a5c5b75dcaf4d7b743c856518aeae3ad7864908a4615a897443"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\inference_manifest.json": {
+    "bytes": 6661,
+    "sha256": "2f08d86995d88679dbf8cce700a61c66948323c4ed326c96d6efecf3654d6d46"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\integrity_checks.json": {
+    "bytes": 1062,
+    "sha256": "9c614451bcc4e6b58353b357d70b2f227596f16d3762be8b83b6db2d617cb028"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\intra_probe_audit.json": {
+    "bytes": 52998,
+    "sha256": "80df636040c77f2f7271ae0eb312c927ea43a5c6078d628b3be47f8709aa8f87"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\intra_probe_audit_audit02.json": {
+    "bytes": 52998,
+    "sha256": "80df636040c77f2f7271ae0eb312c927ea43a5c6078d628b3be47f8709aa8f87"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\overlap_tags.jsonl": {
+    "bytes": 83052,
+    "sha256": "0296180c0cdec614aa8572acd99398e34e3a1e2afd4141a56a2119bf4393b839"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\paired_English.json": {
+    "bytes": 9633,
+    "sha256": "a291396f399d88bee3603e11efbffad315b9794fc2ccc21ec195d7bfeaf718a3"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\paired_feature_activation.csv": {
+    "bytes": 3780,
+    "sha256": "0fea5a6ecc4b6dd986a3b0b5a51f8446e43743e7ae8d12e076654a89fff93489"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\permutation_baseline.json": {
+    "bytes": 406,
+    "sha256": "4809c4d9c401aab7778006bbafe8ac7c00c6e8233d5130e125d2579f71ee5119"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\permutation_importance.csv": {
+    "bytes": 25765,
+    "sha256": "ca57fcb78d7a81537cb7d433dce98c64ff33747ee3127b314d3586b0703974f0"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\permutation_sample.json": {
+    "bytes": 6013,
+    "sha256": "ebad7159cb86e1781b003cac704f49d7b3d37069935e9503ecde62f11013c544"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PRE_REGISTRATION.md": {
+    "bytes": 15253,
+    "sha256": "f4b3b618c7116bc1647c4893de8a998fe3ee7c2665ee277e5420a10c272e3ef6"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PRE_REGISTRATION.sha256": {
+    "bytes": 86,
+    "sha256": "aa90465c3969eb40342933f1b42a1c78381af7ec08865594c4f4381da5e3060c"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PRE_REGISTRATION_EXECUTION_CLARIFICATIONS.md": {
+    "bytes": 1762,
+    "sha256": "a5d0f8f5af906240b6015fa738b720eb1e527411937c2969a3d4ccaa05d6f9a7"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\probe_cells.jsonl": {
+    "bytes": 1051129,
+    "sha256": "e1851d0b90bf85d23a06d8452ba27d3e30f5cefdbe2f7507541bb7bd6829ee6d"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\probe_predictions.jsonl": {
+    "bytes": 8796886,
+    "sha256": "923e80df873fcb22c5ea9aab8578ac8e32ec3b7d6f7b9e9cf3e333ed5557369f"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\probe_quality.json": {
+    "bytes": 275,
+    "sha256": "fab85ae90c37dec595095b00599a67709c475db355cac3b11598a398e6901163"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\probe_summary.jsonl": {
+    "bytes": 48984,
+    "sha256": "5fb088a0864bd4f05e07dec944161827466c19a938f12c0e98a8fb7b2d0739d8"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\probe_v1_normalized.csv": {
+    "bytes": 465710,
+    "sha256": "930ad6d92d334ca6a77f5b51a1dad2d5d1ccba42a6f063214069f575e07a3a9e"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\probe_v2.csv": {
+    "bytes": 364150,
+    "sha256": "85a46ec17e7ea96d935b50dcbc1a36f257dc384ba6bb3daa6c23cdc8d9d64952"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PROBE_V2_DESIGN.md": {
+    "bytes": 3786,
+    "sha256": "da628a3c9974f30ec9472e92bdb829b56b02add50ae9354d218dfe1d1920c00f"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PROBE_V2_RESULTS.md": {
+    "bytes": 41810,
+    "sha256": "77e2cacebdb581b2d35af4e75b47ad12dff215b5026789decc7858b8fa7db6da"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PROBE_V2_RESULTS_SUPPLEMENT.md": {
+    "bytes": 2483,
+    "sha256": "d997728d031bbf370b904a371cd0e3b8063bf44c4cac40acd51f26dc3580508f"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\PROGRESS.md": {
+    "bytes": 617,
+    "sha256": "795af26b3b571be7a004f210afd679c3db44405d17169ae713d2d75ac3dd9a1c"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\proposed_gate_table.json": {
+    "bytes": 2204,
+    "sha256": "8d2cb1b948996ad3464911464dae496afe85367465bff34f1831cc8e322afd5e"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\protected_after.json": {
+    "bytes": 323953,
+    "sha256": "b727c08e6f821c15e36f9073c16f8e957e8acb3792fa7b5db77804988eaed988"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\protected_before.json": {
+    "bytes": 323953,
+    "sha256": "b727c08e6f821c15e36f9073c16f8e957e8acb3792fa7b5db77804988eaed988"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\QUESTIONS_FOR_USER.md": {
+    "bytes": 957,
+    "sha256": "d30efc86074433d117d9f115dac9cc2e5ae673001a0469784e9bdabf055ae4a8"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\repair_channel.command.json": {
+    "bytes": 811,
+    "sha256": "896e276b41093e5b9a26d18c1be37b1ddfbadfdc5190083b8012a2cc3410c0d8"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\repair_channel.py": {
+    "bytes": 2064,
+    "sha256": "98a53007101eb997c380be40d20bfa85403fdfb7f51fb3c9dfa5269370ee2192"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\repair_channel.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\repair_channel.stdout.txt": {
+    "bytes": 47,
+    "sha256": "c8f7480cfabade2adc04032366f18877c7c82d59d4dd8ee2a9866e9dd41d9076"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\repair_manifest.json": {
+    "bytes": 446,
+    "sha256": "3e2636ff3f620cf0c23b2cd30511e64af63551f1863c1fc7d6ff6b05750f3d34"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\RESULTS.md": {
+    "bytes": 1596,
+    "sha256": "4d3d0579e1923381357312995bb9109217f87a25acbc2cb6fe6a75726593a912"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\review_marks.json": {
+    "bytes": 140,
+    "sha256": "02d5339a66498a1cea669c8ef5b23d0e063a0d1b9870d7bd36447a2435fb3a95"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\REVIEW_SAMPLE_v2.csv": {
+    "bytes": 31419,
+    "sha256": "4df4e630bd7e02e7b8fe260d907245b7536ddda12e79101b0aad69560612933e"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\runtime.py": {
+    "bytes": 2433,
+    "sha256": "30745ba37b3511dfb86bf06823e3be7c4cfe2dfcbc240786bc64fad2b49a8ca5"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\RUN_EVIDENCE.md": {
+    "bytes": 33747,
+    "sha256": "f886f6c2c3a4fee8fe92adc576d02dd91bd8ede88382d613b0c236bcdb358ca3"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\sample_size_arithmetic.json": {
+    "bytes": 2077,
+    "sha256": "f9798bf145373444d5675d978e2d1174d0b655a0c30351cbf1ce0786846b275c"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\sender_code_tests.json": {
+    "bytes": 4598,
+    "sha256": "3a9ecc805622f95fbb638674214772a201cfff3f82f9ff98eab3ec46ac0adf58"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\sender_file_totals.json": {
+    "bytes": 5063,
+    "sha256": "2d51c02ba6ac75f25f7c17e4f73b50510b4fbc0b8410beb4447f121c6c87691a"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\sender_missing_by_file_label_source.csv": {
+    "bytes": 8718,
+    "sha256": "ef2bb86a156f06290891ed5d95bbff9a123e1b87c264604880c4a19d60f17bee"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\sender_training_files.json": {
+    "bytes": 4333,
+    "sha256": "923681c31503a8c00253a6b286620ac99cb1f392bcf2a23a2164f85695e2e122"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\snapshot.command.json": {
+    "bytes": 805,
+    "sha256": "ce9b41261da618e1a4a5b88fe0eec3ac0699ffc4125ebc0417ef1d4b150bb9c1"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\snapshot.py": {
+    "bytes": 1276,
+    "sha256": "4ee1d8caf0cdb32bc6366201c2af4934781178afd2e8f245368828b0d514e5bf"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\snapshot.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\snapshot.stdout.txt": {
+    "bytes": 83,
+    "sha256": "5021aa4006e980ba8b3df56cb3f4a3aea58fd67dca6811bb1bee1a9ece407cbc"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\sprintlib.py": {
+    "bytes": 3821,
+    "sha256": "e19de1c6a3b8203c28ea2cd2b69651fcf9ac90412ef9a83d6d7be737ef4ccffc"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\summarize_evidence.command.json": {
+    "bytes": 816,
+    "sha256": "8185df524a5590615e823270eff1741643fed0fe4708b6ba094618ade664c44d"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\summarize_evidence.py": {
+    "bytes": 2424,
+    "sha256": "e572e582a9a496013add41afb2b20b2127bf2e8a4aa049e30c033422eb6ca5cb"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\summarize_evidence.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\summarize_evidence.stdout.txt": {
+    "bytes": 2953,
+    "sha256": "03f7a112e4dbe1c133210ad9c46d07f6167b43f0f0f62f3faed7084428dff97a"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\TRAINING_LOG.md": {
+    "bytes": 370,
+    "sha256": "673b07756ca6dce8564b82a2c0dea06ec2cb3487632bcd50f6ea816d848670bf"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\V43_reproduction_gate.json": {
+    "bytes": 173,
+    "sha256": "b07abb929b6c4fad5e39b78b848753941cd38a14aab6380fcbdaa81a9bd526ba"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\validation.command.json": {
+    "bytes": 804,
+    "sha256": "7bf2d38e88b6307b211e9fb685b977021d52e9a2c998dad76741ee0f3077be77"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\validation.py": {
+    "bytes": 2849,
+    "sha256": "26e6d7f2f3325e33a7c54931b76255b769ab0fc418ded3eae0b6c88fedd56f77"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\validation.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\validation.stdout.txt": {
+    "bytes": 799,
+    "sha256": "36a89472730144ae4842eefa8822694719739505134bcade7202dba92207291d"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\verdicts.json": {
+    "bytes": 3125,
+    "sha256": "70f0a01ddd03402476eb2bbd4ee82a6db52c9a9191e2ac7996e9ed1943bab2b8"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\worst_failures.csv": {
+    "bytes": 128617,
+    "sha256": "1414ad7dd2355d3b91d1972fc75f8ba0f944b0c2aacebd2768ebe6bd464b6f78"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\write_plans.command.json": {
+    "bytes": 808,
+    "sha256": "469671483e3a0c59b3a00c592746255f2c5f6d65cd098e1c14a7efdfd6851366"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\write_plans.py": {
+    "bytes": 41464,
+    "sha256": "1be8f1b3853a22f049401f46bc8325f210baf0b6bc297002e5f258d8f2b83916"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\write_plans.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\write_plans.stdout.txt": {
+    "bytes": 113,
+    "sha256": "12edc727fa4208bcb626d66057e70319c666988aa196ca801129c54138b68daa"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\frozen\\probe_v2.csv": {
+    "bytes": 364126,
+    "sha256": "b57438c786d163068844486d620a3617216ac5fa11564206bbf97ab607a86d48"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\frozen\\probe_v2.sha256": {
+    "bytes": 79,
+    "sha256": "3acd6c1eda62b8be8b542f2c8ccaea277cf6a714197e9e74a49fc0fdcc8658e4"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\frozen\\PROBE_V2_DESIGN.md": {
+    "bytes": 4149,
+    "sha256": "6a2fc5b3c71b70278dff210fd05f3ca4188b51e901bb1c2c6d0ae7adae750245"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\frozen\\REVIEW_SAMPLE_v2.csv": {
+    "bytes": 31419,
+    "sha256": "4df4e630bd7e02e7b8fe260d907245b7536ddda12e79101b0aad69560612933e"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\stage_0B\\PROGRESS.md": {
+    "bytes": 309,
+    "sha256": "5841e15714f6af6c48908b15ceac738e8d82957c29067a03e4261bec03dd7b01"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\stage_1\\PROGRESS.md": {
+    "bytes": 285,
+    "sha256": "4777d87caf271cefce7f90e854db0cb611beab29b11e409f321e3f98215ddd31"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\stage_2\\PROGRESS.md": {
+    "bytes": 308,
+    "sha256": "343d8cefebc81291bd47b68c39635a203a9d7b4fbdb83a0ff452e9a6923fb65e"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\stage_3_pending\\PROGRESS.md": {
+    "bytes": 314,
+    "sha256": "b75fb0065e6a79aa6b4b73e487ff3034a00536ce26f1143f8ea457cea4881957"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\stage_4\\PROGRESS.md": {
+    "bytes": 415,
+    "sha256": "9b4808936f561df4aa7101741870932932c599f8a998ff1dc3c814e25c2edf39"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\output_manifest.json": {
+    "bytes": 16216,
+    "sha256": "dd25f70ad900624ab4e908a6cfc13e3df4b69f9324ef628ca99943651b197099"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\sprint_v2_20261023\\COMPLETION.json": {
+    "bytes": 792,
+    "sha256": "9120b5974b8fabf520cc417faf14212b6f2527cd0b8a330e59a6dc889f9b8cb7"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\analysis_counts.json": {
+    "bytes": 214,
+    "sha256": "59694288bb4bbd05796ee6414c999ece9fd71ba8c91787dcf03a0afa03e352f1"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\analyze.command.json": {
+    "bytes": 771,
+    "sha256": "40f94a77c3ec36702ee46f2e11d043c2a69098bd267ca566352a0cea2e63a6e0"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\analyze.py": {
+    "bytes": 7626,
+    "sha256": "43f3406321a914c7a6d3a186913df8dd1378c1ba224a50e4da4383cfc0bf09fc"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\analyze.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\analyze.stdout.txt": {
+    "bytes": 2655,
+    "sha256": "68b5d881e4d2347c3e9c4bfadbef19529e0dd95d48cdc8eab9d5562e8b9e8e90"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\audit.command.json": {
+    "bytes": 768,
+    "sha256": "9db99ce7d474a91190cd40428fe01dec340bdc7d78d2e6362fae0b444d6691a9"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\audit.py": {
+    "bytes": 6657,
+    "sha256": "df47fccb977ee88ebbe5241c522a8c91c45fb5646c1f54b44d0afe6a49e47945"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\audit.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\audit.stdout.txt": {
+    "bytes": 117,
+    "sha256": "4a778de5b6f4f55a6e2d0e44a006e883097a1bf17008f19896700c742c9393d3"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_classification.csv": {
+    "bytes": 135767,
+    "sha256": "b7a6b7d71459118e689ec51298ac02f1c85af9d545a28b77965fedf8ec8d3561"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_disagreements.csv": {
+    "bytes": 39208,
+    "sha256": "23f619e1bb5da17ee119a2b84a40075a26f96fa2040ae4beb0efd642c0e6eba2"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_id_map.json": {
+    "bytes": 39603,
+    "sha256": "8b585f8ca832e906ecdaf33fb154d5eac141822f19c3f72a17ed00190c68966f"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_input.csv": {
+    "bytes": 272300,
+    "sha256": "6af46787c8225556e2331f34d6949ebf79b2d513384abe9316709a15662eca26"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_pass.command.json": {
+    "bytes": 774,
+    "sha256": "120a8a36e412b9e1807eea271888258ee797c6d85511760c0cafaec015d7922c"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_pass.py": {
+    "bytes": 3618,
+    "sha256": "461e0f484ed46502bf7f34e13370de93a90492231c00f5d5cad81c22d42305e5"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_pass.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_pass.stdout.txt": {
+    "bytes": 52,
+    "sha256": "929bdf9a53bcf58c6d2ee90322cc6ee9127f4eff47c223d57e25191179931666"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_pass_evidence.json": {
+    "bytes": 509,
+    "sha256": "9562520d05a17b6d2050a6c31686bf06558795cda858a187ed35a65d3a555424"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\blind_QA_summary.json": {
+    "bytes": 331,
+    "sha256": "5d24f801fb6515b116710f2e3c53b17446049972761e2f16d4217fbb3c04b24c"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\command_ledger.json": {
+    "bytes": 7368,
+    "sha256": "2947ebb77004c2150fed250ad4b4becad015678ed374d90c238d54a46b02374a"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\corpus_audit_manifest.json": {
+    "bytes": 20868,
+    "sha256": "514e2294cd7856f564df94ff2d1b339c395921c5b9979f04dc5e51b22c2c822a"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\DESIGN_PREREGISTERED.md": {
+    "bytes": 8374,
+    "sha256": "09a64b06036cc174e6305b8e33d7fa285a72996b74c1d2bb93bbdf6341cf4482"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\draft_probe_set.csv": {
+    "bytes": 481190,
+    "sha256": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\English_TEST_comparison.json": {
+    "bytes": 3869,
+    "sha256": "7c0880ba5335d5c48dd2832893dbc9f46c85806145cb6687460b24a097f84047"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\environment.json": {
+    "bytes": 522,
+    "sha256": "e8b91a9600f36b16c31ed805a4df900ffba2d8f06816f5ad556b47ffa698192f"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\final_command.json": {
+    "bytes": 619,
+    "sha256": "23068f5be93a177e9f1c16fbc7be8c9923bc0cbaeca9a7656e35faef97c061d2"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\finish.py": {
+    "bytes": 13239,
+    "sha256": "2117ab749d80e3741214742484806a98c86a5a2581a29a6d3d005e09cdde6fd5"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\freeze.command.json": {
+    "bytes": 770,
+    "sha256": "9bb4e7985066a8d1dc7f99db19f31e38e3e7735a660b682c82bf54320efeddcd"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\freeze.py": {
+    "bytes": 3372,
+    "sha256": "8da806db8e9407c9ed7be91090187973977f95b4f444573fe1144d22a1eb42ec"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\freeze.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\freeze.stdout.txt": {
+    "bytes": 160,
+    "sha256": "fc6e5230177c0d9b3a2d482d595d13063c4690f8a9e91fdc58eb3856141e9ad1"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\freeze_manifest.json": {
+    "bytes": 1030,
+    "sha256": "2fa5e597a836537ab3d118cd1fb78557061a1d3b6f95cc32a515598a0c966686"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\generate.command.json": {
+    "bytes": 773,
+    "sha256": "7bccb48cb5e4852b708d9b599477dd130b958bafaa1478a1b16cc0b7c34c40ae"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\generate.py": {
+    "bytes": 30914,
+    "sha256": "1f07cbd6c62d66a49dbe44ea775228a8b08465507f3953acd2a3817c240b059a"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\generate.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\generate.stdout.txt": {
+    "bytes": 135,
+    "sha256": "af6195b872834745b1a1b611c438d80599b3f9721a0cec22530902a0cf257394"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\generation_manifest.json": {
+    "bytes": 2599,
+    "sha256": "fa6961a16bd8e49a43118e54b39577e08eb31b23a3ac9066bd011a50952e66f9"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\git_after.json": {
+    "bytes": 7181,
+    "sha256": "d10f10492847d6f584007688ccf3330c8136889489bd2a798f40269456b45d47"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\git_before.json": {
+    "bytes": 7181,
+    "sha256": "d10f10492847d6f584007688ccf3330c8136889489bd2a798f40269456b45d47"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\HINGLISH_PROBE_DESIGN.md": {
+    "bytes": 9452,
+    "sha256": "a1a78e72720f6fc36da5c978e2d906a57056eafc37adf60ec738e2f1fd335f13"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\HINGLISH_PROBE_RESULTS.md": {
+    "bytes": 39447,
+    "sha256": "d6d0f325ef570abfab3ab22211b2e2f39c609ed7605acd61bd22b4ad0cd5a91c"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\historical_87_1_lead.json": {
+    "bytes": 2593,
+    "sha256": "92420cc9f3a36a0476bfbcb34da5dece6a56ea0f18f4721e9d80d42b841da7ea"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\historical_and_qa.command.json": {
+    "bytes": 781,
+    "sha256": "53108a40a986b9cf6b7d78cc914fb7946c27a81c870d1ee84c38713fa84e0a53"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\historical_and_qa.py": {
+    "bytes": 3859,
+    "sha256": "dcb8bff34ff0dba1a0dc3158c3741d50be2709bb9a3f1fc48b50b8b80a2bff7a"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\historical_and_qa.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\historical_and_qa.stdout.txt": {
+    "bytes": 75,
+    "sha256": "c82085a7738ca0026b17d00ce09ca2af04037ce8b355230177684fa576adfaba"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\infer.command.json": {
+    "bytes": 768,
+    "sha256": "d358abe614c4b481f0a6e8aa85ea2ec4bbf5e01434fe208761f6c749185b21be"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\infer.py": {
+    "bytes": 5518,
+    "sha256": "d207bbc852a207cee48eacffaec22efae2a5e4df28ad31e965268793d69d8170"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\infer.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\infer.stdout.txt": {
+    "bytes": 545,
+    "sha256": "c1293b54b6e474b6e30075524d8830af4799378c32a189d91fd1a5875fe3744f"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\inference_manifest.json": {
+    "bytes": 14345,
+    "sha256": "1a3182e05a5370e72201abf21efd556086feda7b7c54725103c0ba00b7176ff3"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\integrity_checks.json": {
+    "bytes": 14388,
+    "sha256": "f172bee03d0febe8a3de331a08503982fab3fb6ebc996e9edcac640f0720cd3d"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\intra_probe_audit.json": {
+    "bytes": 1779,
+    "sha256": "c1d026997446f561557d5313f9cf256ed2756b68fd660aaf0792c10edbeb8b79"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\launch.py": {
+    "bytes": 55,
+    "sha256": "b4f473c035ffbaea05dffda73804fcf09f3db19282a981467ecf497fc604c56c"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\overlap_tags.jsonl": {
+    "bytes": 243904,
+    "sha256": "9570d19bffcb2dc87467681c6cc5d3067cc6627092f61534d060a544999b3afc"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\paired_English_comparisons.jsonl": {
+    "bytes": 1543062,
+    "sha256": "6e32454ffa6a628f0c4260305d518d823ede0ddc06cb4665799d9d94e30258bb"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\PROBE_BREAKDOWNS.csv": {
+    "bytes": 339468,
+    "sha256": "c7e3f309140721bb10ca7699c55a5b21d823f40fc8160338367dcd1f023b7065"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\probe_breakdowns.jsonl": {
+    "bytes": 1107063,
+    "sha256": "aa3521a4b47dbbdaf1ec9ab21ade5bc464950cf7e10274de033e2b15eef42428"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\probe_lib.py": {
+    "bytes": 3436,
+    "sha256": "21abafa74f077990a7e7f150ce88931540b3984b0bd20c58a25460696401351f"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\probe_metrics.jsonl": {
+    "bytes": 102420,
+    "sha256": "28ac1800f5606dedb198f9f9c9cfd0ff533e4fcff2011996a5e5dfc5c5d0fe91"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\probe_predictions.jsonl": {
+    "bytes": 3939693,
+    "sha256": "8aa019a528bcef4318dce01cd9fcb8369213da60cae0e2def9d1bc7a0c5467d1"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\probe_set.csv": {
+    "bytes": 481190,
+    "sha256": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\probe_set.sha256": {
+    "bytes": 81,
+    "sha256": "00faa26582032a5ea1f63dfe0b8dd7dacd9bdbc10cafd533d03df19bc13570ae"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\protected_after.json": {
+    "bytes": 330954,
+    "sha256": "b0a142f0bcb2b2d9858cade17f3609d37d40386c216394f0867e637e52d0b282"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\protected_before.json": {
+    "bytes": 330954,
+    "sha256": "b0a142f0bcb2b2d9858cade17f3609d37d40386c216394f0867e637e52d0b282"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\quality_checks.json": {
+    "bytes": 932,
+    "sha256": "48f4484ff40ffa4465e2bfecf56473f0fec2d2321335aa4d2f0b09397982d9a4"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\raw_argmax_metrics.jsonl": {
+    "bytes": 7326,
+    "sha256": "98626be82c94db0cb9b1fc82ebd9c90072cc3462c527ac1bafcf6ccf4c123799"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\report_input_counts.json": {
+    "bytes": 941,
+    "sha256": "b0577abffd2e1cbd57e250de38e1b4c79c88f7a1d292b437990ad3f20a471bc7"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\review_correction_status.json": {
+    "bytes": 326,
+    "sha256": "a4c4de763ba57c93f58f734272d4d0a183f34e7ff983fb3af804a7a0d15d2721"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\REVIEW_SAMPLE.csv": {
+    "bytes": 93439,
+    "sha256": "2c18fcbfb4adcd44970087e65265e5962e71b421e6e3aac00057d7c7320fe9f7"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\review_sample_manifest.json": {
+    "bytes": 260,
+    "sha256": "ea3fedb00ed52fd667149eebb1c467f8b80f5c924812b814c1a4ac42d2634a62"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\RUN_EVIDENCE.md": {
+    "bytes": 29017,
+    "sha256": "4dd642c4e9b0e3ddfb720df78f952ab8e4caeecb4d79313e3900b604ec3af31a"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\snapshot_before.command.json": {
+    "bytes": 778,
+    "sha256": "96eada7698464abf30dcd085f17817b4c4d9a372d525ebd4abd4f5e78e272811"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\snapshot_before.py": {
+    "bytes": 1134,
+    "sha256": "d70556ab95404f78e51047fd6611c3a03376be18da380122cef897eaefedaaf7"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\snapshot_before.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\snapshot_before.stdout.txt": {
+    "bytes": 40,
+    "sha256": "bbfda74e3f6e405d6eac50ad35cf0723d88eb36db7d0dcbe98ea5fc499a66524"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\stage0_disposition.json": {
+    "bytes": 440,
+    "sha256": "8e9cb6ac6b55b42d97d982c17114b5ccbdb90942d77ad90bd66ad5cb3fa2e8d4"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\V43_reproduction_gate.json": {
+    "bytes": 527,
+    "sha256": "8e9b85f252f8d874ace238fec63165fb94a8e42c61de82d261d33300e60416af"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\verdicts.json": {
+    "bytes": 9036,
+    "sha256": "f5204ca4095512a8ef70ecdad9bab3ca3dafd29aabdc0b8bd436176da414b298"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\worst_25_false_alerts_per_model.csv": {
+    "bytes": 68816,
+    "sha256": "0a678196f9830c86d1bfce95f7e085886528834529cd7c4ed2fcf890b1f66b41"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\worst_25_misses_per_model.csv": {
+    "bytes": 85328,
+    "sha256": "00249770c151f73a09cc22a2b077e89848a843cb108b656a1db4f52c9b19e4d2"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\write_results.command.json": {
+    "bytes": 777,
+    "sha256": "f69584cafad47a094a257eb92730b809bd8040dca3eaf4771a2173b7d728d813"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\write_results.py": {
+    "bytes": 19213,
+    "sha256": "beaa0f0cf06b3de892b0d2558723d0ca73fd012ffe3bbc2c8add9f2ccd12aaa1"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\write_results.stderr.txt": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\write_results.stdout.txt": {
+    "bytes": 671,
+    "sha256": "fa03d3de134670f00c095b1bd98b645c3aa845dcacaa22a63f1e242d747795de"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\output_manifest.json": {
+    "bytes": 11633,
+    "sha256": "dba4ae9d8d5aaf07317e5ecd183718e7c355179e38dcf98ffb8679e5a6ac6cfd"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\reports\\dev_sprint_01\\hinglish_probe\\COMPLETION.json": {
+    "bytes": 1150,
+    "sha256": "94af387ad6e5dcf7629a10107a6ddef8fef8c67805521bdc7c27e0d5472d369d"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\assistant_review_20261023\\AGENT_A_NEXT.md": {
+    "bytes": 2979,
+    "sha256": "6eb36dafbde5b03a40dae69c8dc608652625966bc95a4209a2a152a7a3ecfddd"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\assistant_review_20261023\\AGENT_C_NEXT.md": {
+    "bytes": 2636,
+    "sha256": "78ca488db45c9cc1b9e961f022b8b95fdfff5783217ead489103597184ce52fb"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\assistant_review_20261023\\ANNOTATED_REVIEW_SAMPLE.csv": {
+    "bytes": 45769,
+    "sha256": "94364b553eaca08adc306c898b34c82b38db661b5e03fe73e3a237de6834f97d"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\assistant_review_20261023\\ANNOTATED_REVIEW_SAMPLE_v2.csv": {
+    "bytes": 50722,
+    "sha256": "38eb3030723a6a2c3d4f2ab2141e88301319619073f376d02f543afd8b00cff6"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel\\assistant_review_20261023\\INDEPENDENT_REVIEW.md": {
+    "bytes": 7961,
+    "sha256": "ae54cab2466e055f3c9c8e7ad7f539949ea8b44df8c773b5cffb338c1f28c6e4"
+  },
+  "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel_datasets\\assistant_review_20261023\\DATASET_LABEL_TRIAGE.csv": {
+    "bytes": 11979,
+    "sha256": "b2333bed902cbd092da3eb67ba44371b3cbfc942c5e8c71462b7dacb5d30d183"
+  }
+}

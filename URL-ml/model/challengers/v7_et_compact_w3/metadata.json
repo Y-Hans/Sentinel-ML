@@ -1,0 +1,94 @@
+{
+  "campaign": "URL-ML V7",
+  "experiment_id": "v7_et_compact_w3",
+  "name": "ExtraTrees Compact (80 Trees, Depth 16, W=3)",
+  "hypothesis": "3x sample weight on 48k structural benigns eliminates residual hard-source shift",
+  "architecture": "ExtraTreesClassifier",
+  "feature_count": 53,
+  "feature_schema_sha256": "852bd096b106b49bdd41a98605a119b6dc28993ebfd272e68880e2bacbad2b54",
+  "seed": 42,
+  "structural_weight": 3.0,
+  "threshold": 0.5742128564282141,
+  "source_dataset_sha256": "6c71c39dd0291b8ef58b31610ac892cd6fe2186876908d42a7b24dcbf06caf2f",
+  "structural_dataset_sha256": "f67c2f86692e68c368210191ba173d75988b96ccc9f808971230f3a1e39f152e",
+  "hard_dataset_sha256": "fc0966ed0deaea81496d5a3f384b8cdbdcd2019a2c58cbea153f6f0728ef177f",
+  "train_rows": 141178,
+  "structural_rows": 48290,
+  "validation": {
+    "n": 44106,
+    "benign_fpr": 0.009985997494288452,
+    "malicious_recall": 0.7830622347949081,
+    "roc_auc": 0.9295741581635817,
+    "confusion_matrix": [
+      [
+        26867,
+        271
+      ],
+      [
+        3681,
+        13287
+      ]
+    ]
+  },
+  "test": {
+    "n": 50511,
+    "benign_fpr": 0.008956969985010785,
+    "malicious_recall": 0.8119440366180154,
+    "roc_auc": 0.9654814887239955,
+    "confusion_matrix": [
+      [
+        27108,
+        245
+      ],
+      [
+        4355,
+        18803
+      ]
+    ]
+  },
+  "hard_source_holdout": {
+    "n": 2800,
+    "benign_fpr": 0.0010209290454313426,
+    "malicious_recall": 0.7633769322235434,
+    "roc_auc": 0.9890137837560598,
+    "confusion_matrix": [
+      [
+        1957,
+        2
+      ],
+      [
+        199,
+        642
+      ]
+    ]
+  },
+  "adversarial": {
+    "n": 3900,
+    "benign_fpr": 0.0,
+    "malicious_recall": 0.7497435897435898,
+    "roc_auc": NaN,
+    "confusion_matrix": [
+      [
+        0,
+        0
+      ],
+      [
+        976,
+        2924
+      ]
+    ]
+  },
+  "fit_seconds": 33.60536469999897,
+  "artifact": "model/challengers/v7_et_compact_w3",
+  "model_size_bytes": 6791400,
+  "gates": {
+    "test_fpr_pass": true,
+    "test_recall_pass": false,
+    "hard_fpr_pass": true,
+    "hard_recall_pass": false,
+    "adversarial_recall_pass": false,
+    "bundle_size_pass": true,
+    "all_gates_pass": false
+  },
+  "promotion_status": "challenger_only"
+}

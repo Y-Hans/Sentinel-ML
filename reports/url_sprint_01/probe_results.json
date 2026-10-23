@@ -1,0 +1,146 @@
+{
+  "status": "OBSERVED measurements conditional on PROVISIONAL labels",
+  "metrics": {
+    "v7_raw": {
+      "n": 900,
+      "benign_n": 600,
+      "attack_n": 300,
+      "fp": 408,
+      "tp": 270,
+      "tn": 192,
+      "fn": 30,
+      "fpr": 0.68,
+      "recall": 0.9,
+      "fpr_wilson95": [
+        0.6416310115811212,
+        0.7160787760539467
+      ],
+      "recall_wilson95": [
+        0.8608335376153798,
+        0.9290520854049841
+      ],
+      "false_alerts_per_1000": 680.0,
+      "assumed_false_alerts_day_30_benign_urls": 20.400000000000002,
+      "assumed_ppv": {
+        "0.001": 0.0013231013495633766,
+        "0.01": 0.013192612137203167,
+        "0.05": 0.06512301013024602
+      },
+      "small_cell": ""
+    },
+    "v8_raw": {
+      "n": 900,
+      "benign_n": 600,
+      "attack_n": 300,
+      "fp": 385,
+      "tp": 270,
+      "tn": 215,
+      "fn": 30,
+      "fpr": 0.6416666666666667,
+      "recall": 0.9,
+      "fpr_wilson95": [
+        0.6025089009696604,
+        0.6790219504097913
+      ],
+      "recall_wilson95": [
+        0.8608335376153798,
+        0.9290520854049841
+      ],
+      "false_alerts_per_1000": 641.6666666666667,
+      "assumed_false_alerts_day_30_benign_urls": 19.25,
+      "assumed_ppv": {
+        "0.001": 0.0014020329477742726,
+        "0.01": 0.013969732246798603,
+        "0.05": 0.06874602164226608
+      },
+      "small_cell": ""
+    },
+    "v8_url_adjudicated": {
+      "n": 900,
+      "benign_n": 600,
+      "attack_n": 300,
+      "fp": 387,
+      "tp": 300,
+      "tn": 213,
+      "fn": 0,
+      "fpr": 0.645,
+      "recall": 1.0,
+      "fpr_wilson95": [
+        0.6059000547782171,
+        0.6822550519278098
+      ],
+      "recall_wilson95": [
+        0.9873570287754548,
+        1.0000000000000002
+      ],
+      "false_alerts_per_1000": 645.0,
+      "assumed_false_alerts_day_30_benign_urls": 19.35,
+      "assumed_ppv": {
+        "0.001": 0.0015495347521906548,
+        "0.01": 0.015419011641353788,
+        "0.05": 0.07544322897019992
+      },
+      "small_cell": ""
+    },
+    "v8_no_url_fallback": {
+      "n": 900,
+      "benign_n": 600,
+      "attack_n": 300,
+      "fp": 385,
+      "tp": 270,
+      "tn": 215,
+      "fn": 30,
+      "fpr": 0.6416666666666667,
+      "recall": 0.9,
+      "fpr_wilson95": [
+        0.6025089009696604,
+        0.6790219504097913
+      ],
+      "recall_wilson95": [
+        0.8608335376153798,
+        0.9290520854049841
+      ],
+      "false_alerts_per_1000": 641.6666666666667,
+      "assumed_false_alerts_day_30_benign_urls": 19.25,
+      "assumed_ppv": {
+        "0.001": 0.0014020329477742726,
+        "0.01": 0.013969732246798603,
+        "0.05": 0.06874602164226608
+      },
+      "small_cell": ""
+    },
+    "prior": {
+      "n": 900,
+      "benign_n": 600,
+      "attack_n": 300,
+      "fp": 354,
+      "tp": 300,
+      "tn": 246,
+      "fn": 0,
+      "fpr": 0.59,
+      "recall": 1.0,
+      "fpr_wilson95": [
+        0.5501945105891847,
+        0.6286603832283492
+      ],
+      "recall_wilson95": [
+        0.9873570287754548,
+        1.0000000000000002
+      ],
+      "false_alerts_per_1000": 590.0,
+      "assumed_false_alerts_day_30_benign_urls": 17.7,
+      "assumed_ppv": {
+        "0.001": 0.001693738249690893,
+        "0.01": 0.016832183134152502,
+        "0.05": 0.0819000819000819
+      },
+      "small_cell": ""
+    }
+  },
+  "prior_states": {
+    "KNOWN_SAFE_SHAPE": 246,
+    "UNKNOWN_HIGH_RISK": 243,
+    "UNKNOWN_LOW_RISK": 107,
+    "KNOWN_THREAT_PATTERN": 304
+  }
+}

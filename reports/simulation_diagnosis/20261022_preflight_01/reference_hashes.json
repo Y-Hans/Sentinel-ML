@@ -1,0 +1,58 @@
+{
+  "sentinel-ml/Messages-ml/SENTINEL_MASTER_PLAN.md": {
+    "bytes": 60647,
+    "sha256": "1c3307cd3a60916f1f4ec6b4e4e99c6ec98360304d2c1b5011a9598aecc0ac46"
+  },
+  "sentinel-ml/Messages-ml/SECOND_FORENSIC_REPORT.md": {
+    "bytes": 4702,
+    "sha256": "7f04a32e2f084ab8a2c7d6b2c71b11ffbaeb656b5739bd783a3acf3e00c504c1"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/data/dataset_manifest_v4_3.json": {
+    "bytes": 1477,
+    "sha256": "d6e069257ca5c4e502b59aa2c008141d349fa6e0ff3dd71af3a4a8fe46315992"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_3/models/candidate_d_v4_3.py": {
+    "bytes": 7500,
+    "sha256": "1bd7587c3195dcf2aa77df7941c0d0e712dd4b4ad01e3d0ff9a8444828f749f2"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/reports/V4_5_PROVENANCE_AUDIT.md": {
+    "bytes": 7385,
+    "sha256": "417922e7550f27ce52692ed0fe2025a6544cb5378f190aed570d1a4bcfb5786a"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/reports/V4_5_ARCHITECTURE_EXPERIMENT.md": {
+    "bytes": 12829,
+    "sha256": "9ed344dd063ecdbe44d54887b4138d25ba14dfcfc65bfd2f7a200a017ad0c9f7"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_5/reports/artifact_manifest.json": {
+    "bytes": 3050,
+    "sha256": "b10daba2ba6ffc4348d0900eacd8420b917cb38b0d5f71d5c8b5118ac8c70996"
+  },
+  "sentinel-ml/Messages-ml/messages_v4_4/reports/V4_4_FINAL_FORENSIC_AUDIT_REPORT.md": {
+    "bytes": 16426,
+    "sha256": "e2f5fcd3b255504491c65a84c060166eec1016e2d98805a05fd960e46fc46721"
+  },
+  "sentinel-ml/URL-ml/reports/URL_V7_REPRESENTATION_REPORT.md": {
+    "bytes": 6294,
+    "sha256": "acf5c91b82beec123fac8a33bec8cc95a8f2a8542ab2bf19a5bf1be7527293ae"
+  },
+  "sentinel-ml/URL-ml/reports/PHASE_1D_0_1_RECONCILIATION_REPORT.md": {
+    "bytes": 25526,
+    "sha256": "b83e572bb39bb7101544ee0af93abab336e67bb9795e5645691bd7100ac3d030"
+  },
+  "sentinel-ml/URL-ml/reports/PHASE_1D_URLML_RECONCILIATION_REPORT.md": {
+    "bytes": 13982,
+    "sha256": "57eaa4c2353ef4c2e6fb3b932414d62b7d57b06d3c4b5d6ce9ab66047d065666"
+  },
+  "sentinel-ml/URL-ml/reports/PHASE_1D_INTEGRATION_REGRESSION_REPORT.md": {
+    "bytes": 5260,
+    "sha256": "40af96db45fe0149da98042f50ca356aa6115c9d4dfb5dcac647bad023ab973a"
+  },
+  "sentinel-ml/URL-ml/scripts/v8_classifier.py": {
+    "bytes": 13093,
+    "sha256": "bdaf2b502aa7c97884eae0ff507da780b71e440ecaa8941712b8a0906fa3bd84"
+  },
+  "sentinel-ml/investigation/recover_dbs.py": {
+    "bytes": 1922,
+    "sha256": "e32e254af9434b78476d2732d0a644d7b82f3840b318e4ab31910bd8099ab5b8"
+  }
+}

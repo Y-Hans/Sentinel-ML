@@ -1,0 +1,110 @@
+[
+  {
+    "model": "V2",
+    "condition": "text_only",
+    "recall": 0.23958333333333334,
+    "Wilson95": [
+      0.20356262025541433,
+      0.2797392021858763
+    ],
+    "verdict": "Recall is also a problem",
+    "bad_families": 12,
+    "English_gap_pp": 20.833333333333332
+  },
+  {
+    "model": "V2",
+    "condition": "SMS_with_sender_header",
+    "recall": 0.029166666666666667,
+    "Wilson95": [
+      0.014198730672500263,
+      0.05896954393913429
+    ],
+    "verdict": "Recall is also a problem",
+    "bad_families": 0,
+    "English_gap_pp": 5.0
+  },
+  {
+    "model": "V4.3",
+    "condition": "text_only",
+    "recall": 0.43125,
+    "Wilson95": [
+      0.387663696097199,
+      0.4759279850273018
+    ],
+    "verdict": "Recall is also a problem",
+    "bad_families": 12,
+    "English_gap_pp": 32.5
+  },
+  {
+    "model": "V4.4_candidate_a_corrected",
+    "condition": "text_only",
+    "recall": 0.6541666666666667,
+    "Wilson95": [
+      0.6105436980591472,
+      0.6953416230556089
+    ],
+    "verdict": "Recall is also a problem",
+    "bad_families": 12,
+    "English_gap_pp": 15.833333333333334
+  },
+  {
+    "model": "V4.4_candidate_b_refined",
+    "condition": "text_only",
+    "recall": 0.58125,
+    "Wilson95": [
+      0.5366404094909535,
+      0.624569421907364
+    ],
+    "verdict": "Recall is also a problem",
+    "bad_families": 11,
+    "English_gap_pp": 20.833333333333332
+  },
+  {
+    "model": "V4.4_candidate_c_balanced",
+    "condition": "text_only",
+    "recall": 0.5354166666666667,
+    "Wilson95": [
+      0.49069456016895785,
+      0.5795763919790267
+    ],
+    "verdict": "Recall is also a problem",
+    "bad_families": 12,
+    "English_gap_pp": 18.333333333333332
+  },
+  {
+    "model": "V4.4_rc2_experiment_1",
+    "condition": "text_only",
+    "recall": 0.3541666666666667,
+    "Wilson95": [
+      0.31269396748229983,
+      0.39795505308482293
+    ],
+    "verdict": "Recall is also a problem",
+    "bad_families": 12,
+    "English_gap_pp": 32.5
+  },
+  {
+    "model": "V4.4_rc2_experiment_2",
+    "condition": "text_only",
+    "recall": 0.37916666666666665,
+    "Wilson95": [
+      0.33688399538158126,
+      0.4233680502311776
+    ],
+    "verdict": "Recall is also a problem",
+    "bad_families": 12,
+    "English_gap_pp": 40.0
+  },
+  {
+    "model": "V4.4_rc2_experiment_3",
+    "condition": "text_only",
+    "recall": 0.26666666666666666,
+    "Wilson95": [
+      0.2290724790023082,
+      0.3079659539050882
+    ],
+    "verdict": "Recall is also a problem",
+    "bad_families": 12,
+    "English_gap_pp": 42.5
+  }
+]

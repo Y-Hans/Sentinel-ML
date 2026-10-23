@@ -1,0 +1,352 @@
+{
+  "rows": 1375,
+  "unique_exact_texts": 1337,
+  "unique_language_label_text_keys": 1337,
+  "duplicate_groups": [
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "13e02cac7b00ea3cd15637f54175647c18cc303f0d4093a545ea52957a58ef5f",
+      "ids": [
+        "HP2_00011",
+        "HP2_00857"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "9815d72547b941de5405bc686e471a08a7c8c60d73055dc07ff4837a804b704f",
+      "ids": [
+        "HP2_00045",
+        "HP2_01034"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "773eef336f0f2f7c59c408d094bfe301608ca1f32952f385a1352ab82117c56f",
+      "ids": [
+        "HP2_00062",
+        "HP2_00162"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "1bbda4417e208b959e1907c3089a1982068fa5ff3424d342cf655e21c4d05542",
+      "ids": [
+        "HP2_00080",
+        "HP2_01061"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "afcf4b9201092a748d303a29c0d569a3510264d593d6597578ea21de6436ad94",
+      "ids": [
+        "HP2_00090",
+        "HP2_00160"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "40867dc725dffb0a04a9b2a0b1c87f4be0e5ef4964a26ac6e163c3c540c903dc",
+      "ids": [
+        "HP2_00093",
+        "HP2_01148"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "ee48691abd07827df43616d02c424c871f09552fa877dec9fb0cfe8362f203c4",
+      "ids": [
+        "HP2_00122",
+        "HP2_00996"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "205d7a846b5063a99e9be235a1cfc3793563502bf2cab9a6fb8b14f1279f7f38",
+      "ids": [
+        "HP2_00135",
+        "HP2_01118"
+      ]
+    },
+    {
+      "language": "English",
+      "expected": "BENIGN",
+      "text_sha256": "674b68e386dbfb9fd0fc8ba195a54f8af48965be2fb9732f85a3121fefb9fdc2",
+      "ids": [
+        "HP2_00144",
+        "HP2_00501"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "b1f792840248554bb12e9c0fe79aea5d84b4a6daaf68d084123dd909dbc19aa3",
+      "ids": [
+        "HP2_00152",
+        "HP2_01199"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "63a0a5c16e4a0fbd1f02250b221e0fddf89d1f1aa4a123c07e45078c72211fd8",
+      "ids": [
+        "HP2_00153",
+        "HP2_00557"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "12998c7b51affc1c961a28dc21c95a01bf53da06ea9db5e4f3bac0c50ca3db58",
+      "ids": [
+        "HP2_00171",
+        "HP2_01230"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "77fc1914e231a42a739c5ac67e348705d82855b82d08b49fec2ec23f608b17e2",
+      "ids": [
+        "HP2_00198",
+        "HP2_01108"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "06cb1176e0a6d144a687252df5d29e0844c6bd4945b48b98cf6934c1c8eee8d5",
+      "ids": [
+        "HP2_00272",
+        "HP2_00953"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "86c0e701e515758a350dcf2799ed747b2738b629e0aa92d3fdd694245b171e34",
+      "ids": [
+        "HP2_00277",
+        "HP2_00973"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "d526cba59e6c5a2adf8d0f1b5647d371e574a9b28e1017bc06cd6e3df236726d",
+      "ids": [
+        "HP2_00326",
+        "HP2_00827"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "1d7d03d56d7289a5fa463b3b41745c31d7b3c8b6116081a8c93ef5df4c45a8db",
+      "ids": [
+        "HP2_00332",
+        "HP2_01018"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "dab6bae8ed629c0bca3b893554c3152a675d50cf15dca354948c528b27ec52f1",
+      "ids": [
+        "HP2_00337",
+        "HP2_00756"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "c14bf4981faf028deacd0d093ee55a60482a17c99e95042b489ca85200ff39eb",
+      "ids": [
+        "HP2_00346",
+        "HP2_00425"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "00014190802935496d29da8a14ad4e4169528b3232db8f88f67f6c1da03c41b8",
+      "ids": [
+        "HP2_00396",
+        "HP2_00982"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "735b6fe12f2ace0683b0a96e5e47c1486da1c0d5aed06a40dbf5b6189f2b0b75",
+      "ids": [
+        "HP2_00436",
+        "HP2_01219"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "0cefe5a6e27667e2b7904e131d2d4dc133846ca896de992b3143f2b2b4cf6b40",
+      "ids": [
+        "HP2_00447",
+        "HP2_00615"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "6142571123499e8dae730c74f5dedd7d74e17ef155beb1d858398976481a4bbd",
+      "ids": [
+        "HP2_00476",
+        "HP2_01292"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "3775fa30dd8d99f026bdbbdb93a8901ab2d8bb4e9e119f3c187161ea0659c01a",
+      "ids": [
+        "HP2_00477",
+        "HP2_01116"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "c8d5cd46b4775443f6bdb54f087e5acb935c6b8edf7bcb5752b17ce3b2e731b2",
+      "ids": [
+        "HP2_00491",
+        "HP2_01038"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "865a3d912a94d620e134997084a2c21c700da78b6e9e5c26a80c3fbbd7755001",
+      "ids": [
+        "HP2_00521",
+        "HP2_00856"
+      ]
+    },
+    {
+      "language": "English",
+      "expected": "BENIGN",
+      "text_sha256": "f95fa20bf57947bb3919eb34260e50a57fe286c8fb41ab070928ba1dd771a67d",
+      "ids": [
+        "HP2_00568",
+        "HP2_00612"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "62b5c6ff8e3f7bb9db10ccda485081f45da1f6b7444be922ed387f8126f5bbbb",
+      "ids": [
+        "HP2_00571",
+        "HP2_01045"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "70bbb3f14c92bd00b40720f817f08a4f9a17fb13224635cef95e605f4f7de382",
+      "ids": [
+        "HP2_00606",
+        "HP2_00882"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "c9c8c652cd4f295617a7fb3325cdfcbe64442d02fe998fb0ab304b93e5eba532",
+      "ids": [
+        "HP2_00618",
+        "HP2_01254"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "b0a9aa436039e5d3ebbd620d2da6d190049313ec30dbb22656b51eb7ce46d9c0",
+      "ids": [
+        "HP2_00709",
+        "HP2_01091"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "67944afce4da52a05055743418b1edce81eb4f10bda3af156920f23c8f510c0e",
+      "ids": [
+        "HP2_00778",
+        "HP2_01120"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "4c903415c69c95da2929f773b1e3868e9dff06811ab47bf3a417e9e7fab4a1b6",
+      "ids": [
+        "HP2_00810",
+        "HP2_01202"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "603b7118457b3c1f77c4549426cfcb0465f5c21238dd0255116858674486fb97",
+      "ids": [
+        "HP2_00863",
+        "HP2_01080"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "c2947d857c5a074116e96000a82126b85ca4ea354ca928376ce696b69f01430c",
+      "ids": [
+        "HP2_00978",
+        "HP2_01269"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "MALICIOUS",
+      "text_sha256": "f0056eed43dbe8e0d467f780fb794e0fa26324bf9cf3f5d8f6176d04221384ed",
+      "ids": [
+        "HP2_01014",
+        "HP2_01318"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "e64ac4fd0211a9bf0aff0220493b1e046b5beed9b1185b38abf751189d5db1f0",
+      "ids": [
+        "HP2_01050",
+        "HP2_01168"
+      ]
+    },
+    {
+      "language": "Hinglish",
+      "expected": "BENIGN",
+      "text_sha256": "32905b556772053900133869900c20da45348193042fd23410fb5c26f4a5c2ab",
+      "ids": [
+        "HP2_01130",
+        "HP2_01372"
+      ]
+    }
+  ],
+  "independent_authors": 1,
+  "all_probes_evaluation_only": true,
+  "note": "Distinct text count is not independent observation count; original Wilson intervals describe row outcomes only."
+}

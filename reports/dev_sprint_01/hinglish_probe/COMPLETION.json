@@ -1,0 +1,22 @@
+{
+  "status": "STAGE0_COMPLETE_STOP_WAIT_USER",
+  "verdict": "Recall is also a problem for all eight text-only models",
+  "core_files": {
+    "HINGLISH_PROBE_DESIGN.md": "a1a78e72720f6fc36da5c978e2d906a57056eafc37adf60ec738e2f1fd335f13",
+    "probe_set.csv": "c28521e5fd7c5f55240176a10ffa416a7dc6e5cdb1843fab604a1018db563e44",
+    "probe_set.sha256": "00faa26582032a5ea1f63dfe0b8dd7dacd9bdbc10cafd533d03df19bc13570ae",
+    "REVIEW_SAMPLE.csv": "2c18fcbfb4adcd44970087e65265e5962e71b421e6e3aac00057d7c7320fe9f7",
+    "HINGLISH_PROBE_RESULTS.md": "d6d0f325ef570abfab3ab22211b2e2f39c609ed7605acd61bd22b4ad0cd5a91c",
+    "probe_predictions.jsonl": "8aa019a528bcef4318dce01cd9fcb8369213da60cae0e2def9d1bc7a0c5467d1",
+    "RUN_EVIDENCE.md": "4dd642c4e9b0e3ddfb720df78f952ab8e4caeecb4d79313e3900b604ec3af31a"
+  },
+  "protected_files_unchanged": 1750,
+  "git_status_identical": true,
+  "probe_hash_unchanged": true,
+  "CPU_only": true,
+  "GPU_requested": false,
+  "training_fits": 0,
+  "Stage1_started": false,
+  "output_manifest_sha256": "dba4ae9d8d5aaf07317e5ecd183718e7c355179e38dcf98ffb8679e5a6ac6cfd",
+  "user_review_needed": true
+}

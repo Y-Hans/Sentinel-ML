@@ -1,0 +1,38 @@
+{
+  "checks": "PASS",
+  "prediction_coverage": [
+    {
+      "track": "messages",
+      "rows": 1005,
+      "models": {
+        "Messages_V2": 1005,
+        "Messages_V4.3": 1005,
+        "Messages_V4.4_candidate_a_corrected": 1005,
+        "Messages_V4.4_candidate_b_refined": 1005,
+        "Messages_V4.4_candidate_c_balanced": 1005,
+        "Messages_V4.4_rc2_experiment_1": 1005,
+        "Messages_V4.4_rc2_experiment_2": 1005,
+        "Messages_V4.4_rc2_experiment_3": 1005
+      },
+      "frozen_hash_verified": true
+    },
+    {
+      "track": "urls",
+      "rows": 102,
+      "models": {
+        "URL_V7": 102,
+        "URL_V8": 102
+      },
+      "frozen_hash_verified": true
+    }
+  ],
+  "review_sheet_rows": 1009,
+  "review_fields_blank": true,
+  "freeze_and_exam_hashes_verified": true,
+  "V43_reproduction_targets_match": true,
+  "V8_artifact_target_match": true,
+  "metric_denominators_recomputed": true,
+  "sealed_exam_score_rows": 0,
+  "sealed_exam_content_opened_by_QA": false,
+  "limitations": "No label truth validation or Android certification; hash bytes only for sealed exam"
+}

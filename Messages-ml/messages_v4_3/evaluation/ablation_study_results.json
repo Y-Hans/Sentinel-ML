@@ -1,0 +1,387 @@
+[
+  {
+    "name": "A. Structural only",
+    "dims": 19,
+    "tau": 0.61,
+    "slices": {
+      "Test Split": {
+        "mal_correct": 1444,
+        "n_mal": 1556,
+        "mal_rec": 0.9280205655526992,
+        "ben_fp": 49,
+        "n_ben": 520,
+        "ben_fpr": 0.09423076923076923
+      },
+      "OOD Split": {
+        "mal_correct": 740,
+        "n_mal": 794,
+        "mal_rec": 0.9319899244332494,
+        "ben_fp": 28,
+        "n_ben": 255,
+        "ben_fpr": 0.10980392156862745
+      },
+      "Hinglish Robustness": {
+        "mal_correct": 32,
+        "n_mal": 50,
+        "mal_rec": 0.64,
+        "ben_fp": 10,
+        "n_ben": 50,
+        "ben_fpr": 0.2
+      },
+      "Semantic Pairs": {
+        "mal_correct": 20,
+        "n_mal": 40,
+        "mal_rec": 0.5,
+        "ben_fp": 4,
+        "n_ben": 40,
+        "ben_fpr": 0.1
+      },
+      "Institutional": {
+        "mal_correct": 14,
+        "n_mal": 16,
+        "mal_rec": 0.875,
+        "ben_fp": 14,
+        "n_ben": 16,
+        "ben_fpr": 0.875
+      },
+      "Sentinel Replay": {
+        "mal_correct": 3,
+        "n_mal": 3,
+        "mal_rec": 1.0,
+        "ben_fp": 17,
+        "n_ben": 291,
+        "ben_fpr": 0.058419243986254296
+      }
+    }
+  },
+  {
+    "name": "B. Word TF-IDF only",
+    "dims": 1500,
+    "tau": 0.46,
+    "slices": {
+      "Test Split": {
+        "mal_correct": 1485,
+        "n_mal": 1556,
+        "mal_rec": 0.9543701799485861,
+        "ben_fp": 31,
+        "n_ben": 520,
+        "ben_fpr": 0.05961538461538462
+      },
+      "OOD Split": {
+        "mal_correct": 756,
+        "n_mal": 794,
+        "mal_rec": 0.9521410579345088,
+        "ben_fp": 14,
+        "n_ben": 255,
+        "ben_fpr": 0.054901960784313725
+      },
+      "Hinglish Robustness": {
+        "mal_correct": 40,
+        "n_mal": 50,
+        "mal_rec": 0.8,
+        "ben_fp": 10,
+        "n_ben": 50,
+        "ben_fpr": 0.2
+      },
+      "Semantic Pairs": {
+        "mal_correct": 31,
+        "n_mal": 40,
+        "mal_rec": 0.775,
+        "ben_fp": 8,
+        "n_ben": 40,
+        "ben_fpr": 0.2
+      },
+      "Institutional": {
+        "mal_correct": 12,
+        "n_mal": 16,
+        "mal_rec": 0.75,
+        "ben_fp": 3,
+        "n_ben": 16,
+        "ben_fpr": 0.1875
+      },
+      "Sentinel Replay": {
+        "mal_correct": 0,
+        "n_mal": 3,
+        "mal_rec": 0.0,
+        "ben_fp": 10,
+        "n_ben": 291,
+        "ben_fpr": 0.03436426116838488
+      }
+    }
+  },
+  {
+    "name": "C. Char/subword only",
+    "dims": 2500,
+    "tau": 0.69,
+    "slices": {
+      "Test Split": {
+        "mal_correct": 1504,
+        "n_mal": 1556,
+        "mal_rec": 0.9665809768637532,
+        "ben_fp": 2,
+        "n_ben": 520,
+        "ben_fpr": 0.0038461538461538464
+      },
+      "OOD Split": {
+        "mal_correct": 758,
+        "n_mal": 794,
+        "mal_rec": 0.9546599496221663,
+        "ben_fp": 2,
+        "n_ben": 255,
+        "ben_fpr": 0.00784313725490196
+      },
+      "Hinglish Robustness": {
+        "mal_correct": 36,
+        "n_mal": 50,
+        "mal_rec": 0.72,
+        "ben_fp": 3,
+        "n_ben": 50,
+        "ben_fpr": 0.06
+      },
+      "Semantic Pairs": {
+        "mal_correct": 22,
+        "n_mal": 40,
+        "mal_rec": 0.55,
+        "ben_fp": 5,
+        "n_ben": 40,
+        "ben_fpr": 0.125
+      },
+      "Institutional": {
+        "mal_correct": 15,
+        "n_mal": 16,
+        "mal_rec": 0.9375,
+        "ben_fp": 3,
+        "n_ben": 16,
+        "ben_fpr": 0.1875
+      },
+      "Sentinel Replay": {
+        "mal_correct": 0,
+        "n_mal": 3,
+        "mal_rec": 0.0,
+        "ben_fp": 24,
+        "n_ben": 291,
+        "ben_fpr": 0.08247422680412371
+      }
+    }
+  },
+  {
+    "name": "D. Structural + Word",
+    "dims": 1519,
+    "tau": 0.7,
+    "slices": {
+      "Test Split": {
+        "mal_correct": 1491,
+        "n_mal": 1556,
+        "mal_rec": 0.9582262210796915,
+        "ben_fp": 24,
+        "n_ben": 520,
+        "ben_fpr": 0.046153846153846156
+      },
+      "OOD Split": {
+        "mal_correct": 750,
+        "n_mal": 794,
+        "mal_rec": 0.9445843828715366,
+        "ben_fp": 3,
+        "n_ben": 255,
+        "ben_fpr": 0.011764705882352941
+      },
+      "Hinglish Robustness": {
+        "mal_correct": 35,
+        "n_mal": 50,
+        "mal_rec": 0.7,
+        "ben_fp": 5,
+        "n_ben": 50,
+        "ben_fpr": 0.1
+      },
+      "Semantic Pairs": {
+        "mal_correct": 27,
+        "n_mal": 40,
+        "mal_rec": 0.675,
+        "ben_fp": 5,
+        "n_ben": 40,
+        "ben_fpr": 0.125
+      },
+      "Institutional": {
+        "mal_correct": 10,
+        "n_mal": 16,
+        "mal_rec": 0.625,
+        "ben_fp": 3,
+        "n_ben": 16,
+        "ben_fpr": 0.1875
+      },
+      "Sentinel Replay": {
+        "mal_correct": 3,
+        "n_mal": 3,
+        "mal_rec": 1.0,
+        "ben_fp": 5,
+        "n_ben": 291,
+        "ben_fpr": 0.01718213058419244
+      }
+    }
+  },
+  {
+    "name": "E. Structural + Char",
+    "dims": 2519,
+    "tau": 0.81,
+    "slices": {
+      "Test Split": {
+        "mal_correct": 1498,
+        "n_mal": 1556,
+        "mal_rec": 0.9627249357326478,
+        "ben_fp": 1,
+        "n_ben": 520,
+        "ben_fpr": 0.0019230769230769232
+      },
+      "OOD Split": {
+        "mal_correct": 757,
+        "n_mal": 794,
+        "mal_rec": 0.9534005037783375,
+        "ben_fp": 0,
+        "n_ben": 255,
+        "ben_fpr": 0.0
+      },
+      "Hinglish Robustness": {
+        "mal_correct": 33,
+        "n_mal": 50,
+        "mal_rec": 0.66,
+        "ben_fp": 2,
+        "n_ben": 50,
+        "ben_fpr": 0.04
+      },
+      "Semantic Pairs": {
+        "mal_correct": 21,
+        "n_mal": 40,
+        "mal_rec": 0.525,
+        "ben_fp": 2,
+        "n_ben": 40,
+        "ben_fpr": 0.05
+      },
+      "Institutional": {
+        "mal_correct": 12,
+        "n_mal": 16,
+        "mal_rec": 0.75,
+        "ben_fp": 1,
+        "n_ben": 16,
+        "ben_fpr": 0.0625
+      },
+      "Sentinel Replay": {
+        "mal_correct": 3,
+        "n_mal": 3,
+        "mal_rec": 1.0,
+        "ben_fp": 10,
+        "n_ben": 291,
+        "ben_fpr": 0.03436426116838488
+      }
+    }
+  },
+  {
+    "name": "F. Word + Char",
+    "dims": 4000,
+    "tau": 0.44,
+    "slices": {
+      "Test Split": {
+        "mal_correct": 1513,
+        "n_mal": 1556,
+        "mal_rec": 0.9723650385604113,
+        "ben_fp": 4,
+        "n_ben": 520,
+        "ben_fpr": 0.007692307692307693
+      },
+      "OOD Split": {
+        "mal_correct": 771,
+        "n_mal": 794,
+        "mal_rec": 0.9710327455919395,
+        "ben_fp": 1,
+        "n_ben": 255,
+        "ben_fpr": 0.00392156862745098
+      },
+      "Hinglish Robustness": {
+        "mal_correct": 40,
+        "n_mal": 50,
+        "mal_rec": 0.8,
+        "ben_fp": 7,
+        "n_ben": 50,
+        "ben_fpr": 0.14
+      },
+      "Semantic Pairs": {
+        "mal_correct": 30,
+        "n_mal": 40,
+        "mal_rec": 0.75,
+        "ben_fp": 5,
+        "n_ben": 40,
+        "ben_fpr": 0.125
+      },
+      "Institutional": {
+        "mal_correct": 16,
+        "n_mal": 16,
+        "mal_rec": 1.0,
+        "ben_fp": 6,
+        "n_ben": 16,
+        "ben_fpr": 0.375
+      },
+      "Sentinel Replay": {
+        "mal_correct": 0,
+        "n_mal": 3,
+        "mal_rec": 0.0,
+        "ben_fp": 42,
+        "n_ben": 291,
+        "ben_fpr": 0.14432989690721648
+      }
+    }
+  },
+  {
+    "name": "G. Full Candidate D",
+    "dims": 4019,
+    "tau": 0.61,
+    "slices": {
+      "Test Split": {
+        "mal_correct": 1510,
+        "n_mal": 1556,
+        "mal_rec": 0.9704370179948586,
+        "ben_fp": 2,
+        "n_ben": 520,
+        "ben_fpr": 0.0038461538461538464
+      },
+      "OOD Split": {
+        "mal_correct": 761,
+        "n_mal": 794,
+        "mal_rec": 0.9584382871536524,
+        "ben_fp": 1,
+        "n_ben": 255,
+        "ben_fpr": 0.00392156862745098
+      },
+      "Hinglish Robustness": {
+        "mal_correct": 38,
+        "n_mal": 50,
+        "mal_rec": 0.76,
+        "ben_fp": 8,
+        "n_ben": 50,
+        "ben_fpr": 0.16
+      },
+      "Semantic Pairs": {
+        "mal_correct": 29,
+        "n_mal": 40,
+        "mal_rec": 0.725,
+        "ben_fp": 3,
+        "n_ben": 40,
+        "ben_fpr": 0.075
+      },
+      "Institutional": {
+        "mal_correct": 12,
+        "n_mal": 16,
+        "mal_rec": 0.75,
+        "ben_fp": 1,
+        "n_ben": 16,
+        "ben_fpr": 0.0625
+      },
+      "Sentinel Replay": {
+        "mal_correct": 3,
+        "n_mal": 3,
+        "mal_rec": 1.0,
+        "ben_fp": 14,
+        "n_ben": 291,
+        "ben_fpr": 0.048109965635738834
+      }
+    }
+  }
+]

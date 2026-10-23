@@ -1,0 +1,72 @@
+{
+  "artifacts": {
+    "messages_v4_5\\evaluation\\baseline_reproduction.py": {
+      "size_bytes": 8380,
+      "sha256": "d0369078273dc7af0d1713ba6cee215a313ef78ebe249b728996590ec9fc71bb"
+    },
+    "messages_v4_5\\evaluation\\inspect_forensics.py": {
+      "size_bytes": 2876,
+      "sha256": "7c16267f98a0a6f02a026799ac45151d2dc564d7c9fdc83b52e6ebaded656bf5"
+    },
+    "messages_v4_5\\evaluation\\inspect_sequence_lengths.py": {
+      "size_bytes": 2707,
+      "sha256": "e09992547a24fd17614df2fe2b774620a0f9cbc58130c8fb1245cc3688d08bec"
+    },
+    "messages_v4_5\\evaluation\\provenance_audit.py": {
+      "size_bytes": 10008,
+      "sha256": "00fa6e99e7cd297baee020e95c84ad52aee28774eac27f4755325d0bd14e0fe9"
+    },
+    "messages_v4_5\\models\\ablation_a_clf.pkl": {
+      "size_bytes": 5256,
+      "sha256": "ed780e5d1e6b025eadfdc233d4c5037404047ec079e3dd53e190c90c132e7a12"
+    },
+    "messages_v4_5\\models\\ablation_c_clf.pkl": {
+      "size_bytes": 5484,
+      "sha256": "e18d81df4c650b62f3a40122551fadc16d6d60231cf6f6ac02c054d7d8934d14"
+    },
+    "messages_v4_5\\models\\ablation_c_hgb.pkl": {
+      "size_bytes": 1686752,
+      "sha256": "f825d359cea88186d8036dd748ec402ea859122ad49188c5d872506b8d5ba498"
+    },
+    "messages_v4_5\\models\\run_v4_5_experiment.py": {
+      "size_bytes": 20927,
+      "sha256": "6d2fcc91e27ad470867ca1448b8197c32ed8af8b09fd99c8a387de671384f444"
+    },
+    "messages_v4_5\\models\\scaler_structural.pkl": {
+      "size_bytes": 864,
+      "sha256": "6c895c7d9932bb08856c1f4d335b172e4882d91b533ac2f04c5d7f84b5094438"
+    },
+    "messages_v4_5\\reports\\baseline_reproduction.json": {
+      "size_bytes": 10973,
+      "sha256": "f360f5f6595b1e1aac127bf72dd202b8be898fa43ce8b3d910b2b5390b0f07f6"
+    },
+    "messages_v4_5\\reports\\sequence_length_audit.json": {
+      "size_bytes": 2068,
+      "sha256": "60b4e95d76eafe910122640fb75cf918047f1e33808dbc523bc8091ca5eb99fe"
+    },
+    "messages_v4_5\\reports\\threshold_sweep.json": {
+      "size_bytes": 73577,
+      "sha256": "74b27b7b6a291ea3709820fb161c7130779dddc700bf0dd5ed95aec0fa5b9224"
+    },
+    "messages_v4_5\\reports\\V4_5_ARCHITECTURE_EXPERIMENT.md": {
+      "size_bytes": 12829,
+      "sha256": "9ed344dd063ecdbe44d54887b4138d25ba14dfcfc65bfd2f7a200a017ad0c9f7"
+    },
+    "messages_v4_5\\reports\\v4_5_eval_results.json": {
+      "size_bytes": 26339,
+      "sha256": "4a620c0d0390208e8e8d84defb19923092d70f9c09a4dafe77bd0b6b5b135402"
+    },
+    "messages_v4_5\\reports\\v4_5_forensic_records.json": {
+      "size_bytes": 271114,
+      "sha256": "e3f1c0ead7663af05b770f027aba6c3052902a5fe1fc84a96bbda15a9b3b9d60"
+    },
+    "messages_v4_5\\reports\\V4_5_PROVENANCE_AUDIT.md": {
+      "size_bytes": 7385,
+      "sha256": "417922e7550f27ce52692ed0fe2025a6544cb5378f190aed570d1a4bcfb5786a"
+    },
+    "messages_v4_5\\reports\\V4_5_REGRESSION_FORENSIC.md": {
+      "size_bytes": 7180,
+      "sha256": "67e7d470b539c1d03e2e21384e6c0b59ae37f0c993ef353099dfba3277bd89d8"
+    }
+  }
+}

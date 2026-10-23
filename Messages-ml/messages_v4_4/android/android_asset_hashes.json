@@ -1,0 +1,7 @@
+{
+  "messages_v4_4_word_vocab_idf.json": "8eb3f64a56098e7a4279283ac91575c555d4fa412bea07be4a748fa33a0a81f3",
+  "messages_v4_4_char_vocab_idf.json": "e57f24fd5af4422148a0230b6a68036211182ee00cc81459e5aeb15265ee1305",
+  "messages_v4_4_scaler.json": "b891e89d0edf0929f4a017e03b3a9898c062a6012380b435a623861bd9394dd5",
+  "messages_v4_4_trees.json": "de387ad8fa48c1aa27e1099fbcefe3b2b5b1fb69a092419ed6416a64b1c73888",
+  "golden_messages_v4_4.json": "89076cc392281aba5deea1bb2a208d9b6dcde7313198d619ed95e12f08c5a2c7"
+}

@@ -1,0 +1,17 @@
+{
+  "dataset_version": "0f8da3fba16a33e6bbf9217cb6d24308cf28c2ab8b0988aeacbb39d21fad527e",
+  "path": "C:\\Users\\user\\Programing files\\Yajat\\Projects\\sentinel-ml\\URL-ml\\data\\remediation_hard_negatives_v3.csv",
+  "rows": 3430,
+  "new_rows": 980,
+  "registrable_domains": 49,
+  "http_rows": 686,
+  "source_families": {
+    "remediation_legitimate_provider_expansion": 1470,
+    "remediation_legitimate_provider": 980,
+    "remediation_legitimate_provider_http_path_expansion": 980
+  },
+  "domain_overlap_with_final_dataset": 0,
+  "url_overlap_with_final_dataset": 0,
+  "failure_family": "residual legitimate non-HTTPS ordinary/deep paths on non-recognized providers",
+  "generation": "20 targeted path templates with alternating HTTP/HTTPS over 49 remediation providers; no heldout row copied or transformed"
+}

@@ -1,0 +1,76 @@
+{
+  "status": "OBSERVED counters, dataset labels REPORTED",
+  "counts": [
+    {
+      "file": "cleaned_dataset.csv",
+      "reported_class": "BENIGN",
+      "host_shape": "www",
+      "page_shape": "empty_root_no_query",
+      "n": 134850
+    },
+    {
+      "file": "v7_structural_benign.csv",
+      "reported_class": "BENIGN",
+      "host_shape": "apex_host",
+      "page_shape": "empty_root_no_query",
+      "n": 64
+    },
+    {
+      "file": "v7_structural_benign.csv",
+      "reported_class": "BENIGN",
+      "host_shape": "apex_host",
+      "page_shape": "path_and_query",
+      "n": 2685
+    },
+    {
+      "file": "v7_structural_benign.csv",
+      "reported_class": "BENIGN",
+      "host_shape": "apex_host",
+      "page_shape": "path_no_query",
+      "n": 7025
+    },
+    {
+      "file": "v7_structural_benign.csv",
+      "reported_class": "BENIGN",
+      "host_shape": "subdomain",
+      "page_shape": "empty_root_no_query",
+      "n": 214
+    },
+    {
+      "file": "v7_structural_benign.csv",
+      "reported_class": "BENIGN",
+      "host_shape": "subdomain",
+      "page_shape": "path_and_query",
+      "n": 9169
+    },
+    {
+      "file": "v7_structural_benign.csv",
+      "reported_class": "BENIGN",
+      "host_shape": "subdomain",
+      "page_shape": "path_no_query",
+      "n": 20764
+    },
+    {
+      "file": "v7_structural_benign.csv",
+      "reported_class": "BENIGN",
+      "host_shape": "www",
+      "page_shape": "empty_root_no_query",
+      "n": 91
+    },
+    {
+      "file": "v7_structural_benign.csv",
+      "reported_class": "BENIGN",
+      "host_shape": "www",
+      "page_shape": "path_and_query",
+      "n": 2286
+    },
+    {
+      "file": "v7_structural_benign.csv",
+      "reported_class": "BENIGN",
+      "host_shape": "www",
+      "page_shape": "path_no_query",
+      "n": 5992
+    }
+  ],
+  "definitions": "apex_host means host==V8 normalizer parent, regardless of path. empty_root_no_query is empty or / path and empty query, regardless of host. Do not interchange these cohorts. Fixed feature suffix handling remains unchanged; full PSL grouping is separately audited."
+}

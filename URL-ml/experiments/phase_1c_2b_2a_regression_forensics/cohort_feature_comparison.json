@@ -1,0 +1,162 @@
+[
+  {
+    "feature": "URLLength",
+    "regressed_bare_mal (N=272)": 25.9154,
+    "retained_bare_mal (N=3916)": 75.6027,
+    "benchmark_bare_ben (N=200)": 18.6,
+    "baseline_ctrl_fp (N=263)": 34.0646,
+    "ret_minus_reg": 49.6872
+  },
+  {
+    "feature": "PathLength",
+    "regressed_bare_mal (N=272)": 1.0772,
+    "retained_bare_mal (N=3916)": 37.4992,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 36.422
+  },
+  {
+    "feature": "QueryLength",
+    "regressed_bare_mal (N=272)": 0.0294,
+    "retained_bare_mal (N=3916)": 14.6101,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 14.5806
+  },
+  {
+    "feature": "PathEntropy",
+    "regressed_bare_mal (N=272)": 0.2454,
+    "retained_bare_mal (N=3916)": 3.3283,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 3.0829
+  },
+  {
+    "feature": "DomainLength",
+    "regressed_bare_mal (N=272)": 15.7904,
+    "retained_bare_mal (N=3916)": 13.4093,
+    "benchmark_bare_ben (N=200)": 10.6,
+    "baseline_ctrl_fp (N=263)": 26.0646,
+    "ret_minus_reg": -2.3811
+  },
+  {
+    "feature": "PathDepth",
+    "regressed_bare_mal (N=272)": 0.1434,
+    "retained_bare_mal (N=3916)": 2.1415,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 1.9981
+  },
+  {
+    "feature": "QueryEntropy",
+    "regressed_bare_mal (N=272)": 0.0101,
+    "retained_bare_mal (N=3916)": 0.6545,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 0.6444
+  },
+  {
+    "feature": "Risk_PathEntropy_on_SuspiciousHost",
+    "regressed_bare_mal (N=272)": 0.0135,
+    "retained_bare_mal (N=3916)": 0.6433,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 0.6298
+  },
+  {
+    "feature": "URLCharEntropy",
+    "regressed_bare_mal (N=272)": 3.8231,
+    "retained_bare_mal (N=3916)": 4.3979,
+    "benchmark_bare_ben (N=200)": 3.6064,
+    "baseline_ctrl_fp (N=263)": 4.0,
+    "ret_minus_reg": 0.5748
+  },
+  {
+    "feature": "QueryParamCount",
+    "regressed_bare_mal (N=272)": 0.0037,
+    "retained_bare_mal (N=3916)": 0.3698,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 0.3661
+  },
+  {
+    "feature": "Risk_PathDepth_on_SuspiciousHost",
+    "regressed_bare_mal (N=272)": 0.011,
+    "retained_bare_mal (N=3916)": 0.343,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 0.3319
+  },
+  {
+    "feature": "HostEntropy",
+    "regressed_bare_mal (N=272)": 3.3805,
+    "retained_bare_mal (N=3916)": 3.1015,
+    "benchmark_bare_ben (N=200)": 3.009,
+    "baseline_ctrl_fp (N=263)": 3.6523,
+    "ret_minus_reg": -0.2789
+  },
+  {
+    "feature": "IsHTTPS",
+    "regressed_bare_mal (N=272)": 0.9926,
+    "retained_bare_mal (N=3916)": 0.7485,
+    "benchmark_bare_ben (N=200)": 1.0,
+    "baseline_ctrl_fp (N=263)": 1.0,
+    "ret_minus_reg": -0.2442
+  },
+  {
+    "feature": "Safe_Clean_Domain",
+    "regressed_bare_mal (N=272)": 0.9963,
+    "retained_bare_mal (N=3916)": 0.7888,
+    "benchmark_bare_ben (N=200)": 1.0,
+    "baseline_ctrl_fp (N=263)": 0.4297,
+    "ret_minus_reg": -0.2075
+  },
+  {
+    "feature": "HostNumericLabels",
+    "regressed_bare_mal (N=272)": 0.0,
+    "retained_bare_mal (N=3916)": 0.1555,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0038,
+    "ret_minus_reg": 0.1555
+  },
+  {
+    "feature": "QueryEncodedCount",
+    "regressed_bare_mal (N=272)": 0.0,
+    "retained_bare_mal (N=3916)": 0.1499,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 0.1499
+  },
+  {
+    "feature": "PathSuspiciousExtension",
+    "regressed_bare_mal (N=272)": 0.0,
+    "retained_bare_mal (N=3916)": 0.1055,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 0.1055
+  },
+  {
+    "feature": "BrandImpersonationScore",
+    "regressed_bare_mal (N=272)": 0.0,
+    "retained_bare_mal (N=3916)": 0.102,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.2071,
+    "ret_minus_reg": 0.102
+  },
+  {
+    "feature": "Risk_Hyphen_with_BrandImp",
+    "regressed_bare_mal (N=272)": 0.0,
+    "retained_bare_mal (N=3916)": 0.1019,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.1263,
+    "ret_minus_reg": 0.1019
+  },
+  {
+    "feature": "PathDigitRatio",
+    "regressed_bare_mal (N=272)": 0.0011,
+    "retained_bare_mal (N=3916)": 0.098,
+    "benchmark_bare_ben (N=200)": 0.0,
+    "baseline_ctrl_fp (N=263)": 0.0,
+    "ret_minus_reg": 0.0969
+  }
+]
