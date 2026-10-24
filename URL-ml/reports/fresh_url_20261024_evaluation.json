@@ -1,0 +1,8275 @@
+{
+  "dataset_id": "sentinel_fresh_url_20261024",
+  "final_test_sha256": "92e634a2a21b8e7d35d37e2db0c006314d5b9226eba8cb66c6028e8ce70d6446",
+  "final_test_untouched_check": "92e634a2a21b8e7d35d37e2db0c006314d5b9226eba8cb66c6028e8ce70d6446",
+  "limitations": [
+    "URL-only evidence; no page fetch, DNS resolution, redirect following, or payload inspection.",
+    "Benign labels are source-adjudicated and not a proof that a destination is always safe."
+  ],
+  "metrics": {
+    "benign_false_positive_rate": 0.18473895582329317,
+    "confusion_matrix": {
+      "fn": 12,
+      "fp": 46,
+      "tn": 203,
+      "tp": 613
+    },
+    "f1": 0.9548286604361371,
+    "malicious_recall": 0.9808,
+    "per_domain_group": {
+      "01-buy.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "105.52": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "109.132": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "111.206": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 3
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 3
+      },
+      "120.130": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "121.216": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "122.175": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "123.182": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "130.147": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "132.7": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "138.100": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "138.144": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "139.250": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "14.20": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "140.179": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "145.93": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "146.76": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "147.209": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "169.152": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "19.11": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "197.143": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "2.196": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "209.126": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "21.191": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "210.23": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "211.117": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "216.121": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "220.219": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "224.91": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "230.120": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "230.52": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "235.101": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "242.76": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "248.209": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "249.140": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "24h-9393x1.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "26.163": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "26etou1.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "34.191": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "4.64": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "43.239": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "49.138": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "5043990463kjh.cyou": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "5247145664.cyou": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "5767896359.sbs": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "59.62": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "62.230": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "66.219": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "68.204": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "72.210": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "77.234": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "83.188": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "86.42": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "882028364740474749474749474.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "96.24": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "98.165": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 3
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 3
+      },
+      "9yyl9.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "a2zapk.co": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "aaenen.cc": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "academiaarin-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "actskillhub.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "adobeexperience.com.br": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "adserverworkshub.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonaccountworks.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonadsplus.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonboostpro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonbrandconsultants.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonbrandrevenuepro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazoncatalogpro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazoncommerceoptimization.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazoncommercepro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazoncommercepros.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonconsultantsgrowth.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonconsultantspro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonconsultantssolutions.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonconsultantsstrategy.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonconsultingagency.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonconsultinglab.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonconsultingworks.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazongrowthconsultants.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazoninsightsgroup.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazoninsightshub.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazoninsightspartners.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazoninventorymastery.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazoninventorystrategy.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonlistingpros.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonmarketplaceexpertspro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonmarketplaceinsights.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonmarketplacemasters.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonmarketplaceperformance.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonmarketplacestrategyhub.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonmarketstrategy.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonoperationsconsulting.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonoptimizationexperts.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonoptimizationgrowth.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonperformancegroup.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonperformancepartners.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonpower.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonpricinghub.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonproconsultants.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonprofitedge.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonprofitpro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonreachpro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonretailadvisors.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonretailagency.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonretentiongrowth.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonretentionstrategy.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonsalesperformancepro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonsalesstrategy.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonscalegrowth.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonscalepartners.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonsellerconsulting.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonsellerperformance.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonstoreexperts.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonstoregroup.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonstorepro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonstoresolutions.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonstrategyadvisors.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonverifiedexperts.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "advanceamazonverifiedmarketing.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ai-education-msk.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "alb-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "aleverifocation.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "alhotel-pau-etzax.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "alibabaexclusifyx.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "anlytic-js-cloud.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "antibot-linkedin.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "anunds.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "apache.org": {
+        "benign_false_positive_rate": 1.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 9,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "apilink-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "apiops-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "apk-google.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "apphost-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "apple.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "arcadiacoffee.ie": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "areldmonsho-jp-etzax.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ashen-trace-zephyr-draeix.life": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "assandrew.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "authnode-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "authorised-support.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "awesomeisojs.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "awsdns-531.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "azocnrq.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bagueie.xyz": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bankcheckdata-card.jp": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bankofamerica-prepaid.ph": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bankofamerica-secure-account-resolution.ph": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bankofamerica-secure-dashboard.ph": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bankofamerica-tx.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bankofamerica.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "baoanhenan-jp-etzax.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bbc.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "bbdsnssserver.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "be-spotify.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "becreativefest.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bestdiscountzone.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bestpartneha-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bgpnode-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "bifcapnepa-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bike-msca.eu": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bkz-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ble-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "blf-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "blq-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "blx-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bmb-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bmp-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bms-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bmv-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bna-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bnd-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bni-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bnm-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bnnsbdsdn-js.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bnp-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bnv-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bog-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "boh-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "boo-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "borshynel.cfd": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "botlesscucks.st": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "botlink-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "boxuse-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "browser-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "btv-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "btw-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "btz-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bua-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bub-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bug-ucheti.online": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bug-uchetov.online": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "buscarmi-icloud.app": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bwh-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bwn-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bwp-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bwq-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bxn-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "bxo-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "byodxn5s7sua6oyyjj74rycgn6afncfckprt5ezskt3cni6lg3wdrgad.onion": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "caimanying.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "captchatimestamp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "cdn-plugin-js.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "cdn-staticfiles.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "cdnnet-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "chase.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "checkleaked.cc": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "chrome-google.cc": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "citrix-sharing.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ciuyf.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ckeuuat.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "clhfgcomacdn.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "clientweb-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "cloudflare.com": {
+        "benign_false_positive_rate": 0.1111111111111111,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 1,
+          "tn": 8,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "cloudsec-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "cmfbi.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "cn2-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "co.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "co.tz": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "com-microsoftonline-ondrive.ca": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "com.am": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "com.lb": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "com.ml": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "com.pt": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "comomudarsuamente.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "couhe79.xyz": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "cove-koi-hk753.xyz": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "craigbohart.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "crying881.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "cultueco.co.uk": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "cycle-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "czqlmm.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "danielnegru.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "daohang-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dataauth-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dbaoi.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dcmentservceportl.sbs": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "de5.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dealcartdirect.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "decode-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "destinationmatrimony.info": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "devapp-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "devedge-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "devsec-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "digilocker.services": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "disney.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "dist-cdn.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "djangoproject.com": {
+        "benign_false_positive_rate": 1.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 9,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "dmpweb-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dnshost-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "documentsonlineaccessonedrivelinksreview.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "docusignappinstallers.help": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dpd-ade.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dpd-bexnaro.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dpd-deo.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dpfuhk.cfd": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dropbox-online.at": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "dropbox.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "dzwwftf.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "edgenode-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "efine-post.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "ember-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "eng-electrum.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "enganem.digital": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "entry-code-cdn.codes": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "essentialkneadsforhealth.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "etsy.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "eurhynqq.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "europa.eu": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "everyonesamentor.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "f7-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "fedexwp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "feedback-bundle.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "feedbackbundle.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "fenxiang-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "fetc-twqgov.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "fffenterprisesinternal.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "finance-informations.online": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "financerelaypoint.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "fingerprint-verification.info": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "fluidethiopiadigital.info": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "fusionshoppingworks.info": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "fyrestormic-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "g4-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "g6-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "gbjeifr.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "gdtc.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "gestorweb.cl": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "get-verification.to": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "gettingheadfromduckysmom.st": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ghdnsserverns.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "gnu.org": {
+        "benign_false_positive_rate": 1.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 9,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "googlenewsgh.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "googleoa.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "googleplaety.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "gov.ar": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "grlek.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "hannaileid.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "haoniuzibe-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "happy-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "hashnode.dev": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "havelbeenpwned.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "healingmybrai-etaxrefund.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "healthbalancegrow.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "hlushkova.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "hmcot.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "hoexq.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "honestemploymentlaw.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "horusian.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "hostauth-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "https--www--roblox.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "hubkit-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "hushedplai-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "id93782346383253.rest": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "idcool.codes": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "iddmd.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ifotografix.co.uk": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ihostall.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "illuminatedminds.eu": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "immmerhency.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "infy.click": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "inssighog.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "internetserchinkas.co": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "investkursonline.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "inviteteamsmeeting.fit": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "inyfkr.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "isha-dev.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ivory-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "jadxgui.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "jlysss.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "johmy.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "joinmatchube.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "joker-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "jomaconstrucao.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "jvenher.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "kernel.org": {
+        "benign_false_positive_rate": 0.7777777777777778,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 7,
+          "tn": 2,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "kgjxupm.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "kotlinlang.org": {
+        "benign_false_positive_rate": 0.1111111111111111,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 1,
+          "tn": 8,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "ktcinvesting.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "kuaiyinfen-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "kucoindeep.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "layer-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "layout-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ldnscreatejs.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "lesbolides.eu": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "lexer-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "lifewithmyfriend.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "linkcoll.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "linkhub-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "linksync-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "llamafile.info": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "lnferragens.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "loancraftmarket.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "lobster-cloud.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "login-options.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 3
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 3
+      },
+      "loneiggel.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "lurkershield.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "lzqhvj.cfd": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "m13584.pro": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "maildeveloper.site": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mapper-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mastercard.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "materialdeconstrucaoalves.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mbrgwn.cfd": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mdmtxhdb.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mgfdeutschland.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mgmylc.cc": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mgxyuko.xyz": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "michaeltenzer.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "microsoft-africa.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "microsoft-onedrive.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "microsoft-online.gr": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "microsoft.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "microsoft365updates.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mikoblico.xyz": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mirror-google.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mirvok.vu": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mistraljs.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mlbysalw.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mlroweb.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "monoxide.vip": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "mygamesonline.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 3
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 3
+      },
+      "nasa.gov": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "nationaladvertagency.space": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "nebuladialogue.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "net.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "netauth-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "netdata-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "netflix-pay.click": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "netflix.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "netflix.surf": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "netlify.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "newarriveproduct.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "nilehost.cloud": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "nodeauth-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "nodecdn-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "npmjs.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "ns-server-jscdn.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ns1cdnclaude.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "nvbfcdnclaud.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "nxsugrsw.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "oferta65487.click": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "okta-ssolink.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "olnsclaud.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "olympmarskiniailietuva.info": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "olympushorse.com.br": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "onedrivenote.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 5
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 5
+      },
+      "openweb-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "opsnode-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "outlookinboxmessage.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "output-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "oxooxmnl67z5t5cctt3uw7ukqoy6k7kr6x5vn2yyhcfpbuj5ddq2hjid.onion": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "p581488.pro": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "painternc.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "patchorgetpwned.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "paulenelson.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "paypal.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "paypalmoneyfree.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "pdfdocusignersdocument.info": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "peakhealthbalance.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "penwfe.asia": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "peputragroup.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "perplexity-beta-ads.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "pinebridgedigital.shop": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "pinterest.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "pl-ogloszenie122012.shop": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "plymouthjraba-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "portlcoedu.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "posupdate.zip": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "presanis.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "proalamir.dz": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "prohub-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "prolab-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "proset-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "pypi.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "python.org": {
+        "benign_false_positive_rate": 1.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 8,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 8
+      },
+      "qaz4.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "qooglo.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 3
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 3
+      },
+      "rdwv03.cc": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "redsun.live": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "repoapi-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "repocdn-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "reponode-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "resolver-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "reuters.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "review-cdn.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "review-docusign-document.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "rhodesquality.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "riverglasstop.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "rjxweb-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "rricrosoft-offices.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "runops-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ruyibebe.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "safepayguard.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "salesforce.com": {
+        "benign_false_positive_rate": 0.1111111111111111,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 1,
+          "tn": 8,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "sample-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "sanguine.life": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "santander-cliente.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "santander-serfin.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "satanderconsumers.ca": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "scesy.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "scienceontheweb.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 3
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 3
+      },
+      "scongalper.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "sea-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "secsys-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "see-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "serverweb-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "sessionnode-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "settingsportal.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "sftlr.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "sghua.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "shield-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "simplynetworking.eu": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "sitmarx.site": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "sivthara.cfd": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "smaluf.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "smetana-js.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "snutrorize.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "sorghande.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "souljourneysingreece.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "splitter-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "spogear.click": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "srpska-banka.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 3
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 3
+      },
+      "ssjscrybootstrup.beer": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "sslip.io": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "sso-justeattakeaway.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "stackoverflow.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "state-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "stream-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "stzaeyv.click": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "supermercadoabundancia.com.mx": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "surfanny.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "swervimgbackj.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "syncauth-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "sysdata-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "syspro-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "syzing.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "s\u0440\u0430\u0441\u04e9\u0445.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "t-trustrest.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 3
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 3
+      },
+      "t.me": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "tamil.bid": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "tancm.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "tap-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "target.com": {
+        "benign_false_positive_rate": 0.1111111111111111,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 1,
+          "tn": 8,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "teams-microsoft-downloads.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "teamsmeeting.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "techcrunch.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "telegram.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 2,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 2
+      },
+      "teleporthq.app": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "temodlaire.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "tgvweb-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "thedentalsuite.com.au": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "theguardian.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "thomas-coinbase.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "thread-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "tiktok.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "tiliackox.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "tinyurl.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "toontitanlegends.cfd": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "torvenix.cfd": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "treboarkez.lol": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "trueonlineshop.info": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "trustedhomeimprove.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ts.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 3
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 3
+      },
+      "tubive.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "tutorial-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "uazweb-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "udpip-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ufatr.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "uk.cc": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "un.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "unfactraus.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "upgrade-your-account-bankofamerica.ph": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "usa.gov": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "uxmesq.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "uzivebwt.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "vcnweb-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "velnoderic.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "vexexo.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "video-click.online": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "video-clicks.online": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "video-hostingers.online": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "video-hostings.online": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "vodafone-business-berlin.store": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "voderlence.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "vpcnode-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "vsdhjjt.club": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "walletsecurity.dev": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "walmart.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "wasmer.app": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "web.id": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "web9-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "webact-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "webalert-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "webarc-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "webbad-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "webcachecache.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "webpagepro-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "webrust-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "websec-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "webview-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "webworld-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "welcome-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "wellnesscarenutri.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "whatsapp-gruppo-connect.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "whatsappapk.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 2
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 2
+      },
+      "whenalimug.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "wickerlookoutdoorfurniture.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "windows.net": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 12
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 12
+      },
+      "wooflers.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "www-hk-google.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "www-icloud-mx.help": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "xiaoxiangliu-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "xionamiconm.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "xtmafe.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "xuchangwuli-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "xxxmu.top": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "yamagatasilk.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "yjgift.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "ymlrr.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "you-whatsapp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "youtube.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "zelleactive.shop": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "zhangyexinx-jp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "zivvvnvt.cn": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "zkey0.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "znbbmwqp.com": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "zoomclientsetup.org": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "zsoon.eu": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "zttrych.icu": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      },
+      "\u81f3\u6025\u306e\u304a\u898b\u7a4d\u3082\u308a\u4f9d\u983c.zip": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 1
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 1
+      }
+    },
+    "per_source": {
+      "Apache Software Foundation": {
+        "benign_false_positive_rate": 1.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 9,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Apple": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "BBC": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Bank of America": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Chase": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Cloudflare": {
+        "benign_false_positive_rate": 0.1111111111111111,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 1,
+          "tn": 8,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Disney": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Django": {
+        "benign_false_positive_rate": 1.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 9,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Etsy": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "European Union": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "GNU": {
+        "benign_false_positive_rate": 1.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 9,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Kotlin": {
+        "benign_false_positive_rate": 0.1111111111111111,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 1,
+          "tn": 8,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Linux Kernel": {
+        "benign_false_positive_rate": 0.7777777777777778,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 7,
+          "tn": 2,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Mastercard": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "Microsoft": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "NASA": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Netflix": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Netlify": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "PayPal": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Pinterest": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Python": {
+        "benign_false_positive_rate": 1.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 1,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "Python Documentation": {
+        "benign_false_positive_rate": 1.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 7,
+          "tn": 0,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 7
+      },
+      "Python Package Index": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Reuters": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "Salesforce": {
+        "benign_false_positive_rate": 0.1111111111111111,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 1,
+          "tn": 8,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Stack Overflow": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "Target": {
+        "benign_false_positive_rate": 0.1111111111111111,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 1,
+          "tn": 8,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "TechCrunch": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "The Guardian": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "TikTok": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "TweetFeed": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 7,
+          "fp": 0,
+          "tn": 0,
+          "tp": 511
+        },
+        "f1": 0.9931972789115646,
+        "malicious_recall": 0.9864864864864865,
+        "precision": 1.0,
+        "row_count": 518
+      },
+      "USA.gov": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "United Nations": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "Walmart": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "YouTube": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 9,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 9
+      },
+      "npm": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 1,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 1
+      },
+      "phishunt.io": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 5,
+          "fp": 0,
+          "tn": 0,
+          "tp": 102
+        },
+        "f1": 0.9760765550239234,
+        "malicious_recall": 0.9532710280373832,
+        "precision": 1.0,
+        "row_count": 107
+      }
+    },
+    "precision": 0.9301972685887708,
+    "row_count": 874,
+    "slices": {
+      "brand_impersonation": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 186
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 186
+      },
+      "executable_payload_path": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 0,
+          "tp": 7
+        },
+        "f1": 0.9333333333333333,
+        "malicious_recall": 0.875,
+        "precision": 1.0,
+        "row_count": 8
+      },
+      "financial_login_verification": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 8,
+          "tp": 8
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 16
+      },
+      "ip_based_url": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 0,
+          "tn": 0,
+          "tp": 54
+        },
+        "f1": 1.0,
+        "malicious_recall": 1.0,
+        "precision": 1.0,
+        "row_count": 54
+      },
+      "legitimate_developer_media_documentation": {
+        "benign_false_positive_rate": 0.18473895582329317,
+        "confusion_matrix": {
+          "fn": 0,
+          "fp": 46,
+          "tn": 203,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 249
+      },
+      "long_url": {
+        "benign_false_positive_rate": 0.0,
+        "confusion_matrix": {
+          "fn": 1,
+          "fp": 0,
+          "tn": 5,
+          "tp": 0
+        },
+        "f1": 0.0,
+        "malicious_recall": 0.0,
+        "precision": 0.0,
+        "row_count": 6
+      },
+      "short_url": {
+        "benign_false_positive_rate": 0.2222222222222222,
+        "confusion_matrix": {
+          "fn": 8,
+          "fp": 46,
+          "tn": 161,
+          "tp": 599
+        },
+        "f1": 0.9568690095846646,
+        "malicious_recall": 0.9868204283360791,
+        "precision": 0.9286821705426357,
+        "row_count": 814
+      }
+    }
+  },
+  "model_id": "SENTINEL_FRESH_URL_20261024",
+  "portable_asset_size_bytes": 55117,
+  "python_mean_batch_inference_ms_per_url": 0.0013448612125658641,
+  "threshold": 0.9459999999999998,
+  "unknown_or_unresolved_excluded_from_final_test": 874
+}
